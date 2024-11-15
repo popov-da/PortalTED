@@ -1,0 +1,345 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Guida del visualizzatore di formazione virtuale</title>
+    <style type="text/css">
+        body {
+            font-family: verdana;
+            font-size: 80%;
+            background-color: white;
+            color: black;
+            margin-top: 12pt;
+            margin-bottom: 10pt;
+            margin-left: 10pt;
+            margin-right: 10pt;
+        }
+
+        p {
+            font-family: verdana;
+            font-size: 100%;
+            color: black;
+            margin-top: 6pt;
+            margin-bottom: 6pt;
+            margin-left: 0pt;
+        }
+
+        li {
+            font-family: verdana;
+            font-size: 100%;
+            margin-left: 0pt;
+        }
+
+        td {
+            font-family: verdana;
+            font-size: 70%;
+            color: black;
+
+            background-color: whitesmoke;
+            margin: 4px;
+            padding-left: 4px;
+            padding-right: 4px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border: solid 1px white;
+            vertical-align: top;
+        }
+
+        th {
+            font-family: verdana;
+            font-size: 70%;
+            color: black;
+            text-align: left;
+
+            background-color: gainsboro;
+            padding: 4px;
+            border: solid 1px white;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            text-align: left;
+            color: darkslategray;
+        }
+
+        h1 {
+            font-size: 150%;
+            margin-top: 20pt;
+            margin-bottom: 0pt;
+
+        }
+
+        h2 {
+            font-size: 120%;
+            margin-left: 9pt;
+            margin-bottom: 0pt;
+            margin-top: 0pt;
+        }
+
+        h3 {
+            font-size: 110%;
+            margin-bottom: 6pt;
+            color: black;
+        }
+
+        ul {
+            margin-top: 0pt;
+            margin-bottom: 6pt;
+            color: black;
+            list-style-type: disc;
+        }
+
+        ol {
+            margin-left: 0px;
+            margin-top: 0pt;
+            margin-bottom: 6pt;
+        }
+		
+        li {
+            font-family: verdana;
+            font-size: 100%;
+            margin-left: 0pt;
+        }		
+
+       
+        table {
+            font-size: medium;
+        }
+		
+        div.note {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAMCAIAAACvLXk7AAAAK3RFWHRDcmVhdGlvbiBUaW1lAMLyIDEzIOzg8CAyMDA3IDExOjA4OjM1ICswMzAw4tQJcwAAAAd0SU1FB9cDDQoYC2574D0AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAEZ0FNQQAAsY8L/GEFAAAA6UlEQVR42mP8//8/w+ADLECclJRk4JKGVfra+etAckZ3Ip2dxQgMLUZGxqvP/2DKaUuytCy81Fo34duDuejaGBkhDOTABgoSDHuIRoLKWHBJQNxUE683ILGM3VnEuAkSzLhCCB6ccMXIgmhhhkUxRA4YiXAE5ALdBCT9cpf+xwGQDUUTxCqOSwqXYiZc4YQ1tWEGGKZfqQJQnAV0E5CEu0lLSZRuLmOEAeyhxQCOUAhj2/wSqgcDHu8hAwIFBK4kj5bS0coLrCkaqxQuxTgLCAq9jhwjDKj5Ay4FzyWYiqGhhccCWribIAAAWcLvanCGGDQAAAAASUVORK5CYII=);
+            background-repeat: no-repeat;
+            background-color: white;
+            margin-top: 12pt;
+            margin-bottom: 0pt;
+            margin-left: 0pt;
+		}
+    </style>
+</head>
+
+
+<body>
+    <div id="main">
+        <h1>Applicazione di formazione 3D - interfaccia utente</h1>
+        <p>
+            Questa applicazione di formazione 3D consente di studiare la procedura di formazione. &Egrave; possibile utilizzare l'applicazione di formazione in tre diverse modalit&agrave;:
+            <ul>
+                <li>
+                    <b>Modalit&agrave; dimostrazione</b> &ndash; riproduzione automatica della procedura. &Egrave; possibile riprodurre gli step desiderati pi&ugrave; volte a varie velocit&agrave; ed esaminare la procedura da diverse angolazioni.</li>
+                <li>
+                    <b>Modalit&agrave; studio</b> &ndash; riproduzione interattiva della procedura. &Egrave; possibile eseguire la procedura con l'aiuto di vari suggerimenti.</li>
+                <li>
+                    <b>Modalit&agrave; esame</b> &ndash; testare le proprie conoscenze. La procedura deve essere eseguita senza alcun suggerimento.
+                </li>
+            </ul>
+        </p>
+
+        <h1>Ambiente di formazione</h1>
+        <p>
+            Il riquadro in basso consente di selezionare e attivare la modalit&agrave; di formazione appropriata:
+		</p>			
+		<p>
+            <img src="data:image/png;base64,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" width="412" height="58" />
+        </p>
+        <p>
+            Nelle modalit&agrave; Dimostrazione e Studio &egrave; possibile controllare la riproduzione della procedura utilizzando un pannello di controllo simile al VCR:
+		</p>			
+		<p>			
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZwAAABCCAIAAADsYPeFAAAACXBIWXMAAArwAAAK8AFCrDSYAAAAB3RJTUUH4gcREBAbEVyEDgAABU1JREFUeNrt3b9r22gcx/HHpbO2a1MfARfvhoCIi0FQqWMHR+kPpR4CHjLlLu7gOYNnD73cbR4M4QgVhEs7ZLzonAda+wgEuhsLTNP0xucf8A0P9+Br0+LYTms57xcZHFnSo+fBz4fvoyhJ6vzDewEA8+IGQwCAUAMAQg0ACDUAINQAEGoAQKgBAKEGAIQaABBqAAg1ACDUAIBQAwBCDQAINQCEGgAQagBAqAEAoQYAhBoAQg0AkuYmQwDMjlu376RSqWs+CIPB4J+PH6jUgMS7vZAm0YQQqVTq9kKaUAOSXqMtMAifRDyhBiS6PGEyTgfjCOAah5rvP5LHcvJWF+78OMrX5E186V15LH3/0VR6PfmlAt9GpVKp1+uj7x+GoWVZlmUJIXK5nGVZlzr84qknpT7hrITa23b7SbA2rWj7LnScPQnW3rbb16fXSK56vW79Z5SwqFQqlUplKk1vbGwcHh4qper1+t27d5VS1Wp1PpefepKv+KvHreMEfTiOW8cr/uql4mwOeo1Ek1LWajWllFJqe3u72+1+aU/HcZRSU2xat5VOp4UQ/X4/k8nM5/JzWLvdebr2bMVfbbVaM97JVqu14q8+XXvWbncmPFWCeo05cHZ2ZtKkWq1ms9lisajXgPV6vVgs6uDL5XK6UpNSNpvNZrNpWVYYhkIIU+VJKXU86W/1uxcuNnWh5/u+EGJpacmyLHPO4VTN5XLFYlEf0u129QuzPjVv6XbNlocPH35ehE6+qp1OqJlJHqyVZnaS6zgL1kqTx1mCeo25EQRBHMfD0VAqlfRrKWWv1xNCdDod13VNvVYul8vlslIqCIJisahfK6UcxxFCRFGki769vb1P6rKNjY3T01OlVLPZlFIeHBwIIfQWc85sNjt8VCaTUUq5ruv7vlKq0Wjs7u7qtBJC6C2bm5t6S6/XU0odHh6aIlRKqa+tVqt9pQj91qH2v0m+sjpzn4lpx9nnvWbi4Urpab+5uakLItu2e72ejoD19fUwDPv9fqFQuPDYKIoeP348vGV9fV0Isbi4qAPRODk5yWQyOrNc1+10Rpo1pl192nQ6HcexDiydobZtx3Hc7XallHofY39/P4oic6/w7OxstkINwJV69+5dJpM5OTnRuXNwcFAqlfL5/Js3b6Iosm07iZ0yVaQpJGco1O7ll1/u/f7q1R+zNmov936/l1++opPrXjPfcHXCMDQLzziO9W1713V3d3dt23YcJ4oiIcTwqnBxcVGXS3rP/f39URoyJZWu7/L5/CSX7TiOvmxTAJotpiIrFArNZlO3GIbhFJefNyef2M+3tu577mx+Ju677n3X/esoerGz0+78PcU4m+VeY27Ytr20tKRfb29v63KmUCjEcWyWip8c4vt+rVazLKvRaLx+/Vrf5hdCmJtZF8pms41GQ7dVLpcdx5kkZarVqnnERLdbrVb1VZmfewRB0O/3Te9OT0+nNWip8w/vR997+CnTfH75+dbPrueN0eqIT6te6toubGL4DNHR0YudXztD0Tbi+b/e688bAsYwya9wz6uP5+PcaBunUsvnlytbP3neg2QNkOt5rucdHf35y85vnctXbQntNXDd3LxuE9vzHnjeAx1txBkwf1LfZd30DZafQLL8cGvhxg2eRhg2+Hg+zp+KTBEcwIzgttqw8W6oCZ5TA2ZrGg8GjIMYDMZONMH/KABmK9cm+Nv8oFIDQKgBAKEGAIQaABBqAAg1hgAAoQYAhBoAEGoAQKgBINQAgFADAEINAAg1ACDUABBqAECoAQChBgCEGgAQagAINQAg1ACAUAOAqfoXYSNo9bh7YlwAAAAASUVORK5CYII=" width="412" height="66" />
+        </p>
+
+        <ul>
+            <li>
+                <b>Riproduci step</b> avvia (interrompe) la riproduzione della procedura. </li>
+            <li>
+                <b>Ripristina step</b> arresta e riavvolge lo step corrente all'inizio. </li>
+            <li>
+                <b>Step precedente</b> sposta la riproduzione allo step precedente.</li>
+            <li>
+                <b>Step successivo</b> sposta la riproduzione allo step successivo. </li>
+            <li>
+                <b>Esci dalla modalit&agrave;</b> annulla la modalit&agrave; corrente.</li>
+        </ul>
+
+        <p>
+            <img src="data:image/png;base64,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" width="412" height="64" />
+		</p>			
+		
+            <ul>
+                <li>
+                    <b>Posizione</b> consente di spostare la telecamera nell'area appropriata del modello 3D.</li>
+            </ul>
+        
+        <p>
+            Il <b>riquadro Operazione</b> rappresenta l'operazione prevista o il gruppo di operazioni. &Egrave; necessario leggere le istruzioni ed eseguire azioni, ad esempio immettere il parametro richiesto o selezionare l'oggetto che fa parte di una procedura:
+		</p>			
+		<p>			
+            <img src="data:image/png;base64,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" width="412" height="142" />
+        </p>
+
+        <p>
+            Il riquadro superiore consente di passare attraverso la procedura:
+		</p>			
+		<p>			
+            <img src="data:image/png;base64,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" width="412" height="124" />
+		</p>			
+            <ul>
+                <li>
+                    <b>Documenti</b>. Visualizza la parte del documento associata allo step della procedura correntemente attivo. </li>
+                <li>
+                    <b>Istruzioni</b>. Visualizza i commenti associati allo step di formazione corrente. </li>
+                <li>
+                    <b>Parti</b>. Visualizza l'elenco degli oggetti interattivi nella formazione corrente. Consente di trovare la posizione degli oggetti e di visualizzare ulteriori meta-informazioni.</li>
+                <li>
+                    <b>Parametri</b>. Visualizza l'elenco dei parametri utilizzati nella formazione corrente. Questi parametri vengono utilizzati come salto condizionale nello scenario di formazione. &Egrave; possibile specificare un parametro di questo tipo.
+                </li>
+            </ul>
+        
+
+        <h1>Modalit&agrave; di formazione</h1>
+
+        <p>
+            <h2>Modalit&agrave; dimostrazione</h2>
+            <ul>
+                <li>Per accedere a questa modalit&agrave;, selezionare la modalit&agrave; Dimostrazione, quindi fare clic su <b>Attiva modalit&agrave;</b>.</li>
+                <li>Per avviare la riproduzione, fare clic su <b>Riproduci step</b>. La descrizione dello step correntemente attivo viene visualizzata nella pagina a schede Documento. </li>
+                <li>La procedura viene visualizzata in modo continuativo.</li>
+                <li>Per interrompere temporaneamente la riproduzione, fare clic su <b>Pausa</b>. Fare clic su <b>Riproduci</b> per continuare la riproduzione. </li>
+                <li>Per visualizzare la descrizione dell'intera procedura, fare clic su <b>Documento</b>. </li>
+                <li>&Egrave; possibile navigare nella finestra 3D (vedere la sezione Navigazione nella finestra 3D di questo documento).
+                </li>
+                <li> La pagina a schede Parti consente di evidenziare la parte desiderata nella finestra 3D (fare clic sull'opzione Individua) e visualizzare informazioni aggiuntive (fare clic su Meta). </li>
+                <li>Per passare allo step successivo o precedente della procedura, fare clic su <b>Step successivo</b> o <b>Step precedente</b>. </li>
+                <li>Per uscire dalla modalit&agrave; Dimostrazione, fare clic <b>Esci dalla modalit&agrave;</b>. </li>
+            </ul>
+        </p>
+
+
+
+        <p>
+            <h2>Modalit&agrave; studio</h2>
+            <ul>
+                <li>Per accedere a questa modalit&agrave;, selezionare la modalit&agrave; <b>Studio</b>, quindi fare clic su <b>Attiva modalit&agrave;</b>.</li>
+                <li>Fare clic su <b>Riproduci step</b> per iniziare lo studio della procedura. &Egrave; necessario seguire le istruzioni visualizzate nel riquadro Operazione. Esistono tre gruppi di istruzioni: </li>
+                <ol>
+                    <li>Individuare le parti coinvolte nello step della procedura corrente, quindi fare clic su di esse nella finestra 3D o nella pagina a schede Parti.</li>
+                    <li>Selezionare la risposta corretta nell'elenco di scelta. </li>
+                    <li>Specificare un valore per un parametro. </li>
+                </ol>
+                <li>Il pulsante<b>Ignora</b> consente di passare all'operazione successiva nello scenario di formazione. </li>
+                <li>Il <b>risultato del test</b> indica visivamente che sono stati commessi degli errori (verdi &ndash; corretti, rossi &ndash; non corretti). Il livello dell'errore &egrave; specificato nella simulazione 3D e aumenta gradualmente per lo step corrente. Ogni nuovo step inizia con il livello di errore zero. </li>
+                <li>Completare tutti gli step e fare clic su <b>Esci dalla modalit&agrave;</b> ogni volta che si &egrave; pronti per uscire dalla modalit&agrave; Studio. </li>
+            </ul>
+        </p>
+
+        <p>
+            <h2>Modalit&agrave; esame</h2>
+            <ul>
+                <li>Per accedere a questa modalit&agrave;, selezionare la modalit&agrave; <b>Esame</b>, quindi fare clic su <b>Attiva modalit&agrave;</b>. </li>
+                <li>Fare clic su <b>Avvia</b> per avviare la prova. Qui &egrave; necessario eseguire le azioni nello stesso modo della modalit&agrave; Studio, ma i suggerimenti non sono pi&ugrave; disponibili. </li>
+                <li>Per uscire dalla modalit&agrave; Esame, fare clic su <b>Esci dalla modalit&agrave;</b>.</li>
+            </ul>
+        </p>
+
+        <h1>Navigazione nella finestra 3D</h1>
+        <p>
+            &Egrave; possibile navigare nella finestra 3D utilizzando il mouse o la barra Navigazione:
+		</p>			
+		<p>			
+            <img src="data:image/png;base64,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" width="412" height="30" />
+        </p>
+        <p>
+            <b>Per ingrandire/rimpicciolire il modello 3D:</b>
+            <ul>
+                <li>Utilizzare la rotella del mouse; </li>
+                <li>In caso contrario, fare clic su Zoom <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAMAAADX9CSSAAAAB3RJTUUH1gwGDgkK06GYEgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAARnQU1BAACxjwv8YQUAAABgUExURdfV0NjV0Q4PFdzZ1Xh4eFFWgN/d2J2ht+De2bm8166y0eTh3ebn8eDh7fb2+u3t9BweLP7+/vr6/Nzd6+fl4PLy983P48HD3Onm4fP0+MXJ3h8hMBITHOvo4+zq5e7s51/YndAAAACLSURBVHjalc3ZFsIgDEXRcFFpnBBb5+n//9KGobCQPnieyCYL6NOO3u3+9lc7uuYAPJ7xXDicu9k7og+pke35wgw/UcGnHsxs/AVtYnDHnoPLmH1vD+PH+PHtjsv9LoY1ezcGMmaX3Yk7WoXkaSMhzJR4iVDcIy151mUUeFFx8po1KQlQVaTazfpMX5ReGg6MJoAeAAAAAElFTkSuQmCC" width="23" height="23" class="smallpic"/> nella barra Navigazione, posizionare il puntatore in un punto qualsiasi della finestra 3D, premere il pulsante sinistro del mouse, quindi spostare il mouse tenendo premuto il pulsante sinistro del mouse. </li>
+            </ul>
+        </p>
+        <p>
+            <b>Per spostare la telecamera verso l'alto/verso il basso o verso sinistra/destra:</b>
+            <ul>
+                <li>Posizionare il puntatore in qualsiasi punto della finestra 3D, quindi spostare il mouse con il pulsante centrale (o rotella del mouse) premuto. </li>
+                <li>Oppure fare clic su Panoramica <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfVBBULCgFI3PLcAAAAB3RJTUUH1QQVCwskz8L0qgAAAAlwSFlzAAALEgAACxIB0t1+/AAAATNJREFUeNpjfP/uJQPFgOX///9UMIVh8JjC9J8QUNEwIaiGgCmqmqZAq4AkAVP+/f+PC6lpmeXlpgFNAZJANh6V+Nxy/coJuM+BbDwqiY1p/MoYnz95iCakrW959eJxXBqwyjI+e/wAma9jYAUJCyBIS04AkhuP8PnbfAIyZs1dABGfNHnWlQvHUEx5+ug+nKNraI0sd/n80U1H+atzdFqnXPGz/ogpi0h1wDCGcy6dO6xnZAt3C1DK1+o9w5QrQBIYLHBxoFuAKpE1Mj56eAfNkwZGdhfOHcIVLlhlscT0+bMH4ex585cAtQFJrLKImCY2H+FVxvQfd5I0NHGAqwOy8ahkvH/nBh5LjM2dIIyzJ/fhdQtecObEXqAiIIlfGePdW9eIChe8gEolJpVModwMBgYAQnUT9klNU54AAAAASUVORK5CYII=" width="23" height="23" class="smallpic"/> nella barra Navigazione, posizionare il puntatore su 3D e spostare il mouse tenendo premuto il pulsante sinistro.</li>
+            </ul>
+        </p>
+        <p>
+            <b>Per rendere il modello 3D completamente visibile nella finestra 3D:</b>
+            <ul>
+                <li>Fare clic su Adatta <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfVBBULDB6TjlivAAAAB3RJTUUH1QQVCwwnGYoz1wAAAAlwSFlzAAALEgAACxIB0t1+/AAAAPFJREFUeNrNU7sOwjAMtJN8DAgWJCQY+XzYQXRAYmaBHRoHty5tYtRQVAY8VLbvcvEjxdv1AqPNhRB+oAJ/pPKxI09kjRmlQjXKQgYxp0KRymS2Gt5Fcdj11nLcb+MQXyUo2nS+jjNaRYWtCjtE1Md0IYGAQ2EbmagBX1ahdUaYjAoUH9S1tBeKEx5BCHQnxcl1pCyDKhXKqhCiEQ47CupUCJLbfPAWLX/bDM+j4dRJKr1xtnIgu6MylF3omzmhbQphR44kHen/qG8Q7/l00wm8WG5gmMUH8XwqMlR5bPxA8qsctGn1ar9WGWj/pTJeA+AJ7MPEm3Ie7+AAAAAASUVORK5CYII=" width="23" height="23" class="smallpic"/> nella barra Navigazione. </li>
+            </ul>
+        </p>
+        <p>
+            <b>Per ruotare il modello 3D:</b>
+            <ul>
+                <li>Fare clic su Rotazione <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfVBBULDABpgWXMAAAAB3RJTUUH1QQVCwwKXFVvogAAAAlwSFlzAAALEgAACxIB0t1+/AAAATxJREFUeNpjfP/uJQPFgOX///9UMIVhEJmC30eqmqZw9u3rp8kxRU3LLC83DdnEW9dOQQRzMlNQTPmHwxQNbXOg6qyMZDRzIQw0XdjdoqljATQiMz0JWXbS5Flw9n9iTAEakZGWiCw1Y9Z8iO8gZqHpYnz+5CGJEcIwc8789JREFFOePX6AX8/GI3z+Np/wq2H6jxcAjajO0QGS+JUxPnl4F789m48J+lq9x6+G8dHDO8j8efOXAMmkxBiSQgrdR5BYAJqF1eUGRnZYpZhA+QgZgQHQIENje3QpeOxiiLP8/4c97Z47tR9NysjMEZhkEmIjMbVg8REDONUB9SCLQ4yIj4nA6lMsaffMib0QhrG5E1wQaERcdDiurMt499Y1XCG/eNkqODs2KgxfTN+5eZWkSMUKqFTuUsEMBgYAaDFTM7eR434AAAAASUVORK5CYII=" width="23" height="23" class="smallpic"/> nella barra Navigazione, posizionare il puntatore sul modello 3D e spostare il mouse tenendo premuto il pulsante sinistro. </li>
+            </ul>
+        </p>
+        <p>
+            <b>Per specificare il centro di rotazione in 3D:</b>
+            <ul>
+                <li>Premere il tasto ALT e fare clic su qualsiasi geometria nella finestra 3D.</li>
+                <li>Oppure posizionare il puntatore su qualsiasi geometria nella finestra 3D, quindi fare clic con il pulsante centrale del mouse (o rotella del mouse). </li>
+            </ul>
+        </p>
+
+        <p>
+            <b>Per passare allo step successivo della procedura (animazione):</b>
+            <ul>
+                <li>Fare clic su Ignora animazione corrente <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfVBBULCgFI3PLcAAAAB3RJTUUH4gYIDQscIoHbsQAAAAlwSFlzAAAK8AAACvABQqw0mAAAAU5JREFUeNpjfPH8KQPFgIlyI4CA5f///1QwhYEKhgDdgteYbE9vIKkfFJSWmowvXP6jAqA2IJo1ey6EDTEiNSVJSlr2P27A+PTxQ2RTZ8+df3HdOjgXZERyIpwrLSuPph4CGJ88eoAmNGfeArhBk7dsIiZcmDCdhyyd6+OHqUBGTgFNhAkYumgI4hCgX4AIyMjz9UdT8OjhPTQRJjRD5s1fBDEiKSEWiCAGgQRRlcnJKyFzGR/ev4vshQL/QCA5YeN6NEE0EfRwQfcQA8P6S5fQBCdsWIfhbxTE+ODebVJTamFAMITRv2EtzjhSUFLFk8CARqy7eDFQTw+IgGxYHGGAe3du4jEFaPPi2FiIx4EIagqmJ5VU1PGFAhiAwg4CIOFy99Z1UsOlJCQcYgpcL+OdW9fQFKmoaWEK4geMd26SpgEroFJZ958ahR11Sm8AnIq8lqNlKK8AAAAASUVORK5CYII=" width="23" height="23" class="smallpic"/>.
+                </li>
+
+            </ul>
+        </p>
+
+        <h1>Impostazioni</h1>
+        <p>
+            <ul>
+                <li>
+                    <b>Velocit&agrave;</b>. Imposta la velocit&agrave; di riproduzione per la procedura 3D.
+                </li>
+                <li>
+                    <b>Congela punto di vista</b>. Se selezionata, durante la riproduzione viene utilizzata la posizione corrente del visualizzatore.
+                </li>
+                <li>
+                    <b>Disattiva messaggio di avviso</b>. Se selezionata, viene bloccata la generazione di messaggi di avviso. </li>
+                <li>
+                    <b>Abilita evidenziazione extra di parti nelle modalit&agrave; Dimostrazione e Studio</b>. Se selezionata (valore predefinito), una sfera lampeggiante semi trasparente viene visualizzata sopra l'oggetto selezionato nell'oggetto 3D per attirare l'attenzione della persona in formazione.
+                </li>
+
+                <li>
+                    <b>Riproduzione continua in modalit&agrave; Dimostrazione</b>. Se selezionata (valore predefinito), consente la riproduzione ininterrotta della procedura di formazione. Se deselezionata, la riproduzione si interrompe dopo ogni step.</li>
+
+                <li>
+                    <b>Abilita suggerimenti diretti in modalit&agrave; Studio</b>. Mostra o nasconde, nel riquadro Operazione, le informazioni sulle azioni della persona in formazione che devono essere eseguite. Abilitando i suggerimenti diretti, &egrave; possibile individuare la parte utilizzando il pulsante Individua parte (che ha il nome della parte richiesta). Inoltre, quando i suggerimenti diretti sono abilitati, nell'elenco di scelta vengono visualizzate le risposte corrette.</li>
+                <li>    
+                    <b>Mostra spigoli superficie</b>. Se selezionata, consente la visualizzazione dei contorni della superficie nella finestra 3D.
+                    </li>					
+                <li>
+                    <b>Antialiasing</b>. Attiva una tecnica per ridurre al minimo gli elementi di distorsione nella finestra 3D.</li>					
+                <li>
+                    <b>Occlusione ambientale</b>. Attiva la tecnica di rendering e ombreggiatura dell'occlusione ambientale nella finestra 3D.</li>						
+					
+                <li>
+                <p>
+                    <b>Modalit&agrave; di selezione</b>. Specifica la rappresentazione degli oggetti per la selezione nella finestra 3D.</p>			
+				<p> 
+					<i>Evidenzia con colore</i>: viene evidenziata la selezione.</p>			
+                <p>
+					<i>Oggetti selezionati a raggi X</i>: gli oggetti appaiono in grigio e traslucidi, ad eccezione della selezione.</p>			
+                <p>
+					<i>Guscio trasparente</i>: il guscio esterno dell'intero modello appare trasparente, mentre gli oggetti interni non selezionati vengono nascosti.  
+				</p>
+				</li>					
+                <li>
+                    <b>Contorno degli oggetti al passaggio del mouse</b>. La selezione viene contornata.
+				</li>					
+            </ul>
+        </p>
+    </div>
+</body>
+
+</html>

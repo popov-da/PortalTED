@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.skin-modal-title .default-title {
+  display: none;
+}
+.skin-modal-title .warning-title:before {
+  content: "WARNUNG";
+}
+.skin-modal-title .caution-title:before {
+  content: "ACHTUNG";
+}
+.skin-modal-title .danger-title:before {
+  content: "VORSICHT";
+}
+.skin-modal-title .note-title:before {
+  content: "HINWEIS";
+}
+.skin-modal-title .notes-title:before {
+  content: "HINWEISE";
+}
+.skin-modal-title .tip-title:before {
+  content: "TIPP";
+}
+.skin-modal-title .fastpath-title:before {
+  content: "FASTPATH";
+}
+.skin-modal-title .important-title:before {
+  content: "WICHTIG";
+}
+.skin-modal-title .attention-title:before {
+  content: "ACHTUNG";
+}
+.skin-modal-title .remember-title:before {
+  content: "BEDENKEN SIE";
+}
+.skin-modal-title .restriction-title:before {
+  content: "EINSCHRÄNKUNG";
+}
+.skin-modal-title .notice-title:before {
+  content: "BEACHTEN SIE";
+}
+.skin-modal-title .trouble-title:before {
+  content: "PROBLEM";
+}

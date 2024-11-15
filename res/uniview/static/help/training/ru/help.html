@@ -1,0 +1,375 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Учебно-тренировочное приложение&nbsp;&ndash; интерфейс пользователя</title>
+    <style type="text/css">
+        body {
+            font-family: verdana;
+            font-size: 80%;
+            background-color: white;
+            color: black;
+            margin-top: 12pt;
+            margin-bottom: 10pt;
+            margin-left: 10pt;
+            margin-right: 10pt;
+        }
+
+        p {
+            font-family: verdana;
+            font-size: 100%;
+            color: black;
+            margin-top: 6pt;
+            margin-bottom: 6pt;
+            margin-left: 0pt;
+        }
+
+        li {
+            font-family: verdana;
+            font-size: 100%;
+            margin-left: 0pt;
+        }
+
+        td {
+            font-family: verdana;
+            font-size: 70%;
+            color: black;
+
+            background-color: whitesmoke;
+            margin: 4px;
+            padding-left: 4px;
+            padding-right: 4px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border: solid 1px white;
+            vertical-align: top;
+        }
+
+        th {
+            font-family: verdana;
+            font-size: 70%;
+            color: black;
+            text-align: left;
+
+            background-color: gainsboro;
+            padding: 4px;
+            border: solid 1px white;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            text-align: left;
+            color: darkslategray;
+        }
+
+        h1 {
+            font-size: 150%;
+            margin-top: 20pt;
+            margin-bottom: 0pt;
+
+        }
+
+        h2 {
+            font-size: 120%;
+            margin-left: 9pt;
+            margin-bottom: 0pt;
+            margin-top: 0pt;
+        }
+
+        h3 {
+            font-size: 110%;
+            margin-bottom: 6pt;
+            color: black;
+        }
+
+        ul {
+            margin-top: 0pt;
+            margin-bottom: 6pt;
+            color: black;
+            list-style-type: disc;
+        }
+
+        ol {
+            margin-left: 0px;
+            margin-top: 0pt;
+            margin-bottom: 6pt;
+        }
+		
+        li {
+            font-family: verdana;
+            font-size: 100%;
+            margin-left: 0pt;
+        }		
+
+       
+        table {
+            font-size: medium;
+        }
+		
+        div.note {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAMCAIAAACvLXk7AAAAK3RFWHRDcmVhdGlvbiBUaW1lAMLyIDEzIOzg8CAyMDA3IDExOjA4OjM1ICswMzAw4tQJcwAAAAd0SU1FB9cDDQoYC2574D0AAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAEZ0FNQQAAsY8L/GEFAAAA6UlEQVR42mP8//8/w+ADLECclJRk4JKGVfra+etAckZ3Ip2dxQgMLUZGxqvP/2DKaUuytCy81Fo34duDuejaGBkhDOTABgoSDHuIRoLKWHBJQNxUE683ILGM3VnEuAkSzLhCCB6ccMXIgmhhhkUxRA4YiXAE5ALdBCT9cpf+xwGQDUUTxCqOSwqXYiZc4YQ1tWEGGKZfqQJQnAV0E5CEu0lLSZRuLmOEAeyhxQCOUAhj2/wSqgcDHu8hAwIFBK4kj5bS0coLrCkaqxQuxTgLCAq9jhwjDKj5Ay4FzyWYiqGhhccCWribIAAAWcLvanCGGDQAAAAASUVORK5CYII=);
+            background-repeat: no-repeat;
+            background-color: white;
+            margin-top: 12pt;
+            margin-bottom: 0pt;
+            margin-left: 0pt;
+		}
+    </style>
+</head>
+
+
+<body>
+    <div id="main">
+        <h1>Учебно-тренировочное приложение&nbsp;&ndash; интерфейс пользователя</h1>
+        <p>
+            Учебно-тренировочные HTML-приложения предоставляют возможность изучения технической процедуры при использовании средств трехмерной
+            графики. Имеется три различных режима работы приложения:
+            <ul>
+                <li>
+                    <b>Демо</b> &ndash; техническая процедура выполняется от начала до конца без необходимости какого-либо участия
+                    обучаемого. Предоставляется возможность повторного проигрывания шагов технической процедуры с различными
+                    скоростями и при различных видах.</li>
+                <li>
+                    <b>Обучение</b> &ndash; требует действий обучаемого согласно сценарию учебно-тренировочного процесса. Процедура
+                    выполняется по подсказкам системы.</li>
+                <li>
+                    <b>Экзамен</b> &ndash; проверка полученных навыков обучаемого. Процедура выполняется самостоятельно без
+                    подсказок системы.</li>
+            </ul>
+        </p>
+
+        <h1>Элементы управления</h1>
+        <p>
+            Нижняя панель позволяет активировать режимы учебно-тренировочного приложения:
+		</p>			
+		<p>			
+            <img src="data:image/png;base64,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" width="412" height="58" />
+        </p>
+        <p>
+            В режимах Демо и Обучение имеется возможность управлять проигрыванием процедуры, используя панель проигрывания:
+		</p>			
+		<p>			
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZwAAABCCAIAAADsYPeFAAAACXBIWXMAAArwAAAK8AFCrDSYAAAAB3RJTUUH4gcREBISWrZeKAAABWlJREFUeNrt3L9rG2ccx/FHpUPtkiud2rqLjHaBIFghIPApo4azHCfneMtwk1urCG0BDQfejlC5zXSDwSTBB6ZxhhvrIt8QuQT8FxwRiDjJ1OaJEtKl6vDAVbUs/4iukWS/X3iw78dzz/Og+/j7nGUlXr54LgDgvPiEKQBAqAEAoQYAhBoAEGoACDUAINQAgFADAEINAAg1AIQaABBqAECoAQChBgCEGgBCDQAINQAg1ACAUAMAQg0AoQYA4+ZTpgAYukuXtInJzxOJBFNxSp1O56/371+//oNQA0aO9sWXExMTzMOZJBKJzyYm/u503sg/WX4Co4VE+2CTk5O9Gwk1AOfKoKFWLF4PdoPB+/H1N9+e5mvwS/TbG+wGxeL1WEY9eFcBDC3UnjQaN8zFuKJtKFSc3TAXnzQaF2fUAKF28k0+V5zfre+O0eB367tzxfkzxdk5GDXG4BdtEGhdPM9jTj52qCmNxt7NxVtzxfl6vT7iw67X63PF+ZuLtxqNvYszaowXKaWU0nXd1dVVZmM4oRbd5Obi0sje5CrOzMWlweNsjEaN8dVqtXRdF0IYhhEE/z7uKJVKjuOEYZhOp4UQnudpmqYO6K7ywjB0HMdxHHWK2mgYhjqlVCod2ZraUiqVDMM4VDOm0+kwDI/sqmEY0fFRV7u3OI6juhQEgbpQtEXTNHW84ziqe4ZhdHcm+n4Iofafm3xuftReIrHHWe+ouQ8RC5UFtm2vrKyceLBlWVLKXC7XXeUdWtKur6+r7clkUsXcMevf9fV1IcTjx4+llLquu64rpTRN8/huJJNJKWW1WlXtO46Ty+WklL7vLy8vVyoV13XX1tai423bllKmUin1YxiGtm1He6enpz3PC8Ow2WwOs1IDEOPy0/f9TCajiqNCoRDVX9FhzWZT0zTf949pyrbtQqFw+/Zt9ePCwoKqpPqFxfLysuu6/VrLZDK93VCuXr0qhMhms8+ePRNCbGxs2LataVqhUFDXunz5sopLVSpGXVLK5XL3dSuVimVZ5XK5UqkMP9SuZGc2H97f3v5l1F4omw/vX8nO/K+j5m5EjFTxdXBwIITwfV89ZSuXy93Fke/7hUIhKnaSyeShRqrVam9ImaaZTCZVPEVBo8qrO3fuHNOl/f191Y3umqsfVeJFlWMqlapWqyrjLMtaWFiIjvQ8L5fLTU1NHTq9d+PHDrUr2ZnNB/e3tx/N6voIvkRmdX17+9Hmg5ijbcRHjfGlSqpoXdkv+KrVqnpA9vTp0+np6d5jukukra0t1WCtVlNxE1VMzWYzCIITl5lCiFar1W/X1taWeg6o63r0Vw61IPU8b2Njw/f9Q1kshFhdXe2tyEzTPFOZJuL9389sduaHle/1fH70XyizeX02r/+2s/Pj2k97e79fkFFjvETPzvf399U3UQRIKaNn/NFKLZ1Oq1OOXIqmUinXddUBuq7XarV+17179+7xHctkMlE3Du2yLMuyrGhXrVZTfyhQFWWr1VLP9aKkVl1SHb53714s85Z4+eL5IOert85nszOlle/y+WsDtnOiQXqrLtHbws7Or7W1n1W0nbL940fd70LAkb76eup8DMQwjKWlpdNUeTF69fIg5kpt8Dgbunz+Wj5/TUXbxRk1cF4lRqSg+AiVGkCldv7EX6nFhbTCxdXpCD4e8kPnrncT71MDhl1rvHrBJHyYd2/fEWrAKHrblqLTYR7OVN6+bcs3b1737uHjvIHha7fb7XabeYgFlRoAQg0ACDUAINQAgFADQKgBAKEGAIQaABBqAECoASDUAIBQAwBCDQAINQAg1AAQagBAqAEAoQYAhBoAEGoACDUAINQAgFADgJj8AwQ/crJZcw2HAAAAAElFTkSuQmCC" width="412" height="66" />
+        </p>
+
+        <ul>
+            <li>
+                <b>Воспроизведение</b> &ndash; запускает (останавливает) проигрывание процедуры. </li>
+            <li>
+                <b>Возврат на начало шага</b> &ndash; возвращает процедуру к началу текущего шага. </li>
+            <li>
+                <b>Предыдущий шаг</b> &ndash; возвращает процедуру на один шаг назад.</li>
+            <li>
+                <b>Следующий шаг</b> &ndash; сдвигает выполнение процедуры на один шаг вперед. </li>
+            <li>
+                <b>Выключить режим</b> &ndash; выключает текущий режим.</li>
+        </ul>
+
+        <p>
+            <img src="data:image/png;base64,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" width="412" height="64" />
+        </p>
+        
+            <ul>
+                <li>
+                    <b>3D-вид:</b> Позволяет активировать вид из списка видов текущего шага процедуры.</li>
+            </ul>
+
+        <p>
+            <b>Операционная панель</b> предоставляет подсказки системы, а также кнопки для быстрого поиска устройств, органов
+            управления, деталей и др. Обучаемый должен прочесть инструкцию и выполнить соответствующее действие, например,
+            ввести значение параметра или выбрать указанный объект, щелкнув по нему в 3D-окне:
+        </p>
+        <p>			
+            <img src="data:image/png;base64,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" width="412" height="149" />
+        </p>
+
+        <p>
+            Верхняя панель предоставляет обучаемому дополнительную информацию о процедуре:
+        </p>
+        <p>			
+            <img src="data:image/png;base64,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" width="412" height="128" />
+		</p>		
+            <ul>
+                <li>
+                    <b>Документ</b>. Показывает часть документа, относящуюся к текущему шагу процедуры. </li>
+                <li>
+                    <b>Инструкции</b>. Показывает инструкции, относящиеся к текущему шагу процедуры. </li>
+                <li>
+                    <b>Детали</b>. Предоставляет список интерактивных объектов данного тренировочного курса. Позволяет находить
+                    объекты в 3D-окне и просматривать информацию об объектах (если имеется).</li>
+                <li>
+                    <b>Параметры</b>. Показывает список параметров данного тренировочного курса. Параметры используются в условных
+                    переходах сценария тренировочного курса. </li>
+            </ul>
+      
+
+        <h1>Режимы тренировочного курса</h1>
+
+        <p>
+            <h2>Демо</h2>
+            <ul>
+                <li>Чтобы включить данный режим, выберите
+                    <b>Демо</b>, затем щелкните
+                    <b>Включить режим</b>.</li>
+                <li>Чтобы начать проигрывание, щелкните
+                    <b>Воспроизведение</b>. Описание текущего шага будет показано на вкладке Документ. Процедура будет проигрываться
+                    циклически.</li>
+                <li>Чтобы временно остановить проигрывание, щелкните
+                    <b>Пауза</b>. Щелкните
+                    <b>Воспроизведение</b>, чтобы продолжить проигрывание. </li>
+                <li>Чтобы просмотреть описание процедуры целиком, щелкните
+                    <b>Документ</b>. </li>
+                <li>Имеется возможность использовать команды навигации в 3D-окне (см. Навигация в 3D-окне).</li>
+                <li>Вкладка Детали позволяет подсветить требуемые детали в 3D-окне (необходимо щелкнуть наименование детали)
+                    и показать дополнительную информацию (инфо). </li>
+                <li>Чтобы перейти к следующему (предыдущему) шагу, щелкните
+                    <b>Следующий шаг</b> (
+                    <b>Предыдущий шаг</b>). </li>
+                <li>Чтобы выйти из демо-режима, щелкните
+                    <b>Выключить режим</b>. </li>
+            </ul>
+        </p>
+
+        <p>
+            <h2>Обучение</h2>
+            <ul>
+                <li>Чтобы включить данный режим, выберите
+                    <b>Обучение</b>, затем щелкните
+                    <b>Включить режим</b>.</li>
+                <li>Чтобы начать проигрывание, щелкните
+                    <b>Воспроизведение</b>. Необходимо следовать инструкциям, появляющимся в операционном окне. Существует три
+                    типа инструкций: </li>
+                <ol>
+                    <li>Указать объекты (детали, органы управления), которые задействованы на данном шаге процедуры. Объекты
+                        можно отметить щелчком в 3D-окне или на вкладке Детали;</li>
+                    <li>Выбрать правильный ответ из предложенного списка ответов; </li>
+                    <li>Ввести требуемый параметр. </li>
+                </ol>
+                <li>Кнопка
+                    <b>Пропустить</b> позволяет перейти к следующему шагу процедуры, минуя текущий шаг. </li>
+                <li>
+                    <b>Индикатор ошибок</b> качественно предоставляет информацию о сделанных на шаге ошибках (зеленый &ndash;
+                    верно, красный &ndash; ошибка). Указатель индикатора смещается вправо при каждой сделанной ошибке. Каждый
+                    новый шаг начинается с нулевого значения. </li>
+                <li>Выполните все шаги процедуры и затем щелкните
+                    <b>Выключить режим</b>, чтобы завершить работу в данном режиме. </li>
+            </ul>
+        </p>
+
+        <p>
+            <h2>Экзамен</h2>
+            <ul>
+                <li>Чтобы включить данный режим, выберите
+                    <b>Экзамен</b>, затем щелкните
+                    <b>Включить режим</b>.</li>
+                <li>Все операции выполняются аналогично операциям в режиме обучения, но без каких-либо подсказок системы. </li>
+                <li>Выполните все шаги процедуры и затем щелкните
+                    <b>Выключить режим</b>, чтобы завершить работу в данном режиме.</li>
+            </ul>
+        </p>
+
+        <h1>Навигация в 3D-окне</h1>
+        <p>
+
+            Команды навигации в трехмерном пространстве выполняются посредством навигационной панели:
+        </p>
+        <p>			
+            <img src="data:image/png;base64,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" width="412" height="30" />
+
+        </p>
+        <p>
+            <b>Контроль увеличения:</b>
+            <ul>
+                <li>Используйте колесо мыши; </li>
+                <li>Или щелкните
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAMAAADX9CSSAAAAB3RJTUUH1gwGDgkK06GYEgAAAAlwSFlzAAALEgAACxIB0t1+/AAAAARnQU1BAACxjwv8YQUAAABgUExURdfV0NjV0Q4PFdzZ1Xh4eFFWgN/d2J2ht+De2bm8166y0eTh3ebn8eDh7fb2+u3t9BweLP7+/vr6/Nzd6+fl4PLy983P48HD3Onm4fP0+MXJ3h8hMBITHOvo4+zq5e7s51/YndAAAACLSURBVHjalc3ZFsIgDEXRcFFpnBBb5+n//9KGobCQPnieyCYL6NOO3u3+9lc7uuYAPJ7xXDicu9k7og+pke35wgw/UcGnHsxs/AVtYnDHnoPLmH1vD+PH+PHtjsv9LoY1ezcGMmaX3Yk7WoXkaSMhzJR4iVDcIy151mUUeFFx8po1KQlQVaTazfpMX5ReGg6MJoAeAAAAAElFTkSuQmCC" width="23" height="23" class="smallpic" /> &laquo;Масштабирование&raquo; на навигационной панели, затем переместите указатель в 3D-окно, нажмите левую
+                    кнопку мыши, перемещайте мышь вперед или назад, не отпуская левую кнопку.</li>
+            </ul>
+        </p>
+        <p>
+            <b>Перемещение:</b>
+            <ul>
+                <li>
+                    Переместите указатель в любое место 3D-окна, затем перемещайте мышь, удерживая среднюю кнопку (или колесо мыши) в нажатом
+                    положении.</li>
+                <li>Или щелкните
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfVBBULCgFI3PLcAAAAB3RJTUUH1QQVCwskz8L0qgAAAAlwSFlzAAALEgAACxIB0t1+/AAAATNJREFUeNpjfP/uJQPFgOX///9UMIVh8JjC9J8QUNEwIaiGgCmqmqZAq4AkAVP+/f+PC6lpmeXlpgFNAZJANh6V+Nxy/coJuM+BbDwqiY1p/MoYnz95iCakrW959eJxXBqwyjI+e/wAma9jYAUJCyBIS04AkhuP8PnbfAIyZs1dABGfNHnWlQvHUEx5+ug+nKNraI0sd/n80U1H+atzdFqnXPGz/ogpi0h1wDCGcy6dO6xnZAt3C1DK1+o9w5QrQBIYLHBxoFuAKpE1Mj56eAfNkwZGdhfOHcIVLlhlscT0+bMH4ex585cAtQFJrLKImCY2H+FVxvQfd5I0NHGAqwOy8ahkvH/nBh5LjM2dIIyzJ/fhdQtecObEXqAiIIlfGePdW9eIChe8gEolJpVModwMBgYAQnUT9klNU54AAAAASUVORK5CYII=" width="23" height="23" class="smallpic" /> &laquo;Перемещение&raquo; на навигационной панели, переместите указатель в 3D-окно и перемещайте мышь, удерживая левую
+                    кнопку. </li>
+            </ul>
+        </p>
+        <p>
+            <b>Чтобы сделать всю модель видимой в трехмерном окне:</b>
+            <ul>
+                <li>Щелкните
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfVBBULDB6TjlivAAAAB3RJTUUH1QQVCwwnGYoz1wAAAAlwSFlzAAALEgAACxIB0t1+/AAAAPFJREFUeNrNU7sOwjAMtJN8DAgWJCQY+XzYQXRAYmaBHRoHty5tYtRQVAY8VLbvcvEjxdv1AqPNhRB+oAJ/pPKxI09kjRmlQjXKQgYxp0KRymS2Gt5Fcdj11nLcb+MQXyUo2nS+jjNaRYWtCjtE1Md0IYGAQ2EbmagBX1ahdUaYjAoUH9S1tBeKEx5BCHQnxcl1pCyDKhXKqhCiEQ47CupUCJLbfPAWLX/bDM+j4dRJKr1xtnIgu6MylF3omzmhbQphR44kHen/qG8Q7/l00wm8WG5gmMUH8XwqMlR5bPxA8qsctGn1ar9WGWj/pTJeA+AJ7MPEm3Ie7+AAAAAASUVORK5CYII=" width="23" height="23" class="smallpic" /> &laquo;Подогнать&raquo; на навигационной панели. </li>
+            </ul>
+        </p>
+        <p>
+            <b>Чтобы поворачивать трехмерную модель:</b>
+            <ul>
+                <li>Щелкните
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfVBBULDABpgWXMAAAAB3RJTUUH1QQVCwwKXFVvogAAAAlwSFlzAAALEgAACxIB0t1+/AAAATxJREFUeNpjfP/uJQPFgOX///9UMIVhEJmC30eqmqZw9u3rp8kxRU3LLC83DdnEW9dOQQRzMlNQTPmHwxQNbXOg6qyMZDRzIQw0XdjdoqljATQiMz0JWXbS5Flw9n9iTAEakZGWiCw1Y9Z8iO8gZqHpYnz+5CGJEcIwc8789JREFFOePX6AX8/GI3z+Np/wq2H6jxcAjajO0QGS+JUxPnl4F789m48J+lq9x6+G8dHDO8j8efOXAMmkxBiSQgrdR5BYAJqF1eUGRnZYpZhA+QgZgQHQIENje3QpeOxiiLP8/4c97Z47tR9NysjMEZhkEmIjMbVg8REDONUB9SCLQ4yIj4nA6lMsaffMib0QhrG5E1wQaERcdDiurMt499Y1XCG/eNkqODs2KgxfTN+5eZWkSMUKqFTuUsEMBgYAaDFTM7eR434AAAAASUVORK5CYII=" width="23" height="23" class="smallpic" /> &laquo;Вращение&raquo; на навигационной панели, переместите указатель в 3D-окно и перемещайте мышь, удерживая левую
+                    кнопку.</li>
+            </ul>
+        </p>
+        <p>
+            <b>Чтобы установить центр вращения в 3D-окне:</b>
+            <ul>
+                <li>Нажмите клавишу ALT на клавиатуре и затем щелкните требуемый трехмерный объект в 3D-окне; </li>
+                <li>Или поместите указатель на требуемый объект в 3D-окне и затем щелкните средней (или колесом) кнопкой мыши.</li>
+            </ul>
+        </p>
+		
+        <p>
+            <b>Чтобы перейти к следующему подшагу процедуры (анимации):</b>
+            <ul>
+                <li>Щелкните
+				 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAAFXRFWHRDcmVhdGlvbiBUaW1lAAfVBBULCgFI3PLcAAAAB3RJTUUH4gYIDQscIoHbsQAAAAlwSFlzAAAK8AAACvABQqw0mAAAAU5JREFUeNpjfPH8KQPFgIlyI4CA5f///1QwhYEKhgDdgteYbE9vIKkfFJSWmowvXP6jAqA2IJo1ey6EDTEiNSVJSlr2P27A+PTxQ2RTZ8+df3HdOjgXZERyIpwrLSuPph4CGJ88eoAmNGfeArhBk7dsIiZcmDCdhyyd6+OHqUBGTgFNhAkYumgI4hCgX4AIyMjz9UdT8OjhPTQRJjRD5s1fBDEiKSEWiCAGgQRRlcnJKyFzGR/ev4vshQL/QCA5YeN6NEE0EfRwQfcQA8P6S5fQBCdsWIfhbxTE+ODebVJTamFAMITRv2EtzjhSUFLFk8CARqy7eDFQTw+IgGxYHGGAe3du4jEFaPPi2FiIx4EIagqmJ5VU1PGFAhiAwg4CIOFy99Z1UsOlJCQcYgpcL+OdW9fQFKmoaWEK4geMd26SpgEroFJZ958ahR11Sm8AnIq8lqNlKK8AAAAASUVORK5CYII=" width="23" height="23" class="smallpic" /> &laquo;Пропустить текущую анимацию&raquo;.
+				</li>
+                
+            </ul>
+        </p>		
+
+        <h1>Настройки</h1>
+        <p>
+            <ul>
+               <li>
+                    <b>Скорость</b>. Предоставляет выбор скорости проигрывания. Выбирается коэффициент, на который будет умножена стандартная скорость проигрывания. </li>
+                <li>
+                    <b>Зафиксировать вид</b>. Если выбрано, текущий вид не будет изменяться во время проигрывания. </li>
+                <li>
+                    <b>Отключить предупреждения</b>. Если выбрано, запрещает вывод сообщений и предупреждений. </li>
+                <li>
+                    <b>Дополнительная подсветка деталей в режимах Демо и Обучение</b>. Если выбрано, отмечает выделенный объект
+                    полупрозрачной мигающей сферой в 3D-окне. Используется для облегчения поиска трехмерного объекта.</li>
+
+                <li>
+                    <b>Непрерывное воспроизведение в Демо режиме</b>. Если выбрано, процедуры учебно-тренировочного курса проигрываются
+                    до завершения без остановок. Если флажок снят, происходит останов после каждого шага процедуры.</li>
+
+                <li>
+                    <b>Подсказки в режиме обучения</b>. Показывает или скрывает подсказки на операционной панели: наименование
+                    деталей для текущей операции и установка правильного ответа для задания &laquo;выбрать ответ из списка&raquo;.</li>
+                <li>
+                    <b>Показывать границы поверхностей</b>. Если выбрано, включает режим отображения границ поверхностей в 3D-окне.</li>					
+                <li>
+                    <b>Сглаживание</b>. Активирует механизм сглаживания наклонных линий в 3D-окне для минимизации искажений.</li>					
+                <li>
+                    <b>Фоновое затенение</b>. Активирует технику затенения (ambient occlusion shading) в 3D-окне для улучшения отображения затененных поверхностей.</li>					
+               <li>
+                    <b>Режим выделения объектов</b>. Задает представление  объектов, выделенных в трехмерном окне. <i>Выделять цветом</i>&nbsp;&ndash; цвет выделенного объекта изменяется. <i>Прозрачность X-ray</i>&nbsp;&ndash; цвет выделенного объекта изменяется, а все остальные объекты отображаются полупрозрачными с различной степенью затенения. <i>Прозрачная оболочка</i>&nbsp;&ndash; цвет выделенного объекта изменяется, а оболочка изделия или сборки отображаются полупрозрачной.  
+				</li>					
+                <li>
+                    <b>Отображать контур объекта при наведении</b>. Отображается контур выделенного объекта.
+				</li>					
+					
+            </ul>
+        </p>
+    </div>
+</body>
+
+</html>

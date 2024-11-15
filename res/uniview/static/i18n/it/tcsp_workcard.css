@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "Avviso" ":" " ";
+}
+.cautiontitle:before {
+  content: "ATTENZIONE" ":" " ";
+}
+.dangertitle:before {
+  content: "PERICOLO" ":" " ";
+}
+.notetitle:before {
+  content: "Nota" ":" " ";
+}
+.notestitle:before {
+  content: "Note" ":" " ";
+}
+.tiptitle:before {
+  content: "Punta" ":" " ";
+}
+.fastpathtitle:before {
+  content: "Percorso rapido" ":" " ";
+}
+.importanttitle:before {
+  content: "Importante" ":" " ";
+}
+.attentiontitle:before {
+  content: "Attenzione" ":" " ";
+}
+.remembertitle:before {
+  content: "Ricorda" ":" " ";
+}
+.restrictiontitle:before {
+  content: "Restrizione" ":" " ";
+}
+.noticetitle:before {
+  content: "Avviso" ":" " ";
+}
+.troubletitle:before {
+  content: "Problema" ":" " ";
+}
+/*
+    tcsp_workcard.less
+*/
+[data-class~="taskreq-d/reqconds"]:before {
+  content: "Condizioni richieste";
+}
+[data-class~="taskreq-d/reqpers"]:before {
+  content: "Persone richieste";
+}
+[data-class~="taskreq-d/supequip"]:before {
+  content: "Attrezzatura di supporto";
+}
+[data-class~="taskreq-d/supplies"]:before {
+  content: "Materiali di consumo, materiali e beni consumabili";
+}
+[data-class~="taskreq-d/spares"]:before {
+  content: "Ricambi";
+}
+[data-class~="taskreq-d/safety"]:before {
+  content: "Condizioni di sicurezza";
+}
+[data-class~="task/prereq"]:before {
+  content: "Requisiti preliminari";
+}
+[data-class~="task/postreq"]:before {
+  content: "Requisiti al termine del processo";
+}
+[data-class~="task/steps"]:before {
+  content: "Procedura";
+}
+[data-class~="topic/related-links"]:before {
+  content: "Riferimenti";
+}
+[data-class~="taskreq-d/nosupeq"]:before,
+[data-class~="taskreq-d/nosupply"]:before,
+[data-class~="taskreq-d/nospares"]:before,
+[data-class~="taskreq-d/nosafety"]:before,
+[data-class~="taskreq-d/noconds"]:before {
+  content: "Nessuno";
+}
+[data-outputclass~="section-frequency"]:before {
+  content: "Frequenza";
+}
+[data-outputclass~="section-category"]:before {
+  content: "Categoria";
+}
+[data-outputclass~="section-reqpers"]:before {
+  content: "Persone richieste";
+}

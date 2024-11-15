@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+    ata2200.less
+*/
+:root {
+  --label-ipd: '図解されたパートカタログ';
+  --label-effect: "有効性";
+  --label-effect-all: "すべて";
+  --label-intro: "紹介";
+  --label-sb-list: "SBリスト";
+  --label-page: "ページ";
+  --label-dpl-tfoot: "- 図解のないアイテム";
+  --label-january: "1月";
+  --label-february: "2月";
+  --label-march: "3月";
+  --label-april: "4月";
+  --label-may: "5月";
+  --label-june: "6月";
+  --label-july: "7月";
+  --label-august: "8月";
+  --label-september: "9月";
+  --label-october: "10月";
+  --label-november: "11月";
+  --label-december: "12月";
+  --label-blankPageCenter: "意図的に空白";
+  --label-figure: "図";
+  --label-sheet: "シート";
+  --label-task: "タスク";
+  --label-subtask: "サブタスク";
+  --label-warning: "WARNING";
+  --label-caution: "CAUTION";
+  --label-note: "注記";
+  --label-ColonSymbol: ":";
+}

@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.skin-modal-title .default-title {
+  display: none;
+}
+.skin-modal-title .warning-title:before {
+  content: "警告";
+}
+.skin-modal-title .caution-title:before {
+  content: "警示";
+}
+.skin-modal-title .danger-title:before {
+  content: "危险";
+}
+.skin-modal-title .note-title:before {
+  content: "注释";
+}
+.skin-modal-title .notes-title:before {
+  content: "注释";
+}
+.skin-modal-title .tip-title:before {
+  content: "提示";
+}
+.skin-modal-title .fastpath-title:before {
+  content: "窍门";
+}
+.skin-modal-title .important-title:before {
+  content: "重点";
+}
+.skin-modal-title .attention-title:before {
+  content: "关注";
+}
+.skin-modal-title .remember-title:before {
+  content: "记住";
+}
+.skin-modal-title .restriction-title:before {
+  content: "限制";
+}
+.skin-modal-title .notice-title:before {
+  content: "留意";
+}
+.skin-modal-title .trouble-title:before {
+  content: "故障";
+}

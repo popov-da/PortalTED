@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "ПРЕДОСТЕРЕЖЕНИЕ" ":" " ";
+}
+.cautiontitle:before {
+  content: "ВНИМАНИЕ" ":" " ";
+}
+.dangertitle:before {
+  content: "ОПАСНО" ":" " ";
+}
+.notetitle:before {
+  content: "Примечание" ":" " ";
+}
+.notestitle:before {
+  content: "Примечания" ":" " ";
+}
+.tiptitle:before {
+  content: "Совет" ":" " ";
+}
+.fastpathtitle:before {
+  content: "Быстрый путь" ":" " ";
+}
+.importanttitle:before {
+  content: "Важное замечание" ":" " ";
+}
+.attentiontitle:before {
+  content: "Внимание" ":" " ";
+}
+.remembertitle:before {
+  content: "Напоминание" ":" " ";
+}
+.restrictiontitle:before {
+  content: "Ограничение" ":" " ";
+}
+.noticetitle:before {
+  content: "Замечание" ":" " ";
+}
+.troubletitle:before {
+  content: "Затруднение" ":" " ";
+}
+/*
+    tcsp_workcard.less
+*/
+[data-class~="taskreq-d/reqconds"]:before {
+  content: "Требуемые условия";
+}
+[data-class~="taskreq-d/reqpers"]:before {
+  content: "Необходимый персонал";
+}
+[data-class~="taskreq-d/supequip"]:before {
+  content: "Требуемое оборудование";
+}
+[data-class~="taskreq-d/supplies"]:before {
+  content: "Расходные материалы";
+}
+[data-class~="taskreq-d/spares"]:before {
+  content: "Запасные части";
+}
+[data-class~="taskreq-d/safety"]:before {
+  content: "Меры безопасности";
+}
+[data-class~="task/prereq"]:before {
+  content: "Предварительные требования";
+}
+[data-class~="task/postreq"]:before {
+  content: "Требования после завершения работ";
+}
+[data-class~="task/steps"]:before {
+  content: "Основные работы";
+}
+[data-class~="topic/related-links"]:before {
+  content: "Ссылки";
+}
+[data-class~="taskreq-d/nosupeq"]:before,
+[data-class~="taskreq-d/nosupply"]:before,
+[data-class~="taskreq-d/nospares"]:before,
+[data-class~="taskreq-d/nosafety"]:before,
+[data-class~="taskreq-d/noconds"]:before {
+  content: "Не применяется";
+}
+[data-outputclass~="section-frequency"]:before {
+  content: "Периодичность выполнения";
+}
+[data-outputclass~="section-category"]:before {
+  content: "Категория";
+}
+[data-outputclass~="section-reqpers"]:before {
+  content: "Необходимый персонал";
+}

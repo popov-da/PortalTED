@@ -1,0 +1,600 @@
+@charset "utf-8";
+/*
+    s1000d_2_3.less
+*/
+.idstatus .issno[data-issuenumber]:before {
+  content: "Problem" ": ";
+}
+.idstatus .language[data-languageisocode]:before {
+  content: "Sprache" ": ";
+}
+.idstatus .issdate[data-day]:before {
+  content: "Datum" ": ";
+}
+.pubcode:after {
+  content: attr(data-modelIdentCode) "-" attr(data-pmIssuer) "-" attr(data-pmNumber) "-" attr(data-pmVolume);
+}
+.issno[data-issuenumber]:after {
+  content: attr(data-issuenumber) "-" attr(data-inwork);
+}
+.language[data-languageisocode]:after {
+  content: attr(data-languageisocode) "-" attr(data-countryisocode);
+}
+.issdate[data-day]:after {
+  content: attr(data-day) "-" attr(data-month) "-" attr(data-year);
+}
+.firstver:after {
+  content: attr(data-verificationType);
+}
+.skill[data-skillCode]:after {
+  content: attr(data-skillCode);
+}
+.datarest:before {
+  content: "Dateneinschränkungen" ":";
+}
+.distrib:before {
+  content: "Distribution";
+}
+.expcont:before {
+  content: "Exportkontrolle";
+}
+.handling:before {
+  content: "Abwicklung";
+}
+.destruct:before {
+  content: "Zerstörung";
+}
+.disclose:before {
+  content: "Veröffentlichung";
+}
+.copyright:before {
+  content: "Urheberrecht";
+}
+.dmRefAddressItems .infoname:before {
+  content: " - ";
+}
+.identno:before {
+  content: "";
+}
+.partAndSerialNumber:before {
+  content: "/";
+}
+.natoStockNumber:before {
+  content: "NSN" " ";
+}
+.serialNumber:before {
+  content: "Seriennr." " " attr(data-serialNumberValue);
+}
+.customerStockNumber:before {
+  content: "Bestellnummer" " ";
+}
+.zone:before {
+  content: "Bereich" " " attr(data-zoneNumber);
+}
+.accpnl:before,
+.accpnl[data-accessPointTypeValue="accpnl01"]:before {
+  content: "Tür" " " attr(data-accessPointNumber);
+}
+.accpnl[data-accessPointTypeValue="accpnl02"]:before {
+  content: "Platte" " " attr(data-accessPointNumber);
+}
+.accpnl[data-accessPointTypeValue="accpnl03"]:before {
+  content: "Elektrikplatte" " " attr(data-accessPointNumber);
+}
+.multimediaobject:before,
+.graphic:before {
+  content: "Fig" " " counter(figure) " ";
+}
+.graphic[data-sheets]:after {
+  content: " (" "Blatt" " " counter(sheet) " " "von" " " attr(data-sheets) ")";
+}
+.multimediaobject[data-sheets]:after {
+  content: " (" "Multimedia" " " counter(sheet) " " "von" " " attr(data-sheets) ")";
+}
+.xref.irtt01:before {
+  content: "Fig" " " attr(data-figure);
+}
+.xref.irtt02:before {
+  content: "Tabelle" " " attr(data-index);
+}
+.xref.irtt03:before {
+  content: "Fig" " " attr(data-figure);
+}
+.xref.irtt07:before {
+  content: "Para" " " attr(data-index);
+}
+.xref.irtt08:before {
+  content: "Schritt" " " attr(data-index);
+}
+.xref.irtt09:before {
+  content: "Fig" " " attr(data-figure) ", " "Blatt" " " attr(data-sheet);
+}
+.xref.irtt10:before {
+  content: "Fig" " " attr(data-figure) ", " attr(data-multimediatype);
+}
+.xref.irtt11:before {
+  content: "Fig" " " attr(data-figure) " [" attr(data-referredfragment) "]";
+}
+#app-figure-title.multimediaobject:before,
+#app-figure-title.xref.irtt01:before,
+#app-figure-title.xref.irtt03:before,
+#app-figure-title.xref.irtt09:before,
+#app-figure-title.xref.irtt10:before,
+#app-figure-title.xref.irtt11:before,
+#app-figure-title.xref.irtt12:before,
+#app-figure-title.graphic:before {
+  content: "Fig" " " attr(data-index) " ";
+}
+#app-figure-title.graphic[data-subindexes]:after {
+  content: " (" "Blatt" " " attr(data-subindex) " " "von" " " attr(data-subindexes) ")";
+}
+#app-figure-title.multimediaobject[data-subindexes]:after {
+  content: " (" "Multimedia" " " attr(data-subindex) " " "von" " " attr(data-subindexes) ")";
+}
+#app-figure-title.graphic[data-subindexes='']:after,
+#app-figure-title.multimediaobject[data-subindexes='']:after {
+  content: none;
+}
+.personnel .numRequired[data-value]:before {
+  content: attr(data-value) " " "Personen";
+}
+.personnel .numRequired[data-value='1']:before {
+  content: attr(data-value) " " "Person";
+}
+.personnel .numRequired[data-value='0']:before,
+.personnel .numRequired[data-value='']:before {
+  content: "Wie erforderlich";
+}
+.opndurn:before {
+  content: "Wartungsaufgabendauer";
+}
+.opndurn:after {
+  content: "Vorläufige Anforderungen" " " attr(data-startupDuration) " " attr(data-unitOfMeasure) "\000a" "Vorgang" " " attr(data-procedureDuration) " " attr(data-unitOfMeasure) "\000a" "Anforderungen nach Abschluss des Auftrags" " " attr(data-closeupDuration) " " attr(data-unitOfMeasure);
+}
+.externalPubCode:before {
+  content: attr(data-pubCodingScheme);
+}
+.externalPubIssueInfo:before {
+  content: "Ausgabe:" " ";
+}
+/* Centerhead2 titles */
+.mainfunc:before {
+  content: "Vorgang";
+}
+.content > .descript:before {
+  content: "Beschreibung";
+}
+.schedule:before {
+  content: "Zeitplan";
+}
+.isolationMainProcedure:before {
+  content: "Fehlerisolierungsvorgang";
+}
+.descacrw:before {
+  content: "Crew-/Operator-Inhalt";
+}
+.commonRepository:before {
+  content: "Repository für allgemeine Informationen";
+}
+.faultReporting:before {
+  content: "Fehlerberichterstellung";
+}
+.detect:before {
+  content: "Fehlererkennung";
+}
+.content > .refs:before {
+  content: "Referenzen";
+}
+.prelreqs:before {
+  content: "Vorläufige Anforderungen";
+}
+.closereqs:before {
+  content: "Anforderungen nach Abschluss des Auftrags";
+}
+/* sidehead0 titles */
+.cautionRepository:before {
+  content: ""Achtung"-Repository";
+}
+.toollist:before {
+  content: "Werkzeug-Repository";
+}
+.controlIndicatorRepository:before {
+  content: "Steuerelemente und Indikatoren";
+}
+.functionalPhysicalAreaRepository:before {
+  content: "Repository für funktionalen und/oder physikalischen Bereich";
+}
+.warningRepository:before {
+  content: ""Warnung"-Repository";
+}
+.zobelist:before {
+  content: "Bereichs-Repository";
+}
+.partlist:before {
+  content: "Teile-Repository";
+}
+.einlist:before {
+  content: "Funktionales-Element-Repository";
+}
+/* Warning, Caution, Note */
+.warning:before {
+  content: "WARNUNG";
+}
+.caution:before {
+  content: "ACHTUNG";
+}
+.note:before {
+  content: "Hinweis";
+}
+/* Sidehead0 titles */
+.pmd:before {
+  content: "Produktionsverwaltungsdaten";
+}
+.reqconds:before {
+  content: "Erforderliche Bedingungen";
+}
+.supequip:before {
+  content: "Supportgeräte";
+}
+.supplies:before {
+  content: "Verbrauchstoffe, Materialien und Verschleißteile";
+}
+.reqTechInfoGroup:before {
+  content: "Erforderliche technische Informationen";
+}
+.spares:before {
+  content: "Ersatzteile";
+}
+.safety:before {
+  content: "Sicherheitsbedingungen";
+}
+.reqpers:before {
+  content: "Erforderliche Personen";
+}
+.workAreaLocationGroup:before {
+  content: "Arbeitsbereichsort";
+}
+/* None keyword */
+.nosupeq:before,
+.nosupply:before,
+.nospares:before,
+.nosafety:before,
+.noconds:before {
+  content: "Keine";
+}
+/* Tables */
+.table-contents > .title:before {
+  content: "Tabelle" " " counter(table) " ";
+}
+.content > .refs > .tabular:before {
+  content: "Tabelle" " " counter(table) " " "Referenzen";
+}
+.reqconds > .tabular:before {
+  content: "Tabelle" " " counter(table) " " "Erforderliche Bedingungen";
+}
+.reqpers > .tabular:before {
+  content: "Tabelle" " " counter(table) " " "Erforderliche Personen";
+}
+.supequip > .tabular:before {
+  content: "Tabelle" " " counter(table) " " "Supportgeräte";
+}
+.supplies > .tabular:before {
+  content: "Tabelle" " " counter(table) " " "Verbrauchstoffe, Materialien und Verschleißteile";
+}
+.spares > .tabular:before {
+  content: "Tabelle" " " counter(table) " " "Ersatzteile";
+}
+.header > .name:before {
+  content: "Name";
+}
+.header > .ident:before {
+  content: "Identifikation/Referenz";
+}
+.header > .qty:before {
+  content: "Menge";
+}
+.header > .remark:before {
+  content: "Anmerkung";
+}
+.header > .condition:before {
+  content: "Aktion/Bedingung";
+}
+.header > .publication:before {
+  content: "Datenmodul/Technische Veröffentlichung";
+}
+.header > .title:before {
+  content: "Titel";
+}
+.header > .person:before {
+  content: "Person";
+}
+.header > .category:before {
+  content: "Kategorie";
+}
+.header > .skill:before {
+  content: "Fähigkeitsstufe";
+}
+.header > .trade:before {
+  content: "Handel/Handelscode";
+}
+.header > .time:before {
+  content: "Geschätzte Zeit";
+}
+.dmodule:after {
+  content: "Ende des Datenmoduls";
+}
+.status .security[data-securityClassification]:before {
+  content: "Sicherheitsklasse" " " attr(data-securityClassification);
+}
+.status .security[data-securityClassification="01"]:before {
+  content: "Nicht klassifiziert";
+}
+.status .security[data-securityClassification="02"]:before {
+  content: "Eingeschränkt";
+}
+.status .security[data-securityClassification="03"]:before {
+  content: "Vertraulich";
+}
+.status .security[data-securityClassification="04"]:before {
+  content: "Geheim";
+}
+.status .security[data-securityClassification="05"]:before {
+  content: "Streng geheim";
+}
+.status .rpc:before {
+  content: "Verantwortliches Partnerunternehmen:" ": " attr(data-enterpriseCode) " / ";
+}
+.status .orig:before {
+  content: "Auftraggeber" ": " attr(data-enterpriseCode) " / ";
+}
+.applicCrossRefTableRef:before {
+  content: "ACT-Datenmodul" ": ";
+}
+.status > .applic:before {
+  content: "Anwendbarkeit" ": ";
+}
+.techstd:before {
+  content: "Technischer Standard" ":";
+}
+.brexref:before {
+  content: "BREX-Datenmodul" ": ";
+}
+.unverif:before {
+  content: "Nicht überprüft";
+}
+.firstver:before {
+  content: "Erste Prüfung" ": ";
+}
+.secver:before {
+  content: "Zweite Prüfung" ": ";
+}
+.sbc:before {
+  content: "Systemausfallcode" ": ";
+}
+.rfu:before {
+  content: "Grund für Aktualisierung" ": ";
+}
+.skill:before {
+  content: "Fähigkeitsstufe" ": ";
+}
+.skill[data-skillCode="sk01"]:after {
+  content: "Einfach";
+}
+.skill[data-skillCode="sk02"]:after {
+  content: "Mittel";
+}
+.skill[data-skillCode="sk03"]:after {
+  content: "Fortgeschritten";
+}
+.csnref:before {
+  content: "CSN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.csnref[data-systemCode]:before {
+  content: "CSN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.csnref[data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.csnref[data-systemCode][data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.reqQuantity[data-unitOfMeasure]:after {
+  content: " " attr(data-unitOfMeasure);
+}
+.materialSetRef:before {
+  content: attr(data-materialSetIdent) " " attr(data-materialSetIssue);
+}
+.natoStockNumber [data-natoSupplyClass] [data-natoCodificationBureau] [data-natoItemIdentNumberCore]:after {
+  content: attr(data-natoSupplyClass) "-" attr(data-natoCodificationBureau) "-" attr(data-natoItemIdentNumberCore);
+}
+.nsn:before {
+  content: "NSN" " ";
+}
+:root {
+  --label-colonSymbol: ":";
+  --label-page: "Seite";
+  --label-endOfDataModule: "Ende des Datenmoduls";
+  --label-blankPageCenter: "Absichtlich frei gelassen";
+  --label-security-01: "Nicht klassifiziert";
+  --label-security-02: "Eingeschränkt";
+  --label-security-03: "Vertraulich";
+  --label-security-04: "Geheim";
+  --label-security-05: "Streng geheim";
+  --label-security-default: "Sicherheitsklasse";
+  --label-HF-applic: "Gültig für";
+  --label-applic-all: "Alle";
+  --label-IPD-infoname: "Illustrierte-Teile-Daten";
+  --label-TOC: "Inhaltsverzeichnis";
+  --label-LOF: "Figurenliste";
+  --label-LOT: "Tabellenliste";
+  --label-references: "Referenzen";
+  --label-commonInfo: "Allgemeine Informationen";
+  --label-thresholdInterval: "Schwellenwertintervall";
+  --label-preliminaryRqmts: "Vorläufige Anforderungen";
+  --label-mainProcedure: "Vorgang";
+  --label-closeRqmts: "Anforderungen nach Abschluss des Auftrags";
+  --label-description: "Beschreibung";
+  --label-crewRefCard: "Crew-Referenzkarte";
+  --label-reqCondGroup: "Erforderliche Bedingungen";
+  --label-reqPersons: "Erforderliche Personen";
+  --label-reqTechInfoGroup: "Erforderliche technische Informationen";
+  --label-reqSupportEquips: "Supportgeräte";
+  --label-reqSupplies: "Verbrauchstoffe, Materialien und Verschleißteile";
+  --label-reqSpares: "Ersatzteile";
+  --label-faultCode: "Fehlercode";
+  --label-faultCodes: "Fehlercodes";
+  --label-faultDescription: "Fehlerbeschreibung";
+  --label-possibleCauses: "Mögliche Ursachen";
+  --label-productCrossRefTable: "Querverweistabelle der Produkte";
+  --label-applicCrossRefTable: "Anwendbarkeits-Querverweistabelle";
+  --label-from: "von";
+  --label-of: "von";
+  --label-continued: "Fortlaufend";
+  --label-figure: "Fig";
+  --label-table: "Tabelle";
+  --label-multimedia: "Fig";
+  --label-para: "Absatz";
+  --label-step: "Schritt";
+  --label-sheet: "Blatt";
+  --label-zone: "Bereich";
+  --label-zones: "Zonen";
+  --label-accessPoint: "Zugriffspunkt";
+  --label-accessPoints: "Zugriffspunkte";
+  --label-workLocation: "Arbeitsort";
+  --label-workLocations: "Arbeitsorte";
+  --label-partno: "Teilenr.";
+  --label-item: "Element";
+  --label-CSN: "CSN";
+  --label-CSNISN: "CSN/ISN";
+  --label-materialSet: "Festlegen";
+  --label-legend: "Legende für Abb.";
+  --label-cbActionOpen: "Öffnen";
+  --label-cbActionClose: "Schließen";
+  --label-header-cb-name: "CB-Name";
+  --label-header-cb: "CB";
+  --label-header-cb-location: "CB-Speicherort";
+  --label-remarks: "Anmerkungen";
+  --label-action: "Aktion";
+  --label-condition: "Bedingung";
+  --label-data-module: "Datenmodul";
+  --label-technical-publication: "Technische Veröffentlichung";
+  --label-document-number: "Dokument-Nr.";
+  --label-title: "Titel";
+  --label-category: "Kategorie";
+  --label-person: "Person";
+  --label-personCategory: "Kategorie";
+  --label-personSkill: "Fähigkeitsstufe";
+  --label-trade: "Handel/Handelscode";
+  --label-estimatedTime: "Geschätzte Zeit";
+  --label-persons: "Personen";
+  --label-person-inline: "Person";
+  --label-as-required: "Wie erforderlich";
+  --label-man: "Man";
+  --label-name: "Name";
+  --label-identification: "Identifikation";
+  --label-reference: "Referenz";
+  --label-quantity: "Menge";
+  --label-accessPoint-accpnl01: "Zugangstür";
+  --label-accessPoint-accpnl02: "Zugangsklappe";
+  --label-accessPoint-accpnl03: "Elektrische Zugangsklappe";
+  --label-thresholdInterval-th01: "Flugstunden";
+  --label-thresholdInterval-th02: "Flugzyklen";
+  --label-thresholdInterval-th03: "Monate";
+  --label-thresholdInterval-th04: "Wochen";
+  --label-thresholdInterval-th05: "Jahre";
+  --label-thresholdInterval-th06: "Tage";
+  --label-thresholdInterval-th07: "Ultraschallzyklen";
+  --label-thresholdInterval-th08: "Druckzyklen";
+  --label-thresholdInterval-th09: "Motorenzyklen";
+  --label-thresholdInterval-th10: "Motorenwechsel";
+  --label-thresholdInterval-th11: "Ladenbesuche";
+  --label-thresholdInterval-th12: "Wechsel der Hilfsturbine";
+  --label-thresholdInterval-th13: "Fahrwerkwechsel";
+  --label-thresholdInterval-th14: "Radwechsel";
+  --label-thresholdInterval-th15: "Motorenstart";
+  --label-thresholdInterval-th16: "APU-Stunden";
+  --label-thresholdInterval-th17: "Motorenstunden";
+  --label-thresholdInterval-th18: "Verstrichene Stunden";
+  --label-thresholdInterval-th19: "Landungen";
+  --label-thresholdInterval-th20: "Betriebszyklen";
+  --label-thresholdInterval-th21: "Betriebsstunden";
+  --label-thresholdInterval-th22: "Überschallstunden";
+  --label-thresholdInterval-th23: ""A"-Kontrolle";
+  --label-thresholdInterval-th24: ""B"-Kontrolle";
+  --label-thresholdInterval-th25: ""C"-Kontrolle";
+  --label-thresholdInterval-th26: ""D"-Kontrolle";
+  --label-thresholdInterval-th27: "Täglich";
+  --label-thresholdInterval-th28: ""E"-Kontrolle";
+  --label-thresholdInterval-th29: "Über Nacht";
+  --label-thresholdInterval-th30: "Vorflugkontrolle";
+  --label-thresholdInterval-th31: "Routinekontrolle";
+  --label-thresholdInterval-th32: "Strukturelle "C"-Kontrolle";
+  --label-thresholdInterval-th33: "Servicekontrolle";
+  --label-thresholdInterval-th34: "Transit";
+  --label-thresholdInterval-th35: "Kilometer";
+  --label-thresholdInterval-th36: "Verbrauch in Kubikmeter";
+  --label-thresholdInterval-th37: "Verbrauch in Liter";
+  --label-thresholdInterval-th38: "Anzahl Schüsse - jeweils";
+  --label-thresholdInterval-th39: "Anzahl Schüsse - Equivalent Full Charge (EFC)";
+  --label-installationLocationType-02: "Abschnitt";
+  --label-installationLocationType-03: "Station";
+  --label-installationLocationType-04: "Wasserlinie";
+  --label-installationLocationType-05: "Längsschnitt";
+  --label-productItemType-01: "Rahmen";
+  --label-productItemType-02: "Rippe";
+  --label-productItemType-03: "Stützbalken";
+  --label-reqTechInfoCategory-01: "Veröffentlichungsmodus";
+  --label-reqTechInfoCategory-02: "Datenmodul";
+  --label-reqTechInfoCategory-03: "Zeichnung";
+  --label-reqTechInfoCategory-04: "Schaltplan";
+  --label-reqTechInfoCategory-05: "Schaltschema";
+  --label-reqTechInfoCategory-06: "Sicherheitsblatt";
+  --label-skillLevelCode-01: "Einfach";
+  --label-skillLevelCode-02: "Mittel";
+  --label-skillLevelCode-03: "Fortgeschritten";
+  --label-learningAssessment: "Lernbewertung";
+  --label-learningSummary: "Lernübersicht";
+  --label-learningContent: "Lerninhalt";
+  --label-learningOverview: "Lernüberblick";
+  --label-questions: "Fragen";
+  --label-avehcfg: "Erforderliche Grundbedingungen";
+  --label-avehcfg-status-yes: "Erforderlich";
+  --label-avehcfg-status-no: "Verboten";
+  --label-avehcfg-status-indiffer: "Indifferent";
+  --label-avehcfg-status-na: "Nicht anwendbar";
+  --label-avehcfg-power-engine: "Triebwerk";
+  --label-avehcfg-power-apu: "APU";
+  --label-avehcfg-power-external: "Extern";
+  --label-avehcfg-power-internal: "Intern";
+  --label-avehcfg-power-indifferent: "Indifferent";
+  --label-avehcfg-power-notapplic: "Nicht anwendbar";
+  --label-avehcfg-status: "Status";
+  --label-avehcfg-power: "Antriebsaggregat";
+  --label-avehcfg-jacked: "Produkt abgestützt";
+  --label-avehcfg-safedev: "Sicherheitsvorrichtungen installiert";
+  --label-avehcfg-elecpwr: "Strom";
+  --label-avehcfg-hydpwr: "Hydraulik";
+  --label-avehcfg-airpwr: "Pneumatik";
+  --label-avehcfg-fuel: "Treibstoff";
+  --label-avehcfg-water: "Wasser";
+  --label-avehcfg-fcposn: "Spezifische EFCS-Pos.";
+  --label-issueNo: "Ausgabenummer";
+  --label-publisher: "Herausgeber";
+  --label-manufacturer: "Hersteller";
+  --label-documentTitle: "Dokumenttitel";
+  --label-dataModuleCode: "Datenmodulcode";
+  --label-issueDate: "Ausstellungsdatum";
+  --label-noOfPages: "Seitenanzahl";
+  --label-fm-applic: "Gültig für";
+  --label-loedm-generate-row1-part1: "Die aufgelisteten Dokumente sind in Ausgabe ";
+  --label-loedm-generate-row1-part2: ", datiert: ";
+  --label-loedm-generate-row1-part3: ", in dieser Veröffentlichung enthalten.";
+  --label-loedm-generate-row2: "C = Geändertes Datenmodul";
+  --label-loedm-generate-row3: "N = Neues Datenmodul";
+  --label-reason-for-update: "Grund für Aktualisierung";
+  --label-updating-instruction: "Anweisungen aktualisieren";
+  --label-high-table: "Einzufügende oder zu entfernende Datenmodule";
+  --label-high-generate-row1: "Datenmodule einfügen oder entfernen, wie in Tabelle 1 aufgelistet.";
+  --label-high-generate-row2: "I = Datenmodul einfügen";
+  --label-high-generate-row3: "R = Datenmodul entfernen";
+}

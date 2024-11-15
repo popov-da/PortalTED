@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "ПРЕДОСТЕРЕЖЕНИЕ" ":" " ";
+}
+.cautiontitle:before {
+  content: "ВНИМАНИЕ" ":" " ";
+}
+.dangertitle:before {
+  content: "ОПАСНО" ":" " ";
+}
+.notetitle:before {
+  content: "Примечание" ":" " ";
+}
+.notestitle:before {
+  content: "Примечания" ":" " ";
+}
+.tiptitle:before {
+  content: "Совет" ":" " ";
+}
+.fastpathtitle:before {
+  content: "Быстрый путь" ":" " ";
+}
+.importanttitle:before {
+  content: "Важное замечание" ":" " ";
+}
+.attentiontitle:before {
+  content: "Внимание" ":" " ";
+}
+.remembertitle:before {
+  content: "Напоминание" ":" " ";
+}
+.restrictiontitle:before {
+  content: "Ограничение" ":" " ";
+}
+.noticetitle:before {
+  content: "Замечание" ":" " ";
+}
+.troubletitle:before {
+  content: "Затруднение" ":" " ";
+}

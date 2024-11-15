@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+    rwi.less
+*/
+.note .skin-modal-title:before {
+  content: "NOTE";
+}
+.caution .skin-modal-title:before {
+  content: "CAUTION";
+}
+.warning .skin-modal-title:before {
+  content: "WARNING";
+}
+:root {
+  --label-jobCode: "Job code";
+  --label-summary: "Summary";
+  --label-workType: "Work type";
+  --label-role: "Role";
+  --label-expTime: "Expected time";
+  --label-workCell: "Work cell";
+  --label-preJob: "Previous job";
+  --label-postJob: "Next job";
+  --label-workOrder: "Work order";
+  --label-revision: "Revision";
+  --label-preq: "PREREQUISITES";
+  --label-billOfMaterial: "PARTS LIST";
+  --label-resources: "RESOURCES";
+  --label-altpnr: "Alternative part number";
+  --label-pnr: "Part number";
+  --label-desc: "Description";
+  --label-qty: "Quantity";
+  --label-job: "JOB";
+  --label-no: "№";
+  --label-task: "Task";
+  --label-illustration: "Illustration";
+  --label-warning: "WARNING";
+  --label-caution: "CAUTION";
+  --label-note: "NOTE";
+}

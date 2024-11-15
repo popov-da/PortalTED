@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+    rwi.less
+*/
+.note .skin-modal-title:before {
+  content: "注意";
+}
+.caution .skin-modal-title:before {
+  content: "警示";
+}
+.warning .skin-modal-title:before {
+  content: "警告";
+}
+:root {
+  --label-jobCode: "职位代码";
+  --label-summary: "汇总";
+  --label-workType: "工作类型";
+  --label-role: "角色";
+  --label-expTime: "预期时间";
+  --label-workCell: "工作单元";
+  --label-preJob: "上一作业";
+  --label-postJob: "下一作业";
+  --label-workOrder: "工作订单";
+  --label-revision: "版本";
+  --label-preq: "先决条件";
+  --label-billOfMaterial: "零件明细表";
+  --label-resources: "资源";
+  --label-altpnr: "备选零件号";
+  --label-pnr: "零件号";
+  --label-desc: "描述";
+  --label-qty: "数量";
+  --label-job: "作业";
+  --label-no: "编号";
+  --label-task: "任务";
+  --label-illustration: "插图";
+  --label-warning: "警告";
+  --label-caution: "警示";
+  --label-note: "注意";
+}

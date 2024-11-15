@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+    ata2200.less
+*/
+:root {
+  --label-ipd: 'ИЛЛЮСТРИРОВАННЫЙ КАТАЛОГ ДЕТАЛЕЙ';
+  --label-effect: "ПРИМЕНЯЕМОСТЬ";
+  --label-effect-all: "Все";
+  --label-intro: "ВВЕДЕНИЕ";
+  --label-sb-list: "ПЕРЕЧЕНЬ СБ";
+  --label-page: "Стр.";
+  --label-dpl-tfoot: "- ПОЗИЦИЯ НЕ ПРОИЛЛЮСТРИРОВАНА";
+  --label-january: "Янв";
+  --label-february: "Фев";
+  --label-march: "Мар";
+  --label-april: "Апр";
+  --label-may: "Май";
+  --label-june: "Июн";
+  --label-july: "Июл";
+  --label-august: "Авг";
+  --label-september: "Сен";
+  --label-october: "Окт";
+  --label-november: "Ноя";
+  --label-december: "Дек";
+  --label-blankPageCenter: "СТРАНИЦА ПРЕДНАМЕРЕННО ОСТАВЛЕНА ПУСТОЙ";
+  --label-figure: "Рисунок";
+  --label-sheet: "Лист";
+  --label-task: "ЗАДАЧА";
+  --label-subtask: "ПОДЗАДАЧА";
+  --label-warning: "ПРЕДОСТЕРЕЖЕНИЕ";
+  --label-caution: "ВНИМАНИЕ";
+  --label-note: "ПРИМЕЧАНИЕ";
+  --label-ColonSymbol: ":";
+}

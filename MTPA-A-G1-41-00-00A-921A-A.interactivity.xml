@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.480 (64-bit))-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.480 (64-bit)</ExporterVersionNumber>
+<ModificationDate>11/15/24</ModificationDate>
+<SpecID>S1000D4_1_PRC</SpecID>
+<SpecVersion>2.15</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPA-A-G1-41-00-00A-921A-A</XMLFileName>
+<FileName>ICN-MTPA-A-G14100-0-00000-00001-A-001-01</FileName>
+<DocumentFile>DMC-MTPA-A-G1-41-00-00A-921A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">60</Value>
+<Value name="AutoRepeat" type="boolean">No</Value>
+<Value name="StartAfterNavigate" type="boolean">No</Value>
+<Value name="Background3DColor" type="color">#F4F4F4</Value>
+<Value name="CoordinateResolution" type="string">0</Value>
+<Value name="HighlightedStepColor" type="color">#98A8DC</Value>
+<Value name="IllustrationType" type="string">0</Value>
+<Value name="RemoveSpace" type="boolean">No</Value>
+<Value name="SelectedFrameColor" type="color">#98A8DC</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
+<Value name="ShowPrevNextButtons" type="boolean">Yes</Value>
+<Value name="ShowFreezeCheckbox" type="boolean">Yes</Value>
+<Value name="ShowSmoothControl" type="boolean">Yes</Value>
+<Value name="ShowSpeedSelection" type="boolean">Yes</Value>
+<Value name="Enable3DPartSelection" type="boolean">Yes</Value>
+<Value name="SimplifyFloats" type="boolean">No</Value>
+<Value name="UpRight" type="boolean">No</Value>
+<Value name="StartAfterLoading" type="boolean">No</Value>
+<Value name="VRMLProfile" type="string">1</Value>
+<Value name="EncodeRes" type="boolean">Yes</Value>
+<Value name="PDFPublish" type="boolean">Yes</Value>
+<Value name="3DStepsAutoBinding" type="boolean">Yes</Value>
+<Value name="PublicPath" type="string">
+</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="X3D" type="boolean">No</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="KeepSurfaceEdges" type="boolean">Yes</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseMultimediaBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="iOSViewpointTransitionMode" type="string">0</Value>
+<Value name="ShowAxes" type="boolean">Yes</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+<Value name="InitialAmbientOcclusion" type="boolean">No</Value>
+<Value name="InitialAntiAliasing" type="boolean">Yes</Value>
+<Value name="InitialOutlineHoveredObjects" type="boolean">No</Value>
+<Value name="InitialSelectionMode" type="string">0</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="$ICNMethod" decl-id="ICNMETHOD" type="string">MI</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">proced</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">00</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-00-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">921</value>
+<value name="infoName" decl-id="INFONAME" type="string">Замена</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20240613</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPA</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">
+</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">
+</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">41</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">G1</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Камера</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;assert applicPropertyIdent="serialno" applicPropertyType="prodattr" applicPropertyValues="0001"/&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="ICN" decl-id="ICN" type="string">ICN-MTPA-A-G14100-0-00000-00001-A-001-01</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">
+</value>
+</metadata>
+</SimulationInformation>
+<Simulation id="step8ce7193f96fea9d6c137e9c7f1cc4701">
+<Description>КамераManual</Description>
+<Comment><![CDATA[<p>GENERIC-A-00-00-00-00A-000A-D</p>]]></Comment>
+<Step id="IDSBDN0WCOZRCSQ0LL4HO3HG3IFSGH0RE2TPH2GG0EILNXXBZX41O">
+<Description>1 Подготовительные работы</Description>
+<Substep id="r3a7ac59b-7637-48f0-b70a-3af37d096865">
+<Description>Вид</Description>
+</Substep>
+<Substep id="rf0703234-29c7-4697-a57f-3fce342fc3f8">
+<Description>Показ траверсы</Description>
+</Substep>
+</Step>
+<Step id="r440bb141-1d0b-4527-9e2b-a7fc7d27ffa5">
+<Description>2 Замена</Description>
+<Comment><![CDATA[
+]]></Comment>
+<Substep id="r43c791d6-1030-494f-9d57-364a76391cf4">
+<Description>Вид</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="rd2d6f94d-a942-4e0a-adf5-6814aab4f914">
+<Description>Снять винты</Description>
+</Substep>
+<Substep id="r46d0d2a8-7b7b-4258-a960-0f893da79a6d">
+<Description>Установить винты обратно</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r34f0dc73-f5b2-4719-91d4-3404dfc46bb7">
+<Description>Снять крышку</Description>
+</Substep>
+<Substep id="r4a918683-6903-42c3-8732-1df5e97402bb">
+<Description>Установить крышку обратно</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="rc3acff9f-6422-4571-9b1e-ffb169fce999">
+<Description>Вид</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="rc90dc8ff-134f-4c2f-af44-4bbe148a8592">
+<Description>Подсветить винты</Description>
+</Substep>
+<Substep id="r83617298-877f-4608-b7b2-59fa94af5cb8">
+<Description>Вид</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r1b968c73-d3e3-4066-b1e1-597b396cd6b2">
+<Description>Снять винты</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="redb64229-4fbb-4947-802e-38f9210f56db">
+<Description>Вид</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r70e0f87e-4746-4f92-81ae-57f076e51f2a">
+<Description>Снять камеру</Description>
+</Substep>
+<Substep id="r3336a522-e2c1-4151-abf5-9589a7a9191f">
+<Description>Снять соединитель</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r3165c669-8789-4bf8-bd80-9fae55f4af69">
+<Description>Заменить камеру</Description>
+</Substep>
+<Substep id="rdfc6b416-5bb6-49e0-90b8-dce63dfb7776">
+<Description>Показать Смотри текст документа</Description>
+</Substep>
+<Substep id="re2e74d74-013b-4ec5-91c7-51527e4e6869">
+<Description>Использовать Смотри текст документа</Description>
+</Substep>
+<Substep id="r5ce85659-d791-4801-ad31-787925c908f3">
+<Description>Использовать Смотри текст документа</Description>
+</Substep>
+<Substep id="r8dcf54c1-80b9-4871-a581-8c9df452801f">
+<Description>Использовать Смотри текст документа</Description>
+</Substep>
+<Substep id="rd0432ae5-8a7d-4f0a-a684-956db5fa3deb">
+<Description>Скрыть Смотри текст документа</Description>
+</Substep>
+<Substep id="r876a74af-8577-402c-9250-ff74167335d9">
+<Description>Вид</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r41f73258-096b-48aa-897c-5ee1e7a0bdde">
+<Description>Снять винты</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="rf648d560-c555-4ca4-8a2b-8608692bf19d">
+<Description>Снять крышку</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="ra96534f5-66ae-482b-9626-9e420c450e9c">
+<Description>Вид</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r7b02ab8d-142f-450c-b8d8-29c0c2238906">
+<Description>Установить соединитель</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r00651897-874c-4c9b-9516-5f81ba31b120">
+<Description>Вид</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r477400eb-6e3f-4f74-afd5-d173d212fbc7">
+<Description>Установить камеру</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="rc787814f-8527-45af-9a7a-c0930b09043c">
+<Description>Установить винты</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r24a31f5f-0191-4867-a2b7-6222045916a1">
+<Description>Установить крышку</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+<Substep id="r6af99931-f1af-483d-9f1d-078659177528">
+<Description>Установить винты</Description>
+<Comment><![CDATA[
+]]></Comment>
+</Substep>
+</Step>
+</Simulation>
+<Procedure id="step8ce7193f96fea9d6c137e9c7f1cc4701">
+<Item id="IDSBDN0WCOZRCSQ0LL4HO3HG3IFSGH0RE2TPH2GG0EILNXXBZX41O">
+<Item id="r9b947a6e-42d3-491b-b20c-8728a69fb9c2">
+<Action id="r3a7ac59b-7637-48f0-b70a-3af37d096865">
+<Description>Вид</Description>
+</Action>
+<Action id="rf0703234-29c7-4697-a57f-3fce342fc3f8">
+<Description>Показ траверсы</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>1.1 Установите на ложементы траверсу.</Description>
+<Text><![CDATA[
+						<p>Установите траверсу на ложементы.</p>
+					]]></Text>
+</Item>
+<Description>1 Подготовительные работы</Description>
+<Text><![CDATA[]]></Text>
+</Item>
+<Item id="r440bb141-1d0b-4527-9e2b-a7fc7d27ffa5">
+<Item id="rf5a44e4f-0b30-457b-b9f1-8b316134e335">
+<Action id="r43c791d6-1030-494f-9d57-364a76391cf4">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Вид</Description>
+</Action>
+<Action id="rd2d6f94d-a942-4e0a-adf5-6814aab4f914">
+<Description>Снять винты</Description>
+</Action>
+<Action id="r46d0d2a8-7b7b-4258-a960-0f893da79a6d">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Установить винты обратно</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.1 Отверните винты (поз. 5).</Description>
+<Text><![CDATA[
+						<p>Отверните винты <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#5">Рис. 1 [5]</a>.</p>
+					]]></Text>
+</Item>
+<Item id="rf9e46921-252d-43b4-9e75-05f474bc18a1">
+<Action id="r34f0dc73-f5b2-4719-91d4-3404dfc46bb7">
+<Description>Снять крышку</Description>
+</Action>
+<Action id="r4a918683-6903-42c3-8732-1df5e97402bb">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Установить крышку обратно</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.2 Снимите крышку (поз. 4) с камеры (поз. 3).</Description>
+<Text><![CDATA[
+						<p>Снимите крышку <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#4">Рис. 1 [4]</a> с камеры <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#3">Рис. 1 [3]</a>.</p>
+					]]></Text>
+</Item>
+<Item id="rde3645f4-56c5-4f00-ba71-42038fdacb06">
+<Action id="rc3acff9f-6422-4571-9b1e-ffb169fce999">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Вид</Description>
+</Action>
+<Action id="rc90dc8ff-134f-4c2f-af44-4bbe148a8592">
+<Description>Подсветить винты</Description>
+</Action>
+<Action id="r83617298-877f-4608-b7b2-59fa94af5cb8">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Вид</Description>
+</Action>
+<Action id="r1b968c73-d3e3-4066-b1e1-597b396cd6b2">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Снять винты</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.3 Отверните винты (поз. 6).</Description>
+<Text><![CDATA[
+						<p>Отверните винты <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#6">Рис. 1 [6]</a>.</p>
+					]]></Text>
+</Item>
+<Item id="r8aab463b-6577-495a-8a0c-6a9c733cf8fd">
+<Action id="redb64229-4fbb-4947-802e-38f9210f56db">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Вид</Description>
+</Action>
+<Action id="r70e0f87e-4746-4f92-81ae-57f076e51f2a">
+<Description>Снять камеру</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.4 Отведите камеру (поз. 3) от кронштейна (поз. 1).</Description>
+<Text><![CDATA[
+						<p>Отведите камеру <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#3">Рис. 1 [3]</a> от кронштейна <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#1">Рис. 1 [1]</a>.</p>
+					]]></Text>
+</Item>
+<Item id="re9a798c5-3cf0-4df3-bd0e-01d898ecabb7">
+<Action id="r3336a522-e2c1-4151-abf5-9589a7a9191f">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Снять соединитель</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.5 Снимите электрический соединитель (поз. 2) от его ответной части.</Description>
+<Text><![CDATA[
+						<p>Снимите электрический соединитель <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#2">Рис. 1 [2]</a> от его ответной части (<a>
+								
+									MTPA-A-G1-41-00-00A-054A-A
+								
+							</a>).</p>
+					]]></Text>
+</Item>
+<Item id="r27787138-91d0-465b-8270-a0eff81daaec">
+<Action id="r3165c669-8789-4bf8-bd80-9fae55f4af69">
+<Description>Заменить камеру</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.6 Замените камеру (поз. 3) на новую.</Description>
+<Text><![CDATA[
+						<p>Замените камеру <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#3">Рис. 1 [3]</a> на новую.</p>
+					]]></Text>
+</Item>
+<Item id="rbc549894-1288-4586-8520-8117089e3148">
+<Action id="rdfc6b416-5bb6-49e0-90b8-dce63dfb7776">
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.7 Осмотрите камеру (поз. 3).</Description>
+<Text><![CDATA[
+						<p>Осмотрите камеру <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#3">Рис. 1 [3]</a>.</p>
+						
+						
+					]]></Text>
+</Item>
+<Item id="rc5e39603-2d6c-4171-90c7-5c0fe9841b01">
+<Action id="re2e74d74-013b-4ec5-91c7-51527e4e6869">
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.7.1 При наличии загрязнений очистите камеру обтирочной ветошью.</Description>
+<Text><![CDATA[
+							<p>При наличии загрязнений очистите камеру обтирочной ветошью.</p>
+							
+						]]></Text>
+</Item>
+<Item id="r29cac9bb-bdb7-44e2-a4a9-8cc3f99df0e2">
+<Action id="r5ce85659-d791-4801-ad31-787925c908f3">
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.7.1.1 Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</Description>
+<Text><![CDATA[
+								<p>Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</p>
+							]]></Text>
+</Item>
+<Item id="rb2b2f806-4af8-4f29-920f-dde955570836">
+<Action id="r8dcf54c1-80b9-4871-a581-8c9df452801f">
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.7.2 Осмотрите камеру на отсутствие сколов, вмятин, повреждений.</Description>
+<Text><![CDATA[
+							<p>Осмотрите камеру на отсутствие сколов, вмятин, повреждений.</p>
+							
+						]]></Text>
+</Item>
+<Item id="r221a89b2-e9a9-4a78-83c4-ae06ec5f4f8f">
+<Action id="rd0432ae5-8a7d-4f0a-a684-956db5fa3deb">
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.7.2.1 При наличии повреждений, заменить камеру.</Description>
+<Text><![CDATA[
+								<p>При наличии повреждений, заменить камеру.</p>
+							]]></Text>
+</Item>
+<Item id="rd176c882-b38c-4d2d-af27-9027bca030ea">
+<Action id="r876a74af-8577-402c-9250-ff74167335d9">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Вид</Description>
+</Action>
+<Action id="r41f73258-096b-48aa-897c-5ee1e7a0bdde">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Снять винты</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.8 Отверните винты (поз. 5).</Description>
+<Text><![CDATA[
+						<p>Отверните винты <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#5">Рис. 1 [5]</a>.</p>
+					]]></Text>
+</Item>
+<Item id="ra0837729-be44-43bc-95b2-ce3504456091">
+<Action id="rf648d560-c555-4ca4-8a2b-8608692bf19d">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Снять крышку</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.9 Снимите крышку (поз. 4) камеры (поз. 3).</Description>
+<Text><![CDATA[
+						<p>Снимите крышку <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#4">Рис. 1 [4]</a> камеры <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#3">Рис. 1 [3]</a>.</p>
+					]]></Text>
+</Item>
+<Item id="r5fdf0940-44d3-4226-a553-29e0bd2c6be6">
+<Action id="ra96534f5-66ae-482b-9626-9e420c450e9c">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Вид</Description>
+</Action>
+<Action id="r7b02ab8d-142f-450c-b8d8-29c0c2238906">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Установить соединитель</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.10 Установите электрический соединитель (поз. 2) на его ответную часть.</Description>
+<Text><![CDATA[
+						<p>Установите электрический соединитель <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#2">Рис. 1 [2]</a> на его ответную часть.</p>
+					]]></Text>
+</Item>
+<Item id="rba067f5d-b9fe-4d72-b059-4ba7a10a8ded">
+<Action id="r00651897-874c-4c9b-9516-5f81ba31b120">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Вид</Description>
+</Action>
+<Action id="r477400eb-6e3f-4f74-afd5-d173d212fbc7">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Установить камеру</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.11 Установите камеру (поз. 3) на кронштейн (поз. 1).</Description>
+<Text><![CDATA[
+						<p>Установите камеру <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#3">Рис. 1 [3]</a> на кронштейн <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#1">Рис. 1 [1]</a>.</p>
+					]]></Text>
+</Item>
+<Item id="r86ebe301-ac54-4357-a554-bdfdc18d0672">
+<Action id="rc787814f-8527-45af-9a7a-c0930b09043c">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Установить винты</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.12 Установите и заверните винты (поз. 6).</Description>
+<Text><![CDATA[
+						<p>Установите и заверните винты <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#6">Рис. 1 [6]</a>.</p>
+					]]></Text>
+</Item>
+<Item id="rc677f2e7-94d3-4f1a-82b8-96cb098ad339">
+<Action id="r24a31f5f-0191-4867-a2b7-6222045916a1">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Установить крышку</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.13 Установите крышку (поз. 4) на камеру (поз. 3).</Description>
+<Text><![CDATA[
+						<p>Установите крышку <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#4">Рис. 1 [4]</a> на камеру <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#3">Рис. 1 [3]</a>.</p>
+					]]></Text>
+</Item>
+<Item id="r11cd3ee0-f503-4aa0-b1f1-481a07ce94d4">
+<Action id="r6af99931-f1af-483d-9f1d-078659177528">
+<Comment><![CDATA[
+]]></Comment>
+<Description>Установить винты</Description>
+</Action>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2.14 Установите и заверните винты (поз. 5).</Description>
+<Text><![CDATA[
+						<p>Установите и заверните винты <a class="hotspot" href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg#5">Рис. 1 [5]</a>.</p>
+					]]></Text>
+</Item>
+<Comment><![CDATA[
+]]></Comment>
+<Description>2 Замена</Description>
+<Text><![CDATA[]]></Text>
+</Item>
+<Item id="re25122b5-b1da-4841-ab24-a2175e1a157e">
+<Item id="ree7247e3-a9a7-478e-b140-3a4bd6e7cb8a">
+<Comment><![CDATA[
+]]></Comment>
+<Description>3.1 Произведите контроль работоспособности камеры</Description>
+<Text><![CDATA[
+						<p>Произведите контроль работоспособности камеры <b>(см. MTPА-А-G1-40-00-00А-340А-А).</b>
+						</p>
+					]]></Text>
+</Item>
+<Description>3 Заключительные работы</Description>
+<Text><![CDATA[]]></Text>
+</Item>
+</Procedure>
+<DocItems>
+</DocItems>
+<Resources>
+<Picture descr="" flags="45" action="r6af99931-f1af-483d-9f1d-078659177528">ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg</Picture>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPA" data-systemDiffCode="A" data-systemCode="G1" data-subSystemCode="4" data-subSubSystemCode="1" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="921" data-infoCodeVariant="A" data-itemLocationCode="A">MTPA-A-G1-41-00-00A-921A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2024" data-month="06" data-day="13">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Камера</div>
+					<div class="infoName">Замена</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode=" ">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="assert" data-applicPropertyIdent="serialno" data-applicPropertyType="prodattr" data-applicPropertyValues="0001">
+</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-00-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-00-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="procedure">
+			<div class="preliminaryRqmts" id="preliminaryRqmts_IDNYERMJ2S">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDGGZIROMF"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDF3QJ3XHD"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="supportEquipDescr">
+<td>
+<div>
+<div class="name">Набор инструментов</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="identNumber">
+</div>
+</td>
+<td>
+<div class="reqQuantity">
+</div>
+</td>
+<td>
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDGU032MOP"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSupplies">
+<td class="noSupplies" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDVTACN1PN"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSpares">
+<td class="noSpares" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<div class="reqSafety">
+					<div class="safetyRqmts">
+						<div>
+<div class="warning">
+							<div class="warningAndCautionPara p">РАБОТЫ ПРОВОДЯТСЯ НА ОБЕСТОЧЕННОЙ ТРАВЕРСЕ.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div>
+<div class="mainProcedure" id="mainProcedure_IDYBB3FQDA"><span class="link3d link" data-key="step8ce7193f96fea9d6c137e9c7f1cc4701" data-link="link3d" data-title="КамераManual"></span></div>
+</div>
+<div class="Procedure levels" id="step8ce7193f96fea9d6c137e9c7f1cc4701">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDECDDIQBU">
+					<div class="title">Подготовительные работы</div>
+					<div class="proceduralStep level2 link" id="r9b947a6e-42d3-491b-b20c-8728a69fb9c2">
+						<div class="para p">Установите траверсу на ложементы.</div>
+					<span class="link3d link" data-key="r9b947a6e-42d3-491b-b20c-8728a69fb9c2" data-link="link3d"></span></div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDF5G31F5X">
+					<div class="title">Замена</div>
+					<div class="proceduralStep level2 link" id="rf5a44e4f-0b30-457b-b9f1-8b316134e335">
+						<div class="para p">Отверните винты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="5"></a>.</div>
+					<span class="link3d link" data-key="rf5a44e4f-0b30-457b-b9f1-8b316134e335" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="rf9e46921-252d-43b4-9e75-05f474bc18a1">
+						<div class="para p">Снимите крышку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="4"></a> с камеры <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="3"></a>.</div>
+					<span class="link3d link" data-key="rf9e46921-252d-43b4-9e75-05f474bc18a1" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="rde3645f4-56c5-4f00-ba71-42038fdacb06">
+						<div class="para p">Отверните винты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="6"></a>.</div>
+					<span class="link3d link" data-key="rde3645f4-56c5-4f00-ba71-42038fdacb06" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="r8aab463b-6577-495a-8a0c-6a9c733cf8fd">
+						<div class="para p">Отведите камеру <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="3"></a> от кронштейна <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="1"></a>.</div>
+					<span class="link3d link" data-key="r8aab463b-6577-495a-8a0c-6a9c733cf8fd" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="re9a798c5-3cf0-4df3-bd0e-01d898ecabb7">
+						<div class="para p">Снимите электрический соединитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="2"></a> от его ответной части (<a class="dmRef  link" href="MTPA-A-G1-41-00-00A-054A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="054" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="1" data-subSystemCode="4" data-systemCode="G1" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-G1-41-00-00A-054A-A</div>
+								</div></a>).</div>
+					<span class="link3d link" data-key="re9a798c5-3cf0-4df3-bd0e-01d898ecabb7" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="r27787138-91d0-465b-8270-a0eff81daaec">
+						<div class="para p">Замените камеру <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="3"></a> на новую.</div>
+					<span class="link3d link" data-key="r27787138-91d0-465b-8270-a0eff81daaec" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="rbc549894-1288-4586-8520-8117089e3148">
+						<div class="para p">Осмотрите камеру <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="3"></a>.</div>
+						<div class="proceduralStep level3 link" id="rc5e39603-2d6c-4171-90c7-5c0fe9841b01">
+							<div class="para p">При наличии загрязнений очистите камеру обтирочной ветошью.</div>
+							<div class="proceduralStep level4 link" id="r29cac9bb-bdb7-44e2-a4a9-8cc3f99df0e2">
+								<div class="para p">Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</div>
+							<span class="link3d link" data-key="r29cac9bb-bdb7-44e2-a4a9-8cc3f99df0e2" data-link="link3d"></span></div>
+						<span class="link3d link" data-key="rc5e39603-2d6c-4171-90c7-5c0fe9841b01" data-link="link3d"></span></div>
+						<div class="proceduralStep level3 link" id="rb2b2f806-4af8-4f29-920f-dde955570836">
+							<div class="para p">Осмотрите камеру на отсутствие сколов, вмятин, повреждений.</div>
+							<div class="proceduralStep level4 link" id="r221a89b2-e9a9-4a78-83c4-ae06ec5f4f8f">
+								<div class="para p">При наличии повреждений, заменить камеру.</div>
+							<span class="link3d link" data-key="r221a89b2-e9a9-4a78-83c4-ae06ec5f4f8f" data-link="link3d"></span></div>
+						<span class="link3d link" data-key="rb2b2f806-4af8-4f29-920f-dde955570836" data-link="link3d"></span></div>
+					<span class="link3d link" data-key="rbc549894-1288-4586-8520-8117089e3148" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="rd176c882-b38c-4d2d-af27-9027bca030ea">
+						<div class="para p">Отверните винты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="5"></a>.</div>
+					<span class="link3d link" data-key="rd176c882-b38c-4d2d-af27-9027bca030ea" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="ra0837729-be44-43bc-95b2-ce3504456091">
+						<div class="para p">Снимите крышку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="4"></a> камеры <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="3"></a>.</div>
+					<span class="link3d link" data-key="ra0837729-be44-43bc-95b2-ce3504456091" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="r5fdf0940-44d3-4226-a553-29e0bd2c6be6">
+						<div class="para p">Установите электрический соединитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="2"></a> на его ответную часть.</div>
+					<span class="link3d link" data-key="r5fdf0940-44d3-4226-a553-29e0bd2c6be6" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="rba067f5d-b9fe-4d72-b059-4ba7a10a8ded">
+						<div class="para p">Установите камеру <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="3"></a> на кронштейн <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="1"></a>.</div>
+					<span class="link3d link" data-key="rba067f5d-b9fe-4d72-b059-4ba7a10a8ded" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="r86ebe301-ac54-4357-a554-bdfdc18d0672">
+						<div class="para p">Установите и заверните винты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="6"></a>.</div>
+					<span class="link3d link" data-key="r86ebe301-ac54-4357-a554-bdfdc18d0672" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="rc677f2e7-94d3-4f1a-82b8-96cb098ad339">
+						<div class="para p">Установите крышку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="4"></a> на камеру <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="3"></a>.</div>
+					<span class="link3d link" data-key="rc677f2e7-94d3-4f1a-82b8-96cb098ad339" data-link="link3d"></span></div>
+					<div class="proceduralStep level2 link" id="r11cd3ee0-f503-4aa0-b1f1-481a07ce94d4">
+						<div class="para p">Установите и заверните винты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-title="Замена камеры" title="5"></a>.</div>
+					<span class="link3d link" data-key="r11cd3ee0-f503-4aa0-b1f1-481a07ce94d4" data-link="link3d"></span></div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDBPFPWTII">
+					<div class="title">Заключительные работы</div>
+					<div class="proceduralStep level2 link" id="ree7247e3-a9a7-478e-b140-3a4bd6e7cb8a">
+						<div class="para p">Произведите контроль работоспособности камеры <span class="emphasis ">(см. MTPА-А-G1-40-00-00А-340А-А).</span>
+						</div>
+					</div>
+				</div>
+				<div class="figure" id="fig-001">
+					<div class="title">Замена камеры</div>
+					<a title="Замена камеры" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPA-A-G14100-0-00000-00002-A-001-01" data-href="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPA-A-G14100-0-00000-00002-A-001-01.svg">Замена камеры</a>
+				</div>
+			</div>
+			<div class="closeRqmts" id="closeRqmts_IDQGUJRQLB">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_ID4REIGTUV"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

@@ -1,0 +1,600 @@
+@charset "utf-8";
+/*
+    s1000d_2_3.less
+*/
+.idstatus .issno[data-issuenumber]:before {
+  content: "イシュー" ": ";
+}
+.idstatus .language[data-languageisocode]:before {
+  content: "言語" ": ";
+}
+.idstatus .issdate[data-day]:before {
+  content: "日付" ": ";
+}
+.pubcode:after {
+  content: attr(data-modelIdentCode) "-" attr(data-pmIssuer) "-" attr(data-pmNumber) "-" attr(data-pmVolume);
+}
+.issno[data-issuenumber]:after {
+  content: attr(data-issuenumber) "-" attr(data-inwork);
+}
+.language[data-languageisocode]:after {
+  content: attr(data-languageisocode) "-" attr(data-countryisocode);
+}
+.issdate[data-day]:after {
+  content: attr(data-day) "-" attr(data-month) "-" attr(data-year);
+}
+.firstver:after {
+  content: attr(data-verificationType);
+}
+.skill[data-skillCode]:after {
+  content: attr(data-skillCode);
+}
+.datarest:before {
+  content: "データ制限" ":";
+}
+.distrib:before {
+  content: "分配";
+}
+.expcont:before {
+  content: "輸出管理";
+}
+.handling:before {
+  content: "ハンドリング";
+}
+.destruct:before {
+  content: "破壊";
+}
+.disclose:before {
+  content: "公表";
+}
+.copyright:before {
+  content: "Copyright";
+}
+.dmRefAddressItems .infoname:before {
+  content: " - ";
+}
+.identno:before {
+  content: "";
+}
+.partAndSerialNumber:before {
+  content: "/";
+}
+.natoStockNumber:before {
+  content: "NSN" " ";
+}
+.serialNumber:before {
+  content: "シリアル番号" " " attr(data-serialNumberValue);
+}
+.customerStockNumber:before {
+  content: "ストック番号" " ";
+}
+.zone:before {
+  content: "ゾーン" " " attr(data-zoneNumber);
+}
+.accpnl:before,
+.accpnl[data-accessPointTypeValue="accpnl01"]:before {
+  content: "ドア" " " attr(data-accessPointNumber);
+}
+.accpnl[data-accessPointTypeValue="accpnl02"]:before {
+  content: "パネル" " " attr(data-accessPointNumber);
+}
+.accpnl[data-accessPointTypeValue="accpnl03"]:before {
+  content: "電気パネル" " " attr(data-accessPointNumber);
+}
+.multimediaobject:before,
+.graphic:before {
+  content: "図" " " counter(figure) " ";
+}
+.graphic[data-sheets]:after {
+  content: " (" "シート" " " counter(sheet) " " "/" " " attr(data-sheets) ")";
+}
+.multimediaobject[data-sheets]:after {
+  content: " (" "マルチメディア" " " counter(sheet) " " "/" " " attr(data-sheets) ")";
+}
+.xref.irtt01:before {
+  content: "図" " " attr(data-figure);
+}
+.xref.irtt02:before {
+  content: "テーブル" " " attr(data-index);
+}
+.xref.irtt03:before {
+  content: "図" " " attr(data-figure);
+}
+.xref.irtt07:before {
+  content: "Para" " " attr(data-index);
+}
+.xref.irtt08:before {
+  content: "ステップ" " " attr(data-index);
+}
+.xref.irtt09:before {
+  content: "図" " " attr(data-figure) ", " "シート" " " attr(data-sheet);
+}
+.xref.irtt10:before {
+  content: "図" " " attr(data-figure) ", " attr(data-multimediatype);
+}
+.xref.irtt11:before {
+  content: "図" " " attr(data-figure) " [" attr(data-referredfragment) "]";
+}
+#app-figure-title.multimediaobject:before,
+#app-figure-title.xref.irtt01:before,
+#app-figure-title.xref.irtt03:before,
+#app-figure-title.xref.irtt09:before,
+#app-figure-title.xref.irtt10:before,
+#app-figure-title.xref.irtt11:before,
+#app-figure-title.xref.irtt12:before,
+#app-figure-title.graphic:before {
+  content: "図" " " attr(data-index) " ";
+}
+#app-figure-title.graphic[data-subindexes]:after {
+  content: " (" "シート" " " attr(data-subindex) " " "/" " " attr(data-subindexes) ")";
+}
+#app-figure-title.multimediaobject[data-subindexes]:after {
+  content: " (" "マルチメディア" " " attr(data-subindex) " " "/" " " attr(data-subindexes) ")";
+}
+#app-figure-title.graphic[data-subindexes='']:after,
+#app-figure-title.multimediaobject[data-subindexes='']:after {
+  content: none;
+}
+.personnel .numRequired[data-value]:before {
+  content: attr(data-value) " " "パーソン";
+}
+.personnel .numRequired[data-value='1']:before {
+  content: attr(data-value) " " "パーソン";
+}
+.personnel .numRequired[data-value='0']:before,
+.personnel .numRequired[data-value='']:before {
+  content: "必要時";
+}
+.opndurn:before {
+  content: "保守タスク期間";
+}
+.opndurn:after {
+  content: "予備要件" " " attr(data-startupDuration) " " attr(data-unitOfMeasure) "\000a" "プロシージャ" " " attr(data-procedureDuration) " " attr(data-unitOfMeasure) "\000a" "ジョブ完了後の要件" " " attr(data-closeupDuration) " " attr(data-unitOfMeasure);
+}
+.externalPubCode:before {
+  content: attr(data-pubCodingScheme);
+}
+.externalPubIssueInfo:before {
+  content: "エディション:" " ";
+}
+/* Centerhead2 titles */
+.mainfunc:before {
+  content: "プロシージャ";
+}
+.content > .descript:before {
+  content: "説明";
+}
+.schedule:before {
+  content: "スケジュール";
+}
+.isolationMainProcedure:before {
+  content: "障害分離手続き";
+}
+.descacrw:before {
+  content: "クルー/オペレータコンテンツ";
+}
+.commonRepository:before {
+  content: "共通情報リポジトリ";
+}
+.faultReporting:before {
+  content: "障害報告";
+}
+.detect:before {
+  content: "障害検出";
+}
+.content > .refs:before {
+  content: "参照";
+}
+.prelreqs:before {
+  content: "予備要件";
+}
+.closereqs:before {
+  content: "ジョブ完了後の要件";
+}
+/* sidehead0 titles */
+.cautionRepository:before {
+  content: "注意リポジトリ";
+}
+.toollist:before {
+  content: "ツールリポジトリ";
+}
+.controlIndicatorRepository:before {
+  content: "コントロールおよびインジケータ";
+}
+.functionalPhysicalAreaRepository:before {
+  content: "機能および/または物理領域リポジトリ";
+}
+.warningRepository:before {
+  content: "警告リポジトリ";
+}
+.zobelist:before {
+  content: "ゾーンリポジトリ";
+}
+.partlist:before {
+  content: "パートリポジトリ";
+}
+.einlist:before {
+  content: "機能アイテムリポジトリ";
+}
+/* Warning, Caution, Note */
+.warning:before {
+  content: "WARNING";
+}
+.caution:before {
+  content: "CAUTION";
+}
+.note:before {
+  content: "注記";
+}
+/* Sidehead0 titles */
+.pmd:before {
+  content: "生産管理データ";
+}
+.reqconds:before {
+  content: "必要な条件";
+}
+.supequip:before {
+  content: "サポート装置";
+}
+.supplies:before {
+  content: "消耗品、材料および消耗部品";
+}
+.reqTechInfoGroup:before {
+  content: "必要な技術情報";
+}
+.spares:before {
+  content: "スペア";
+}
+.safety:before {
+  content: "安全条件";
+}
+.reqpers:before {
+  content: "必要なパーソン";
+}
+.workAreaLocationGroup:before {
+  content: "作業領域の場所";
+}
+/* None keyword */
+.nosupeq:before,
+.nosupply:before,
+.nospares:before,
+.nosafety:before,
+.noconds:before {
+  content: "なし";
+}
+/* Tables */
+.table-contents > .title:before {
+  content: "テーブル" " " counter(table) " ";
+}
+.content > .refs > .tabular:before {
+  content: "テーブル" " " counter(table) " " "参照";
+}
+.reqconds > .tabular:before {
+  content: "テーブル" " " counter(table) " " "必要な条件";
+}
+.reqpers > .tabular:before {
+  content: "テーブル" " " counter(table) " " "必要なパーソン";
+}
+.supequip > .tabular:before {
+  content: "テーブル" " " counter(table) " " "サポート装置";
+}
+.supplies > .tabular:before {
+  content: "テーブル" " " counter(table) " " "消耗品、材料および消耗部品";
+}
+.spares > .tabular:before {
+  content: "テーブル" " " counter(table) " " "スペア";
+}
+.header > .name:before {
+  content: "名前";
+}
+.header > .ident:before {
+  content: "識別/参照";
+}
+.header > .qty:before {
+  content: "数量";
+}
+.header > .remark:before {
+  content: "リマーク";
+}
+.header > .condition:before {
+  content: "アクション/条件";
+}
+.header > .publication:before {
+  content: "データモジュール/テクニカルパブリケーション";
+}
+.header > .title:before {
+  content: "タイトル";
+}
+.header > .person:before {
+  content: "パーソン";
+}
+.header > .category:before {
+  content: "カテゴリ";
+}
+.header > .skill:before {
+  content: "スキルレベル";
+}
+.header > .trade:before {
+  content: "トレード/トレードコード";
+}
+.header > .time:before {
+  content: "予定時間";
+}
+.dmodule:after {
+  content: "データモジュールの最後";
+}
+.status .security[data-securityClassification]:before {
+  content: "セキュリティクラス" " " attr(data-securityClassification);
+}
+.status .security[data-securityClassification="01"]:before {
+  content: "未分類";
+}
+.status .security[data-securityClassification="02"]:before {
+  content: "制限";
+}
+.status .security[data-securityClassification="03"]:before {
+  content: "CONFIDENTIAL";
+}
+.status .security[data-securityClassification="04"]:before {
+  content: "シークレット";
+}
+.status .security[data-securityClassification="05"]:before {
+  content: "トップシークレット";
+}
+.status .rpc:before {
+  content: "担当パートナー会社" ": " attr(data-enterpriseCode) " / ";
+}
+.status .orig:before {
+  content: "発信者" ": " attr(data-enterpriseCode) " / ";
+}
+.applicCrossRefTableRef:before {
+  content: "ACTデータモジュール" ": ";
+}
+.status > .applic:before {
+  content: "適用性" ": ";
+}
+.techstd:before {
+  content: "技術標準" ":";
+}
+.brexref:before {
+  content: "BREXデータモジュール" ": ";
+}
+.unverif:before {
+  content: "未検証";
+}
+.firstver:before {
+  content: "最初の検証" ": ";
+}
+.secver:before {
+  content: "2番目の検証" ": ";
+}
+.sbc:before {
+  content: "システムブレークダウンコード" ": ";
+}
+.rfu:before {
+  content: "更新の理由" ": ";
+}
+.skill:before {
+  content: "スキルレベル" ": ";
+}
+.skill[data-skillCode="sk01"]:after {
+  content: "基本";
+}
+.skill[data-skillCode="sk02"]:after {
+  content: "中級";
+}
+.skill[data-skillCode="sk03"]:after {
+  content: "上級";
+}
+.csnref:before {
+  content: "CSN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.csnref[data-systemCode]:before {
+  content: "CSN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.csnref[data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.csnref[data-systemCode][data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.reqQuantity[data-unitOfMeasure]:after {
+  content: " " attr(data-unitOfMeasure);
+}
+.materialSetRef:before {
+  content: attr(data-materialSetIdent) " " attr(data-materialSetIssue);
+}
+.natoStockNumber [data-natoSupplyClass] [data-natoCodificationBureau] [data-natoItemIdentNumberCore]:after {
+  content: attr(data-natoSupplyClass) "-" attr(data-natoCodificationBureau) "-" attr(data-natoItemIdentNumberCore);
+}
+.nsn:before {
+  content: "NSN" " ";
+}
+:root {
+  --label-colonSymbol: ":";
+  --label-page: "ページ";
+  --label-endOfDataModule: "データモジュールの最後";
+  --label-blankPageCenter: "意図的に空白";
+  --label-security-01: "未分類";
+  --label-security-02: "制限あり";
+  --label-security-03: "社外秘";
+  --label-security-04: "シークレット";
+  --label-security-05: "トップシークレット";
+  --label-security-default: "セキュリティクラス";
+  --label-HF-applic: "適用先";
+  --label-applic-all: "すべて";
+  --label-IPD-infoname: "図解されたパートデータ";
+  --label-TOC: "目次";
+  --label-LOF: "図のリスト";
+  --label-LOT: "テーブルのリスト";
+  --label-references: "参照";
+  --label-commonInfo: "共通情報";
+  --label-thresholdInterval: "しきい値間隔";
+  --label-preliminaryRqmts: "予備要件";
+  --label-mainProcedure: "プロシージャ";
+  --label-closeRqmts: "ジョブ完了後の要件";
+  --label-description: "説明";
+  --label-crewRefCard: "クルー参照カード";
+  --label-reqCondGroup: "必要な条件";
+  --label-reqPersons: "必要なパーソン";
+  --label-reqTechInfoGroup: "必要な技術情報";
+  --label-reqSupportEquips: "サポート装置";
+  --label-reqSupplies: "消耗品、材料および消耗部品";
+  --label-reqSpares: "スペア";
+  --label-faultCode: "障害コード";
+  --label-faultCodes: "障害コード";
+  --label-faultDescription: "失敗説明";
+  --label-possibleCauses: "可能性がある原因";
+  --label-productCrossRefTable: "製品他所参照テーブル";
+  --label-applicCrossRefTable: "適用性相互参照表";
+  --label-from: "元";
+  --label-of: "/";
+  --label-continued: "継続";
+  --label-figure: "図";
+  --label-table: "テーブル";
+  --label-multimedia: "図";
+  --label-para: "段落";
+  --label-step: "ステップ";
+  --label-sheet: "シート";
+  --label-zone: "ゾーン";
+  --label-zones: "ゾーン";
+  --label-accessPoint: "アクセスポイント";
+  --label-accessPoints: "アクセスポイント";
+  --label-workLocation: "作業場所";
+  --label-workLocations: "ワークロケーション";
+  --label-partno: "パート番号";
+  --label-item: "アイテム";
+  --label-CSN: "CSN";
+  --label-CSNISN: "CSN/ISN";
+  --label-materialSet: "セット";
+  --label-legend: "図への凡例";
+  --label-cbActionOpen: "開く";
+  --label-cbActionClose: "閉じる";
+  --label-header-cb-name: "CB名";
+  --label-header-cb: "CB";
+  --label-header-cb-location: "CBの場所";
+  --label-remarks: "リマーク";
+  --label-action: "アクション";
+  --label-condition: "条件";
+  --label-data-module: "データモジュール";
+  --label-technical-publication: "テクニカルパブリケーション";
+  --label-document-number: "ドキュメント番号";
+  --label-title: "タイトル";
+  --label-category: "カテゴリ";
+  --label-person: "パーソン";
+  --label-personCategory: "カテゴリ";
+  --label-personSkill: "スキルレベル";
+  --label-trade: "トレード/トレードコード";
+  --label-estimatedTime: "予定時間";
+  --label-persons: "パーソン";
+  --label-person-inline: "パーソン";
+  --label-as-required: "必要時";
+  --label-man: "マン";
+  --label-name: "名前";
+  --label-identification: "識別";
+  --label-reference: "参照";
+  --label-quantity: "数量";
+  --label-accessPoint-accpnl01: "アクセスドア";
+  --label-accessPoint-accpnl02: "アクセスパネル";
+  --label-accessPoint-accpnl03: "アクセス電気パネル";
+  --label-thresholdInterval-th01: "フライト時間";
+  --label-thresholdInterval-th02: "フライトサイクル";
+  --label-thresholdInterval-th03: "月";
+  --label-thresholdInterval-th04: "週";
+  --label-thresholdInterval-th05: "年";
+  --label-thresholdInterval-th06: "日数";
+  --label-thresholdInterval-th07: "超音速サイクル";
+  --label-thresholdInterval-th08: "圧力サイクル";
+  --label-thresholdInterval-th09: "エンジンサイクル";
+  --label-thresholdInterval-th10: "エンジン変更";
+  --label-thresholdInterval-th11: "ショップ訪問";
+  --label-thresholdInterval-th12: "補助パワー単位変化";
+  --label-thresholdInterval-th13: "ランディングギア変更";
+  --label-thresholdInterval-th14: "ホイール変更";
+  --label-thresholdInterval-th15: "エンジン開始";
+  --label-thresholdInterval-th16: "APU(時)";
+  --label-thresholdInterval-th17: "エンジン時間";
+  --label-thresholdInterval-th18: "消費した時間";
+  --label-thresholdInterval-th19: "ランディング";
+  --label-thresholdInterval-th20: "稼働サイクル";
+  --label-thresholdInterval-th21: "稼働時間";
+  --label-thresholdInterval-th22: "超音速時間";
+  --label-thresholdInterval-th23: "'A'チェック";
+  --label-thresholdInterval-th24: "'B'チェック";
+  --label-thresholdInterval-th25: "'C'チェック";
+  --label-thresholdInterval-th26: "'D'チェック";
+  --label-thresholdInterval-th27: "毎日";
+  --label-thresholdInterval-th28: "'E'チェック";
+  --label-thresholdInterval-th29: "オーバナイト";
+  --label-thresholdInterval-th30: "プリフライト";
+  --label-thresholdInterval-th31: "ルーティンチェック";
+  --label-thresholdInterval-th32: "構造'C'チェック";
+  --label-thresholdInterval-th33: "サービスチェック";
+  --label-thresholdInterval-th34: "トランシット";
+  --label-thresholdInterval-th35: "キロメートル";
+  --label-thresholdInterval-th36: "消費(m^3)";
+  --label-thresholdInterval-th37: "消費(リットル)";
+  --label-thresholdInterval-th38: "ショットの数 - 1つずつ";
+  --label-thresholdInterval-th39: "ショットの数 - 等価フルチャージ(EFC)";
+  --label-installationLocationType-02: "セクション";
+  --label-installationLocationType-03: "ステーション";
+  --label-installationLocationType-04: "ウォーターライン";
+  --label-installationLocationType-05: "バトックライン";
+  --label-productItemType-01: "フレーム";
+  --label-productItemType-02: "リブ";
+  --label-productItemType-03: "ストリンガ";
+  --label-reqTechInfoCategory-01: "パブリケーションモジュール";
+  --label-reqTechInfoCategory-02: "データモジュール";
+  --label-reqTechInfoCategory-03: "図面";
+  --label-reqTechInfoCategory-04: "電気図";
+  --label-reqTechInfoCategory-05: "回路図";
+  --label-reqTechInfoCategory-06: "安全性シート";
+  --label-skillLevelCode-01: "基本";
+  --label-skillLevelCode-02: "中級";
+  --label-skillLevelCode-03: "上級";
+  --label-learningAssessment: "ラーニングアセスメント";
+  --label-learningSummary: "ラーニングサマリ";
+  --label-learningContent: "ラーニングコンテンツ";
+  --label-learningOverview: "ラーニング概要";
+  --label-questions: "質問";
+  --label-avehcfg: "必要な基本条件";
+  --label-avehcfg-status-yes: "必要";
+  --label-avehcfg-status-no: "禁止";
+  --label-avehcfg-status-indiffer: "重要でない";
+  --label-avehcfg-status-na: "適用不可";
+  --label-avehcfg-power-engine: "エンジン";
+  --label-avehcfg-power-apu: "APU";
+  --label-avehcfg-power-external: "外部";
+  --label-avehcfg-power-internal: "内部";
+  --label-avehcfg-power-indifferent: "重要でない";
+  --label-avehcfg-power-notapplic: "適用不可";
+  --label-avehcfg-status: "ステータス";
+  --label-avehcfg-power: "電源";
+  --label-avehcfg-jacked: "ジャッキアップされた製品";
+  --label-avehcfg-safedev: "安全装置が取付けられています";
+  --label-avehcfg-elecpwr: "電力";
+  --label-avehcfg-hydpwr: "水力";
+  --label-avehcfg-airpwr: "空力";
+  --label-avehcfg-fuel: "給油";
+  --label-avehcfg-water: "水";
+  --label-avehcfg-fcposn: "特定のEFCSポジション";
+  --label-issueNo: "発行番号";
+  --label-publisher: "パブリッシャ";
+  --label-manufacturer: "製造業者";
+  --label-documentTitle: "ドキュメントタイトル";
+  --label-dataModuleCode: "データモジュールコード";
+  --label-issueDate: "発行日";
+  --label-noOfPages: "ページ数";
+  --label-fm-applic: "適用先";
+  --label-loedm-generate-row1-part1: "リストされたドキュメントは発行に含まれています ";
+  --label-loedm-generate-row1-part2: "、日付 ";
+  --label-loedm-generate-row1-part3: "、このパブリケーションのものです。";
+  --label-loedm-generate-row2: "C = 変更されたデータモジュール";
+  --label-loedm-generate-row3: "N = 新しいデータモジュール";
+  --label-reason-for-update: "更新の理由";
+  --label-updating-instruction: "指示を更新";
+  --label-high-table: "除去または挿入されるデータモジュール";
+  --label-high-generate-row1: "テーブル1にリストされているデータモジュールを除去または挿入します。";
+  --label-high-generate-row2: "I = データモジュールを挿入";
+  --label-high-generate-row3: "R = データモジュールを除去";
+}

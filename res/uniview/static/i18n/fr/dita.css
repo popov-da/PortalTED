@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "AVERTISSEMENT" ":" " ";
+}
+.cautiontitle:before {
+  content: "ATTENTION" ":" " ";
+}
+.dangertitle:before {
+  content: "DANGER" ":" " ";
+}
+.notetitle:before {
+  content: "Note" ":" " ";
+}
+.notestitle:before {
+  content: "Notes" ":" " ";
+}
+.tiptitle:before {
+  content: "Pointe" ":" " ";
+}
+.fastpathtitle:before {
+  content: "Chemin rapide" ":" " ";
+}
+.importanttitle:before {
+  content: "Important" ":" " ";
+}
+.attentiontitle:before {
+  content: "Attention" ":" " ";
+}
+.remembertitle:before {
+  content: "Rappel" ":" " ";
+}
+.restrictiontitle:before {
+  content: "Restriction" ":" " ";
+}
+.noticetitle:before {
+  content: "Avis" ":" " ";
+}
+.troubletitle:before {
+  content: "Problème" ":" " ";
+}

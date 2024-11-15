@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+    ata2200.less
+*/
+:root {
+  --label-ipd: 'CATALOGO PARTI ILLUSTRATO';
+  --label-effect: "EFFETTIVITÀ";
+  --label-effect-all: "Tutto";
+  --label-intro: "INTRODUZIONE";
+  --label-sb-list: "ELENCO SB";
+  --label-page: "Pagina";
+  --label-dpl-tfoot: "- ITEM NON ILLUSTRATO";
+  --label-january: "Gen";
+  --label-february: "Feb";
+  --label-march: "Mar";
+  --label-april: "Apr";
+  --label-may: "Mag";
+  --label-june: "Giu";
+  --label-july: "Lug";
+  --label-august: "Ago";
+  --label-september: "Set";
+  --label-october: "Ott";
+  --label-november: "Nov";
+  --label-december: "Dec";
+  --label-blankPageCenter: "INTENZIONALMENTE VUOTO";
+  --label-figure: "Figura";
+  --label-sheet: "Foglio";
+  --label-task: "ATTIVITÀ";
+  --label-subtask: "SOTTOATTIVITÀ";
+  --label-warning: "AVVISO";
+  --label-caution: "ATTENZIONE";
+  --label-note: "NOTA";
+  --label-ColonSymbol: ":";
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+    rwi.less
+*/
+.note .skin-modal-title:before {
+  content: "메모";
+}
+.caution .skin-modal-title:before {
+  content: "주의";
+}
+.warning .skin-modal-title:before {
+  content: "경고";
+}
+:root {
+  --label-jobCode: "작업 코드";
+  --label-summary: "요약";
+  --label-workType: "작업 유형";
+  --label-role: "역할";
+  --label-expTime: "예상 시간";
+  --label-workCell: "작업 셀";
+  --label-preJob: "이전 업무";
+  --label-postJob: "다음 업무";
+  --label-workOrder: "작업 순서";
+  --label-revision: "수정";
+  --label-preq: "전제조건";
+  --label-billOfMaterial: "부품 목록";
+  --label-resources: "리소스";
+  --label-altpnr: "대체 부품 번호";
+  --label-pnr: "부품 번호";
+  --label-desc: "설명";
+  --label-qty: "수량";
+  --label-job: "작업";
+  --label-no: "№";
+  --label-task: "타스크";
+  --label-illustration: "그림";
+  --label-warning: "경고";
+  --label-caution: "주의";
+  --label-note: "메모";
+}

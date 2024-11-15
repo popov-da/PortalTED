@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "경고" ":" " ";
+}
+.cautiontitle:before {
+  content: "주의" ":" " ";
+}
+.dangertitle:before {
+  content: "위험" ":" " ";
+}
+.notetitle:before {
+  content: "메모" ":" " ";
+}
+.notestitle:before {
+  content: "메모" ":" " ";
+}
+.tiptitle:before {
+  content: "팁" ":" " ";
+}
+.fastpathtitle:before {
+  content: "단축 경로" ":" " ";
+}
+.importanttitle:before {
+  content: "중요" ":" " ";
+}
+.attentiontitle:before {
+  content: "주의" ":" " ";
+}
+.remembertitle:before {
+  content: "기억" ":" " ";
+}
+.restrictiontitle:before {
+  content: "제한" ":" " ";
+}
+.noticetitle:before {
+  content: "알림" ":" " ";
+}
+.troubletitle:before {
+  content: "고장" ":" " ";
+}
+/*
+    tcsp_workcard.less
+*/
+[data-class~="taskreq-d/reqconds"]:before {
+  content: "필수 조건";
+}
+[data-class~="taskreq-d/reqpers"]:before {
+  content: "필수 담당자";
+}
+[data-class~="taskreq-d/supequip"]:before {
+  content: "지원 장비";
+}
+[data-class~="taskreq-d/supplies"]:before {
+  content: "소비재, 재료 및 소모품";
+}
+[data-class~="taskreq-d/spares"]:before {
+  content: "예비 부품";
+}
+[data-class~="taskreq-d/safety"]:before {
+  content: "안전 조건";
+}
+[data-class~="task/prereq"]:before {
+  content: "예비 요구사항";
+}
+[data-class~="task/postreq"]:before {
+  content: "작업 완료 후 요구사항";
+}
+[data-class~="task/steps"]:before {
+  content: "프로시저";
+}
+[data-class~="topic/related-links"]:before {
+  content: "참조";
+}
+[data-class~="taskreq-d/nosupeq"]:before,
+[data-class~="taskreq-d/nosupply"]:before,
+[data-class~="taskreq-d/nospares"]:before,
+[data-class~="taskreq-d/nosafety"]:before,
+[data-class~="taskreq-d/noconds"]:before {
+  content: "없음";
+}
+[data-outputclass~="section-frequency"]:before {
+  content: "빈도";
+}
+[data-outputclass~="section-category"]:before {
+  content: "카테고리";
+}
+[data-outputclass~="section-reqpers"]:before {
+  content: "필수 담당자";
+}

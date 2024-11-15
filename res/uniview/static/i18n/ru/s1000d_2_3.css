@@ -1,0 +1,600 @@
+@charset "utf-8";
+/*
+    s1000d_2_3.less
+*/
+.idstatus .issno[data-issuenumber]:before {
+  content: "Номер издания" ": ";
+}
+.idstatus .language[data-languageisocode]:before {
+  content: "Язык" ": ";
+}
+.idstatus .issdate[data-day]:before {
+  content: "Дата" ": ";
+}
+.pubcode:after {
+  content: attr(data-modelIdentCode) "-" attr(data-pmIssuer) "-" attr(data-pmNumber) "-" attr(data-pmVolume);
+}
+.issno[data-issuenumber]:after {
+  content: attr(data-issuenumber) "-" attr(data-inwork);
+}
+.language[data-languageisocode]:after {
+  content: attr(data-languageisocode) "-" attr(data-countryisocode);
+}
+.issdate[data-day]:after {
+  content: attr(data-day) "-" attr(data-month) "-" attr(data-year);
+}
+.firstver:after {
+  content: attr(data-verificationType);
+}
+.skill[data-skillCode]:after {
+  content: attr(data-skillCode);
+}
+.datarest:before {
+  content: "Ограничения по данным" ":";
+}
+.distrib:before {
+  content: "Распространение данных";
+}
+.expcont:before {
+  content: "Контроль экспорта";
+}
+.handling:before {
+  content: "Управление данными";
+}
+.destruct:before {
+  content: "Уничтожение данных";
+}
+.disclose:before {
+  content: "Раскрытие данных";
+}
+.copyright:before {
+  content: "Авторское право";
+}
+.dmRefAddressItems .infoname:before {
+  content: " - ";
+}
+.identno:before {
+  content: "";
+}
+.partAndSerialNumber:before {
+  content: "/";
+}
+.natoStockNumber:before {
+  content: "Номенклатурный номер НАТО" " ";
+}
+.serialNumber:before {
+  content: "Серийный номер" " " attr(data-serialNumberValue);
+}
+.customerStockNumber:before {
+  content: "Номенклатурный номер заказчика." " ";
+}
+.zone:before {
+  content: "Зона" " " attr(data-zoneNumber);
+}
+.accpnl:before,
+.accpnl[data-accessPointTypeValue="accpnl01"]:before {
+  content: "Люк" " " attr(data-accessPointNumber);
+}
+.accpnl[data-accessPointTypeValue="accpnl02"]:before {
+  content: "Панель" " " attr(data-accessPointNumber);
+}
+.accpnl[data-accessPointTypeValue="accpnl03"]:before {
+  content: "Электрощиток" " " attr(data-accessPointNumber);
+}
+.multimediaobject:before,
+.graphic:before {
+  content: "Рис." " " counter(figure) " ";
+}
+.graphic[data-sheets]:after {
+  content: " (" "Лист" " " counter(sheet) " " "из" " " attr(data-sheets) ")";
+}
+.multimediaobject[data-sheets]:after {
+  content: " (" "Мультимедиа" " " counter(sheet) " " "из" " " attr(data-sheets) ")";
+}
+.xref.irtt01:before {
+  content: "Рис." " " attr(data-figure);
+}
+.xref.irtt02:before {
+  content: "Таблица" " " attr(data-index);
+}
+.xref.irtt03:before {
+  content: "Рис." " " attr(data-figure);
+}
+.xref.irtt07:before {
+  content: "Параграф" " " attr(data-index);
+}
+.xref.irtt08:before {
+  content: "Шаг" " " attr(data-index);
+}
+.xref.irtt09:before {
+  content: "Рис." " " attr(data-figure) ", " "Лист" " " attr(data-sheet);
+}
+.xref.irtt10:before {
+  content: "Рис." " " attr(data-figure) ", " attr(data-multimediatype);
+}
+.xref.irtt11:before {
+  content: "Рис." " " attr(data-figure) " [" attr(data-referredfragment) "]";
+}
+#app-figure-title.multimediaobject:before,
+#app-figure-title.xref.irtt01:before,
+#app-figure-title.xref.irtt03:before,
+#app-figure-title.xref.irtt09:before,
+#app-figure-title.xref.irtt10:before,
+#app-figure-title.xref.irtt11:before,
+#app-figure-title.xref.irtt12:before,
+#app-figure-title.graphic:before {
+  content: "Рис." " " attr(data-index) " ";
+}
+#app-figure-title.graphic[data-subindexes]:after {
+  content: " (" "Лист" " " attr(data-subindex) " " "из" " " attr(data-subindexes) ")";
+}
+#app-figure-title.multimediaobject[data-subindexes]:after {
+  content: " (" "Мультимедиа" " " attr(data-subindex) " " "из" " " attr(data-subindexes) ")";
+}
+#app-figure-title.graphic[data-subindexes='']:after,
+#app-figure-title.multimediaobject[data-subindexes='']:after {
+  content: none;
+}
+.personnel .numRequired[data-value]:before {
+  content: attr(data-value) " " "чел.";
+}
+.personnel .numRequired[data-value='1']:before {
+  content: attr(data-value) " " "чел.";
+}
+.personnel .numRequired[data-value='0']:before,
+.personnel .numRequired[data-value='']:before {
+  content: "По требованию";
+}
+.opndurn:before {
+  content: "Продолжительность задачи ТО";
+}
+.opndurn:after {
+  content: "Предварительные требования" " " attr(data-startupDuration) " " attr(data-unitOfMeasure) "\000a" "Основные работы" " " attr(data-procedureDuration) " " attr(data-unitOfMeasure) "\000a" "Требования после завершения работ" " " attr(data-closeupDuration) " " attr(data-unitOfMeasure);
+}
+.externalPubCode:before {
+  content: attr(data-pubCodingScheme);
+}
+.externalPubIssueInfo:before {
+  content: "Редакция:" " ";
+}
+/* Centerhead2 titles */
+.mainfunc:before {
+  content: "Основные работы";
+}
+.content > .descript:before {
+  content: "Описание";
+}
+.schedule:before {
+  content: "Планирование технического обслуживания";
+}
+.isolationMainProcedure:before {
+  content: "Процедура поиска и устранения неисправности";
+}
+.descacrw:before {
+  content: "Руководство для экипажа/эксплуатирующего персонала";
+}
+.commonRepository:before {
+  content: "Общий информационный репозиторий";
+}
+.faultReporting:before {
+  content: "Отчет по неисправности";
+}
+.detect:before {
+  content: "Сведения об обнаружении неисправности";
+}
+.content > .refs:before {
+  content: "Ссылки";
+}
+.prelreqs:before {
+  content: "Предварительные требования";
+}
+.closereqs:before {
+  content: "Требования после завершения работ";
+}
+/* sidehead0 titles */
+.cautionRepository:before {
+  content: "Репозиторий предостережений";
+}
+.toollist:before {
+  content: "Репозиторий инструментов";
+}
+.controlIndicatorRepository:before {
+  content: "Репозиторий элементов управления и индикаторов";
+}
+.functionalPhysicalAreaRepository:before {
+  content: "Репозиторий функциональных и/или физических областей";
+}
+.warningRepository:before {
+  content: "Репозиторий предупреждений";
+}
+.zobelist:before {
+  content: "Репозиторий зон";
+}
+.partlist:before {
+  content: "Репозиторий деталей";
+}
+.einlist:before {
+  content: "Репозиторий функциональных элементов";
+}
+/* Warning, Caution, Note */
+.warning:before {
+  content: "ПРЕДУПРЕЖДЕНИЕ";
+}
+.caution:before {
+  content: "ВНИМАНИЕ";
+}
+.note:before {
+  content: "Примечание";
+}
+/* Sidehead0 titles */
+.pmd:before {
+  content: "Данные для планирования задачи ТО";
+}
+.reqconds:before {
+  content: "Требуемые условия";
+}
+.supequip:before {
+  content: "Вспомогательное оборудование";
+}
+.supplies:before {
+  content: "Расходные материалы";
+}
+.reqTechInfoGroup:before {
+  content: "Требуемые технические сведения";
+}
+.spares:before {
+  content: "Запасные части";
+}
+.safety:before {
+  content: "Меры безопасности";
+}
+.reqpers:before {
+  content: "Необходимый персонал";
+}
+.workAreaLocationGroup:before {
+  content: "Участок проведения задачи ТО";
+}
+/* None keyword */
+.nosupeq:before,
+.nosupply:before,
+.nospares:before,
+.nosafety:before,
+.noconds:before {
+  content: "Не применяется";
+}
+/* Tables */
+.table-contents > .title:before {
+  content: "Таблица" " " counter(table) " ";
+}
+.content > .refs > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Ссылки";
+}
+.reqconds > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Требуемые условия";
+}
+.reqpers > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Необходимый персонал";
+}
+.supequip > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Вспомогательное оборудование";
+}
+.supplies > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Расходные материалы";
+}
+.spares > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Запасные части";
+}
+.header > .name:before {
+  content: "Наименование";
+}
+.header > .ident:before {
+  content: "Идентификация/Ссылка";
+}
+.header > .qty:before {
+  content: "Количество";
+}
+.header > .remark:before {
+  content: "Примечание";
+}
+.header > .condition:before {
+  content: "Действие/Условие";
+}
+.header > .publication:before {
+  content: "Модуль данных/Техническая публикация";
+}
+.header > .title:before {
+  content: "Название";
+}
+.header > .person:before {
+  content: "Персонал";
+}
+.header > .category:before {
+  content: "Категория";
+}
+.header > .skill:before {
+  content: "Уровень квалификации";
+}
+.header > .trade:before {
+  content: "Специальность/Код специальности";
+}
+.header > .time:before {
+  content: "Планируемое время";
+}
+.dmodule:after {
+  content: "Конец модуля данных";
+}
+.status .security[data-securityClassification]:before {
+  content: "Гриф секретности" " " attr(data-securityClassification);
+}
+.status .security[data-securityClassification="01"]:before {
+  content: "НЕСЕКРЕТНО";
+}
+.status .security[data-securityClassification="02"]:before {
+  content: "ДЛЯ СЛУЖЕБНОГО ПОЛЬЗОВАНИЯ";
+}
+.status .security[data-securityClassification="03"]:before {
+  content: "КОНФИДЕНЦИАЛЬНО";
+}
+.status .security[data-securityClassification="04"]:before {
+  content: "СЕКРЕТНО";
+}
+.status .security[data-securityClassification="05"]:before {
+  content: "СОВЕРШЕННО СЕКРЕТНО";
+}
+.status .rpc:before {
+  content: "Ответственная компания-контрагент" ": " attr(data-enterpriseCode) " / ";
+}
+.status .orig:before {
+  content: "Разработчик" ": " attr(data-enterpriseCode) " / ";
+}
+.applicCrossRefTableRef:before {
+  content: "Модуль данных ACT" ": ";
+}
+.status > .applic:before {
+  content: "Применимость" ": ";
+}
+.techstd:before {
+  content: "Технический стандарт" ":";
+}
+.brexref:before {
+  content: "Модуль данных BREX" ": ";
+}
+.unverif:before {
+  content: "Непроверенный";
+}
+.firstver:before {
+  content: "Первая проверка" ": ";
+}
+.secver:before {
+  content: "Вторая проверка" ": ";
+}
+.sbc:before {
+  content: "Код разбиения системы" ": ";
+}
+.rfu:before {
+  content: "Причина обновления" ": ";
+}
+.skill:before {
+  content: "Уровень квалификации" ": ";
+}
+.skill[data-skillCode="sk01"]:after {
+  content: "Базовый";
+}
+.skill[data-skillCode="sk02"]:after {
+  content: "Средний";
+}
+.skill[data-skillCode="sk03"]:after {
+  content: "Продвинутый";
+}
+.csnref:before {
+  content: "CSN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.csnref[data-systemCode]:before {
+  content: "CSN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.csnref[data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.csnref[data-systemCode][data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.reqQuantity[data-unitOfMeasure]:after {
+  content: " " attr(data-unitOfMeasure);
+}
+.materialSetRef:before {
+  content: attr(data-materialSetIdent) " " attr(data-materialSetIssue);
+}
+.natoStockNumber [data-natoSupplyClass] [data-natoCodificationBureau] [data-natoItemIdentNumberCore]:after {
+  content: attr(data-natoSupplyClass) "-" attr(data-natoCodificationBureau) "-" attr(data-natoItemIdentNumberCore);
+}
+.nsn:before {
+  content: "Номенклатурный номер НАТО" " ";
+}
+:root {
+  --label-colonSymbol: ":";
+  --label-page: "Стр.";
+  --label-endOfDataModule: "Конец модуля данных";
+  --label-blankPageCenter: "Страница преднамеренно оставлена пустой";
+  --label-security-01: "Несекретно";
+  --label-security-02: "Для служебного пользования";
+  --label-security-03: "Конфиденциально";
+  --label-security-04: "Секретно";
+  --label-security-05: "Совершенно секретно";
+  --label-security-default: "Гриф секретности";
+  --label-HF-applic: "Действительно";
+  --label-applic-all: "Все";
+  --label-IPD-infoname: "Иллюстрированный каталог деталей";
+  --label-TOC: "Содержание";
+  --label-LOF: "Список иллюстраций";
+  --label-LOT: "Список таблиц";
+  --label-references: "Ссылки";
+  --label-commonInfo: "Общие сведения";
+  --label-thresholdInterval: "Пороговый интервал";
+  --label-preliminaryRqmts: "Предварительные требования";
+  --label-mainProcedure: "Основные работы";
+  --label-closeRqmts: "Требования после завершения работ";
+  --label-description: "Описание";
+  --label-crewRefCard: "Контрольная карта";
+  --label-reqCondGroup: "Требуемые условия";
+  --label-reqPersons: "Необходимый персонал";
+  --label-reqTechInfoGroup: "Требуемые технические сведения";
+  --label-reqSupportEquips: "Вспомогательное оборудование";
+  --label-reqSupplies: "Расходные материалы";
+  --label-reqSpares: "Запасные части";
+  --label-faultCode: "Код отказа";
+  --label-faultCodes: "Коды неисправности";
+  --label-faultDescription: "Описание отказа";
+  --label-possibleCauses: "Возможные причины";
+  --label-productCrossRefTable: "Перекрестная таблица изделий";
+  --label-applicCrossRefTable: "Таблица перекрестных ссылок по применимости";
+  --label-from: "от";
+  --label-of: "из";
+  --label-continued: "Продолжение";
+  --label-figure: "Рис.";
+  --label-table: "Таблица";
+  --label-multimedia: "Рис.";
+  --label-para: "Параграф";
+  --label-step: "Шаг";
+  --label-sheet: "Лист";
+  --label-zone: "Зона";
+  --label-zones: "Зоны";
+  --label-accessPoint: "Точка доступа";
+  --label-accessPoints: "Точки доступа";
+  --label-workLocation: "Место работы";
+  --label-workLocations: "Места работы";
+  --label-partno: "Номер детали";
+  --label-item: "Поз.";
+  --label-CSN: "CSN";
+  --label-CSNISN: "CSN/ISN";
+  --label-materialSet: "Набор";
+  --label-legend: "Легенда к Рис.";
+  --label-cbActionOpen: "Открыть";
+  --label-cbActionClose: "Закрыть";
+  --label-header-cb-name: "Наименование";
+  --label-header-cb: "АЗС";
+  --label-header-cb-location: "Расположение";
+  --label-remarks: "Примечания";
+  --label-action: "Действие";
+  --label-condition: "Условие";
+  --label-data-module: "Модуль данных";
+  --label-technical-publication: "Техническая публикация";
+  --label-document-number: "Номер документа";
+  --label-title: "Название";
+  --label-category: "Категория";
+  --label-person: "Персонал";
+  --label-personCategory: "Категория";
+  --label-personSkill: "Уровень квалификации";
+  --label-trade: "Специальность/Код специальности";
+  --label-estimatedTime: "Планируемое время";
+  --label-persons: "чел.";
+  --label-person-inline: "чел.";
+  --label-as-required: "По требованию";
+  --label-man: "Специалист";
+  --label-name: "Наименование";
+  --label-identification: "Идентификация";
+  --label-reference: "Ссылка";
+  --label-quantity: "Количество";
+  --label-accessPoint-accpnl01: "Люк доступа";
+  --label-accessPoint-accpnl02: "Панель";
+  --label-accessPoint-accpnl03: "Электрическая панель";
+  --label-thresholdInterval-th01: "Летные часы";
+  --label-thresholdInterval-th02: "Взлетно-посадочные циклы";
+  --label-thresholdInterval-th03: "Месяцы";
+  --label-thresholdInterval-th04: "Недели";
+  --label-thresholdInterval-th05: "Годы";
+  --label-thresholdInterval-th06: "Дни";
+  --label-thresholdInterval-th07: "Взлетно-посадочные циклы в сверхзвуковом режиме";
+  --label-thresholdInterval-th08: "Циклы изменения давления";
+  --label-thresholdInterval-th09: "Циклы двигателя";
+  --label-thresholdInterval-th10: "Замена двигателя";
+  --label-thresholdInterval-th11: "Пребывание в цехе";
+  --label-thresholdInterval-th12: "Замена ВСУ";
+  --label-thresholdInterval-th13: "Замена шасси";
+  --label-thresholdInterval-th14: "Замена колеса";
+  --label-thresholdInterval-th15: "Запуск двигателя";
+  --label-thresholdInterval-th16: "Наработанные часы ВСУ";
+  --label-thresholdInterval-th17: "Часы наработки двигателя";
+  --label-thresholdInterval-th18: "Наработанные часы";
+  --label-thresholdInterval-th19: "Посадки";
+  --label-thresholdInterval-th20: "Циклы эксплуатации";
+  --label-thresholdInterval-th21: "Часы эксплуатации";
+  --label-thresholdInterval-th22: "Наработанные часы в сверхзвуковом режиме";
+  --label-thresholdInterval-th23: "Проверка 'A'";
+  --label-thresholdInterval-th24: "Проверка 'B'";
+  --label-thresholdInterval-th25: "Проверка 'C'";
+  --label-thresholdInterval-th26: "Проверка 'D'";
+  --label-thresholdInterval-th27: "Ежедневно";
+  --label-thresholdInterval-th28: "Проверка 'E'";
+  --label-thresholdInterval-th29: "На следующие сутки";
+  --label-thresholdInterval-th30: "Перед полетом";
+  --label-thresholdInterval-th31: "Обычная проверка";
+  --label-thresholdInterval-th32: "Конструктивная проверка 'C'";
+  --label-thresholdInterval-th33: "Сервисная проверка";
+  --label-thresholdInterval-th34: "Транзит";
+  --label-thresholdInterval-th35: "Километры";
+  --label-thresholdInterval-th36: "Потребление в куб. метрах";
+  --label-thresholdInterval-th37: "Потребление в литрах";
+  --label-thresholdInterval-th38: "Количество выстрелов - отдельно";
+  --label-thresholdInterval-th39: "Количество выстрелов - приведенный заряд (EFC)";
+  --label-installationLocationType-02: "Раздел";
+  --label-installationLocationType-03: "Узел подвески";
+  --label-installationLocationType-04: "Ватерлиния";
+  --label-installationLocationType-05: "Кормовой батокс";
+  --label-productItemType-01: "Шпангоут";
+  --label-productItemType-02: "Нервюра";
+  --label-productItemType-03: "Стрингер";
+  --label-reqTechInfoCategory-01: "Модуль публикации";
+  --label-reqTechInfoCategory-02: "Модуль данных";
+  --label-reqTechInfoCategory-03: "Чертеж";
+  --label-reqTechInfoCategory-04: "Электрическая схема";
+  --label-reqTechInfoCategory-05: "Принципиальная схема";
+  --label-reqTechInfoCategory-06: "Лист безопаскности";
+  --label-skillLevelCode-01: "Базовый";
+  --label-skillLevelCode-02: "Средний";
+  --label-skillLevelCode-03: "Продвинутый";
+  --label-learningAssessment: "Оценка обучения";
+  --label-learningSummary: "Сводки по обучению";
+  --label-learningContent: "Содержимое обучения";
+  --label-learningOverview: "Обзор обучения";
+  --label-questions: "Вопросы";
+  --label-avehcfg: "Требуемые базовые условия";
+  --label-avehcfg-status-yes: "Требуется";
+  --label-avehcfg-status-no: "Запрещено";
+  --label-avehcfg-status-indiffer: "Безралично";
+  --label-avehcfg-status-na: "Не применимо";
+  --label-avehcfg-power-engine: "Двигатель";
+  --label-avehcfg-power-apu: "ВСУ";
+  --label-avehcfg-power-external: "Внешний";
+  --label-avehcfg-power-internal: "Внутренний";
+  --label-avehcfg-power-indifferent: "Безралично";
+  --label-avehcfg-power-notapplic: "Не применимо";
+  --label-avehcfg-status: "Состояние";
+  --label-avehcfg-power: "Источник энергии";
+  --label-avehcfg-jacked: "На домкратах";
+  --label-avehcfg-safedev: "Установлены предохранительные устройства";
+  --label-avehcfg-elecpwr: "Источник электрической энергии";
+  --label-avehcfg-hydpwr: "Источник гидравлической энергии";
+  --label-avehcfg-airpwr: "Источник пневматической энергии";
+  --label-avehcfg-fuel: "Заправка";
+  --label-avehcfg-water: "Вода";
+  --label-avehcfg-fcposn: "Органы управления";
+  --label-issueNo: "Издание";
+  --label-publisher: "Издатель";
+  --label-manufacturer: "Изготовитель";
+  --label-documentTitle: "Название документа";
+  --label-dataModuleCode: "Код модуля данных";
+  --label-issueDate: "Дата издания";
+  --label-noOfPages: "Число стр.";
+  --label-fm-applic: "Действительно";
+  --label-loedm-generate-row1-part1: "Перечень документов, включенных в публикацию, издание ";
+  --label-loedm-generate-row1-part2: ", дата ";
+  --label-loedm-generate-row1-part3: ".";
+  --label-loedm-generate-row2: "C = Измененный модуль данных";
+  --label-loedm-generate-row3: "N = Новый модуль данных";
+  --label-reason-for-update: "Причина обновления";
+  --label-updating-instruction: "Инструкция по обновлению";
+  --label-high-table: "Список модулей данных, требующих добавления или удаления";
+  --label-high-generate-row1: "Список добавленных или удаленных модулей данных представлен в Таблице 1.";
+  --label-high-generate-row2: "I = Вставить модуль данных";
+  --label-high-generate-row3: "R = Удалить модуль данных";
+}

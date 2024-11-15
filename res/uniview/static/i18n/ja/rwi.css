@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+    rwi.less
+*/
+.note .skin-modal-title:before {
+  content: "NOTE";
+}
+.caution .skin-modal-title:before {
+  content: "CAUTION";
+}
+.warning .skin-modal-title:before {
+  content: "WARNING";
+}
+:root {
+  --label-jobCode: "ジョブコード";
+  --label-summary: "サマリ";
+  --label-workType: "作業タイプ";
+  --label-role: "ロール";
+  --label-expTime: "予想時間";
+  --label-workCell: "作業セル";
+  --label-preJob: "前のジョブ";
+  --label-postJob: "次のジョブ";
+  --label-workOrder: "作業指示書";
+  --label-revision: "リビジョン";
+  --label-preq: "PREREQUISITES";
+  --label-billOfMaterial: "PARTS LIST";
+  --label-resources: "RESOURCES";
+  --label-altpnr: "代替パート番号";
+  --label-pnr: "パート番号";
+  --label-desc: "説明";
+  --label-qty: "数量";
+  --label-job: "JOB";
+  --label-no: "№";
+  --label-task: "タスク";
+  --label-illustration: "イラスト";
+  --label-warning: "WARNING";
+  --label-caution: "CAUTION";
+  --label-note: "NOTE";
+}

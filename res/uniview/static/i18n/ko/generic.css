@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*
+    generic.less
+*/
+.note:before {
+  content: "메모";
+}
+.caution:before {
+  content: "주의";
+}
+.warning:before {
+  content: "경고";
+}

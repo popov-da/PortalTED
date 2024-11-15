@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.skin-modal-title .default-title {
+  display: none;
+}
+.skin-modal-title .warning-title:before {
+  content: "ПРЕДОСТЕРЕЖЕНИЕ";
+}
+.skin-modal-title .caution-title:before {
+  content: "ВНИМАНИЕ";
+}
+.skin-modal-title .danger-title:before {
+  content: "ОПАСНО";
+}
+.skin-modal-title .note-title:before {
+  content: "ПРИМЕЧАНИЕ";
+}
+.skin-modal-title .notes-title:before {
+  content: "ПРИМЕЧАНИЯ";
+}
+.skin-modal-title .tip-title:before {
+  content: "СОВЕТ";
+}
+.skin-modal-title .fastpath-title:before {
+  content: "БЫСТРЫЙ ПУТЬ";
+}
+.skin-modal-title .important-title:before {
+  content: "ВАЖНОЕ ЗАМЕЧАНИЕ";
+}
+.skin-modal-title .attention-title:before {
+  content: "ВНИМАНИЕ";
+}
+.skin-modal-title .remember-title:before {
+  content: "НАПОМИНАНИЕ";
+}
+.skin-modal-title .restriction-title:before {
+  content: "ОГРАНИЧЕНИЕ";
+}
+.skin-modal-title .notice-title:before {
+  content: "ЗАМЕЧАНИЕ";
+}
+.skin-modal-title .trouble-title:before {
+  content: "ЗАТРУДНЕНИЕ";
+}

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ipc>
+<figure>
+<doc-file>DMC-MTPA-A-G1-41-01-010-941A-A_001-01_ru-RU.xml</doc-file>
+<metadata>
+<value id="16817b619d0" name="infoCode" decl-id="IC" type="string" changed="0" revst="U"><![CDATA[941]]></value>
+<value id="16817b60350" name="infoCodeVariant" decl-id="ICV" type="string" changed="0" revst="U"><![CDATA[A]]></value>
+<value id="16817b60250" name="itemLocationCode" decl-id="ILC" type="string" changed="0" revst="U"><![CDATA[A]]></value>
+<value id="16817b60450" name="$ICNMethod" decl-id="ICNMETHOD" type="string" changed="0" revst="U"><![CDATA[MI]]></value>
+<value id="16817b60950" name="issueType" decl-id="ISSUE_TYPE" type="string" changed="0" revst="U"><![CDATA[new]]></value>
+<value id="16817b602d0" name="issueNumber" decl-id="ISSUE_NO" type="integer" changed="0" revst="U"><![CDATA[1]]></value>
+<value id="16817b601d0" name="inWork" decl-id="ISSUE_REVNO" type="integer" changed="0" revst="U"><![CDATA[1]]></value>
+<value id="16817b60cd0" name="$Schema" decl-id="SCHEMA" type="string" changed="0" revst="U"><![CDATA[ipd]]></value>
+<value id="16817b61a50" name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string" changed="0" revst="U"><![CDATA[S1000D_4-1]]></value>
+<value id="16817b61550" name="securityClassification" decl-id="SECCLASS" type="integer" changed="0" revst="U"><![CDATA[1]]></value>
+<value id="16817b618d0" name="ICN" decl-id="ICN" type="string" changed="0" revst="U"><![CDATA[ICN-MTPA-A-G14101-0-00000-00003-A-001-01]]></value>
+<value id="16817b60f50" name="modelIdentCode" decl-id="MI" type="string" changed="0" revst="U"><![CDATA[MTPA]]></value>
+<value id="16817b62050" name="systemDiffCode" decl-id="SDC" type="string" changed="0" revst="U"><![CDATA[A]]></value>
+<value id="16817b61650" name="systemCode" decl-id="SYSTEM" type="string" changed="0" revst="U"><![CDATA[G1]]></value>
+<value id="16817b615d0" name="subSystem" decl-id="SUBSYSTEM" type="string" changed="0" revst="U"><![CDATA[41]]></value>
+<value id="16817b612d0" name="assyCode" decl-id="UNIT" type="string" changed="0" revst="U"><![CDATA[01]]></value>
+<value id="16817b603d0" name="disassyCodeVariant" decl-id="DCV" type="string" changed="0" revst="U"><![CDATA[0]]></value>
+<value id="16817b61ad0" name="disassyCode" decl-id="DC" type="string" changed="0" revst="U"><![CDATA[01]]></value>
+<value id="16817b608d0" name="Language" decl-id="LANG" type="string" changed="0" revst="U"><![CDATA[ru]]></value>
+<value id="16817b604d0" name="infoName" decl-id="INFONAME" type="string" changed="0" revst="U"><![CDATA[Иллюстрированный каталог деталей]]></value>
+<value id="16817b61050" name="techName" decl-id="TITLE" type="string" changed="0" revst="U"><![CDATA[Камера]]></value>
+<value id="16817b611d0" name="Country" decl-id="COUNTRY" type="string" changed="0" revst="U"><![CDATA[RU]]></value>
+<value id="16817b61350" name="originator" decl-id="ORIGINATOR" type="string" changed="0" revst="U"><![CDATA[МОДУЛЬ МКД]]></value>
+<value id="16817b60550" name="responsiblePartnerCompany" decl-id="RPC" type="string" changed="0" revst="U"><![CDATA[МОДУЛЬ МКД]]></value>
+<value id="16817b61850" name="issueDate" decl-id="ISSUE_DATE" type="string" changed="0" revst="U"><![CDATA[20240613]]></value>
+<value id="16817b61e50" name="applicDescription" decl-id="APPLIC_DESCR" type="string" changed="0" revst="U"><![CDATA[ВСЕ]]></value>
+<value id="16817b605d0" name="qualityAssurance" decl-id="QA" type="string" changed="0" revst="U"><![CDATA[unverified]]></value>
+<value id="16817b609d0" name="originatorCode" decl-id="ORIGINATORCODE" type="string" changed="0" revst="U"><![CDATA[MDMKD]]></value>
+<value id="16817b606d0" name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string" changed="0" revst="U"><![CDATA[MDMKD]]></value>
+<value id="16825edd8b0" name="languageCode" decl-id="LGE" type="string" changed="0" revst="U"><![CDATA[ru]]></value>
+</metadata>
+<media src="ICN-MTPA-A-G14101-0-00000-00003-A-001-01.wrl" id="1" type="vm/vrml">
+<value name="IllustrationType" type="string"><![CDATA[0]]></value>
+<value name="3DFramePosition" type="string"><![CDATA[Left]]></value>
+<value name="3DFrameSize" type="string"><![CDATA[50]]></value>
+<value name="3DBackgroundColor" type="color"><![CDATA[#F4F4F4]]></value>
+<value name="3DSelectedColor" type="color"><![CDATA[#3152BA]]></value>
+<value name="TableBackgroundColor" type="color"><![CDATA[#F4F4F4]]></value>
+<value name="TableTextColor" type="color"><![CDATA[#131A22]]></value>
+<value name="TableBackgroundColorSel" type="color"><![CDATA[#3152BA]]></value>
+<value name="TableBackgroundColorHL" type="color"><![CDATA[#98A8DC]]></value>
+<value name="TableBackgroundColorHLNotIll" type="color"><![CDATA[#D5CDC3]]></value>
+<value name="TableInactiveTextColor" type="color"><![CDATA[#858D98]]></value>
+<value name="2DSelectedColor" type="color"><![CDATA[#3152BA]]></value>
+<value name="2DHighLightColor" type="color"><![CDATA[#3152BA]]></value>
+<value name="ContextMenuBackgroundColor" type="color"><![CDATA[#F4F4F4]]></value>
+<value name="RemoveSpace" type="boolean"><![CDATA[No]]></value>
+<value name="SimplifyFloats" type="boolean"><![CDATA[No]]></value>
+<value name="CoordinateResolution" type="string"><![CDATA[0]]></value>
+<value name="TooltipFormat" type="string"><![CDATA[CSN: %[ITEM]%[ITEMVAR]/%[ISN]]]></value>
+<value name="EncodeRes" type="boolean"><![CDATA[Yes]]></value>
+<value name="S1000DRDFMetadata" type="boolean"><![CDATA[No]]></value>
+<value name="PDFPublish" type="boolean"><![CDATA[Yes]]></value>
+<value name="ShowThrustLines" type="boolean"><![CDATA[Yes]]></value>
+<value name="PublicPath" type="string">
+</value>
+<value name="SingleHTMLBundle" type="boolean"><![CDATA[No]]></value>
+<value name="UseSVGFilesOnly" type="boolean"><![CDATA[No]]></value>
+<value name="KeepSurfaceEdges" type="boolean"><![CDATA[Yes]]></value>
+<value name="UseViewerBundle" type="string"><![CDATA[0]]></value>
+<value name="UseMultimediaBundle" type="string"><![CDATA[0]]></value>
+<value name="UseCompressedSVG" type="boolean"><![CDATA[No]]></value>
+<value name="iOSViewpointTransitionMode" type="string"><![CDATA[0]]></value>
+<value name="ShowAxes" type="boolean"><![CDATA[Yes]]></value>
+<value name="DisableHTMLCreation" type="boolean"><![CDATA[No]]></value>
+<value name="InitialAmbientOcclusion" type="boolean"><![CDATA[No]]></value>
+<value name="InitialAntiAliasing" type="boolean"><![CDATA[Yes]]></value>
+<value name="InitialOutlineHoveredObjects" type="boolean"><![CDATA[No]]></value>
+<value name="InitialSelectionMode" type="string"><![CDATA[0]]></value>
+<value name="PublisherVersion" type="string"><![CDATA[14.2.0.353 (64-bit)]]></value>
+<value name="ModificationDate" type="string"><![CDATA[11/15/24]]></value>
+<value name="SpecID" type="string"><![CDATA[S1000D4_1_IPD]]></value>
+<value name="SpecVersion" type="string"><![CDATA[2.15]]></value>
+<value name="SpecLang" type="string"><![CDATA[ru]]></value>
+<value name="SpecClass" type="string"><![CDATA[IPC]]></value>
+<nodes>
+</nodes>
+</media>
+<media src="ICN-MTPA-A-G14101-0-00000-00004-A-001-01.svg" id="1680c029020" type="image/svg">
+<value name="Name"><![CDATA[ICN-MTPA-A-G14101-0-00000-00004-A-001-01]]></value>
+<value name="Description">
+</value>
+<value name="Flags"><![CDATA[40]]></value>
+</media>
+<dplist>
+<item id="1682bdea190" refPart="1680b896b00">
+<metadata>
+<value id="168162ac7e0" name="itemSeqNumberValue" decl-id="ISN" type="string" changed="0" revst="U"><![CDATA[00A]]></value>
+<value id="168162acce0" name="SEQNO" decl-id="SEQNO" type="integer" changed="0" revst="U"><![CDATA[2]]></value>
+<value id="168162afd60" name="$SEQ#" decl-id="_C5A98F4F1A494CF4997F33266C882889" type="integer" changed="0" revst="U"><![CDATA[0]]></value>
+<value id="168162ae8e0" name="notIllustrated" decl-id="NIL" type="boolean" changed="0" revst="U"><![CDATA[-1]]></value>
+<value id="168162aefe0" name="item" decl-id="ITEM" type="integer" changed="0" revst="U" role="3"><![CDATA[1]]></value>
+<value id="168162ae7e0" name="itemVariant" decl-id="ITEMVAR" type="string" changed="0" revst="U" role="4">
+</value>
+<value id="168162aede0" name="quantityPerNextHigherAssy" decl-id="QNA" type="string" changed="0" revst="U" role="6"><![CDATA[Д/С]]></value>
+<value id="168162af460" name="indenture" decl-id="IND" type="integer" changed="0" revst="U" role="5"><![CDATA[1]]></value>
+<value id="168162afce0" name="interchangeability" decl-id="ICY" type="string" changed="0" revst="U">
+</value>
+<value id="168162ae5e0" name="attachStoreShipPartCode" decl-id="ASP" type="integer" changed="0" revst="U"><![CDATA[0]]></value>
+</metadata>
+<tooltip><![CDATA[CSN: 1/00A]]></tooltip>
+<callout hotspot-id="_8B635E6A247D4B8D9F29BC8A6B9835BB">1</callout>
+<commands>
+<command id="1682bde9400" type="PNR" changed="0" revst="U">
+<value type="string" refMeta="16817b60650" name="Обозначение изделия"><![CDATA[G1-41-00]]></value>
+</command>
+<command id="1682bde95c0" type="DFP" changed="0" revst="U">
+<value type="integer" refMeta="168162af460" name="Отступ"><![CDATA[1]]></value>
+<value type="string" refMeta="16817b61b50" name="Описание детали"><![CDATA[Камера в сборе]]></value>
+</command>
+</commands>
+<refmedia ref="1">VPORT_P16-1MP-M12-CAM36_A;1_(4)_1154</refmedia>
+</item>
+<item id="1682bde96a0" refPart="1680b896dc0">
+<metadata>
+<value id="168162ae860" name="itemSeqNumberValue" decl-id="ISN" type="string" changed="0" revst="U"><![CDATA[00A]]></value>
+<value id="168162af160" name="SEQNO" decl-id="SEQNO" type="integer" changed="0" revst="U"><![CDATA[3]]></value>
+<value id="168162ae960" name="$SEQ#" decl-id="_C5A98F4F1A494CF4997F33266C882889" type="integer" changed="0" revst="U"><![CDATA[1]]></value>
+<value id="168162aeee0" name="notIllustrated" decl-id="NIL" type="boolean" changed="0" revst="U"><![CDATA[0]]></value>
+<value id="168162affe0" name="item" decl-id="ITEM" type="integer" changed="0" revst="U" role="3"><![CDATA[5]]></value>
+<value id="168162aee60" name="itemVariant" decl-id="ITEMVAR" type="string" changed="0" revst="U" role="4">
+</value>
+<value id="168162af5e0" name="quantityPerNextHigherAssy" decl-id="QNA" type="string" changed="0" revst="U" role="6"><![CDATA[1]]></value>
+<value id="168162af060" name="indenture" decl-id="IND" type="integer" changed="0" revst="U" role="5"><![CDATA[2]]></value>
+<value id="168162afde0" name="interchangeability" decl-id="ICY" type="string" changed="0" revst="U">
+</value>
+<value id="168162af260" name="attachStoreShipPartCode" decl-id="ASP" type="integer" changed="0" revst="U"><![CDATA[0]]></value>
+</metadata>
+<tooltip><![CDATA[CSN: 5/00A]]></tooltip>
+<callout hotspot-id="_447546BC0EB24467B0E72304B9AC88CF">5</callout>
+<commands>
+<command id="1682bdeb380" type="PNR" changed="0" revst="U">
+<value type="string" refMeta="16817b60ad0" name="Обозначение изделия"><![CDATA[VPORT P16-1MP-M12-CAM36]]></value>
+</command>
+<command id="1682bdec500" type="DFP" changed="0" revst="U">
+<value type="integer" refMeta="168162af060" name="Отступ"><![CDATA[2]]></value>
+<value type="string" refMeta="16817b60b50" name="Описание детали"><![CDATA[Камера]]></value>
+</command>
+</commands>
+<refmedia ref="1">Камера_1155</refmedia>
+</item>
+<item id="1682bde97f0" refPart="1680b896100">
+<metadata>
+<value id="168162aff60" name="itemSeqNumberValue" decl-id="ISN" type="string" changed="0" revst="U"><![CDATA[00A]]></value>
+<value id="168162ae660" name="SEQNO" decl-id="SEQNO" type="integer" changed="0" revst="U"><![CDATA[4]]></value>
+<value id="168162afa60" name="$SEQ#" decl-id="_C5A98F4F1A494CF4997F33266C882889" type="integer" changed="0" revst="U"><![CDATA[2]]></value>
+<value id="168162afe60" name="notIllustrated" decl-id="NIL" type="boolean" changed="0" revst="U"><![CDATA[0]]></value>
+<value id="168162ae560" name="item" decl-id="ITEM" type="integer" changed="0" revst="U" role="3"><![CDATA[10]]></value>
+<value id="168162afee0" name="itemVariant" decl-id="ITEMVAR" type="string" changed="0" revst="U" role="4">
+</value>
+<value id="168162aef60" name="quantityPerNextHigherAssy" decl-id="QNA" type="string" changed="0" revst="U" role="6"><![CDATA[4]]></value>
+<value id="168162ae9e0" name="indenture" decl-id="IND" type="integer" changed="0" revst="U" role="5"><![CDATA[2]]></value>
+<value id="168162afae0" name="interchangeability" decl-id="ICY" type="string" changed="0" revst="U">
+</value>
+<value id="168162af2e0" name="attachStoreShipPartCode" decl-id="ASP" type="integer" changed="0" revst="U"><![CDATA[1]]></value>
+</metadata>
+<tooltip><![CDATA[CSN: 10/00A]]></tooltip>
+<callout hotspot-id="_CEEF704471CA46F3917262A379EA1E22">10</callout>
+<commands>
+<command id="1682bdeb770" type="PNR" changed="0" revst="U">
+<value type="string" refMeta="16817b61ed0" name="Обозначение изделия"><![CDATA[3-50-4 ОСТ 20156-10]]></value>
+</command>
+<command id="1682bdeb460" type="DFP" changed="0" revst="U">
+<value type="integer" refMeta="168162ae9e0" name="Отступ"><![CDATA[2]]></value>
+<value type="string" refMeta="16817b60750" name="Описание детали"><![CDATA[Винт]]></value>
+</command>
+</commands>
+<refmedia ref="1">VPORT_P16-1MP-M12-CAM36_A;1_5064_(4)_1166</refmedia>
+<refmedia ref="1">VPORT_P16-1MP-M12-CAM36_A;1_5019_(4)_1167</refmedia>
+<refmedia ref="1">VPORT_P16-1MP-M12-CAM36_A;1_5109_(4)_1168</refmedia>
+<refmedia ref="1">VPORT_P16-1MP-M12-CAM36_A;1_5154_(4)_1169</refmedia>
+</item>
+<item id="1682bde9da0" refPart="1680b896200">
+<metadata>
+<value id="168162af0e0" name="itemSeqNumberValue" decl-id="ISN" type="string" changed="0" revst="U"><![CDATA[00A]]></value>
+<value id="168162b00e0" name="SEQNO" decl-id="SEQNO" type="integer" changed="0" revst="U"><![CDATA[5]]></value>
+<value id="168162af360" name="$SEQ#" decl-id="_C5A98F4F1A494CF4997F33266C882889" type="integer" changed="0" revst="U"><![CDATA[3]]></value>
+<value id="168162b0060" name="notIllustrated" decl-id="NIL" type="boolean" changed="0" revst="U"><![CDATA[0]]></value>
+<value id="168162aea60" name="item" decl-id="ITEM" type="integer" changed="0" revst="U" role="3"><![CDATA[15]]></value>
+<value id="168162af9e0" name="itemVariant" decl-id="ITEMVAR" type="string" changed="0" revst="U" role="4">
+</value>
+<value id="168162afb60" name="quantityPerNextHigherAssy" decl-id="QNA" type="string" changed="0" revst="U" role="6"><![CDATA[1]]></value>
+<value id="168162ae260" name="indenture" decl-id="IND" type="integer" changed="0" revst="U" role="5"><![CDATA[2]]></value>
+<value id="168162af560" name="interchangeability" decl-id="ICY" type="string" changed="0" revst="U">
+</value>
+<value id="168162af3e0" name="attachStoreShipPartCode" decl-id="ASP" type="integer" changed="0" revst="U"><![CDATA[0]]></value>
+<value id="168162afbe0" name="SEQNO" decl-id="SEQNO" type="integer" changed="0" revst="U"><![CDATA[7]]></value>
+<value id="168162ae460" name="SEQNO" decl-id="SEQNO" type="integer" changed="0" revst="U"><![CDATA[9]]></value>
+</metadata>
+<tooltip><![CDATA[CSN: 15/00A]]></tooltip>
+<callout hotspot-id="_A29241A8AF9444ADAF64153665ACFFD2">15</callout>
+<commands>
+<command id="1682bdec420" type="PNR" changed="0" revst="U">
+<value type="string" refMeta="16817b60bd0" name="Обозначение изделия"><![CDATA[ПКИ.222.444.058]]></value>
+</command>
+<command id="1682bdeb690" type="DFP" changed="0" revst="U">
+<value type="integer" refMeta="168162ae260" name="Отступ"><![CDATA[2]]></value>
+<value type="string" refMeta="16817b610d0" name="Описание детали"><![CDATA[Крышка]]></value>
+</command>
+</commands>
+<refmedia ref="1">Крышка_1170</refmedia>
+</item>
+<item id="1682bde9e10" refPart="1680b896d00">
+<metadata>
+<value id="168162aeae0" name="itemSeqNumberValue" decl-id="ISN" type="string" changed="0" revst="U"><![CDATA[00A]]></value>
+<value id="168162afc60" name="SEQNO" decl-id="SEQNO" type="integer" changed="0" revst="U"><![CDATA[7]]></value>
+<value id="168162aec60" name="$SEQ#" decl-id="_C5A98F4F1A494CF4997F33266C882889" type="integer" changed="0" revst="U"><![CDATA[4]]></value>
+<value id="168162ae160" name="notIllustrated" decl-id="NIL" type="boolean" changed="0" revst="U"><![CDATA[0]]></value>
+<value id="168162af4e0" name="item" decl-id="ITEM" type="integer" changed="0" revst="U" role="3"><![CDATA[20]]></value>
+<value id="168162ae2e0" name="itemVariant" decl-id="ITEMVAR" type="string" changed="0" revst="U" role="4">
+</value>
+<value id="168162ae1e0" name="quantityPerNextHigherAssy" decl-id="QNA" type="string" changed="0" revst="U" role="6"><![CDATA[4]]></value>
+<value id="168162af8e0" name="indenture" decl-id="IND" type="integer" changed="0" revst="U" role="5"><![CDATA[2]]></value>
+<value id="168162af1e0" name="interchangeability" decl-id="ICY" type="string" changed="0" revst="U">
+</value>
+<value id="168162ae6e0" name="attachStoreShipPartCode" decl-id="ASP" type="integer" changed="0" revst="U"><![CDATA[1]]></value>
+</metadata>
+<tooltip><![CDATA[CSN: 20/00A]]></tooltip>
+<callout hotspot-id="_E9E7EB00ED2740549D39023DA58F4193">20</callout>
+<commands>
+<command id="1682bdec490" type="PNR" changed="0" revst="U">
+<value type="string" refMeta="16817b61150" name="Обозначение изделия"><![CDATA[3-50-4 ОСТ 20156-20]]></value>
+</command>
+<command id="1682bdec650" type="DFP" changed="0" revst="U">
+<value type="integer" refMeta="168162af8e0" name="Отступ"><![CDATA[2]]></value>
+<value type="string" refMeta="16817b613d0" name="Описание детали"><![CDATA[Винт]]></value>
+</command>
+</commands>
+<refmedia ref="1">Винт_1171</refmedia>
+<refmedia ref="1">Винт_1172</refmedia>
+<refmedia ref="1">Винт_1173</refmedia>
+<refmedia ref="1">Винт_1174</refmedia>
+</item>
+</dplist>
+<ipc-table>
+<table>
+<thead>
+<row>
+<entry>
+</entry>
+<entry column-id="FIG" width="3">
+<para><![CDATA[Рис.]]></para>
+</entry>
+<entry column-id="ITEM" width="4">
+<para><![CDATA[Поз.]]></para>
+</entry>
+<entry column-id="UPA" width="8">
+<para><![CDATA[Кол-во в
+сборочной
+единице
+/Единица
+поставки]]></para>
+</entry>
+<entry column-id="NCAGE" width="5">
+<para><![CDATA[CAGE]]></para>
+</entry>
+<entry column-id="PARTNUMBER" width="18">
+<para><![CDATA[Обозначение/
+Номенклатурный
+номер НАТО]]></para>
+</entry>
+<entry column-id="NOMENCLATURE" width="31">
+<para><![CDATA[Наименование]]></para>
+</entry>
+<entry column-id="UCA" width="11">
+<para><![CDATA[*Код приме-
+нимости
+•Версия/
+Применя-
+емость]]></para>
+</entry>
+<entry column-id="ICY" width="3">
+<para><![CDATA[Взаимо-
+заменя-
+емость
+(ICY)]]></para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row refItem="1682bdea190">
+<entry>
+<para>
+</para>
+</entry>
+<entry>
+<para><![CDATA[-  ]]></para>
+</entry>
+<entry>
+<para><![CDATA[   1]]></para>
+</entry>
+<entry>
+<para><![CDATA[Д/С ]]></para>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+<entry>
+<cmdtext refCmd="1682bde9400"><![CDATA[G1-41-00]]></cmdtext>
+</entry>
+<entry>
+<cmdtext refCmd="1682bde95c0"><![CDATA[Камера в сборе                 ]]></cmdtext>
+</entry>
+<entry>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+</row>
+<row refItem="1682bde96a0">
+<entry>
+<para><![CDATA[
+]]></para>
+</entry>
+<entry>
+<para><![CDATA[   ]]></para>
+</entry>
+<entry>
+<para><![CDATA[   5]]></para>
+</entry>
+<entry>
+<para><![CDATA[1 ]]></para>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+<entry>
+<cmdtext refCmd="1682bdeb380"><![CDATA[VPORT P16-1MP-M12-
+CAM36]]></cmdtext>
+</entry>
+<entry>
+<cmdtext refCmd="1682bdec500"><![CDATA[•Камера                        ]]></cmdtext>
+</entry>
+<entry>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+</row>
+<row refItem="1682bde97f0">
+<entry>
+<para><![CDATA[
+]]></para>
+</entry>
+<entry>
+<para><![CDATA[   ]]></para>
+</entry>
+<entry>
+<para><![CDATA[  10]]></para>
+</entry>
+<entry>
+<para><![CDATA[4 ]]></para>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+<entry>
+<cmdtext refCmd="1682bdeb770"><![CDATA[3-50-4 ОСТ
+20156-10]]></cmdtext>
+</entry>
+<entry>
+<cmdtext refCmd="1682bdeb460"><![CDATA[*Винт                          ]]></cmdtext>
+</entry>
+<entry>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+</row>
+<row refItem="1682bde9da0">
+<entry>
+<para>
+</para>
+</entry>
+<entry>
+<para><![CDATA[   ]]></para>
+</entry>
+<entry>
+<para><![CDATA[  15]]></para>
+</entry>
+<entry>
+<para><![CDATA[1 ]]></para>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+<entry>
+<cmdtext refCmd="1682bdec420"><![CDATA[ПКИ.222.444.058]]></cmdtext>
+</entry>
+<entry>
+<cmdtext refCmd="1682bdeb690"><![CDATA[•Крышка                        ]]></cmdtext>
+</entry>
+<entry>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+</row>
+<row refItem="1682bde9e10">
+<entry>
+<para><![CDATA[
+]]></para>
+</entry>
+<entry>
+<para><![CDATA[   ]]></para>
+</entry>
+<entry>
+<para><![CDATA[  20]]></para>
+</entry>
+<entry>
+<para><![CDATA[4 ]]></para>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+<entry>
+<cmdtext refCmd="1682bdec490"><![CDATA[3-50-4 ОСТ
+20156-20]]></cmdtext>
+</entry>
+<entry>
+<cmdtext refCmd="1682bdec650"><![CDATA[*Винт                          ]]></cmdtext>
+</entry>
+<entry>
+</entry>
+<entry>
+<para>
+</para>
+</entry>
+</row>
+</tbody>
+</table>
+</ipc-table>
+<bgmedia>
+<refmedia ref="1">МТПА_113000_000_A;2-Каркас_телескопа_малого_(1)_2</refmedia>
+<refmedia ref="1">МТПА_113000_000_A;2-Каркас_телескопа_малого_(2)_46</refmedia>
+<refmedia ref="1">МТПА_011000_000_A;1-Рама_центральная_90</refmedia>
+<refmedia ref="1">МТПА_113000_000-01_A;1-Каркас_телескопа_малого_(1)_329</refmedia>
+<refmedia ref="1">МТПА_113000_000-01_A;1-Каркас_телескопа_малого_(2)_369</refmedia>
+<refmedia ref="1">МТПА_014000_000-02_A;1-Замок_(1)_409</refmedia>
+<refmedia ref="1">МТПА_014000_000-02_A;1-Замок_(2)_498</refmedia>
+<refmedia ref="1">МТПА_012000_000_A;1-Телескоп_большой_(1)_587</refmedia>
+<refmedia ref="1">МТПА_012000_000_A;1-Телескоп_большой_(2)_802</refmedia>
+<refmedia ref="1">МТПА_014000_000-01_A;1-Замок_(1)_1017</refmedia>
+<refmedia ref="1">МТПА_114410_000-01_A;1-Нижняя_часть_защитного_кожуха_замка_(2)_1107</refmedia>
+<refmedia ref="1">МТПА_114400_000-01_A;1-Верхняя_часть_защитного_кожуха_замка_(2)_1109</refmedia>
+<refmedia ref="1">МТПА_114000_001_A;1-Кожух_под_видеокамеру_506_(4)_1112</refmedia>
+<refmedia ref="1">МТПА_214000_000-01_A;1-Гидравлика_замка_(2)_1113</refmedia>
+<refmedia ref="1">__12_2_4_1_1_(0)_(2)_1135</refmedia>
+<refmedia ref="1">Болт_DIN_933_-_М4х45_-_Оц__A;1_(9)_1136</refmedia>
+<refmedia ref="1">Болт_DIN_933_-_М4х45_-_Оц__A;1_(10)_1138</refmedia>
+<refmedia ref="1">Болт_DIN_933_-_М4х45_-_Оц__A;1_(11)_1140</refmedia>
+<refmedia ref="1">Болт_DIN_933_-_М4х45_-_Оц__A;1_(12)_1142</refmedia>
+<refmedia ref="1">Болт_DIN_933_-_М5х30_-_Оц__A;1_(7)_1144</refmedia>
+<refmedia ref="1">Болт_DIN_933_-_М5х30_-_Оц__A;1_(8)_1146</refmedia>
+<refmedia ref="1">Вытягивание_(8)_(4)_1149</refmedia>
+<refmedia ref="1">_32013_A;1-Соединитель_угловой_М12_розетка_силовой_SAIBW-4_11-1_5_(4Р)__ф___Weidmuller__(4)_1150</refmedia>
+<refmedia ref="1">_32023_A;1-Кабель_33322_(4)_1153</refmedia>
+<refmedia ref="1">МТПА_114540_000_A;1-Крепление_камеры_(4)_1175</refmedia>
+<refmedia ref="1">МТПА_114530_000_A;1-Скоба_прижимная_(10)_1198</refmedia>
+<refmedia ref="1">МТПА_114520_000_A;1-Кронштейн_прожектора_(4)_1201</refmedia>
+<refmedia ref="1">МТПА_114510_000-01_A;1-Сварной_кронштейн_(2)_1204</refmedia>
+<refmedia ref="1">МТПА_114530_000_A;1-Скоба_прижимная_(11)_1211</refmedia>
+<refmedia ref="1">МТПА_114530_000_A;1-Скоба_прижимная_(12)_1214</refmedia>
+<refmedia ref="1">__A;1-Осветительный_фонарь_(4)_1217</refmedia>
+<refmedia ref="1">IFM_IO-Link_O1D100_A;1_(14)_1220</refmedia>
+<refmedia ref="1">IFM_IO-Link_DV2120_A;1_(4)_1222</refmedia>
+<refmedia ref="1">IFM-IO-Link_IF6138_A;1_(7)_1224</refmedia>
+<refmedia ref="1">IFM-IO-Link_IF6138_A;1_(8)_1226</refmedia>
+<refmedia ref="1">IFM_IO-Link_O1D100_A;1_(15)_1228</refmedia>
+<refmedia ref="1">IFM-IO-Link_IF5456_A;1_(10)_1230</refmedia>
+<refmedia ref="1">IFM-IO-Link_IF5456_A;1_(11)_1232</refmedia>
+<refmedia ref="1">IFM-IO-Link_IF5456_A;1_(12)_1234</refmedia>
+<refmedia ref="1">_AL1102_(4)_1236</refmedia>
+<refmedia ref="1">МТПА_114000_000_A;1-Каркас_замка_(4)_1237</refmedia>
+<refmedia ref="1">МТПА_030000_000_A;2-Башня_подвижная_1297</refmedia>
+<refmedia ref="1">МТПА_020000_000_A;4-Платформа_подвижная_1507</refmedia>
+</bgmedia>
+<views>
+<view id="_224F453001D449F4BF039786CA6893C1" stepid="_224F453001D449F4BF039786CA6893C1" changed="0" revst="U" hidden="0">
+<description>1</description>
+<transition id="_963742820EDA4F48948B99DBCD7121CF" stepid="trans_0">
+</transition>
+<viewpoint>
+<refmedia ref="1"><![CDATA[vp_0]]></refmedia>
+</viewpoint>
+<refItem ref="1682bde96a0">
+</refItem>
+<refItem ref="1682bde97f0">
+</refItem>
+<refItem ref="1682bde9da0">
+</refItem>
+<refItem ref="1682bde9e10">
+</refItem>
+<refItem ref="1682bdea190">
+</refItem>
+<refmedia ref="1">
+</refmedia>
+</view>
+<view id="_963742820EDA4F48948B99DBCD7121CF" stepid="_963742820EDA4F48948B99DBCD7121CF" changed="0" revst="U" hidden="1">
+<description>2.1</description>
+<transition id="_332EE9738A1F4A31878F624C6A437506" stepid="trans_1">
+</transition>
+<viewpoint>
+<refmedia ref="1"><![CDATA[vp_1]]></refmedia>
+</viewpoint>
+<refItem ref="1682bde96a0">
+</refItem>
+<refItem ref="1682bde97f0">
+</refItem>
+<refItem ref="1682bde9da0">
+</refItem>
+<refItem ref="1682bde9e10">
+</refItem>
+<refItem ref="1682bdea190">
+</refItem>
+<refmedia ref="1">
+</refmedia>
+</view>
+<view id="_332EE9738A1F4A31878F624C6A437506" stepid="_332EE9738A1F4A31878F624C6A437506" changed="0" revst="U" hidden="0">
+<description>2</description>
+<viewpoint>
+<refmedia ref="1"><![CDATA[vp_2]]></refmedia>
+</viewpoint>
+<refItem ref="1682bde96a0">
+</refItem>
+<refItem ref="1682bde97f0">
+</refItem>
+<refItem ref="1682bde9da0">
+</refItem>
+<refItem ref="1682bde9e10">
+</refItem>
+<refItem ref="1682bdea190">
+</refItem>
+<refmedia ref="1">
+</refmedia>
+<refmedia ref="1680c029020">
+</refmedia>
+</view>
+</views>
+</figure>
+<parts>
+<part id="1680b896b00">
+<metadata>
+<value id="16817b60650" name="PARTNUMBER" decl-id="PNR" type="string" changed="0" revst="U" role="1"><![CDATA[G1-41-00]]></value>
+<value id="16817b616d0" name="unitOfIssue" decl-id="UOI" type="string" changed="0" revst="U">
+</value>
+<value id="16817b61950" name="manufacturerCode" decl-id="MFC" type="string" changed="0" revst="U">
+</value>
+<value id="16817b61b50" name="descrForPart" decl-id="DFP" type="string" changed="0" revst="U" role="2"><![CDATA[Камера в сборе]]></value>
+</metadata>
+</part>
+<part id="1680b896dc0">
+<metadata>
+<value id="16817b60ad0" name="PARTNUMBER" decl-id="PNR" type="string" changed="0" revst="U" role="1"><![CDATA[VPORT P16-1MP-M12-CAM36]]></value>
+<value id="16817b60a50" name="unitOfIssue" decl-id="UOI" type="string" changed="0" revst="U">
+</value>
+<value id="16817b60d50" name="manufacturerCode" decl-id="MFC" type="string" changed="0" revst="U">
+</value>
+<value id="16817b60b50" name="descrForPart" decl-id="DFP" type="string" changed="0" revst="U" role="2"><![CDATA[Камера]]></value>
+</metadata>
+</part>
+<part id="1680b896100">
+<metadata>
+<value id="16817b61ed0" name="PARTNUMBER" decl-id="PNR" type="string" changed="0" revst="U" role="1"><![CDATA[3-50-4 ОСТ 20156-10]]></value>
+<value id="16817b61bd0" name="unitOfIssue" decl-id="UOI" type="string" changed="0" revst="U">
+</value>
+<value id="16817b60ed0" name="manufacturerCode" decl-id="MFC" type="string" changed="0" revst="U">
+</value>
+<value id="16817b60750" name="descrForPart" decl-id="DFP" type="string" changed="0" revst="U" role="2"><![CDATA[Винт]]></value>
+</metadata>
+</part>
+<part id="1680b896200">
+<metadata>
+<value id="16817b60bd0" name="PARTNUMBER" decl-id="PNR" type="string" changed="0" revst="U" role="1"><![CDATA[ПКИ.222.444.058]]></value>
+<value id="16817b60dd0" name="unitOfIssue" decl-id="UOI" type="string" changed="0" revst="U">
+</value>
+<value id="16817b60e50" name="manufacturerCode" decl-id="MFC" type="string" changed="0" revst="U">
+</value>
+<value id="16817b610d0" name="descrForPart" decl-id="DFP" type="string" changed="0" revst="U" role="2"><![CDATA[Крышка]]></value>
+</metadata>
+</part>
+<part id="1680b896d00">
+<metadata>
+<value id="16817b61150" name="PARTNUMBER" decl-id="PNR" type="string" changed="0" revst="U" role="1"><![CDATA[3-50-4 ОСТ 20156-20]]></value>
+<value id="16817b61750" name="unitOfIssue" decl-id="UOI" type="string" changed="0" revst="U">
+</value>
+<value id="16817b61250" name="manufacturerCode" decl-id="MFC" type="string" changed="0" revst="U">
+</value>
+<value id="16817b613d0" name="descrForPart" decl-id="DFP" type="string" changed="0" revst="U" role="2"><![CDATA[Винт]]></value>
+</metadata>
+</part>
+</parts>
+<reftables>
+<reftable name="NCAGE" type="string">
+<value>
+</value>
+<value descr="MDMKD - МОДУЛЬ МКД"><![CDATA[MDMKD]]></value>
+</reftable>
+<reftable name="ISN" type="string">
+<value><![CDATA[00A]]></value>
+</reftable>
+<reftable name="INDENT" type="integer">
+<value descr=""><![CDATA[1]]></value>
+<value descr="."><![CDATA[2]]></value>
+<value descr=".."><![CDATA[3]]></value>
+<value descr="..."><![CDATA[4]]></value>
+<value descr="...."><![CDATA[5]]></value>
+<value descr="....."><![CDATA[6]]></value>
+<value descr="......"><![CDATA[7]]></value>
+<value descr="......."><![CDATA[8]]></value>
+<value descr="........"><![CDATA[9]]></value>
+</reftable>
+<reftable name="ATTACH" type="integer">
+<value descr=""><![CDATA[0]]></value>
+<value descr="Присоединенная"><![CDATA[1]]></value>
+<value descr="Хранящаяся"><![CDATA[2]]></value>
+<value descr="Отгружаемая"><![CDATA[3]]></value>
+</reftable>
+<reftable name="NIL" type="boolean">
+<value descr=""><![CDATA[0]]></value>
+<value descr="-"><![CDATA[-1]]></value>
+</reftable>
+<reftable name="FTC" type="string">
+<value descr="Требуется незначительная подгонка"><![CDATA[Minor fitting required]]></value>
+<value descr="Требуется значительная подгонка"><![CDATA[Major fitting required]]></value>
+</reftable>
+<reftable name="SMFI" type="string">
+<value descr="Выбрать подходящий"><![CDATA[fit]]></value>
+<value descr="Выбрать по результатам испытаний"><![CDATA[test]]></value>
+</reftable>
+<reftable name="SMFR" type="string">
+<value descr="Подобрать по результатам испытаний из"><![CDATA[Select on test]]></value>
+<value descr="Изготовить из"><![CDATA[Manufacture]]></value>
+<value descr="Доработать из"><![CDATA[Rework]]></value>
+<value descr="Отремонтировать с использованием"><![CDATA[Repair]]></value>
+</reftable>
+<reftable name="ISSUE_TYPE" type="string">
+<value descr="Изменено"><![CDATA[changed]]></value>
+<value descr="Удалено"><![CDATA[deleted]]></value>
+<value descr="Новый"><![CDATA[new]]></value>
+<value descr="Исправленный"><![CDATA[revised]]></value>
+<value descr="Модуль данных восстановлен в прежнее состояние, в него внесены изменения"><![CDATA[rinstate-changed]]></value>
+<value descr="Модуль данных восстановлен в прежнее состояние и полностью изменен"><![CDATA[rinstate-revised]]></value>
+<value descr="Модуль данных восстановлен в прежнее состояние, статус изменен "><![CDATA[rinstate-status]]></value>
+<value descr="Статус"><![CDATA[status]]></value>
+</reftable>
+<reftable name="RFS" type="integer">
+<value descr="Случайное повреждение (страховой случай)"><![CDATA[9]]></value>
+<value descr="Коррозия"><![CDATA[5]]></value>
+<value descr="Старение"><![CDATA[6]]></value>
+<value descr="Предельная температура"><![CDATA[7]]></value>
+<value descr="Разрушение"><![CDATA[3]]></value>
+<value descr="Повреждение при технологическом обслуживании"><![CDATA[2]]></value>
+<value descr="Не рекомендуется в качестве запасной части"><![CDATA[0]]></value>
+<value descr="Прочие"><![CDATA[8]]></value>
+<value descr="Вибрация"><![CDATA[4]]></value>
+<value descr="Износ"><![CDATA[1]]></value>
+</reftable>
+<reftable name="STR" type="string">
+<value descr="Не требует особых условий хранения"><![CDATA[0]]></value>
+<value descr="Требует особых условий хранения"><![CDATA[1]]></value>
+</reftable>
+<reftable name="Security" type="integer">
+<value descr="Несекретно"><![CDATA[1]]></value>
+<value descr="Для служебного пользования"><![CDATA[2]]></value>
+<value descr="Конфиденциально"><![CDATA[3]]></value>
+<value descr="Секретно"><![CDATA[4]]></value>
+<value descr="Совершенно секретно"><![CDATA[5]]></value>
+<value descr="Уровень 6"><![CDATA[6]]></value>
+<value descr="Уровень 7"><![CDATA[7]]></value>
+<value descr="Уровень 8"><![CDATA[8]]></value>
+<value descr="Уровень 9"><![CDATA[9]]></value>
+</reftable>
+<reftable name="FID" type="string">
+<value descr="Для всего Объекта"><![CDATA[s]]></value>
+<value descr="Для отдельного компонента Объекта"><![CDATA[t]]></value>
+</reftable>
+<reftable name="QA" type="string">
+<value descr="Непроверено"><![CDATA[unverified]]></value>
+<value descr="На столе"><![CDATA[tabtop]]></value>
+<value descr="На объекте"><![CDATA[onobject]]></value>
+<value descr="На столе и на объекте"><![CDATA[ttandoo]]></value>
+</reftable>
+<reftable name="ILC" type="string">
+<value><![CDATA[A]]></value>
+<value><![CDATA[B]]></value>
+<value><![CDATA[C]]></value>
+<value><![CDATA[D]]></value>
+<value><![CDATA[T]]></value>
+</reftable>
+<reftable name="SMF" type="string">
+<value descr="Изготовить из"><![CDATA[m]]></value>
+<value descr="Отремонтировать с использованием"><![CDATA[p]]></value>
+<value descr="Доработать из"><![CDATA[r]]></value>
+<value descr="Подобрать по месту"><![CDATA[f]]></value>
+<value descr="Подобрать по результатам испытаний"><![CDATA[t]]></value>
+</reftable>
+<reftable name="REFTYPE" type="string">
+<value>
+</value>
+<value descr="Сборочная единица вышестоящего уровня"><![CDATA[rft01]]></value>
+<value descr="См. более подробно"><![CDATA[rft02]]></value>
+<value descr="Эквивалентная деталь"><![CDATA[rft03]]></value>
+<value descr="Заменяющая деталь"><![CDATA[rft04]]></value>
+<value descr="Деталь крепления"><![CDATA[rft05]]></value>
+<value descr="Детали снятия/установки"><![CDATA[rft06]]></value>
+<value descr="Выбор из"><![CDATA[rft07]]></value>
+<value descr="Детали большего/меньшего размера"><![CDATA[rft08]]></value>
+<value descr="Присоединенная деталь"><![CDATA[rft09]]></value>
+<value descr="Разбиение"><![CDATA[rft10]]></value>
+</reftable>
+<reftable name="fitmentCodeValue" type="string">
+<value descr="Требуется значительная подгонка"><![CDATA[m]]></value>
+<value descr="Требуется незначительная подгонка"><![CDATA[1]]></value>
+</reftable>
+<reftable name="SPC" type="integer">
+<value descr="Деталь широкого применения"><![CDATA[1]]></value>
+<value descr="Непоставляемая деталь"><![CDATA[0]]></value>
+<value descr="Ремонтируемая деталь"><![CDATA[6]]></value>
+<value descr="Возвращаемая деталь"><![CDATA[2]]></value>
+</reftable>
+<reftable name="PU" type="string">
+<value descr="Стандартные детали"><![CDATA[pu01]]></value>
+<value descr="Расходные детали"><![CDATA[pu02]]></value>
+<value descr="Components of end-item parts"><![CDATA[pu03]]></value>
+<value descr="Basic issue item parts"><![CDATA[pu04]]></value>
+<value descr="Компоненты необходимые для работы оборудования"><![CDATA[pu05]]></value>
+<value descr="Компоненты инструмента"><![CDATA[pu06]]></value>
+<value descr="Специальный инструмент"><![CDATA[pu07]]></value>
+<value descr="Standard mechanical hardware items"><![CDATA[pu08]]></value>
+<value descr="Аппаратные средства"><![CDATA[pu09]]></value>
+<value descr="Конструктивно-сменные детали"><![CDATA[pu10]]></value>
+<value descr="Анестетики/Медицинские химические реактивы"><![CDATA[pu11]]></value>
+<value descr="Модуль"><![CDATA[pu12]]></value>
+<value descr="Боеприпасы с опасными веществами"><![CDATA[pu13]]></value>
+<value descr="Modification leaflet"><![CDATA[pu14]]></value>
+<value descr="Медикаменты"><![CDATA[pu15]]></value>
+<value descr="Modification set"><![CDATA[pu16]]></value>
+<value descr="Ни один из других кодов не применяется"><![CDATA[pu17]]></value>
+<value descr="Роль оборудования"><![CDATA[pu18]]></value>
+<value descr="Исходный материал"><![CDATA[pu19]]></value>
+<value descr="Split design module"><![CDATA[pu20]]></value>
+<value descr="Комментарии ПО"><![CDATA[pu21]]></value>
+<value descr="Деталь"><![CDATA[pu22]]></value>
+<value descr="Basic issue item"><![CDATA[pu23]]></value>
+<value descr="Components of end item"><![CDATA[pu24]]></value>
+<value descr="Инструмент"><![CDATA[pu25]]></value>
+<value descr="Additional authorization list item"><![CDATA[pu26]]></value>
+</reftable>
+<reftable name="calibrationMarker" type="string">
+<value descr="Требуется калибровка"><![CDATA[1]]></value>
+</reftable>
+<reftable name="hazardousClassValue" type="string">
+<value descr="Сжатые газы"><![CDATA[hz02]]></value>
+<value descr="Взрывоопасный"><![CDATA[hz01]]></value>
+<value descr="Горючие жидкости"><![CDATA[hz03]]></value>
+</reftable>
+<reftable name="ReplacementCode" type="string">
+<value descr="Без условий"><![CDATA[nocond]]></value>
+<value descr="Однонапрвленный"><![CDATA[oneway]]></value>
+<value descr="Двунаправленный"><![CDATA[twoway]]></value>
+<value descr="С условием"><![CDATA[cond]]></value>
+</reftable>
+<reftable name="ICNMethod" type="string">
+<value descr="Основанный на коде производителя (CAGE)"><![CDATA[CAGE]]></value>
+<value descr="Основанный на идентификационном коде модели"><![CDATA[MI]]></value>
+<value descr="Основанный на идентификационном коде модели (до версии 4.0)"><![CDATA[MI23]]></value>
+</reftable>
+<reftable name="BFEFlag" type="string">
+<value descr="Поставляется заказчиком"><![CDATA[1]]></value>
+</reftable>
+<reftable name="enterpriseType" type="string">
+<value>
+</value>
+<value descr="Дистрибьютор"><![CDATA[distributor]]></value>
+<value descr="Предприятие производитель"><![CDATA[manufacturer]]></value>
+<value descr="Производство"><![CDATA[productSite]]></value>
+<value descr="Поставщик"><![CDATA[supplier]]></value>
+<value descr="Алтернативный поставщик"><![CDATA[optionalSupplier]]></value>
+</reftable>
+<reftable name="i18nRefType" type="string">
+<value descr="См.">
+</value>
+<value descr="См. NHA"><![CDATA[rft01]]></value>
+<value descr="См. детали"><![CDATA[rft02]]></value>
+<value descr="См. эквивалент"><![CDATA[rft03]]></value>
+<value descr="См. замену"><![CDATA[rft04]]></value>
+<value descr="См. крепеж"><![CDATA[rft05]]></value>
+<value descr="См. снятие/установку"><![CDATA[rft06]]></value>
+<value descr="См. выбор из"><![CDATA[rft07]]></value>
+<value descr="См. больше/меньше"><![CDATA[rft08]]></value>
+<value descr="См. присоединение"><![CDATA[rft09]]></value>
+<value descr="См. разбиение"><![CDATA[rft10]]></value>
+</reftable>
+<reftable name="functionalItemType" type="string">
+<value>
+</value>
+<value descr="Точный"><![CDATA[fit01]]></value>
+<value descr="Группа"><![CDATA[fit02]]></value>
+</reftable>
+<reftable name="UCA" type="string">
+<value descr="A     "><![CDATA[A]]></value>
+<value descr=" B    "><![CDATA[B]]></value>
+<value descr="  C   "><![CDATA[C]]></value>
+<value descr="   D  "><![CDATA[D]]></value>
+<value descr="    E "><![CDATA[E]]></value>
+<value descr="     F"><![CDATA[F]]></value>
+</reftable>
+<reftable name="S1000D Issue" type="string">
+<value descr="4.1"><![CDATA[S1000D_4-1]]></value>
+<value descr="4.2"><![CDATA[S1000D_4-2]]></value>
+<value descr="5.0"><![CDATA[S1000D_5-0]]></value>
+</reftable>
+</reftables>
+</ipc>

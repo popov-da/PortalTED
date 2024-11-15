@@ -1,0 +1,13 @@
+@charset "utf-8";
+/*
+    generic.less
+*/
+.note:before {
+  content: "注記";
+}
+.caution:before {
+  content: "CAUTION";
+}
+.warning:before {
+  content: "WARNING";
+}

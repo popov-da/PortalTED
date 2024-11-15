@@ -1,0 +1,1000 @@
+@charset "utf-8";
+/*
+    s1000d_4_1.less
+*/
+.identAndStatusSection .issueInfo[data-issuenumber]:before {
+  content: "Номер издания" ": ";
+}
+.identAndStatusSection .language[data-languageisocode]:before {
+  content: "Язык" ": ";
+}
+.identAndStatusSection .issueDate[data-day]:before {
+  content: "Дата" ": ";
+}
+.issueInfo[data-issuenumber]:after {
+  content: attr(data-issuenumber) "-" attr(data-inwork);
+}
+.language[data-languageisocode]:after {
+  content: attr(data-languageisocode) "-" attr(data-countryisocode);
+}
+.issueDate[data-day]:after {
+  content: attr(data-day) "-" attr(data-month) "-" attr(data-year);
+}
+.firstVerification:after {
+  content: attr(data-verificationType);
+}
+.skillLevel[data-skillLevelCode]:after {
+  content: attr(data-skillLevelCode);
+}
+.dataRestrictions:before {
+  content: "Ограничения по данным" ":";
+}
+.dataDistribution:before {
+  content: "Распространение данных";
+}
+.exportControl:before {
+  content: "Контроль экспорта";
+}
+.dataHandling:before {
+  content: "Управление данными";
+}
+.dataDestruction:before {
+  content: "Уничтожение данных";
+}
+.dataDisclosure:before {
+  content: "Раскрытие данных";
+}
+.copyright:before {
+  content: "Авторское право";
+}
+.dmRefAddressItems .infoName:before {
+  content: " - ";
+}
+.dmRefAddressItems .infoNameVariant:before {
+  content: ", ";
+}
+.identNumber:before {
+  content: "";
+}
+.partAndSerialNumber:before {
+  content: "/";
+}
+.natoStockNumber:before {
+  content: "Номенклатурный номер НАТО" " ";
+}
+.serialNumber:before {
+  content: "Серийный номер" " ";
+}
+.customerStockNumber:before {
+  content: "Номенклатурный номер заказчика." " ";
+}
+.zoneRef:before {
+  content: "Зона" " ";
+}
+.accessPointRef:before,
+.accessPointRef[data-accessPointTypeValue="accpnl01"]:before {
+  content: "Люк" " ";
+}
+.accessPointRef[data-accessPointTypeValue="accpnl02"]:before {
+  content: "Панель" " ";
+}
+.accessPointRef[data-accessPointTypeValue="accpnl03"]:before {
+  content: "Электрощиток" " ";
+}
+.multimediaObject:before,
+.graphic:before {
+  content: "Рис." " " counter(figure) " ";
+}
+.assessmentQuestion .graphic:before {
+  content: "Рис." " " attr(data-figure) " ";
+}
+.graphic[data-sheets]:after {
+  content: " (" "Лист" " " counter(sheet) " " "из" " " attr(data-sheets) ")";
+}
+.multimediaObject[data-sheets]:after {
+  content: " (" "Мультимедиа" " " counter(sheet) " " "из" " " attr(data-sheets) ")";
+}
+.internalRef.irtt01:before {
+  content: "Рис." " " attr(data-figure);
+}
+.internalRef.irtt02:before {
+  content: "Таблица" " " attr(data-index);
+}
+.internalRef.irtt03:before {
+  content: "Рис." " " attr(data-figure);
+}
+.internalRef.irtt07:before {
+  content: "Параграф" " " attr(data-index);
+}
+.internalRef.irtt08:before {
+  content: "Шаг" " " attr(data-index);
+}
+.internalRef.irtt09:before {
+  content: "Рис." " " attr(data-figure) ", " "Лист" " " attr(data-sheet);
+}
+.internalRef.irtt10:before {
+  content: "Рис." " " attr(data-figure) ", " attr(data-multimediaType);
+}
+.internalRef.irtt11:before {
+  content: "Рис." " " attr(data-figure) " [" attr(data-referredFragment) "]";
+}
+.internalRef.irtt13[data-zoneNumber]:before {
+  content: "Зона" " " attr(data-zoneNumber);
+}
+.internalRef.irtt16[data-accessPointNumber]:before {
+  content: attr(data-accessPointNumber);
+}
+.internalRef.irtt16.accpnl01[data-accessPointNumber]:before {
+  content: "Люк доступа" " " attr(data-accessPointNumber);
+}
+.internalRef.irtt16.accpnl02[data-accessPointNumber]:before {
+  content: "Панель" " " attr(data-accessPointNumber);
+}
+.internalRef.irtt16.accpnl03[data-accessPointNumber]:before {
+  content: "Электрическая панель" " " attr(data-accessPointNumber);
+}
+.yesAnswerStart:before {
+  content: "Да";
+}
+.noAnswerStart:before {
+  content: "Нет";
+}
+.choiceLink:before,
+.yesAnswerLink:before,
+.noAnswerLink:before {
+  content: "Перейти к шагу" " " attr(data-index);
+}
+.isolationProcedureEnd:after {
+  content: 'Перейти к заключительным требованиям.';
+}
+#app-figure-title.multimediaObject:before,
+#app-figure-title.internalRef.irtt01:before,
+#app-figure-title.internalRef.irtt03:before,
+#app-figure-title.internalRef.irtt09:before,
+#app-figure-title.internalRef.irtt10:before,
+#app-figure-title.internalRef.irtt11:before,
+#app-figure-title.internalRef.irtt12:before,
+#app-figure-title.graphic:before {
+  content: "Рис." " " attr(data-index) " ";
+}
+#app-figure-title.graphic[data-subindexes]:after {
+  content: " (" "Лист" " " attr(data-subindex) " " "из" " " attr(data-subindexes) ")";
+}
+#app-figure-title.multimediaObject[data-subindexes]:after {
+  content: " (" "Мультимедиа" " " attr(data-subindex) " " "из" " " attr(data-subindexes) ")";
+}
+#app-figure-title.graphic[data-subindexes='']:after,
+#app-figure-title.multimediaObject[data-subindexes='']:after {
+  content: none;
+}
+.personnel .numRequired[data-value]:before {
+  content: attr(data-value) " " "чел.";
+}
+.personnel .numRequired[data-value='1']:before {
+  content: attr(data-value) " " "чел.";
+}
+.personnel .numRequired[data-value='0']:before,
+.personnel .numRequired[data-value='']:before {
+  content: "По требованию";
+}
+.taskDuration:before {
+  content: "Продолжительность задачи ТО";
+}
+.taskDuration:after {
+  content: "Предварительные требования" " " attr(data-startupDuration) " " attr(data-unitOfMeasure) "\000a" "Основные работы" " " attr(data-procedureDuration) " " attr(data-unitOfMeasure) "\000a" "Требования после завершения работ" " " attr(data-closeupDuration) " " attr(data-unitOfMeasure);
+}
+.externalPubCode:before {
+  content: attr(data-pubCodingScheme);
+}
+.externalPubIssueInfo:before {
+  content: "Редакция:" " ";
+}
+/* Centerhead2 titles */
+.mainProcedure:before {
+  content: "Основные работы";
+}
+.content > .description:before {
+  content: "Описание";
+}
+.maintPlanning:before {
+  content: "Планирование технического обслуживания";
+}
+.isolationMainProcedure:before {
+  content: "Процедура поиска и устранения неисправности";
+}
+.descrCrew:before {
+  content: "Руководство для экипажа/эксплуатирующего персонала";
+}
+.commonRepository:before {
+  content: "Общий информационный репозиторий";
+}
+.faultReporting:before {
+  content: "Отчет по неисправности";
+}
+.detectionInfo:before {
+  content: "Сведения об обнаружении неисправности";
+}
+.content > .refs:before {
+  content: "Ссылки";
+}
+.preliminaryRqmts:before {
+  content: "Предварительные требования";
+}
+.closeRqmts:before {
+  content: "Требования после завершения работ";
+}
+/* sidehead0 titles */
+.cautionRepository:before {
+  content: "Репозиторий предостережений";
+}
+.toolRepository:before {
+  content: "Репозиторий инструментов";
+}
+.controlIndicatorRepository:before {
+  content: "Репозиторий элементов управления и индикаторов";
+}
+.functionalPhysicalAreaRepository:before {
+  content: "Репозиторий функциональных и/или физических областей";
+}
+.warningRepository:before {
+  content: "Репозиторий предупреждений";
+}
+.zoneRepository:before {
+  content: "Репозиторий зон";
+}
+.partRepository:before {
+  content: "Репозиторий деталей";
+}
+.functionalItemRepository:before {
+  content: "Репозиторий функциональных элементов";
+}
+/* Warning, Caution, Note */
+.warning:before {
+  content: "ПРЕДУПРЕЖДЕНИЕ";
+}
+.caution:before {
+  content: "ВНИМАНИЕ";
+}
+.note:before {
+  content: "Примечание";
+}
+/* Sidehead0 titles */
+.productionMaintData:before {
+  content: "Данные для планирования задачи ТО";
+}
+.reqCondGroup:before {
+  content: "Требуемые условия";
+}
+.reqSupportEquips:before {
+  content: "Вспомогательное оборудование";
+}
+.reqSupplies:before {
+  content: "Расходные материалы";
+}
+.reqTechInfoGroup:before {
+  content: "Требуемые технические сведения";
+}
+.reqSpares:before {
+  content: "Запасные части";
+}
+.reqSafety:before {
+  content: "Меры безопасности";
+}
+.reqPersons:before {
+  content: "Необходимый персонал";
+}
+.workAreaLocationGroup:before {
+  content: "Участок проведения задачи ТО";
+}
+/* None keyword */
+.noSupportEquips:before,
+.noSupplies:before,
+.noSpares:before,
+.noSafety:before,
+.noConds:before {
+  content: "Не применяется";
+}
+/* Tables */
+.table-contents > .title:before {
+  content: "Таблица" " " counter(table) " ";
+}
+.content > .refs > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Ссылки";
+}
+.reqCondGroup > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Требуемые условия";
+}
+.reqPersons > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Необходимый персонал";
+}
+.reqSupportEquips > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Вспомогательное оборудование";
+}
+.reqSupplies > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Расходные материалы";
+}
+.reqSpares > .tabular:before {
+  content: "Таблица" " " counter(table) " " "Запасные части";
+}
+.header > .name:before {
+  content: "Наименование";
+}
+.header > .ident:before {
+  content: "Идентификация/Ссылка";
+}
+.header > .qty:before {
+  content: "Количество";
+}
+.header > .remark:before {
+  content: "Примечание";
+}
+.header > .condition:before {
+  content: "Действие/Условие";
+}
+.header > .publication:before {
+  content: "Модуль данных/Техническая публикация";
+}
+.header > .title:before {
+  content: "Название";
+}
+.header > .person:before {
+  content: "Персонал";
+}
+.header > .category:before {
+  content: "Категория";
+}
+.header > .skill:before {
+  content: "Уровень квалификации";
+}
+.header > .trade:before {
+  content: "Специальность/Код специальности";
+}
+.header > .time:before {
+  content: "Планируемое время";
+}
+.dmodule:after {
+  content: "Конец модуля данных";
+}
+.dmStatus .security[data-securityClassification]:before {
+  content: "Гриф секретности" " " attr(data-securityClassification);
+}
+.dmStatus .security[data-securityClassification="01"]:before {
+  content: "НЕСЕКРЕТНО";
+}
+.dmStatus .security[data-securityClassification="02"]:before {
+  content: "ДЛЯ СЛУЖЕБНОГО ПОЛЬЗОВАНИЯ";
+}
+.dmStatus .security[data-securityClassification="03"]:before {
+  content: "КОНФИДЕНЦИАЛЬНО";
+}
+.dmStatus .security[data-securityClassification="04"]:before {
+  content: "СЕКРЕТНО";
+}
+.dmStatus .security[data-securityClassification="05"]:before {
+  content: "СОВЕРШЕННО СЕКРЕТНО";
+}
+.dmStatus .responsiblePartnerCompany:before {
+  content: "Ответственная компания-контрагент" ": " attr(data-enterpriseCode) " / ";
+}
+.dmStatus .originator:before {
+  content: "Разработчик" ": " attr(data-enterpriseCode) " / ";
+}
+.applicCrossRefTableRef:before {
+  content: "Модуль данных ACT" ": ";
+}
+.dmStatus > .applic:before {
+  content: "Применимость" ": ";
+}
+.techStandard:before {
+  content: "Технический стандарт" ":";
+}
+.brexDmRef:before {
+  content: "Модуль данных BREX" ": ";
+}
+.unverified:before {
+  content: "Непроверенный";
+}
+.firstVerification:before {
+  content: "Первая проверка" ": ";
+}
+.secondVerification:before {
+  content: "Вторая проверка" ": ";
+}
+.systemBreakdownCode:before {
+  content: "Код разбиения системы" ": ";
+}
+.reasonForUpdate:before {
+  content: "Причина обновления" ": ";
+}
+.skillLevel:before {
+  content: "Уровень квалификации" ": ";
+}
+.personSkill .skillLevel:before {
+  content: "";
+}
+.skillLevel[data-skillLevelCode="sk01"]:after {
+  content: "Базовый";
+}
+.skillLevel[data-skillLevelCode="sk02"]:after {
+  content: "Средний";
+}
+.skillLevel[data-skillLevelCode="sk03"]:after {
+  content: "Продвинутый";
+}
+.catalogSeqNumberRef:before {
+  content: "CSN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.catalogSeqNumberRef[data-systemCode]:before {
+  content: "CSN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.catalogSeqNumberRef[data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.catalogSeqNumberRef[data-systemCode][data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.learningPlan:before {
+  content: "План обучения";
+}
+.learningOverview:before {
+  content: "Обзор обучения";
+}
+.learningContent:before {
+  content: "Содержимое обучения";
+}
+.learningSummary:before {
+  content: "Сводки по обучению";
+}
+.learningAssessment:before {
+  content: "Оценка обучения";
+}
+.lcInstruction:before {
+  content: "Инструкции по обучению";
+}
+.lcProject:before {
+  content: "Проект обучения";
+}
+.lcPerformanceAnalysis:before {
+  content: "Анализ производительности труда";
+}
+.lcCauseAnalysis:before {
+  content: "Анализ причин";
+}
+.lcInterventionDefinition:before {
+  content: "Оценка воздействия";
+}
+.lcClient:before {
+  content: "Описание клиента";
+}
+.lcLearningPlan:before {
+  content: "Описание плана обучения";
+}
+.lcCourseIdentNumber:before {
+  content: "Идентификатор курса";
+}
+.lcModificationDate:before {
+  content: "Дата изменения";
+}
+.lcDeliveryDate:before {
+  content: "Дата поставки";
+}
+.lcPlanSubject:before {
+  content: "Тема плана обучения";
+}
+.lcOrganizationalAnalysis:before {
+  content: "Организационный анализ";
+}
+.lcVisionStatement:before {
+  content: "Утверждение о стратегии";
+}
+.lcMissionStatement:before {
+  content: "Утверждение о миссии";
+}
+.lcValues:before {
+  content: "Этические принципы организации";
+}
+.lcGoalStatement:before {
+  content: "Утверждение о цели";
+}
+.lcObjectiveStatement:before {
+  content: "Утверждение о задаче";
+}
+.lcGapAnalysis:before {
+  content: "Анализ недостающих ресурсов";
+}
+.lcGapItem:before {
+  content: "Показатель недостающих ресурсов";
+}
+.lcDesiredPerformanceStatement:before {
+  content: "Желаемая производительность";
+}
+.lcActualPerformanceStatement:before {
+  content: "Фактическая производительность";
+}
+.lcPlanObjective:before {
+  content: "Задача плана";
+}
+.lcJtaItem:before {
+  content: "Элемент анализа рабочей задачи";
+}
+.lcGapStatement:before {
+  content: "Недостающие ресурсы";
+}
+.lcOrganizationalEnvironmentAnalysis:before {
+  content: "Анализ среды, в которой работает организация";
+}
+.lcWorkEnvironmentAnalysis:before {
+  content: "Анализ рабочей среды";
+}
+.lcManagerialSupport:before {
+  content: "Административная поддержка";
+}
+.lcPhysicalAspectsOfSite:before {
+  content: "Физические условия на площадке";
+}
+.lcSocialAspectsOfSite:before {
+  content: "Социальные условия на площадке";
+}
+.lcSpecialFactors:before {
+  content: "Особые факторы";
+}
+.lcPerformerAnalysis:before {
+  content: "Оценка работника";
+}
+.lcJobTitle:before {
+  content: "Название должности";
+}
+.lcJobCode:before {
+  content: "Код должности";
+}
+.lcEducationLevel:before {
+  content: "Уровень образования";
+}
+.lcAge:before {
+  content: "Возраст";
+}
+.lcProfessionalBackground:before {
+  content: "Профессиональный опыт";
+}
+.lcKnowledge:before {
+  content: "Знания";
+}
+.lcSkills:before {
+  content: "Квалификация";
+}
+.lcAbilities:before {
+  content: "Способности";
+}
+.lcAttitude:before {
+  content: "Отношение к работе";
+}
+.lcEnvironmentalFactor:before {
+  content: "Факторы среды";
+}
+.lcData:before {
+  content: "Данные";
+}
+.lcResources:before {
+  content: "Ресурсы";
+}
+.lcIncentives:before {
+  content: "Поощрения";
+}
+.lcInternalFactor:before {
+  content: "Внутренние факторы";
+}
+.lcCapacity:before {
+  content: "Индивидуальная производительность";
+}
+.lcMotives:before {
+  content: "Мотивация";
+}
+.lcNonTrainingInterventions:before {
+  content: "Неучебные воздействия";
+}
+.lcPerformanceSupport:before {
+  content: "Поддержка обучения";
+}
+.lcJobDesign:before {
+  content: "Структура рабочей задачи";
+}
+.lcPersonalDevelopment:before {
+  content: "Личное развитие";
+}
+.lcHumanResourceDevelopment:before {
+  content: "Развитие кадровых ресурсов";
+}
+.lcOrganizationalCommunication:before {
+  content: "Корпоративные коммуникации";
+}
+.lcOrganizationalDesign:before {
+  content: "Организационная структура";
+}
+.lcTrainingInterventions:before {
+  content: "Учебное воздействие";
+}
+.lcTargetAudience:before {
+  content: "Целевая аудитория";
+}
+.lcCurrentEntryBehaviors:before {
+  content: "Текущее начальное состояние";
+}
+.lcAttitudeTowardContent:before {
+  content: "Отношение к материалу";
+}
+.lcLearningPreferences:before {
+  content: "Предпочтения в отношении учебного процесса";
+}
+.lcPrerequisites:before {
+  content: "Предварительные требования";
+}
+.lcRequiredEntryBehaviors:before {
+  content: "Необходимое начальное состояние";
+}
+.lcTrainingComponent:before {
+  content: "Компонент обучения";
+}
+.lcTrainingType:before {
+  content: "Тип обучения";
+}
+.lcLearningStrategy:before {
+  content: "Стратегия обучения";
+}
+.lcDuration:before {
+  content: "Продолжительность";
+}
+.lcTime:before {
+  content: "Время";
+}
+.lcRequiredFinances:before {
+  content: "Необходимые денежные средства";
+}
+.lcRequiredPersonnel:before {
+  content: "Необходимый персонал";
+}
+.lcRequiredFacilities:before {
+  content: "Необходимые помещения";
+}
+.lcRequiredEquipment:before {
+  content: "Необходимое оборудование";
+}
+.lcLocalCultureConsiderations:before {
+  content: "Особенности местной культуры";
+}
+.lcAssessmentStrategy:before {
+  content: "Стратегия оценки";
+}
+.lcAssessmentComponent:before {
+  content: "Компонент оценки";
+}
+.lcMasteryScoreCriteria:before {
+  content: "Критерий овладения материалом";
+}
+.lcPerformanceRubric:before {
+  content: "Категория оценки";
+}
+.lcScoringMethod:before {
+  content: "Метод подсчета результатов";
+}
+.lcMinimumPassThreshold:before {
+  content: "Минимальный порог";
+}
+.lcTechnicalRqmts:before {
+  content: "Технические требования";
+}
+.lcBrowsers:before {
+  content: "Браузеры";
+}
+.lcLms:before {
+  content: "Системы управления обучением (LMS)";
+}
+.lcNonLmsEnvironment:before {
+  content: "Среды, отличные от системы управления обучением";
+}
+.lcPaperBasedMaterials:before {
+  content: "Бумажные материалы";
+}
+.lcClassroom:before {
+  content: "Классная комната";
+}
+.lcOjt:before {
+  content: "Обучение на рабочем месте";
+}
+.lcAccessibility:before {
+  content: "Доступность";
+}
+.lcPlayers:before {
+  content: "Проигрыватели";
+}
+.lcGraphicStandards:before {
+  content: "Графические стандарты";
+}
+.lcViewers:before {
+  content: "Средства просмотра";
+}
+.lcResolution:before {
+  content: "Разрешение";
+}
+.lcFileSizeLimitations:before {
+  content: "Ограничения для размеров файлов";
+}
+.lcDownloadTime:before {
+  content: "Время загрузки";
+}
+.lcSecurity:before {
+  content: "Секретность";
+}
+.lcLearningObjectives:before {
+  content: "Задачи обучения";
+}
+.lcObjectiveItem:before {
+  content: "Элемент задачи";
+}
+.lcInterventionImplementation:before {
+  content: "Внедрение воздействия";
+}
+.lcPerformanceEvaluation:before {
+  content: "Оценка производительности труда";
+}
+.lcFormativeEvaluation:before {
+  content: "Стимулирующая оценка";
+}
+.lcSummativeEvaluation:before {
+  content: "Итоговая оценка";
+}
+.lcImmediatePerformanceCompetence:before {
+  content: "Непосредственное влияние на производительность";
+}
+.lcJobTransfer:before {
+  content: "Эффективность выполнения рабочих задач";
+}
+.lcOrganizationalImpact:before {
+  content: "Влияние на организацию";
+}
+.lcAudience:before {
+  content: "Аудитория";
+}
+.lcEntryBehavior:before {
+  content: "Начальное состояние";
+}
+.lcSection:before {
+  content: "Раздел";
+}
+.lcIntro:before {
+  content: "Введение";
+}
+.lcInteraction:before {
+  content: "Взаимодействие";
+}
+.lcSummary:before {
+  content: "Сводка";
+}
+.lcQuestion:before {
+  content: "Вопрос";
+}
+.lcCorrectResponse:before {
+  content: "Верно" " ";
+}
+.lcCorrectResponse[lcValue]:before {
+  content: "Верный ответ" " " attr(lcValue);
+}
+.lcAnswerOption:before,
+.lcSequenceOption:before {
+  content: "Ответ";
+}
+.lcNonLmsItEnvironment:before {
+  content: "Среды, отличные от системы управления обучением";
+}
+.lcObjectiveItemGroup:before {
+  content: "Группа элементов задачи";
+}
+.lcAnswerOption[id]:before,
+.lcSequenceOption[id]:before {
+  content: "Ответ" " [" attr(id) "]";
+}
+.lcFeedbackItem:before {
+  content: "Обратная связь";
+}
+.lcFeedbackItem[attemptMatch]:before {
+  content: "Обратная связь" " (" "попыток" " " attr(attemptMatch) ")";
+}
+.lcAsset:before {
+  content: "Ресурс";
+}
+.lcSequence:before {
+  content: "Порядок" " " attr(lcValue);
+}
+.lcReview:before {
+  content: "Обзор";
+}
+.lcNextSteps:before {
+  content: "Следующие шаги";
+}
+:root {
+  --label-colonSymbol: ":";
+  --label-page: "Стр.";
+  --label-endOfDataModule: "Конец модуля данных";
+  --label-blankPageCenter: "Страница преднамеренно оставлена пустой";
+  --label-security-01: "Несекретно";
+  --label-security-02: "Для служебного пользования";
+  --label-security-03: "Конфиденциально";
+  --label-security-04: "Секретно";
+  --label-security-05: "Совершенно секретно";
+  --label-security-default: "Гриф секретности";
+  --label-HF-applic: "Действительно";
+  --label-applic-all: "Все";
+  --label-IPD-infoname: "Иллюстрированный каталог деталей";
+  --label-TOC: "Содержание";
+  --label-LOF: "Список иллюстраций";
+  --label-LOT: "Список таблиц";
+  --label-references: "Ссылки";
+  --label-commonInfo: "Общие сведения";
+  --label-thresholdInterval: "Пороговый интервал";
+  --label-preliminaryRqmts: "Предварительные требования";
+  --label-mainProcedure: "Основные работы";
+  --label-closeRqmts: "Требования после завершения работ";
+  --label-description: "Описание";
+  --label-crewRefCard: "Контрольная карта";
+  --label-reqCondGroup: "Требуемые условия";
+  --label-reqPersons: "Необходимый персонал";
+  --label-reqTechInfoGroup: "Требуемые технические сведения";
+  --label-reqSupportEquips: "Вспомогательное оборудование";
+  --label-reqSupplies: "Расходные материалы";
+  --label-reqSpares: "Запасные части";
+  --label-faultCode: "Код отказа";
+  --label-faultCodes: "Коды неисправности";
+  --label-faultDescription: "Описание отказа";
+  --label-possibleCauses: "Возможные причины";
+  --label-productCrossRefTable: "Перекрестная таблица изделий";
+  --label-applicCrossRefTable: "Таблица перекрестных ссылок по применимости";
+  --label-from: "от";
+  --label-of: "из";
+  --label-continued: "Продолжение";
+  --label-figure: "Рис.";
+  --label-table: "Таблица";
+  --label-multimedia: "Рис.";
+  --label-para: "Параграф";
+  --label-step: "Шаг";
+  --label-sheet: "Лист";
+  --label-zone: "Зона";
+  --label-zones: "Зоны";
+  --label-accessPoint: "Точка доступа";
+  --label-accessPoints: "Точки доступа";
+  --label-workLocation: "Место работы";
+  --label-workLocations: "Места работы";
+  --label-partno: "Номер детали";
+  --label-item: "Поз.";
+  --label-CSN: "CSN";
+  --label-CSNISN: "CSN/ISN";
+  --label-materialSet: "Набор";
+  --label-legend: "Легенда к Рис.";
+  --label-cbActionOpen: "Открыть";
+  --label-cbActionClose: "Закрыть";
+  --label-header-cb-name: "Наименование";
+  --label-header-cb: "АЗС";
+  --label-header-cb-location: "Расположение";
+  --label-remarks: "Примечания";
+  --label-action: "Действие";
+  --label-condition: "Условие";
+  --label-data-module: "Модуль данных";
+  --label-technical-publication: "Техническая публикация";
+  --label-document-number: "Номер документа";
+  --label-title: "Название";
+  --label-category: "Категория";
+  --label-person: "Персонал";
+  --label-personCategory: "Категория";
+  --label-personSkill: "Уровень квалификации";
+  --label-trade: "Специальность/Код специальности";
+  --label-estimatedTime: "Планируемое время";
+  --label-persons: "чел.";
+  --label-person-inline: "чел.";
+  --label-as-required: "По требованию";
+  --label-man: "Специалист";
+  --label-name: "Наименование";
+  --label-identification: "Идентификация";
+  --label-reference: "Ссылка";
+  --label-quantity: "Количество";
+  --label-accessPoint-accpnl01: "Люк доступа";
+  --label-accessPoint-accpnl02: "Панель";
+  --label-accessPoint-accpnl03: "Электрическая панель";
+  --label-thresholdInterval-th01: "Летные часы";
+  --label-thresholdInterval-th02: "Взлетно-посадочные циклы";
+  --label-thresholdInterval-th03: "Месяцы";
+  --label-thresholdInterval-th04: "Недели";
+  --label-thresholdInterval-th05: "Годы";
+  --label-thresholdInterval-th06: "Дни";
+  --label-thresholdInterval-th07: "Взлетно-посадочные циклы в сверхзвуковом режиме";
+  --label-thresholdInterval-th08: "Циклы изменения давления";
+  --label-thresholdInterval-th09: "Циклы двигателя";
+  --label-thresholdInterval-th10: "Замена двигателя";
+  --label-thresholdInterval-th11: "Пребывание в цехе";
+  --label-thresholdInterval-th12: "Замена ВСУ";
+  --label-thresholdInterval-th13: "Замена шасси";
+  --label-thresholdInterval-th14: "Замена колеса";
+  --label-thresholdInterval-th15: "Запуск двигателя";
+  --label-thresholdInterval-th16: "Наработанные часы ВСУ";
+  --label-thresholdInterval-th17: "Часы наработки двигателя";
+  --label-thresholdInterval-th18: "Наработанные часы";
+  --label-thresholdInterval-th19: "Посадки";
+  --label-thresholdInterval-th20: "Циклы эксплуатации";
+  --label-thresholdInterval-th21: "Часы эксплуатации";
+  --label-thresholdInterval-th22: "Наработанные часы в сверхзвуковом режиме";
+  --label-thresholdInterval-th23: "Проверка 'A'";
+  --label-thresholdInterval-th24: "Проверка 'B'";
+  --label-thresholdInterval-th25: "Проверка 'C'";
+  --label-thresholdInterval-th26: "Проверка 'D'";
+  --label-thresholdInterval-th27: "Ежедневно";
+  --label-thresholdInterval-th28: "Проверка 'E'";
+  --label-thresholdInterval-th29: "На следующие сутки";
+  --label-thresholdInterval-th30: "Перед полетом";
+  --label-thresholdInterval-th31: "Обычная проверка";
+  --label-thresholdInterval-th32: "Конструктивная проверка 'C'";
+  --label-thresholdInterval-th33: "Сервисная проверка";
+  --label-thresholdInterval-th34: "Транзит";
+  --label-thresholdInterval-th35: "Километры";
+  --label-thresholdInterval-th36: "Потребление в куб. метрах";
+  --label-thresholdInterval-th37: "Потребление в литрах";
+  --label-thresholdInterval-th38: "Количество выстрелов - отдельно";
+  --label-thresholdInterval-th39: "Количество выстрелов - приведенный заряд (EFC)";
+  --label-installationLocationType-02: "Раздел";
+  --label-installationLocationType-03: "Узел подвески";
+  --label-installationLocationType-04: "Ватерлиния";
+  --label-installationLocationType-05: "Кормовой батокс";
+  --label-productItemType-01: "Шпангоут";
+  --label-productItemType-02: "Нервюра";
+  --label-productItemType-03: "Стрингер";
+  --label-reqTechInfoCategory-01: "Модуль публикации";
+  --label-reqTechInfoCategory-02: "Модуль данных";
+  --label-reqTechInfoCategory-03: "Чертеж";
+  --label-reqTechInfoCategory-04: "Электрическая схема";
+  --label-reqTechInfoCategory-05: "Принципиальная схема";
+  --label-reqTechInfoCategory-06: "Лист безопаскности";
+  --label-skillLevelCode-01: "Базовый";
+  --label-skillLevelCode-02: "Средний";
+  --label-skillLevelCode-03: "Продвинутый";
+  --label-learningAssessment: "Оценка обучения";
+  --label-learningSummary: "Сводки по обучению";
+  --label-learningContent: "Содержимое обучения";
+  --label-learningOverview: "Обзор обучения";
+  --label-questions: "Вопросы";
+  --label-avehcfg: "Требуемые базовые условия";
+  --label-avehcfg-status-yes: "Требуется";
+  --label-avehcfg-status-no: "Запрещено";
+  --label-avehcfg-status-indiffer: "Безралично";
+  --label-avehcfg-status-na: "Не применимо";
+  --label-avehcfg-power-engine: "Двигатель";
+  --label-avehcfg-power-apu: "ВСУ";
+  --label-avehcfg-power-external: "Внешний";
+  --label-avehcfg-power-internal: "Внутренний";
+  --label-avehcfg-power-indifferent: "Безралично";
+  --label-avehcfg-power-notapplic: "Не применимо";
+  --label-avehcfg-status: "Состояние";
+  --label-avehcfg-power: "Источник энергии";
+  --label-avehcfg-jacked: "На домкратах";
+  --label-avehcfg-safedev: "Установлены предохранительные устройства";
+  --label-avehcfg-elecpwr: "Источник электрической энергии";
+  --label-avehcfg-hydpwr: "Источник гидравлической энергии";
+  --label-avehcfg-airpwr: "Источник пневматической энергии";
+  --label-avehcfg-fuel: "Заправка";
+  --label-avehcfg-water: "Вода";
+  --label-avehcfg-fcposn: "Органы управления";
+  --label-issueNo: "Издание";
+  --label-publisher: "Издатель";
+  --label-manufacturer: "Изготовитель";
+  --label-documentTitle: "Название документа";
+  --label-dataModuleCode: "Код модуля данных";
+  --label-issueDate: "Дата издания";
+  --label-noOfPages: "Число стр.";
+  --label-fm-applic: "Действительно";
+  --label-loedm-generate-row1-part1: "Перечень документов, включенных в публикацию, издание ";
+  --label-loedm-generate-row1-part2: ", дата ";
+  --label-loedm-generate-row1-part3: ".";
+  --label-loedm-generate-row2: "C = Измененный модуль данных";
+  --label-loedm-generate-row3: "N = Новый модуль данных";
+  --label-reason-for-update: "Причина обновления";
+  --label-updating-instruction: "Инструкция по обновлению";
+  --label-high-table: "Список модулей данных, требующих добавления или удаления";
+  --label-high-generate-row1: "Список добавленных или удаленных модулей данных представлен в Таблице 1.";
+  --label-high-generate-row2: "I = Вставить модуль данных";
+  --label-high-generate-row3: "R = Удалить модуль данных";
+}

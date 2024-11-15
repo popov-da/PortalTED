@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "WARNUNG" ":" " ";
+}
+.cautiontitle:before {
+  content: "ACHTUNG" ":" " ";
+}
+.dangertitle:before {
+  content: "VORSICHT" ":" " ";
+}
+.notetitle:before {
+  content: "Hinweis" ":" " ";
+}
+.notestitle:before {
+  content: "Hinweise" ":" " ";
+}
+.tiptitle:before {
+  content: "Tipp" ":" " ";
+}
+.fastpathtitle:before {
+  content: "Fastpath" ":" " ";
+}
+.importanttitle:before {
+  content: "Wichtig" ":" " ";
+}
+.attentiontitle:before {
+  content: "Achtung" ":" " ";
+}
+.remembertitle:before {
+  content: "Bedenken Sie" ":" " ";
+}
+.restrictiontitle:before {
+  content: "Einschränkung" ":" " ";
+}
+.noticetitle:before {
+  content: "Beachten Sie" ":" " ";
+}
+.troubletitle:before {
+  content: "Problem" ":" " ";
+}

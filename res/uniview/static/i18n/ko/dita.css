@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "경고" ":" " ";
+}
+.cautiontitle:before {
+  content: "주의" ":" " ";
+}
+.dangertitle:before {
+  content: "위험" ":" " ";
+}
+.notetitle:before {
+  content: "메모" ":" " ";
+}
+.notestitle:before {
+  content: "메모" ":" " ";
+}
+.tiptitle:before {
+  content: "팁" ":" " ";
+}
+.fastpathtitle:before {
+  content: "단축 경로" ":" " ";
+}
+.importanttitle:before {
+  content: "중요" ":" " ";
+}
+.attentiontitle:before {
+  content: "주의" ":" " ";
+}
+.remembertitle:before {
+  content: "기억" ":" " ";
+}
+.restrictiontitle:before {
+  content: "제한" ":" " ";
+}
+.noticetitle:before {
+  content: "알림" ":" " ";
+}
+.troubletitle:before {
+  content: "고장" ":" " ";
+}

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "WARNING" ":" " ";
+}
+.cautiontitle:before {
+  content: "CAUTION" ":" " ";
+}
+.dangertitle:before {
+  content: "DANGER" ":" " ";
+}
+.notetitle:before {
+  content: "Note" ":" " ";
+}
+.notestitle:before {
+  content: "Notes" ":" " ";
+}
+.tiptitle:before {
+  content: "Tip" ":" " ";
+}
+.fastpathtitle:before {
+  content: "Fastpath" ":" " ";
+}
+.importanttitle:before {
+  content: "Important" ":" " ";
+}
+.attentiontitle:before {
+  content: "Attention" ":" " ";
+}
+.remembertitle:before {
+  content: "Remember" ":" " ";
+}
+.restrictiontitle:before {
+  content: "Restriction" ":" " ";
+}
+.noticetitle:before {
+  content: "Notice" ":" " ";
+}
+.troubletitle:before {
+  content: "Trouble" ":" " ";
+}
+/*
+    tcsp_workcard.less
+*/
+[data-class~="taskreq-d/reqconds"]:before {
+  content: "Required Conditions";
+}
+[data-class~="taskreq-d/reqpers"]:before {
+  content: "Required Persons";
+}
+[data-class~="taskreq-d/supequip"]:before {
+  content: "Support Equipment";
+}
+[data-class~="taskreq-d/supplies"]:before {
+  content: "Consumables, Materials and Expendables";
+}
+[data-class~="taskreq-d/spares"]:before {
+  content: "Spares";
+}
+[data-class~="taskreq-d/safety"]:before {
+  content: "Safety Conditions";
+}
+[data-class~="task/prereq"]:before {
+  content: "Preliminary requirements";
+}
+[data-class~="task/postreq"]:before {
+  content: "Requirements after job completion";
+}
+[data-class~="task/steps"]:before {
+  content: "Procedure";
+}
+[data-class~="topic/related-links"]:before {
+  content: "References";
+}
+[data-class~="taskreq-d/nosupeq"]:before,
+[data-class~="taskreq-d/nosupply"]:before,
+[data-class~="taskreq-d/nospares"]:before,
+[data-class~="taskreq-d/nosafety"]:before,
+[data-class~="taskreq-d/noconds"]:before {
+  content: "None";
+}
+[data-outputclass~="section-frequency"]:before {
+  content: "Frequency";
+}
+[data-outputclass~="section-category"]:before {
+  content: "Category";
+}
+[data-outputclass~="section-reqpers"]:before {
+  content: "Required Persons";
+}

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+    rwi.less
+*/
+.note .skin-modal-title:before {
+  content: "Nota";
+}
+.caution .skin-modal-title:before {
+  content: "ATTENZIONE";
+}
+.warning .skin-modal-title:before {
+  content: "Avviso";
+}
+:root {
+  --label-jobCode: "Codice processo";
+  --label-summary: "Riepilogo";
+  --label-workType: "Tipo di lavoro";
+  --label-role: "Ruolo";
+  --label-expTime: "Tempo previsto";
+  --label-workCell: "Cella di lavoro";
+  --label-preJob: "Processo precedente";
+  --label-postJob: "Processo successivo";
+  --label-workOrder: "Ordine di lavoro";
+  --label-revision: "Revisione";
+  --label-preq: "PREREQUISITI";
+  --label-billOfMaterial: "DISTINTA PARTI";
+  --label-resources: "RISORSE";
+  --label-altpnr: "Numero parte alternativa";
+  --label-pnr: "Numero parte";
+  --label-desc: "Descrizione";
+  --label-qty: "Quantità";
+  --label-job: "PROCESSO";
+  --label-no: "N°";
+  --label-task: "Attività";
+  --label-illustration: "Illustrazione";
+  --label-warning: "Avviso";
+  --label-caution: "ATTENZIONE";
+  --label-note: "Nota";
+}

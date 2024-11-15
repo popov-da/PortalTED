@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "警告" ":" " ";
+}
+.cautiontitle:before {
+  content: "警示" ":" " ";
+}
+.dangertitle:before {
+  content: "危险" ":" " ";
+}
+.notetitle:before {
+  content: "注释" ":" " ";
+}
+.notestitle:before {
+  content: "注释" ":" " ";
+}
+.tiptitle:before {
+  content: "提示" ":" " ";
+}
+.fastpathtitle:before {
+  content: "窍门" ":" " ";
+}
+.importanttitle:before {
+  content: "重点" ":" " ";
+}
+.attentiontitle:before {
+  content: "关注" ":" " ";
+}
+.remembertitle:before {
+  content: "记住" ":" " ";
+}
+.restrictiontitle:before {
+  content: "限制" ":" " ";
+}
+.noticetitle:before {
+  content: "留意" ":" " ";
+}
+.troubletitle:before {
+  content: "故障" ":" " ";
+}

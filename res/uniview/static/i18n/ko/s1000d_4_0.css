@@ -1,0 +1,602 @@
+@charset "utf-8";
+/*
+    s1000d_4_0.less
+*/
+.identAndStatusSection .issueInfo[data-issuenumber]:before {
+  content: "문제점" ": ";
+}
+.identAndStatusSection .language[data-languageisocode]:before {
+  content: "언어" ": ";
+}
+.identAndStatusSection .issueDate[data-day]:before {
+  content: "날짜" ": ";
+}
+.issueInfo[data-issuenumber]:after {
+  content: attr(data-issuenumber) "-" attr(data-inwork);
+}
+.language[data-languageisocode]:after {
+  content: attr(data-languageisocode) "-" attr(data-countryisocode);
+}
+.issueDate[data-day]:after {
+  content: attr(data-day) "-" attr(data-month) "-" attr(data-year);
+}
+.firstVerification:after {
+  content: attr(data-verificationType);
+}
+.skillLevel[data-skillLevelCode]:after {
+  content: attr(data-skillLevelCode);
+}
+.dataRestrictions:before {
+  content: "데이터 제한" ":";
+}
+.dataDistribution:before {
+  content: "배포";
+}
+.exportControl:before {
+  content: "제어 내보내기";
+}
+.dataHandling:before {
+  content: "처리";
+}
+.dataDestruction:before {
+  content: "소멸";
+}
+.dataDisclosure:before {
+  content: "공개";
+}
+.copyright:before {
+  content: "저작권";
+}
+.dmRefAddressItems .infoName:before {
+  content: " - ";
+}
+.identNumber:before {
+  content: "";
+}
+.partAndSerialNumber:before {
+  content: "/";
+}
+.natoStockNumber:before {
+  content: "NSN" " ";
+}
+.serialNumber:before {
+  content: "일련 번호" " ";
+}
+.customerStockNumber:before {
+  content: "재고 번호" " ";
+}
+.zoneRef:before {
+  content: "영역" " ";
+}
+.accessPointRef:before,
+.accessPointRef[data-accessPointTypeValue="accpnl01"]:before {
+  content: "문" " ";
+}
+.accessPointRef[data-accessPointTypeValue="accpnl02"]:before {
+  content: "패널" " ";
+}
+.accessPointRef[data-accessPointTypeValue="accpnl03"]:before {
+  content: "전기 패널" " ";
+}
+.multimediaObject:before,
+.graphic:before {
+  content: "도형" " " counter(figure) " ";
+}
+.graphic[data-sheets]:after {
+  content: " (" "시트" " " counter(sheet) " " "/" " " attr(data-sheets) ")";
+}
+.multimediaObject[data-sheets]:after {
+  content: " (" "멀티미디어" " " counter(sheet) " " "/" " " attr(data-sheets) ")";
+}
+.internalRef.irtt01:before {
+  content: "도형" " " attr(data-figure);
+}
+.internalRef.irtt02:before {
+  content: "테이블" " " attr(data-index);
+}
+.internalRef.irtt03:before {
+  content: "도형" " " attr(data-figure);
+}
+.internalRef.irtt07:before {
+  content: "매개변수" " " attr(data-index);
+}
+.internalRef.irtt08:before {
+  content: "단계" " " attr(data-index);
+}
+.internalRef.irtt09:before {
+  content: "도형" " " attr(data-figure) ", " "시트" " " attr(data-sheet);
+}
+.internalRef.irtt10:before {
+  content: "도형" " " attr(data-figure) ", " attr(data-multimediaType);
+}
+.internalRef.irtt11:before {
+  content: "도형" " " attr(data-figure) " [" attr(data-referredFragment) "]";
+}
+.yesAnswerStart:before {
+  content: "예";
+}
+.noAnswerStart:before {
+  content: "아니요";
+}
+.choiceLink:before,
+.yesAnswerLink:before,
+.noAnswerLink:before {
+  content: "단계로 이동" " " attr(data-index);
+}
+.isolationProcedureEnd:after {
+  content: '작업 완료 후 요구사항으로 이동합니다.';
+}
+#app-figure-title.multimediaObject:before,
+#app-figure-title.internalRef.irtt01:before,
+#app-figure-title.internalRef.irtt03:before,
+#app-figure-title.internalRef.irtt09:before,
+#app-figure-title.internalRef.irtt10:before,
+#app-figure-title.internalRef.irtt11:before,
+#app-figure-title.internalRef.irtt12:before,
+#app-figure-title.graphic:before {
+  content: "도형" " " attr(data-index) " ";
+}
+#app-figure-title.graphic[data-subindexes]:after {
+  content: " (" "시트" " " attr(data-subindex) " " "/" " " attr(data-subindexes) ")";
+}
+#app-figure-title.multimediaObject[data-subindexes]:after {
+  content: " (" "멀티미디어" " " attr(data-subindex) " " "/" " " attr(data-subindexes) ")";
+}
+#app-figure-title.graphic[data-subindexes='']:after,
+#app-figure-title.multimediaObject[data-subindexes='']:after {
+  content: none;
+}
+.personnel .numRequired[data-value]:before {
+  content: attr(data-value) " " "사람";
+}
+.personnel .numRequired[data-value='1']:before {
+  content: attr(data-value) " " "사람";
+}
+.personnel .numRequired[data-value='0']:before,
+.personnel .numRequired[data-value='']:before {
+  content: "필요 시";
+}
+.taskDuration:before {
+  content: "유지 관리 타스크 기간";
+}
+.taskDuration:after {
+  content: "예비 요구사항" " " attr(data-startupDuration) " " attr(data-unitOfMeasure) "\000a" "프로시저" " " attr(data-procedureDuration) " " attr(data-unitOfMeasure) "\000a" "작업 완료 후 요구사항" " " attr(data-closeupDuration) " " attr(data-unitOfMeasure);
+}
+.externalPubCode:before {
+  content: attr(data-pubCodingScheme);
+}
+.externalPubIssueInfo:before {
+  content: "에디션:" " ";
+}
+/* Centerhead2 titles */
+.mainProcedure:before {
+  content: "프로시저";
+}
+.content > .description:before {
+  content: "설명";
+}
+.maintPlanning:before {
+  content: "일정";
+}
+.isolationMainProcedure:before {
+  content: "결함 분리 프로시저";
+}
+.descrCrew:before {
+  content: "직원/운영자 내용";
+}
+.commonRepository:before {
+  content: "일반 정보 리포지토리";
+}
+.faultReporting:before {
+  content: "결함 보고";
+}
+.detectionInfo:before {
+  content: "결함 감지";
+}
+.content > .refs:before {
+  content: "참조";
+}
+.preliminaryRqmts:before {
+  content: "예비 요구사항";
+}
+.closeRqmts:before {
+  content: "작업 완료 후 요구사항";
+}
+/* sidehead0 titles */
+.cautionRepository:before {
+  content: "주의 리포지토리";
+}
+.toolRepository:before {
+  content: "도구 리포지토리";
+}
+.controlIndicatorRepository:before {
+  content: "제어 및 표시기";
+}
+.functionalPhysicalAreaRepository:before {
+  content: "기능 및/또는 물리적 영역 리포지토리";
+}
+.warningRepository:before {
+  content: "경고 리포지토리";
+}
+.zoneRepository:before {
+  content: "영역 리포지토리";
+}
+.partRepository:before {
+  content: "부품 리포지토리";
+}
+.functionalItemRepository:before {
+  content: "기능 아이템 리포지토리";
+}
+/* Warning, Caution, Note */
+.warning:before {
+  content: "경고";
+}
+.caution:before {
+  content: "주의";
+}
+.note:before {
+  content: "메모";
+}
+/* Sidehead0 titles */
+.productionMaintData:before {
+  content: "제작 관리 데이터";
+}
+.reqCondGroup:before {
+  content: "필수 조건";
+}
+.reqSupportEquips:before {
+  content: "지원 장비";
+}
+.reqSupplies:before {
+  content: "소비재, 재료 및 소모품";
+}
+.reqTechInfoGroup:before {
+  content: "필수 기술 정보";
+}
+.reqSpares:before {
+  content: "예비 부품";
+}
+.reqSafety:before {
+  content: "안전 조건";
+}
+.reqPersons:before {
+  content: "필수 담당자";
+}
+.workAreaLocationGroup:before {
+  content: "작업 영역 위치";
+}
+/* None keyword */
+.noSupportEquips:before,
+.noSupplies:before,
+.noSpares:before,
+.noSafety:before,
+.noConds:before {
+  content: "없음";
+}
+/* Tables */
+.table-contents > .title:before {
+  content: "테이블" " " counter(table) " ";
+}
+.content > .refs > .tabular:before {
+  content: "테이블" " " counter(table) " " "참조";
+}
+.reqCondGroup > .tabular:before {
+  content: "테이블" " " counter(table) " " "필수 조건";
+}
+.reqPersons > .tabular:before {
+  content: "테이블" " " counter(table) " " "필수 담당자";
+}
+.reqSupportEquips > .tabular:before {
+  content: "테이블" " " counter(table) " " "지원 장비";
+}
+.reqSupplies > .tabular:before {
+  content: "테이블" " " counter(table) " " "소비재, 재료 및 소모품";
+}
+.reqSpares > .tabular:before {
+  content: "테이블" " " counter(table) " " "예비 부품";
+}
+.header > .name:before {
+  content: "이름";
+}
+.header > .ident:before {
+  content: "식별/참조";
+}
+.header > .qty:before {
+  content: "수량";
+}
+.header > .remark:before {
+  content: "설명";
+}
+.header > .condition:before {
+  content: "작업/조건";
+}
+.header > .publication:before {
+  content: "데이터 모듈/기술 문서";
+}
+.header > .title:before {
+  content: "제목";
+}
+.header > .person:before {
+  content: "사용자";
+}
+.header > .category:before {
+  content: "카테고리";
+}
+.header > .skill:before {
+  content: "기술 수준";
+}
+.header > .trade:before {
+  content: "거래/거래 코드";
+}
+.header > .time:before {
+  content: "예상 시간";
+}
+.dmodule:after {
+  content: "데이터 모듈의 끝";
+}
+.dmStatus .security[data-securityClassification]:before {
+  content: "보안 클래스" " " attr(data-securityClassification);
+}
+.dmStatus .security[data-securityClassification="01"]:before {
+  content: "분류되지 않음";
+}
+.dmStatus .security[data-securityClassification="02"]:before {
+  content: "제한됨";
+}
+.dmStatus .security[data-securityClassification="03"]:before {
+  content: "기밀";
+}
+.dmStatus .security[data-securityClassification="04"]:before {
+  content: "비밀";
+}
+.dmStatus .security[data-securityClassification="05"]:before {
+  content: "극비";
+}
+.dmStatus .responsiblePartnerCompany:before {
+  content: "담당 파트너 회사" ": " attr(data-enterpriseCode) " / ";
+}
+.dmStatus .originator:before {
+  content: "발송자" ": " attr(data-enterpriseCode) " / ";
+}
+.applicCrossRefTableRef:before {
+  content: "ACT 데이터 모듈" ": ";
+}
+.dmStatus > .applic:before {
+  content: "적용 가능성" ": ";
+}
+.techStandard:before {
+  content: "기술 표준" ":";
+}
+.brexDmRef:before {
+  content: "BREX 데이터 모듈" ": ";
+}
+.unverified:before {
+  content: "확인되지 않음";
+}
+.firstVerification:before {
+  content: "첫 번째 확인" ": ";
+}
+.secondVerification:before {
+  content: "두 번째 확인" ": ";
+}
+.systemBreakdownCode:before {
+  content: "시스템 고장 코드" ": ";
+}
+.reasonForUpdate:before {
+  content: "업데이트 이유" ": ";
+}
+.skillLevel:before {
+  content: "기술 수준" ": ";
+}
+.personSkill .skillLevel:before {
+  content: "";
+}
+.skillLevel[data-skillLevelCode="sk01"]:after {
+  content: "기본";
+}
+.skillLevel[data-skillLevelCode="sk02"]:after {
+  content: "중간";
+}
+.skillLevel[data-skillLevelCode="sk03"]:after {
+  content: "고급";
+}
+.catalogSeqNumberRef:before {
+  content: "CSN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.catalogSeqNumberRef[data-systemCode]:before {
+  content: "CSN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.catalogSeqNumberRef[data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.catalogSeqNumberRef[data-systemCode][data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+:root {
+  --label-colonSymbol: ":";
+  --label-page: "페이지";
+  --label-endOfDataModule: "데이터 모듈의 끝";
+  --label-blankPageCenter: "의도적으로 비워 둠";
+  --label-security-01: "분류되지 않음";
+  --label-security-02: "제한됨";
+  --label-security-03: "기밀";
+  --label-security-04: "비밀";
+  --label-security-05: "극비";
+  --label-security-default: "보안 클래스";
+  --label-HF-applic: "적용 가능 대상";
+  --label-applic-all: "모두";
+  --label-IPD-infoname: "제시된 부품 데이터";
+  --label-TOC: "목차";
+  --label-LOF: "그림 목록";
+  --label-LOT: "테이블 목록";
+  --label-references: "참조";
+  --label-commonInfo: "일반 정보";
+  --label-thresholdInterval: "임계값 간격";
+  --label-preliminaryRqmts: "예비 요구사항";
+  --label-mainProcedure: "프로시저";
+  --label-closeRqmts: "작업 완료 후 요구사항";
+  --label-description: "설명";
+  --label-crewRefCard: "직원 참조 카드";
+  --label-reqCondGroup: "필수 조건";
+  --label-reqPersons: "필수 담당자";
+  --label-reqTechInfoGroup: "필수 기술 정보";
+  --label-reqSupportEquips: "지원 장비";
+  --label-reqSupplies: "소비재, 재료 및 소모품";
+  --label-reqSpares: "예비 부품";
+  --label-faultCode: "결함 코드";
+  --label-faultCodes: "결함 코드";
+  --label-faultDescription: "결함 설명";
+  --label-possibleCauses: "가능한 원인";
+  --label-productCrossRefTable: "제품 상호 참조 테이블";
+  --label-applicCrossRefTable: "적용 가능성 상호 참조 테이블";
+  --label-from: "시작";
+  --label-of: "/";
+  --label-continued: "계속됨";
+  --label-figure: "도형";
+  --label-table: "테이블";
+  --label-multimedia: "도형";
+  --label-para: "단락";
+  --label-step: "단계";
+  --label-sheet: "시트";
+  --label-zone: "영역";
+  --label-zones: "영역";
+  --label-accessPoint: "액세스 지점";
+  --label-accessPoints: "액세스 지점";
+  --label-workLocation: "작업 위치";
+  --label-workLocations: "작업 위치";
+  --label-partno: "부품 번호";
+  --label-item: "항목";
+  --label-CSN: "CSN";
+  --label-CSNISN: "CSN/ISN";
+  --label-materialSet: "설정";
+  --label-legend: "그림 범례";
+  --label-cbActionOpen: "열기";
+  --label-cbActionClose: "닫기";
+  --label-header-cb-name: "CB 이름";
+  --label-header-cb: "CB";
+  --label-header-cb-location: "CB 위치";
+  --label-remarks: "설명";
+  --label-action: "작업";
+  --label-condition: "조건";
+  --label-data-module: "데이터 모듈";
+  --label-technical-publication: "기술 게시물";
+  --label-document-number: "문서 번호";
+  --label-title: "제목";
+  --label-category: "카테고리";
+  --label-person: "사용자";
+  --label-personCategory: "카테고리";
+  --label-personSkill: "기술 수준";
+  --label-trade: "거래/거래 코드";
+  --label-estimatedTime: "예상 시간";
+  --label-persons: "사람";
+  --label-person-inline: "사람";
+  --label-as-required: "필요 시";
+  --label-man: "사람";
+  --label-name: "이름";
+  --label-identification: "식별";
+  --label-reference: "참조";
+  --label-quantity: "수량";
+  --label-accessPoint-accpnl01: "문에 액세스";
+  --label-accessPoint-accpnl02: "패널에 액세스";
+  --label-accessPoint-accpnl03: "전기 패널에 액세스";
+  --label-thresholdInterval-th01: "비행 시간";
+  --label-thresholdInterval-th02: "비행 주기";
+  --label-thresholdInterval-th03: "월";
+  --label-thresholdInterval-th04: "주";
+  --label-thresholdInterval-th05: "연";
+  --label-thresholdInterval-th06: "일";
+  --label-thresholdInterval-th07: "초음속 주기";
+  --label-thresholdInterval-th08: "압력 주기";
+  --label-thresholdInterval-th09: "엔진 주기";
+  --label-thresholdInterval-th10: "엔진 교환";
+  --label-thresholdInterval-th11: "판매점 방문";
+  --label-thresholdInterval-th12: "보조 전원 장치 교환";
+  --label-thresholdInterval-th13: "착륙 장치 교환";
+  --label-thresholdInterval-th14: "휠 교환";
+  --label-thresholdInterval-th15: "엔진 시작";
+  --label-thresholdInterval-th16: "APU 시간";
+  --label-thresholdInterval-th17: "엔진 시간";
+  --label-thresholdInterval-th18: "경과 시간";
+  --label-thresholdInterval-th19: "착륙";
+  --label-thresholdInterval-th20: "작동 주기";
+  --label-thresholdInterval-th21: "작동 시간";
+  --label-thresholdInterval-th22: "초음속 시간";
+  --label-thresholdInterval-th23: "'A' 확인";
+  --label-thresholdInterval-th24: "'B' 확인";
+  --label-thresholdInterval-th25: "'C' 확인";
+  --label-thresholdInterval-th26: "'D' 확인";
+  --label-thresholdInterval-th27: "매일";
+  --label-thresholdInterval-th28: "'E' 확인";
+  --label-thresholdInterval-th29: "야간";
+  --label-thresholdInterval-th30: "실행 전";
+  --label-thresholdInterval-th31: "루틴 확인";
+  --label-thresholdInterval-th32: "구조적 'C' 확인";
+  --label-thresholdInterval-th33: "서비스 확인";
+  --label-thresholdInterval-th34: "통과";
+  --label-thresholdInterval-th35: "킬로미터";
+  --label-thresholdInterval-th36: "소모량(입방 미터)";
+  --label-thresholdInterval-th37: "소모량(리터)";
+  --label-thresholdInterval-th38: "샷 횟수 - 각각";
+  --label-thresholdInterval-th39: "샷 횟수 - 완전충전장약(EFC)";
+  --label-installationLocationType-02: "섹션";
+  --label-installationLocationType-03: "스테이션";
+  --label-installationLocationType-04: "수선";
+  --label-installationLocationType-05: "버턱 라인";
+  --label-productItemType-01: "프레임";
+  --label-productItemType-02: "Rib";
+  --label-productItemType-03: "스트링거";
+  --label-reqTechInfoCategory-01: "게시 모듈";
+  --label-reqTechInfoCategory-02: "데이터 모듈";
+  --label-reqTechInfoCategory-03: "그리기";
+  --label-reqTechInfoCategory-04: "전기 다이어그램";
+  --label-reqTechInfoCategory-05: "계통도 다이어그램";
+  --label-reqTechInfoCategory-06: "안전 시트";
+  --label-skillLevelCode-01: "기본";
+  --label-skillLevelCode-02: "중간";
+  --label-skillLevelCode-03: "고급";
+  --label-learningAssessment: "학습 평가";
+  --label-learningSummary: "학습 요약";
+  --label-learningContent: "학습 내용";
+  --label-learningOverview: "학습 개요";
+  --label-questions: "질문";
+  --label-avehcfg: "필수 기본 조건";
+  --label-avehcfg-status-yes: "필수";
+  --label-avehcfg-status-no: "허용 안 함";
+  --label-avehcfg-status-indiffer: "무관심";
+  --label-avehcfg-status-na: "해당 없음";
+  --label-avehcfg-power-engine: "엔진";
+  --label-avehcfg-power-apu: "APU";
+  --label-avehcfg-power-external: "외부";
+  --label-avehcfg-power-internal: "내부";
+  --label-avehcfg-power-indifferent: "무관심";
+  --label-avehcfg-power-notapplic: "해당 없음";
+  --label-avehcfg-status: "상태";
+  --label-avehcfg-power: "전원";
+  --label-avehcfg-jacked: "제품 잭업됨";
+  --label-avehcfg-safedev: "설치된 안전 장치";
+  --label-avehcfg-elecpwr: "전력";
+  --label-avehcfg-hydpwr: "수압력";
+  --label-avehcfg-airpwr: "공기압력";
+  --label-avehcfg-fuel: "연료";
+  --label-avehcfg-water: "물";
+  --label-avehcfg-fcposn: "특정 EFCS 위치";
+  --label-issueNo: "발행 번호";
+  --label-publisher: "게시자";
+  --label-manufacturer: "제조업체";
+  --label-documentTitle: "문서 제목";
+  --label-dataModuleCode: "데이터 모듈 코드";
+  --label-issueDate: "발행일";
+  --label-noOfPages: "페이지 수";
+  --label-fm-applic: "적용 가능 대상";
+  --label-loedm-generate-row1-part1: "나열된 문서는 발행 ";
+  --label-loedm-generate-row1-part2: "일 ";
+  --label-loedm-generate-row1-part3: "(해당 게시물)에 포함되어 있습니다.";
+  --label-loedm-generate-row2: "C = 변경된 데이터 모듈";
+  --label-loedm-generate-row3: "N = 새 데이터 모듈";
+  --label-reason-for-update: "업데이트 이유";
+  --label-updating-instruction: "업데이트 지침";
+  --label-high-table: "제거하거나 삽입할 데이터 모듈";
+  --label-high-generate-row1: "테이블 1에 나열된 대로 데이터 모듈을 제거하거나 삽입하십시오.";
+  --label-high-generate-row2: "I = 데이터 모듈 삽입";
+  --label-high-generate-row3: "R = 데이터 모듈 제거";
+}

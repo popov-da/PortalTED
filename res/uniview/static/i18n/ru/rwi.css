@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+    rwi.less
+*/
+.note .skin-modal-title:before {
+  content: "ПРИМЕЧАНИЕ";
+}
+.caution .skin-modal-title:before {
+  content: "ПРЕДОСТЕРЕЖЕНИЕ";
+}
+.warning .skin-modal-title:before {
+  content: "ПРЕДУПРЕЖДЕНИЕ";
+}
+:root {
+  --label-jobCode: "Код работы";
+  --label-summary: "Описание";
+  --label-workType: "Тип работы";
+  --label-role: "Роль";
+  --label-expTime: "Ожидаемое время";
+  --label-workCell: "Произв. модуль";
+  --label-preJob: "Предыдущая работа";
+  --label-postJob: "Следующая работа";
+  --label-workOrder: "Порядок работ";
+  --label-revision: "Ревизия";
+  --label-preq: "ПРЕДУСЛОВИЯ";
+  --label-billOfMaterial: "СПЕЦИФИКАЦИЯ";
+  --label-resources: "РЕСУРСЫ";
+  --label-altpnr: "Альтернативное обозначение";
+  --label-pnr: "Обозначение";
+  --label-desc: "Наименование";
+  --label-qty: "Количество";
+  --label-job: "РАБОТА";
+  --label-no: "№";
+  --label-task: "Задача";
+  --label-illustration: "Иллюстрация";
+  --label-warning: "ПРЕДУПРЕЖДЕНИЕ";
+  --label-caution: "ПРЕДОСТЕРЕЖЕНИЕ";
+  --label-note: "ПРИМЕЧАНИЕ";
+}

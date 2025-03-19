@@ -20,9 +20,10 @@ body {
     border-radius: 0.5vh;        /* Скругляем углы */
     color: #F4F4F4;            /* Цвет текста */
     cursor: pointer;           /* Размер шрифта */
-    line-height: 0.1vh;            /* Межстрочный интервал */
+    line-height: 2vh;            /* Межстрочный интервал */
     margin-left: 1vh;         /* Отступ слева */
     padding: 0.8vh 1.2vh;         /* Внутренние отступы кнопки */
+    font-size: 2vh;
 }
 .clear-search:hover {
   background-color: #cc0000; /* Изменяем цвет фона при наведении */
@@ -65,11 +66,6 @@ body {
   .file-item {
     display: block !important;
   }
-  .icon.file {
-    display: none; /* Скрываем иконку файла */
-  }
-
-
   .options-section {
     align-items: center;     /* Центрируем карточки */
     flex-direction: column;  /* Располагаем элементы в столбик */

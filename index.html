@@ -89,8 +89,6 @@
           onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-921A-A.htm')"
         >
         <div>
-          <div class="icon file"></div>
-          <!-- Иконка файла --> 
           <span>Руководство по технической эксплуатации</span> </div>
         <!-- Ссылка для открытия PDF-файла (через функцию loadPdf) --> 
         <a 
@@ -108,7 +106,6 @@
           onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-01-010-941A-A.htm')"
         >
         <div>
-          <div class="icon file"></div>
           <span>Каталог деталей и сборочных единиц</span> </div>
         <a 
             class="pdf-link" 
@@ -123,7 +120,6 @@
           onclick="loadContent(this, 'files/C3D/MTPA-A-G1-41-00-00A-054A-A.htm')"
         >
         <div>
-          <div class="icon file"></div>
           <span>Альбом электрических схем</span> </div>
         <a 
             class="pdf-link" 
@@ -143,7 +139,7 @@
           onclick="loadContent(this, 'files/Help/HeplForLearn.html')"
         >
         <div>
-          <div class="icon file"></div>
+
           <span>Каретка - Демонтаж и монтаж</span> </div>
       </div>
     </div>
@@ -157,7 +153,6 @@
           onclick="loadContent(this, 'files/C3D/InstallationBathroom.htm')"
         >
         <div>
-          <div class="icon file"></div>
           <span>Монтаж ванны</span> </div>
         <a 
             class="pdf-link" 
@@ -172,7 +167,6 @@
           onclick="loadContent(this, 'files/C3D/InstallationInteriorDoor.htm')"
         >
         <div>
-          <div class="icon file"></div>
           <span>Монтаж двери</span> </div>
         <!-- Ссылки на разные форматы: Verge3D и PDF --> 
         <a 
@@ -198,7 +192,6 @@
           onclick="loadContent(this, 'files/C3D/MTPM-UNITS-MM000-00.htm'); toggleStructure()"
         >
         <div>
-          <div class="icon file"></div>
           <!-- При клике загружаем контент и сворачиваем левую колонку --> 
           <span>MTPM-UNITS-MM000-00 Линейная траверса</span> <a 
               class="pdf-link" 
@@ -229,7 +222,6 @@
           data-file="HeplForLearn" 
           onclick="loadContent(this, 'https://schem.io/embed/docs/Oim6qvooGTwV1rez?header=false')">
         <div>
-          <div class="icon file"></div>
           <span>Выдача заданий на производство оснастки</span></div>
           <a 
             class="pdf-link" 
@@ -252,7 +244,6 @@
           onclick="loadContent(this, 'files/Presents/Video/PresentUNITS.mp4')"
         >
         <div>
-          <div class="icon file"></div>
           <span>UNITS</span> </div>
       </div>
       <div 
@@ -262,7 +253,6 @@
           onclick="loadContent(this, 'files/Presents/Video/SborkaMDL.mp4')"
         >
         <div>
-          <div class="icon file"></div>
           <span>Сборка модуля</span> </div>
       </div>
       <div 
@@ -272,7 +262,6 @@
           onclick="loadContent(this, 'files/Presents/Video/SborkaPotolka.mp4')"
         >
         <div>
-          <div class="icon file"></div>
           <span>Сборка потолка</span> </div>
       </div>
       <div 
@@ -282,7 +271,6 @@
           onclick="loadContent(this, 'files/Presents/Video/Stapel.mp4')"
         >
         <div>
-          <div class="icon file"></div>
           <span>Стапель-кантователь</span> </div>
       </div>
       <div 
@@ -292,7 +280,6 @@
           onclick="loadContent(this, 'files/Presents/Video/Factory MKD-500.mp4')"
         >
         <div>
-          <div class="icon file"></div>
           <span>Завод МКД-500</span> </div>
         <a 
             class="verge3d-link" 
@@ -338,7 +325,7 @@
     </div>
     
     <!-- Основная рабочая область для отображения HTML-файлов или видео -->
-    <iframe 
+    <iframe style="display: none"
         id="contentFrame" 
         src="files/C3D/MTPA-A-G1-41-00-00A-054A-A.htm"
       ></iframe>

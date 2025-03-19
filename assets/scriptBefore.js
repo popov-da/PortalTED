@@ -28,6 +28,8 @@ function showStartPage() {
   resetActiveTabs(); // Вызываем функцию, удаляющую класс 'active' у всех вкладок
   // Очистка URL при возврате на стартовую страницу
   history.pushState({}, '', window.location.origin + window.location.pathname); // Меняем URL на базовый (без параметров), не перезагружая страницу
+    const contentFrame = document.getElementById("contentFrame"); // Получаем iframe, в который будем загружать 
+    contentFrame.style.display = 'none'; // Показываем текущий фрейм
 }
 
 // Функция загрузки документа с обновлением URL
@@ -46,6 +48,7 @@ function loadContent(element, url) {
 
   // Обновляем URL без перезагрузки страницы
   history.pushState({}, '', "?doc=" + encodeURIComponent(url)); // Добавляем параметр doc в адресную строку
+    contentFrame.style.display = 'block'; // Показываем текущий фрейм
 }
 
 

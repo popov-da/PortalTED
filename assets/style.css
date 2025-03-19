@@ -10,19 +10,19 @@ body {
     height: 100vh;             /* Высота окна браузера */
     margin: 0;                 /* Убираем внешние отступы */
     overflow: hidden;          /* Отключаем прокрутку */
-    font-size: 10px;
+    font-size: 1vh;
 }
 
 /* Стили для кнопки сброса поиска */
 .clear-search {
     background-color: #C2C6CB; /* Цвет фона кнопки */
     border: none;              /* Без рамки */
-    border-radius: 5px;        /* Скругляем углы */
+    border-radius: 0.5vh;        /* Скругляем углы */
     color: #F4F4F4;            /* Цвет текста */
     cursor: pointer;           /* Размер шрифта */
-    line-height: 1;            /* Межстрочный интервал */
-    margin-left: 10px;         /* Отступ слева */
-    padding: 8px 12px;         /* Внутренние отступы кнопки */
+    line-height: 0.1vh;            /* Межстрочный интервал */
+    margin-left: 1vh;         /* Отступ слева */
+    padding: 0.8vh 1.2vh;         /* Внутренние отступы кнопки */
 }
 .clear-search:hover {
   background-color: #cc0000; /* Изменяем цвет фона при наведении */
@@ -48,10 +48,10 @@ body {
   width: 100%;
 }
 .file-item div span {
-    font-size: 12px;
+    font-size: 1.2vh;
 }
 .options-section .item-option span {
-    font-size: 14px;
+    font-size: 1.4vh;
 }
 
 
@@ -62,16 +62,13 @@ body {
   .container {
     flex-direction: row; /* Все еще горизонтальное расположение */
   }
-
   .file-item {
     display: block !important;
   }
   .icon.file {
     display: none; /* Скрываем иконку файла */
   }
-  .search-box {
-    display: none !important; /* Скрываем строку поиска */
-  }
+
 
   .options-section {
     align-items: center;     /* Центрируем карточки */
@@ -85,13 +82,13 @@ body {
 
   .structure {
     border-bottom: none;       /* Отменяем нижнюю границу, если была */
-    border-right: 1px solid #ddd; /* Разделительная линия справа */
+    border-right: 0.1vh solid #ddd; /* Разделительная линия справа */
     width: 20%;                /* Уменьшаем ширину структуры на мобильных */
   }
   .content-area {
     height: 100vh;   /* Полная высота окна */
     overflow-y: auto; /* Включаем вертикальную прокрутку */
-    padding: 10px;   /* Добавляем отступы */
+    padding: 1vh;   /* Добавляем отступы */
     width: 80%;      /* Оставшуюся часть занимает контент */
   }
 
@@ -100,8 +97,8 @@ body {
     align-items: center;     /* Выравнивание по центру по вертикали */
     display: flex;           /* Флекс-контейнер */
     flex-direction: column;  /* Располагаем элементы в столбик */
-    gap: 15px;               /* Промежуток между элементами */
-    padding: 10px;           /* Внутренние отступы */
+    gap: 1.5vh;               /* Промежуток между элементами */
+    padding: 1vh;           /* Внутренние отступы */
   }
   .start-page .options-section .item-option span {
     display: none; /* Скрываем подпись */
@@ -140,13 +137,13 @@ body {
 }
 .structure {
   background-color: #fff;                       /* Белый фон */
-  border-right: 1px solid #ddd;                 /* Разделительная линия справа */
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);      /* Тень справа */
+  border-right: 0.1vh solid #ddd;                 /* Разделительная линия справа */
+  box-shadow: 0.2vh 0 0.5vh rgba(0, 0, 0, 0.1);      /* Тень справа */
   overflow-y: auto;                             /* Вертикальная прокрутка */
-  padding-bottom: 30px;                         /* Отступ снизу */
-  padding-left: 30px;                           /* Отступ слева */
-  padding-right: 30px;                          /* Отступ справа */
-  padding-top: 20px;                            /* Отступ сверху */
+  padding-bottom: 3vh;                         /* Отступ снизу */
+  padding-left: 3vh;                           /* Отступ слева */
+  padding-right: 3vh;                          /* Отступ справа */
+  padding-top: 2vh;                            /* Отступ сверху */
   transition: width 0.1s ease;                  /* Лёгкая анимация изменения ширины */
   width: 20%;                                   /* Стандартная ширина структуры */
 }
@@ -160,50 +157,52 @@ body {
 .toggle-button {
     background-color: #3152BA;                 /* Цвет фона */
     border: none;                              /* Без рамки */
-    border-radius: 5px;                        /* Скругляем углы */
+    border-radius: 0.5vh;                        /* Скругляем углы */
     color: #fff;                               /* Цвет текста */
     cursor: pointer;                           /* Указываем, что элемент кликабельный */
     display: flex;                             /* Флекс-контейнер */
-    font-size: 10px;                           /* Размер шрифта */
-    left: 10px;                                /* Отступ слева */
-    padding: 8px 12px;                         /* Внутренние отступы */
+    font-size: 1vh;                           /* Размер шрифта */
+    left: 1vh;                                /* Отступ слева */
+    padding: 0.8vh 1.2vh;                         /* Внутренние отступы */
     position: absolute;                        /* Абсолютное позиционирование */
-    top: 10px;                                 /* Отступ сверху */
+    top: 1vh;                                 /* Отступ сверху */
     transition: background-color 0.3s, box-shadow 0.3s; /* Переходы при наведении */
     z-index: 20;                               /* Поверх других элементов */
 }
 .toggle-button:hover {
   background-color: #004494; /* Более темный синий при наведении */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+  box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.2); /* Тень при наведении */
 }
 .toggle-button span {
-  margin-left: 5px; /* Отступ слева от иконки */
+  margin-left: 0.5vh; /* Отступ слева от иконки */
 }
 
 h2 {
     color: #3152BA;   /* Цвет текста */
-    font-size: 16px; /* Размер заголовка */
-    margin-bottom: 15px; /* Нижний отступ */
+    font-size: 1.6vh; /* Размер заголовка */
+    margin-bottom: 1.5vh; /* Нижний отступ */
 }
 
 .section-title {
-    border-bottom: 2px solid #ddd; /* Нижняя граница */
+
+    border-bottom: 0.2vh solid #ddd; /* Нижняя граница */
     color: #333;                   /* Цвет */
-    font-size: 14px;              /* Размер заголовка */
+    font-size: 1.4vh;              /* Размер заголовка */
     font-weight: bold;            /* Жирность */
-    margin: 20px 0 10px;          /* Отступы сверху и снизу */
-    padding-bottom: 5px;          /* Внутренний отступ снизу */
+    margin: 2vh 0 1vh;          /* Отступы сверху и снизу */
+    padding-bottom: 0.5vh;          /* Внутренний отступ снизу */
 }
 
 .options-section {
+
   display: flex;         /* Флекс-контейнер */
   flex-wrap: nowrap;     /* Элементы не переносятся */
-  gap: 20px;             /* Промежуток между элементами */
+  gap: 2vh;             /* Промежуток между элементами */
   justify-content: space-around; /* Равномерное распределение элементов */
 }
 .options-section .item-option {
   flex: 1;          /* Все элементы растягиваются равномерно */
-  max-width: 200px; /* Максимальная ширина элемента */
+  max-width: 20vh; /* Максимальная ширина элемента */
   text-align: center; /* Текст по центру */
 }
 
@@ -215,18 +214,18 @@ h2 {
 .file-item {
     align-items: center; /* Выравниваем элементы по вертикали */
     background-color: #f9f9f9; /* Светлый фон */
-    border-radius: 5px;  /* Скругленные углы */
+    border-radius: 1vh;  /* Скругленные углы */
     cursor: pointer;     /* Указывает, что элемент кликабельный */
     display: flex;       /* Флекс-контейнер */
     justify-content: space-between; /* Разделяем элементы по горизонтали */
-    margin-bottom: 10px; /* Нижний отступ */
-    padding: 10px;       /* Внутренние отступы */
+    margin-bottom: 1vh; /* Нижний отступ */
+    padding: 1vh;       /* Внутренние отступы */
     transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
 }
 .file-item:hover {
     background-color: #e6f2ff;  /* Цвет при наведении */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Тень при наведении */
-    transform: translateY(-5px);
+    box-shadow: 0 0.5vh 1.5vh rgba(0, 0, 0, 0.2); /* Тень при наведении */
+    transform: translateY(-0.5vh);
 }
 .file-item.active {
   background-color: #d0e8ff; /* Цвет активного элемента */
@@ -235,11 +234,11 @@ h2 {
 }
 
 .icon {
-  border-radius: 5px; /* Скругление углов (если нужно для иконок) */
+  border-radius: 0.5vh; /* Скругление углов (если нужно для иконок) */
   display: inline-block; /* Линейно-блочный элемент */
-  height: 20px;          /* Высота иконки */
-  margin-right: 10px;    /* Отступ справа */
-  width: 20px;           /* Ширина иконки */
+  height: 2vh;          /* Высота иконки */
+  margin-right: 1vh;    /* Отступ справа */
+  width: 2vh;           /* Ширина иконки */
 }
 .icon.file {
   background-color: #3152BA; /* Синий фон для иконки файлов */
@@ -247,14 +246,14 @@ h2 {
 
 .pdf-link {
     align-items: center;            /* Выравнивание по вертикали */
-    border: 1px solid #d9534f;      /* Красная рамка */
-    border-radius: 3px;            /* Скругленные углы */
+    border: 0.1vh solid #d9534f;      /* Красная рамка */
+    border-radius: 0.5vh;            /* Скругленные углы */
     color: #d9534f;                /* Цвет текста (красноватый) */
     cursor: pointer;               /* Указывает, что элемент кликабельный */
     display: flex;                 /* Флекс-контейнер */
-    font-size: 10px;              /* Размер шрифта */
-    margin-left: 10px;             /* Отступ слева */
-    padding: 5px;                  /* Внутренние отступы */
+    font-size: 1vh;              /* Размер шрифта */
+    margin-left: 1vh;             /* Отступ слева */
+    padding: 0.5vh;                  /* Внутренние отступы */
     text-decoration: none;         /* Убираем подчеркивание */
     transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
 }
@@ -265,13 +264,13 @@ h2 {
 
 .verge3d-link {
     align-items: center;            /* Выравнивание по вертикали */
-    border: 1px solid #002B8C;      /* Синяя рамка */
-    border-radius: 3px;            /* Скругленные углы */
+    border: 0.1vh solid #002B8C;      /* Синяя рамка */
+    border-radius: 0.5vh;            /* Скругленные углы */
     color: #002B8C;                /* Цвет текста (синий) */
     cursor: pointer;               /* Указывает, что элемент кликабельный */
     display: flex;                 /* Флекс-контейнер */
-    font-size: 10px;              /* Размер шрифта */
-    padding: 5px;                  /* Внутренние отступы */
+    font-size: 1vh;              /* Размер шрифта */
+    padding: 0.5vh;                  /* Внутренние отступы */
     text-decoration: none;         /* Убираем подчеркивание */
     transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
 }
@@ -284,9 +283,9 @@ h2 {
 .verge3d-link .icon.verge3d {
   background-repeat: no-repeat; /* Запрещаем повторяться фону */
   background-size: contain;     /* Сохраняем пропорции картинки */
-  height: 18px;                 /* Высота иконки */
-  margin-right: 5px;            /* Отступ справа */
-  width: 18px;                  /* Ширина иконки */
+  height: 1.8vh;                 /* Высота иконки */
+  margin-right: 0.5vh;            /* Отступ справа */
+  width: 1.8vh;                  /* Ширина иконки */
 }
 .pdf-link .icon.pdf {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg'); /* Иконка PDF */
@@ -297,7 +296,7 @@ h2 {
 
 iframe {
   border: none;  /* Без рамки */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  box-shadow: 0 0 1vh rgba(0, 0, 0, 0.1); /* Легкая тень */
   height: 100%; /* Высота 100% родителя */
   width: 100%;  /* Ширина 100% родителя */
 }
@@ -338,12 +337,12 @@ iframe {
 .start-page button {
   background-color: #3152BA; /* Синий фон */
   border: none;              /* Без рамки */
-  border-radius: 5px;        /* Скругленные углы */
+  border-radius: 0.5vh;        /* Скругленные углы */
   color: #F4F4F4;            /* Светлый цвет текста */
   cursor: pointer;           /* Указывает, что кнопка кликабельна */
-  font-size: 1em;            /* Размер шрифта */
-  margin-top: 20px;          /* Отступ сверху */
-  padding: 10px 20px;        /* Внутренние отступы кнопки */
+  font-size: 1vh;            /* Размер шрифта */
+  margin-top: 2vh;          /* Отступ сверху */
+  padding: 1vh 2vh;        /* Внутренние отступы кнопки */
   transition: background-color 0.3s; /* Плавный переход при наведении */
 }
 .start-page button:hover {
@@ -351,66 +350,68 @@ iframe {
 }
 .start-page .item-option {
   background-color: #F4F4F4; /* Легкий цвет фона для карточки */
-  border-radius: 10px;       /* Скругленные углы */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Легкая тень */
+  border-radius: 1vh;       /* Скругленные углы */
+  box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.15); /* Легкая тень */
   cursor: pointer;           /* Указывает, что элемент кликабельный */
-  margin: 20px;              /* Отступ вокруг карточки */
-  padding: 15px;             /* Внутренние отступы */
+  margin: 2vh;              /* Отступ вокруг карточки */
+  padding: 1.5vh;             /* Внутренние отступы */
   text-align: center;        /* Текст по центру */
   transition: transform 0.3s, box-shadow 0.3s; /* Плавные переходы при наведении */
-  width: 180px;              /* Фиксированная ширина для выравнивания */
+  width: 18vh;              /* Фиксированная ширина для выравнивания */
 }
 .start-page .item-option img {
-  border-radius: 8px;          /* Скругленные углы изображения */
+
+  border-radius: 0.8vh;          /* Скругленные углы изображения */
   height: auto;                /* Сохраняем пропорции */
-  margin-bottom: 10px;         /* Отступ снизу */
+  margin-bottom: 1vh;         /* Отступ снизу */
   transition: transform 0.3s ease; /* Плавное увеличение при наведении */
   width: 100%;                 /* Изображение растягивается на ширину карточки */
 }
 .start-page .item-option:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Увеличенная тень */
+  background-color: #e6f2ff;
+  box-shadow: 0 0.6vh 1.2vh rgba(0, 0, 0, 0.2); /* Увеличенная тень */
   transform: scale(1.05);                   /* Увеличение карточки при наведении */
 }
 .start-page .item-option span {
     color: #131A22;        /* Тёмно-серый цвет */
     display: block;        /* Строчно-блочный элемент */
-    font-size: 14px;        /* Размер шрифта */
+    font-size: 1.4vh;        /* Размер шрифта */
     font-weight: bold;     /* Жирное начертание */
-    margin-top: 8px;       /* Отступ сверху */
+    margin-top: 0.8vh;       /* Отступ сверху */
 }
 
 .control-panel {
   display: flex;       /* Флекс-контейнер */
   flex-direction: column; /* Располагаем элементы в столбик */
-  gap: 8px;           /* Промежуток между элементами */
+  gap: 1vh;           /* Промежуток между элементами */
   left: 0;            /* Прижимаем к левому краю */
   pointer-events: none; /* Не перехватываем клики */
   position: fixed;    /* Фиксируем панель в одном месте */
-  top: 8px;           /* Отступ сверху */
+  top: 1vh;           /* Отступ сверху */
   z-index: 120;       /* Поверх всего */
 }
 .control-button {
   background: linear-gradient(135deg, #3152BA, #CBD4EE); /* Градиент */
   border: none;                /* Без рамки */
-  border-radius: 0 5px 5px 0;  /* Скругленные углы справа */
+  border-radius: 0 0.5vh 0.5vh 0;  /* Скругленные углы справа */
   color: white;                /* Цвет текста */
   cursor: pointer;             /* Указывает, что элемент кликабельный */
   display: flex;               /* Флекс-контейнер */
   align-items: center;         /* Выравниваем по вертикали по центру */
-  height: 40px;                /* Фиксированная высота */
+  height: 4vh;                /* Фиксированная высота */
   justify-content: center;     /* По горизонтали по центру */
   overflow: hidden;            /* Обрезаем содержимое за рамками */
-  padding: 0 5px;              /* Горизонтальные отступы */
+  padding: 0 0.5vh;              /* Горизонтальные отступы */
   pointer-events: auto;        /* Разрешаем клики */
   transition: width 0.5s ease-in-out, background 0.3s ease-in-out; /* Плавные переходы при наведении */
   white-space: nowrap;         /* Запрещаем перенос текста */
-  width: 10px;                 /* Минимальная ширина */
+  width: 1vh;                 /* Минимальная ширина */
 }
 /* Анимация наведения */
 .control-button:hover,
 .control-button:focus-within {
   background: linear-gradient(135deg, #3152BA, #98A8DC); /* Меняем градиент */
-  width: 40px;                                          /* Расширяем кнопку при наведении */
+  width: 4vh;                                          /* Расширяем кнопку при наведении */
 }
 /* Исправляем фон иконок */
 .control-button span {
@@ -427,20 +428,20 @@ iframe {
   background-image: url('https://img.icons8.com/?size=100&id=2797&format=png&color=FFFFFF'); /* Ссылка на иконку дома */
   background-repeat: no-repeat; /* Не повторяем */
   background-size: contain;     /* Сохраняем пропорции */
-  height: 20px;                 /* Высота иконки */
-  width: 20px;                  /* Ширина иконки */
+  height: 2vh;                 /* Высота иконки */
+  width: 2vh;                  /* Ширина иконки */
 }
 .icon-logo {
   background-image: url('ref/LOGO.png'); /* Лого из локального пути */
   background-repeat: no-repeat;          /* Не повторяем */
   background-size: contain;              /* Сохраняем пропорции */
-  height: 40px;                          /* Высота иконки */
-  width: 40px;                           /* Ширина иконки */
+  height: 4vh;                          /* Высота иконки */
+  width: 4vh;                           /* Ширина иконки */
 }
 
 .toggle-icon {
   color: #3152BA;    /* Синий цвет */
-  font-size: 20px;   /* Размер символа */
+  font-size: 2vh;   /* Размер символа */
 }
 
 .select-message {
@@ -449,7 +450,7 @@ iframe {
     color: #333;                                /* Тёмно-серый цвет */
     display: none;                              /* Изначально скрыто */
     flex-direction: column;                     /* Располагаем элементы в столбик */
-    font-size: 16px;                           /* Средний размер шрифта */
+    font-size: 1.6vh;                           /* Средний размер шрифта */
     height: 100%;                               /* На всю высоту */
     justify-content: center;                    /* По горизонтали по центру */
     text-align: center;                         /* Текст по центру */
@@ -458,7 +459,7 @@ iframe {
 
 .skin-split-pane {
   align-items: center;               /* Выравниваем по вертикали */
-  border: .2em solid transparent;    /* Прозрачная граница */
+  border: .2vh solid transparent;    /* Прозрачная граница */
   display: flex;                     /* Флекс-контейнер */
   height: 100%;                      /* Высота на все доступное пространство */
   justify-content: center;           /* Выравниваем по горизонтали */
@@ -474,18 +475,18 @@ iframe {
   box-sizing: content-box; /* Размер без учета границ и отступов */
 }
 .skin-split-pane.col .skin-split-pane-inner {
-  border-left: 1px solid gray;   /* Линия слева */
-  border-right: 1px solid gray;  /* Линия справа */
+  border-left: 0.1vh solid gray;   /* Линия слева */
+  border-right: 0.1vh solid gray;  /* Линия справа */
   cursor: col-resize;            /* Курсор изменения размера по горизонтали */
-  height: 1em;                   /* Высота 1em */
-  width: 2px;                    /* Ширина 2px */
+  height: 1vh;                   /* Высота 1em */
+  width: 0.2vh;                    /* Ширина 2px */
 }
 .skin-split-pane.row .skin-split-pane-inner {
-  border-bottom: 1px solid gray; /* Линия снизу */
-  border-top: 1px solid gray;    /* Линия сверху */
+  border-bottom: 0.1vh solid gray; /* Линия снизу */
+  border-top: 0.1vh solid gray;    /* Линия сверху */
   cursor: row-resize;            /* (Опционально) курсор изменения размера по вертикали */
-  height: 2px;                   /* Высота 2px */
-  width: 1em;                    /* Ширина 1em */
+  height: 0.2vh;                   /* Высота 2px */
+  width: 0.1vh;                    /* Ширина 1em */
 }
 .skin-split-pane.disabled .skin-split-pane-inner {
   display: none; /* Не отображаем, если отключено */
@@ -522,19 +523,19 @@ iframe {
 .search-box {
   align-items: center;                      /* Выравниваем по вертикали */
   background-color: #f9f9f9;                /* Светлый фон */
-  border-radius: 5px;                       /* Скругленные углы */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Легкая тень */
+  border-radius: 0.5vh;                       /* Скругленные углы */
+  box-shadow: 0 0.2vh 0.5vh rgba(0, 0, 0, 0.1); /* Легкая тень */
   display: flex;                            /* Флекс-контейнер */
-  margin-bottom: 20px;                      /* Отступ снизу */
-  padding: 10px;                            /* Внутренние отступы */
+  margin-bottom: 2vh;                      /* Отступ снизу */
+  padding: 1vh;                            /* Внутренние отступы */
 }
 #searchInput {
-  border: 1px solid #ddd;  /* Светлая рамка */
-  border-radius: 5px;      /* Скругленные углы */
+  border: 0.1vh solid #ddd;  /* Светлая рамка */
+  border-radius: 0.5vh;      /* Скругленные углы */
   flex: 1;                 /* Занимает всё доступное пространство */
-  font-size: 14px;         /* Размер шрифта */
+  font-size: 1.4vh;         /* Размер шрифта */
   outline: none;           /* Убираем обводку при фокусе */
-  padding: 8px;            /* Внутренние отступы */
+  padding: 0.8vh;            /* Внутренние отступы */
 }
 #searchInput:focus {
   border-color: #3152BA;   /* Подсвечиваем при фокусе */

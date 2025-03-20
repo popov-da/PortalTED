@@ -12,23 +12,6 @@ body {
     overflow: hidden;          /* Отключаем прокрутку */
     font-size: 1vh;
 }
-
-/* Стили для кнопки сброса поиска */
-.clear-search {
-    background-color: #C2C6CB; /* Цвет фона кнопки */
-    border: none;              /* Без рамки */
-    border-radius: 0.5vh;        /* Скругляем углы */
-    color: #F4F4F4;            /* Цвет текста */
-    cursor: pointer;           /* Размер шрифта */
-    line-height: 2vh;            /* Межстрочный интервал */
-    margin-left: 1vh;         /* Отступ слева */
-    padding: 0.8vh 1.2vh;         /* Внутренние отступы кнопки */
-    font-size: 2vh;
-}
-.clear-search:hover {
-  background-color: #cc0000; /* Изменяем цвет фона при наведении */
-}
-
 /* Основной контейнер приложения (флекс-ряд) */
 .container {
   display: flex;           /* Флекс-контейнер */
@@ -119,6 +102,13 @@ body {
   }
   .start-page .welcome-section {
     display: none; /* Скрываем приветственный текст */
+  }
+      .control-button {
+    width: 4vh !important; /* Полная ширина сразу, без наведения */
+  }
+
+  .control-button span {
+    display: inline !important; /* Всегда показываем иконки на мобильных устройствах */
   }
 }
 @media (max-width:1024px){
@@ -523,18 +513,33 @@ iframe {
   box-shadow: 0 0.2vh 0.5vh rgba(0, 0, 0, 0.1); /* Легкая тень */
   display: flex;                            /* Флекс-контейнер */
   margin-bottom: 2vh;                      /* Отступ снизу */
-  padding: 1vh;                            /* Внутренние отступы */
+  padding: 0.5vh;                            /* Внутренние отступы */
+  flex-wrap: nowrap;                         /* Элементы не переносятся */
+  text-align: center; /* Текст по центру */
 }
-#searchInput {
-  border: 0.1vh solid #ddd;  /* Светлая рамка */
-  border-radius: 0.5vh;      /* Скругленные углы */
-  flex: 1;                 /* Занимает всё доступное пространство */
-  font-size: 1.4vh;         /* Размер шрифта */
-  outline: none;           /* Убираем обводку при фокусе */
-  padding: 0.8vh;            /* Внутренние отступы */
+.searchInput {
+    border: 0.1vh solid #ddd;  /* Светлая рамка */
+    border-radius: 0.5vh;      /* Скругленные углы */
+    font-size: 1vh;         /* Размер шрифта */
+    outline: none;           /* Убираем обводку при фокусе */
+    padding: 0.8vh;            /* Внутренние отступы */
+    flex: 1;          /* Все элементы растягиваются равномерно */
+    min-width: 0;    /* разрешаем сжиматься до нуля */
 }
-#searchInput:focus {
+.searchInput:focus {
   border-color: #3152BA;   /* Подсвечиваем при фокусе */
 }
-
+/* Стили для кнопки сброса поиска */
+.clear-search {
+    background-color: #C2C6CB; /* Цвет фона кнопки */
+    border: none;              /* Без рамки */
+    border-radius: 0.5vh;        /* Скругляем углы */
+    color: #F4F4F4;            /* Цвет текста */
+    cursor: pointer;           /* Курсор при наведении */
+    font-size: 1.5vh;
+    padding: 0.5vh;      /* Внутренние отступы */
+}
+.clear-search:hover {
+  background-color: #cc0000; /* Изменяем цвет фона при наведении */
+}
 

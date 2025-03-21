@@ -154,7 +154,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDOXOFJDT1">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A11001-0-MDMKD-00003-A-001-01.cgm" title="Двигатели"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A11001-0-MDMKD-00003-A-001-01.svg" title="Двигатели"></a>
 				</div>
 				<div class="para p">Двигатели обеспечивают выполнение следующих основных функций и задач:<div class="randomList list  ul">
 						<div class="listItem li">
@@ -187,7 +187,7 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Двигатели</div>
-				<a title="Двигатели" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A11001-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-A11001-0-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-A11001-0-MDMKD-00003-A-001-01.cgm">Двигатели</a>
+				<a title="Двигатели" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A11001-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-A11001-0-MDMKD-00003-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-A11001-0-MDMKD-00003-A-001-01.svg">Двигатели</a>
 			</div>
 		</div>
 	</div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg SYSTEM "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY % SVG.External.attrib
+"xmlns:vm2d CDATA #FIXED 'http://www.cortona3d.com/vm2d'
+vm2d:name CDATA #IMPLIED
+vm2d:type CDATA #IMPLIED">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="10mm" height="10mm" viewBox="0 0 38 38" fill="none" fill-rule="evenodd" stroke-miterlimit="5">
+  <title></title>
+  <desc>"Generator:ParallelGraphics Cortona2D","ProfileId:WebCGM""ProfileEd:2.1""ColourClass:colour""Source:Cortona2D Generator""Date:20241224"</desc>
+  <rect width="38" height="38" fill="#f0f0f0"/>
+  <defs/>
+  <g id="AUTOID_001" vm2d:name="" vm2d:type="grnode">
+    <g transform="matrix(3.8,0,0,3.8,-0,38)">
+      <path fill="#131a22" d="M5.1877,-10 L7.1729,-10 7.1729,-3.2249 C7.1729,-2.4661 7.0324,-1.8473 6.7514,-1.3686 6.4749,-0.89433 6.0919,-0.5465 5.6024,-0.32522 5.1129,-0.10839 4.5532,5.9605e-08 3.9232,5.9605e-08 3.2886,5.9605e-08 2.7244,-0.10839 2.2303,-0.32522 1.7363,-0.5465 1.3511,-0.89433 1.0746,-1.3686 0.80264,-1.8473 0.66667,-2.4661 0.66667,-3.2249 L0.66667,-10 2.6518,-10 2.6518,-3.2249 C2.6518,-2.7958 2.6994,-2.4661 2.7946,-2.2358 2.8943,-2.0054 3.0371,-1.8473 3.2229,-1.7615 3.4133,-1.6802 3.6467,-1.6396 3.9232,-1.6396 4.2042,-1.6396 4.4353,-1.6802 4.6166,-1.7615 4.8025,-1.8473 4.943,-2.0054 5.0381,-2.2358 5.1378,-2.4661 5.1877,-2.7958 5.1877,-3.2249 L5.1877,-10 Z"/>
+      <path fill="#3152ba" d="M7.7441,-1.5842 L9.3333,-1.5842 9.3333,5.9605e-08 7.7441,5.9605e-08 7.7441,-1.5842 Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,45 +1,40 @@
 /* Импорт шрифтов Google (Inter и Roboto Condensed) с поддержкой италика и разных начертаний */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-
 /* Базовые стили для body: флекс-контейнер, фон, шрифт, скрытие скролла */
 body {
-    background-color: #F4F4F4; /* Цвет фона */
-    color: #131A22;            /* Основной цвет текста */
-    display: flex;             /* Блок становится флекс-контейнером */
-    font-family: Inter;        /* Устанавливаем основной шрифт */
-    height: 100vh;             /* Высота окна браузера */
-    margin: 0;                 /* Убираем внешние отступы */
-    overflow: hidden;          /* Отключаем прокрутку */
-    font-size: 1vh;
+  background-color: #F4F4F4; /* Цвет фона */
+  color: #131A22; /* Основной цвет текста */
+  display: flex; /* Блок становится флекс-контейнером */
+  font-family: Inter; /* Устанавливаем основной шрифт */
+  height: 100vh; /* Высота окна браузера */
+  margin: 0; /* Убираем внешние отступы */
+  overflow: hidden; /* Отключаем прокрутку */
+  font-size: 1vh;
 }
 /* Основной контейнер приложения (флекс-ряд) */
 .container {
-  display: flex;           /* Флекс-контейнер */
-  flex-direction: row;     /* Размещаем элементы слева направо */
-  height: 100%;            /* Растягиваем на всю доступную высоту */
-  width: 100%;             /* Растягиваем на всю доступную ширину */
+  display: flex; /* Флекс-контейнер */
+  flex-direction: row; /* Размещаем элементы слева направо */
+  height: 100%; /* Растягиваем на всю доступную высоту */
+  width: 100%; /* Растягиваем на всю доступную ширину */
 }
-
 /* Контентная область (80% ширины, переходы для анимации) */
 .content-area {
-  padding: 0;                             /* Убираем внутренние отступы */
-  position: relative;                     /* Относительное позиционирование */
-  transition: width 0.3s ease;           /* Плавная анимация изменения ширины */
-  width: 80%;                             /* Ширина контентной области */
+  padding: 0; /* Убираем внутренние отступы */
+  position: relative; /* Относительное позиционирование */
+  transition: width 0.3s ease; /* Плавная анимация изменения ширины */
+  width: 80%; /* Ширина контентной области */
 }
 /* Модификатор на всю ширину */
 .content-area.full-width {
   width: 100%;
 }
 .file-item div span {
-    font-size: 1.2vh;
+  font-size: 1.2vh;
 }
 .options-section .item-option span {
-    font-size: 1.4vh;
+  font-size: 1.4vh;
 }
-
-
-
 /* Адаптивные стили для мобильных устройств */
 @media (max-width: 768px) {
   /* Контейнеры структуры и контента остаются рядом */
@@ -47,113 +42,111 @@ body {
     flex-direction: row; /* Все еще горизонтальное расположение */
   }
   .file-item {
-    display: block !important;
+    display: block !important
   }
   .options-section {
-    align-items: center;     /* Центрируем карточки */
-    flex-direction: column;  /* Располагаем элементы в столбик */
-    flex-wrap: wrap;         /* Разрешаем перенос элементов */
+    align-items: center; /* Центрируем карточки */
+    flex-direction: column; /* Располагаем элементы в столбик */
+    flex-wrap: wrap; /* Разрешаем перенос элементов */
   }
   .options-section .item-option {
     max-width: 100%; /* Снимаем ограничение по ширине */
-    width: 100%;     /* Каждая карточка занимает всю ширину */
+    width: 100%; /* Каждая карточка занимает всю ширину */
   }
-
   .structure {
-    border-bottom: none;       /* Отменяем нижнюю границу, если была */
+    border-bottom: none; /* Отменяем нижнюю границу, если была */
     border-right: 0.1vh solid #ddd; /* Разделительная линия справа */
-    width: 20%;                /* Уменьшаем ширину структуры на мобильных */
+    width: 20%; /* Уменьшаем ширину структуры на мобильных */
   }
   .content-area {
-    height: 100vh;   /* Полная высота окна */
+    height: 100vh; /* Полная высота окна */
     overflow-y: auto; /* Включаем вертикальную прокрутку */
-    padding: 1vh;   /* Добавляем отступы */
-    width: 80%;      /* Оставшуюся часть занимает контент */
+    padding: 1vh; /* Добавляем отступы */
+    width: 80%; /* Оставшуюся часть занимает контент */
   }
-
   /* Изображения на стартовой странице */
   .start-page {
-    align-items: center;     /* Выравнивание по центру по вертикали */
-    display: flex;           /* Флекс-контейнер */
-    flex-direction: column;  /* Располагаем элементы в столбик */
-    gap: 1.5vh;               /* Промежуток между элементами */
-    padding: 1vh;           /* Внутренние отступы */
+    align-items: center; /* Выравнивание по центру по вертикали */
+    display: flex; /* Флекс-контейнер */
+    flex-direction: column; /* Располагаем элементы в столбик */
+    gap: 1.5vh; /* Промежуток между элементами */
+    padding: 1vh; /* Внутренние отступы */
   }
   .start-page .options-section .item-option span {
     display: none; /* Скрываем подпись */
   }
   .start-page .item-option {
-    align-items: center;    /* Выравниваем по центру */
-    cursor: pointer;        /* Указывает, что элемент кликабельный */
-    display: flex;          /* Делаем элемент флекс-контейнером */
+    align-items: center; /* Выравниваем по центру */
+    cursor: pointer; /* Указывает, что элемент кликабельный */
+    display: flex; /* Делаем элемент флекс-контейнером */
     flex-direction: column; /* Направление сверху вниз */
     justify-content: center; /* По вертикали тоже по центру */
-    margin: 0;              /* Сбрасываем внешние отступы */
-    max-width: 100%;        /* Убираем ограничения ширины */
-    width: 100%;            /* Карточка занимает всю ширину */
+    margin: 0; /* Сбрасываем внешние отступы */
+    max-width: 100%; /* Убираем ограничения ширины */
+    width: 100%; /* Карточка занимает всю ширину */
   }
   .start-page .item-option img {
     height: auto; /* Сохраняем пропорции */
-    width: 100%;  /* Изображение растягивается до 100% ширины */
+    width: 100%; /* Изображение растягивается до 100% ширины */
   }
   .start-page .options-section {
     height: auto; /* Высота подстраивается автоматически */
-    width: 50%;   /* Ширина для области с картинками */
+    width: 50%; /* Ширина для области с картинками */
   }
   .start-page .welcome-section {
     display: none; /* Скрываем приветственный текст */
   }
-      .control-button {
+  .control-button {
     width: 4vh !important; /* Полная ширина сразу, без наведения */
   }
-
   .control-button span {
     display: inline !important; /* Всегда показываем иконки на мобильных устройствах */
   }
-}
-@media (max-width:1024px){
-      .file-item {
-    display: block !important;
+  .search-box {
+    display: none !important;
   }
-      .options-section {
-    align-items: center;     /* Центрируем карточки */
-    flex-direction: column;  /* Располагаем элементы в столбик */
-    flex-wrap: wrap;         /* Разрешаем перенос элементов */
+}
+@media (max-width:1024px) {
+  .options-section {
+    align-items: center; /* Центрируем карточки */
+    flex-direction: column; /* Располагаем элементы в столбик */
+    flex-wrap: wrap; /* Разрешаем перенос элементов */
+  }
+  .icon.verge3d, .icon.pdf {
+    display: none;
   }
 }
 .structure {
-  background-color: #fff;                       /* Белый фон */
-  border-right: 0.1vh solid #ddd;                 /* Разделительная линия справа */
-  box-shadow: 0.2vh 0 0.5vh rgba(0, 0, 0, 0.1);      /* Тень справа */
-  overflow-y: auto;                             /* Вертикальная прокрутка */
-  padding-bottom: 3vh;                         /* Отступ снизу */
-  padding-left: 3vh;                           /* Отступ слева */
-  padding-right: 3vh;                          /* Отступ справа */
-  padding-top: 2vh;                            /* Отступ сверху */
-  transition: width 0.1s ease;                  /* Лёгкая анимация изменения ширины */
-  width: 20%;                                   /* Стандартная ширина структуры */
+  background-color: #fff; /* Белый фон */
+  border-right: 0.1vh solid #ddd; /* Разделительная линия справа */
+  box-shadow: 0.2vh 0 0.5vh rgba(0, 0, 0, 0.1); /* Тень справа */
+  overflow-y: auto; /* Вертикальная прокрутка */
+  padding-bottom: 3vh; /* Отступ снизу */
+  padding-left: 3vh; /* Отступ слева */
+  padding-right: 3vh; /* Отступ справа */
+  padding-top: 2vh; /* Отступ сверху */
+  transition: width 0.1s ease; /* Лёгкая анимация изменения ширины */
+  width: 20%; /* Стандартная ширина структуры */
 }
-
 .hidden {
-  overflow: hidden;         /* Скрываем содержимое за границами */
-  padding: 0;               /* Сбрасываем отступы */
+  overflow: hidden; /* Скрываем содержимое за границами */
+  padding: 0; /* Сбрасываем отступы */
   transition: width 0.3s ease; /* Плавное изменение ширины */
 }
-
 .toggle-button {
-    background-color: #3152BA;                 /* Цвет фона */
-    border: none;                              /* Без рамки */
-    border-radius: 0.5vh;                        /* Скругляем углы */
-    color: #fff;                               /* Цвет текста */
-    cursor: pointer;                           /* Указываем, что элемент кликабельный */
-    display: flex;                             /* Флекс-контейнер */
-    font-size: 1vh;                           /* Размер шрифта */
-    left: 1vh;                                /* Отступ слева */
-    padding: 0.8vh 1.2vh;                         /* Внутренние отступы */
-    position: absolute;                        /* Абсолютное позиционирование */
-    top: 1vh;                                 /* Отступ сверху */
-    transition: background-color 0.3s, box-shadow 0.3s; /* Переходы при наведении */
-    z-index: 20;                               /* Поверх других элементов */
+  background-color: #3152BA; /* Цвет фона */
+  border: none; /* Без рамки */
+  border-radius: 0.5vh; /* Скругляем углы */
+  color: #fff; /* Цвет текста */
+  cursor: pointer; /* Указываем, что элемент кликабельный */
+  display: flex; /* Флекс-контейнер */
+  font-size: 1vh; /* Размер шрифта */
+  left: 1vh; /* Отступ слева */
+  padding: 0.8vh 1.2vh; /* Внутренние отступы */
+  position: absolute; /* Абсолютное позиционирование */
+  top: 1vh; /* Отступ сверху */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Переходы при наведении */
+  z-index: 20; /* Поверх других элементов */
 }
 .toggle-button:hover {
   background-color: #004494; /* Более темный синий при наведении */
@@ -162,116 +155,104 @@ body {
 .toggle-button span {
   margin-left: 0.5vh; /* Отступ слева от иконки */
 }
-
 h2 {
-    color: #3152BA;   /* Цвет текста */
-    font-size: 1.6vh; /* Размер заголовка */
-    margin-bottom: 1.5vh; /* Нижний отступ */
+  color: #3152BA; /* Цвет текста */
+  font-size: 1.6vh; /* Размер заголовка */
+  margin-bottom: 1.5vh; /* Нижний отступ */
 }
-
 .section-title {
-
-    border-bottom: 0.2vh solid #ddd; /* Нижняя граница */
-    color: #333;                   /* Цвет */
-    font-size: 1.4vh;              /* Размер заголовка */
-    font-weight: bold;            /* Жирность */
-    margin: 2vh 0 1vh;          /* Отступы сверху и снизу */
-    padding-bottom: 0.5vh;          /* Внутренний отступ снизу */
+  border-bottom: 0.2vh solid #ddd; /* Нижняя граница */
+  color: #333; /* Цвет */
+  font-size: 1.4vh; /* Размер заголовка */
+  font-weight: bold; /* Жирность */
+  margin: 2vh 0 1vh; /* Отступы сверху и снизу */
+  padding-bottom: 0.5vh; /* Внутренний отступ снизу */
 }
-
 .options-section {
-
-  display: flex;         /* Флекс-контейнер */
-  flex-wrap: nowrap;     /* Элементы не переносятся */
-  gap: 2vh;             /* Промежуток между элементами */
+  display: flex; /* Флекс-контейнер */
+  flex-wrap: nowrap; /* Элементы не переносятся */
+  gap: 2vh; /* Промежуток между элементами */
   justify-content: space-around; /* Равномерное распределение элементов */
 }
 .options-section .item-option {
-  flex: 1;          /* Все элементы растягиваются равномерно */
+  flex: 1; /* Все элементы растягиваются равномерно */
   max-width: 20vh; /* Максимальная ширина элемента */
   text-align: center; /* Текст по центру */
 }
-
 .skin-tree {
   list-style-type: none; /* Убираем маркеры списка */
-  padding: 0;            /* Сбрасываем отступы */
+  padding: 0; /* Сбрасываем отступы */
 }
-
 .file-item {
-    align-items: center; /* Выравниваем элементы по вертикали */
-    background-color: #f9f9f9; /* Светлый фон */
-    border-radius: 1vh;  /* Скругленные углы */
-    cursor: pointer;     /* Указывает, что элемент кликабельный */
-    display: flex;       /* Флекс-контейнер */
-    justify-content: space-between; /* Разделяем элементы по горизонтали */
-    margin-bottom: 1vh; /* Нижний отступ */
-    padding: 1vh;       /* Внутренние отступы */
-    transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+  align-items: center; /* Выравниваем элементы по вертикали */
+  background-color: #f9f9f9; /* Светлый фон */
+  border-radius: 1vh; /* Скругленные углы */
+  cursor: pointer; /* Указывает, что элемент кликабельный */
+  display: flex; /* Флекс-контейнер */
+  justify-content: space-between; /* Разделяем элементы по горизонтали */
+  margin-bottom: 1vh; /* Нижний отступ */
+  padding: 1vh; /* Внутренние отступы */
+  transition: background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
 }
 .file-item:hover {
-    background-color: #e6f2ff;  /* Цвет при наведении */
-    box-shadow: 0 0.5vh 1.5vh rgba(0, 0, 0, 0.2); /* Тень при наведении */
-    transform: translateY(-0.5vh);
+  background-color: #e6f2ff; /* Цвет при наведении */
+  box-shadow: 0 0.5vh 1.5vh rgba(0, 0, 0, 0.2); /* Тень при наведении */
+  transform: translateY(-0.5vh);
 }
 .file-item.active {
   background-color: #d0e8ff; /* Цвет активного элемента */
-  color: #3152BA;           /* Синий цвет */
-  font-weight: bold;        /* Жирный шрифт */
+  color: #3152BA; /* Синий цвет */
+  font-weight: bold; /* Жирный шрифт */
 }
-
 .icon {
   border-radius: 0.5vh; /* Скругление углов (если нужно для иконок) */
   display: inline-block; /* Линейно-блочный элемент */
-  height: 2vh;          /* Высота иконки */
-  margin-right: 1vh;    /* Отступ справа */
-  width: 2vh;           /* Ширина иконки */
+  height: 2vh; /* Высота иконки */
+  margin-right: 1vh; /* Отступ справа */
+  width: 2vh; /* Ширина иконки */
 }
 .icon.file {
   background-color: #3152BA; /* Синий фон для иконки файлов */
 }
-
 .pdf-link {
-    align-items: center;            /* Выравнивание по вертикали */
-    border: 0.1vh solid #d9534f;      /* Красная рамка */
-    border-radius: 0.5vh;            /* Скругленные углы */
-    color: #d9534f;                /* Цвет текста (красноватый) */
-    cursor: pointer;               /* Указывает, что элемент кликабельный */
-    display: flex;                 /* Флекс-контейнер */
-    font-size: 1vh;              /* Размер шрифта */
-    margin-left: 1vh;             /* Отступ слева */
-    padding: 0.5vh;                  /* Внутренние отступы */
-    text-decoration: none;         /* Убираем подчеркивание */
-    transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
+  align-items: center; /* Выравнивание по вертикали */
+  border: 0.1vh solid #d9534f; /* Красная рамка */
+  border-radius: 0.5vh; /* Скругленные углы */
+  color: #d9534f; /* Цвет текста (красноватый) */
+  cursor: pointer; /* Указывает, что элемент кликабельный */
+  display: flex; /* Флекс-контейнер */
+  font-size: 1vh; /* Размер шрифта */
+  margin-left: 1vh; /* Отступ слева */
+  padding: 0.5vh; /* Внутренние отступы */
+  text-decoration: none; /* Убираем подчеркивание */
+  transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
 }
 .pdf-link:hover {
   background-color: #d9534f; /* При наведении заливаем красным */
-  color: #fff;               /* И делаем текст белым */
+  color: #fff; /* И делаем текст белым */
 }
-
 .verge3d-link {
-    align-items: center;            /* Выравнивание по вертикали */
-    border: 0.1vh solid #002B8C;      /* Синяя рамка */
-    border-radius: 0.5vh;            /* Скругленные углы */
-    color: #002B8C;                /* Цвет текста (синий) */
-    cursor: pointer;               /* Указывает, что элемент кликабельный */
-    display: flex;                 /* Флекс-контейнер */
-    font-size: 1vh;              /* Размер шрифта */
-    padding: 0.5vh;                  /* Внутренние отступы */
-    text-decoration: none;         /* Убираем подчеркивание */
-    transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
+  align-items: center; /* Выравнивание по вертикали */
+  border: 0.1vh solid #002B8C; /* Синяя рамка */
+  border-radius: 0.5vh; /* Скругленные углы */
+  color: #002B8C; /* Цвет текста (синий) */
+  cursor: pointer; /* Указывает, что элемент кликабельный */
+  display: flex; /* Флекс-контейнер */
+  font-size: 1vh; /* Размер шрифта */
+  padding: 0.5vh; /* Внутренние отступы */
+  text-decoration: none; /* Убираем подчеркивание */
+  transition: background-color 0.3s, color 0.3s; /* Плавные переходы */
 }
 .verge3d-link:hover {
   background-color: #008c8c; /* При наведении меняем фон */
-  color: #fff;               /* Цвет текста становится белым */
+  color: #fff; /* Цвет текста становится белым */
 }
-
-.pdf-link .icon.pdf,
-.verge3d-link .icon.verge3d {
+.pdf-link .icon.pdf, .verge3d-link .icon.verge3d {
   background-repeat: no-repeat; /* Запрещаем повторяться фону */
-  background-size: contain;     /* Сохраняем пропорции картинки */
-  height: 1.8vh;                 /* Высота иконки */
-  margin-right: 0.5vh;            /* Отступ справа */
-  width: 1.8vh;                  /* Ширина иконки */
+  background-size: contain; /* Сохраняем пропорции картинки */
+  height: 1.8vh; /* Высота иконки */
+  margin-right: 0.5vh; /* Отступ справа */
+  width: 1.8vh; /* Ширина иконки */
 }
 .pdf-link .icon.pdf {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg'); /* Иконка PDF */
@@ -279,56 +260,53 @@ h2 {
 .verge3d-link .icon.verge3d {
   background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Verge3D_logo.png/237px-Verge3D_logo.png'); /* Иконка Verge3D */
 }
-
 iframe {
-  border: none;  /* Без рамки */
+  border: none; /* Без рамки */
   box-shadow: 0 0 1vh rgba(0, 0, 0, 0.1); /* Легкая тень */
   height: 100%; /* Высота 100% родителя */
-  width: 100%;  /* Ширина 100% родителя */
+  width: 100%; /* Ширина 100% родителя */
 }
-
 /* Индикатор загрузки */
 .loading {
-  align-items: center;           /* Выравниваем по вертикали по центру */
+  align-items: center; /* Выравниваем по вертикали по центру */
   background-color: rgba(244, 246, 248, 0.9); /* Светлый полупрозрачный фон */
-  color: darkgray;               /* Цвет текста */
-  display: none;                 /* Скрыто по умолчанию */
+  color: darkgray; /* Цвет текста */
+  display: none; /* Скрыто по умолчанию */
   font-family: Verdana, Geneva, Tahoma, sans-serif; /* Определяем шрифт */
-  font-size: 2rem;               /* Крупный размер текста */
-  font-weight: bold;             /* Жирный шрифт */
-  height: 100%;                  /* На всю высоту */
-  justify-content: center;       /* Горизонтально по центру */
-  left: 0;                       /* Левая граница */
-  position: absolute;            /* Позиционирование относительно родителя */
-  top: 0;                        /* Верхняя граница */
-  width: 100%;                   /* На всю ширину */
-  z-index: 100;                  /* Поверх многих элементов */
+  font-size: 2rem; /* Крупный размер текста */
+  font-weight: bold; /* Жирный шрифт */
+  height: 100%; /* На всю высоту */
+  justify-content: center; /* Горизонтально по центру */
+  left: 0; /* Левая граница */
+  position: absolute; /* Позиционирование относительно родителя */
+  top: 0; /* Верхняя граница */
+  width: 100%; /* На всю ширину */
+  z-index: 100; /* Поверх многих элементов */
 }
 .loading span {
   margin-top: 0.4rem; /* Легкий отступ сверху */
 }
-
 .start-page {
-    align-items: center;                        /* Выравнивание по центру по вертикали */
-    background-color: rgba(244, 246, 248, 0.9); /* Светлый полупрозрачный фон */
-    color: #333;                                /* Цвет текста */
-    display: flex;                              /* Флекс-контейнер */
-    flex-direction: column;                           /* Средний размер шрифта */
-    height: 100%;                               /* Полная высота */
-    justify-content: center;                    /* Выравнивание по центру по горизонтали */
-    text-align: center;                         /* Текст по центру */
-    width: 100%;                                /* Полная ширина */
-    z-index: 5;                                 /* Поверх прочих элементов */
+  align-items: center; /* Выравнивание по центру по вертикали */
+  background-color: rgba(244, 246, 248, 0.9); /* Светлый полупрозрачный фон */
+  color: #333; /* Цвет текста */
+  display: flex; /* Флекс-контейнер */
+  flex-direction: column; /* Средний размер шрифта */
+  height: 100%; /* Полная высота */
+  justify-content: center; /* Выравнивание по центру по горизонтали */
+  text-align: center; /* Текст по центру */
+  width: 100%; /* Полная ширина */
+  z-index: 5; /* Поверх прочих элементов */
 }
 .start-page button {
   background-color: #3152BA; /* Синий фон */
-  border: none;              /* Без рамки */
-  border-radius: 0.5vh;        /* Скругленные углы */
-  color: #F4F4F4;            /* Светлый цвет текста */
-  cursor: pointer;           /* Указывает, что кнопка кликабельна */
-  font-size: 1vh;            /* Размер шрифта */
-  margin-top: 2vh;          /* Отступ сверху */
-  padding: 1vh 2vh;        /* Внутренние отступы кнопки */
+  border: none; /* Без рамки */
+  border-radius: 0.5vh; /* Скругленные углы */
+  color: #F4F4F4; /* Светлый цвет текста */
+  cursor: pointer; /* Указывает, что кнопка кликабельна */
+  font-size: 1vh; /* Размер шрифта */
+  margin-top: 2vh; /* Отступ сверху */
+  padding: 1vh 2vh; /* Внутренние отступы кнопки */
   transition: background-color 0.3s; /* Плавный переход при наведении */
 }
 .start-page button:hover {
@@ -336,162 +314,152 @@ iframe {
 }
 .start-page .item-option {
   background-color: #F4F4F4; /* Легкий цвет фона для карточки */
-  border-radius: 1vh;       /* Скругленные углы */
+  border-radius: 1vh; /* Скругленные углы */
   box-shadow: 0 0.4vh 0.8vh rgba(0, 0, 0, 0.15); /* Легкая тень */
-  cursor: pointer;           /* Указывает, что элемент кликабельный */
-  margin: 2vh;              /* Отступ вокруг карточки */
-  padding: 1.5vh;             /* Внутренние отступы */
-  text-align: center;        /* Текст по центру */
+  cursor: pointer; /* Указывает, что элемент кликабельный */
+  margin: 2vh; /* Отступ вокруг карточки */
+  padding: 1.5vh; /* Внутренние отступы */
+  text-align: center; /* Текст по центру */
   transition: transform 0.3s, box-shadow 0.3s; /* Плавные переходы при наведении */
-  width: 18vh;              /* Фиксированная ширина для выравнивания */
+  width: 18vh; /* Фиксированная ширина для выравнивания */
 }
 .start-page .item-option img {
-
-  border-radius: 0.8vh;          /* Скругленные углы изображения */
-  height: auto;                /* Сохраняем пропорции */
-  margin-bottom: 1vh;         /* Отступ снизу */
+  border-radius: 0.8vh; /* Скругленные углы изображения */
+  height: auto; /* Сохраняем пропорции */
+  margin-bottom: 1vh; /* Отступ снизу */
   transition: transform 0.3s ease; /* Плавное увеличение при наведении */
-  width: 100%;                 /* Изображение растягивается на ширину карточки */
+  width: 100%; /* Изображение растягивается на ширину карточки */
 }
 .start-page .item-option:hover {
   background-color: #e6f2ff;
   box-shadow: 0 0.6vh 1.2vh rgba(0, 0, 0, 0.2); /* Увеличенная тень */
-  transform: scale(1.05);                   /* Увеличение карточки при наведении */
+  transform: scale(1.05); /* Увеличение карточки при наведении */
 }
 .start-page .item-option span {
-    color: #131A22;        /* Тёмно-серый цвет */
-    display: block;        /* Строчно-блочный элемент */
-    font-size: 1.4vh;        /* Размер шрифта */
-    font-weight: bold;     /* Жирное начертание */
-    margin-top: 0.8vh;       /* Отступ сверху */
+  color: #131A22; /* Тёмно-серый цвет */
+  display: block; /* Строчно-блочный элемент */
+  font-size: 1.4vh; /* Размер шрифта */
+  font-weight: bold; /* Жирное начертание */
+  margin-top: 0.8vh; /* Отступ сверху */
 }
-
 .control-panel {
-  display: flex;       /* Флекс-контейнер */
+  display: flex; /* Флекс-контейнер */
   flex-direction: column; /* Располагаем элементы в столбик */
-  gap: 1vh;           /* Промежуток между элементами */
-  left: 0;            /* Прижимаем к левому краю */
+  gap: 1vh; /* Промежуток между элементами */
+  left: 0; /* Прижимаем к левому краю */
   pointer-events: none; /* Не перехватываем клики */
-  position: fixed;    /* Фиксируем панель в одном месте */
-  top: 1vh;           /* Отступ сверху */
-  z-index: 120;       /* Поверх всего */
+  position: fixed; /* Фиксируем панель в одном месте */
+  top: 1vh; /* Отступ сверху */
+  z-index: 120; /* Поверх всего */
 }
 .control-button {
   background: linear-gradient(135deg, #3152BA, #CBD4EE); /* Градиент */
-  border: none;                /* Без рамки */
-  border-radius: 0 0.5vh 0.5vh 0;  /* Скругленные углы справа */
-  color: white;                /* Цвет текста */
-  cursor: pointer;             /* Указывает, что элемент кликабельный */
-  display: flex;               /* Флекс-контейнер */
-  align-items: center;         /* Выравниваем по вертикали по центру */
-  height: 4vh;                /* Фиксированная высота */
-  justify-content: center;     /* По горизонтали по центру */
-  overflow: hidden;            /* Обрезаем содержимое за рамками */
-  padding: 0 0.5vh;              /* Горизонтальные отступы */
-  pointer-events: auto;        /* Разрешаем клики */
+  border: none; /* Без рамки */
+  border-radius: 0 0.5vh 0.5vh 0; /* Скругленные углы справа */
+  color: white; /* Цвет текста */
+  cursor: pointer; /* Указывает, что элемент кликабельный */
+  display: flex; /* Флекс-контейнер */
+  align-items: center; /* Выравниваем по вертикали по центру */
+  height: 4vh; /* Фиксированная высота */
+  justify-content: center; /* По горизонтали по центру */
+  overflow: hidden; /* Обрезаем содержимое за рамками */
+  padding: 0 0.5vh; /* Горизонтальные отступы */
+  pointer-events: auto; /* Разрешаем клики */
   transition: width 0.5s ease-in-out, background 0.3s ease-in-out; /* Плавные переходы при наведении */
-  white-space: nowrap;         /* Запрещаем перенос текста */
-  width: 1vh;                 /* Минимальная ширина */
+  white-space: nowrap; /* Запрещаем перенос текста */
+  width: 1vh; /* Минимальная ширина */
 }
 /* Анимация наведения */
-.control-button:hover,
-.control-button:focus-within {
+.control-button:hover, .control-button:focus-within {
   background: linear-gradient(135deg, #3152BA, #98A8DC); /* Меняем градиент */
-  width: 4vh;                                          /* Расширяем кнопку при наведении */
+  width: 4vh; /* Расширяем кнопку при наведении */
 }
 /* Исправляем фон иконок */
 .control-button span {
-  color: white;    /* Цвет текста */
-  display: none;   /* Скрываем текст */
+  color: white; /* Цвет текста */
+  display: none; /* Скрываем текст */
 }
-.control-button:hover span,
-.control-button:focus-within span {
+.control-button:hover span, .control-button:focus-within span {
   display: inline; /* Показываем текст при наведении */
 }
-
 /* Исправляем иконку дома */
 .icon-home {
   background-image: url('https://img.icons8.com/?size=100&id=2797&format=png&color=FFFFFF'); /* Ссылка на иконку дома */
   background-repeat: no-repeat; /* Не повторяем */
-  background-size: contain;     /* Сохраняем пропорции */
-  height: 2vh;                 /* Высота иконки */
-  width: 2vh;                  /* Ширина иконки */
+  background-size: contain; /* Сохраняем пропорции */
+  height: 2vh; /* Высота иконки */
+  width: 2vh; /* Ширина иконки */
 }
 .icon-logo {
   background-image: url('ref/LOGO.png'); /* Лого из локального пути */
-  background-repeat: no-repeat;          /* Не повторяем */
-  background-size: contain;              /* Сохраняем пропорции */
-  height: 4vh;                          /* Высота иконки */
-  width: 4vh;                           /* Ширина иконки */
+  background-repeat: no-repeat; /* Не повторяем */
+  background-size: contain; /* Сохраняем пропорции */
+  height: 4vh; /* Высота иконки */
+  width: 4vh; /* Ширина иконки */
 }
-
 .toggle-icon {
-  color: #3152BA;    /* Синий цвет */
-  font-size: 2vh;   /* Размер символа */
+  color: #3152BA; /* Синий цвет */
+  font-size: 2vh; /* Размер символа */
 }
-
 .select-message {
-    align-items: center;                        /* По вертикали по центру */
-    background-color: rgba(255, 255, 255, 0.95); /* Светлый полупрозрачный фон */
-    color: #333;                                /* Тёмно-серый цвет */
-    display: none;                              /* Изначально скрыто */
-    flex-direction: column;                     /* Располагаем элементы в столбик */
-    font-size: 1.6vh;                           /* Средний размер шрифта */
-    height: 100%;                               /* На всю высоту */
-    justify-content: center;                    /* По горизонтали по центру */
-    text-align: center;                         /* Текст по центру */
-    width: 100%;                                /* На всю ширину */
+  align-items: center; /* По вертикали по центру */
+  background-color: rgba(255, 255, 255, 0.95); /* Светлый полупрозрачный фон */
+  color: #333; /* Тёмно-серый цвет */
+  display: none; /* Изначально скрыто */
+  flex-direction: column; /* Располагаем элементы в столбик */
+  font-size: 1.6vh; /* Средний размер шрифта */
+  height: 100%; /* На всю высоту */
+  justify-content: center; /* По горизонтали по центру */
+  text-align: center; /* Текст по центру */
+  width: 100%; /* На всю ширину */
 }
-
 .skin-split-pane {
-  align-items: center;               /* Выравниваем по вертикали */
-  border: .2vh solid transparent;    /* Прозрачная граница */
-  display: flex;                     /* Флекс-контейнер */
-  height: 100%;                      /* Высота на все доступное пространство */
-  justify-content: center;           /* Выравниваем по горизонтали */
+  align-items: center; /* Выравниваем по вертикали */
+  border: .2vh solid transparent; /* Прозрачная граница */
+  display: flex; /* Флекс-контейнер */
+  height: 100%; /* Высота на все доступное пространство */
+  justify-content: center; /* Выравниваем по горизонтали */
 }
 .skin-split-pane:hover {
   background-color: rgba(0, 128, 128, .1); /* Светлый полупрозрачный фон при наведении */
 }
-.skin-split-pane.disabled,
-.splitter-active iframe {
+.skin-split-pane.disabled, .splitter-active iframe {
   pointer-events: none; /* Отключаем события мыши */
 }
 .skin-split-pane-inner {
   box-sizing: content-box; /* Размер без учета границ и отступов */
 }
 .skin-split-pane.col .skin-split-pane-inner {
-  border-left: 0.1vh solid gray;   /* Линия слева */
-  border-right: 0.1vh solid gray;  /* Линия справа */
-  cursor: col-resize;            /* Курсор изменения размера по горизонтали */
-  height: 1vh;                   /* Высота 1em */
-  width: 0.2vh;                    /* Ширина 2px */
+  border-left: 0.1vh solid gray; /* Линия слева */
+  border-right: 0.1vh solid gray; /* Линия справа */
+  cursor: col-resize; /* Курсор изменения размера по горизонтали */
+  height: 1vh; /* Высота 1em */
+  width: 0.2vh; /* Ширина 2px */
 }
 .skin-split-pane.row .skin-split-pane-inner {
   border-bottom: 0.1vh solid gray; /* Линия снизу */
-  border-top: 0.1vh solid gray;    /* Линия сверху */
-  cursor: row-resize;            /* (Опционально) курсор изменения размера по вертикали */
-  height: 0.2vh;                   /* Высота 2px */
-  width: 0.1vh;                    /* Ширина 1em */
+  border-top: 0.1vh solid gray; /* Линия сверху */
+  cursor: row-resize; /* (Опционально) курсор изменения размера по вертикали */
+  height: 0.2vh; /* Высота 2px */
+  width: 0.1vh; /* Ширина 1em */
 }
 .skin-split-pane.disabled .skin-split-pane-inner {
   display: none; /* Не отображаем, если отключено */
 }
-
 /* Страница с просьбой повернуть устройство */
 .rotate-message {
-  align-items: center;                /* Выравниваем по вертикали */
+  align-items: center; /* Выравниваем по вертикали */
   background-color: rgba(0, 0, 0, 0.8); /* Тёмный полупрозрачный фон */
-  color: #fff;                        /* Белый текст */
-  display: none;                      /* Изначально скрыто */
-  height: 100%;                       /* На всю высоту */
-  justify-content: center;            /* По горизонтали по центру */
-  left: 0;                            /* Привязываем к левой границе */
-  position: fixed;                    /* Фиксируем сообщение */
-  text-align: center;                 /* Текст по центру */
-  top: 0;                             /* Привязываем к верхней границе */
-  width: 100%;                        /* На всю ширину */
-  z-index: 1000;                      /* Поверх всех элементов */
+  color: #fff; /* Белый текст */
+  display: none; /* Изначально скрыто */
+  height: 100%; /* На всю высоту */
+  justify-content: center; /* По горизонтали по центру */
+  left: 0; /* Привязываем к левой границе */
+  position: fixed; /* Фиксируем сообщение */
+  text-align: center; /* Текст по центру */
+  top: 0; /* Привязываем к верхней границе */
+  width: 100%; /* На всю ширину */
+  z-index: 1000; /* Поверх всех элементов */
 }
 .rotate-container {
   animation: fade-in 1.5s ease-in-out infinite; /* Анимация мигания */
@@ -501,45 +469,43 @@ iframe {
     opacity: 0.5; /* Полупрозрачность в начальной и конечной точках */
   }
   50% {
-    opacity: 1;   /* Полная непрозрачность в середине */
+    opacity: 1; /* Полная непрозрачность в середине */
   }
 }
-
 /* Стили для поиска */
 .search-box {
-  align-items: center;                      /* Выравниваем по вертикали */
-  background-color: #f9f9f9;                /* Светлый фон */
-  border-radius: 0.5vh;                       /* Скругленные углы */
+  align-items: center; /* Выравниваем по вертикали */
+  background-color: #f9f9f9; /* Светлый фон */
+  border-radius: 0.5vh; /* Скругленные углы */
   box-shadow: 0 0.2vh 0.5vh rgba(0, 0, 0, 0.1); /* Легкая тень */
-  display: flex;                            /* Флекс-контейнер */
-  margin-bottom: 2vh;                      /* Отступ снизу */
-  padding: 0.5vh;                            /* Внутренние отступы */
-  flex-wrap: nowrap;                         /* Элементы не переносятся */
+  display: flex; /* Флекс-контейнер */
+  margin-bottom: 2vh; /* Отступ снизу */
+  padding: 0.5vh; /* Внутренние отступы */
+  flex-wrap: nowrap; /* Элементы не переносятся */
   text-align: center; /* Текст по центру */
 }
-.searchInput {
-    border: 0.1vh solid #ddd;  /* Светлая рамка */
-    border-radius: 0.5vh;      /* Скругленные углы */
-    font-size: 1vh;         /* Размер шрифта */
-    outline: none;           /* Убираем обводку при фокусе */
-    padding: 0.8vh;            /* Внутренние отступы */
-    flex: 1;          /* Все элементы растягиваются равномерно */
-    min-width: 0;    /* разрешаем сжиматься до нуля */
+#searchInput {
+  border: 0.1vh solid #ddd; /* Светлая рамка */
+  border-radius: 0.5vh; /* Скругленные углы */
+  font-size: 1vh; /* Размер шрифта */
+  outline: none; /* Убираем обводку при фокусе */
+  padding: 0.8vh; /* Внутренние отступы */
+  flex: 1; /* Все элементы растягиваются равномерно */
+  min-width: 0; /* разрешаем сжиматься до нуля */
 }
-.searchInput:focus {
-  border-color: #3152BA;   /* Подсвечиваем при фокусе */
+#searchInput:focus {
+  border-color: #3152BA; /* Подсвечиваем при фокусе */
 }
 /* Стили для кнопки сброса поиска */
 .clear-search {
-    background-color: #C2C6CB; /* Цвет фона кнопки */
-    border: none;              /* Без рамки */
-    border-radius: 0.5vh;        /* Скругляем углы */
-    color: #F4F4F4;            /* Цвет текста */
-    cursor: pointer;           /* Курсор при наведении */
-    font-size: 1.5vh;
-    padding: 0.5vh;      /* Внутренние отступы */
+  background-color: #C2C6CB; /* Цвет фона кнопки */
+  border: none; /* Без рамки */
+  border-radius: 0.5vh; /* Скругляем углы */
+  color: #F4F4F4; /* Цвет текста */
+  cursor: pointer; /* Курсор при наведении */
+  font-size: 1.5vh;
+  padding: 0.5vh; /* Внутренние отступы */
 }
 .clear-search:hover {
   background-color: #cc0000; /* Изменяем цвет фона при наведении */
 }
-

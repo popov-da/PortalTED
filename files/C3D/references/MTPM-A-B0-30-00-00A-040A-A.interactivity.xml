@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/21/24</ModificationDate>
+<ModificationDate>12/20/24</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -117,14 +117,14 @@
 		</div>
 	</div>
 	<div class="content">
-		<div class="description levels" id="description_IDSUGFC21U">
-			<div class="levelledPara level1 link" id="levelledPara_IDKU0QSUXR">
+		<div class="description levels" id="description_IDPDDKZXOW">
+			<div class="levelledPara level1 link" id="levelledPara_IDVYTEDIX5">
 				<div class="title">Общие сведения</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDENBXMQTS">
+				<div class="levelledPara level2 link" id="levelledPara_ID21FTC3JE">
 					<div class="title">Назначение</div>
 					<div class="para p">Основание предназначено для установки и крепления всех основных компонентов и систем траверсы.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDCXZZXCGW">
+				<div class="levelledPara level2 link" id="levelledPara_IDHD4FNCNN">
 					<div class="title">Состав</div>
 					<div class="para p">В состав основания входят:<div class="randomList list  ul">
 							<div class="listItem li">
@@ -161,7 +161,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDD0PTUMNW">
+				<div class="levelledPara level2 link" id="levelledPara_IDVOQTIX1X">
 					<div class="title">Технические характеристики</div>
 					<div class="para p">Технические характеристики основания <a class="internalRef irtt02 link" data-index="1" href="#tab-002" title=""></a>.</div>
 					<div class="table" id="tab-002"><div class="table-contents">
@@ -182,23 +182,23 @@
 					</div></div><br class="table-break">
 				</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_ID40ZHMXMT">
+			<div class="levelledPara level1 link" id="levelledPara_IDK302CP10">
 				<div class="title">Размещение компонентов</div>
 				<div class="para p">
 			Основание является системообразующим элементом траверсы.</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_ID1MUDV1XG">
+			<div class="levelledPara level1 link" id="levelledPara_IDYU1LI4JB">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.cgm" title="Основание"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.svg" title="Основание"></a>
 				</div>
 				<div class="para p">Основание — это главный силовой элемент траверсы. Основными составными частями основания являются сварной каркас балки и две торцевые опоры.</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDGFUDUWZK">
+				<div class="levelledPara level2 link" id="levelledPara_IDEWRBJOHN">
 					<div class="title">Сварной каркас балки</div>
 					<div class="para p">Каркас является основным несущим элементом конструкции. Сварной каркас балки выполнен из стандартного двутаврового профиля из низколегированной стали. </div>
 					<div class="para p">Основные типы соединений — сварные и резьбовые.</div>
-					<div class="para p">Торцевые опоры крепятся к сварному каркасу балки с помощью восьми одинаковых ушей. Уши расположены по четыре с каждой стороны на противоположных концах каркаса. Они представляют собой пластины с резьбовым отверстием по центру и привариваются к стенке и поясам двутавра.</div>
-					<div class="para p">На концах каркаса, в стенке двутавра, предусмотрены по два отверстия с каждой стороны. Эти отверстия преднозначенны для установки вала ведущей шестерни и прокладки электропроводки.</div>
+					<div class="para p">Торцевые опоры крепятся к сварному каркасу балки с помощью восьми одинаковых ушей. Уши расположены по четыре с каждой стороны. Они представляют собой пластины с резьбовым отверстием по центру и привариваются к стенке и поясам двутавра.</div>
+					<div class="para p">На концах каркаса, в стенке двутавра, предусмотрены по два отверстия. Эти отверстия предназначенны для установки вала ведущей шестерни и прокладки электропроводки.</div>
 					<div class="para p">По краям каркаса приварены кронштейны для установки редуктора, а также кронштейны кабелей датчиков и жгутов двигателей.</div>
 					<div class="para p">Сверху к каркасу приварен лоток для цепи, а по краям лотка — высокие кронштейны дальномера.</div>
 					<div class="para p">На каркасе предусмотрены специальные площадки для установки распределительных устройств и распределительных устройств АКБ. Площадки имеют одинаковую конструкцию и состоят из следующих элементов:<div class="randomList list  ul">
@@ -222,11 +222,11 @@
 					<div class="para p">Слева от кронштейна распределительных устройств приварены четыре кронштейна для установки распределительного шкафа. </div>
 					<div class="para p">В верхнем поясе двутавра вырезан специальный паз,
 					в который вварен кронштейн кабеля двигателя. Ниже к стенке двутавра приварен кронштейн жгутов двигателей.</div>
-					<div class="para p">На верхнем поясе двутавра приварены стопоры башни. Каждая набойка, установленная на стопоре, крепится клеем и дополнительно прижимается винтами для надежности. Аналогичным образом установлены стопоры кареток.</div>
+					<div class="para p">На верхнем и нижнем поясах двутавра с внутренней стороны приварены стопоры башни и кареток. На каждый  стопор устанавливается набойка. Набойка  крепится к стопору клеевым соединением и дополнительно прижимается винтами для надежности.</div>
 					<div class="para p">В центральной	части стенки двутавра установлен лоток для электрических жгутов. Он крепится с помощью 15 болтов. Для дополнительной жесткости конструкции предусмотрены две верхние и одна нижняя распорки, которые фиксируются с помощью винтовых соединений. К торцу лотка электрических жгутов с помощью болтового соединения крепится горизонтальный кронштейн дальномера.</div>
-					<div class="para p">На торце лотка электрических жгутов с помощью болтового соединения установлен горизонтальный кронштейн дальномера.</div>
+					<div class="para p">В центральной части к торцу лотка электрических жгутов с помощью болтового соединения установлен горизонтальный кронштейн дальномера.</div>
 					<div class="para p"> К нижнему поясу двутавра приварен зацеп. В зацепе имеется отверстие для установки и крепления грузов.</div>
-					<div class="para p">Для точного линейного перемещения кареток и опор предусмотрены направляющие:<div class="randomList list  ul">
+					<div class="para p">Для точного линейного перемещения кареток и опор башни предусмотрены направляющие:<div class="randomList list  ul">
 							<div class="listItem li">
 <div class="listItemBody">
 								<div class="para p">восемь нижних направляющих одинаковой конструкции привариваются к нижнему поясу двутавра — четыре снизу и четыре сверху.</div>
@@ -241,16 +241,16 @@
 					</div>
 					<div class="para p">С передней стороны траверсы по краям направляющих приваренно по два  низких кронштейна  дальномеров, два кронштейна для крепления кабелей  и один кронштейн жгутов двигателей</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDTPDB2VFE">
+				<div class="levelledPara level2 link" id="levelledPara_ID41XTXCFM">
 					<div class="title">Торцевая опора</div>
 					<div class="para p">В основании предусмотрены две торцевые опоры для установки траверсы на ровную горизонтальную поверхность. Обе опоры одинаковы по конструкции и составу. Каждая опора крепится к сварному каркасу балки с помощью винтового соединения через четыре уха.</div>
-					<div class="para p">Торцевая опора представляет собой сварную конструкцию из стенки и косынки, выполненную из стали толщиной 10 мм. В торцевой стенке выполнено по четыре отверстия для крепления её к сварному каркасу балки.</div>
+					<div class="para p">Торцевая опора представляет собой сварную конструкцию из стенки и косынки, выполненную из стали толщиной 10 мм. В  стенке выполнено по четыре отверстия для крепления её к сварному каркасу балки.</div>
 				</div>
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Основание</div>
-				<a title="Основание" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDW4FJ3WQ2" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.cgm">Основание</a>
-				<a title="Основание" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.cgm">Основание</a>
+				<a title="Основание" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDBW1HLYRG" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.svg">Основание</a>
+				<a title="Основание" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.svg">Основание</a>
 			</div>
 		</div>
 	</div>

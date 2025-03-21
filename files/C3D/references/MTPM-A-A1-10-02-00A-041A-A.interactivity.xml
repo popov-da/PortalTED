@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/21/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -117,39 +117,17 @@
 		</div>
 	</div>
 	<div class="content">
-		<div class="description levels" id="description_IDYUOZQCFU">
-			<div class="levelledPara level1 link" id="levelledPara_IDPTO53I2B">
+		<div class="description levels" id="description_IDJWKWOYZP">
+			<div class="levelledPara level1 link" id="levelledPara_IDVMGVO3CU">
 				<div class="title">Общие сведения</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID1M4WJKT2">
+				<div class="levelledPara level2 link" id="levelledPara_IDAOUYOWEG">
 					<div class="title">Назначение</div>
 					<div class="para p">
 						Шаговый двигатель башни предназначен для перемещения башни на заданное растояние.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDMZCESQV3">
-					<div class="title">Состав</div>
-					<div class="para p">В состав шагового двигателя
-						башни  MP3-86TZ150 входят:<div class="randomList list  ul">
-							<div class="listItem li">
-<div class="listItemBody">
-								<div class="para p">шаговый электродвигатель;</div>
-							</div>
-</div>
-							<div class="listItem li">
-<div class="listItemBody">
-								<div class="para p">энкодер;</div>
-							</div>
-</div>
-							<div class="listItem li">
-<div class="listItemBody">
-								<div class="para p">электромагнитный тормоз.</div>
-							</div>
-</div>
-						</div>
-					</div>
-				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDUHA0CB2L">
+				<div class="levelledPara level2 link" id="levelledPara_IDB5B4UMML">
 					<div class="title">Технические характеристики</div>
-					<div class="para p">Технические характеристики двигателя <a class="internalRef irtt02 link" data-index="1" href="#tab-002" title=""></a>.</div>
+					<div class="para p">Технические характеристики шагового двигателя башни <a class="internalRef irtt02 link" data-index="1" href="#tab-002" title=""></a>.</div>
 					<div class="table" id="tab-002"><div class="table-contents">
 						<div class="title">Технические характеристики шагового двигателя башни</div>
 						<table summary="Технические характеристики шагового двигателя башни" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title">Технические характеристики шагового двигателя башни</div></caption><caption class="rest"><div class="title">Технические характеристики шагового двигателя башни</div></caption><colgroup><col width="50%" align="center" class="col1"><col width="50%" align="center" class="col2"></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
@@ -159,19 +137,19 @@
 									</th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
 										<div class="para p">Габаритные размеры (Д×Ш×В), мм, не более</div>
 									</td><td style="border-bottom: 1px solid ; " align="center">
-										<div class="para p">257×98×86</div>
+										<div class="para p">182×86×86</div>
 									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
 										<div class="para p">Масса, кг, не более</div>
 									</td><td style="border-bottom: 1px solid ; " align="center">
-										<div class="para p">???</div>
+										<div class="para p">4.86</div>
 									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
 										<div class="para p">Тип двигателя</div>
 									</td><td style="border-bottom: 1px solid ; " align="center">
-										<div class="para p">Двухфазный шаговый двигатель</div>
+										<div class="para p">Гибридный биполярный шаговый двигатель</div>
 									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
 										<div class="para p">Момент удержания, Н·м</div>
 									</td><td style="border-bottom: 1px solid ; " align="center">
-										<div class="para p">12</div>
+										<div class="para p">11.0</div>
 									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
 										<div class="para p">Угловой шаг</div>
 									</td><td style="border-bottom: 1px solid ; " align="center">
@@ -183,55 +161,48 @@
 									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
 										<div class="para p">Диаметр вала, мм</div>
 									</td><td style="border-bottom: 1px solid ; " align="center">
-										<div class="para p">14</div>
-									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
-										<div class="para p">Тип энкодера</div>
-									</td><td style="border-bottom: 1px solid ; " align="center">
-										<div class="para p">	Оптический</div>
+										<div class="para p">12.7</div>
 									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
 										<div class="para p">Номинальный ток, А</div>
 									</td><td style="border-bottom: 1px solid ; " align="center">
-										<div class="para p">6</div>
+										<div class="para p">5.6</div>
 									</td></tr><tr><td style="border-right: 1px solid ; " align="left">
 										<div class="para p">Мощность, Вт</div>
 									</td><td style="" align="center">
-										<div class="para p">450</div>
+										<div class="para p">270</div>
 									</td></tr></tbody></table>
 					</div></div><br class="table-break">
 				</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDYFFK2KQB">
+			<div class="levelledPara level1 link" id="levelledPara_IDWAW45AAI">
 				<div class="title">Размещение компонентов</div>
 				<div class="para p">
-					Двигатель размещен на редукторе башни.</div>
+					Шаговый двигатель башни размещен на редукторе башни.</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDF513MQ10">
+			<div class="levelledPara level1 link" id="levelledPara_IDZTLTIGMN">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01.cgm" title="Шаговый двигатель башни"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01.svg" title="Шаговый двигатель башни"></a>
 				</div>
 				<div class="para p">
-					Двигатель устанавливается на переходную плиту и крепится к редуктору с помощью винтового соединения.</div>
-				<div class="para p">Внутри корпуса двигателя расположены шаговый электродвигатель, энкодер и электромагнитный тормоз. Шаговый электродвигатель состоит из статора и ротора, в котором ток, подаваемый на обмотку статора, приводит в движение вал ротора. На валу ротора установлены энкодер и электромагнитный тормоз. Энкодер позволяет  отслеживать угловое положение,
-скорость и направление вращения вала. Электромагнитный тормоз обеспечивает полную остановку
-или удержание вала в заданном угловом положении.</div>
+					Шаговый двигатель башни устанавливается валом в отверстие редуктора и фиксируется
+шпоночным соединением. Снаружи шаговый двигатель башни крепится фланцем к
+корпусу редуктора через переходную плиту с использованием винтового соединения.</div>
+				<div class="para p">Шаговый двигатель состоит из статора и ротора. При подаче тока на обмотки статора возникает магнитное поле, которое вызывает вращение ротора и его вала.</div>
 				<div class="figure" id="fig-001">
 					<div class="title">Шаговый двигатель башни</div>
-					<a title="Шаговый двигатель башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01" data-href="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01.cgm">Шаговый двигатель башни</a>
+					<a title="Шаговый двигатель башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01" data-href="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-A11002-A-MDMKD-00007-A-001-01.svg">Шаговый двигатель башни</a>
 				</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDWX0CRZH3">
+			<div class="levelledPara level1 link" id="levelledPara_IDB4DCCUY4">
 				<div class="title">Работа</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01.cgm" title="Функциональная схема шагового двигателя башни"></a>
+					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01.svg" title="Функциональная схема шагового двигателя башни"></a>
 				</div>
-				<div class="para p">Управление двигателем осуществляется с помощью шагового серводрайвера башни (ШСБ). ШСБ принимает управляющий сигнал от контроллера, преобразует его и выдает выходные дискретные сигналы 48 В на обмотки статора шагового электродвигателя. Каждый дискретный сигнал 48 В активирует определенную обмотку, создавая магнитное поле. Под воздействием этого поля ротор начинает вращаться вокруг своей оси, следуя за изменяющимся магнитным полем.</div>
-				<div class="para p">Когда ротор вращается, энкодер генерирует дискретные сигналы 12 В, которые соответствуют его угловому положению, скорости и направлению вращения ротора. Внутри энкодера находится диск, на котором нанесены прорези или метки. Этот диск установлен на роторе двигателя и вращается вместе с ним. Напротив диска располагается источник света. Когда диск начинает вращаться, свет от источника проходит через прорези на диске и попадает на фотодетектор, создавая последовательность светлых и темных зон. Эти изменения в освещенности фотодетектора преобразуются в  дискретный сигнал 12 В, который передается в ШСБ.</div>
-				<div class="para p">При получении дискретного сигнала 12 В от энкодера ШСБ сравнивает угловое положение ротора с заданным значением. В случае обнаружения расхождений он автоматически корректирует подачу дискретных сигналов 48 В на обмотки статора, изменяя направление или скорость вращения ротора двигателя.</div>
-				<div class="para p">ШСБ также управляет электромагнитным тормозом, подавая на реле управления тормозом (РУТ) дискретный сигнал 24 В. Силовое питание 12 В от аккумулятора преобразуется в 24 В и подается на обмотку катушки электромагнитного тормоза через РУТ. В результате создается магнитное поле, которое разжимает тормозной элемент. Это позволяет ротору свободно вращаться.</div>
+				<div class="para p">Управление шаговым двигателем башни осуществляется через шаговый драйвер башни (ШДБ). ШДБ получает управляющий сигнал от контроллера, преобразует его в выходные дискретные сигналы напряжением 48 В, которые подаются на обмотки статора шагового двигателя. Каждый сигнал активирует соответствующую обмотку, создавая магнитное поле, которое приводит в движение ротор, обеспечивая его вращение в соответствии с направлением изменяющегося магнитного поля.</div>
 				<div class="figure" id="fig-002">
 					<div class="title">Функциональная схема шагового двигателя башни</div>
-					<a title="Функциональная схема шагового двигателя башни" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01" data-href="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDJRVETQO3" data-link="link2d" data-src="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01.cgm">Функциональная схема шагового двигателя башни</a>
+					<a title="Функциональная схема шагового двигателя башни" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01" data-href="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01.svg" data-reproductionHeight="102mm" data-reproductionWidth="170mm" id="graphic_ID4GVJY4H0" data-link="link2d" data-src="ICN-MTPM-A-A11002-0-MDMKD-00006-A-001-01.svg">Функциональная схема шагового двигателя башни</a>
 				</div>
 			</div>
 		</div>

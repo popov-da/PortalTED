@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE pm [
+<!ENTITY ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01.svg" NDATA SVG>
+<!NOTATION SVG PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN" "SVG">
 ]>
 <pm xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/pm.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<identAndStatusSection>
@@ -10,12 +12,15 @@
 				<issueInfo issueNumber="001" inWork="01"/>
 			</pmIdent>
 			<pmAddressItems>
-				<issueDate year="2024" month="11" day="21"/>
+				<issueDate year="2025" month="03" day="20"/>
 				<pmTitle>Линейная траверса</pmTitle>
 			</pmAddressItems>
 		</pmAddress>
 		<pmStatus issueType="new">
 			<security securityClassification="01"/>
+			<logo>
+				<symbol infoEntityIdent="ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01" xlink:href="file:///T:/01-Projects/40-MTPM/01-C3D/Projects/Images/44B75F9B7FE54CACAFCBE04B328E78C2.svg" reproductionHeight="10mm" reproductionWidth="10mm"/>
+			</logo>
 			<responsiblePartnerCompany enterpriseCode="MDMKD">
 				<enterpriseName>МОДУЛЬ МКД</enterpriseName>
 			</responsiblePartnerCompany>
@@ -58,36 +63,22 @@
 			</dmRef>
 			<dmRef>
 				<dmRefIdent>
-					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="009" infoCodeVariant="A" itemLocationCode="A"/>
-					<issueInfo issueNumber="001" inWork="01"/>
+					<dmCode modelIdentCode="UNITS" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="018" infoCodeVariant="A" itemLocationCode="A"/>
+					<issueInfo issueNumber="000" inWork="01"/>
 					<language languageIsoCode="ru" countryIsoCode="RU"/>
 				</dmRefIdent>
 				<dmRefAddressItems>
 					<dmTitle>
-						<techName>Линейная траверса</techName>
-						<infoName>Содержание</infoName>
+						<techName>Эксплуатационная документация</techName>
+						<infoName>Введение</infoName>
 					</dmTitle>
-					<issueDate year="2024" month="09" day="19"/>
-				</dmRefAddressItems>
-			</dmRef>
-			<dmRef>
-				<dmRefIdent>
-					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="00T" infoCodeVariant="A" itemLocationCode="A"/>
-					<issueInfo issueNumber="001" inWork="01"/>
-					<language languageIsoCode="ru" countryIsoCode="RU"/>
-				</dmRefIdent>
-				<dmRefAddressItems>
-					<dmTitle>
-						<techName>Линейная траверса</techName>
-						<infoName>Лист регистрации изменений</infoName>
-					</dmTitle>
-					<issueDate year="2024" month="09" day="19"/>
+					<issueDate year="2024" month="11" day="20"/>
 				</dmRefAddressItems>
 			</dmRef>
 			<dmRef>
 				<dmRefIdent>
 					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="012" infoCodeVariant="A" itemLocationCode="A"/>
-					<issueInfo issueNumber="001" inWork="01"/>
+					<issueInfo issueNumber="000" inWork="01"/>
 					<language languageIsoCode="ru" countryIsoCode="RU"/>
 				</dmRefIdent>
 				<dmRefAddressItems>
@@ -123,7 +114,7 @@
 				</dmRefIdent>
 				<dmRefAddressItems>
 					<dmTitle>
-						<techName>Основные измерения</techName>
+						<techName>Основные размеры</techName>
 						<infoName>Описание</infoName>
 					</dmTitle>
 					<issueDate year="2024" month="07" day="31"/>
@@ -131,19 +122,20 @@
 			</dmRef>
 		</pmEntry>
 		<pmEntry>
-			<pmEntryTitle>Раздел 07 Подъем, крепление и транспортирование</pmEntryTitle>
+			<pmEntryTitle>Раздел 11 Надписи и трафареты
+</pmEntryTitle>
 			<dmRef>
 				<dmRefIdent>
-					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="07" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="176" infoCodeVariant="A" itemLocationCode="A"/>
+					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="11" subSystemCode="1" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/>
 					<issueInfo issueNumber="001" inWork="01"/>
 					<language languageIsoCode="ru" countryIsoCode="RU"/>
 				</dmRefIdent>
 				<dmRefAddressItems>
 					<dmTitle>
-						<techName>Траверса</techName>
-						<infoName>Спуск</infoName>
+						<techName>Маркировка</techName>
+						<infoName>Описание</infoName>
 					</dmTitle>
-					<issueDate year="2024" month="10" day="25"/>
+					<issueDate year="2025" month="01" day="10"/>
 				</dmRefAddressItems>
 			</dmRef>
 		</pmEntry>
@@ -157,10 +149,24 @@
 				</dmRefIdent>
 				<dmRefAddressItems>
 					<dmTitle>
-						<techName>Траверса</techName>
+						<techName>Линейная траверса</techName>
 						<infoName>Предэксплуатационные процедуры</infoName>
 					</dmTitle>
 					<issueDate year="2024" month="09" day="30"/>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="12" subSystemCode="2" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/>
+					<issueInfo issueNumber="001" inWork="01"/>
+					<language languageIsoCode="ru" countryIsoCode="RU"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Места смазки</techName>
+						<infoName>Описание</infoName>
+					</dmTitle>
+					<issueDate year="2025" month="01" day="28"/>
 				</dmRefAddressItems>
 			</dmRef>
 			<dmRef>
@@ -236,6 +242,48 @@
 		</pmEntry>
 		<pmEntry>
 			<pmEntryTitle>Раздел 20 Стандартизованные процессы</pmEntryTitle>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="1" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/>
+					<issueInfo issueNumber="001" inWork="01"/>
+					<language languageIsoCode="ru" countryIsoCode="RU"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Электрооборудование</techName>
+						<infoName>Описание</infoName>
+					</dmTitle>
+					<issueDate year="2024" month="11" day="25"/>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="1" subSubSystemCode="1" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"/>
+					<issueInfo issueNumber="001" inWork="01"/>
+					<language languageIsoCode="ru" countryIsoCode="RU"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Электрические соединители</techName>
+						<infoName>Демонтаж и монтаж</infoName>
+					</dmTitle>
+					<issueDate year="2024" month="12" day="09"/>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="1" subSubSystemCode="1" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"/>
+					<issueInfo issueNumber="001" inWork="01"/>
+					<language languageIsoCode="ru" countryIsoCode="RU"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Оборудование с защелками</techName>
+						<infoName>Демонтаж и монтаж</infoName>
+					</dmTitle>
+					<issueDate year="2024" month="12" day="09"/>
+				</dmRefAddressItems>
+			</dmRef>
 			<dmRef>
 				<dmRefIdent>
 					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="1" subSubSystemCode="2" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"/>
@@ -423,6 +471,20 @@
 			</dmRef>
 			<dmRef>
 				<dmRefIdent>
+					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="1" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"/>
+					<issueInfo issueNumber="001" inWork="01"/>
+					<language languageIsoCode="ru" countryIsoCode="RU"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Шаговый двигатель каретки</techName>
+						<infoName>Описание и работа</infoName>
+					</dmTitle>
+					<issueDate year="2024" month="12" day="23"/>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
 					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="1" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="310" infoCodeVariant="A" itemLocationCode="A"/>
 					<issueInfo issueNumber="001" inWork="01"/>
 					<language languageIsoCode="ru" countryIsoCode="RU"/>
@@ -489,6 +551,20 @@
 						<infoName>Демонтаж и монтаж</infoName>
 					</dmTitle>
 					<issueDate year="2024" month="07" day="03"/>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="1" subSubSystemCode="0" assyCode="03" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"/>
+					<issueInfo issueNumber="001" inWork="01"/>
+					<language languageIsoCode="ru" countryIsoCode="RU"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Шаговый двигатель тормоза</techName>
+						<infoName>Описание и работа</infoName>
+					</dmTitle>
+					<issueDate year="2024" month="12" day="23"/>
 				</dmRefAddressItems>
 			</dmRef>
 			<dmRef>
@@ -605,6 +681,20 @@
 			</dmRef>
 			<dmRef>
 				<dmRefIdent>
+					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="2" subSubSystemCode="1" assyCode="05" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"/>
+					<issueInfo issueNumber="001" inWork="01"/>
+					<language languageIsoCode="ru" countryIsoCode="RU"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Цепь</techName>
+						<infoName>Демонтаж и монтаж</infoName>
+					</dmTitle>
+					<issueDate year="2025" month="01" day="27"/>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
 					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="2" subSubSystemCode="1" assyCode="07" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"/>
 					<issueInfo issueNumber="001" inWork="01"/>
 					<language languageIsoCode="ru" countryIsoCode="RU"/>
@@ -699,6 +789,20 @@
 						<infoName>Регулировка</infoName>
 					</dmTitle>
 					<issueDate year="2024" month="10" day="23"/>
+				</dmRefAddressItems>
+			</dmRef>
+			<dmRef>
+				<dmRefIdent>
+					<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="2" subSubSystemCode="2" assyCode="03" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"/>
+					<issueInfo issueNumber="001" inWork="01"/>
+					<language languageIsoCode="ru" countryIsoCode="RU"/>
+				</dmRefIdent>
+				<dmRefAddressItems>
+					<dmTitle>
+						<techName>Цепь</techName>
+						<infoName>Демонтаж и монтаж</infoName>
+					</dmTitle>
+					<issueDate year="2025" month="01" day="17"/>
 				</dmRefAddressItems>
 			</dmRef>
 			<dmRef>

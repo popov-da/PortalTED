@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <!DOCTYPE dmodule [
-<!ENTITY ICN-MTPM-A-D27003-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-D27003-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
-<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+<!ENTITY ICN-MTPM-A-D27003-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-D27003-0-MDMKD-00002-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
 ]>
 <dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
 <identAndStatusSection>
@@ -142,7 +142,7 @@
 </proceduralStep>
 <figure id="fig-001">
 <title>Демонтаж и монтаж рым-болта</title>
-<graphic infoEntityIdent="ICN-MTPM-A-D27003-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-D27003-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<graphic infoEntityIdent="ICN-MTPM-A-D27003-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-D27003-0-MDMKD-00002-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
 <hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="1"></hotspot>
 <hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_023" applicationStructureName="2"></hotspot>
 </graphic>

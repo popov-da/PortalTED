@@ -264,19 +264,19 @@
 				<div class="levelledPara level2 link" id="levelledPara_IDCQZ33HOR">
 					<div class="title">Датчик</div>
 					<div class="para p">
-						<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01.cgm" title="Датчик"></a>
+						<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01.svg" title="Датчик"></a>
 					</div>
 					<div class="para p">Датчик выполнен в виде моноблока, устанавливается непосредственно на аккумулятор с помощью двусторонней клейкой ленты и измеряет его напряжение и температуру.</div>
 					<div class="para p">На лицевой панели датчика  расположены элементы индикации: кольцевой светодиодный индикатор «Статус» и светодиоды индикации уровня напряжения аккумулятора.</div>
 					<div class="figure" id="fig-002">
 						<div class="title">Датчик</div>
-						<a title="Датчик" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDO3VSMJ1W" data-link="link2d" data-src="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01.cgm">Датчик</a>
+						<a title="Датчик" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDO3VSMJ1W" data-link="link2d" data-src="ICN-MTPM-A-D29001-0-MDMKD-00003-A-001-01.svg">Датчик</a>
 					</div>
 				</div>
 				<div class="levelledPara level2 link" id="levelledPara_IDFUVEI3ZA">
 					<div class="title">Базовая станция</div>
 					<div class="para p">
-						<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01.cgm" title="Базовая станция"></a>
+						<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01.svg" title="Базовая станция"></a>
 					</div>
 					<div class="para p">Базовая станция выполнена в виде моноблока, устанавливается на дверь распределительного устройства с помощью винтов. Станция собирает информацию со всех датчиков по беспроводному каналу связи, обеспечивает выполнение функций диагностики и транслирует данные на <span class="emphasis ">панель оператора</span>. </div>
 					<div class="para p">На лицевой панели базовой станции  расположены элементы управления и индикации: кнопка управления, светодиодный индикатор «Bluetooth», светодиодный индикатор «Сигнализация» и кольцевой светодиодный индикатор «Статус». Кнопка управления имеет четыре режима работы:<div class="randomList list  ul">
@@ -305,7 +305,7 @@
 					<div class="para p">На задней панели базовой станции  расположены: клеммы питания, клеммы входа измерения напряжения и тока аккумуляторной батареи, клеммы выходных реле, резервный разъем и разъем RS-485. </div>
 					<div class="figure" id="fig-001">
 						<div class="title">Базовая станция</div>
-						<a title="Базовая станция" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDA1APY2MV" data-link="link2d" data-src="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01.cgm">Базовая станция</a>
+						<a title="Базовая станция" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDA1APY2MV" data-link="link2d" data-src="ICN-MTPM-A-D29001-A-MDMKD-00001-A-001-01.svg">Базовая станция</a>
 					</div>
 				</div>
 			</div>

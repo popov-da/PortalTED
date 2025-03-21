@@ -162,7 +162,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDD23GGMEN">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A10000-0-MDMKD-00002-A-001-01.cgm" title="Силовой привод"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A10000-0-MDMKD-00002-A-001-01.svg" title="Силовой привод"></a>
 				</div>
 				<div class="para p">Силовой привод представляет собой совокупность двигателей, системы перемещения башни, системы перемещения кареток и тормозного механизма.</div>
 				<div class="para p">Силовой привод выполняет следующие функции:</div>
@@ -193,7 +193,7 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Силовой привод</div>
-				<a title="Силовой привод" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A10000-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-A10000-0-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-A10000-0-MDMKD-00002-A-001-01.cgm">Силовой привод</a>
+				<a title="Силовой привод" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A10000-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-A10000-0-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-A10000-0-MDMKD-00002-A-001-01.svg">Силовой привод</a>
 			</div>
 		</div>
 	</div>

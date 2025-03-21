@@ -224,7 +224,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDM5XYAMYM">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.cgm" title="Система перемещения кареток"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.svg" title="Система перемещения кареток"></a>
 				</div>
 				<div class="para p">Система перемещения кареток представляет собой завершенный механизм, состоящий из различных конструктивных элементов.</div>
 				<div class="levelledPara level2 link" id="levelledPara_IDVA3C2FL5">
@@ -297,15 +297,15 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Система перемещения кареток</div>
-				<a title="Система перемещения кареток" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01" data-href="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="4" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.cgm">Система перемещения кареток</a>
-				<a title="Система перемещения кареток" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01" data-href="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="4" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.cgm">Система перемещения кареток</a>
-				<a title="Система перемещения кареток" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01" data-href="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-003" data-sheet="3" data-sheets="4" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.cgm">Система перемещения кареток</a>
-				<a title="Система перемещения кареток" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01" data-href="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-004" data-sheet="4" data-sheets="4" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.cgm">Система перемещения кареток</a>
+				<a title="Система перемещения кареток" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01" data-href="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="4" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.svg">Система перемещения кареток</a>
+				<a title="Система перемещения кареток" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01" data-href="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="4" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.svg">Система перемещения кареток</a>
+				<a title="Система перемещения кареток" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01" data-href="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-003" data-sheet="3" data-sheets="4" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.svg">Система перемещения кареток</a>
+				<a title="Система перемещения кареток" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01" data-href="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-004" data-sheet="4" data-sheets="4" data-link="link2d" data-src="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.svg">Система перемещения кареток</a>
 			</div>
 			<div class="levelledPara level1 link" id="levelledPara_ID1J1JQYRV">
 				<div class="title">Работа</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.cgm" title="Функциональная схема системы перемещения каретки"></a>
+					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.svg" title="Функциональная схема системы перемещения каретки"></a>
 				</div>
 				<div class="para p">При нажатии на пульте управления кнопки оператором, радиосигнал поступает на приемник. Приемник преобразует радиосигнал в выходной дискретный сигнал 24 В, который поступает на вход дискретного модуля (ДМ) ввода PLC. ДМ  ввода PLC передает данные на процессорный модуль (ПМ) PLC через цифровую шину PLC. В ПМ PLC реализованы алгоритмические функции, на основе которых формируются выходные сигналы для шагового серводрайвера каретки (ШСК) и  для шагового серводрайвера тормоза (ШСТ) через цифровую шину EtherCat. </div>
 				<div class="para p">ШСТ, получив команды от ПМ PLC, формирует  дискретные сигналы 48 В для управления шаговым двигателем тормоза (ШДТ). ШДТ освобождает вращение ведущего вала с помощью тормозного механизма (ТМ). По обратной связи, ШСТ сравнивает данные полученные от энкодера.  В случае обнаружения расхождений, он автоматически корректирует
@@ -320,7 +320,7 @@
 оператора по шине Ethernet через неуправляемый коммутатор.</div>
 				<div class="figure" id="fig-002">
 					<div class="title">Функциональная схема системы перемещения каретки</div>
-					<a title="Функциональная схема системы перемещения каретки" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01" data-href="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDASG24NB4" data-link="link2d" data-src="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.cgm">Функциональная схема системы перемещения каретки</a>
+					<a title="Функциональная схема системы перемещения каретки" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01" data-href="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDASG24NB4" data-link="link2d" data-src="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.svg">Функциональная схема системы перемещения каретки</a>
 				</div>
 			</div>
 		</div>

@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/21/24</ModificationDate>
+<ModificationDate>12/23/24</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -69,7 +69,7 @@
 </metadata>
 </SimulationInformation>
 <Resources>
-<Picture descr="ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01" flags="33">ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01.svg</Picture>
+<Picture descr="ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01" flags="41">ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01.svg</Picture>
 </Resources>
 <DocumentTemplate><![CDATA[<div class="dmodule">
 	<div class="identAndStatusSection link" data-link="toggleStatus">
@@ -117,8 +117,8 @@
 	</div>
 	<div class="content">
 		<div class="procedure">
-			<div class="preliminaryRqmts" id="preliminaryRqmts_IDO2AMIQKY">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDPGXXU2GY"><table>
+			<div class="preliminaryRqmts" id="preliminaryRqmts_ID2A3NO2MN">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDSUNB2ZPC"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -134,7 +134,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDLVXMMJ5R"><table>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_ID3JOBPLWW"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -231,7 +231,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDDEP5A0LU"><table>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDLLTHWJTT"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -293,7 +293,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDJJAI3OB3"><table>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDEHHLV0IT"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -332,35 +332,35 @@
 				</div>
 			</div>
 			<div>
-<div class="mainProcedure" id="mainProcedure_IDIRJTGE4P">
+<div class="mainProcedure" id="mainProcedure_IDMMJJU35F">
 </div>
 </div>
 <div class="Procedure levels" id="">
-				<div class="proceduralStep level1 link" id="proceduralStep_ID325GFA4Q">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDMQ34HEC0">
 					<div class="title">Подготовительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDUNJGAFOJ">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDBUKKX4DZ">
 						<div class="para p">Выполните спуск траверсы  <a class="dmRef  link" href="MTPM-A-07-10-00-00A-176A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="176" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="07" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-07-10-00-00A-176A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDKDF0IYJU">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDAC2QRN0Q">
 						<div class="para p">Наденьте спецодежду: комбинезон, перчатки, очки.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDI0URYHFX">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDVHE1330G">
 						<div class="para p">Демонтируйте цепь  <a class="dmRef  link" href="MTPM-A-A1-22-03-00A-922A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-03-00A-922A-A</div>
 								</div></a>.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDAIPFFNC2">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDLCI4SFQ2">
 					<div class="title">Очистка</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDCUL1YT3Y">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDVKOVTA5L">
 						<div class="para p">Налейте <span class="emphasis ">10 л</span> керосина в тару.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDKW33NHVS">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDEG0OV0DE">
 						<div class="para p">Погрузите цепь в тару на срок не менее 10 мин.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDCJZYZJNM">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDXP5MYSML">
 						<div class="para p">Очистите цепь в таре с керосином от загрязнений.</div>
 						<div>
 <div class="note">
@@ -368,64 +368,64 @@
 						</div>
 </div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDZQ3MCMF0">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDDEXM5V20">
 						<div class="para p">Извлеките цепь из тары.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDT2H2CM4C">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDFXTQ3XAA">
 						<div class="para p">Протрите цепь до сухого состояния обтирочной ветошью.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDYLOG3PXS">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDFLVATB2J">
 						<div class="para p">Продуйте звенья цепи сжатым воздухом.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDN2TJDGIA">
+						<div class="proceduralStep level3 link" id="proceduralStep_IDNZMYIZDJ">
 							<div class="para p">При необходимости удалите загрязнения, образовавшиеся при продувке, с помощью обтирочной ветоши.</div>
 						</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDP3FN45B3">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDK3IOTM4P">
 						<div class="para p">Просушите цепь от 15 до 20 мин.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_ID4TFPVF4P">
+				<div class="proceduralStep level1 link" id="proceduralStep_ID44TQIZMT">
 					<div class="title">Осмотр перед смазкой</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDVNAGKF4S">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDJVCIYXB5">
 						<div class="para p">Осмотрите пины, звенья и ролики цепи на отсутствие трещин, деформаций, разрушений и
 других механических и коррозионных повреждений.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDXIF30RJ4">
+						<div class="proceduralStep level3 link" id="proceduralStep_IDOPQU5JV3">
 							<div class="para p">При необходимости выполните замену поврежденного звена цепи или, в случае невозможности устранения неисправности, замените цепь на новую.</div>
 						</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDN4W2NQCC">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDRBKYKRIR">
 					<div class="title">Смазка</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDGXJHQJXP">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDBMVLUNRE">
 						<div class="para p">Нанесите смазку в зазоры по краям роликов, а также между внутренними и наружными пластинами шарнира для каждого участка цепи.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID22ZP45Q2">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNYVLIAM2">
 						<div class="para p">Выдержите паузу сроком не менее 10 мин. </div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDOKZRVTBG">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDREU3AC1O">
 						<div class="para p">Удалите излишки смазки обтирочной ветошью.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDWXVHHGWH">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDC5ZUSHK2">
 					<div class="title">Заключительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDZKBUA1BO">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDZG1IF5JY">
 						<div class="para p">Установите цепь  <a class="dmRef  link" href="MTPM-A-A1-22-03-00A-922A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-03-00A-922A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDOV4VUVFZ">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDW1E4X4CB">
 						<div class="para p">Выполните функциональные испытания шагового двигателя   каретки <a class="dmRef  link" href="MTPM-A-A1-10-01-00A-340A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="340" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-10-01-00A-340A-A</div>
 								</div></a>.</div>
 					</div>
 				</div>
-				<div class="figure">
+				<div class="figure" id="fig-001">
 					<div class="title">Смазка цепи каретки</div>
-					<a title="Смазка цепи каретки" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDMOJ5AVOA" data-link="link2d" data-src="ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01.cgm">Смазка цепи каретки</a>
+					<a title="Смазка цепи каретки" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01.svg" data-reproductionHeight="102mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDIA13G3SA" data-link="link2d" data-src="ICN-MTPM-A-122101-0-MDMKD-00003-A-001-01.svg">Смазка цепи каретки</a>
 				</div>
 			</div>
-			<div class="closeRqmts" id="closeRqmts_ID5Z0W3B5R">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDVL3ENNXN"><table>
+			<div class="closeRqmts" id="closeRqmts_IDVLGJOCCC">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDFTRFK3IH"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>

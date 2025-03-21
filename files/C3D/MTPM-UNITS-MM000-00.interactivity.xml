@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16 (64-bit)</ExporterVersionNumber>
-<ModificationDate>11/22/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_PM</SpecID>
 <SpecVersion>1.5</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -38,7 +38,7 @@
 <value name="ACT" decl-id="ACT" type="string">
 </value>
 <value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
-<value name="issueDate" decl-id="ISSUE_DATE" type="string">20241121</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20250320</value>
 <value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
 	&lt;displayText&gt;
 		&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
@@ -50,6 +50,7 @@
 </metadata>
 </SimulationInformation>
 <Resources>
+<Picture descr="" flags="1">ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01.svg</Picture>
 </Resources>
 <DocumentTemplate><![CDATA[]]></DocumentTemplate>
 </SimulationInteractivity>

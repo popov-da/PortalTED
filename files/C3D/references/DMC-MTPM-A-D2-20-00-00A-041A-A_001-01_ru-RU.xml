@@ -49,20 +49,40 @@
 <levelledPara>
 <title>Назначение</title>
 <para>
-						Свинцово-кислотные аккумуляторы Delta серии DT предназначены для бесперебойной подачи электропитания на оборудования изделия.</para>
+						Литий-железо-фосфатный аккумуляторы VEKTOR ENERGY серии LFP 51.2-100-3U предназначены для бесперебойной подачи электропитания на оборудования траверсы, а также обеспечивает следующие функции:<randomList>
+<listItem>
+<para>контроль процесса заряда и разряда;</para>
+</listItem>
+<listItem>
+<para>контроль рабочего состояния каждой из ячеек;</para>
+</listItem>
+<listItem>
+<para>контроль температуры;</para>
+</listItem>
+<listItem>
+<para>балансировка ячеек;</para>
+</listItem>
+<listItem>
+<para>защита от короткого замыкания;</para>
+</listItem>
+<listItem>
+<para>защита от обратной полярности.</para>
+</listItem>
+</randomList>
+</para>
 </levelledPara>
 <levelledPara>
 <title>Технические характеристики</title>
-<para>Технические характеристики аккумулятора представлены <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<para>Технические характеристики аккумулятора <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
 <table id="tab-002">
-<title>Технические характеристики шагового двигателя</title>
+<title>Технические характеристики аккумулятора</title>
 <tgroup cols="2" align="center">
 <colspec colnum="1" colname="col1" colwidth="1*"></colspec>
 <colspec colnum="2" colname="col2" colwidth="1*"></colspec>
 <thead>
 <row>
 <entry colname="col1">
-<para>Характеристики</para>
+<para>Наименование параметра</para>
 </entry>
 <entry colname="col2">
 <para>Значения</para>
@@ -72,10 +92,10 @@
 <tbody>
 <row>
 <entry colname="col1">
-<para>Габаритные размеры, мм, не более</para>
+<para>Габаритные размеры (Ш×Г×В), мм, не более</para>
 </entry>
 <entry colname="col2">
-<para>524х240х224</para>
+<para>450х442х130</para>
 </entry>
 </row>
 <row>
@@ -83,15 +103,7 @@
 <para>Масса с электролитом, кг, не более</para>
 </entry>
 <entry colname="col2">
-<para>54</para>
-</entry>
-</row>
-<row>
-<entry colname="col1">
-<para>Тип применяемого электролита</para>
-</entry>
-<entry colname="col2">
-<para>Разбавленная серная кислота, удерживаемая в сепараторе</para>
+<para>43</para>
 </entry>
 </row>
 <row>
@@ -99,55 +111,158 @@
 <para>Номинальное напряжение, В</para>
 </entry>
 <entry colname="col2">
-<para>12</para>
+<para>51.2</para>
 </entry>
 </row>
 <row>
 <entry colname="col1">
-<para>Число элементов, шт.</para>
+<para>Номинальная емкость, Ач</para>
 </entry>
 <entry colname="col2">
-<para>6</para>
+<para>100</para>
 </entry>
 </row>
 <row>
 <entry colname="col1">
-<para>Фланец, мм</para>
+<para>Энергоемкость, Вт·ч</para>
 </entry>
 <entry colname="col2">
-<para>86</para>
+<para>5120</para>
 </entry>
 </row>
 <row>
 <entry colname="col1">
-<para>Диаметр вала, мм</para>
+<para>Внутреннее сопротивление, мОм</para>
 </entry>
 <entry colname="col2">
-<para>14</para>
+<para>≤40</para>
 </entry>
 </row>
 <row>
 <entry colname="col1">
-<para>Тип энкодера</para>
+<para>Количество жизненных циклов
+разряда</para>
 </entry>
 <entry colname="col2">
-<para>	Оптический</para>
+<para>≥5000 циклов при 80% DOD, 35,°С 0.5C</para>
 </entry>
 </row>
 <row>
 <entry colname="col1">
-<para>Номинальный ток, А</para>
+<para>Количество жизненных циклов
+заряда</para>
 </entry>
 <entry colname="col2">
-<para>6</para>
+<para>≥2500 циклов при 100% DOD, 35°С, 0.5C</para>
 </entry>
 </row>
 <row>
 <entry colname="col1">
-<para>Мощность, Вт</para>
+<para>Срок службы, лет</para>
 </entry>
 <entry colname="col2">
-<para>450</para>
+<para>	15</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Саморазряд за месяц</para>
+</entry>
+<entry colname="col2">
+<para>≤2%, при 35°С</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Напряжение отключения заряда, В</para>
+</entry>
+<entry colname="col2">
+<para>58.0±0.5</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Рекомендуемый метод заряда</para>
+</entry>
+<entry colname="col2">
+<para>Заряд постоянным током 0.2C-0.3С до напряжения
+55,0В, затем постоянным напряжением 56,0В и током
+не более 0,05С</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Стандартный ток заряда (может быть ограничен настройками), А</para>
+</entry>
+<entry colname="col2">
+<para>20-50</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Максимальный ток заряда, А</para>
+</entry>
+<entry colname="col2">
+<para>100</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Напряжение отключения заряда, В</para>
+</entry>
+<entry colname="col2">
+<para>58.4</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Непрерывный разрядный ток, А</para>
+</entry>
+<entry colname="col2">
+<para>до 100</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Максимальный (пиковый) ток разряда, А</para>
+</entry>
+<entry colname="col2">
+<para>130</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Напряжение отключения разряда, В</para>
+</entry>
+<entry colname="col2">
+<para>44.8±0.2</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Рабочая температура при заряде</para>
+</entry>
+<entry colname="col2">
+<para>0°C ~ +55°C
+(ниже 0°С дополнительный механизм нагрева)</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Рабочая температура при разряде</para>
+</entry>
+<entry colname="col2">
+<para>-20°С ~ +60°C
+(Ниже 0°С работа с уменьшенной мощностью)</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Температура хранения</para>
+</entry>
+<entry colname="col2">
+<para>0°C ~ +55°C при относительной
+влажности 60% ± 25%</para>
 </entry>
 </row>
 </tbody>
@@ -158,43 +273,87 @@
 <levelledPara>
 <title>Размещение компонентов</title>
 <para>
-<emphasis>Шаговый двигатель</emphasis> размещен на редукторе башни.</para>
+<emphasis></emphasis>Аккумуляторы размещены на основании.</para>
 </levelledPara>
 <levelledPara>
 <title>Описание</title>
 <para>
-<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+<emphasis>(см. рис.1)</emphasis>
 </para>
 <para>
-<emphasis>Шаговый двигатель</emphasis> устанавливается на переходную плиту и крепится к редуктору с помощью винтов. </para>
-<para>Внутри корпуса <emphasis>шагового двигателя</emphasis> расположены шаговый электродвигатель, энкодер и тормозной механизм. Шаговый электродвигатель состоит из статора и ротора, в котором ток подаваемый на обмотку статора, приводит в движение вал ротора.На валу ротора установлены энкодер и тормозной механизм. Энкодер позволяет  отслеживать фактическое положение,
-скорость и направление вала. Тормозной механизм обеспечивает полную остановку
-или удержания вала в заданном положении.</para>
+					Аккумулятор устанавливается на стеллаж с помощью винтов.</para>
+<para>Внутри корпуса АКБ установлено 16 ячеек, которые соединенны последовательно. Каждая ячейка имеет номинальное напряжение 3.2 В, что при использовании 16 ячеек позволяет получить общую емкость в 100 Ач и энергетическую емкость 5120 Вт·ч. </para>
+<para>Для управления аккумулятором используется встроенная система BMS. Она отслеживает уровень напряжения и тока на каждой ячейке, предотвращая их перезаряд и глубокий разряд. Также BMS управляет балансировкой ячеек, обеспечивая равномерную работу всех элементов аккумулятора. В случае перегрева или короткого замыкания система отключает зарядку или разрядку, предотвращая повреждения. BMS также следит за температурой аккумулятора и контролирует все параметры работы для обеспечения безопасности и стабильности в эксплуатации.</para>
+<para>По своему конструктивному исполнению батарея герметична и экологически безопасна,
+неремонтопригодна, снабжена переносными ручками.</para>
+<para>На лицевой стороне расположены положительные и отрицательные винтовые клеммы с защитными колпочками для подключения внешней нагрузки,  а также для подключения зарядной станции. Для управления подачей питания или зарядки на эти клеммы предусмотрен автоматический выключатель (автомат защиты), который автоматически отключает аккумулятор от внешней нагрузки или от зарядной станции в случае перегрузки или короткого замыкания. Для защиты от утечек тока имеется клемма заземления. Кроме того, для интеграции с внешними системами мониторинга и управления, на лицевой панели имеются разъемы CAN, RS232, RS485 и DO. Эти разъемы позволяют подключать аккумулятор к различным контроллерам и системам для передачи данных и мониторинга работы устройства в реальном времени. Для присвоения адреса каждому  аккумулятору в системе управления предусмотрены джамперы, которые позволяют соединять в сеть до 15 аккумуляторов со своими присвоенными адресами. Так же имеется светодиодная индикация
+уровня заряда батареи, которая отражает оставшийся уровень заряда АКБ. Рядом с ним расположены  светодиодные индикаторы ALM (красного цвета) и  RUN (зеленого цвета). Светодиодный индикатор ALM может мигать при предпосылке к аварии (предупреждениях) или гореть непрерывно при аварии. При стабильной работе индикатор не горит. Светодиодный индикатор
+RUN мигает зеленым цветом при стабильной работе или при зарядке от внешнего источника питания. Дополнительно, на панели размещен жидкокристаллический дисплей (ЖК-дисплей), который предоставляет подробную информацию о состоянии системы, включая данные о напряжении, токе, температуре и других рабочих параметрах. ЖК-дисплей автоматически отключается после 1 минуты простоя.
+Активируется при нажатии одной из кнопок на панели ЖК-дисплея. </para>
+<para>Для включения, выключения и перезагрузки аккумулятора предусмотрена утопленная кнопка RST, которая работает по следующему принципу 	<internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>. </para>
+<table id="tab-001">
+<title>Функции кнопки RST</title>
+<tgroup cols="3" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<colspec colname="col3" colnum="3" colwidth="1.50*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Режим</para>
+</entry>
+<entry colname="col3">
+<para>Примечание</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" morerows="2" align="center" valign="middle">
+<para>Функции
+кнопки
+RST</para>
+</entry>
+<entry colname="col2">
+<para>Start-up («Запуск»)</para>
+</entry>
+<entry colname="col3">
+<para>В выключенном соcтоянии BMS нажать и
+удерживать 3 секунды</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>Shutdown («Остановка»)</para>
+</entry>
+<entry colname="col3">
+<para>Во включённом состоянии BMS нажать и
+удерживать 5 секунд</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>Reset («Перезагрузка»)</para>
+</entry>
+<entry colname="col3">
+<para>Во включённом состоянии BMS нажать и
+удерживать 10 секунд, пока не включатся все
+индикаторы</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Так же имеется возможность включить и выключить BMS аккумулятора с помощью кнопки со встроенной подсветкой.</para>
 </levelledPara>
 <levelledPara>
 <title>Работа</title>
 <para>
 <emphasis>(см. рис.2)</emphasis>
 </para>
-<para>Работа шагового двигателя осуществляется в соответствии с функциональной схемой </para>
-<para>
-<?xm-replace_text Type new para here ?>
-</para>
-<para>Управление шаговым двигателем осуществляется с помощью серводрайвера, расположенного в распределительном устройстве №1. Контроллер задает последовательность импульсов для серводрайвера по протоколу EtherCAT. Серводрайвер принимает импульсы и преобразует их в электрический ток, подаваемый на обмотки двигателя. Вал двигателя через редуктор передвигает башню на заданное расстояние. При этом по обратной связи через энкодер двигателя контроллер проверяет фактическое положение перемещения вала двигателя относительно запланированного.</para>
-<para>Когда требуется остановить двигатель или предотвратить его непреднамеренное вращение, активируется тормозной механизм, установленный на валу двигателя. Контроллер через сервопривод подает команду на активацию тормоза.</para>
-<figure id="fig-001">
-<title>Шаговый двигатель MP3-86TZ150</title>
-<graphic infoEntityIdent="ICN-MTPM-A-A11002-A-MDMKD-00001-A-001-01" xlink:href="" reproductionHeight="210mm" reproductionWidth="170mm" xlink:type="simple">
-<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_011" applicationStructureName="ВИНТ х4" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="ЭЛЕКТРИЧЕСКИЙ СОЕДИНИТЕЛЬ" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_001" applicationStructureName="ШАГОВЫЙ ДВИГАТЕЛЬ MP3-86TZ150" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_007" applicationStructureName="ПЕРЕХОДНАЯ ПЛИТА" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_006" applicationStructureName="КЛЕММНАЯ КОЛОДКА" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_027" applicationStructureName="ВАЛ" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_005" applicationStructureName="ШПОНКА" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_002" applicationStructureName="РЕДУКТОР" hotspotTitle=""></hotspot>
-</graphic>
-</figure>
 </levelledPara>
 </description>
 </content>

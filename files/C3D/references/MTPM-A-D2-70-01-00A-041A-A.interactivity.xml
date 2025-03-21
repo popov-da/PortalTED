@@ -303,7 +303,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_ID0EWQQTDT">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01.cgm" title="Распределительное устройство № 1 с оборудованием "></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01.svg" title="Распределительное устройство № 1 с оборудованием "></a>
 				</div>
 				<div class="para p">РУ №1 
 представляет собой шкаф с двумя кронштейнами, внутри которого размещены силовое и коммутационное оборудование.</div>
@@ -471,13 +471,13 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Распределительное устройство № 1 с оборудованием </div>
-				<a title="Распределительное устройство № 1 с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01.cgm">Распределительное устройство № 1 с оборудованием </a>
-				<a title="Распределительное устройство № 1 с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01.cgm">Распределительное устройство № 1 с оборудованием </a>
+				<a title="Распределительное устройство № 1 с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27001-A-MDMKD-00004-A-001-01.svg">Распределительное устройство № 1 с оборудованием </a>
+				<a title="Распределительное устройство № 1 с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27001-0-MDMKD-00003-A-001-01.svg">Распределительное устройство № 1 с оборудованием </a>
 			</div>
 			<div class="levelledPara level1 link" id="levelledPara_IDXDU20YQC">
 				<div class="title">Работа</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01.cgm" title="Функциональная схема распределительного устройства № 1"></a>
+					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01.svg" title="Функциональная схема распределительного устройства № 1"></a>
 				</div>
 				<div class="para p">При включении выключателя нагрузки силовое питание 12 В поступает с каждого РУ АКБ, проходя через распределительный шкаф (РШ) и подается на соответствующий клеммный блок.  Когда на каждом клеммном блоке появляется силовое питание 12 В, загорается одноименный индикатор питания линии АКБ, сигнализируя о наличии напряжения. Далее силовое питание 12 В, проходя каждый через свой автомат защиты, подается на соответствующий преобразователь 12 В / 24 В. После преобразования напряжения, силовое питание 24 В, поступившее с одного РУ АКБ, распределяется на вентиляторы с термостатом, реле управления тормозами и преобразователь 24 В / 48 В. С другого РУ АКБ силовое питание 24 В поступает только на свой преобразователь 24 В / 48 В. Силовой сигнал 48 В, поступающий от каждого преобразователя, проходит через свой контактор и подается на общий клеммный блок, откуда распределяется на каждый шаговый серводрайвер.</div>
 				<div class="para p">Силовое питание 24 В поступает с преобразователя 12 В / 24 В, расположенного в РУ № 2, на клеммный блок. От клеммного блока оно распределяется на все СК и на КАО. При срабатывании любого СК дискретный сигнал 24 В от него передается в модуль дискретного ввода PLC, расположенный в РУ № 2.</div>
@@ -525,7 +525,7 @@
 				</div>
 				<div class="figure" id="fig-002">
 					<div class="title">Функциональная схема распределительного устройства № 1</div>
-					<a title="Функциональная схема распределительного устройства № 1" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01" data-href="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDHRZ4N2TN" data-link="link2d" data-src="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01.cgm">Функциональная схема распределительного устройства № 1</a>
+					<a title="Функциональная схема распределительного устройства № 1" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01" data-href="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDHRZ4N2TN" data-link="link2d" data-src="ICN-MTPM-A-D27001-0-MDMKD-00005-A-001-01.svg">Функциональная схема распределительного устройства № 1</a>
 				</div>
 			</div>
 		</div>

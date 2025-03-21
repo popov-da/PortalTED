@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/21/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -117,14 +117,14 @@
 		</div>
 	</div>
 	<div class="content">
-		<div class="description levels" id="description_IDULHN51O4">
-			<div class="levelledPara level1 link" id="levelledPara_IDXAVG1O35">
+		<div class="description levels" id="description_IDP4JF21HP">
+			<div class="levelledPara level1 link" id="levelledPara_IDXP33DQWM">
 				<div class="title">Назначение</div>
 				<div class="para p">Линейная траверса  (далее — траверса) предназначена для подъема, опускания, перемещения и других такелажных работ массой до 10 т с помощью подъемного устройства в установленных условиях эксплуатации.</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDUFFVWNBF">
+			<div class="levelledPara level1 link" id="levelledPara_IDCT0JK5TI">
 				<div class="title">Состав</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDXOM0K5PO">
+				<div class="levelledPara level2 link" id="levelledPara_IDTWPOH5KL">
 					<div class="title">Состав документа</div>
 					<div class="para p">В состав руководства по технической эксплуатации траверсы входят следующие разделы:<div class="randomList list  ul">
 							<div class="listItem li">
@@ -217,7 +217,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDJXVFJVFR">
+			<div class="levelledPara level1 link" id="levelledPara_IDFBECH2CF">
 				<div class="title">Технические характеристики</div>
 				<div class="para p">Основные технические характеристики траверсы  <a class="internalRef irtt02 link" data-index="1" href="#tab-001" title=""></a>.</div>
 				<div class="table" data-frame="all" id="tab-001"><div class="table-contents">
@@ -256,16 +256,16 @@
 									<div class="para p">3540 ± 5</div>
 								</td></tr></tbody></table>
 				</div></div><br class="table-break">
-				<div class="levelledPara level2 link" id="levelledPara_IDLPWS05JV">
+				<div class="levelledPara level2 link" id="levelledPara_IDQVKHF5TJ">
 					<div class="title">Эксплуатационные ограничения</div>
 					<div class="para p">Траверса эксплуатируется во всех климатических условиях в диапазоне температур от
 минус 50 °С до плюс 50 °С и при относительной влажности воздуха не более 98 %.</div>
 				</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDWF2FNAIA">
+			<div class="levelledPara level1 link" id="levelledPara_IDV2ULPAJT">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-000000-A-MDMKD-00001-A-001-01.cgm" title="Линейная траверса"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-000000-A-MDMKD-00001-A-001-01.svg" title="Линейная траверса"></a>
 				</div>
 				<div class="para p">Траверса обеспечивает:<div class="randomList list  ul">
 						<div class="listItem li">
@@ -292,7 +292,7 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Линейная траверса</div>
-				<a title="Линейная траверса" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-000000-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-000000-A-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDIPMBVZQ1" data-link="link2d" data-src="ICN-MTPM-A-000000-A-MDMKD-00001-A-001-01.cgm">Линейная траверса</a>
+				<a title="Линейная траверса" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-000000-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-000000-A-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDXKIOQ3HL" data-link="link2d" data-src="ICN-MTPM-A-000000-A-MDMKD-00001-A-001-01.svg">Линейная траверса</a>
 			</div>
 		</div>
 	</div>

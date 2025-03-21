@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg SYSTEM "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY % SVG.External.attrib
+"xmlns:vm2d CDATA #FIXED 'http://www.cortona3d.com/vm2d'
+vm2d:name CDATA #IMPLIED
+vm2d:type CDATA #IMPLIED">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="170mm" height="102mm" viewBox="0 0 643 386" fill="none" fill-rule="evenodd" stroke-miterlimit="5">
+  <title>Untitled</title>
+  <desc>"Generator:ParallelGraphics Cortona2D","ProfileId:WebCGM""ProfileEd:2.1""ColourClass:colour""Source:Cortona2D Editor Pro 14.2.0.142""Date:20241223"</desc>
+  <rect width="643" height="386" fill="#fff"/>
+  <defs/>
+  <g id="C3DB0001" vm2d:name="Background" vm2d:type="layer"/>
+  <g id="AUTOID_008" vm2d:name="Схема" vm2d:type="layer">
+    <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" d="M75.018,-120 L140.02,-120 140.02,-93.827 75.018,-93.827 Z"/>
+      <text font-family="Arial" font-size="2.86" x="87.222" y="-51.2965" fill="#000">ДИСКРЕТНЫЙ СИГНАЛ 48 В</text>
+      <text font-family="Arial" font-size="2.86" x="89.5409" y="-41.3267" fill="#000">МЕХАНИЧЕСКАЯ СВЯЗЬ</text>
+      <path fill="#00f" stroke="#000" d="M100.79,-40.446 L98.111,-37.946 100.79,-35.446 100.79,-36.696 112.43,-36.696 112.43,-35.446 115.11,-37.946 112.43,-40.446 112.43,-39.196 100.79,-39.196 Z"/>
+      <path stroke="#000" d="M87.222,-78.827 L127.22,-78.827 127.22,-63.827 87.222,-63.827 Z"/>
+    </g>
+    <g id="AUTOID_001" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)">
+        <text font-family="Arial" font-size="3.21" x="97.0668" y="-71.7606" fill="#000">ТОРМОЗНОЙ</text>
+        <text font-family="Arial" font-size="3.21" x="98.1303" y="-68.1096" fill="#000">МЕХАНИЗМ</text>
+      </g>
+    </g>
+    <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path fill="#00f" stroke="#000" d="M109.72,-91.119 L107.22,-93.827 104.72,-91.119 105.97,-91.119 105.97,-81.507 104.72,-81.507 107.22,-78.827 109.72,-81.507 108.47,-81.507 108.47,-91.119 Z"/>
+      <path stroke="#000" d="M-19.982,-120 L30.018,-120 30.018,-63.827 -19.982,-63.827 Z"/>
+    </g>
+    <g id="AUTOID_003" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)">
+        <text font-family="Arial" font-size="3.21" x="-11.0539" y="-92.3685" fill="#000">ШАГОВЫЙ ДРАЙВЕР</text>
+        <text font-family="Arial" font-size="3.21" x="-2.79326" y="-88.6751" fill="#000">ТОРМОЗА</text>
+      </g>
+    </g>
+    <g id="AUTOID_002" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)">
+        <text font-family="Arial" font-size="3.21" x="89.7583" y="-107.368" fill="#000">ШАГОВЫЙ ДВИГАТЕЛЬ</text>
+        <text font-family="Arial" font-size="3.21" x="99.7067" y="-103.675" fill="#000">ТОРМОЗА</text>
+      </g>
+    </g>
+    <g id="WRAP_001" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M30.468,-107.5 L71.318,-107.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M71.018,-106.7 L75.018,-107.5 71.018,-108.3 Z"/>
+        <path stroke="#000" stroke-width="0.6" stroke-dasharray="3,1" d="M30.018,-107.5 L71.318,-107.5"/>
+        <path fill="#000" d="M71.018,-106.7 L75.018,-107.5 71.018,-108.3 Z"/>
+      </g>
+    </g>
+  </g>
+  <g id="C3DG0001" vm2d:name="Drawing" vm2d:type="layer"/>
+  <g id="C3DA0001" vm2d:name="Axials" vm2d:type="layer"/>
+  <g id="C3DC0001" vm2d:name="Callouts" vm2d:type="layer"/>
+  <g id="C3DP0001" vm2d:name="Panels" vm2d:type="layer"/>
+  <g id="WRAP_002" vm2d:name="" vm2d:type="grnode">
+    <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#fff" d="M97.95,-48 L113.8,-48"/>
+      <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M113.5,-47.201 L117.5,-48 113.5,-48.799 Z"/>
+      <path stroke="#000" stroke-width="0.6" stroke-dasharray="3,1" d="M97.5,-48 L113.8,-48"/>
+      <path fill="#000" d="M113.5,-47.201 L117.5,-48 113.5,-48.799 Z"/>
+    </g>
+  </g>
+</svg>

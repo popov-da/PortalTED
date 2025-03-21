@@ -186,7 +186,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDHVSKHO1U">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-201200-0-MDMKD-00002-A-001-01.cgm" title="Элементы скольжения"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-201200-0-MDMKD-00002-A-001-01.svg" title="Элементы скольжения"></a>
 				</div>
 				<div class="para p">Все элементы скольжения имеют схожую конструкцию за исключением габаритного размера ширины и геометрических размеров технологического углубления на рабочей поверхности. </div>
 				<div class="para p">На каждой каретке установлены 4 элемента скольжения и 2 боковых элемента скольжения. На каждой опоре башни установлены один элемент скольжения и один боковой элемент скольжения.   Посадочные места для элементов скольжения обеспечивают специальные проставки под стопор. Каждый элемент скольжения устанавливается между проставок и фиксируется сверху с
@@ -196,8 +196,8 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Элементы скольжения</div>
-				<a title="Элементы скольжения" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-201200-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-201200-0-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-201200-0-MDMKD-00002-A-001-01.cgm">Элементы скольжения</a>
-				<a title="Элементы скольжения" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-201200-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-201200-0-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-201200-0-MDMKD-00003-A-001-01.cgm">Элементы скольжения</a>
+				<a title="Элементы скольжения" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-201200-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-201200-0-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-201200-0-MDMKD-00002-A-001-01.svg">Элементы скольжения</a>
+				<a title="Элементы скольжения" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-201200-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-201200-0-MDMKD-00003-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-201200-0-MDMKD-00003-A-001-01.svg">Элементы скольжения</a>
 			</div>
 		</div>
 	</div>

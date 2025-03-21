@@ -158,7 +158,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDELUKELRV">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01.cgm" title="Вентиляционная решетка"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01.svg" title="Вентиляционная решетка"></a>
 				</div>
 				<div class="para p">Вентиляционная решетка представляет собой сборную конструкцию из корпуса фильтра, фильтра и внешней защитной решетки. Общая степень защиты вентиляционной решетки – IP54.</div>
 				<div class="levelledPara level2 link" id="levelledPara_IDXAFUQBW5">
@@ -180,8 +180,8 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Вентиляционная решетка</div>
-				<a title="Вентиляционная решетка" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01.cgm">Вентиляционная решетка</a>
-				<a title="Вентиляционная решетка" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01.cgm">Вентиляционная решетка</a>
+				<a title="Вентиляционная решетка" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-J14200-0-MDMKD-00001-A-001-01.svg">Вентиляционная решетка</a>
+				<a title="Вентиляционная решетка" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-J14200-0-MDMKD-00002-A-001-01.svg">Вентиляционная решетка</a>
 			</div>
 		</div>
 	</div>

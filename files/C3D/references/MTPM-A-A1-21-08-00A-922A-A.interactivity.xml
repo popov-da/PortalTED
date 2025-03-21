@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/21/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -69,7 +69,7 @@
 </metadata>
 </SimulationInformation>
 <Resources>
-<Picture descr="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01" flags="33">ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg</Picture>
+<Picture descr="Демонтаж и монтаж натяжителя цепи башни" flags="33">ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg</Picture>
 </Resources>
 <DocumentTemplate><![CDATA[<div class="dmodule">
 	<div class="identAndStatusSection link" data-link="toggleStatus">
@@ -117,8 +117,8 @@
 	</div>
 	<div class="content">
 		<div class="procedure">
-			<div class="preliminaryRqmts" id="preliminaryRqmts_IDEDLMFFRA">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDCA5ZX4PQ"><table>
+			<div class="preliminaryRqmts" id="preliminaryRqmts_ID4EREVR3C">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDFD4OU0ET"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -134,7 +134,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDKZNKI1PY"><table>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDOVOB1QVH"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -152,7 +152,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDVLNNRMLS"><table>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDNAGLGJDA"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -198,7 +198,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDM5UBFG0W"><table>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDCMZM4NFI"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -227,88 +227,99 @@
 				</div>
 			</div>
 			<div>
-<div class="mainProcedure" id="mainProcedure_IDZ1T0YAZW">
+<div class="mainProcedure" id="mainProcedure_ID2CDL1FCE">
 </div>
 </div>
 <div class="Procedure levels" id="">
-				<div class="proceduralStep level1 link" id="proceduralStep_IDTM4MC5MK">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDJVBXEH1A">
 					<div class="title">Подготовительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDMVYLXYLZ">
+					<div class="proceduralStep level2 link" id="proceduralStep_ID2KZZLRZW">
 						<div class="para p">Выполните спуск траверсы <a class="dmRef  link" href="MTPM-A-07-10-00-00A-176A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="176" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="07" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-07-10-00-00A-176A-A</div>
 								</div></a>.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDXN5SCIBV">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDDY0B2AK5">
 					<div class="title">Демонтаж</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDGMHMX4SD">
-						<div class="para p">Отверните гайку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="2"></a> от натяжителя <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDDGLVSXOJ">
+						<div class="para p">Отверните гайку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="2"></a> от натяжителя <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> цепи башни.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDIDMJZ2YV">
-						<div class="para p">Отвените болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDOVUPBEMV">
+						<div class="para p">Отвените болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID5IFHJZZ5">
-						<div class="para p">Снимите натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID4DIYIOQJ">
+						<div class="para p">Выведите натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> цепи башни с цепью.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDPIXTFW2A">
-						<div class="para p">Отверните и снимите гайку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="2"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID3XAKRAPN">
+						<div class="para p">Отверните и снимите гайку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="2"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDNZ4H2F2U">
-						<div class="para p">Снимите болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a>, шайбу <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="3"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDYXTCYVE1">
+						<div class="para p">Снимите болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a>, шайбу <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="3"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID51SIKIHY">
-						<div class="para p">Демонтируйте цепь <a class="dmRef  link" href="MTPM-A-A1-22-03-00A-922A-A.htm"><div class="dmRefIdent">
-									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-03-00A-922A-A</div>
-								</div></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDJJJ5JCQA">
+						<div class="para p">Снимите шплинты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="5"></a> с соединительного звена <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="8"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDFTPS3F2O">
+						<div class="para p">Выведите соединительное звено <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="8"></a> из  натяжителя <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> цепи башни, пластин <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="6"></a> и цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="7"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNILATU2B">
+						<div class="para p">Снимите натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a>.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDDIM1TL4T">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDQMHKSRWB">
 					<div class="title">Осмотр перед монтажом</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID35RGQIO1">
-						<div class="para p">Осмотрите натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> на отсутствие сколов, трещин, вмятин  и загрязнений.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDPMGCRKPD">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDQJTBVXYC">
+						<div class="para p">Осмотрите натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> цепи башни на отсутствие сколов, трещин, вмятин  и загрязнений.</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDSPG4DNHO">
 							<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</div>
 						</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDUB2H2SDF">
-							<div class="para p"> При наличии повреждений замените натяжитель на новый.</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDVFEJ32LI">
+							<div class="para p"> При наличии повреждений замените натяжитель цепи башни на новый.</div>
 						</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_ID0IZAOHVF">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDSFMQODZZ">
 					<div class="title">Монтаж</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDVLVQMUUX">
-						<div class="para p">Установите цепь  <a class="dmRef  link" href="MTPM-A-A1-22-03-00A-922A-A.htm"><div class="dmRefIdent">
-									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-03-00A-922A-A</div>
-								</div></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDEREG52BG">
+						<div class="para p">Совместите отверстия  цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="7"></a>, пластин <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="6"></a> и натяжителя <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> цепи башни.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID53CAB4YI">
-						<div class="para p">Установите шайбу <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="3"></a>, болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a> в отверстие кронштейна.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDIF1W0SZS">
+						<div class="para p">Установите соединительное звено <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="8"></a> в отверстие цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="7"></a>, пластин <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="6"></a> и натяжителя <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> цепи башни.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDEIDZR01B">
-						<div class="para p">Установите и заверните гайку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="2"></a> на болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID1CJZ30FG">
+						<div class="para p">Установите шплинты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="5"></a> в соединительное звено <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="8"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDN5VVMLDZ">
-						<div class="para p">Установите натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID2E5U2YXQ">
+						<div class="para p">Уложите  натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> цепи башни и цепь <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="7"></a> в лоток.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDQCJQBNYI">
-						<div class="para p">Заверните болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a> в натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDVRNP2GO0">
+						<div class="para p">Установите шайбу <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="3"></a>, болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a> в отверстие кронштейна.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID4CRMTTOI">
-						<div class="para p">Заверните  и зафиксируйте гайкой <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="2"></a> натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a>
-						</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDSB5YDDCG">
+						<div class="para p">Установите и заверните гайку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="2"></a> на болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDDPT0LDRZ">
+						<div class="para p">Установите натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> цепи башни.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDDD0EJI5Q">
+						<div class="para p">Заверните болт <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="4"></a> в натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a> цепи башни.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNXDQMS4P">
+						<div class="para p">Заверните  и зафиксируйте гайкой <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="2"></a> натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-title="Демонтаж и монтаж натяжителя цепи  башни" title="1"></a>
+						цепи башни.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDZU3MA4BC">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDRIREVM2Z">
 					<div class="title">Заключительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDAIFT2SZS">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDOLX3WGNT">
 						<div class="para p">Произведите регулировку цепи  <a class="dmRef  link" href="MTPM-A-A1-22-03-00A-271A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="271" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-03-00A-271A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDPTWELBLL">
+					<div class="proceduralStep level2 link" id="proceduralStep_ID2JXLZKFD">
 						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDTBNQOCDI">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDYFB3OJEB">
 						<div class="para p">Произведите функциональные испытания  <a class="dmRef  link" href="MTPM-A-A1-10-02-00A-340A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="340" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="02" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-10-02-00A-340A-A</div>
 								</div></a>.</div>
@@ -316,11 +327,11 @@
 				</div>
 				<div class="figure" id="fig-001">
 					<div class="title">Демонтаж и монтаж натяжителя цепи  башни</div>
-					<a title="Демонтаж и монтаж натяжителя цепи  башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm">Демонтаж и монтаж натяжителя цепи  башни</a>
+					<a title="Демонтаж и монтаж натяжителя цепи  башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg">Демонтаж и монтаж натяжителя цепи  башни</a>
 				</div>
 			</div>
-			<div class="closeRqmts" id="closeRqmts_IDE4IJMPAG">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_ID2GYVXFBT"><table>
+			<div class="closeRqmts" id="closeRqmts_IDSKI0UFYK">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDRBLNB1DF"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>

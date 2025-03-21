@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0"?>
 <!DOCTYPE dmodule [
-<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01 SYSTEM "ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.cgm" NDATA cgm>
-<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01 SYSTEM "ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01 SYSTEM "ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
 ]>
 <dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
 <identAndStatusSection>
@@ -223,7 +223,7 @@
 </levelledPara>
 <figure id="fig-001">
 <title>Система перемещения кареток</title>
-<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00007-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
 <hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="ДЕРЖАТЕЛЬ"></hotspot>
 <hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_004" applicationStructureName="НАТЯЖИТЕЛЬ"></hotspot>
 <hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_009" applicationStructureName="НАТЯЖИТЕЛЬ  ЦЕПИ КАРЕТКИ"></hotspot>
@@ -235,7 +235,7 @@
 <hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_013" applicationStructureName="КРОНШТЕЙН  ВАЛА ВЕДОМОЙ ЗВЕЗДОЧКИ"></hotspot>
 <hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_057" applicationStructureName="КРОНШТЕЙН ВАЛА ВЕДУЩЕЙ ЗВЕЗДОЧКИ"></hotspot>
 </graphic>
-<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00008-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
 <hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_070" applicationStructureName="НАТЯЖИТЕЛЬ"></hotspot>
 <hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_071" applicationStructureName="НАТЯЖИТЕЛЬ  ЦЕПИ КАРЕТКИ"></hotspot>
 <hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_072" applicationStructureName="РЕГУЛИРОВОЧНАЯ ШПИЛЬКА"></hotspot>
@@ -245,7 +245,7 @@
 <hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_005" applicationStructureName="КРОНШТЕЙН  УСТАНОВКИ РЕДУКТОРА"></hotspot>
 <hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_007" applicationStructureName="ПЕРЕХОДНАЯ ПЛАСТИНА"></hotspot>
 </graphic>
-<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-003">
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00009-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-003">
 <hotspot id="fig-001-gra-003-hot-001" applicationStructureIdent="AUTOID_009" applicationStructureName="СТОПОРНОЕ КОЛЬЦО"></hotspot>
 <hotspot id="fig-001-gra-003-hot-002" applicationStructureIdent="AUTOID_052" applicationStructureName="ВЕДУЩАЯ ЗВЕЗДОЧКА"></hotspot>
 <hotspot id="fig-001-gra-003-hot-003" applicationStructureIdent="AUTOID_032" applicationStructureName="ОСНОВАНИЕ"></hotspot>
@@ -259,7 +259,7 @@
 <hotspot id="fig-001-gra-003-hot-011" applicationStructureIdent="AUTOID_030" applicationStructureName="ПЕРЕМЫЧКА"></hotspot>
 <hotspot id="fig-001-gra-003-hot-012" applicationStructureIdent="AUTOID_056" applicationStructureName="ВАЛ ВЕДУЩЕЙ ЗВЕЗДОЧКИ"></hotspot>
 </graphic>
-<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-004">
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01" xlink:href="ICN-MTPM-A-A12200-A-MDMKD-00010-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-004">
 <hotspot id="fig-001-gra-004-hot-001" applicationStructureIdent="AUTOID_003" applicationStructureName="ВЕДОМАЯ ЗВЕЗДОЧКА"></hotspot>
 <hotspot id="fig-001-gra-004-hot-002" applicationStructureIdent="AUTOID_038" applicationStructureName="ШПОНКА"></hotspot>
 <hotspot id="fig-001-gra-004-hot-003" applicationStructureIdent="AUTOID_019" applicationStructureName="ВТУЛКА ПОД ПОДШИПНИК"></hotspot>
@@ -297,7 +297,7 @@
 оператора по шине Ethernet через неуправляемый коммутатор.</para>
 <figure id="fig-002">
 <title>Функциональная схема системы перемещения каретки</title>
-<graphic infoEntityIdent="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01" xlink:href="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01" xlink:href="ICN-MTPM-A-A12200-0-MDMKD-00006-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
 </figure>
 </levelledPara>
 </description>

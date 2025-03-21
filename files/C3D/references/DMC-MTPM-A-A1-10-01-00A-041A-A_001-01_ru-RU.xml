@@ -1,0 +1,194 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-A11001-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-A11001-A-MDMKD-00001-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-A11001-A-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-A11001-A-MDMKD-00002-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="1" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="12" day="23"></issueDate>
+<dmTitle>
+<techName>Шаговый двигатель каретки</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+						Шаговый двигатель каретки предназначен для перемещения каретки на заданное растояние.</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики шагового двигателя каретки <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики шагового двигателя каретки</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>131×86×86</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>3.05</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Тип двигателя</para>
+</entry>
+<entry colname="col2">
+<para>Гибридный биполярный шаговый двигатель</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Момент удержания, Н·м</para>
+</entry>
+<entry colname="col2">
+<para>6.0</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Угловой шаг</para>
+</entry>
+<entry colname="col2">
+<para>1.8°</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Фланец, мм</para>
+</entry>
+<entry colname="col2">
+<para>86×86</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диаметр вала, мм</para>
+</entry>
+<entry colname="col2">
+<para>14</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Номинальный ток, А</para>
+</entry>
+<entry colname="col2">
+<para>5.6</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Мощность, Вт</para>
+</entry>
+<entry colname="col2">
+<para>270</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+					Шаговый двигатель каретки размещен на редукторе каретки.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>На траверсе предусмотрено два шаговых двигателя каретки, которые зеркально
+расположены относительно центра траверсы.</para>
+<para>
+					Шаговый двигатель каретки устанавливается валом в отверстие редуктора и фиксируется шпоночным соединением. Снаружи шаговый двигатель каретки
+крепится фланцем к корпусу редуктора через  переходную плиту с использованием винтового
+соединения.</para>
+<para>Шаговый двигатель состоит из статора и ротора. При подаче тока на обмотки статора возникает магнитное поле, которое вызывает вращение ротора и его вала.</para>
+<figure id="fig-001">
+<title>Шаговый двигатель каретки</title>
+<graphic infoEntityIdent="ICN-MTPM-A-A11001-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-A11001-A-MDMKD-00001-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_019" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_014" applicationStructureName="ЭЛЕКТРИЧЕСКИЙ СОЕДИНИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="РЕДУКТОР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_004" applicationStructureName="ШАГОВЫЙ ДВИГАТЕЛЬ КАРЕТКИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_021" applicationStructureName="КЛЕММНАЯ КОЛОДКА"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>Управление шаговым двигателем каретки осуществляется через шаговый драйвер каретки (ШДК). ШДК получает управляющий сигнал от контроллера, преобразует его в выходные дискретные сигналы напряжением 48 В, которые подаются на обмотки статора шагового двигателя. Каждый сигнал активирует соответствующую обмотку, создавая магнитное поле, которое приводит в движение ротор, обеспечивая его вращение в соответствии с направлением изменяющегося магнитного поля.</para>
+<figure id="fig-002">
+<title>Функциональная схема шагового двигателя каретки</title>
+<graphic infoEntityIdent="ICN-MTPM-A-A11001-A-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-A11001-A-MDMKD-00002-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

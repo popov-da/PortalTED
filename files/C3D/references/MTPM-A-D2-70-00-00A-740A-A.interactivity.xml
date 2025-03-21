@@ -212,16 +212,16 @@
 				<div class="proceduralStep level1 link" id="proceduralStep_IDBQ1LQKPX">
 					<div class="title">Закрытие доступа</div>
 					<div class="proceduralStep level2 link" id="proceduralStep_ID0CJCVKDJ">
-						<div class="para p">Закройте дверцу <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.cgm" data-title="Закрытие доступа" title="1"></a> шкафа.</div>
+						<div class="para p">Закройте дверцу <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.svg" data-title="Закрытие доступа" title="1"></a> шкафа.</div>
 					</div>
 					<div class="proceduralStep level2 link" id="proceduralStep_IDUVLIS5MP">
-						<div class="para p">Установите ключ в замок <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.cgm" data-title="Закрытие доступа" title="2"></a>.</div>
+						<div class="para p">Установите ключ в замок <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.svg" data-title="Закрытие доступа" title="2"></a>.</div>
 					</div>
 					<div class="proceduralStep level2 link" id="proceduralStep_IDKTJAKC3I">
-						<div class="para p">Поверните ключ в замке <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.cgm" data-title="Закрытие доступа" title="2"></a> на четверть оборота по часовой стрелке.</div>
+						<div class="para p">Поверните ключ в замке <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.svg" data-title="Закрытие доступа" title="2"></a> на четверть оборота по часовой стрелке.</div>
 					</div>
 					<div class="proceduralStep level2 link" id="proceduralStep_ID2A0RJ53Y">
-						<div class="para p">Извлеките ключ из замка <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.cgm" data-title="Закрытие доступа" title="2"></a>.</div>
+						<div class="para p">Извлеките ключ из замка <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.svg" data-title="Закрытие доступа" title="2"></a>.</div>
 					</div>
 					<div class="proceduralStep level2 link" id="proceduralStep_IDL4FCPM0O">
 						<div class="para p">Повторите вышеуказанные операции для второго замка.</div>
@@ -229,7 +229,7 @@
 				</div>
 				<div class="figure" id="fig-001">
 					<div class="title">Закрытие доступа</div>
-					<a title="Закрытие доступа" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.cgm">Закрытие доступа</a>
+					<a title="Закрытие доступа" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-D27000-0-MDMKD-00001-A-001-01.svg">Закрытие доступа</a>
 				</div>
 			</div>
 			<div class="closeRqmts" id="closeRqmts_IDUN21PX4F">

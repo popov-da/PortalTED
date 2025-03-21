@@ -1,0 +1,498 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-201100-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-201100-0-MDMKD-00001-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201100-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-201100-0-MDMKD-00002-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201100-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-201100-0-MDMKD-00003-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201100-0-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-201100-0-MDMKD-00004-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201100-0-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-201100-0-MDMKD-00005-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201100-0-MDMKD-00006-A-001-01 SYSTEM "ICN-MTPM-A-201100-0-MDMKD-00006-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201101-0-MDMKD-00007-A-001-01 SYSTEM "ICN-MTPM-A-201101-0-MDMKD-00007-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201100-0-MDMKD-00010-A-001-01 SYSTEM "ICN-MTPM-A-201100-0-MDMKD-00010-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201100-0-MDMKD-00009-A-001-01 SYSTEM "ICN-MTPM-A-201100-0-MDMKD-00009-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="1" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="11" day="25"></issueDate>
+<dmTitle>
+<techName>Электрооборудование</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>В данном разделе представлена информация о разъемах, проводах, кабелях и электрооборудовании, устанавливаемых на изделиях, а также о методах их крепления и обслуживания в условиях эксплуатации.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В данный раздел входят следующие элементы:<randomList>
+<listItem>
+<para>разъем с контактными вставками;</para>
+</listItem>
+<listItem>
+<para>цилиндрический разъем М12;</para>
+</listItem>
+<listItem>
+<para>разъем D-sub;</para>
+</listItem>
+<listItem>
+<para>разъем SMA;</para>
+</listItem>
+<listItem>
+<para>разъем RJ45;</para>
+</listItem>
+<listItem>
+<para>разъем электрический с 4 контактами и защелкой;</para>
+</listItem>
+<listItem>
+<para>винтовые клеммники;</para>
+</listItem>
+<listItem>
+<para>пружинные клеммники;</para>
+</listItem>
+<listItem>
+<para>оборудование с защелками;</para>
+</listItem>
+<listItem>
+<para>соединение клеммной коробки.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<levelledPara>
+<title>Разъем с контактными вставками</title>
+<para>
+<internalRef internalRefId="fig-006" internalRefTargetType="irtt01" xlink:href="#fig-006"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Разъем с контактными вставками — это электрический соединитель, предназначенный для подключения проводников с помощью контактных вставок, расположенных внутри корпуса разъема.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Разъем с контактными вставками состоит из корпуса и контактной вставки, а также может быть дополнительно оборудован кабельными вводами.</para>
+<levelledPara>
+<title>Корпус</title>
+<para>Корпус предназначен для внутренней защиты элементов разъема от механических повреждений, пыли, влаги и химических воздействий, а также для установки  контактных ставок и кабельных вводов. Снаружи корпуса предусмотрены защелки и пины.</para>
+</levelledPara>
+<levelledPara>
+<title>Контактные вставки</title>
+<para>Контактные вставки обеспечивают электрическое соединение между проводниками и контактами. Установка проводников в контакты осуществляется с помощью винтовых или пружинных зажимов, а также пайки.</para>
+</levelledPara>
+<levelledPara>
+<title>Кабельный ввод</title>
+<para>Кабельный ввод предназначен для надежного ввода и крепления кабеля в корпус устройства с целью обеспечения механической защиты, электрической изоляции и герметичности соединений.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Схема подключения</title>
+<para>Разъемы имеют несколько схем подключения проводников.<randomList>
+<listItem>
+<para>для схемы прямого подключения каждый проводник подключается к отдельному контакту в контактной вставке с помощью одного винтового зажима, или пружинного зажима, или пайки;</para>
+</listItem>
+<listItem>
+<para>для схемы проходного подключения два проводника подключаются к отдельному контакту в контактной вставке с помощью одного винтового зажима, или пружинного зажима, или пайки.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Установка и фиксация разъема в его ответной части производится с помощью защелки, которая фиксируется на пинах.</para>
+<figure id="fig-006">
+<title>Разъем с контактными вставками</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201100-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-201100-0-MDMKD-00001-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-006-gra-001">
+<hotspot id="fig-006-gra-001-hot-001" applicationStructureIdent="AUTOID_002" applicationStructureName="ЗАЩЕЛКА"></hotspot>
+<hotspot id="fig-006-gra-001-hot-002" applicationStructureIdent="AUTOID_005" applicationStructureName="КОНТАКТНАЯ ВСТАВКА"></hotspot>
+<hotspot id="fig-006-gra-001-hot-003" applicationStructureIdent="AUTOID_023" applicationStructureName="КОНТАКТНАЯ ВСТАВКА"></hotspot>
+<hotspot id="fig-006-gra-001-hot-004" applicationStructureIdent="AUTOID_013" applicationStructureName="КАБЕЛЬНЫЙ ВВОД"></hotspot>
+<hotspot id="fig-006-gra-001-hot-005" applicationStructureIdent="AUTOID_012" applicationStructureName="КОРПУС"></hotspot>
+<hotspot id="fig-006-gra-001-hot-006" applicationStructureIdent="AUTOID_020" applicationStructureName="КОРПУС"></hotspot>
+<hotspot id="fig-006-gra-001-hot-007" applicationStructureIdent="AUTOID_021" applicationStructureName="ПИН"></hotspot>
+<hotspot id="fig-006-gra-001-hot-008" applicationStructureIdent="AUTOID_001" applicationStructureName="ПИН"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Цилиндрический разъем М12</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Цилиндрический разъем M12 — это электрический соединитель с наружней резьбой М12, предназначенный для надежного, герметичного подключения промышленных датчиков, компонентов автоматизации и управления.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Цилиндрический разъем M12 состоит из корпуса, контактов и резьбового механизма.</para>
+<levelledPara>
+<title>Корпус</title>
+<para>Корпус предназначен для внутренней защиты элементов разъема от механических повреждений, пыли, влаги и химических воздействий.</para>
+</levelledPara>
+<levelledPara>
+<title>Контакты</title>
+<para>Контакты обеспечивают электрическое соединение между проводниками и контактными элементами. Установка проводников к контактам осуществляется с использованием винтовых зажимов, обжима или пайки.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Схема подключения</title>
+<para>Разъемы имеют несколько основных схем (типов) кодирования.<randomList>
+<listItem>
+<para>M12 A-Code используется при передаче данных, в датчиках малой мощности и исполнительных механизмах;</para>
+</listItem>
+<listItem>
+<para>M12 B-Code используется в полевых шинах, таких как Interbus и Profibus;</para>
+</listItem>
+<listItem>
+<para>M12 С-Code используется для питания переменного тока и питания датчиков;</para>
+</listItem>
+<listItem>
+<para>M12 D-Code используется при передаче данных на скорости 100 Мбит/с, включая машинное зрение и промышленный Ethernet.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Крепление разъема к его ответной части осуществляется с помощью фиксации вращающайся гайки.</para>
+<figure id="fig-001">
+<title>Цилиндрический разъем М12</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201100-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-201100-0-MDMKD-00002-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="КОРПУС"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_001" applicationStructureName="ВРАЩАЮЩАЯСЯ ГАЙКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_003" applicationStructureName="КОДИРОВКА"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Разъем D-sub</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Разъем D-sub — это электрический соединитель, предназначенный для передачи данных.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Разъем D-sub состоит из корпуса, контактных пинов и фиксирующих элементов.</para>
+<levelledPara>
+<title>Корпус</title>
+<para>Корпус предназначен для внутренней защиты элементов разъема от механических повреждений, пыли, влаги и химических воздействий.</para>
+</levelledPara>
+<levelledPara>
+<title>Контактые пины</title>
+<para>Контактые пины обеспечивают электрическое соединение между проводниками и контактами. Установка проводников в контакты осуществляется с использованием винтовых зажимов или пайки.</para>
+</levelledPara>
+<levelledPara>
+<title>Фиксирующие элементы</title>
+<para>Фиксирующие элементы  — это обычно удлиненные винты, которые обеспечивают соединение двух разъемов между собой.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Схема подключения</title>
+<para>Разъемы имеют различные схемы подключения в зависимости от назначения:<randomList>
+<listItem>
+<para>DB-9 используется для последовательных интерфейсов RS-232;</para>
+</listItem>
+<listItem>
+<para>DB-15 применяется для видеосигналов и некоторых последовательных интерфейсов;</para>
+</listItem>
+<listItem>
+<para>DB-25  используется для подключения различных периферийных устройств, таких как принтеры, модемы и другие устройства RS-232;</para>
+</listItem>
+<listItem>
+<para>DB-37 для высокоскоростных соединений и подключения нескольких устройств одновременно.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Соединение разъема и ответной части происходит с помощью удлиненных винтов, фиксирующих их между собой.</para>
+<figure id="fig-002">
+<title>Разъем D-sub</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201100-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-201100-0-MDMKD-00003-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-002-gra-001">
+<hotspot id="fig-002-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-002-gra-001-hot-002" applicationStructureIdent="AUTOID_001" applicationStructureName="КОРПУС"></hotspot>
+<hotspot id="fig-002-gra-001-hot-003" applicationStructureIdent="AUTOID_062" applicationStructureName="КОНТАКТНЫЕ ПИНЫ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Разъем SMA</title>
+<para>
+<internalRef internalRefId="fig-004" internalRefTargetType="irtt01" xlink:href="#fig-004"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Разъем SMA — это коаксиальный соединитель, предназначенный для передачи высокочастотных сигналов.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Разъем SMA состоит из корпуса, центрального проводника и резьбового механизма.</para>
+<levelledPara>
+<title>Корпус</title>
+<para>Корпус предназначен для защиты контактных элементов от внешних воздействий и для защиты от электромагнитных помех.</para>
+</levelledPara>
+<levelledPara>
+<title>Центральный проводник</title>
+<para>Центральный проводник обеспечивает электрическое соединение между проводником и ответной частью разъема. Установка проводника в центральный проводник осуществляется с использованием пайки.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Разъем SMA устанавливается на ответную часть разъема таким образом, что центральный проводник разъема устанавливается в отверстие ответной части и фиксируется гайкой.</para>
+<figure id="fig-004">
+<title>Разъем SMA</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201100-0-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-201100-0-MDMKD-00004-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-004-gra-001">
+<hotspot id="fig-004-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="ГАЙКА"></hotspot>
+<hotspot id="fig-004-gra-001-hot-002" applicationStructureIdent="AUTOID_002" applicationStructureName="ЦЕНТРАЛЬНЫЙ ПРОВОДНИК"></hotspot>
+<hotspot id="fig-004-gra-001-hot-003" applicationStructureIdent="AUTOID_003" applicationStructureName="РЕЗЬБОВОЙ МЕХАНИЗМ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Разъем RJ45</title>
+<para>
+<internalRef internalRefId="fig-003" internalRefTargetType="irtt01" xlink:href="#fig-003"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Разъем RJ45 — это стандартный разъем для подключения сетевых кабелей, используемый в локальных вычислительных сетях (LAN). Он широко применяется для Ethernet-соединений и других видов передачи данных.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Разъем RJ45 имеет 8 металлических контактов, которые обеспечивают передачу данных и питания по сети. Обычно разъем используется для соединения с кабелем категории 5 или выше. 
+Чаще всего используется витая пара, которая имеет две пары проводников, скрученных друг с другом, для уменьшения помех и повышения качества сигнала.</para>
+</levelledPara>
+<levelledPara>
+<title>Схема подключения</title>
+<para>Разъемы RJ45 могут быть подключены с двумя основными схемами проводки: T568A и T568B.<randomList>
+<listItem>
+<para>для схемы T568A следующая последовательность проводников в разъеме (слева направо): бело-зеленый, зеленый, бело-оранжевый, синий, бело-синий, оранжевый, бело-коричневый, коричневый; </para>
+</listItem>
+<listItem>
+<para>для схемы T568В следующая последовательность проводников в разъеме (слева направо): бело-оранжевый, оранжевый, бело-зеленый, синий, бело-синий, зеленый, бело-коричневый, коричневый.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Проводники устанавливаются в корпус  согласно одной из двух схем (T568A или T568B) и обжимаются в корпусе разъема. Разъем RJ45 устанавливается в ответный порт устройства до конца, обеспечивая контакт с внутренними пинами. Фиксируется разъем с помощью пластикового зажима, который удерживает разъем в порту.</para>
+<figure id="fig-003">
+<title>Разъем RJ45</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201100-0-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-201100-0-MDMKD-00005-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-003-gra-001">
+<hotspot id="fig-003-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="ПОРТ"></hotspot>
+<hotspot id="fig-003-gra-001-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="ПЛАСТИНОВЫЙ ЗАЖИМ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Разъем электрический с 4 контактами и защелкой</title>
+<para>
+<internalRef internalRefId="fig-005" internalRefTargetType="irtt01" xlink:href="#fig-005"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Разъем электрический с 4 контактами и защелкой — это разъем, предназначенный для соединения четырех проводников, обеспечивая электрическую передачу питания.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Разъем состоит из корпуса, четырех контактных элементов, а также оснащен механизмом защелки. Корпус предназначен для внутренней защиты элементов разъема от механических повреждений, пыли, влаги и химических воздействий. Внутри корпуса расположены контактные элементы, которые обеспечивают электрическое соединение. В каждый контактный элемент устанавливается провод с помощью обжима. Снаружи корпуса предусмотрены защелки и его ответные части. </para>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Для соединения двух частей разъема (основной и ответной) необходимо аккуратно совместить контакты разъема с соответствующими контактами ответной части разъема. Защелка автоматически зафиксируется на корпусе ответной части разъема.</para>
+<figure id="fig-005">
+<title>Разъем электрический с 4 контактами и защелкой</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201100-0-MDMKD-00006-A-001-01" xlink:href="ICN-MTPM-A-201100-0-MDMKD-00006-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-005-gra-001">
+<hotspot id="fig-005-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="ЗАЩЕЛКА"></hotspot>
+<hotspot id="fig-005-gra-001-hot-002" applicationStructureIdent="AUTOID_005" applicationStructureName="КОРПУС"></hotspot>
+<hotspot id="fig-005-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="ОТВЕТНАЯ ЧАСТЬ ЗАЩЕЛКИ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Винтовые клеммники</title>
+<para>
+<internalRef internalRefId="fig-007" internalRefTargetType="irtt01" xlink:href="#fig-007"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Винтовые клеммники — это устройства для соединения проводников с помощью винтовых зажимов, которые обеспечивают надежное соединение проводников с электрическими компонентами или друг с другом.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Винтовые клеммники состоят из изолированного корпуса, в котором находятся винтовые зажимы для фиксации проводников. Внутри корпуса располагаются металлические контактные элементы, которые обеспечивают электрический контакт между проводником и клеммой. Клеммники могут быть одно- или многоконтактными и предназначены для использования с проводами определенного сечения. Винтовой механизм зажима позволяет надежно фиксировать проводник, предотвращая его ослабление или отсоединение.</para>
+</levelledPara>
+<levelledPara>
+<title>Схема подключения</title>
+<para>Винтовые клеммники имеют несколько схем подключения проводников.<randomList>
+<listItem>
+<para>для схемы прямого подключения проводник подключается к одной клемме с помощью одного винтового зажима; </para>
+</listItem>
+<listItem>
+<para>для схемы проходного подключения два или более проводника подключаются через один зажим с помощью нескольких винтов.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Оголенная  часть проводника устанавливается в винтовой клеммник и фиксируется винтом.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Пружинные клеммники</title>
+<para>
+<internalRef internalRefId="fig-007" internalRefTargetType="irtt01" xlink:href="#fig-007"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Пружинные клеммники — это устройства для соединения проводников с помощью пружинных зажимов, которые обеспечивают надежное соединение проводников с электрическими компонентами или друг с другом.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Пружинные клеммники состоят из изолированного корпуса, в котором размещены пружинные механизмы для зажима проводников. Внутри корпуса клеммника находится металлический контакт, который обеспечивает электрическое соединение между проводником и клеммой. Пружина автоматически фиксирует провод в зажиме, обеспечивая надежный контакт без необходимости дополнительной затяжки. Эти клеммники могут быть одно- или многоконтактными и предназначены для работы с проводами определенного сечения.</para>
+</levelledPara>
+<levelledPara>
+<title>Схема подключения</title>
+<para>Пружинные клеммники имеют несколько схем подключения проводников.<randomList>
+<listItem>
+<para>для схемы прямого подключения проводник вставляется в зажим, и пружина автоматически фиксирует его в клеммнике; </para>
+</listItem>
+<listItem>
+<para>для схемы проходного подключения несколько проводников подключаются через один зажим с помощью одного или нескольких пружинных зажимов.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Для установки проводников в пружинный клеммник необходимо отвести пружинный механизм, установить полностью оголенную часть проводника в отверстие клеммника  и зафиксировать пружинным механизмом.</para>
+<figure id="fig-007">
+<title>Клеммники</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201101-0-MDMKD-00007-A-001-01" xlink:href="ICN-MTPM-A-201101-0-MDMKD-00007-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-007-gra-001">
+<hotspot id="fig-007-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-007-gra-001-hot-002" applicationStructureIdent="AUTOID_024" applicationStructureName="ПРУЖИНЫЙ  МЕХАНИЗМ"></hotspot>
+<hotspot id="fig-007-gra-001-hot-003" applicationStructureIdent="AUTOID_001" applicationStructureName="ПРОВОДНИК"></hotspot>
+<hotspot id="fig-007-gra-001-hot-004" applicationStructureIdent="AUTOID_002" applicationStructureName="ПРОВОДНИК"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Оборудование с защелками</title>
+<para>
+<internalRef internalRefId="fig-009" internalRefTargetType="irtt01" xlink:href="#fig-009"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Крепление оборудования с использованием защелок — это метод установки оборудования на DIN-рейку с помощью встроенных защелкивающихся элементов, которые фиксируют устройства в нужном положении.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Оборудование с креплением через защелки оснащено пластиковыми или металлическими защелкивающимися клипсами, которые при установке на рейку автоматически или в ручную фиксируются в пазы DIN-рейки. Эти защелки могут быть как интегрированными в корпус устройства, так и отдельными элементами, которые добавляются к оборудованию.
+
+Защелки работают на принципе пружинного механизма или фиксирующего рычага, который захватывает бортики рейки и удерживает оборудование на месте.</para>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Для установки оборудования на DIN-рейку с использованием защелок необходимо совместить защелки устройства с пазами рейки, нажать на устройство до упора и проконтролировать что защелка автоматически зафиксировалась.</para>
+<para>При установке оборудования на DIN-рейку следует аккуратно задвинуть язычок защелки до упора.</para>
+<figure id="fig-009">
+<title>Оборудование с защелками</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201100-0-MDMKD-00010-A-001-01" xlink:href="ICN-MTPM-A-201100-0-MDMKD-00010-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-009-gra-001">
+<hotspot id="fig-009-gra-001-hot-001" applicationStructureIdent="AUTOID_015" applicationStructureName="DIN-РЕЙКА"></hotspot>
+<hotspot id="fig-009-gra-001-hot-002" applicationStructureIdent="AUTOID_001" applicationStructureName="ОБОРУДОВАНИЕ"></hotspot>
+<hotspot id="fig-009-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="ОБОРУДОВАНИЕ"></hotspot>
+<hotspot id="fig-009-gra-001-hot-004" applicationStructureIdent="AUTOID_003" applicationStructureName="ОБОРУДОВАНИЕ"></hotspot>
+<hotspot id="fig-009-gra-001-hot-005" applicationStructureIdent="AUTOID_010" applicationStructureName="DIN-РЕЙКА"></hotspot>
+<hotspot id="fig-009-gra-001-hot-006" applicationStructureIdent="AUTOID_011" applicationStructureName="DIN-РЕЙКА"></hotspot>
+<hotspot id="fig-009-gra-001-hot-007" applicationStructureIdent="AUTOID_006" applicationStructureName="ЗАЩЕЛКА"></hotspot>
+<hotspot id="fig-009-gra-001-hot-008" applicationStructureIdent="AUTOID_008" applicationStructureName="ЗАЩЕЛКА"></hotspot>
+<hotspot id="fig-009-gra-001-hot-009" applicationStructureIdent="AUTOID_009" applicationStructureName="ЗАЩЕЛКА"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Соединение клеммной коробки</title>
+<para>
+<internalRef internalRefId="fig-008" internalRefTargetType="irtt01" xlink:href="#fig-008"></internalRef>
+</para>
+<levelledPara>
+<title>Описание</title>
+<para>Клеммная коробка предназначена для
+соединения и разветвления электрических цепей.</para>
+</levelledPara>
+<levelledPara>
+<title>Конструкция</title>
+<para>Клеммная коробка представляет собой металлический корпус, внутри которого установлена DIN-рейка с набором клеммных блоков. Контакты клемм соединены между собой перемычкой, а в них установлены винты с зажимами.</para>
+</levelledPara>
+<levelledPara>
+<title>Установка</title>
+<para>Наконечник провода устанавливается между зажимом и перемычкой и фиксируется винтом.</para>
+<figure id="fig-008">
+<title>Соединение клеммной коробки</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201100-0-MDMKD-00009-A-001-01" xlink:href="ICN-MTPM-A-201100-0-MDMKD-00009-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-008-gra-001">
+<hotspot id="fig-008-gra-001-hot-001" applicationStructureIdent="AUTOID_045" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-008-gra-001-hot-002" applicationStructureIdent="AUTOID_046" applicationStructureName="ЗАЖИМ"></hotspot>
+<hotspot id="fig-008-gra-001-hot-003" applicationStructureIdent="AUTOID_048" applicationStructureName="ПЕРЕМЫЧКА"></hotspot>
+<hotspot id="fig-008-gra-001-hot-004" applicationStructureIdent="AUTOID_047" applicationStructureName="НАКОНЕЧНИК"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+</levelledPara>
+</description>
+</content>
+</dmodule>

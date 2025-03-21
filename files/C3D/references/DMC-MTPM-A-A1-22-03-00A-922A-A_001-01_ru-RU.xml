@@ -1,0 +1,219 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-A12203-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-A12203-0-MDMKD-00001-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="A1" subSystemCode="2" subSubSystemCode="2" assyCode="03" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="01" day="17"></issueDate>
+<dmTitle>
+<techName>Цепь</techName>
+<infoName>Демонтаж и монтаж</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<noSupportEquips></noSupportEquips>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>Ветошь обтирочная</name>
+<supplyRef supplyNumber="ТУ 8189-018-01877509-2001" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>Растворитель</name>
+<supplyRef supplyNumber="Нефрас-С-50/170 ГОСТ 8505-80" supplyNumberType="sp01"></supplyRef>
+<reqQuantity></reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning id="wrn-001">
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Переместите каретку <internalRef internalRefId="fig-001-gra-001-hot-015" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-015"></internalRef> в среднее положение.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните спуск траверсы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Ослабьте цепь <internalRef internalRefId="fig-001-gra-001-hot-007" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007"></internalRef>
+<dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="271" disassyCodeVariant="A" disassyCode="00" assyCode="05" subSubSystemCode="1" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Снимите шплинты <internalRef internalRefId="fig-001-gra-001-hot-012" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-012"></internalRef> с соединительного звена <internalRef internalRefId="fig-001-gra-001-hot-006" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-006"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выведите соединительное звено <internalRef internalRefId="fig-001-gra-001-hot-006" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-006"></internalRef> из уха натяжителя цепи каретки <internalRef internalRefId="fig-001-gra-001-hot-009" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-009"></internalRef>, пластин <internalRef internalRefId="fig-001-gra-001-hot-014" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-014"></internalRef> и цепи <internalRef internalRefId="fig-001-gra-001-hot-008" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-008"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите шплинты <internalRef internalRefId="fig-001-gra-001-hot-011" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011"></internalRef> с соединительного звена <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выведите соединительное звено <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef> из уха натяжителя <internalRef internalRefId="fig-001-gra-001-hot-010" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-010"></internalRef>, пластин <internalRef internalRefId="fig-001-gra-001-hot-011" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011"></internalRef> и цепи <internalRef internalRefId="fig-001-gra-001-hot-007" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите цепь <internalRef internalRefId="fig-001-gra-001-hot-007" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007"></internalRef> с вала ведущей звездочки <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef>, держателей <internalRef internalRefId="fig-001-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-003"></internalRef> и вала ведомой звездочки <internalRef internalRefId="fig-001-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-005"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите пины, звенья и ролики цепи на отсутствие трещин, деформаций, разрушений и
+других механических и коррозионных повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену поврежденного звена цепи.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости замените цепь на новую.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Установите цепь <internalRef internalRefId="fig-001-gra-001-hot-007" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007"></internalRef> на ведомую
+звездочку <internalRef internalRefId="fig-001-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-005"></internalRef>, ролики держателя <internalRef internalRefId="fig-001-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-003"></internalRef> и ведущую звездочку <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef>.
+		</para>
+</proceduralStep>
+<proceduralStep>
+<para>Совместите отверстия цепи <internalRef internalRefId="fig-001-gra-001-hot-007" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007"></internalRef>, пластин <internalRef internalRefId="fig-001-gra-001-hot-013" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-013"></internalRef> и натяжителя <internalRef internalRefId="fig-001-gra-001-hot-010" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-010"></internalRef>.
+</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите соединительное звено <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef> в отверстия цепи <internalRef internalRefId="fig-001-gra-001-hot-007" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007"></internalRef>, пластин <internalRef internalRefId="fig-001-gra-001-hot-013" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-013"></internalRef> и натяжителя <internalRef internalRefId="fig-001-gra-001-hot-010" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-010"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите шплинты <internalRef internalRefId="fig-001-gra-001-hot-011" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-011"></internalRef> в соединительное звено <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Совместите отверстия цепи <internalRef internalRefId="fig-001-gra-001-hot-008" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-008"></internalRef>, пластин <internalRef internalRefId="fig-001-gra-001-hot-014" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-014"></internalRef> и натяжителя цепи каретки <internalRef internalRefId="fig-001-gra-001-hot-009" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-009"></internalRef>.
+</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите соединительное звено <internalRef internalRefId="fig-001-gra-001-hot-006" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-006"></internalRef> в отверстия цепи <internalRef internalRefId="fig-001-gra-001-hot-008" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-008"></internalRef>, пластин <internalRef internalRefId="fig-001-gra-001-hot-014" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-014"></internalRef> и натяжителя цепи каретки <internalRef internalRefId="fig-001-gra-001-hot-009" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-009"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите шплинты <internalRef internalRefId="fig-001-gra-001-hot-012" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-012"></internalRef> в соединительное звено <internalRef internalRefId="fig-001-gra-001-hot-006" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-006"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Произведите регулировку цепи <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="271" disassyCodeVariant="A" disassyCode="00" assyCode="05" subSubSystemCode="1" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>
+</para>
+</proceduralStep>
+<proceduralStep>
+<para>
+							Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните процедуру  подключения электрооборудования <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="510" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Произведите функциональные испытания шагового двигателя каретки <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="340" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="1" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-001">
+<title>Демонтаж и монтаж цепи</title>
+<graphic infoEntityIdent="ICN-MTPM-A-A12203-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-A12203-0-MDMKD-00001-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_037" applicationStructureName="8"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_049" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_051" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_050" applicationStructureName="2 "></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_052" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_047" applicationStructureName="5"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_038" applicationStructureName="9"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_048" applicationStructureName="9"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_053" applicationStructureName="6"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_055" applicationStructureName="7"></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_039" applicationStructureName="10"></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_045" applicationStructureName="12"></hotspot>
+<hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_040" applicationStructureName="11"></hotspot>
+<hotspot id="fig-001-gra-001-hot-014" applicationStructureIdent="AUTOID_046" applicationStructureName="13"></hotspot>
+<hotspot id="fig-001-gra-001-hot-015" applicationStructureIdent="AUTOID_001" applicationStructureName="4"></hotspot>
+</graphic>
+</figure>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <!DOCTYPE dmodule [
-<!ENTITY ICN-MTPM-A-A11002-0-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-A11002-0-MDMKD-00005-A-001-01.cgm" NDATA cgm>
-<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+<!ENTITY ICN-MTPM-A-A11002-0-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-A11002-0-MDMKD-00005-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
 ]>
 <dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
 <identAndStatusSection>
@@ -196,7 +196,7 @@
 </proceduralStep>
 <figure id="fig-001">
 <title>Демонтаж и монтаж шагового двигателя башни</title>
-<graphic infoEntityIdent="ICN-MTPM-A-A11002-0-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-A11002-0-MDMKD-00005-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<graphic infoEntityIdent="ICN-MTPM-A-A11002-0-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-A11002-0-MDMKD-00005-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
 <hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="1 х4"></hotspot>
 <hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="2"></hotspot>
 <hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_006" applicationStructureName="4"></hotspot>

@@ -187,7 +187,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_ID3DCQZYET">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01.cgm" title="Модуль внешней индикации"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01.svg" title="Модуль внешней индикации"></a>
 				</div>
 				<div class="para p">Модуль внешней индикации представляет собой сборную конструкцию из заглушки, светосигнальных модулей трех цветов и основания. Общая степень защиты изделия – <span class="emphasis ">IP...</span> .</div>
 				<div class="para p">Цвет светосигнальных модулей означает:<div class="randomList list  ul">
@@ -223,7 +223,7 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Модуль внешней индикации</div>
-				<a title="Модуль внешней индикации" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01.cgm">Модуль внешней индикации</a>
+				<a title="Модуль внешней индикации" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-E18001-0-MDMKD-00001-A-001-01.svg">Модуль внешней индикации</a>
 			</div>
 		</div>
 	</div>

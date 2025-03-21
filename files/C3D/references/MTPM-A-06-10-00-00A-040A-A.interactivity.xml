@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>08/27/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -12,7 +12,7 @@
 <Options>
 <Value name="3DFramePosition" type="string">Right</Value>
 <Value name="3DFrameSize" type="string">40</Value>
-<Value name="SelectedHotspotColor" type="color">#00FF00</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
 <Value name="PDFPublish" type="boolean">No</Value>
 <Value name="PublicPath" type="string">../res/</Value>
 <Value name="UseSVGFilesOnly" type="boolean">No</Value>
@@ -55,7 +55,7 @@
 <value name="subSystem" decl-id="SUBSYSTEM" type="string">10</value>
 <value name="systemCode" decl-id="SYSTEM" type="string">06</value>
 <value name="systemDiffCode" decl-id="SDC" type="string">A</value>
-<value name="techName" decl-id="TITLE" type="string">Основные измерения</value>
+<value name="techName" decl-id="TITLE" type="string">Основные размеры</value>
 <value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
 &lt;displayText&gt;
 &lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
@@ -86,7 +86,7 @@
 				<div class="issueDate" data-year="2024" data-month="07" data-day="31">
 </div>
 				<div class="dmTitle">
-					<div class="techName">Основные измерения</div>
+					<div class="techName">Основные размеры</div>
 					<div class="infoName">Описание</div>
 				</div>
 			</div>
@@ -117,17 +117,17 @@
 		</div>
 	</div>
 	<div class="content">
-		<div class="description levels" id="description_IDDJBPPSZR">
-			<div class="levelledPara level1 link" id="levelledPara_IDOQHUAT0K">
+		<div class="description levels" id="description_IDAWQP1B1W">
+			<div class="levelledPara level1 link" id="levelledPara_IDZ3MT1U45">
 				<div class="title">Общие сведения</div>
 				<div class="para p">В разделе приведены основные геометрические размеры и габариты траверсы и ее компонентов, которые могут быть использованы в процессе эксплуатации и обслуживания.</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDDI4DQ1OH">
+			<div class="levelledPara level1 link" id="levelledPara_IDDMTI1N4K">
 				<div class="title">Описание</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDU5MGAJMY">
+				<div class="levelledPara level2 link" id="levelledPara_IDIJP0PPXG">
 					<div class="title">Габаритные размеры</div>
 					<div class="para p">
-						<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-061000-A-MDMKD-00003-A-001-01.cgm" title="Габаритные размеры траверсы"></a>
+						<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-061000-A-MDMKD-00003-A-001-01.svg" title="Габаритные размеры траверсы"></a>
 					</div>
 					<div class="para p">Габаритные размеры траверсы <a class="internalRef irtt02 link" data-index="1" href="#tab-001" title=""></a>.</div>
 					<div class="table" data-frame="all" id="tab-001"><div class="table-contents">
@@ -151,10 +151,10 @@
 									</td></tr></tbody></table>
 					</div></div><br class="table-break">
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDJVC441BG">
+				<div class="levelledPara level2 link" id="levelledPara_IDBN02G2HR">
 					<div class="title">Основные размеры</div>
 					<div class="para p">
-						<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-061000-A-MDMKD-00004-A-001-01.cgm" title="Основные размеры траверсы"></a>
+						<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-061000-A-MDMKD-00004-A-001-01.svg" title="Основные размеры траверсы"></a>
 					</div>
 					<div class="para p">Основные размеры траверсы <a class="internalRef irtt02 link" data-index="2" href="#tab-002" title=""></a>.</div>
 					<div class="table" data-frame="all" id="tab-002"><div class="table-contents">
@@ -213,11 +213,11 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Габаритные размеры траверсы</div>
-				<a title="Габаритные размеры траверсы" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-061000-A-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-061000-A-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDZNQBIAF4" data-link="link2d" data-src="ICN-MTPM-A-061000-A-MDMKD-00003-A-001-01.cgm">Габаритные размеры траверсы</a>
+				<a title="Габаритные размеры траверсы" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-061000-A-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-061000-A-MDMKD-00003-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDCQ5TYSWI" data-link="link2d" data-src="ICN-MTPM-A-061000-A-MDMKD-00003-A-001-01.svg">Габаритные размеры траверсы</a>
 			</div>
 			<div class="figure" id="fig-002">
 				<div class="title">Основные размеры траверсы</div>
-				<a title="Основные размеры траверсы" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-061000-A-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-061000-A-MDMKD-00004-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDM4TC3ROX" data-link="link2d" data-src="ICN-MTPM-A-061000-A-MDMKD-00004-A-001-01.cgm">Основные размеры траверсы</a>
+				<a title="Основные размеры траверсы" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-061000-A-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-061000-A-MDMKD-00004-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_ID525HLAB0" data-link="link2d" data-src="ICN-MTPM-A-061000-A-MDMKD-00004-A-001-01.svg">Основные размеры траверсы</a>
 			</div>
 		</div>
 	</div>

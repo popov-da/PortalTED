@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0"?>
 <!DOCTYPE dmodule [
-<!ENTITY ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-UNITS-A-000000-A-UNITS-LOG01-A-001-01 SYSTEM "ICN-UNITS-A-000000-A-UNITS-LOG01-A-001-01.svg" NDATA svg>
 <!ENTITY ICN-MTPM-A-000000-A-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-000000-A-MDMKD-00002-A-001-01.svg" NDATA svg>
 <!ENTITY ICN-MTPM-A-000000-A-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-000000-A-MDMKD-00003-A-001-01.svg" NDATA svg>
 <!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
@@ -24,7 +24,7 @@
 <dmStatus issueType="new">
 <security securityClassification="01"></security>
 <logo>
-<symbol infoEntityIdent="ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01.svg" reproductionHeight="10mm" reproductionWidth="10mm"></symbol>
+<symbol infoEntityIdent="ICN-UNITS-A-000000-A-UNITS-LOG01-A-001-01" xlink:href="ICN-UNITS-A-000000-A-UNITS-LOG01-A-001-01.svg" reproductionHeight="10mm" reproductionWidth="10mm"></symbol>
 </logo>
 <responsiblePartnerCompany enterpriseCode="MDMKD">
 <enterpriseName>МОДУЛЬ МКД</enterpriseName>
@@ -52,9 +52,9 @@
 <content>
 <frontMatter>
 <frontMatterTitlePage>
-<pmTitle>Линейная траверса</pmTitle>
+<pmTitle>Руководство по технической эксплуатации</pmTitle>
 <pmCode modelIdentCode="MTPM" pmIssuer="UNITS" pmNumber="MM000" pmVolume="00"></pmCode>
-<issueInfo inWork="00" issueNumber="001"></issueInfo>
+<issueInfo inWork="01" issueNumber="001"></issueInfo>
 <issueDate year="2024" month="11" day="22"></issueDate>
 <security securityClassification="01"></security>
 <productIllustration>
@@ -63,10 +63,7 @@
 <enterpriseLogo>
 <symbol infoEntityIdent="ICN-MTPM-A-000000-A-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-000000-A-MDMKD-00003-A-001-01.svg" reproductionHeight="8mm" reproductionWidth="28mm"></symbol>
 </enterpriseLogo>
-<responsiblePartnerCompany enterpriseCode="MDMKD"></responsiblePartnerCompany>
-<publisherLogo>
-<symbol infoEntityIdent="ICN-MTPM-A-000000-A-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-000000-A-MDMKD-00003-A-001-01.svg" reproductionHeight="8mm" reproductionWidth="28mm"></symbol>
-</publisherLogo>
+<responsiblePartnerCompany></responsiblePartnerCompany>
 </frontMatterTitlePage>
 </frontMatter>
 </content>

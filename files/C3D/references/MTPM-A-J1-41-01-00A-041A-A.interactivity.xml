@@ -162,7 +162,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDHM1HYWHB">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01.cgm" title="Вентилятор"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01.svg" title="Вентилятор"></a>
 				</div>
 				<div class="para p">Вентилятор представляет собой сборную конструкцию из кулера, корпуса, фильтра и внешней защитной решетки. Общая степень защиты вентилятора – IP54.</div>
 				<div class="levelledPara level2 link" id="levelledPara_IDI0TDAMTX">
@@ -185,7 +185,7 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Вентилятор</div>
-				<a title="Вентилятор" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01.cgm">Вентилятор</a>
+				<a title="Вентилятор" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-J14100-0-MDMKD-00002-A-001-01.svg">Вентилятор</a>
 			</div>
 			<div class="levelledPara level1 link" id="levelledPara_IDBZBC3AB0">
 				<div class="title">Работа</div>

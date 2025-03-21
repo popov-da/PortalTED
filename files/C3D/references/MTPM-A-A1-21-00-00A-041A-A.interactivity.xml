@@ -203,7 +203,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDADJQJ0C5">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00003-A-001-01.cgm" title="Система перемещения башни"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00003-A-001-01.svg" title="Система перемещения башни"></a>
 				</div>
 				<div class="para p">Система перемещения башни представляет собой завершенный механизм, состоящий из различных конструктивных элементов.</div>
 				<div class="levelledPara level2 link" id="levelledPara_IDCPI42GL4">
@@ -251,14 +251,14 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Система перемещения башни</div>
-				<a title="Система перемещения башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12100-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-A12100-0-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="3" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00003-A-001-01.cgm">Система перемещения башни</a>
-				<a title="Система перемещения башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12100-0-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-A12100-0-MDMKD-00004-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="3" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00004-A-001-01.cgm">Система перемещения башни</a>
-				<a title="Система перемещения башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12100-0-MDMKD-00005-A-001-01" data-href="ICN-MTPM-A-A12100-0-MDMKD-00005-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-003" data-sheet="3" data-sheets="3" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00005-A-001-01.cgm">Система перемещения башни</a>
+				<a title="Система перемещения башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12100-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-A12100-0-MDMKD-00003-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="3" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00003-A-001-01.svg">Система перемещения башни</a>
+				<a title="Система перемещения башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12100-0-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-A12100-0-MDMKD-00004-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="3" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00004-A-001-01.svg">Система перемещения башни</a>
+				<a title="Система перемещения башни" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12100-0-MDMKD-00005-A-001-01" data-href="ICN-MTPM-A-A12100-0-MDMKD-00005-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-003" data-sheet="3" data-sheets="3" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00005-A-001-01.svg">Система перемещения башни</a>
 			</div>
 			<div class="levelledPara level1 link" id="levelledPara_IDKB4RR02A">
 				<div class="title">Работа</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00002-A-001-01.cgm" title="Функциональная схема системы перемещения башни"></a>
+					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00002-A-001-01.svg" title="Функциональная схема системы перемещения башни"></a>
 				</div>
 				<div class="para p">При нажатии на пульте управления кнопки, радиосигнал поступает на приемник. Приемник преобразует радиосигнал в выходной дискретный сигнал 24 В, который поступает на вход дискретного модуля (ДМ) ввода PLC. Параллельно с этим от датчика угла наклона поступает информация о положении траверсы относительно горизонта по цифровой шине RS-485, протокол MODBUS, на модуль расширения (МР) RS-485 PLC. ДМ ввода PLC и  МР RS-485 PLC передают данные на модуль процессорный (МП) PLC по цифровой шине PLC. В МП PLC реализуются алгоритмические функции, на основе которых формируются выходные сигналы для шагового серводрайвера башни (ШСБ) через цифровую шину EtherCat.</div>
 				<div class="para p">ШСБ  получив команды от МП PLC, выдает дискретный сигнал 24 В на реле управления тормоза (РУТ). РУТ переключает свои контакты, что позволяет подать силовое питание 24 В, преобразованное из 12 В аккумулятора, на электромагнитный тормоз шагового двигателя башни (ШДБ), освобождая его вал. После срабатывания РУТ информационное питание 24 В,  преобразованное из силового питания 24 В, поступает с сигнального контакта на вход ДМ ввода PLC.</div>
@@ -269,7 +269,7 @@
 				<div class="para p">Во время работы системы перемещения башни, ДМ ввода PLC опрашивает состояния периферийных устройств и передает значения, полученные при опрашивании, на панель оператора по шине Ethernet через неуправляемый коммутатор. </div>
 				<div class="figure" id="fig-002">
 					<div class="title">Функциональная схема системы перемещения башни</div>
-					<a title="Функциональная схема системы перемещения башни" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-A12100-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-A12100-0-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDHAJR5EJM" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00002-A-001-01.cgm">Функциональная схема системы перемещения башни</a>
+					<a title="Функциональная схема системы перемещения башни" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-A12100-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-A12100-0-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDHAJR5EJM" data-link="link2d" data-src="ICN-MTPM-A-A12100-0-MDMKD-00002-A-001-01.svg">Функциональная схема системы перемещения башни</a>
 				</div>
 			</div>
 		</div>

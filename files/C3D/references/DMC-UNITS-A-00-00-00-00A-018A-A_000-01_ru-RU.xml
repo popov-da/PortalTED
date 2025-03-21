@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-UNITS-A-000000-0-UNITS-0000L-A-001-01 SYSTEM "ICN-UNITS-A-000000-0-UNITS-0000L-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-UNITS-A-000000-0-UNITS-0000I-A-001-01 SYSTEM "ICN-UNITS-A-000000-0-UNITS-0000I-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-UNITS-A-000000-0-UNITS-0000J-A-001-01 SYSTEM "ICN-UNITS-A-000000-0-UNITS-0000J-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-UNITS-A-000000-0-UNITS-0000K-A-001-01 SYSTEM "ICN-UNITS-A-000000-0-UNITS-0000K-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="UNITS" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="018" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="000" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="11" day="20"></issueDate>
+<dmTitle>
+<techName>Эксплуатационная документация</techName>
+<infoName>Введение</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<dataRestrictions>
+<restrictionInstructions>
+<dataDistribution>Разработано в соответствии с ASD S1000D.</dataDistribution>
+</restrictionInstructions>
+<restrictionInfo>
+<copyright>
+<copyrightPara>
+<emphasis>Все права защищены (C) 2024</emphasis> ООО "Модуль МКД" </copyrightPara>
+</copyright>
+</restrictionInfo>
+</dataRestrictions>
+<responsiblePartnerCompany enterpriseCode="UNITS">
+<enterpriseName>ООО «Модуль МКД»</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="UNITS">
+<enterpriseName>ООО «Модуль МКД»</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-A-00-00-00-00A-022A-A">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Назначение</title>
+<para>Эксплуатационная документация (ЭД) представляет собой набор документов,
+предназначенных для правильной эксплуатации изделий.</para>
+</levelledPara>
+<levelledPara>
+<title>Структура документа</title>
+<para>Документ из комплекта ЭД представлен в виде отдельной книги или, в зависимости от
+объема информации, из нескольких
+книг <internalRef internalRefId="fig-003" internalRefTargetType="irtt01" xlink:href="#fig-003"></internalRef>. В свою очередь, в зависимости от объема информации (количества модулей данных (МД))
+книги могут быть разбиты на части.</para>
+<para>Документ состоит из определенного набора модулей данных. МД определяется
+как наименьшая самостоятельная информационная единица, входящая в состав
+документа и не допускающая дальнейшего дробления на составные части. МД содержит
+взаимосвязанные технические сведения по эксплуатации изделия, относящиеся к
+определенной тематике.</para>
+<para>Документ включает в себя:<randomList>
+<listItem>
+<para>определенный набор служебных МД;</para>
+</listItem>
+<listItem>
+<para>набор описательных МД;</para>
+</listItem>
+<listItem>
+<para>набор процедурных МД.</para>
+</listItem>
+</randomList>
+</para>
+<para>В начало первой книги добавляют МД «Введение», в котором приведены назначение и
+общий порядок пользования документом.</para>
+<figure id="fig-003">
+<title>Структура документа</title>
+<graphic infoEntityIdent="ICN-UNITS-A-000000-0-UNITS-0000L-A-001-01" xlink:href="ICN-UNITS-A-000000-0-UNITS-0000L-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+<levelledPara>
+<title>Служебные МД</title>
+<para>Служебные МД предназначены для обозначения документа и его разделов и содержат
+информацию по идентификации, составу, статусу изменений, а также другую
+информацию, облегчающую пользование документом.</para>
+<para>К служебным МД относятся:<randomList>
+<listItem>
+<para>титульный лист, на котором указывается:<randomList>
+<listItem>
+<para>код утверждающего документа;</para>
+</listItem>
+<listItem>
+<para>логотип изделия;</para>
+</listItem>
+<listItem>
+<para>наименование изделия (допускается не указывать);</para>
+</listItem>
+<listItem>
+<para>шифр проекта (допускается не указывать);</para>
+</listItem>
+<listItem>
+<para>наименование документа;</para>
+</listItem>
+<listItem>
+<para>код документа;</para>
+</listItem>
+<listItem>
+<para>логотип разработчика;</para>
+</listItem>
+<listItem>
+<para>код модуля данных;</para>
+</listItem>
+<listItem>
+<para>дата утверждения документа.</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+<listItem>
+<para>лист регистрации изменений;</para>
+<para>Лист регистрации изменений предназначен для обеспечения непрерывной
+регистрации состояния каждой отдельной копии документа. Лист регистрации
+изменений должен переиздаваться, если проведены все изменения, описанные
+в первоначальном листе регистрации изменений. Лист регистрации изменений
+предусмотрен только в странично-ориентированных документах.</para>
+</listItem>
+<listItem>
+<para>лист регистрации временных изменений (добавляется при введении временных
+изменений);</para>
+<para>Лист регистрации временных изменений предназначен для учета временных
+изменений, вводимых в документ.</para>
+</listItem>
+<listItem>
+<para>перечень действующих МД, содержащий:<randomList>
+<listItem>
+<para>названия модуля данных;</para>
+</listItem>
+<listItem>
+<para>кода модуля данных;</para>
+</listItem>
+<listItem>
+<para>даты издания;</para>
+</listItem>
+<listItem>
+<para>количества страниц;</para>
+</listItem>
+<listItem>
+<para>применимости.</para>
+</listItem>
+</randomList>
+</para>
+<para>МД представлены в порядке их размещения в документе.</para>
+<para>Все новые (дополнительные) или измененные модули данных должны быть помечены
+как:</para>
+<para>Н — новый модуль данных;</para>
+<para>И — измененный или исправленный модуль данных.</para>
+<para>Новый МД «Н» является дополнительным по сравнению с последним изданием
+документа.</para>
+<para>Измененный или исправленный МД содержит некоторые технические или
+редакторские изменения (включая компоновку и новую дату) по сравнению с
+последним изданием документа.</para>
+</listItem>
+<listItem>
+<para>содержание.</para>
+<para>Содержание включает в себя перечень основных МД, необходимых для понимания
+структуры документа.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Описательные МД</title>
+<para>Описательные МД содержат общие сведения об основном изделии, его
+системах/подсистемах, под-подсистемах и комплектующих изделиях (КИ), позволяющие
+инженерно-техническому персоналу изучить назначение, состав, конструкцию и принцип
+работы изделия и его составных частей. Иллюстрации являются частью приведенной в
+описательном МД информации, которая в простой, ясной и наглядной форме отражает
+текстовый материал.</para>
+</levelledPara>
+<levelledPara>
+<title>Процедурные МД</title>
+<para>Процедурные МД содержат технологические операции, необходимые для правильного
+выполнения работ по монтажу, демонтажу, осмотру, проверке, испытанию, регулировке,
+очистке, окраске и других видов работ. При необходимости перечисляются требуемые условия для
+обслуживания, вспомогательное оборудование, расходные материалы, условия
+безопасности.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Оформление эксплуатационной документации</title>
+<levelledPara>
+<title>Макет страницы</title>
+<para>Каждый МД (кроме титульного листа) в заголовке и колонтитулах содержит информацию,
+необходимую для идентификации МД <internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>.</para>
+<para>На странице указывается следующая информация:<randomList>
+<listItem>
+<para>код публикации (документа);</para>
+</listItem>
+<listItem>
+<para>техническое имя;</para>
+</listItem>
+<listItem>
+<para>информационное имя;</para>
+</listItem>
+<listItem>
+<para>применимость;</para>
+</listItem>
+<listItem>
+<para>код модуля данных;</para>
+</listItem>
+<listItem>
+<para>дата утверждения модуля данных;</para>
+</listItem>
+<listItem>
+<para>номер страницы.</para>
+</listItem>
+</randomList>
+</para>
+<figure id="fig-001">
+<title>Оформление страницы МД</title>
+<graphic infoEntityIdent="ICN-UNITS-A-000000-0-UNITS-0000I-A-001-01" xlink:href="ICN-UNITS-A-000000-0-UNITS-0000I-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm">
+<hotspot applicationStructureIdent="AUTOID_004" applicationStructureName="КОД ДОКУМЕНТА"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_005" applicationStructureName="ТЕХНИЧЕСКОЕ ИМЯ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_006" applicationStructureName="ИНФОРМАЦИОННОЕ ИМЯ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_017" applicationStructureName="СОДЕРЖАНИЕ МОДУЛЯ ДАННЫХ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_018" applicationStructureName="ТАБЛИЦЫ, ПРИВЕДЕННЫЕ В МОДУЛЕ ДАННЫХ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_019" applicationStructureName="ИЛЛЮСТРАЦИИ, ПРИВЕДЕННЫЕ В МОДУЛЕ ДАННЫХ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_007" applicationStructureName="ТИП МОДУЛЯ ДАННЫХ: ОПИСАТЕЛЬНЫЙ ИЛИ ПРОЦЕДУРНЫЙ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_008" applicationStructureName="НОМЕР СТРАНИЦЫ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_009" applicationStructureName="ДАТА УТВЕРЖДЕНИЯ МД"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_010" applicationStructureName="ПРИМЕНИМОСТЬ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_038" applicationStructureName="КОД МОДУЛЯ ДАННЫХ"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-UNITS-A-000000-0-UNITS-0000J-A-001-01" xlink:href="ICN-UNITS-A-000000-0-UNITS-0000J-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Применимость</title>
+<para>Применимость информации, приведенной в МД, отображается следующими способами:<randomList>
+<listItem>
+<para>общая применимость МД, указывается в левом нижнем углу в поле «Действительно:»
+и обозначает на какую серию или отдельное изделие распространяется содержимое
+данного МД.</para>
+<para>Если информация, приведенная в МД, распространяется на все основные изделия
+одного типа, то в данном поле указывается слово «ВСЕ».</para>
+<para>Если МД применим к конкретному изделию или серии изделий, то в данном поле
+указываются номера этих изделий.</para>
+<para>Пример:<randomList>
+<listItem>
+<para>
+<emphasis>Действительно: зав. № 001 — МД распространяются на изделие с заводским
+номером № 1100000001 (указываются последние три цифры);</emphasis>
+</para>
+</listItem>
+<listItem>
+<para>
+<emphasis>Действительно: с 002 по 004 — МД распространяются на изделия с заводскими
+номерами с № 1100000002 по № 1100000004.</emphasis>
+</para>
+</listItem>
+</randomList>
+</para>
+<para>Один документ может включать в себя МД с разной применимостью. Такие МД для
+одной составной части (СЧ) с разной применимостью должны следовать друг за
+другом. Обозначения таких МД имеют разные отличительные коды СЧ изделия
+(системы) <internalRef internalRefId="par-001" internalRefTargetType="irtt07" xlink:href="#par-001"></internalRef>.</para>
+</listItem>
+<listItem>
+<para>строчная применимость, указывается в виде выноски «** Для ... » перед
+соответствующим текстом описания или шагом процедуры.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Система кодирования документа</title>
+<levelledPara>
+<title>Общие правила кодирования документа</title>
+<para>Обозначение документа состоит из структурированного набора элементов и содержит
+от 14 до 26 алфавитно-цифровых символов.</para>
+<para>Для записи обозначения документа используют арабские цифры и буквы латинского
+алфавита. В качестве разделителя элементов обозначения документа используют дефис.</para>
+<levelledPara id="par-003">
+<title>Код основного изделия</title>
+<para>Всем основным изделиям присвоен свой код <internalRef internalRefId="tab-004" internalRefTargetType="irtt02" xlink:href="#tab-004"></internalRef>.</para>
+<table id="tab-004">
+<title>Код основного изделия</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center">
+<para>Код изделия</para>
+</entry>
+<entry colname="col2" align="center">
+<para>Описание</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1">
+<para>MTGA</para>
+</entry>
+<entry colname="col2">
+<para>Подъемник модулей</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>MTPA</para>
+</entry>
+<entry colname="col2">
+<para>Механизированная траверса</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>MTPM</para>
+</entry>
+<entry colname="col2">
+<para>Линейная траверса</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+<levelledPara id="par-005">
+<title>Код издающей организации</title>
+<para>Код издающей организации является уникальным алфавитно-цифровым
+идентификатором. Компании-разработчику присвоен код: UNITS.</para>
+</levelledPara>
+<levelledPara>
+<title>Аббревиатура документа</title>
+<para>Аббревиатура документа является уникальным алфавитно-цифровым идентификатором
+и определяется издающей организацией.</para>
+<para>Аббревиатура документа формируется из буквенного обозначения (до 5 символов).
+При меньшем количестве символов оставшиеся разряды заменяются нулями или при
+необходимости номером данного документа.</para>
+<para>Аббревиатуры документов <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table id="tab-001">
+<title>Аббревиатуры документов</title>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<colspec colnum="3" colname="col3" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center" valign="bottom">
+<para>Аббревиатуры документов</para>
+</entry>
+<entry colname="col2" align="center" valign="bottom">
+<para>Документ</para>
+</entry>
+<entry colname="col3" align="center" valign="bottom">
+<para>Примечание</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>IPC00</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Каталог сборочных деталей и единиц (иллюстрированный)</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>Illustrated Parts Catalog</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>ITEC0</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Каталог средств технического обслуживания
+(иллюстрированный)</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>Illustrated Tool
+and Equipment
+Manual</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>LOAP0</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Ведомость эксплуатационных документов</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>List Of
+Applicable
+Publications</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>LOSU0</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Ведомость эксплуатационных комплектов запасных
+частей, инструмента, принадлежностей и материалов</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>List Of Supplies</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>MM000</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Руководство по технической эксплуатации</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>Maintenance
+Manual</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>MS005</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Регламент технического обслуживания</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>Maintenance
+Schedule</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>PC000</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Каталог деталей и сборочных единиц
+(эксплуатационный)</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>Illustrated Parts
+Catalog</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>CPC00</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Каталог материалов</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>Consumable
+Products
+Catalog</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>TP000</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Учебно-технический плакат</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>Technical Poster</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>WM000</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Альбом электрических схем</para>
+</entry>
+<entry colname="col3" align="left" valign="top">
+<para>Wiring Diagram
+Manual</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+<levelledPara>
+<title>Номер части</title>
+<para>Номер части используется в тех случаях, когда документ разбит на части без присвоения
+нового номера отдельным частям.</para>
+<para>
+Значение «00» устанавливается в том случае, если документ содержит только одну часть.</para>
+<para>Значение «99» используется для Листа утверждения.</para>
+<para>
+При наличии нескольких частей в документе, части нумеруются последовательно, начиная с «01».</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Общие правила кодирования модуля данных</title>
+<para>Обозначение МД состоит из структурированного набора элементов, каждый из которых
+представляется одним или несколькими алфавитно-цифровыми символами.</para>
+<para>Для записи элементов обозначения МД применяют арабские цифры и буквы латинского
+алфавита. В качестве разделителя элементов обозначения МД используют дефис.</para>
+<levelledPara>
+<title>Код основного изделия</title>
+<para>Код основного изделия соответствует обозначению изделия (или семейства однотипных
+изделий), к которому относится МД, и обозначается алфавитно-цифровыми символами
+(от 2 до 14).</para>
+<para>Код основного изделия формируется в соответствии с <internalRef internalRefId="par-003" internalRefTargetType="irtt07" xlink:href="#par-003"></internalRef>
+</para>
+</levelledPara>
+<levelledPara id="par-001">
+<title>Отличительный код составной части изделия (системы)</title>
+<para>Отличительный код СЧ изделия (системы) используют в случае применения СЧ того
+же функционального назначения, но отличающейся составом сборочных единиц. Для
+отличительного кода СЧ используют один буквенный символ. Первой из установленных
+СЧ присваивают код «А», следующей — код «В» и т. д.</para>
+<para>Пример:<randomList>
+<listItem>
+<para>MTPM-A-A1-10-02-00A-041A-A — для шагового двигателя ST86-150;</para>
+</listItem>
+<listItem>
+<para>MTPM-B-A1-10-02-00A-041A-A — для шагового двигателя MP3-86TZ150.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Код изделия (системы) по системе нумерации и кодирования</title>
+<para>Код изделия (системы) присваивается по правилам системы нумерации и кодирования
+(СНК) <internalRef internalRefId="par-002" internalRefTargetType="irtt07" xlink:href="#par-002"></internalRef>.</para>
+</levelledPara>
+<levelledPara>
+<title>Код демонтажа и вариант кода демонтажа</title>
+<para>Код демонтажа используют для кодирования компонента внутри изделия. Код демонтажа
+обозначается двузначным номером от 0 до 99. Коды присваивают в соответствии с
+порядком разборки.</para>
+<para>Вариант кода демонтажа, содержащий один буквенный символ, указывает на
+альтернативные СЧ изделия, отличающиеся по своей конструкции.</para>
+<para>Пример:<randomList>
+<listItem>
+<para>MTPM-A-J1-42-00-00A-922A-A — Демонтаж вентиляционной решетки;</para>
+</listItem>
+<listItem>
+<para>MTPM-A-J1-42-00-00B-922A-A — Демонтаж вентиляционной решетки с защитным кожухом.</para>
+</listItem>
+</randomList>
+</para>
+<para>Также возможен следующий вариант:<randomList>
+<listItem>
+<para>MTPM-A-J1-42-00-01A-922A-A — Демонтаж вентиляционной решетки;</para>
+</listItem>
+<listItem>
+<para>MTPM-A-J1-42-00-02A-922A-A — Демонтаж вентиляционной решетки с защитным кожухом.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Информационный код и вариант информационного кода</title>
+<para>Информационный код определяет тип информации, содержащейся в МД <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.
+Информационный код состоит из трех алфавитно-цифровых символов.</para>
+<para>Разные варианты информационного кода используются при кодировании нескольких
+МД, относящихся к одному изделию и содержащих однотипную информацию, но
+отличающихся содержанием этой информации. Вариант информационного кода
+представляют одним буквенным символом. Первоначальный вариант имеет код «A»,
+последующим вариантам присваивают коды «B», «C» и так далее. Например, МД с
+инфокодом «238» и вариантом информационного кода «А» содержит информацию о
+зарядке компонента, для которого необходимо
+выполнить дополнительные процедуры. МД с инфокодом «238»
+и вариантом информационного кода «B» содержит информацию о зарядке компонента, которую можно провести без
+проведения дополнительных процедур.</para>
+<para>Пример:<randomList>
+<listItem>
+<para>MTPM-A-12-22-00-00A-238A-A — Распределительное устройство АКБ — Зарядка в составе изделия;</para>
+</listItem>
+<listItem>
+<para>MTPM-A-12-22-00-00A-238B-A — Распределительное устройство АКБ — Зарядка.</para>
+</listItem>
+</randomList>
+</para>
+<table id="tab-002">
+<title>Перечень основных информационных кодов</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center" valign="bottom">
+<para>Код</para>
+</entry>
+<entry colname="col2" align="center" valign="bottom">
+<para>Определение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>001</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Титульный лист</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>00T</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Лист регистрации изменений</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>00S</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перечень действующих модулей данных</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>003</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Лист регистрации временных изменений</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>005</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Перечень принятых сокращений</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>009</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Содержание</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>018</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Введение</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>028</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Общие сведения</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>040</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Описание и работа</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>041</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Описание</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>042</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Работа</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>120</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Предэксплуатационные процедуры</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>310</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Визуальный осмотр</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>311</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Осмотр</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>420</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Общие процедуры по локализации неисправностей</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>520</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Демонтаж</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>720</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Монтаж</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>921</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Замена</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>922</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Демонтаж и монтаж</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+<levelledPara>
+<title>Код расположения изделия</title>
+<para>Код расположения изделия представляют одним буквенным символом латинского
+алфавита:</para>
+<para>А — информация относится к оборудованию, установленному на основном изделии;</para>
+<para>В — информация относится к основным сборочным единицам (деталям), снятым с
+оборудования;</para>
+<para>С — информация относится к оборудованию, размещенному на стендах, независимо
+от того, снято ли изделие с основного изделия, с двигателя или с какой-либо основной
+сборочной единицы;</para>
+<para>D — информация относится ко всем трем местам размещения: А, В и С. Никакие другие
+комбинации недопустимы;</para>
+<para>Т — информация относится к средствам обучения.</para>
+<para>Пример:<randomList>
+<listItem>
+<para>MTPM-A-B0-10-00-00A-040A-A — Башня — Описание;</para>
+</listItem>
+<listItem>
+<para>MTPM-A-D2-20-00-00A-238A-B — Аккумуляторы — Зарядка.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara id="par-002">
+<title>Система нумерации и кодирования</title>
+<para>СНК позволяет идентифицировать СЧ изделия посредством кода, состоящего из трех
+элементов: номера системы, номера подсистемы и номера входящего в нее изделия.
+Соответствующий структурный элемент документации состоит из номера раздела, номера
+подраздела и номера пункта, разделенных между собой дефисами (без пробелов).
+Разделы документации содержат сведения о конструкции изделия, его системах и т.д. Подразделы содержат сведения о
+конструкции СЧ, подсистемах и их СЧ и т. д. Разделы и подразделы состоят
+из пунктов, содержащих сведения об отдельных изделиях, входящих в систему или
+подсистему.</para>
+<para>Установленные в СНК номера и наименования разделов и подразделов (систем и
+подсистем изделия) обязательны для всей эксплуатационной документации. Номера
+изделий (СЧ, пунктов) присваивает разработчик изделия.</para>
+<levelledPara>
+<title>Система (раздел)</title>
+<para>Разделам присваивают порядковые номера от 00 до 20 и от A0 до S5.</para>
+<para>При этом в разделах под номерами от 00 до 20 помещают общую информацию об
+изделии в целом, а в остальных разделах — сведения непосредственно о системах
+изделия.</para>
+<para>Номера систем (разделов) для изделия <internalRef internalRefId="tab-003" internalRefTargetType="irtt02" xlink:href="#tab-003"></internalRef>.</para>
+<table id="tab-003">
+<title>Номера систем (разделов) изделия</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center" valign="bottom">
+<para>Система
+(раздел)</para>
+</entry>
+<entry colname="col2" align="center" valign="bottom">
+<para>Наименование системы (раздела)</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>00</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Общие сведения</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>06</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Габариты</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>07</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Подъем, крепление и транспортирование</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>10</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Хранение</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>11</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Надписи и трафареты</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>12</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Обслуживание</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>20</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Стандартизированные процессы</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>A1</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Силовой привод</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>B0</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Конструкция</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>D2</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Электрические системы</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>E1</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Системы связи</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>G1</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Системы наблюдения</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>J1</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Системы вентиляции, обогрева и охлаждения</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>K1</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Гидравлика</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="top">
+<para>L0</para>
+</entry>
+<entry colname="col2" align="left" valign="top">
+<para>Электронная система</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+<levelledPara>
+<title>Подсистема (подраздел)</title>
+<para>Подразделам (подсистемам) документации присваивают номера: 00, 10, 20, 30 и т. д.
+Номером «00» обозначают общую часть, содержащую сведения общего характера.</para>
+</levelledPara>
+<levelledPara>
+<title>Субподсистема (под-подраздел)</title>
+<para>При описании сложных подсистем может потребоваться более детальная разбивка
+подразделов, которая проводится за счет изменения второй цифры во втором элементе в
+пределах от 1 до 9.</para>
+</levelledPara>
+<levelledPara>
+<title>Изделие (пункт)</title>
+<para>Изделиям, входящим в состав подсистем, присваивают двузначный номер в пределах
+от 01 до 99.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Информационный контрольный номер иллюстрации (ICN)</title>
+<para>Каждой иллюстрации присвоен информационный контрольный номер (ICN — Information
+Control Number) <internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>. ICN является уникальным идентификатором иллюстрации.
+ICN расположен в правом нижнем углу иллюстрации.</para>
+<figure id="fig-002">
+<title>Состав ICN</title>
+<graphic infoEntityIdent="ICN-UNITS-A-000000-0-UNITS-0000K-A-001-01" xlink:href="ICN-UNITS-A-000000-0-UNITS-0000K-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm"></graphic>
+</figure>
+<levelledPara>
+<title>Код основного изделия</title>
+<para>Код основного изделия формируется в соответствии с <internalRef internalRefId="par-003" internalRefTargetType="irtt07" xlink:href="#par-003"></internalRef>.</para>
+</levelledPara>
+<levelledPara id="par-004">
+<title>Отличительный код СЧ изделия (системы)</title>
+<para>Отличительный код СЧ изделия (системы) формируется в соответствии с <internalRef internalRefId="par-001" internalRefTargetType="irtt07" xlink:href="#par-001"></internalRef>.</para>
+</levelledPara>
+<levelledPara>
+<title>Код системы (изделия) по СНК</title>
+<para>Правила присвоения кода по СНК аналогичны <internalRef internalRefId="par-002" internalRefTargetType="irtt07" xlink:href="#par-002"></internalRef> с той разницей, что между
+элементами (система, подсистема, изделие) не ставится дефис.</para>
+</levelledPara>
+<levelledPara>
+<title>Код ответственной компании-контрагента</title>
+<para>Ответственная компания-контрагент — это компания или организация, ответственная за
+иллюстрации.</para>
+</levelledPara>
+<levelledPara>
+<title>Код разработчика</title>
+<para>Код разработчика иллюстраций: UNITS <internalRef internalRefId="par-005" internalRefTargetType="irtt07" xlink:href="#par-005"></internalRef>.</para>
+</levelledPara>
+<levelledPara>
+<title>Уникальный идентификатор</title>
+<para>Уникальный идентификатор состоит из пяти буквенно-цифровых символов. Уникальный
+идентификатор — это порядковый номер иллюстрации для данного изделия и
+разработчика.</para>
+</levelledPara>
+<levelledPara>
+<title>Код варианта</title>
+<para>Код варианта состоит из одного буквенного символа и обозначает варианты основной
+иллюстрации. Код варианта «A» означает основную иллюстрацию. Вариантом иллюстрации является
+дополненная, масштабированная, обрезанная, повернутая, зеркально отображенная и/или снабженная комментариями основная иллюстрация.</para>
+</levelledPara>
+<levelledPara>
+<title>Номер издания</title>
+<para>Номер издания состоит из трех цифр. Он начинается с 001 для каждой базовой
+иллюстрации и должен увеличиваться на единицу при каждом обновлении иллюстрации.</para>
+</levelledPara>
+<levelledPara>
+<title>Гриф секретности</title>
+<para>Гриф секретности иллюстрации определяется двузначным числом. 01 — самый низкий
+уровень грифа секретности. Более высокие значения числа соответствуют более
+высокому уровню секретности.</para>
+</levelledPara>
+</levelledPara>
+</levelledPara>
+</description>
+</content>
+</dmodule>

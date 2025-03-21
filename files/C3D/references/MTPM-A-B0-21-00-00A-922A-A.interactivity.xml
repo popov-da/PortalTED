@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>09/19/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -12,7 +12,7 @@
 <Options>
 <Value name="3DFramePosition" type="string">Right</Value>
 <Value name="3DFrameSize" type="string">40</Value>
-<Value name="SelectedHotspotColor" type="color">#00FF00</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
 <Value name="PDFPublish" type="boolean">No</Value>
 <Value name="PublicPath" type="string">../res/</Value>
 <Value name="UseSVGFilesOnly" type="boolean">No</Value>
@@ -117,8 +117,8 @@
 	</div>
 	<div class="content">
 		<div class="procedure">
-			<div class="preliminaryRqmts" id="preliminaryRqmts_ID3NFPIKMC">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDUNKSTFRP"><table>
+			<div class="preliminaryRqmts" id="preliminaryRqmts_IDW5CV1ESQ">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDMMUJYPVF"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -134,7 +134,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDB3P5GEFM"><table>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDHLZ32TDT"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -152,7 +152,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDWUVFR2G3"><table>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDJSW2ORAL"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -214,7 +214,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDCGZNX3F1"><table>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDVUO4GWHA"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -243,43 +243,46 @@
 				</div>
 			</div>
 			<div>
-<div class="mainProcedure" id="mainProcedure_IDSNPQBP0B">
+<div class="mainProcedure" id="mainProcedure_IDIXOXE3QD">
 </div>
 </div>
 <div class="Procedure levels" id="">
-				<div class="proceduralStep level1 link" id="proceduralStep_ID2A3J4T52">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDBCSO1DNO">
 					<div class="title">Подготовительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDL1VHVYLS">
+					<div class="proceduralStep level2 link" id="proceduralStep_ID0EHGFZBE">
 						<div class="para p">Выполните спуск траверсы <a class="dmRef  link" href="MTPM-A-07-10-00-00A-176A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="176" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="07" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-07-10-00-00A-176A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID5AXWNZFB">
+					<div class="proceduralStep level2 link" id="proceduralStep_ID0OBACTMP">
 						<div class="para p">Демонтируйте натяжитель <a class="dmRef  link" href="MTPM-A-A1-22-05-01A-922A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="01" data-assyCode="05" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-05-01A-922A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDMY45V3ER">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDXZNUHVL1">
 						<div class="para p">Демонтируйте натяжитель цепи <a class="dmRef  link" href="MTPM-A-A1-22-05-02A-922A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="02" data-assyCode="05" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-05-02A-922A-A</div>
 								</div></a>.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDGTAL1YO5">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDJPLQS33C">
 					<div class="title">Демонтаж</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDDZBBMSOY">
-						<div class="para p">Зафиксируйте гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="10" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="10"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDBNFYNAGM">
+						<div class="para p">Зафиксируйте гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="10" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="10"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDXVERTVNY">
-						<div class="para p">Отверните гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="5"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID2J2DBGXB">
+						<div class="para p">Отверните гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="5"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDCPHP0EPR">
-						<div class="para p">Снимите шайбы <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="6"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="9" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="9"></a> и шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="8"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDMEYFF4NR">
+						<div class="para p">Снимите шайбы <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="6"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="9" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="9"></a> и шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="8"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDMVIMY5HX">
-						<div class="para p">Снимите каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="1"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="4"></a> со штифтов <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="7"></a> уха <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="2"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID0SPHXWLG">
+						<div class="para p">Снимите каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="1"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="4"></a> со штифтов <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="7"></a> уха <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="2"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID0IEKTGMG">
+					<div class="proceduralStep level2 link" id="rb8557206-4a6f-4438-b495-ecd6919fe13d">
+						<div class="para p">Демонтируйте ухо <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="2"></a> с балки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="3"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDTLAIK5XX">
 						<div class="para p">Демонтируйте элементы скольжения <a class="dmRef  link" href="MTPM-A-20-12-00-00A-922A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="2" data-subSystemCode="1" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-12-00-00A-922A-A</div>
 								</div></a>.</div>
@@ -290,25 +293,25 @@
 </div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDZ34JBKTM">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDMDEKNGGY">
 					<div class="title">Осмотр перед монтажом</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDCCZN4HJU">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDFJTBG0XY">
 						<div class="para p">
-							Осмотрите каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="1"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="4"></a> на отсутствие сколов, трещин и загрязнений.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDVR3ZCM13">
+							Осмотрите каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="1"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="4"></a> на отсутствие сколов, трещин и загрязнений.</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_ID4O3XZBF2">
 							<div class="para p">
 							При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
 обтирочной ветошью, смоченной растворителем.
 						</div>
 						</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDP1DVKUCZ">
+						<div class="proceduralStep level3 link" id="proceduralStep_IDWNSZK4AL">
 							<div class="para p">При наличии повреждений замените каретки на новые.</div>
 						</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDNENIYYPK">
+				<div class="proceduralStep level1 link" id="proceduralStep_ID0ERYE4X3">
 					<div class="title">Монтаж</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDYTVGLVT5">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDF0ZVJNBS">
 						<div class="para p">Установите элементы скольжения <a class="dmRef  link" href="MTPM-A-20-12-00-00A-922A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="2" data-subSystemCode="1" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-12-00-00A-922A-A</div>
 								</div></a>.</div>
@@ -318,58 +321,58 @@
 						</div>
 </div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDHAK2RB5W">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDPHMGEZ4G">
 						<div class="para p">
 							Установите каретки 
-						<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="1"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="4"></a>, ухо <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="2"></a> на балку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="3"></a>.</div>
+						<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="1"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="4"></a>, ухо <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="2"></a> на балку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="3"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDLNIS2IKL">
+					<div class="proceduralStep level2 link" id="proceduralStep_ID04URJW1Z">
 						<div class="para p">
-							Заведите каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="1"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="4"></a> на штифты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="7"></a> уха
-						<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="2"></a>.</div>
+							Заведите каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="1"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="4"></a> на штифты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="7"></a> уха
+						<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="2"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDU4P1NMYQ">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDN0FDPWUD">
 						<div class="para p">Протрите резьбовые части крепежных элементов обтирочной ветошью, смоченной
 растворителем.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDZD2H5P5B">
-						<div class="para p">Нанесите фиксатор на резьбовую часть шпилек <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="8"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDZDFWDA5K">
+						<div class="para p">Нанесите фиксатор на резьбовую часть шпилек <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="8"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDSMNDSNT2">
+					<div class="proceduralStep level2 link" id="proceduralStep_ID4QZXY1YJ">
 						<div class="para p">
-							Установите шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="8"></a>, шайбы <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="9" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="9"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="6"></a>.</div>
+							Установите шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="8"></a>, шайбы <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="9" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="9"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="6"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDMSS4ESCJ">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDZNUJGGZU">
 						<div class="para p">
-							Установите и заверните гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="10" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="10"></a>.</div>
+							Установите и заверните гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="10" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="10"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDCSYRBN13">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDUZKRDOBT">
 						<div class="para p">
-							Зафиксируйте гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="10" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="10"></a>.</div>
+							Зафиксируйте гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="10" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="10"></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDKV4ZK1GM">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNK4IV53Q">
 						<div class="para p">
-			Установите и заверните гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-title="Демонтаж и монтаж каретки" title="5"></a> согласно схеме установки
-							<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" title="Демонтаж и монтаж каретки"></a> с моментом затяжки<span class="emphasis "> 418 ± 5 H·м.</span>
+			Установите и заверните гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-title="Демонтаж и монтаж каретки" title="5"></a> согласно схеме установки
+							<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" title="Демонтаж и монтаж каретки"></a> с моментом затяжки<span class="emphasis "> 418 ± 5 H·м.</span>
 						</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDAXK0K1UD">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDJROI1BVB">
 					<div class="title">Заключительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDSU0TMODT">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDA0ZHOAFF">
 						<div class="para p">Установите натяжитель <a class="dmRef  link" href="MTPM-A-A1-22-05-01A-922A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="01" data-assyCode="05" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-05-01A-922A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDL4BBDU14">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDLLYG2N3O">
 						<div class="para p">Установите натяжитель цепи <a class="dmRef  link" href="MTPM-A-A1-22-05-02A-922A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="02" data-assyCode="05" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-05-02A-922A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDM4Y4SFVE">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDRCG2N4BA">
 						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDGIF0YS15">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDWWW2I3AZ">
 						<div class="para p">Произведите проверку работоспособности шагового двигателя каретки  <a class="dmRef  link" href="MTPM-A-A1-10-01-00A-340A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="340" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-10-01-00A-340A-A</div>
 								</div></a>.</div>
@@ -377,11 +380,11 @@
 				</div>
 				<div class="figure" id="fig-001">
 					<div class="title">Демонтаж и монтаж каретки</div>
-					<a title="Демонтаж и монтаж каретки" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.cgm">Демонтаж и монтаж каретки</a>
+					<a title="Демонтаж и монтаж каретки" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-B02100-0-MDMKD-00003-A-001-01.svg">Демонтаж и монтаж каретки</a>
 				</div>
 			</div>
-			<div class="closeRqmts" id="closeRqmts_IDP1KWIKOE">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDIUJOKWBR"><table>
+			<div class="closeRqmts" id="closeRqmts_IDOJO3QHY2">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDT2BB5QDE"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>

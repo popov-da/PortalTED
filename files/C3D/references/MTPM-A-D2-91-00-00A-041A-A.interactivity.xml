@@ -232,7 +232,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDDR2ZYRFK">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01.cgm" title="Система контроля"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01.svg" title="Система контроля"></a>
 				</div>
 				<div class="para p">Система контроля представляет собой набор индуктивных датчиков и датчика угла наклона, соединенных с помощью электрического жгута с контроллером.</div>
 				<div class="levelledPara level2 link" id="levelledPara_ID41KLCIAW">
@@ -258,7 +258,7 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Система контроля</div>
-				<a title="Система контроля" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01.cgm">Система контроля</a>
+				<a title="Система контроля" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-D29100-0-MDMKD-00001-A-001-01.svg">Система контроля</a>
 			</div>
 		</div>
 	</div>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg SYSTEM "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY % SVG.External.attrib
+"xmlns:vm2d CDATA #FIXED 'http://www.cortona3d.com/vm2d'
+vm2d:name CDATA #IMPLIED
+vm2d:type CDATA #IMPLIED">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="170mm" height="102mm" viewBox="0 0 964 579" fill="none" fill-rule="evenodd" stroke-miterlimit="5">
+  <title>Без заголовка</title>
+  <desc>"Generator:ParallelGraphics Cortona2D","ProfileId:WebCGM""ProfileEd:2.1""ColourClass:colour""Source:Cortona2D Editor Pro 14.2.0.142""Date:20241122""Company:PIK"</desc>
+  <rect width="964" height="579" fill="#fff"/>
+  <defs/>
+  <g transform="matrix(5.67059,0,0,5.67059,-0,578.7)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+    <text font-family="Arial" font-size="3.49" x="89.7966" y="-79.4666" fill="#000">IСN-MTPM-A-A11000-A-UNITS-000XC-A-001-01</text>
+    <path stroke="#000" d="M90.212,-78.725 L95.256,-78.725 M97.303,-78.725 L106.95,-78.725 M108.41,-78.725 L110.72,-78.725 M124.83,-78.725 L127.15,-78.725 M151.79,-78.725 L154.11,-78.725 M112,-78.725 L123.39,-78.725 M128.63,-78.725 L138.57,-78.725 M155.52,-78.725 L160.45,-78.725 M162.53,-78.725 L165.37,-78.725 M140.18,-78.725 L150.38,-78.725 M92.734,-78.725 L92.734,-73.75 4.8396,-73.75"/>
+    <text font-family="Arial" font-size="3.03" x="4.90695" y="-75.1327" fill="#000">Префикс</text>
+    <text font-family="Arial" font-size="3.03" x="4.99865" y="-69.1338" fill="#000">Код основного изделия</text>
+    <text font-family="Arial" font-size="3.03" x="4.99865" y="-45.2863" fill="#000">Код разработчика</text>
+    <text font-family="Arial" font-size="3.03" x="4.99865" y="-63.1719" fill="#000">Отличительный код СЧ изделия (системы)</text>
+    <text font-family="Arial" font-size="3.03" x="4.99865" y="-39.3244" fill="#000">Уникальный идентификатор (порядковый номер)</text>
+    <text font-family="Arial" font-size="3.03" x="4.99865" y="-57.2101" fill="#000">Код изделия (системы) по СНК</text>
+    <text font-family="Arial" font-size="3.03" x="4.99865" y="-21.4388" fill="#000">Гриф секретности</text>
+    <text font-family="Arial" font-size="3.03" x="4.99865" y="-33.3625" fill="#000">Код варианта</text>
+    <text font-family="Arial" font-size="3.03" x="4.99865" y="-51.2482" fill="#000">Код ответсвенной компании-контрагента</text>
+    <text font-family="Arial" font-size="3.03" x="4.99865" y="-27.4007" fill="#000">Номер издания</text>
+    <path stroke="#000" d="M102.13,-78.725 L102.13,-67.788 4.8396,-67.788 M133.6,-78.725 L133.6,-43.941 4.8396,-43.941 M109.56,-78.725 L109.56,-61.826 4.8396,-61.826 M145.28,-78.725 L145.28,-37.979 4.8396,-37.979 M117.69,-78.725 L117.69,-55.865 4.8396,-55.865 M125.99,-78.725 L125.99,-49.903 4.8396,-49.903 M163.95,-78.725 L163.95,-20.093 4.8396,-20.093 M152.95,-78.725 L152.95,-32.017 4.8396,-32.017 M157.98,-78.725 L157.98,-26.055 4.8396,-26.055"/>
+  </g>
+</svg>

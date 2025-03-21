@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/21/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -55,7 +55,7 @@
 <value name="subSystem" decl-id="SUBSYSTEM" type="string">00</value>
 <value name="systemCode" decl-id="SYSTEM" type="string">12</value>
 <value name="systemDiffCode" decl-id="SDC" type="string">A</value>
-<value name="techName" decl-id="TITLE" type="string">Траверса</value>
+<value name="techName" decl-id="TITLE" type="string">Линейная траверса</value>
 <value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
 &lt;displayText&gt;
 &lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
@@ -84,7 +84,7 @@
 				<div class="issueDate" data-year="2024" data-month="09" data-day="30">
 </div>
 				<div class="dmTitle">
-					<div class="techName">Траверса</div>
+					<div class="techName">Линейная траверса</div>
 					<div class="infoName">Предэксплуатационные процедуры</div>
 				</div>
 			</div>
@@ -116,8 +116,8 @@
 	</div>
 	<div class="content">
 		<div class="procedure">
-			<div class="preliminaryRqmts" id="preliminaryRqmts_IDKVV4LLZY">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDE30MFJMZ"><table>
+			<div class="preliminaryRqmts" id="preliminaryRqmts_IDMOE5HASM">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDZL5520KX"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -133,7 +133,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDHOCDTCDW"><table>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDZAFKMSX1"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -151,7 +151,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDEAQEBT4F"><table>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_ID0MCRD0KV"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -169,7 +169,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDIDLTEEI5"><table>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDSVA2QFKC"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -193,64 +193,64 @@
 				</div>
 			</div>
 			<div>
-<div class="mainProcedure" id="mainProcedure_IDCQV3INR5">
+<div class="mainProcedure" id="mainProcedure_ID4S003ULD">
 </div>
 </div>
 <div class="Procedure levels" id="">
-				<div class="proceduralStep level1 link" id="proceduralStep_ID0TPWIP0E">
+				<div class="proceduralStep level1 link" id="proceduralStep_ID1VBKGZ25">
 					<div class="title">Подготовительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDIOFTALAQ">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDP3WSC5EO">
 						<div class="para p">Обеспечьте доступ к месту выполнения работ.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDSEOQIIDI">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDWU5FI51T">
 						<div class="para p">Установите переходник для крана  <a class="dmRef  link" href="MTPM-A-B0-40-01-00A-922A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="0" data-subSystemCode="4" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-B0-40-01-00A-922A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDEJ5VG5JR">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDUMJA3NET">
 						<div class="para p">Установите такелажный крюк подъемного устройства в овальное звено и создайте преднатяг.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDKDY5T30R">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDWDVEVDMK">
 						<div class="para p">Убедитесь, что все автоматические выключатели в исходном положении <a class="dmRef  link" href="MTPM-A-20-11-00-00A-730A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="730" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="1" data-subSystemCode="1" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-11-00-00A-730A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDBL3FQD1O">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDXPKZ5SB1">
 						<div class="para p">Убедитесь, что все кнопки аварийной остановки в исходном положении <a class="dmRef  link" href="MTPM-A-20-11-00-00A-730A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="730" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="1" data-subSystemCode="1" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-11-00-00A-730A-A</div>
 								</div></a>.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDCIICUWPM">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDMWJIGM5O">
 					<div class="title">Включение аппаратуры электроснабжения</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDOQOLCKQZ">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDM3L5D0UT">
 						<div class="para p">Переведите переключатель распределительного устройств № 1 в положение «ON».</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDPPZJCIBG">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDYIGQC20T">
 						<div class="para p">Убедитесь, что индикатор нагрузки горит зеленым светом.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDHKCYJDID">
+					<div class="proceduralStep level2 link" id="proceduralStep_ID2WWJGBGL">
 						<div class="para p">Переведите переключатель распределительного устройств № 2 в положение «1».</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDUG5UWBP0">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDKOWZHNUE">
 						<div class="para p">Убедитесь, что индикатор нагрузки горит зеленым светом.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDMHH4U3X0">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDLDVHB5IS">
 						<div class="para p">
 							<span class="emphasis ">Убедитесь, что на панели оператора  включился жк-дисплей и была выполнена успешная самодиагностика.</span>
 						</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDIKT3N50K">
+						<div class="proceduralStep level3 link" id="proceduralStep_IDG3DVZFMY">
 							<div class="para p">В случае выявления ошибки при самодиагностике, необходимо прекратить работу и устранить неисправность <a class="dmRef  link" href="MTPM-A-D2-00-00-00A-420A-A.htm"><div class="dmRefIdent">
 										<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="420" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="0" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-00-00-00A-420A-A</div>
 									</div></a>.</div>
 						</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDBZOXAEGQ">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDHQWUMRXP">
 						<div class="para p">Произведите проверку индикации на  лицевой стороне базовой станции репея.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDV1KMKGXM">
+						<div class="proceduralStep level3 link" id="proceduralStep_IDVBUYXPJN">
 							<div class="para p">Нажмите кратковременно кнопку управления.</div>
 						</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDJHGWB1O1">
+						<div class="proceduralStep level3 link" id="proceduralStep_IDAXGTQJWE">
 							<div class="para p">Проверьте индикаторы:</div>
 							<div class="para p">
 								<div class="randomList list  ul">
@@ -271,34 +271,34 @@
 </div>
 								</div>
 							</div>
-							<div class="proceduralStep level4 link" id="proceduralStep_IDPOBRDNTV">
+							<div class="proceduralStep level4 link" id="proceduralStep_IDJ2WK5Y1T">
 								<div class="para p">В случае срабатывания другого цвета индикации, необходимо прекратить работу и устранить неисправность <a class="dmRef  link" href="MTPM-A-D2-90-01-00A-420A-A.htm"><div class="dmRefIdent">
 											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="420" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="0" data-subSystemCode="9" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-D2-90-01-00A-420A-A</div>
 										</div></a>.</div>
 							</div>
 						</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDUDZWRDFE">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDTRUATNPM">
 						<div class="para p">Вывесите траверсу на высоту не менее 1 м от горизонтальной поверхности.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID403OXETI">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDO5ZR42B1">
 						<div class="para p">Выполните проверку траверсы <a class="dmRef  link" href="MTPM-A-12-25-00-00A-280A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="280" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="5" data-subSystemCode="2" data-systemCode="12" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-12-25-00-00A-280A-A</div>
 								</div></a>.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDAFBRQHUF">
+				<div class="proceduralStep level1 link" id="proceduralStep_ID5LRCKHTZ">
 					<div class="title">Заключительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID55CM2RGP">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDPXUYBJ5Y">
 						<div class="para p">Опустите траверсу на рабочую площадку.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDUNJN4RL2">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDLRTLD5Y4">
 						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
 					</div>
 				</div>
 			</div>
-			<div class="closeRqmts" id="closeRqmts_IDOKW4UQ3F">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDTJK1JMWQ"><table>
+			<div class="closeRqmts" id="closeRqmts_ID254YNEZM">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDO5KB1P3P"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>

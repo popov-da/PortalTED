@@ -303,7 +303,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDVNSO1DTA">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.cgm" title="Распределительное устройство АКБ с оборудованием "></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.svg" title="Распределительное устройство АКБ с оборудованием "></a>
 				</div>
 				<div class="para p">РУ АКБ 
 представляет собой шкаф с двумя кронштейнами, внутри которого размещены АКБ и коммутационное оборудование.</div>
@@ -435,13 +435,13 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Распределительное устройство АКБ с оборудованием </div>
-				<a title="Распределительное устройство АКБ с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.cgm">Распределительное устройство АКБ с оборудованием </a>
-				<a title="Распределительное устройство АКБ с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01.cgm">Распределительное устройство АКБ с оборудованием </a>
+				<a title="Распределительное устройство АКБ с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00001-A-001-01.svg">Распределительное устройство АКБ с оборудованием </a>
+				<a title="Распределительное устройство АКБ с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00004-A-001-01.svg">Распределительное устройство АКБ с оборудованием </a>
 			</div>
 			<div class="levelledPara level1 link" id="levelledPara_IDYFPUXGUO">
 				<div class="title">Работа</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.cgm" title="Функциональная схема распределительного устройства АКБ"></a>
+					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.svg" title="Функциональная схема распределительного устройства АКБ"></a>
 				</div>
 				<div class="para p">АКБ выдает силовое питание 12 В на клеммный блок силовой шины 12 В. С данного клеммного блока силовое питание 12 В распределяется на потребителей в распределительном устройстве (РУ) № 1 и в распределительном шкафу (РШ).</div>
 				<div class="para p">Силовое питание 24 В поступает с преобразователя 12 В / 24 В, который находится в РУ № 2, на клеммный блок. Отсюда оно распределяется на все СК, ДКМ   и на КАО. При срабатывании любого СК, ДКМ дискретный сигнал 24 В от него передается в модуль дискретного ввода PLC, расположенный в РУ № 2.</div>
@@ -453,7 +453,7 @@
 				<div class="para p">Управление контактором зарядной станции и контактором РУ АКБ осуществляется с помощью дискретного сигнала 24 В. Каждый из этих сигналов поступает от соответствующего реле управления, расположенного в РУ № 2.</div>
 				<div class="figure" id="fig-002">
 					<div class="title">Функциональная схема распределительного устройства АКБ</div>
-					<a title="Функциональная схема распределительного устройства АКБ" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01" data-href="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_ID2DRYF40D" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.cgm">Функциональная схема распределительного устройства АКБ</a>
+					<a title="Функциональная схема распределительного устройства АКБ" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01" data-href="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_ID2DRYF40D" data-link="link2d" data-src="ICN-MTPM-A-D27004-A-MDMKD-00005-A-001-01.svg">Функциональная схема распределительного устройства АКБ</a>
 				</div>
 			</div>
 		</div>

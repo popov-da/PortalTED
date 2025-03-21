@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0"?>
 <!DOCTYPE dmodule [
-<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01.cgm" NDATA cgm>
-<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01 SYSTEM "ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
 ]>
 <dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
 <identAndStatusSection>
@@ -93,7 +93,7 @@
 </para>
 <figure id="fig-001">
 <title>Основные дефекты лакокрасочного покрытия</title>
-<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00001-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
 <hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_060" applicationStructureName="КОРРОЗИЯ" hotspotTitle=""></hotspot>
 <hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_062" applicationStructureName="ЦАРАПИНА" hotspotTitle=""></hotspot>
 <hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_061" applicationStructureName="СКОЛ" hotspotTitle=""></hotspot>
@@ -119,7 +119,7 @@
 </para>
 <figure id="fig-002">
 <title>Система лакокрасочного покрытия</title>
-<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple"></graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00002-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple"></graphic>
 </figure>
 </levelledPara>
 <levelledPara>
@@ -142,7 +142,7 @@
 </para>
 <figure id="fig-003">
 <title>Царапины</title>
-<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00003-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
 <hotspot id="fig-003-gra-001-hot-001" applicationStructureIdent="AUTOID_019" applicationStructureName="ВЕРХНИЙ СЛОЙ АКРИЛОВОЙ ГРУНТ-ЭМАЛИ" hotspotTitle=""></hotspot>
 <hotspot id="fig-003-gra-001-hot-002" applicationStructureIdent="AUTOID_020" applicationStructureName="НИЖНИЙ ГPУНТОВЫЙ СЛОЙ АКРИЛОВОЙ ГРУНТ-ЭМАЛИ" hotspotTitle=""></hotspot>
 <hotspot id="fig-003-gra-001-hot-003" applicationStructureIdent="AUTOID_001" applicationStructureName="ОКСИДНАЯ ПЛЕНКА" hotspotTitle=""></hotspot>
@@ -173,7 +173,7 @@
 </para>
 <figure id="fig-004">
 <title>Сколы</title>
-<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00004-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
 <hotspot id="fig-004-gra-001-hot-001" applicationStructureIdent="AUTOID_034" applicationStructureName="ВЕРХНИЙ СЛОЙ АКРИЛОВОЙ ГРУНТ-ЭМАЛИ" hotspotTitle=""></hotspot>
 <hotspot id="fig-004-gra-001-hot-002" applicationStructureIdent="AUTOID_035" applicationStructureName="НИЖНИЙ ГPУНТОВЫЙ СЛОЙ АКРИЛОВОЙ ГРУНТ-ЭМАЛИ" hotspotTitle=""></hotspot>
 <hotspot id="fig-004-gra-001-hot-003" applicationStructureIdent="AUTOID_003" applicationStructureName="ОКСИДНАЯ ПЛЕНКА" hotspotTitle=""></hotspot>
@@ -211,7 +211,7 @@
 <para>Обработка детали, пораженной коррозией, сводится к удалению продуктов коррозии путем шлифовки поврежденного участка до металла и защите  путем нанесения на локальном участке нового лакокрасочного покрытия.</para>
 <figure id="fig-005">
 <title>Коррозионные повреждения</title>
-<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple"></graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00005-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple"></graphic>
 </figure>
 </levelledPara>
 </levelledPara>
@@ -235,7 +235,7 @@
 </para>
 <figure id="fig-006">
 <title>Основные механические повреждения</title>
-<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01.cgm" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
+<graphic infoEntityIdent="ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01" xlink:href="ICN-MTPM-A-202000-A-MDMKD-00006-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" xlink:type="simple">
 <hotspot id="fig-006-gra-001-hot-001" applicationStructureIdent="AUTOID_060" applicationStructureName="ВМЯТИНА" hotspotTitle=""></hotspot>
 <hotspot id="fig-006-gra-001-hot-002" applicationStructureIdent="AUTOID_062" applicationStructureName="ТРЕЩИНА" hotspotTitle=""></hotspot>
 <hotspot id="fig-006-gra-001-hot-003" applicationStructureIdent="AUTOID_061" applicationStructureName="ПРОБОИНА" hotspotTitle=""></hotspot>

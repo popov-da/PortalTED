@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <!DOCTYPE dmodule [
-<!ENTITY ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
-<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+<!ENTITY ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
 ]>
 <dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
 <identAndStatusSection>
@@ -92,13 +92,13 @@
 <proceduralStep>
 <title>Демонтаж</title>
 <proceduralStep>
-<para>Отверните гайку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef> от натяжителя <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<para>Отверните гайку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef> от натяжителя <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> цепи башни.</para>
 </proceduralStep>
 <proceduralStep>
 <para>Отвените болт <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
 </proceduralStep>
 <proceduralStep>
-<para>Снимите натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<para>Выведите натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> цепи башни с цепью.</para>
 </proceduralStep>
 <proceduralStep>
 <para>Отверните и снимите гайку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
@@ -107,33 +107,40 @@
 <para>Снимите болт <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, шайбу <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-003"></internalRef>.</para>
 </proceduralStep>
 <proceduralStep>
-<para>Демонтируйте цепь <dmRef>
-<dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
-</dmRefIdent>
-</dmRef>.</para>
+<para>Снимите шплинты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef> с соединительного звена <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выведите соединительное звено <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"></internalRef> из  натяжителя <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> цепи башни, пластин <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
 </proceduralStep>
 </proceduralStep>
 <proceduralStep>
 <title>Осмотр перед монтажом</title>
 <proceduralStep>
-<para>Осмотрите натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на отсутствие сколов, трещин, вмятин  и загрязнений.</para>
+<para>Осмотрите натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> цепи башни на отсутствие сколов, трещин, вмятин  и загрязнений.</para>
 <proceduralStep>
 <para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</para>
 </proceduralStep>
 <proceduralStep>
-<para> При наличии повреждений замените натяжитель на новый.</para>
+<para> При наличии повреждений замените натяжитель цепи башни на новый.</para>
 </proceduralStep>
 </proceduralStep>
 </proceduralStep>
 <proceduralStep>
 <title>Монтаж</title>
 <proceduralStep>
-<para>Установите цепь  <dmRef>
-<dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
-</dmRefIdent>
-</dmRef>.</para>
+<para>Совместите отверстия  цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, пластин <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и натяжителя <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> цепи башни.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите соединительное звено <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в отверстие цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, пластин <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и натяжителя <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> цепи башни.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите шплинты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в соединительное звено <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Уложите  натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> цепи башни и цепь <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в лоток.</para>
 </proceduralStep>
 <proceduralStep>
 <para>Установите шайбу <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, болт <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в отверстие кронштейна.</para>
@@ -142,14 +149,14 @@
 <para>Установите и заверните гайку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на болт <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
 </proceduralStep>
 <proceduralStep>
-<para>Установите натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<para>Установите натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> цепи башни.</para>
 </proceduralStep>
 <proceduralStep>
-<para>Заверните болт <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<para>Заверните болт <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> цепи башни.</para>
 </proceduralStep>
 <proceduralStep>
 <para>Заверните  и зафиксируйте гайкой <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef> натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
-</para>
+						цепи башни.</para>
 </proceduralStep>
 </proceduralStep>
 <proceduralStep>
@@ -174,11 +181,15 @@
 </proceduralStep>
 <figure id="fig-001">
 <title>Демонтаж и монтаж натяжителя цепи  башни</title>
-<graphic infoEntityIdent="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
-<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_054" applicationStructureName="1"></hotspot>
-<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_009" applicationStructureName="2"></hotspot>
-<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_010" applicationStructureName="3"></hotspot>
-<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_011" applicationStructureName="4"></hotspot>
+<graphic infoEntityIdent="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-A12108-0-MDMKD-00002-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_018" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_019" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_020" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_021" applicationStructureName="4"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_046" applicationStructureName="6"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_015" applicationStructureName="7"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_002" applicationStructureName="8"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_014" applicationStructureName="5"></hotspot>
 </graphic>
 </figure>
 </mainProcedure>

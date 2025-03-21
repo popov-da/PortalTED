@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg SYSTEM "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY % SVG.External.attrib
+"xmlns:vm2d CDATA #FIXED 'http://www.cortona3d.com/vm2d'
+vm2d:name CDATA #IMPLIED
+vm2d:type CDATA #IMPLIED">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="170mm" height="210mm" viewBox="0 0 964 1191" fill="none" fill-rule="evenodd" stroke-miterlimit="5">
+  <title>Без заголовка</title>
+  <desc>"Generator:ParallelGraphics Cortona2D","ProfileId:WebCGM""ProfileEd:2.1""ColourClass:colour""Source:Cortona2D Editor Pro 14.2.0.142""Date:20241122""Company:PIK"</desc>
+  <rect width="964" height="1191" fill="#fff"/>
+  <defs/>
+  <g transform="matrix(5.67059,0,0,5.67059,-0,1190.91)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+    <text font-family="Arial" font-size="3.49" x="114.506" y="-131.711" fill="#000">MTPM-A-B0-21-01-00A-040A-A</text>
+    <path stroke="#000" d="M114.86,-130.97 L124.47,-130.97 M126.04,-130.97 L128.18,-130.97 M161.7,-130.97 L163.84,-130.97 M129.75,-130.97 L143.1,-130.97 M145.18,-130.97 L151.11,-130.97 M119.66,-130.97 L119.66,-125.99 6.1594,-125.99"/>
+    <text font-family="Arial" font-size="3.03" x="6.22684" y="-127.377" fill="#000">Код основного изделия</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-123.108" fill="#000">MTGA — Подъемник модулей</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-118.359" fill="#000">MTPM — Линейная траверса</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-120.733" fill="#000">MTPA — Механизированная траверса</text>
+    <path stroke="#000" d="M152.55,-130.97 L160.4,-130.97 M127.11,-130.97 L127.11,-112.08 6.1594,-112.08"/>
+    <text font-family="Arial" font-size="3.03" x="6.31854" y="-113.422" fill="#000" xml:space="preserve">Отличительный код изделия (системы) </text>
+    <text font-family="Arial" font-size="2.2" x="6.29178" y="-109.117" fill="#000">Используется в случае применения изделия того же функционального назначения, но отличающегося составом</text>
+    <text font-family="Arial" font-size="2.2" x="6.37891" y="-106.584" fill="#000" xml:space="preserve">сборочных единиц </text>
+    <text font-family="Arial" font-size="3.49" x="8.10878" y="-100.249" fill="#000">Код изделия (системы) по СНК</text>
+    <text font-family="Arial" font-size="3.03" x="9.22502" y="-74.2967" fill="#000">Пример структуры СНК:</text>
+    <path stroke="#000" d="M148.15,-130.97 L148.15,-33.201 6.1594,-33.201"/>
+    <text font-family="Arial" font-size="3.03" x="6.22684" y="-34.5835" fill="#000" xml:space="preserve">Код демонтажа и вариант кода демонтажа </text>
+    <path stroke="#000" d="M156.48,-130.97 L156.48,-23.906 6.1594,-23.906"/>
+    <text font-family="Arial" font-size="3.03" x="6.22684" y="-25.2902" fill="#000">Информационный код и вариант информационного кода</text>
+    <text font-family="Arial" font-size="2.2" x="6.35847" y="-20.9189" fill="#000">Определяет тип информации, содержащийся в модуле данных, например:</text>
+    <text font-family="Arial" font-size="2.2" x="6.35847" y="-17.5067" fill="#000">028А — Общие сведения</text>
+    <text font-family="Arial" font-size="2.2" x="6.35847" y="-14.9736" fill="#000">041А — Описание</text>
+    <text font-family="Arial" font-size="2.2" x="6.35847" y="-12.4406" fill="#000">311А — Осмотр</text>
+    <text font-family="Arial" font-size="2.2" x="6.35847" y="-9.90747" fill="#000">922А — Демонтаж и монтаж</text>
+    <path stroke="#000" d="M162.77,-130.97 L162.77,-3.6677 6.1594,-3.6677"/>
+    <text font-family="Arial" font-size="3.03" x="6.22684" y="-5.0502" fill="#000" xml:space="preserve">Код расположения изделия </text>
+    <text font-family="Arial" font-size="2.2" x="6.46819" y="-0.708432" fill="#000">А — информация относится к изделиям, установленным на основном изделии</text>
+    <text font-family="Arial" font-size="2.2" x="6.29178" y="-30.2417" fill="#000" xml:space="preserve">Используется для кодирования компонента внутри изделия и указания на альтернативные составные части изделия </text>
+    <path stroke="#000" stroke-width="0.35" d="M6.2694,-98.651 L60.269,-98.651 60.269,-103.65 M6.2694,-103.65 L6.2694,-39.248 97.052,-39.248 97.052,-103.65 6.2694,-103.65"/>
+    <path stroke="#000" d="M97.052,-71.45 L136.43,-71.45 136.43,-130.97"/>
+    <text font-family="Arial" font-size="3.49" x="80.5502" y="-100.196" fill="#000">B0-21-01</text>
+    <path stroke="#000" d="M80.896,-99.455 L84.706,-99.455 M86.121,-99.455 L87.705,-99.455 M88.34,-99.455 L89.33,-99.455 M91.236,-99.455 L94.166,-99.455"/>
+    <text font-family="Arial" font-size="2.2" x="9.35195" y="-94.6617" fill="#000" xml:space="preserve">Система (Раздел) </text>
+    <text font-family="Arial" font-size="2.2" x="9.28956" y="-89.7484" fill="#000" xml:space="preserve">Подсистема (Подраздел) </text>
+    <text font-family="Arial" font-size="2.2" x="9.35195" y="-84.8244" fill="#000" xml:space="preserve">Субподсистема (Подподраздел) </text>
+    <text font-family="Arial" font-size="2.2" x="9.28849" y="-79.9218" fill="#000" xml:space="preserve">Изделие (Компонент) </text>
+    <path stroke="#000" d="M82.801,-99.455 L82.801,-93.651 9.1561,-93.651 M86.913,-99.455 L86.913,-88.738 9.1561,-88.738 M88.835,-99.455 L88.835,-83.825 9.1561,-83.825 M92.701,-99.457 L92.701,-78.912 9.1561,-78.912"/>
+    <path stroke="#000" d="M42.104,-71.885 L58.865,-71.885 58.865,-65.916 42.104,-65.916 Z"/>
+    <path stroke="#000" d="M32.119,-63.853 L48.88,-63.853 48.88,-57.885 32.119,-57.885 Z"/>
+    <text font-family="Arial" font-size="2.34" font-weight="bold" x="45.5761" y="-68.878" fill="#000">B0</text>
+    <text font-family="Arial" font-size="2.34" x="48.5681" y="-68.878" fill="#000">-00-00</text>
+    <text font-family="Arial" font-size="1.24" x="46.4608" y="-67.5011" fill="#000">(Конструкция)</text>
+    <text font-family="Arial" font-size="2.34" x="35.6555" y="-60.8466" fill="#000">B0-</text>
+    <text font-family="Arial" font-size="2.34" font-weight="bold" x="39.2978" y="-60.8466" fill="#000">20</text>
+    <text font-family="Arial" font-size="2.34" x="41.9012" y="-60.8466" fill="#000">-00</text>
+    <text font-family="Arial" font-size="1.24" x="33.0164" y="-59.4696" fill="#000">(Подвижные конструкции)</text>
+    <text font-family="Arial" font-size="2.34" x="25.6703" y="-52.815" fill="#000">B0-</text>
+    <text font-family="Arial" font-size="2.34" font-weight="bold" x="29.3126" y="-52.815" fill="#000">21</text>
+    <text font-family="Arial" font-size="2.34" x="31.916" y="-52.815" fill="#000">-00</text>
+    <text font-family="Arial" font-size="1.24" x="25.2668" y="-51.438" fill="#000">(Рама подвижная)</text>
+    <text font-family="Arial" font-size="2.34" x="45.7051" y="-52.815" fill="#000">B0-</text>
+    <text font-family="Arial" font-size="2.34" font-weight="bold" x="49.3473" y="-52.815" fill="#000">22</text>
+    <text font-family="Arial" font-size="2.34" x="51.9507" y="-52.815" fill="#000">-00</text>
+    <text font-family="Arial" font-size="1.24" x="45.451" y="-51.438" fill="#000">(Опора колесная)</text>
+    <text font-family="Arial" font-size="2.34" x="55.6259" y="-60.8466" fill="#000">B0-</text>
+    <text font-family="Arial" font-size="2.34" font-weight="bold" x="59.2681" y="-60.8466" fill="#000">30</text>
+    <text font-family="Arial" font-size="2.34" x="61.8716" y="-60.8466" fill="#000">-00</text>
+    <text font-family="Arial" font-size="1.24" x="56.8641" y="-59.4696" fill="#000">(Основание)</text>
+    <path stroke="#000" d="M50.485,-65.916 L50.485,-64.885 M40.499,-57.885 L40.499,-56.853 M30.514,-49.853 L30.514,-48.821"/>
+    <path stroke="#000" d="M12.149,-47.79 L28.909,-47.79 28.909,-41.821 12.149,-41.821 Z"/>
+    <text font-family="Arial" font-size="2.34" x="15.8194" y="-44.7834" fill="#000">B0-21-</text>
+    <text font-family="Arial" font-size="2.34" font-weight="bold" x="22.8445" y="-44.7834" fill="#000">01</text>
+    <text font-family="Arial" font-size="1.24" x="18.3594" y="-43.4064" fill="#000">(Балка)</text>
+    <text font-family="Arial" font-size="2.34" x="35.7526" y="-44.7834" fill="#000">B0-21-</text>
+    <text font-family="Arial" font-size="2.34" font-weight="bold" x="42.7777" y="-44.7834" fill="#000">02</text>
+    <text font-family="Arial" font-size="1.24" x="35.4978" y="-43.4064" fill="#000">(Сварной подвес)</text>
+    <path stroke="#000" d="M52.09,-63.853 L68.85,-63.853 68.85,-57.885 52.09,-57.885 Z"/>
+    <path stroke="#000" d="M42.169,-55.821 L58.929,-55.821 58.929,-49.853 42.169,-49.853 Z"/>
+    <path stroke="#000" d="M22.134,-55.821 L38.894,-55.821 38.894,-49.853 22.134,-49.853 Z"/>
+    <path stroke="#000" d="M32.214,-47.79 L48.974,-47.79 48.974,-41.821 32.214,-41.821 Z"/>
+    <path stroke="#000" stroke-dasharray="1.44,0.36" d="M63.228,-64.772 L91.173,-64.885 M63.228,-56.853 L91.173,-56.853 M63.228,-48.821 L91.173,-48.821"/>
+    <text font-family="Arial" font-size="2.2" x="75.0293" y="-53.523" fill="#000" xml:space="preserve">Субподсистема </text>
+    <text font-family="Arial" font-size="2.2" x="74.8798" y="-51.0006" fill="#000" xml:space="preserve">(Подподраздел) </text>
+    <text font-family="Arial" font-size="2.2" x="78.6429" y="-45.529" fill="#000" xml:space="preserve">Изделие </text>
+    <text font-family="Arial" font-size="2.2" x="76.731" y="-42.969" fill="#000" xml:space="preserve">(Компонент) </text>
+    <text font-family="Arial" font-size="2.2" x="76.7923" y="-61.5922" fill="#000" xml:space="preserve">Подсистема </text>
+    <text font-family="Arial" font-size="2.2" x="76.7073" y="-59.0322" fill="#000" xml:space="preserve">(Подраздел) </text>
+    <text font-family="Arial" font-size="2.2" x="78.6015" y="-69.5968" fill="#000" xml:space="preserve">Система </text>
+    <text font-family="Arial" font-size="2.2" x="78.6445" y="-67.0637" fill="#000" xml:space="preserve">(Раздел) </text>
+    <path stroke="#000" d="M20.529,-47.79 L20.529,-48.821 40.594,-48.821 40.594,-47.79 M30.514,-55.821 L30.514,-56.853 50.549,-56.853 50.549,-55.821 M40.499,-63.853 L40.499,-64.885 60.47,-64.885 60.47,-63.853"/>
+    <text font-family="Arial" font-size="3.49" x="114.506" y="-196.259" fill="#000">MTPM-UNITS-MM000-00</text>
+    <path stroke="#000" d="M114.86,-195.55 L124.47,-195.55 M126.37,-195.55 L135.99,-195.55 M137.88,-195.55 L149.04,-195.55 M150.65,-195.55 L153.97,-195.55 M119.66,-195.55 L119.66,-190.58 6.1594,-190.58"/>
+    <text font-family="Arial" font-size="3.03" x="6.22684" y="-191.958" fill="#000">Код основного изделия</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-187.689" fill="#000">MTGA — Подъемник модулей</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-167.81" fill="#000">LOAP0 — Ведомость эксплуатационных документов (List Of Applicable Publications)</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-182.94" fill="#000">MTPM — Линейная траверса</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-163.06" fill="#000">MS005 — Регламент технического обслуживания (Maintenance Management System)</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-160.686" fill="#000">IPС00 — Каталог сборочных деталей и единиц (Illustrated Parts Catalog)</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-185.315" fill="#000">MTPA — Механизированная траверса</text>
+    <text font-family="Arial" font-size="2.07" x="6.31168" y="-165.435" fill="#000">MM000 — Руководство по технической эксплуатации (Maintenance Manual)</text>
+    <path stroke="#000" d="M131.18,-195.55 L131.18,-176.66 6.1594,-176.66"/>
+    <text font-family="Arial" font-size="3.03" x="6.22684" y="-178.003" fill="#000">Код издающей организации</text>
+    <text font-family="Arial" font-size="3.03" x="6.4694" y="-172.041" fill="#000">Аббревиатура документа</text>
+    <path stroke="#000" d="M143.46,-195.55 L143.46,-170.7 6.1595,-170.7 M152.31,-195.55 L152.31,-154.38 6.1595,-154.38"/>
+    <text font-family="Arial" font-size="3.03" x="6.22684" y="-155.761" fill="#000">Код основного изделия</text>
+    <text font-family="Arial" font-size="2.07" x="6.35101" y="-151.493" fill="#000">Номер книг используется в тех случаях, когда документ разбит на книги:</text>
+    <text font-family="Arial" font-size="2.07" x="6.35101" y="-149.118" fill="#000">00 — Устанавливается в том случае, если книга содержит только одну часть</text>
+    <text font-family="Arial" font-size="2.07" x="6.35101" y="-146.743" fill="#000">01 — Устанавливается для первой части книги, состоящей из нескольких частей</text>
+    <text font-family="Arial" font-size="2.07" x="6.35101" y="-144.369" fill="#000">99 — Используется для листа утверждения</text>
+  </g>
+  <g id="AUTOID_034" vm2d:name="" vm2d:type="grnode">
+    <g id="AUTOID_090" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(5.67059,0,0,5.67059,-0,1190.91)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10">
+        <path fill="#fff" stroke="#000" d="M81.5,-208.75 L88.5,-208.75 88.5,-201.75 81.5,-201.75 Z"/>
+        <text font-family="Arial" font-size="4.88" x="83.3529" y="-203.48" fill="#000">А</text>
+      </g>
+    </g>
+    <g transform="matrix(5.67059,0,0,5.67059,-0,1190.91)">
+      <text font-family="Arial" font-size="2.79" x="72.2737" y="-197.988" fill="#000">(КОД ДОКУМЕНТА)</text>
+    </g>
+  </g>
+  <g id="AUTOID_035" vm2d:name="" vm2d:type="grnode">
+    <g id="AUTOID_092" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(5.67059,0,0,5.67059,-0,1190.91)" stroke-width="0.5" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10">
+        <path fill="#fff" stroke="#000" d="M81.5,-142.32 L88.5,-142.32 88.5,-135.32 81.5,-135.32 Z"/>
+        <text font-family="Arial" font-size="4.88" x="83.2649" y="-137.048" fill="#000">Б</text>
+      </g>
+    </g>
+    <g transform="matrix(5.67059,0,0,5.67059,-0,1190.91)">
+      <text font-family="Arial" font-size="2.79" x="68.4718" y="-131.556" fill="#000">(КОД МОДУЛЯ ДАННЫХ)</text>
+    </g>
+  </g>
+</svg>

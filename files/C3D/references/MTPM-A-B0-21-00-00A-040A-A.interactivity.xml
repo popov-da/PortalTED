@@ -178,7 +178,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDGIZFRUFI">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01.cgm" title="			Каретка"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01.svg" title="			Каретка"></a>
 				</div>
 				<div class="para p">Каретка образовывается тремя основными силовыми элементами: каркасом каретки под винт, каркасом каретки и каркасом уха. Каркас уха устанавливается по центру между каркасом каретки под винт и каркасом каретки и фиксируется с помощью четырех шпилек с гайками. В каретке установлены элементы скольжения, обеспечивающие возможность ее перемещения по направляющим основания траверсы от стопора до резиновой накладки, расположенной на перемычке кронштейна вала ведомой звездочки.</div>
 				<div class="levelledPara level2 link" id="levelledPara_IDXVXQIVAF">
@@ -209,8 +209,8 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">			Каретка</div>
-				<a title="			Каретка" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDL0IKFTKV" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01.cgm">			Каретка</a>
-				<a title="			Каретка" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01.cgm">			Каретка</a>
+				<a title="			Каретка" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDL0IKFTKV" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-B02100-A-MDMKD-00003-A-001-01.svg">			Каретка</a>
+				<a title="			Каретка" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-B02100-A-MDMKD-00004-A-001-01.svg">			Каретка</a>
 			</div>
 		</div>
 	</div>

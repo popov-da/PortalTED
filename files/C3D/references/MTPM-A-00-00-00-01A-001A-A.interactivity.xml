@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/22/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -70,10 +70,9 @@
 </metadata>
 </SimulationInformation>
 <Resources>
-<Picture descr="logo-mkd--black-red" flags="32">ICN-MTPM-A-000000-A-MDMKD-00001-A-001-01.svg</Picture>
 <Picture descr="Логотип" flags="33">ICN-MTPM-A-000000-A-MDMKD-00002-A-001-01.svg</Picture>
 <Picture descr="1ЛОГО-UNITS" flags="33">ICN-MTPM-A-000000-A-MDMKD-00003-A-001-01.svg</Picture>
-<Picture descr="short-logo" flags="33">ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01.svg</Picture>
+<Picture descr="LOG01" flags="33">ICN-UNITS-A-000000-A-UNITS-LOG01-A-001-01.svg</Picture>
 </Resources>
 <DocumentTemplate><![CDATA[<div class="dmodule">
 	<div class="identAndStatusSection link" data-link="toggleStatus">
@@ -98,7 +97,7 @@
 			<div class="security" data-securityClassification="01">
 </div>
 			<div class="logo">
-				<img class="symbol" src="ICN-MTPM-A-000000-A-MDMKD-00004-A-001-01.svg" height="38px" width="38px">
+				<img class="symbol" src="ICN-UNITS-A-000000-A-UNITS-LOG01-A-001-01.svg" height="38px" width="38px">
 			</div>
 			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
 				<div class="enterpriseName">МОДУЛЬ МКД</div>
@@ -126,10 +125,10 @@
 		<div class="frontMatter">
 			<div class="frontMatterTitlePage">
 <div class="FM__pmTitle">
-<div class="pmTitle">Линейная траверса</div>
+<div class="pmTitle">Руководство по технической эксплуатации</div>
 </div>
 <div class="pmCode" data-modelIdentCode="MTPM" data-pmIssuer="UNITS" data-pmNumber="MM000" data-pmVolume="00">MTPM-UNITS-MM000-00</div>
-<div class="issueInfo" data-inWork="00" data-issueNumber="001">
+<div class="issueInfo" data-inWork="01" data-issueNumber="001">
 </div>
 <div class="issueDate" data-year="2024" data-month="11" data-day="22">
 </div>
@@ -141,11 +140,8 @@
 <div class="leftArea">
 <div class="publisher">
 <div class="publisherBody">
-<div class="publisherLogo">
-					<img class="symbol" src="ICN-MTPM-A-000000-A-MDMKD-00003-A-001-01.svg" height="31px" width="106px">
-				</div>
-<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
-				</div>
+<div class="responsiblePartnerCompany">
+</div>
 </div>
 </div>
 <div class="manufacturer">

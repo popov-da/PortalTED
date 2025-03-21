@@ -189,7 +189,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDF5IZV3DF">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01.cgm" title="Башня"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01.svg" title="Башня"></a>
 				</div>
 				<div class="para p">Башня представляет собой сборную конструкцию из стенок, крышек башни, опор и такелажного элемента с возможностью перемещения в горизонтальной плоскости относительно основания траверсы.</div>
 				<div class="levelledPara level2 link" id="levelledPara_IDVBDT23J5">
@@ -215,7 +215,7 @@
 			</div>
 			<div class="figure" id="fig-001">
 				<div class="title">Башня</div>
-				<a title="Башня" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDOXI1XEY5" data-link="link2d" data-src="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01.cgm">Башня</a>
+				<a title="Башня" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDOXI1XEY5" data-link="link2d" data-src="ICN-MTPM-A-B01000-A-MDMKD-00002-A-001-01.svg">Башня</a>
 			</div>
 		</div>
 	</div>

@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/22/24</ModificationDate>
+<ModificationDate>12/20/24</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -69,9 +69,9 @@
 </metadata>
 </SimulationInformation>
 <Resources>
-<Picture descr="Схема" flags="33">ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01.svg</Picture>
-<Picture descr="ICN-MTPM-A-D27002-0-MDMKD-00002-A-001-01-1" flags="33">ICN-MTPM-A-D27002-A-MDMKD-00002-A-001-01.svg</Picture>
-<Picture descr="ICN-MTPM-A-D27002-0-MDMKD-00003-A-001-01-1" flags="33">ICN-MTPM-A-D27002-A-MDMKD-00003-A-001-01.svg</Picture>
+<Picture descr="ICN-MTPM-A-D27002-0-MDMKD-00002-A-001-01-1" flags="33">ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01.svg</Picture>
+<Picture descr="ICN-MTPM-A-D27002-0-MDMKD-00003-A-001-01-1" flags="33">ICN-MTPM-A-D27002-A-MDMKD-00002-A-001-01.svg</Picture>
+<Picture descr="ICN-MTPM-A-D27002-0-MDMKD-00004-A-001-01-1" flags="33">ICN-MTPM-A-D27002-A-MDMKD-00003-A-001-01.svg</Picture>
 </Resources>
 <DocumentTemplate><![CDATA[<div class="dmodule">
 	<div class="identAndStatusSection link" data-link="toggleStatus">
@@ -118,10 +118,10 @@
 		</div>
 	</div>
 	<div class="content">
-		<div class="description levels" id="description_ID05A5UUVZ">
-			<div class="levelledPara level1 link" id="levelledPara_IDWWMGUVYW">
+		<div class="description levels" id="description_IDH12KEHT4">
+			<div class="levelledPara level1 link" id="levelledPara_IDVCT0XWZI">
 				<div class="title">Общие сведения</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID0L2T3M3J">
+				<div class="levelledPara level2 link" id="levelledPara_IDVZUT5ECK">
 					<div class="title">Назначение</div>
 					<div class="para p">
 						Распределительное устройство (РУ) № 2  предназначен для:<div class="randomList list  ul">
@@ -153,7 +153,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID4PJVWGLA">
+				<div class="levelledPara level2 link" id="levelledPara_IDUPEX1WBV">
 					<div class="title">Состав</div>
 					<div class="para p">						В состав РУ № 2 входят:<div class="randomList list  ul">
 							<div class="listItem li">
@@ -330,7 +330,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDOE5I54JE">
+				<div class="levelledPara level2 link" id="levelledPara_ID14VEXZ5M">
 					<div class="title">Технические характеристики</div>
 					<div class="para p">Технические характеристики распределительного устройства № 2 <a class="internalRef irtt02 link" data-index="1" href="#tab-002" title=""></a>.</div>
 					<div class="table" id="tab-002"><div class="table-contents">
@@ -351,26 +351,26 @@
 					</div></div><br class="table-break">
 				</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDYOSBSGGK">
+			<div class="levelledPara level1 link" id="levelledPara_IDMNOWWIGI">
 				<div class="title">Размещение компонентов</div>
 				<div class="para p">РУ № 2 размещено на основание траверсы.</div>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDMRCQIPSV">
+			<div class="levelledPara level1 link" id="levelledPara_IDDSCUWVPH">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00002-A-001-01.cgm" title="Распределительное устройство № 1 с оборудованием "></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01.svg" title="Распределительное устройство № 2 с оборудованием "></a>
 				</div>
 				<div class="para p">РУ № 2 
 представляет собой шкаф с двумя кронштейнами, внутри которого размещены силовое и коммутационное оборудование.</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID014OLLIL">
+				<div class="levelledPara level2 link" id="levelledPara_IDVEQ0JHOJ">
 					<div class="title">Шкаф</div>
 					<div class="para p">Шкаф состоит из металлического каркаса, дверца и двух замков. На корпусе шкафа имеются отверстия для установки вентиляционных решеток и электрических соединителей. На дверце шкафа предусмотрены отверстия для установки вентиляторов, индикаторов, кнопки аварийного остановки и переключателя. В шкафу имеется кронштейн для установки датчика угла наклона. Также в шкафу предусмотрена монтажная панель, на которую устанавливают навесное оборудование. </div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDALIX0JQJ">
+				<div class="levelledPara level2 link" id="levelledPara_IDYX2HYAIX">
 					<div class="title">Кронштейн</div>
 					<div class="para p">Кроштейн представляет собой сварную конструкцию из полки, стенки и косынки. В кронштейне предусмотрены отверстия для крепления к шкафу и для установки на траверсу.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDZFYAQIM5">
+				<div class="levelledPara level2 link" id="levelledPara_ID2ECDYA2M">
 					<div class="title">Светодиодный индикатор</div>
 					<div class="para p">В шкафу установлено два светодиодных индикатора:<div class="randomList list  ul">
 							<div class="listItem li">
@@ -386,28 +386,28 @@
 						</div>
 					</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDBJRVAC02">
+				<div class="levelledPara level2 link" id="levelledPara_IDG52P3SNC">
 					<div class="title">Кнопка аварийной остановки</div>
 					<div class="para p">Кнопка аварийной остановки (КАО) служит для быстрого снятия напряжения с реле управления и остановки силовых агрегатов.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDQSY40OJC">
+				<div class="levelledPara level2 link" id="levelledPara_IDBBTJQKKH">
 					<div class="title">Переключатель</div>
 					<div class="para p">Переключатель позволяет запитывать РУ №2 как от АКБ, так и от зарядной станции.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDATE4QMSA">
+				<div class="levelledPara level2 link" id="levelledPara_IDGQKJIAXG">
 					<div class="title">Управляемый маршрутизатор</div>
 					<div class="para p">Управляемый маршрутизатор предназначен для организации внешнего канала передачи данных по Wi-Fi на частотах 2,4 и 5 ГГц.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDKLHTGPE3">
+				<div class="levelledPara level2 link" id="levelledPara_ID255BMJPP">
 					<div class="title">Неуправляемый коммутатор</div>
 					<div class="para p">Неуправляемый коммутатор предназначен для автоматического распределения Ethernet по потребителям с функцией автоопределения скорости 10/100 Мбит/с.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID0YP43KIP">
+				<div class="levelledPara level2 link" id="levelledPara_IDWIELJBJS">
 					<div class="title">Преобразователь 12 В / 24 В</div>
 					<div class="para p">Преобразователь 12 В / 24 В предназначен 
 		 для преобразования напряжения с 12 В  (10 А) на 24 В (5 А).</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDWMYLIQ1D">
+				<div class="levelledPara level2 link" id="levelledPara_ID3XNXRY4R">
 					<div class="title">Промежуточное электромеханическое реле однорядное </div>
 					<div class="para p">Промежуточное электромеханическое реле предназначено для управления электрическими цепями с помощью сигналов малой мощности.  </div>
 					<div class="para p">В шкафу установлено двадцать два промежуточных электромеханических реле:<div class="randomList list  ul">
@@ -439,7 +439,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDF2R1SUCH">
+				<div class="levelledPara level2 link" id="levelledPara_IDULBPC0T3">
 					<div class="title">Промежуточное электромеханическое реле двухрядное</div>
 					<div class="para p">Промежуточное реле предназначено для управления электрическими цепями с помощью сигналов малой мощности.  </div>
 					<div class="para p">В шкафу установлено семь промежуточных электромеханических реле:<div class="randomList list  ul">
@@ -456,11 +456,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID2MN2QZ5B">
+				<div class="levelledPara level2 link" id="levelledPara_IDXMKDMOZH">
 					<div class="title">Проходная клемма с предохранителем</div>
 					<div class="para p">Проходная клемма с предохранителем предназначена  для соединения двух и более проводников, а также для защиты электрических цепей от перегрузок и коротких замыканий.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID15YZ5PL2">
+				<div class="levelledPara level2 link" id="levelledPara_IDS45THKET">
 					<div class="title">Проходная клемма</div>
 					<div class="para p">Проходная клемма предназначена  для соединения двух и более проводников. Она также используется для создания клеммных блоков, через которые осуществляется распределение сигнала на потребителей.  </div>
 					<div class="para p">
@@ -483,28 +483,28 @@
 </div>
 							<div class="listItem li">
 <div class="listItemBody">
-								<div class="para p">клеммный блок из четырех проходных клемм 1689990000 предназначен для распределения плюсового силового питания 24 В по потребителям;</div>
+								<div class="para p">клеммный блок из четырех проходных клемм 1689990000 предназначен для распределения плюсового и минусового силового питания 24 В по потребителям;</div>
 							</div>
 </div>
 							<div class="listItem li">
 <div class="listItemBody">
-								<div class="para p">клеммный блок из двух проходных клемм 7904290000 предназначен для распределения плюсового силового питания 24 В по потребителям;</div>
+								<div class="para p">клеммный блок из двух проходных клемм 7904290000 предназначен для распределения плюсового силового питания 12 В по потребителям;</div>
 							</div>
 </div>
 							<div class="listItem li">
 <div class="listItemBody">
-								<div class="para p">клеммный блок из двух проходных клемм 7904290000 предназначен для распределения минусового силового питания 24 В по потребителям.</div>
+								<div class="para p">клеммный блок из двух проходных клемм 7904290000 предназначен для распределения минусового силового питания 12 В по потребителям.</div>
 							</div>
 </div>
 						</div>
 					</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDRPOC2MLW">
+				<div class="levelledPara level2 link" id="levelledPara_IDNTU3BOLD">
 					<div class="title">Проходная клемма с заземлением</div>
 					<div class="para p">Проходная клемма с заземлением предназначена для соединения двух и более
 проводников и для организации защитного заземления.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID43Y350K3">
+				<div class="levelledPara level2 link" id="levelledPara_ID1VSPTK2D">
 					<div class="title">Модульный контактор</div>
 					<div class="para p">В шкафу установлено два модульных контактора: <div class="randomList list  ul">
 							<div class="listItem li">
@@ -520,102 +520,68 @@
 						</div>
 					</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDP4XML0KT">
+				<div class="levelledPara level2 link" id="levelledPara_ID02AVQBEJ">
 					<div class="title">Модуль процессорный PLC</div>
 					<div class="para p">Модуль процессорный PLC предназначен 
 		 для обработки и выполнения программ по заданным алгоритмам.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDJF2UGXIX">
+				<div class="levelledPara level2 link" id="levelledPara_IDUDQ2P2BX">
 					<div class="title">Модуль дискретного ввода PLC</div>
 					<div class="para p">Модуль дискретного ввода PLC предназначен для получения и обработки цифровых сигналов с внешних устройств.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID3BHESJAH">
+				<div class="levelledPara level2 link" id="levelledPara_IDBO5YU3G2">
 					<div class="title">Модуль дискретного вывода PLC </div>
 					<div class="para p">Модуль дискретного вывода PLC предназначен для управления  внешних устройств на основе полученных сигналов от процессора.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_ID5E4RJQUZ">
+				<div class="levelledPara level2 link" id="levelledPara_IDJEQONIQD">
 					<div class="title">Модуль расширения RS-485 PLC</div>
 					<div class="para p">Модуль расширения RS-485 PLC предназначен для приема и передачи данных по протоколу RS-485, Modbus.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDADSFDSL1">
+				<div class="levelledPara level2 link" id="levelledPara_ID4V0GXDNP">
 					<div class="title">Преобразователь 12 В / 5 В</div>
 					<div class="para p">Преобразователь 12 В / 5 В предназначен 
 		 для преобразования напряжения с 12 В  (0,8 А) на 5 В (2 А). Каждый преобразователь получает питания со своего отдельного АКБ.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDJEE0JTDJ">
+				<div class="levelledPara level2 link" id="levelledPara_IDA0JYRQ1Q">
 					<div class="title">Концевой фиксатор</div>
 					<div class="para p">Концевой фиксатор обеспечивает фиксацию и ограничивает перемещение установленного оборудования на DIN-рейке.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDCDB5ES53">
+				<div class="levelledPara level2 link" id="levelledPara_IDYDRLMNLA">
 					<div class="title">DIN-рейка</div>
 					<div class="para p">DIN-рейка обеспечивает установку оборудования на монтажную панель.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDPC2XVGQY">
+				<div class="levelledPara level2 link" id="levelledPara_ID4GHE4UCQ">
 					<div class="title">Перфорированный кабельный канал</div>
 					<div class="para p">Перфорированный кабельный канал предназначен для прокладки проводников и кабелей, а также для обеспечения их вентиляции.</div>
 				</div>
-				<div class="levelledPara level2 link" id="levelledPara_IDZXSFN04C">
+				<div class="levelledPara level2 link" id="levelledPara_IDJAT5RP3N">
 					<div class="title">Крышка перфорированного кабельного канала</div>
 					<div class="para p">Крышка перфорированного кабельного канала предназначена для защиты кабелей и проводников от механических повреждений, пыли и загрязнений, а также для предотвращения случайного контакта с проводниками.</div>
 				</div>
 			</div>
 			<div class="figure" id="fig-001">
-				<div class="title">Распределительное устройство № 1 с оборудованием </div>
-				<a title="Распределительное устройство № 1 с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27002-A-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-D27002-A-MDMKD-00002-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00002-A-001-01.cgm">Распределительное устройство № 1 с оборудованием </a>
-				<a title="Распределительное устройство № 1 с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27002-A-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-D27002-A-MDMKD-00003-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00003-A-001-01.cgm">Распределительное устройство № 1 с оборудованием </a>
+				<div class="title">Распределительное устройство № 2 с оборудованием </div>
+				<a title="Распределительное устройство № 2 с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01.svg">Распределительное устройство № 2 с оборудованием </a>
+				<a title="Распределительное устройство № 2 с оборудованием " class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-D27002-A-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-D27002-A-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00002-A-001-01.svg">Распределительное устройство № 2 с оборудованием </a>
 			</div>
-			<div class="levelledPara level1 link" id="levelledPara_IDU2JN4Q10">
+			<div class="levelledPara level1 link" id="levelledPara_IDA2YIYRF4">
 				<div class="title">Работа</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01.cgm" title="Функциональная схема распределительного устройства № 1"></a>
+					<a class="internalRef irtt01 link" data-figure="2" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00003-A-001-01.svg" title="Функциональная схема распределительного устройства № 2"></a>
 				</div>
-				<div class="para p">При включении выключателя нагрузки силовое питание 12 В поступает с каждого РУ АКБ, проходя через распределительный шкаф (РШ) и подается на соответствующий клеммный блок.  Когда на каждом клеммном блоке появляется силовое питание 12 В, загорается одноименный индикатор питания линии АКБ, сигнализируя о наличии напряжения. Далее силовое питание 12 В, проходя каждый через свой автомат защиты, подается на соответствующий преобразователь 12 В / 24 В. После преобразования напряжения, силовое питание 24 В, поступившее с одного РУ АКБ, распределяется на вентиляторы с термостатом, реле управления тормозами и преобразователь 24 В / 48 В. С другого РУ АКБ силовое питание 24 В поступает только на свой преобразователь 24 В / 48 В. Силовой сигнал 48 В, поступающий от каждого преобразователя, проходит через свой контактор и подается на общий клеммный блок, откуда распределяется на каждый шаговый серводрайвер.</div>
-				<div class="para p">Силовое питание 24 В поступает с преобразователя 12 В / 24 В, расположенного в РУ № 2, на клеммный блок. От клеммного блока оно распределяется на все СК и на КАО. При срабатывании любого СК дискретный сигнал 24 В от него передается в модуль дискретного ввода PLC, расположенный в РУ № 2.</div>
-				<div class="para p">Каждый дискретный сигнал 24 В поступает с модуля дискретного вывода PLC, расположенного в РУ № 2, на свой контактор, проходя через клеммы КАО. При нажатии КАО эти сигналы перестают поступать на контакторы. Одновременно КАО информирует процессор о своем нажатии, передавая дискретный сигнал 24 В на модуль дискретного ввода PLC, расположенный в РУ № 2.</div>
-				<div class="para p">В каждый шаговый серводрайвер поступают: <div class="randomList list  ul">
-						<div class="listItem li">
-<div class="listItemBody">
-							<div class="para p">управляющие сигналы по цифровой шине ETHERCAT от модуля процессорного PLC, расположенный в РУ № 2;</div>
-						</div>
-</div>
-						<div class="listItem li">
-<div class="listItemBody">
-							<div class="para p">дискретные сигналы 24   В от реле сигнала разрешения движения, расположенный в РУ № 2;</div>
-						</div>
-</div>
-						<div class="listItem li">
-<div class="listItemBody">
-							<div class="para p">дискретные сигналы 12   В от энкодера шагового двигателя , расположенный на траверсе.</div>
-						</div>
-</div>
-					</div>
-				</div>
-				<div class="para p">Каждый шаговый серводрайвер выдает: <div class="randomList list  ul">
-						<div class="listItem li">
-<div class="listItemBody">
-							<div class="para p">управляющие сигналы по цифровой шине ETHERCAT на  модуль процессорного PLC, расположенный в РУ № 2;</div>
-						</div>
-</div>
-						<div class="listItem li">
-<div class="listItemBody">
-							<div class="para p">дискретные сигналы 48   В на электродвигатель шагового двигателя, расположенный на траверсе;</div>
-						</div>
-</div>
-						<div class="listItem li">
-<div class="listItemBody">
-							<div class="para p">дискретные сигналы 24   В на реле управления тормоза, который управляет электротормозом шагового двигателя;</div>
-						</div>
-</div>
-						<div class="listItem li">
-<div class="listItemBody">
-							<div class="para p">дискретные сигналы 24   В на реле сигнала аварии и на реле сигнала состояния, расположенные в РУ № 2.</div>
-						</div>
-</div>
-					</div>
-				</div>
+				<div class="para p">При переключении устройства в положение 1 или 2, источники питания для системы изменяются. В положении 1 силовое питание 12 В поступает от каждого РУ АКБ, а в положении 2 — от зарядной станции. После переключения силовое питание 12 В подается на вводной клеммный блок, который выполняет функцию распределителя питания.</div>
+				<div class="para p">От вводного клеммного блока питание 12 В передается на два преобразователя: преобразователь 12 В / 24 В и преобразователь 12 В / 5 В.</div>
+				<div class="para p">После получения питания 12 В, преобразователь 12 В / 5 В передает его через предохранители на каждое РУ АКБ, обеспечивая питание базовых станций, установленных на каждом РУ АКБ. Преобразователь 12 В / 24 В, получив питание, подает его на клеммный блок, откуда оно далее распределяется на потребителей через каждый свой предохранитель, установленных в РУ №2.</div>
+				<div class="para p">Когда приемник получает управляющий сигнал от пульта оператора, он начинает выдавать дискретные сигналы 24 В на вход МД ввода. Эти сигналы используются для активации соответствующих функций системы. Для управления питанием приемника предусмотрен контактор, который получает дискретные сигналы 24 В от МД вывода PLC. Этот сигнальный вход используется для включения или выключения контактора, что позволяет управлять подачей питания на приемник через команды МП PLC. </div>
+				<div class="para p">При работе сам МП PLC начинает опрашивать и управлять периферийными устройствами с помощью различных коммуникационных интерфейсов, таких как цифровая шина PLC, ETHERCAT и ETHERNET. </div>
+				<div class="para p">Для управления модулями световой индикации используется реле управления индикацией, которое пропускает силовое питание 24 В на модули индикации. Управление реле осуществляется с помощью управляющего дискретного сигнала 24 В, который поступает от МД вывода PLC. Когда реле получает сигнал, оно замыкает контакт, и силовое питание 24 В подается на модули световой индикации, активируя их работу.</div>
+				<div class="para p">При срабатывании индуктивных датчиков управляющие дискретные сигналы 24 В поступают на реле блокировки движения. Эти сигналы активируют реле, которое, в свою очередь, обеспечивает прохождение силового питания 24 В на МД ввода PLC и на шаговые серводрайверы, установленные в РУ №1. Отдельно сигнал с индуктивного датчика нулевого положения башни поступает на реле нулевого положения. Когда реле активируется, оно пропускает силовое питание 24 В, которое поступает только на МД ввода PLC, обеспечивая корректную работу системы на основе положения башни.</div>
+				<div class="para p">Также реализованы сигналы разрешения движения, которые поступают от МД вывода PLC ввиде дискретных сигналов 24 В, проходят через реле разрешения движения на шаговые серводрайверы, установленные в РУ №1. Управляющий сигнал при этом поступает на реле разрешения движения через нормально замкнутый контактор. При аварийной ситуации кнопка КАО посылает дискретный сигнал 24 В на контактор, тем сам переключает нормально замкнутые контакты на нормально разомкнутые и сигналы с МД вывода PLC перестают поступать на серводрайверы. </div>
+				<div class="para p">При неисправности серводрайвера он посылает дискретный сигнал 24 В на реле сигнала состояния, в результате чего силовое питание 24 В поступает на МД ввода PLC в виде дискретного сигнала 24 В.</div>
+				<div class="para p">При возникновении ошибки в работе серводрайвера необходимо сбросить ошибку, подав управляющий дискретный сигнал 24 В с МД вывода PLC на реле обнуления ошибки. В результате силовое питание 24 В поступит на вход шагового серводрайвера в виде дискретного сигнала 24 В после прохождения через реле.</div>
 				<div class="figure" id="fig-002">
-					<div class="title">Функциональная схема распределительного устройства № 1</div>
-					<a title="Функциональная схема распределительного устройства № 1" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_IDFPWUUNPM" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00001-A-001-01.cgm">Функциональная схема распределительного устройства № 1</a>
+					<div class="title">Функциональная схема распределительного устройства № 2</div>
+					<a title="Функциональная схема распределительного устройства № 2" class="graphic link" data-figure="2" data-infoEntityIdent="ICN-MTPM-A-D27002-A-MDMKD-00003-A-001-01" data-href="ICN-MTPM-A-D27002-A-MDMKD-00003-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="graphic_ID45FGDESU" data-link="link2d" data-src="ICN-MTPM-A-D27002-A-MDMKD-00003-A-001-01.svg">Функциональная схема распределительного устройства № 2</a>
 				</div>
 			</div>
 		</div>

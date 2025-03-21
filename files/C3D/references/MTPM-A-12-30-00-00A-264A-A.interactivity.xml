@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/21/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -116,8 +116,8 @@
 	</div>
 	<div class="content">
 		<div class="procedure">
-			<div class="preliminaryRqmts" id="preliminaryRqmts_IDBS32FYPD">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDUOEJHNXM"><table>
+			<div class="preliminaryRqmts" id="preliminaryRqmts_IDMBPO3ZF5">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDGVMVAVEA"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -133,7 +133,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDT3JZRH5I"><table>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDFP3GEPZX"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -198,7 +198,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_ID40LVPCI5"><table>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_ID2ZNZY32N"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -283,7 +283,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDIUBVRY25"><table>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDEWZG3ICW"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -319,70 +319,70 @@
 				</div>
 			</div>
 			<div>
-<div class="mainProcedure" id="mainProcedure_IDHRTOIOL0">
+<div class="mainProcedure" id="mainProcedure_IDXG2LOWVG">
 </div>
 </div>
 <div class="Procedure levels" id="">
-				<div class="proceduralStep level1 link" id="proceduralStep_IDPRUMAOW4">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDJ2FHYWOL">
 					<div class="title">Подготовительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDGV0PSXYG">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDDOK2P2VV">
 						<div class="para p">Выполните спуск траверсы  <a class="dmRef  link" href="MTPM-A-07-10-00-00A-176A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="176" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="07" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-07-10-00-00A-176A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDI4WUMPRC">
+					<div class="proceduralStep level2 link" id="proceduralStep_ID4ARBV1SD">
 						<div class="para p">Переведите переключатель распределительного устройств № 1 в положение «OFF». </div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDQQXY1VJ4">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDIVB1BUQI">
 						<div class="para p">Переведите переключатель распределительного устройств № 2 в положение «0».</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID3XXXIP33">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDIPL55VVT">
 						<div class="para p">Проконтролируйте, что индикаторы нагрузок погасли. </div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDGIMTXRYH">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDQDQUIYXJ">
 						<div class="para p">Приготовьте мыльный раствор, используя на 10 л воды 1/10 куска твердого нейтрального
 мыла.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDMZMAUFUI">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDV132NCFU">
 					<div class="title">Очистка</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDAMOVZNEQ">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDOHXHJSBL">
 						<div class="para p">Удалите пыль с поверхностей траверсы волосяной щеткой или сухой обтирочной ветошью.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDC5DEIIUJ">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDVFFETSCN">
 						<div class="para p">Нанесите на поверхности траверсы мыльный раствор.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDUVJPKLNU">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDSDYBMZEM">
 						<div class="para p">Выдержите паузу не менее 10 мин.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDPVTQUPST">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDDZPUDFN2">
 						<div class="para p">Смойте мыльный раствор с поверхности траверсы.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID4S4A0X4B">
+					<div class="proceduralStep level2 link" id="proceduralStep_ID5E5FAQSU">
 						<div class="para p">Удалите остатки воды сухой обтирочной ветошью.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDL13QJOCM">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDGJH4FZCJ">
 						<div class="para p">Просушите траверсу от 15 до 30 мин.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDQADJ3ODK">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDIQ435C1L">
 						<div class="para p">Осмотрите траверсу на отсутствие масляных пятен.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_ID1MIJ23NQ">
+						<div class="proceduralStep level3 link" id="proceduralStep_IDNXTAS0VW">
 							<div class="para p">При наличии масляных пятен и других водонерастворимых загрязнений удалите их обтирочной ветошью смоченной растворителем.</div>
 						</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDPNOVEPV0">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDBVQFJA40">
 						<div class="para p">Удалите остатки растворителя сухой безворсовой тканью.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDWF4UZVI4">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDJF3NOWVJ">
 					<div class="title">Заключительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDCVO1O4C1">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDMQRAOM14">
 						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
 					</div>
 				</div>
 			</div>
-			<div class="closeRqmts" id="closeRqmts_IDGPXJGTE0">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDVDFU0HPQ"><table>
+			<div class="closeRqmts" id="closeRqmts_IDROYT5JZ5">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDKBZNLO0J"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>

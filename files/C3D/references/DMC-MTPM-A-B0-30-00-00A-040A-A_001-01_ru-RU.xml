@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0"?>
 <!DOCTYPE dmodule [
-<!ENTITY ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
-<!ENTITY ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
-<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+<!ENTITY ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
 ]>
 <dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
 <identAndStatusSection>
@@ -133,8 +133,8 @@
 <title>Сварной каркас балки</title>
 <para>Каркас является основным несущим элементом конструкции. Сварной каркас балки выполнен из стандартного двутаврового профиля из низколегированной стали. </para>
 <para>Основные типы соединений — сварные и резьбовые.</para>
-<para>Торцевые опоры крепятся к сварному каркасу балки с помощью восьми одинаковых ушей. Уши расположены по четыре с каждой стороны на противоположных концах каркаса. Они представляют собой пластины с резьбовым отверстием по центру и привариваются к стенке и поясам двутавра.</para>
-<para>На концах каркаса, в стенке двутавра, предусмотрены по два отверстия с каждой стороны. Эти отверстия преднозначенны для установки вала ведущей шестерни и прокладки электропроводки.</para>
+<para>Торцевые опоры крепятся к сварному каркасу балки с помощью восьми одинаковых ушей. Уши расположены по четыре с каждой стороны. Они представляют собой пластины с резьбовым отверстием по центру и привариваются к стенке и поясам двутавра.</para>
+<para>На концах каркаса, в стенке двутавра, предусмотрены по два отверстия. Эти отверстия предназначенны для установки вала ведущей шестерни и прокладки электропроводки.</para>
 <para>По краям каркаса приварены кронштейны для установки редуктора, а также кронштейны кабелей датчиков и жгутов двигателей.</para>
 <para>Сверху к каркасу приварен лоток для цепи, а по краям лотка — высокие кронштейны дальномера.</para>
 <para>На каркасе предусмотрены специальные площадки для установки распределительных устройств и распределительных устройств АКБ. Площадки имеют одинаковую конструкцию и состоят из следующих элементов:<randomList>
@@ -152,11 +152,11 @@
 <para>Слева от кронштейна распределительных устройств приварены четыре кронштейна для установки распределительного шкафа. </para>
 <para>В верхнем поясе двутавра вырезан специальный паз,
 					в который вварен кронштейн кабеля двигателя. Ниже к стенке двутавра приварен кронштейн жгутов двигателей.</para>
-<para>На верхнем поясе двутавра приварены стопоры башни. Каждая набойка, установленная на стопоре, крепится клеем и дополнительно прижимается винтами для надежности. Аналогичным образом установлены стопоры кареток.</para>
+<para>На верхнем и нижнем поясах двутавра с внутренней стороны приварены стопоры башни и кареток. На каждый  стопор устанавливается набойка. Набойка  крепится к стопору клеевым соединением и дополнительно прижимается винтами для надежности.</para>
 <para>В центральной	части стенки двутавра установлен лоток для электрических жгутов. Он крепится с помощью 15 болтов. Для дополнительной жесткости конструкции предусмотрены две верхние и одна нижняя распорки, которые фиксируются с помощью винтовых соединений. К торцу лотка электрических жгутов с помощью болтового соединения крепится горизонтальный кронштейн дальномера.</para>
-<para>На торце лотка электрических жгутов с помощью болтового соединения установлен горизонтальный кронштейн дальномера.</para>
+<para>В центральной части к торцу лотка электрических жгутов с помощью болтового соединения установлен горизонтальный кронштейн дальномера.</para>
 <para> К нижнему поясу двутавра приварен зацеп. В зацепе имеется отверстие для установки и крепления грузов.</para>
-<para>Для точного линейного перемещения кареток и опор предусмотрены направляющие:<randomList>
+<para>Для точного линейного перемещения кареток и опор башни предусмотрены направляющие:<randomList>
 <listItem>
 <para>восемь нижних направляющих одинаковой конструкции привариваются к нижнему поясу двутавра — четыре снизу и четыре сверху.</para>
 </listItem>
@@ -170,12 +170,12 @@
 <levelledPara>
 <title>Торцевая опора</title>
 <para>В основании предусмотрены две торцевые опоры для установки траверсы на ровную горизонтальную поверхность. Обе опоры одинаковы по конструкции и составу. Каждая опора крепится к сварному каркасу балки с помощью винтового соединения через четыре уха.</para>
-<para>Торцевая опора представляет собой сварную конструкцию из стенки и косынки, выполненную из стали толщиной 10 мм. В торцевой стенке выполнено по четыре отверстия для крепления её к сварному каркасу балки.</para>
+<para>Торцевая опора представляет собой сварную конструкцию из стенки и косынки, выполненную из стали толщиной 10 мм. В  стенке выполнено по четыре отверстия для крепления её к сварному каркасу балки.</para>
 </levelledPara>
 </levelledPara>
 <figure id="fig-001">
 <title>Основание</title>
-<graphic infoEntityIdent="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" xlink:type="simple">
+<graphic infoEntityIdent="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-B03000-A-MDMKD-00001-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" xlink:type="simple">
 <hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_019" applicationStructureName="ТОРЦЕВАЯ ОПОРА" hotspotTitle=""></hotspot>
 <hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_020" applicationStructureName="ТОРЦЕВАЯ ОПОРА" hotspotTitle=""></hotspot>
 <hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_031" applicationStructureName="СТОПОР КАРЕТОК" hotspotTitle=""></hotspot>
@@ -194,7 +194,7 @@
 <hotspot id="fig-001-gra-001-hot-016" applicationStructureIdent="AUTOID_038" applicationStructureName="МЕСТО УСТАНОВКИ РАСПРЕДЕЛИТЕЛЬНОГО ШКАФА" hotspotTitle=""></hotspot>
 <hotspot id="fig-001-gra-001-hot-017" applicationStructureIdent="AUTOID_022" applicationStructureName="АМОРТИЗАТОР АКБ" hotspotTitle=""></hotspot>
 </graphic>
-<graphic infoEntityIdent="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<graphic infoEntityIdent="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-B03000-0-MDMKD-00002-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
 <hotspot id="fig-001-gra-001-hot-018" applicationStructureIdent="AUTOID_026" applicationStructureName="ПЛАТФОРМА ДЛЯ ШУ"></hotspot>
 <hotspot id="fig-001-gra-001-hot-019" applicationStructureIdent="AUTOID_029" applicationStructureName="ПЛАСТИНКА ПОД УСТАНОВКУ РЕДУКТОРА"></hotspot>
 <hotspot id="fig-001-gra-001-hot-020" applicationStructureIdent="AUTOID_036" applicationStructureName="КРОНШТЕЙН ПОД ЖГУТЫ ЭЛЕКТРИЧЕСКИЕ"></hotspot>

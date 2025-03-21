@@ -3,7 +3,7 @@
 <SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
 <SimulationInformation>
 <ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
-<ModificationDate>11/21/24</ModificationDate>
+<ModificationDate>03/20/25</ModificationDate>
 <SpecID>S1000D4_1_TEXT</SpecID>
 <SpecVersion>1.14</SpecVersion>
 <SpecLang>ru</SpecLang>
@@ -69,7 +69,7 @@
 </metadata>
 </SimulationInformation>
 <Resources>
-<Picture descr="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01" flags="33">ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.svg</Picture>
+<Picture descr="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01" flags="33">ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg</Picture>
 </Resources>
 <DocumentTemplate><![CDATA[<div class="dmodule">
 	<div class="identAndStatusSection link" data-link="toggleStatus">
@@ -117,8 +117,8 @@
 	</div>
 	<div class="content">
 		<div class="procedure">
-			<div class="preliminaryRqmts" id="preliminaryRqmts_IDS1GFQIRK">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDWWPGUVX2"><table>
+			<div class="preliminaryRqmts" id="preliminaryRqmts_IDQBTC3NFW">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_ID44EHQNKK"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -134,7 +134,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDRV1WN0OH"><table>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDNQAQIEOR"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -166,7 +166,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDTR2RLR40"><table>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDBA1BJJNK"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -212,7 +212,7 @@
 </tr>
 				</tbody>
 </table></span>
-				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDOJAJRZCS"><table>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDUA305SJT"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>
@@ -236,115 +236,120 @@
 				</div>
 			</div>
 			<div>
-<div class="mainProcedure" id="mainProcedure_IDCJ44IAFC">
+<div class="mainProcedure" id="mainProcedure_IDAQ0JTQ0Y">
 </div>
 </div>
 <div class="Procedure levels" id="">
-				<div class="proceduralStep level1 link" id="proceduralStep_IDLYQWYS42">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDHXRDZO1Y">
 					<div class="title">Подготовительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID13CENRFI">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDULYUKUVT">
+						<div class="para p">Переместите каретку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="2"></a> в нулевое положение.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDWPP3CBEV">
 						<div class="para p">Выполните спуск траверсы <a class="dmRef  link" href="MTPM-A-07-10-00-00A-176A-A.htm"><div class="dmRefIdent">
 									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="176" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="07" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-07-10-00-00A-176A-A</div>
 								</div></a>.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDV4VRV3WC">
-						<div class="para p">Осмотрите натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="2"></a>  на отсутствие сколов, трещин, вмятин  и загрязнений.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_ID4TPTV1EA">
-							<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</div>
-						</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDKDMGRCMR">
-							<div class="para p">При наличии повреждений замените натяжитель <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="2"></a> на новый <a class="dmRef  link" href="MTPM-A-A1-22-05-01A-922A-A.htm"><div class="dmRefIdent">
-										<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="01" data-assyCode="05" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-05-01A-922A-A</div>
-									</div></a>.</div>
-						</div>
-					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_ID2QWKH2KX">
-						<div class="para p">Осмотрите натяжитель цепи каретки   <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="5"></a> на отсутствие сколов, трещин, вмятин  и загрязнений.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_ID44VPOX50">
-							<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</div>
-						</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDH2OT4DR5">
-							<div class="para p">При наличии повреждений замените натяжитель цепи каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="5"></a> на новый <a class="dmRef  link" href="MTPM-A-A1-22-05-02A-922A-A.htm"><div class="dmRefIdent">
-										<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="02" data-assyCode="05" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-05-02A-922A-A</div>
-									</div></a>.</div>
-						</div>
-					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDZEKGGF3R">
-						<div class="para p">Осмотрите пины, звенья и ролики цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a> на отсутствие трещин, деформаций, разрушений и
-других механических и коррозионных повреждений.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDRUWNPWHC">
-							<div class="para p">При необходимости выполните замену поврежденного звена цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a> или, в случае
-невозможности устранения неисправности, замените цепь <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a> на новую <a class="dmRef  link" href="MTPM-A-A1-22-03-00A-922A-A.htm"><div class="dmRefIdent">
-										<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-03-00A-922A-A</div>
-									</div></a>.</div>
-						</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID5JR2RUI0">
+						<div class="para p">Осмотрите систему перемещения каретки
+							<a class="dmRef  link" href="MTPM-A-A1-22-00-00A-310A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="310" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-00-00A-310A-A</div>
+								</div></a>.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_IDPNUUA2FA">
-					<div class="title">Регулировка цепи</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDRHMODVAD">
-						<div class="para p">
-							Переместите каретку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="3"></a> в крайнее положение.</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDBSKPEUSG">
+					<div class="title">Натяжение цепи</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDBFFNWX4T">
+						<div class="para p">Выполните замер 
+						величины h нижней петли цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> в средней ее части.</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDQYXCMBBK">
-						<div class="para p">
-							Выполните замер 
-						величины h нижней петли цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a> в средней ее части.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDO21RIWTY">
-							<div class="para p">В случае если величина  h менее 70 мм, выполните регулировку цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID5M0FRPTD">
+						<div class="para p">В случае если величина  <span class="emphasis ">h менее 70 мм</span>, выполните регулировку цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a>.</div>
+						<div class="proceduralStep level3 link" id="stp-001">
+							<div class="para p">Поверните гайку 
+						<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="3"></a> натяжителя цепи каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="4"></a> на (10 ± 1) оборотов против часовой стрелки.</div>
 						</div>
-					</div>
-					<div class="proceduralStep level2 link" id="stp-001">
-						<div class="para p">
-							Поверните контргайку 
-						<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="4"></a> натяжителя цепи каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="5"></a> на (10 ± 1) оборотов против часовой стрелки.</div>
-					</div>
-					<div class="proceduralStep level2 link" id="stp-002">
-						<div class="para p">
-							Поверните гайку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="6"></a> 
-						натяжителя цепи каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="5"></a> на (10 ± 1) оборотов по часовой стрелке, обеспечив натяжение цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a>.</div>
+						<div class="proceduralStep level3 link" id="stp-002">
+							<div class="para p">Поверните стопорную гайку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="5"></a> 
+						натяжителя цепи каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="4"></a> на (10 ± 1) оборотов по часовой стрелке, обеспечив натяжение цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a>.</div>
+						</div>
 					</div>
 					<div class="proceduralStep level2 link" id="stp-003">
-						<div class="para p">
-							Выполните повторный замер 
-						величины h  нижней петли цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a> в средней ее части.</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDRLTK0F4L">
-							<div class="para p">В случае если величина h более 70 мм, завершите регулировку цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a>.</div>
+						<div class="para p">Выполните повторный замер 
+						величины h  нижней петли цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> в средней ее части.</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDDFS1MMJU">
+							<div class="para p">В случае если величина <span class="emphasis ">h более 70 мм</span>, завершите регулировку цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a>.</div>
 						</div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDPOIP4HNU">
-							<div class="para p">В случае если величина h менее 70 мм, повторите <a class="internalRef irtt08 link levelled2" data-index="2.3" href="#stp-001" title=""></a>, <a class="internalRef irtt08 link levelled2" data-index="2.4" href="#stp-002" title=""></a> и <a class="internalRef irtt08 link levelled2" data-index="2.5" href="#stp-003" title=""></a> последовательно увеличивая число оборотов  до максимально возможногого  хода шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="7"></a>.</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDWHJ0IGYI">
+							<div class="para p">В случае если величина <span class="emphasis ">h менее 70 мм</span>, повторите <a class="internalRef irtt08 link levelled3" data-index="2.2.1" href="#stp-001" title=""></a>, <a class="internalRef irtt08 link levelled3" data-index="2.2.2" href="#stp-002" title=""></a> и <a class="internalRef irtt08 link levelled2" data-index="2.3" href="#stp-003" title=""></a> последовательно увеличивая число оборотов  до максимально возможногого  хода шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="6"></a>.</div>
 						</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDDUT4IASH">
-						<div class="para p">Если максимального хода шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="7"></a> не достаточно для  регулировки цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a> и  величина h все еще менее 70 мм, выполните удаление  звена цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a>.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDIXWMOSXO">
+						<div class="para p">Если максимального хода шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="6"></a> не достаточно для  регулировки цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> и  величина <span class="emphasis ">h все еще менее 70 мм</span>, выполните удаление  звена цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a>.</div>
 						<div>
 <div class="note" id="not-001">
-							<div class="notePara p">Допускается удалять не более трех звеньев цепи.</div>
+							<div class="notePara p">Допускается удалять не более трех звеньев цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a>.</div>
 						</div>
 </div>
-						<div class="proceduralStep level3 link" id="proceduralStep_IDV3HMNHGJ">
-							<div class="para p">В случае если удаление звеньев  цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a> не компенсировало допустимую величину прогиба, замените цепь <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-title="Регулировка цепи" title="1"></a> на новую <a class="dmRef  link" href="MTPM-A-A1-22-03-00A-922A-A.htm"><div class="dmRefIdent">
+						<div class="proceduralStep level3 link" id="proceduralStep_IDT0B1XJSA">
+							<div class="para p">В случае если удаление звеньев  цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> не компенсировало допустимую величину прогиба, замените цепь <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> на новую <a class="dmRef  link" href="MTPM-A-A1-22-03-00A-922A-A.htm"><div class="dmRefIdent">
 										<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-03-00A-922A-A</div>
 									</div></a>.</div>
 						</div>
 					</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDDEAXAY05">
-						<div class="para p">Повторите вышеуказанные процедуры для цепи другой каретки.</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDHN1QWOFY">
+						<div class="para p">Повторите вышеуказанные процедуры для цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> другой каретки.</div>
 					</div>
 				</div>
-				<div class="proceduralStep level1 link" id="proceduralStep_ID2ORCV1WN">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDE5UQR3PV">
+					<div class="title">Ослабление цепи</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDX4SA5PXI">
+						<div class="para p">Выполните замер 
+						величины h нижней петли цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> в средней ее части.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID20ZGU1AE">
+						<div class="para p">В случае если величина  <span class="emphasis ">h более 90 мм</span>, выполните регулировку цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a>.</div>
+						<div class="proceduralStep level3 link" id="stp-004">
+							<div class="para p">Поверните стопорную гайку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="5"></a> 
+						натяжителя цепи каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="4"></a> на (10 ± 1) оборотов против часовой стрелки, обеспечив ослабление цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a>.</div>
+						</div>
+						<div class="proceduralStep level3 link" id="stp-005">
+							<div class="para p">Поверните гайку 
+						<a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="3"></a> натяжителя цепи каретки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="4"></a> на (10 ± 1) оборотов по часовой стрелке.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="stp-006">
+						<div class="para p">Выполните повторный замер 
+						величины h  нижней петли цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> в средней ее части.</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDNRGUHQ2K">
+							<div class="para p">В случае если величина  <span class="emphasis ">h менее 90 мм</span>, завершите регулировку цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a>.</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDHJDRXAMK">
+							<div class="para p">В случае если величина <span class="emphasis ">h более 90 мм</span>, повторите <a class="internalRef irtt08 link levelled3" data-index="3.2.1" href="#stp-004" title=""></a>, <a class="internalRef irtt08 link levelled3" data-index="3.2.2" href="#stp-005" title=""></a> и <a class="internalRef irtt08 link levelled2" data-index="3.3" href="#stp-006" title=""></a> последовательно увеличивая число оборотов  до максимально возможногого  хода шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="6"></a>.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNT3Z43HR">
+						<div class="para p">Если максимального хода шпильки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="6"></a> не достаточно для  регулировки цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> и  величина <span class="emphasis ">h все еще более 90 мм</span>, выполните замену цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> на новую <a class="dmRef  link" href="MTPM-A-A1-22-03-00A-922A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="03" data-subSubSystemCode="2" data-subSystemCode="2" data-systemCode="A1" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-A1-22-03-00A-922A-A</div>
+								</div></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDJZQQVRYG">
+						<div class="para p">Повторите вышеуказанные процедуры для цепи <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="true" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-title="Регулировка цепи" title="1"></a> другой каретки.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_ID2YTXE2BA">
 					<div class="title">Заключительные работы</div>
-					<div class="proceduralStep level2 link" id="proceduralStep_IDMJRVRNFK">
+					<div class="proceduralStep level2 link" id="proceduralStep_IDCXWEACZK">
 						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
 					</div>
 				</div>
 				<div class="figure" id="fig-001">
 					<div class="title">Регулировка цепи</div>
-					<a title="Регулировка цепи" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" data-type="simple" id="graphic_IDRCFUMPCC" data-link="link2d" data-src="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm">Регулировка цепи</a>
+					<a title="Регулировка цепи" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01" data-href="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg">Регулировка цепи</a>
 				</div>
 			</div>
-			<div class="closeRqmts" id="closeRqmts_IDSGK3DDKP">
-				<span class="reqCondGroup formalTable" id="reqCondGroup_IDAG1FHX4E"><table>
+			<div class="closeRqmts" id="closeRqmts_IDW4OCC2ZP">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDKNID4DVZ"><table>
 <caption></caption>
 <caption class="rest"></caption>
 <thead>

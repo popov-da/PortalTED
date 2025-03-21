@@ -1,0 +1,335 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-122100-0-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-122100-0-MDMKD-00004-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-122100-0-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-122100-0-MDMKD-00005-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="12" subSystemCode="2" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="01" day="28"></issueDate>
+<dmTitle>
+<techName>Места смазки</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Данный раздел описывает процедуры по смазке узлов и деталей траверсы. Смазка применяется для уменьшения трения, предотвращения износа и защиты от коррозии. Важнейшими этапами работы являются определение правильных мест смазки, выбор смазочного материала и регулярный контроль за состоянием смазочных покрытий.</para>
+</levelledPara>
+<levelledPara>
+<title>Места смазки</title>
+<para>Смазка применяется в определённых местах траверсы, где происходит высокое трение или повышенная нагрузка на механизмы. Ниже представлены основные места:<randomList>
+<listItem>
+<para>цепь башни;</para>
+</listItem>
+<listItem>
+<para>цепь каретки;</para>
+</listItem>
+<listItem>
+<para>редукторы;</para>
+</listItem>
+<listItem>
+<para>элементы скольжения каретки;</para>
+</listItem>
+<listItem>
+<para>элементы скольжения опоры.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики смазки</title>
+<para>Технические характеристики масла SKF LHMT 68 <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table frame="all" id="tab-001">
+<title>Технические характеристики масла SKF LHMT 68</title>
+<tgroup cols="2" colsep="1" rowsep="1" align="left">
+<colspec colnum="1" colname="col1" colwidth="1.00*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1.29*"></colspec>
+<thead>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Тип</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Комплексное синтетическое масло на основе минерального масла с добавками</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Консистенция</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Жидкое масло, не консистентное</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Вязкость (при 40°C)</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>68 мм²/с (по ISO 3448)</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Температурный диапазон</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>от -20°C до +120°C</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Плотность (при 15°C)</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>около 0,88 г/см³</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Индекс вязкости:</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>135</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Технические характеристики солидола <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table frame="all" id="tab-002">
+<title>Технические характеристики солидола</title>
+<tgroup cols="2" colsep="1" rowsep="1" align="left">
+<colspec colnum="1" colname="col1" colwidth="1.00*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1.29*"></colspec>
+<thead>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Тип</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Консистентная смазка на основе минерального масла и мыла</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Консистенция</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Твердая пастообразная смазка</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Вязкость (при 40°C)</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>около 100–150 мм²/с</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Температурный диапазон</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>от -30°C до +50°C </para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle">
+<para>Плотность (при 15°C)</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle">
+<para>около 0,9 г/см³</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<levelledPara>
+<title>Смазка цепи башни</title>
+<para>Масло SKF LHMT 68 применяется для обеспечения надежной смазки цепи башни, работающей в условиях интенсивных нагрузок и трения. Масло наносится на открытые участки пинов, звеньев и роликов цепи, где происходит контакт и взаимодействие деталей. После нанесения масло равномерно распределяется по поверхности цепи, проникая в зазоры и участки, подверженные наибольшему износу, что способствует снижению трения, предотвращению коррозии и увеличению срока службы цепи. Для обеспечения полного смазывания всех элементов цепи необходимо выполнить регулировку башни для равномерного распределения масла по всей цепи.</para>
+</levelledPara>
+<levelledPara>
+<title>Смазка цепи каретки</title>
+<para>Цепь каретки смазывается маслом SKF LHMT 68. Масло наносится по всей длине цепи, состоящей из пинов, звеньев и роликов. Также смазывается зона зацепления цепи с зубьями ведущей и ведомой звездочек.
+
+Для предотвращения попадания масла на поверхность нижней направляющей необходимо защитить её с помощью материала, который не пропускает смазку.
+
+Для обеспечения равномерного распределения масла по всей цепи требуется выполнить регулировку каретки.</para>
+</levelledPara>
+<levelledPara>
+<title>Смазка элементов скольжения каретки и опоры</title>
+<para>Солидол применяется для обеспечения надежной и долговечной работы механических узлов каретки и опоры, подверженных интенсивным нагрузкам и трению. Смазочный материал  наносится на верхнюю и нижнюю направляющую, где происходит контакт и взаимодействие деталей.  Для обеспечения полного смазывания элементов скольжения кареток и опор необходимо последовательно перемещать башню или каретку в различные рабочие положения, что позволяет равномерно распределить смазочный материал по всей поверхности этих элементов. </para>
+</levelledPara>
+<levelledPara>
+<title>Смазка редуктора</title>
+<para> Для обеспечения стабильной работы редукторов смазку необходимо проводить согласно документации поставляемой на изделия.</para>
+<para>Технические характеристики заливаемого масла в редукторы <internalRef internalRefId="tab-003" internalRefTargetType="irtt02" xlink:href="#tab-003"></internalRef>.</para>
+<table frame="all" id="tab-003">
+<title>Технические характеристики заливаемого масла в редукторы</title>
+<tgroup cols="5" colsep="1" rowsep="1" align="center">
+<colspec colnum="1" colname="col1" colwidth="1.36*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1.00*"></colspec>
+<colspec colname="col03" colnum="3" colwidth="1.00*"></colspec>
+<colspec colname="col3" colnum="4" colwidth="5.61*"></colspec>
+<colspec colname="col4" colnum="5" colwidth="8.29*"></colspec>
+<thead>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Тип масла</para>
+</entry>
+<entry colsep="1" rowsep="1" align="center" valign="middle" namest="col2" nameend="col03">
+<para>Температура окружающей среды, град</para>
+</entry>
+<entry colname="col3" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Марка масел</para>
+</entry>
+<entry colname="col4" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Примечание</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle" morerows="2">
+<para>Синтетическое</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle" morerows="2">
+<para>-25</para>
+</entry>
+<entry colname="col03" colsep="1" rowsep="1" align="center" valign="middle" morerows="2">
+<para>+50</para>
+</entry>
+<entry colname="col3" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Shell omala WE 150/320/460</para>
+</entry>
+<entry colname="col4" colsep="1" rowsep="1" align="center" valign="middle" morerows="2">
+<para>Срок эксплуатации масла не менее 3 лет. НЕ СМЕШИВАТЬ с другими типами масел.</para>
+</entry>
+</row>
+<row>
+<entry colname="col3" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Total Carter SY 150/320/460</para>
+</entry>
+</row>
+<row>
+<entry colname="col3" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Mobil Glegoyle 11/22/30</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" colsep="1" rowsep="1" align="left" valign="middle" morerows="4">
+<para>Минеральное</para>
+</entry>
+<entry colname="col2" colsep="1" rowsep="1" align="center" valign="middle" morerows="4">
+<para>-5</para>
+</entry>
+<entry colname="col03" colsep="1" rowsep="1" align="center" valign="middle" morerows="4">
+<para>+40</para>
+</entry>
+<entry colname="col3" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Gazpromneft reductor WS THK Trans 80W-90</para>
+</entry>
+<entry colname="col4" colsep="1" rowsep="1" align="center" valign="middle" morerows="4">
+<para>Для круглогодичного применения отапливаемом помещении. Замена масла не реже, чем 1 раз в год.</para>
+</entry>
+</row>
+<row>
+<entry colname="col3" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Total EP 80W-90</para>
+</entry>
+</row>
+<row>
+<entry colname="col3" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Mobil Mobilube GX 80W-90</para>
+</entry>
+</row>
+<row>
+<entry colname="col3" colsep="1" rowsep="1" align="center" valign="middle">
+<para>Shell Spirax S3 G 80W-90</para>
+</entry>
+</row>
+<row>
+<entry colname="col3" colsep="1" rowsep="1" align="center" valign="middle">
+<para>ГОСТ 17479.2-85 ТМ-4-18</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Места смазки</title>
+<graphic infoEntityIdent="ICN-MTPM-A-122100-0-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-122100-0-MDMKD-00004-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001"></graphic>
+<graphic infoEntityIdent="ICN-MTPM-A-122100-0-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-122100-0-MDMKD-00005-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</description>
+</content>
+</dmodule>

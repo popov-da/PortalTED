@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <!DOCTYPE dmodule [
-<!ENTITY ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
-<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+<!ENTITY ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
 ]>
 <dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
 <identAndStatusSection>
@@ -87,6 +87,9 @@
 <proceduralStep>
 <title>Подготовительные работы</title>
 <proceduralStep>
+<para>Переместите каретку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-007"></internalRef> в нулевое положение.</para>
+</proceduralStep>
+<proceduralStep>
 <para>Выполните спуск траверсы <dmRef>
 <dmRefIdent>
 <dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
@@ -94,83 +97,45 @@
 </dmRef>.</para>
 </proceduralStep>
 <proceduralStep>
-<para>Осмотрите натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef>  на отсутствие сколов, трещин, вмятин  и загрязнений.</para>
-<proceduralStep>
-<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</para>
-</proceduralStep>
-<proceduralStep>
-<para>При наличии повреждений замените натяжитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на новый <dmRef>
+<para>Осмотрите систему перемещения каретки
+							<dmRef>
 <dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="01" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="310" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
 </dmRefIdent>
 </dmRef>.</para>
 </proceduralStep>
 </proceduralStep>
 <proceduralStep>
-<para>Осмотрите натяжитель цепи каретки   <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на отсутствие сколов, трещин, вмятин  и загрязнений.</para>
+<title>Натяжение цепи</title>
 <proceduralStep>
-<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</para>
-</proceduralStep>
-<proceduralStep>
-<para>При наличии повреждений замените натяжитель цепи каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на новый <dmRef>
-<dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="02" assyCode="05" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
-</dmRefIdent>
-</dmRef>.</para>
-</proceduralStep>
-</proceduralStep>
-<proceduralStep>
-<para>Осмотрите пины, звенья и ролики цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на отсутствие трещин, деформаций, разрушений и
-других механических и коррозионных повреждений.</para>
-<proceduralStep>
-<para>При необходимости выполните замену поврежденного звена цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> или, в случае
-невозможности устранения неисправности, замените цепь <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на новую <dmRef>
-<dmRefIdent>
-<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
-</dmRefIdent>
-</dmRef>.</para>
-</proceduralStep>
-</proceduralStep>
-</proceduralStep>
-<proceduralStep>
-<title>Регулировка цепи</title>
-<proceduralStep>
-<para>
-							Переместите каретку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в крайнее положение.</para>
-</proceduralStep>
-<proceduralStep>
-<para>
-							Выполните замер 
+<para>Выполните замер 
 						величины h нижней петли цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в средней ее части.</para>
+</proceduralStep>
 <proceduralStep>
-<para>В случае если величина  h менее 70 мм, выполните регулировку цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
-</proceduralStep>
-</proceduralStep>
+<para>В случае если величина  <emphasis>h менее 70 мм</emphasis>, выполните регулировку цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
 <proceduralStep id="stp-001">
-<para>
-							Поверните контргайку 
-						<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> натяжителя цепи каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на (10 ± 1) оборотов против часовой стрелки.</para>
+<para>Поверните гайку 
+						<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-004"></internalRef> натяжителя цепи каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-003"></internalRef> на (10 ± 1) оборотов против часовой стрелки.</para>
 </proceduralStep>
 <proceduralStep id="stp-002">
-<para>
-							Поверните гайку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef> 
-						натяжителя цепи каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на (10 ± 1) оборотов по часовой стрелке, обеспечив натяжение цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<para>Поверните стопорную гайку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-005"></internalRef> 
+						натяжителя цепи каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-003"></internalRef> на (10 ± 1) оборотов по часовой стрелке, обеспечив натяжение цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
 </proceduralStep>
 <proceduralStep id="stp-003">
-<para>
-							Выполните повторный замер 
+<para>Выполните повторный замер 
 						величины h  нижней петли цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в средней ее части.</para>
 <proceduralStep>
-<para>В случае если величина h более 70 мм, завершите регулировку цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<para>В случае если величина <emphasis>h более 70 мм</emphasis>, завершите регулировку цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
 </proceduralStep>
 <proceduralStep>
-<para>В случае если величина h менее 70 мм, повторите <internalRef internalRefId="stp-001" internalRefTargetType="irtt08" xlink:href="#stp-001"></internalRef>, <internalRef internalRefId="stp-002" internalRefTargetType="irtt08" xlink:href="#stp-002"></internalRef> и <internalRef internalRefId="stp-003" internalRefTargetType="irtt08" xlink:href="#stp-003"></internalRef> последовательно увеличивая число оборотов  до максимально возможногого  хода шпильки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<para>В случае если величина <emphasis>h менее 70 мм</emphasis>, повторите <internalRef internalRefId="stp-001" internalRefTargetType="irtt08" xlink:href="#stp-001"></internalRef>, <internalRef internalRefId="stp-002" internalRefTargetType="irtt08" xlink:href="#stp-002"></internalRef> и <internalRef internalRefId="stp-003" internalRefTargetType="irtt08" xlink:href="#stp-003"></internalRef> последовательно увеличивая число оборотов  до максимально возможногого  хода шпильки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-006"></internalRef>.</para>
 </proceduralStep>
 </proceduralStep>
 <proceduralStep>
-<para>Если максимального хода шпильки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef> не достаточно для  регулировки цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и  величина h все еще менее 70 мм, выполните удаление  звена цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<para>Если максимального хода шпильки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-006"></internalRef> не достаточно для  регулировки цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и  величина <emphasis>h все еще менее 70 мм</emphasis>, выполните удаление  звена цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
 <note id="not-001">
-<notePara>Допускается удалять не более трех звеньев цепи.</notePara>
+<notePara>Допускается удалять не более трех звеньев цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</notePara>
 </note>
 <proceduralStep>
 <para>В случае если удаление звеньев  цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> не компенсировало допустимую величину прогиба, замените цепь <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на новую <dmRef>
@@ -181,7 +146,45 @@
 </proceduralStep>
 </proceduralStep>
 <proceduralStep>
-<para>Повторите вышеуказанные процедуры для цепи другой каретки.</para>
+<para>Повторите вышеуказанные процедуры для цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> другой каретки.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Ослабление цепи</title>
+<proceduralStep>
+<para>Выполните замер 
+						величины h нижней петли цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в средней ее части.</para>
+</proceduralStep>
+<proceduralStep>
+<para>В случае если величина  <emphasis>h более 90 мм</emphasis>, выполните регулировку цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<proceduralStep id="stp-004">
+<para>Поверните стопорную гайку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-005"></internalRef> 
+						натяжителя цепи каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-003"></internalRef> на (10 ± 1) оборотов против часовой стрелки, обеспечив ослабление цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep id="stp-005">
+<para>Поверните гайку 
+						<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-004"></internalRef> натяжителя цепи каретки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-003"></internalRef> на (10 ± 1) оборотов по часовой стрелке.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep id="stp-006">
+<para>Выполните повторный замер 
+						величины h  нижней петли цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в средней ее части.</para>
+<proceduralStep>
+<para>В случае если величина  <emphasis>h менее 90 мм</emphasis>, завершите регулировку цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>В случае если величина <emphasis>h более 90 мм</emphasis>, повторите <internalRef internalRefId="stp-004" internalRefTargetType="irtt08" xlink:href="#stp-004"></internalRef>, <internalRef internalRefId="stp-005" internalRefTargetType="irtt08" xlink:href="#stp-005"></internalRef> и <internalRef internalRefId="stp-006" internalRefTargetType="irtt08" xlink:href="#stp-006"></internalRef> последовательно увеличивая число оборотов  до максимально возможногого  хода шпильки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-006"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Если максимального хода шпильки <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace" xlink:href="#fig-001-gra-001-hot-006"></internalRef> не достаточно для  регулировки цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и  величина <emphasis>h все еще более 90 мм</emphasis>, выполните замену цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на новую <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="2" subSystemCode="2" systemCode="A1" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Повторите вышеуказанные процедуры для цепи <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> другой каретки.</para>
 </proceduralStep>
 </proceduralStep>
 <proceduralStep>
@@ -192,15 +195,14 @@
 </proceduralStep>
 <figure id="fig-001">
 <title>Регулировка цепи</title>
-<graphic infoEntityIdent="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-A12203-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" xlink:type="simple">
-<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="1" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_022" applicationStructureName="1" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_009" applicationStructureName="2" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_016" applicationStructureName="5" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_017" applicationStructureName="4" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_018" applicationStructureName="6" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_019" applicationStructureName="7" hotspotTitle=""></hotspot>
-<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_014" applicationStructureName="3" hotspotTitle=""></hotspot>
+<graphic infoEntityIdent="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-A12203-0-MDMKD-00002-A-001-01.svg" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_022" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_016" applicationStructureName="4"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_017" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_018" applicationStructureName="5"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_019" applicationStructureName="6"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_014" applicationStructureName="2"></hotspot>
 </graphic>
 </figure>
 </mainProcedure>

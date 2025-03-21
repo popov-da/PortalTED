@@ -1,0 +1,601 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPM-A-201101-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPM-A-201101-0-MDMKD-00001-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201101-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPM-A-201101-0-MDMKD-00002-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201101-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPM-A-201101-0-MDMKD-00003-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201101-0-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPM-A-201101-0-MDMKD-00004-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201101-0-MDMKD-00005-A-001-01 SYSTEM "ICN-MTPM-A-201101-0-MDMKD-00005-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201101-0-MDMKD-00006-A-001-01 SYSTEM "ICN-MTPM-A-201101-0-MDMKD-00006-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201101-0-MDMKD-00007-A-001-01 SYSTEM "ICN-MTPM-A-201101-0-MDMKD-00007-A-001-01.svg" NDATA svg>
+<!ENTITY ICN-MTPM-A-201101-0-MDMKD-00008-A-001-01 SYSTEM "ICN-MTPM-A-201101-0-MDMKD-00008-A-001-01.svg" NDATA svg>
+<!NOTATION svg PUBLIC "-//TEI//NOTATION W3C Scalable Vector Graphics Format//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPM" systemDiffCode="A" systemCode="20" subSystemCode="1" subSubSystemCode="1" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="12" day="09"></issueDate>
+<dmTitle>
+<techName>Электрические соединители</techName>
+<infoName>Демонтаж и монтаж</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<noSupportEquips></noSupportEquips>
+</reqSupportEquips>
+<reqSupplies>
+<noSupplies></noSupplies>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning id="ctn-001">
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните спуск траверсы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните процедуры отключения <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="510" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Обеспечьте доступ <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="540" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Разъем с контактной вставкой</title>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Переведите защелку <internalRef internalRefId="fig-001-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-003"></internalRef> ответной части разъема <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef> из закрытого положения в открытое.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Аккуратно снимите кабельную часть разъема <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef> на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef> на отсутствие сколов, трещин, вмятин, следов
+температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кабельной части разъема  <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните замену ответной части разъема <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Выровните кабельную часть разъема  <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef> относительно ответной части разъема <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите кабельную часть разъема  <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef> в ответную часть разъема <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef> до упора.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Переведите защелку <internalRef internalRefId="fig-001-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-003"></internalRef>  ответной части разъема <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef> из открытого положения в закрытое так, чтобы защелка <internalRef internalRefId="fig-001-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-003"></internalRef> зафиксировалась в пинах  <internalRef internalRefId="fig-001-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-004"></internalRef> кабельной части разъема <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-001">
+<title>Демонтаж и монтаж разъема с контактной вставкой</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201101-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPM-A-201101-0-MDMKD-00001-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_008" applicationStructureName="4"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_002" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_004" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_005" applicationStructureName="3"></hotspot>
+</graphic>
+</figure>
+<proceduralStep>
+<title>Цилиндрический разъем М12</title>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Отверните гайку <internalRef internalRefId="fig-002-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-002"></internalRef> кабельной части разъема <internalRef internalRefId="fig-002-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Аккуратно снимите кабельную часть разъема <internalRef internalRefId="fig-002-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-002-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-004"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-002-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-003"></internalRef> на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-002-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-004"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-002-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-003"></internalRef> на отсутствие сколов, трещин, вмятин, следов
+температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кабельной части разъема  <internalRef internalRefId="fig-002-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните замену ответной части разъема <internalRef internalRefId="fig-002-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Совместите шпоночный паз <internalRef internalRefId="fig-002-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-001"></internalRef> кабельной части разъема  <internalRef internalRefId="fig-002-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-004"></internalRef> с шпоночным пазом ответной части разъема <internalRef internalRefId="fig-002-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите кабельную часть разъема  <internalRef internalRefId="fig-002-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-004"></internalRef> в ответную часть разъема <internalRef internalRefId="fig-002-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните гайку <internalRef internalRefId="fig-002-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-002"></internalRef> кабельной части разъема <internalRef internalRefId="fig-002-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-004"></internalRef> до упора.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-002">
+<title>Демонтаж и монтаж цилиндрического разъема М12</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201101-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPM-A-201101-0-MDMKD-00002-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-002-gra-001">
+<hotspot id="fig-002-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="2"></hotspot>
+<hotspot id="fig-002-gra-001-hot-002" applicationStructureIdent="AUTOID_001" applicationStructureName="3"></hotspot>
+<hotspot id="fig-002-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="1"></hotspot>
+<hotspot id="fig-002-gra-001-hot-004" applicationStructureIdent="AUTOID_003" applicationStructureName="4"></hotspot>
+</graphic>
+</figure>
+<proceduralStep>
+<title>Разъем D-sub</title>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Ослабьте и отверните винты <internalRef internalRefId="fig-003-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-001"></internalRef> от ответной части разъема <internalRef internalRefId="fig-003-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Аккуратно снимите кабельную часть разъема <internalRef internalRefId="fig-003-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-002"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-003-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-002"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-003-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-003"></internalRef> на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-003-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-002"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-003-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-003"></internalRef> на отсутствие сколов, трещин, вмятин, следов
+температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кабельной части разъема  <internalRef internalRefId="fig-003-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-002"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните замену ответной части разъема <internalRef internalRefId="fig-003-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Совместите контакты  <internalRef internalRefId="fig-003-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-004"></internalRef> кабельной части разъема <internalRef internalRefId="fig-003-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-002"></internalRef> с контактами <internalRef internalRefId="fig-003-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-005"></internalRef> ответной части разъема <internalRef internalRefId="fig-003-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите кабельную часть разъема  <internalRef internalRefId="fig-003-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-002"></internalRef> в ответную часть разъема <internalRef internalRefId="fig-003-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните винты <internalRef internalRefId="fig-003-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-001"></internalRef> кабельной части разъема <internalRef internalRefId="fig-003-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-003-gra-001-hot-002"></internalRef> до упора.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-003">
+<title>Демонтаж и монтаж разъема D-sub</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201101-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPM-A-201101-0-MDMKD-00003-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-003-gra-001">
+<hotspot id="fig-003-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="1"></hotspot>
+<hotspot id="fig-003-gra-001-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="2"></hotspot>
+<hotspot id="fig-003-gra-001-hot-003" applicationStructureIdent="AUTOID_004" applicationStructureName="5"></hotspot>
+<hotspot id="fig-003-gra-001-hot-004" applicationStructureIdent="AUTOID_005" applicationStructureName="3"></hotspot>
+<hotspot id="fig-003-gra-001-hot-005" applicationStructureIdent="AUTOID_006" applicationStructureName="4"></hotspot>
+</graphic>
+</figure>
+<proceduralStep>
+<title>Разъем SMA</title>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Отверните гайку <internalRef internalRefId="fig-007-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-002"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Аккуратно снимите кабельную часть разъема <internalRef internalRefId="fig-007-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-007-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-004"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-007-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-003"></internalRef> на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-007-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-004"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-007-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-003"></internalRef> на отсутствие сколов, трещин, вмятин, следов
+температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кабельной части разъема  <internalRef internalRefId="fig-007-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните замену ответной части разъема <internalRef internalRefId="fig-007-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Установите кабельную часть разъема  <internalRef internalRefId="fig-007-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-004"></internalRef> на резьбу  <internalRef internalRefId="fig-007-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-001"></internalRef> ответной части разъема <internalRef internalRefId="fig-007-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните гайку <internalRef internalRefId="fig-007-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-007-gra-001-hot-002"></internalRef> кабельной части разъема <internalRef internalRefId="fig-002-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-002-gra-001-hot-004"></internalRef> до упора.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-007">
+<title>Демонтаж и монтаж разъема SMA</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201101-0-MDMKD-00004-A-001-01" xlink:href="ICN-MTPM-A-201101-0-MDMKD-00004-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-007-gra-001">
+<hotspot id="fig-007-gra-001-hot-001" applicationStructureIdent="AUTOID_002" applicationStructureName="2"></hotspot>
+<hotspot id="fig-007-gra-001-hot-002" applicationStructureIdent="AUTOID_004" applicationStructureName="3"></hotspot>
+<hotspot id="fig-007-gra-001-hot-003" applicationStructureIdent="AUTOID_003" applicationStructureName="1"></hotspot>
+<hotspot id="fig-007-gra-001-hot-004" applicationStructureIdent="AUTOID_005" applicationStructureName="4"></hotspot>
+</graphic>
+</figure>
+<proceduralStep>
+<title>Разъем RJ45</title>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Нажмите на защелку <internalRef internalRefId="fig-004-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-002"></internalRef> кабельной части разъема  <internalRef internalRefId="fig-004-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выведите  кабельную часть разъема  <internalRef internalRefId="fig-004-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-004"></internalRef> из  ответной части разъема <internalRef internalRefId="fig-004-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-004-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-004"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-004-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-003"></internalRef> на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-004-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-004"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-004-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-003"></internalRef> на отсутствие сколов, трещин, вмятин, следов
+температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кабельной части разъема  <internalRef internalRefId="fig-004-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните замену ответной части разъема <internalRef internalRefId="fig-004-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Совместите защелку <internalRef internalRefId="fig-004-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-002"></internalRef> кабельной части разъема  <internalRef internalRefId="fig-004-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-004"></internalRef> с пазом <internalRef internalRefId="fig-004-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-001"></internalRef> ответной части разъема <internalRef internalRefId="fig-004-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите кабельную часть разъема  <internalRef internalRefId="fig-004-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-004"></internalRef> в ответную часть разъема <internalRef internalRefId="fig-004-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что защелка <internalRef internalRefId="fig-004-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-002"></internalRef> на кабельной части разъема  <internalRef internalRefId="fig-004-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-004"></internalRef> зафиксировалась в нужном положении.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-004">
+<title>Демонтаж и монтаж разъема RJ45</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201101-0-MDMKD-00005-A-001-01" xlink:href="ICN-MTPM-A-201101-0-MDMKD-00005-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-004-gra-001">
+<hotspot id="fig-004-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="2"></hotspot>
+<hotspot id="fig-004-gra-001-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="3"></hotspot>
+<hotspot id="fig-004-gra-001-hot-003" applicationStructureIdent="AUTOID_001" applicationStructureName="1"></hotspot>
+<hotspot id="fig-004-gra-001-hot-004" applicationStructureIdent="AUTOID_004" applicationStructureName="4"></hotspot>
+</graphic>
+</figure>
+<proceduralStep>
+<title>Разъем электрический с 4 контактами и защелкой</title>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Нажмите на защелку <internalRef internalRefId="fig-005-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-002"></internalRef> кабельной части разъема  <internalRef internalRefId="fig-005-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Аккуратно снимите кабельную часть разъема  <internalRef internalRefId="fig-005-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-004"></internalRef> из  ответной части разъема <internalRef internalRefId="fig-005-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-005-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-004"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-005-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-003"></internalRef> на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите кабельную часть разъема  <internalRef internalRefId="fig-005-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-004"></internalRef> и ответную часть разъема <internalRef internalRefId="fig-005-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-003"></internalRef> на отсутствие сколов, трещин, вмятин, следов
+температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену кабельной части разъема  <internalRef internalRefId="fig-005-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>При необходимости выполните замену ответной части разъема <internalRef internalRefId="fig-005-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Совместите защелку <internalRef internalRefId="fig-005-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-002"></internalRef> кабельной части разъема  <internalRef internalRefId="fig-005-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-004"></internalRef> с гребнем <internalRef internalRefId="fig-005-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-001"></internalRef> на ответной части разъема <internalRef internalRefId="fig-005-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Нажмите на кабельную часть разъема  <internalRef internalRefId="fig-005-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-004"></internalRef> до упора, чтобы защелка <internalRef internalRefId="fig-005-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-002"></internalRef> зашла на гребень <internalRef internalRefId="fig-005-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-001"></internalRef> на ответной части разъема <internalRef internalRefId="fig-005-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь, что защелка <internalRef internalRefId="fig-005-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-005-gra-001-hot-002"></internalRef> на кабельной части разъема  <internalRef internalRefId="fig-004-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-004-gra-001-hot-002"></internalRef> зафиксировалась в нужном положении.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-005">
+<title>Демонтаж и монтаж разъема электрического с 4 контактами и защелкой</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201101-0-MDMKD-00006-A-001-01" xlink:href="ICN-MTPM-A-201101-0-MDMKD-00006-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-005-gra-001">
+<hotspot id="fig-005-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="2"></hotspot>
+<hotspot id="fig-005-gra-001-hot-002" applicationStructureIdent="AUTOID_002" applicationStructureName="4"></hotspot>
+<hotspot id="fig-005-gra-001-hot-003" applicationStructureIdent="AUTOID_001" applicationStructureName="1"></hotspot>
+<hotspot id="fig-005-gra-001-hot-004" applicationStructureIdent="AUTOID_003" applicationStructureName="3"></hotspot>
+</graphic>
+</figure>
+<proceduralStep>
+<title>Клеммники</title>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Исполнение 1.</para>
+<proceduralStep>
+<para>Отведите пружинный механизм <internalRef internalRefId="fig-006-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-002"></internalRef> клеммника <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Освободите проводник <internalRef internalRefId="fig-006-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-005"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Исполнение 2.</para>
+<proceduralStep>
+<para>Отверните винт зажима  <internalRef internalRefId="fig-006-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-001"></internalRef> клеммника <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Освободите проводник <internalRef internalRefId="fig-006-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-005"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите клеммник  <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef> на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите клеммник <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef> на отсутствие сколов, трещин, вмятин, следов
+температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену клеммника <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef>.
+		</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Исполнение 1.</para>
+<proceduralStep>
+<para>Отведите пружинный механизм <internalRef internalRefId="fig-006-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-002"></internalRef> клеммника <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите оголенную часть проводника <internalRef internalRefId="fig-006-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-005"></internalRef> в соответствующее отверстие пружинного клеммника <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef> до упора;</para>
+</proceduralStep>
+<proceduralStep>
+<para>Освободите пружинный механизм <internalRef internalRefId="fig-006-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-002"></internalRef> клеммника <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef> для автоматического запирания отверстия контакта.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Исполнение 2.</para>
+<proceduralStep>
+<para>Отверните винт зажима  <internalRef internalRefId="fig-006-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-001"></internalRef> клеммника <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите оголенную часть проводника <internalRef internalRefId="fig-006-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-005"></internalRef> в соответствующее отверстие винтового клеммника <internalRef internalRefId="fig-006-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-004"></internalRef> до упора;</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните винт зажима <internalRef internalRefId="fig-006-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-006-gra-001-hot-001"></internalRef> до упора.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-006">
+<title>Демонтаж и монтаж клеммника</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201101-0-MDMKD-00007-A-001-01" xlink:href="ICN-MTPM-A-201101-0-MDMKD-00007-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-006-gra-001">
+<hotspot id="fig-006-gra-001-hot-001" applicationStructureIdent="AUTOID_387" applicationStructureName="4"></hotspot>
+<hotspot id="fig-006-gra-001-hot-002" applicationStructureIdent="AUTOID_024" applicationStructureName="3"></hotspot>
+<hotspot id="fig-006-gra-001-hot-003" applicationStructureIdent="AUTOID_004" applicationStructureName="2"></hotspot>
+<hotspot id="fig-006-gra-001-hot-004" applicationStructureIdent="AUTOID_005" applicationStructureName="2"></hotspot>
+<hotspot id="fig-006-gra-001-hot-005" applicationStructureIdent="AUTOID_001" applicationStructureName="1"></hotspot>
+<hotspot id="fig-006-gra-001-hot-006" applicationStructureIdent="AUTOID_002" applicationStructureName="1"></hotspot>
+</graphic>
+</figure>
+<proceduralStep>
+<title>Соединение клеммной коробки</title>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Отверните винт  <internalRef internalRefId="fig-008-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-001"></internalRef> клеммника <internalRef internalRefId="fig-008-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-005"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отведите зажим <internalRef internalRefId="fig-008-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-002"></internalRef> клеммника <internalRef internalRefId="fig-008-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-005"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Освободите наконечник <internalRef internalRefId="fig-008-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-004"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните винт <internalRef internalRefId="fig-008-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-001"></internalRef> клеммника <internalRef internalRefId="fig-008-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-005"></internalRef> до упора.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите клеммник  <internalRef internalRefId="fig-008-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-005"></internalRef> на отсутствие загрязнений.</para>
+<proceduralStep>
+<para>При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной спиртом.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите клеммник <internalRef internalRefId="fig-008-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-005"></internalRef> на отсутствие сколов, трещин, вмятин, следов
+температурного воздействия и других механических повреждений.</para>
+<proceduralStep>
+<para>При необходимости выполните замену клеммника <internalRef internalRefId="fig-008-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-005"></internalRef>.
+		</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Убедитесь в отсутствии механических повреждений на крепежных элементах.</para>
+<proceduralStep>
+<para>При необходимости замените поврежденные крепежные элементы на новые.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Отверните винт <internalRef internalRefId="fig-008-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-001"></internalRef> клеммника <internalRef internalRefId="fig-008-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-005"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отведите зажим <internalRef internalRefId="fig-008-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-002"></internalRef> клеммника <internalRef internalRefId="fig-008-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-005"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите наконечник <internalRef internalRefId="fig-008-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-004"></internalRef> между зажимом  <internalRef internalRefId="fig-008-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-002"></internalRef> и перемычкой  <internalRef internalRefId="fig-008-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-003"></internalRef> до упора.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните винт <internalRef internalRefId="fig-008-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-001"></internalRef> клеммника <internalRef internalRefId="fig-008-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-008-gra-001-hot-005"></internalRef> до упора.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-008">
+<title>Демонтаж и монтаж соединения клеммной коробки</title>
+<graphic infoEntityIdent="ICN-MTPM-A-201101-0-MDMKD-00008-A-001-01" xlink:href="ICN-MTPM-A-201101-0-MDMKD-00008-A-001-01.svg" reproductionHeight="102mm" reproductionWidth="170mm" id="fig-008-gra-001">
+<hotspot id="fig-008-gra-001-hot-001" applicationStructureIdent="AUTOID_002" applicationStructureName="1"></hotspot>
+<hotspot id="fig-008-gra-001-hot-002" applicationStructureIdent="AUTOID_001" applicationStructureName="2"></hotspot>
+<hotspot id="fig-008-gra-001-hot-003" applicationStructureIdent="AUTOID_003" applicationStructureName="3"></hotspot>
+<hotspot id="fig-008-gra-001-hot-004" applicationStructureIdent="AUTOID_004" applicationStructureName="5"></hotspot>
+<hotspot id="fig-008-gra-001-hot-005" applicationStructureIdent="AUTOID_006" applicationStructureName="4"></hotspot>
+</graphic>
+</figure>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.
+						</para>
+</proceduralStep>
+<proceduralStep>
+<para>
+							Закройте дверцу шкафа <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="540" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Выполните процедуры подключения <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="510" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

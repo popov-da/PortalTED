@@ -207,7 +207,7 @@
 			<div class="levelledPara level1 link" id="levelledPara_IDBWHR405Q">
 				<div class="title">Описание</div>
 				<div class="para p">
-					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01.cgm" title="Тормозной механизм"></a>
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01.svg" title="Тормозной механизм"></a>
 				</div>
 				<div class="para p">Тормозной механизм представляет собой корпус, в котором установлены тормозное колесо, блокиратор и эксцентрик.</div>
 				<div class="levelledPara level2 link" id="levelledPara_IDCRENNE4V">
@@ -237,8 +237,8 @@
 				<div class="para p"> Вал тормозного шагового двигателя  приводит в движение эксцентрик. Эксцентрик за счет вращения вокруг своей оси перемещает упор блокиратора в паз тормозного колеса. Тормозное колесо блокирует вращение вала ведущей звездочки и фиксирует каретку в заданном положении.</div>
 				<div class="figure" id="fig-001">
 					<div class="title">Тормозной механизм</div>
-					<a title="Тормозной механизм" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01.cgm">Тормозной механизм</a>
-					<a title="Тормозной механизм" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01.cgm">Тормозной механизм</a>
+					<a title="Тормозной механизм" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01" data-href="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-sheet="1" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-A14000-0-MDMKD-00004-A-001-01.svg">Тормозной механизм</a>
+					<a title="Тормозной механизм" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01" data-href="ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01.svg" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-002" data-sheet="2" data-sheets="2" data-link="link2d" data-src="ICN-MTPM-A-A14000-A-MDMKD-00001-A-001-01.svg">Тормозной механизм</a>
 				</div>
 			</div>
 		</div>

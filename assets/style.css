@@ -112,8 +112,21 @@ body {
     flex-direction: column; /* Располагаем элементы в столбик */
     flex-wrap: wrap; /* Разрешаем перенос элементов */
   }
+  .start-page .welcome-section {
+    display: none; /* Скрываем приветственный текст */
+  }
   .icon.verge3d, .icon.pdf {
     display: none;
+  }
+}
+@media (max-width:1280px) {
+  .options-section {
+    align-items: center; /* Центрируем карточки */
+    flex-direction: column; /* Располагаем элементы в столбик */
+    flex-wrap: wrap; /* Разрешаем перенос элементов */
+  }
+  .start-page .welcome-section {
+    display: none; /* Скрываем приветственный текст */
   }
 }
 .structure {

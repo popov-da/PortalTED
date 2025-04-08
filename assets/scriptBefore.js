@@ -131,22 +131,22 @@ function clearSearch() {
 }
 
 // Показ раздела для Большой траверсы
-function showExploitationDocs() {
+function showMTPADocs() {
   hideStartPage(); // Скрываем стартовую страницу
   document.getElementById('selectMessage').style.display = 'flex'; // Показываем сообщение о выборе раздела
-  document.getElementById('exploitationSection').style.display = 'block'; // Отображаем раздел Большой траверсы
+  document.getElementById('MTPASection').style.display = 'block'; // Отображаем раздел Большой траверсы
   document
-    .querySelectorAll('.skin-tree:not(#exploitationSection)') // Получаем все элементы с классом .file-item, которые не содержат exploitationSection
+    .querySelectorAll('.skin-tree:not(#MTPASection)') // Получаем все элементы с классом .file-item, которые не содержат MTPASection
     .forEach(section => section.style.display = 'none'); // Скрываем все остальные разделы
 }
 
 // Показ раздела для Модуля
-function showTechnicalDocs() {
+function showMDLDocs() {
   hideStartPage(); // Скрываем стартовую страницу
   document.getElementById('selectMessage').style.display = 'flex'; // Показываем сообщение о выборе раздела
-  document.getElementById('technicalSection').style.display = 'block'; // Отображаем раздел для Модуля
-  // Скрываем все остальные разделы, кроме #technicalSection
-  document.querySelectorAll('.skin-tree:not(#technicalSection)').forEach(section => section.style.display = 'none');
+  document.getElementById('MDLSection').style.display = 'block'; // Отображаем раздел для Модуля
+  // Скрываем все остальные разделы, кроме #MDLSection
+  document.querySelectorAll('.skin-tree:not(#MDLSection)').forEach(section => section.style.display = 'none');
 
   // функция для отображения элементов с ID PresentMDL
   document.getElementById('PresSection').style.display = 'block'; // Показываем секцию 'PresSection'
@@ -164,15 +164,36 @@ function showTechnicalDocs() {
 }
 
 // Показ только раздела "Линейная траверса"
-function showIETPDocs() {
+function showMTPMDocs() {
   hideStartPage(); // Скрываем стартовую страницу
   document.getElementById('selectMessage').style.display = 'flex'; // Показываем сообщение о выборе раздела
   document.getElementById('EducateSection').style.display = 'block'; // Отображаем секцию 'EducateSection'
-  document.getElementById('IETPSection').style.display = 'block'; // Отображаем секцию 'IETPSection'
-  // Скрываем все остальные секции, кроме 'EducateSection' и 'IETPSection'
+  document.getElementById('MTPMSection').style.display = 'block'; // Отображаем секцию 'MTPMSection'
+  // Скрываем все остальные секции, кроме 'EducateSection' и 'MTPMSection'
   document
-    .querySelectorAll('.skin-tree:not(#EducateSection):not(#IETPSection)')
+    .querySelectorAll('.skin-tree:not(#EducateSection):not(#MTPMSection)')
     .forEach(section => section.style.display = 'none');
+}
+
+// Показ только раздела для "Горизонт"
+function showGRZNTDocs() {
+  hideStartPage(); // Скрываем стартовую страницу
+  document.getElementById('selectMessage').style.display = 'flex'; // Показываем сообщение о выборе раздела
+    // Скрываем все остальные разделы, кроме #GRZNTSection
+  document.querySelectorAll('.skin-tree:not(#GRZNTSection)').forEach(section => section.style.display = 'none');
+  // функция для отображения элементов с ID PresentGRZNT
+  document.getElementById('PresSection').style.display = 'block'; // Показываем секцию 'PresSection'
+
+  // Получаем все элементы с классом .file-item внутри секции с ID 'PresSection'
+  document.querySelectorAll('#PresSection .file-item').forEach(item => {
+    if (!item.id.includes('PresentGRZNT')) {
+      // Скрываем элементы, ID которых не содержит "PresentGRZNT"
+      item.style.display = 'none';
+    } else {
+      // Показываем элементы, ID которых содержит "PresentGRZNT"
+      item.style.display = 'block';
+    }
+  });
 }
 
 // Анимация и сообщение о повороте устройства

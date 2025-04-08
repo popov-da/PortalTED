@@ -79,7 +79,7 @@
     </div>
     
     <!-- Раздел "Эксплуатационная документация" -->
-    <div class="skin-tree exploitation-docs" id="exploitationSection">
+    <div class="skin-tree MTPA-docs" id="MTPASection">
       <div class="section-title">Эксплуатационная документация ДЕМО</div>
       
       <!-- Элемент-строка с файлом в структуре -->
@@ -145,7 +145,7 @@
     </div>
     
     <!-- Раздел "Технологическая документация" -->
-    <div class="skin-tree technical-docs" id="technicalSection">
+    <div class="skin-tree MDL-docs" id="MDLSection">
       <div class="section-title">Технологическая документация ДЕМО</div>
       <div 
           class="file-item" 
@@ -185,7 +185,7 @@
     </div>
     
     <!-- Раздел "Интерактивная публикация" -->
-    <div class="skin-tree IETP-docs" id="IETPSection">
+    <div class="skin-tree MTPM-docs" id="MTPMSection">
       <div class="section-title">Интерактивная публикация</div>
       <div 
           class="file-item" 
@@ -274,6 +274,15 @@
           <span>Стапель-кантователь</span> </div>
       </div>
       <div 
+          class="file-item" 
+          id="PresentGRZNT" 
+          data-file="Gorizont" 
+          onclick="loadContent(this, 'files/Presents/Video/Gorizont.mp4')"
+        >
+        <div>
+          <span>Горизонт</span> </div>
+      </div>
+      <div 
           class="file-item"  
           id="PresentFactory" 
           data-file="FactoryMKD500" 
@@ -313,9 +322,10 @@
       </div>
       <div class="options-section"> 
         <!-- Плитки для перехода к разным разделам -->
-        <div class="item-option" onclick="showExploitationDocs()"> <img alt="Механизированная траверса" src="assets/images/ClearTraverce.png"/> <span>Механизированная траверса</span> </div>
-        <div class="item-option" onclick="showTechnicalDocs()"> <img alt="Модуль" src="assets/images/ClearMod.png"/> <span>Модуль</span> </div>
-        <div class="item-option" onclick="showIETPDocs()"> <img alt="Линейная траверса" src="assets/images/LinTraverce.png"/> <span>Линейная траверса</span> </div>
+        <div class="item-option" onclick="showMTPADocs()"> <img alt="Механизированная траверса" src="assets/images/ClearTraverce.png"/> <span>Механизированная траверса</span> </div>
+        <div class="item-option" onclick="showMDLDocs()"> <img alt="Модуль" src="assets/images/ClearMod.png"/> <span>Модуль</span> </div>
+        <div class="item-option" onclick="showMTPMDocs()"> <img alt="Линейная траверса" src="assets/images/LinTraverce.png"/> <span>Линейная траверса</span> </div>
+        <div class="item-option" onclick="showGRZNTDocs()"> <img alt="Горизонт" src="assets/images/Gorizont.png"/> <span>Горизонт</span> </div>
       </div>
     </div>
     

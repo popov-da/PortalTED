@@ -1,1 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" width="77mm" height="7mm" fill="none" fill-rule="evenodd" stroke-miterlimit="5" viewBox="0 0 292 27"><desc>&quot;Generator:ParallelGraphics Cortona2D&quot;,&quot;ProfileId:WebCGM&quot;&quot;ProfileEd:2.1&quot;&quot;ColourClass:colour&quot;&quot;Source:Cortona2D Editor Pro 14.2.0.142&quot;&quot;Date:20250122&quot;&quot;Company:PIK&quot;</desc><path fill="#fff" d="M0 0h292v27H0z"/><path vm2d:name="Background" vm2d:type="layer" fill="#d8d5d1" d="M0 .227h292v26.546H0Z"/><g vm2d:name="Drawing" vm2d:type="layer"><g vm2d:type="grnode"><g vm2d:type="grnode" stroke="#00f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".18"><path stroke-width=".6825977999999999" d="M70.975 13.005a5.457 5.457 0 0 1-5.457 5.46 5.46 5.46 0 0 1-5.46-5.46 5.458 5.458 0 1 1 10.917 0"/><path fill="#00f" stroke-width=".6825977999999999" d="M68.741 13.005a3.224 3.224 0 1 1-6.448-.002 3.224 3.224 0 0 1 6.448.002"/></g><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".18"><path stroke="#000" stroke-width=".6825977999999999" d="M133.46 13.005a5.457 5.457 0 0 1-5.458 5.46 5.46 5.46 0 0 1-5.46-5.46 5.46 5.46 0 0 1 5.46-5.46 5.46 5.46 0 0 1 5.457 5.46M222.963 13.005a5.46 5.46 0 0 1-10.922 0 5.46 5.46 0 0 1 10.922 0"/><text x="1.877" y="-2.574" fill="#000" font-family="Arial" font-size="3.53" transform="translate(0 26.773)scale(3.79221)">Режим:</text></g><g vm2d:type="grnode" stroke-miterlimit="10" stroke-width=".275"><text x="21.261" y="-2.574" fill="#000" font-family="Arial" font-size="3.53" transform="translate(0 26.773)scale(3.79221)">Д</text><text x="23.65" y="-2.574" fill="#000" font-family="Arial" font-size="3.53" transform="translate(0 26.773)scale(3.79221)">емо</text><path stroke="#000" stroke-width="1.04285775" d="M89.686 18.996h24.077"/></g><g fill="#000" font-family="Arial" font-size="3.53"><text x="37.569" y="-2.574" transform="translate(0 26.773)scale(3.79221)">Обучение</text><text x="61.213" y="-2.574" transform="translate(0 26.773)scale(3.79221)">Экзамен</text></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg SYSTEM "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY % SVG.External.attrib
+"xmlns:vm2d CDATA #FIXED 'http://www.cortona3d.com/vm2d'
+vm2d:name CDATA #IMPLIED
+vm2d:type CDATA #IMPLIED">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="77mm" height="7mm" viewBox="0 0 292 27" fill="none" fill-rule="evenodd" stroke-miterlimit="5">
+  <title>Без заголовка</title>
+  <desc>"Generator:ParallelGraphics Cortona2D","ProfileId:WebCGM""ProfileEd:2.1""ColourClass:colour""Source:Cortona2D Editor Pro 14.2.0.142""Date:20250122""Company:PIK"</desc>
+  <rect width="292" height="27" fill="#fff"/>
+  <defs/>
+  <g id="AUTOID_007" vm2d:name="Background" vm2d:type="layer">
+    <g transform="matrix(3.79221,0,0,3.79221,-0,26.7727)">
+      <path fill="#d8d5d1" d="M2.9802e-08,-7 L77,-7 77,-0 2.9802e-08,-0 Z"/>
+    </g>
+  </g>
+  <g id="AUTOID_008" vm2d:name="Drawing" vm2d:type="layer">
+    <g id="AUTOID_002" vm2d:name="" vm2d:type="grnode">
+      <g id="AUTOID_001" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.79221,0,0,3.79221,-0,26.7727)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+          <path stroke="#00f" d="M18.716,-3.6305 C18.716,-2.8354 18.072,-2.1909 17.277,-2.1909 16.481,-2.1909 15.837,-2.8354 15.837,-3.6305 15.837,-4.4255 16.481,-5.0701 17.277,-5.0701 18.072,-5.0701 18.716,-4.4255 18.716,-3.6305 Z"/>
+          <path fill="#00f" stroke="#00f" d="M18.127,-3.6305 C18.127,-3.161 17.746,-2.7805 17.277,-2.7805 16.807,-2.7805 16.427,-3.161 16.427,-3.6305 16.427,-4.0999 16.807,-4.4805 17.277,-4.4805 17.746,-4.4805 18.127,-4.0999 18.127,-3.6305 Z"/>
+        </g>
+      </g>
+      <g transform="matrix(3.79221,0,0,3.79221,-0,26.7727)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#000" d="M35.193,-3.6305 C35.193,-2.8354 34.549,-2.1909 33.754,-2.1909 32.959,-2.1909 32.314,-2.8354 32.314,-3.6305 32.314,-4.4255 32.959,-5.0701 33.754,-5.0701 34.549,-5.0701 35.193,-4.4255 35.193,-3.6305 Z"/>
+        <path stroke="#000" d="M58.795,-3.6305 C58.795,-2.8354 58.15,-2.1909 57.355,-2.1909 56.56,-2.1909 55.915,-2.8354 55.915,-3.6305 55.915,-4.4255 56.56,-5.0701 57.355,-5.0701 58.15,-5.0701 58.795,-4.4255 58.795,-3.6305 Z"/>
+        <text font-family="Arial" font-size="3.53" x="1.87707" y="-2.57383" fill="#000">Режим:</text>
+      </g>
+      <g id="WRAP_001" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.79221,0,0,3.79221,-0,26.7727)" stroke-width="0.27531" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10">
+          <text font-family="Arial" font-size="3.53" x="21.2608" y="-2.57383" fill="#000">Д</text>
+          <text font-family="Arial" font-size="3.53" x="23.65" y="-2.57383" fill="#000">емо</text>
+          <path stroke="#000" d="M23.65,-2.0507 L29.999,-2.0507"/>
+        </g>
+      </g>
+      <g transform="matrix(3.79221,0,0,3.79221,-0,26.7727)">
+        <text font-family="Arial" font-size="3.53" x="37.5692" y="-2.57383" fill="#000">Обучение</text>
+        <text font-family="Arial" font-size="3.53" x="61.2132" y="-2.57383" fill="#000">Экзамен</text>
+      </g>
+    </g>
+  </g>
+  <g id="AUTOID_009" vm2d:name="Axials" vm2d:type="layer"/>
+  <g id="AUTOID_010" vm2d:name="Callouts" vm2d:type="layer"/>
+  <g id="AUTOID_011" vm2d:name="Panels" vm2d:type="layer"/>
+  <g id="AUTOID_012" vm2d:name="" vm2d:type="layer"/>
+</svg>

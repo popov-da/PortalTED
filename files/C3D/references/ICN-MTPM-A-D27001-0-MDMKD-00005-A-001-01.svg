@@ -1,1 +1,916 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" width="170mm" height="210mm" fill="none" fill-rule="evenodd" stroke-miterlimit="5" viewBox="0 0 643 794"><desc>&quot;Generator:ParallelGraphics Cortona2D&quot;,&quot;ProfileId:WebCGM&quot;&quot;ProfileEd:2.1&quot;&quot;ColourClass:colour&quot;&quot;Source:Cortona2D Editor Pro 14.2.0.142&quot;&quot;Date:20241122&quot;</desc><path fill="#fff" d="M0 0h643v794H0z"/><g vm2d:type="layer" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".35"><path stroke-width="1.3233324999999998" d="M330.952 453.688h18.905v132.333h-18.905ZM104.095 226.858H123V359.19h-18.905ZM264.786 18.905h18.904V151.24h-18.904ZM103.169 642.762h18.905v132.333h-18.905ZM330.952 264.667h18.905V397h-18.905ZM330.952 642.762h18.905v132.333h-18.905ZM386.759 453.688h18.905v132.333h-18.905ZM387.666 264.667h18.905V397h-18.905ZM444.38 642.762h18.905v132.333h-18.904ZM387.666 642.762h18.905v132.333h-18.905ZM500.339 642.762h18.904v132.333H500.34ZM19.025 18.905h18.904v472.593H19.025ZM19.025 500.95h18.904v122.88H19.025ZM614.523 302.439h18.905v226.868h-18.905ZM56.833 18.905h18.905v746.737H56.833ZM586.166 18.905h18.905v746.737h-18.905ZM104.095 18.905h37.81V151.24h-37.81ZM254.407 538.76h37.81v132.333h-37.81ZM178.788 538.76h37.81v132.333h-37.81ZM179.714 226.858h37.81V359.19h-37.81ZM255.333 226.858h37.81V359.19h-37.81ZM444.38 321.343h37.81v132.345h-37.81ZM103.169 491.498h37.81V623.83h-37.81ZM520 321.343h37.81v132.349H520ZM254.407 500.95h37.81v37.81h-37.81ZM178.792 500.95h37.81v37.81h-37.81Z"/><path stroke-width="1.3233324999999998" d="M179.714 189.086h37.81v37.81h-37.81ZM255.333 359.153h37.81v37.81h-37.81ZM103.169 453.715h37.81v37.809h-37.81ZM520 283.572h37.81v37.81H520Z"/></g><g vm2d:name="Drawing" vm2d:type="layer"><g vm2d:type="grnode" fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".15"><path stroke-width=".5671425" d="M477.464 65.373v-8.772h4.726l-9.452-10.133-9.453 10.133h4.727v8.772ZM468.012 76.716h9.452v3.78h-9.452ZM468.012 69.154h9.452v3.781h-9.452ZM477.464 91.84v8.772h4.726l-9.452 10.133-9.453-10.133h4.727V91.84ZM468.012 84.278h9.452v3.78h-9.452Z"/></g><path fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.51238" d="M417.914 411.179h16.334v-4.726l10.133 9.452-10.133 9.452v-4.726l-16.334.004Z"/><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M417.914 411.179h3.781v9.452h-3.781Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M417.914 411.179h3.781v9.452h-3.781Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M410.352 411.179h3.781v9.452h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M410.352 411.179h3.781v9.452h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M402.79 411.179h3.781v9.452h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M402.79 411.179h3.781v9.452h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M395.228 411.179h3.781v9.452h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M395.228 411.179h3.781v9.452h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M387.666 411.179h3.781v9.452h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M387.666 411.179h3.781v9.452h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M380.105 411.179h3.78v9.452h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M380.105 411.179h3.78v9.452h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M372.546 411.179h3.781v9.452h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M372.546 411.179h3.781v9.452h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M364.985 411.179h3.78v9.452h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M364.985 411.179h3.78v9.452h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M357.423 411.179h3.78v9.452h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M357.423 411.179h3.78v9.452h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M349.86 411.179h3.782v9.452h-3.781Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M349.86 411.179h3.782v9.452h-3.781Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M342.299 411.179h3.78v9.452h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M342.299 411.179h3.78v9.452h-3.78Z"/></g><path fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.51238" d="M66.32 411.103H48.065v-4.688l-10.136 9.452 10.136 9.434v-4.727H66.32Z"/><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M145.712 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M145.712 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M213.743 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M213.743 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M281.804 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M281.804 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M138.15 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M138.15 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M206.18 411.141h3.782v9.433h-3.781Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M206.18 411.141h3.782v9.433h-3.781Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M274.242 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M274.242 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M130.588 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M130.588 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M198.623 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M198.623 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M266.684 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M266.684 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M334.733 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M334.733 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M123.03 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M123.03 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M191.06 411.141h3.782v9.433h-3.781Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M191.06 411.141h3.782v9.433h-3.781Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M259.122 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M259.122 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M327.171 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M327.171 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M115.468 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M115.468 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M183.499 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M183.499 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M251.56 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M251.56 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M319.613 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M319.613 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M107.906 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M107.906 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M175.937 411.141h3.781v9.433h-3.781Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M175.937 411.141h3.781v9.433h-3.781Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M243.998 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M243.998 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M312.051 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M312.051 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M100.344 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M100.344 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M168.375 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M168.375 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M236.436 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M236.436 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M304.49 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M304.49 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M92.783 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M92.783 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M160.813 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M160.813 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M228.874 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M228.874 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M296.927 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M296.927 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M85.22 411.141h3.782v9.433H85.22Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M85.22 411.141h3.782v9.433H85.22Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M153.255 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M153.255 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M221.316 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M221.316 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M289.366 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M289.366 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M77.663 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M77.663 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M145.693 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M145.693 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M213.754 411.141h3.781v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M213.754 411.141h3.781v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M281.804 411.141h3.78v9.433h-3.78Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M281.804 411.141h3.78v9.433h-3.78Z"/></g><g vm2d:type="grnode" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".7"><path stroke="#fff" stroke-width="2.6466649999999996" d="M70.1 411.141h3.782v9.433H70.1Z"/><path fill="#000" stroke="#000" stroke-width="1.51238" d="M70.1 411.141h3.782v9.433H70.1Z"/></g></g><g vm2d:name="Panels" vm2d:type="layer"><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 232.776 113.966)scale(3.78095)">КЛЕММНЫЙ БЛОК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 193.236 160.492)scale(3.78095)">РУ № 2</text><text fill="#000" font-family="Arial" font-size="3.21" transform="matrix(0 -3.78095 3.78095 0 32.823 572)">РШ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 209.145 -70.355)scale(3.78095)">КЛЕММНЫЙ БЛОК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 440.266 322.382)scale(3.78095)">КЛЕММНЫЙ БЛОК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 365.365 19.654)scale(3.78095)">КЛЕММНЫЙ БЛОК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 554.157 208.49)scale(3.78095)">КЛЕММНЫЙ БЛОК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 488.543 88.94)scale(3.78095)">ПРЕДОХРАНИТЕЛИ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 394.495 -6.034)scale(3.78095)">ПРЕДОХРАНИТЕЛИ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 611.9 154.657)scale(3.78095)">ПРЕДОХРАНИТЕЛИ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 573.281 171.85)scale(3.78095)">ТЕРМОСТАТ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 634.755 120.627)scale(3.78095)">ВЕНТИЛЯТОРЫ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 135.17 13.83)scale(3.78095)">КНОПКА АВАРИЙНОЙ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 128.638 -6.546)scale(3.78095)">ОСТАНОВКИ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 303.567 177.183)scale(3.78095)">СК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 430.953 360.456)scale(3.78095)">XD4</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 695.832 96.203)scale(3.78095)">XD5</text><text xml:space="preserve" fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 565.865 -61.521)scale(3.78095)">ШАГОВЫЕ СЕРВОДВИГАТЕЛИ </text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 460.309 174.736)scale(3.78095)">12 В / 24 В</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 467.367 197.69)scale(3.78095)">ПРЕОБРАЗОВАТЕЛИ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 274.65 78.503)scale(3.78095)">ПРЕОБРАЗОВАТЕЛИ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 266.192 56.477)scale(3.78095)">24 В / 48 В</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 402.805 125.183)scale(3.78095)">СК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 364.996 162.992)scale(3.78095)">СК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 306.224 27.674)scale(3.78095)">КОНТАКТОРЫ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 460.649 116.834)scale(3.78095)">ПРЕДОХРАНИТЕЛИ</text><g vm2d:type="grnode"><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 491.328 -44.926)scale(3.78095)">РЕЛЕ УПРАВЛЕНИЯ</text><text xml:space="preserve" fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 489.863 -60.236)scale(3.78095)"> ТОРМОЗАМИ</text></g><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 209.52 6.591)scale(3.78095)">СК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 332.375 53.827)scale(3.78095)">СК</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 426.966 -116.285)scale(3.78095)">СК</text><g vm2d:type="grnode"><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 415.987 221.998)scale(3.78095)">АВТОМАТЫ</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 419.672 211.84)scale(3.78095)">ЗАЩИТЫ</text></g><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 361.872 242.373)scale(3.78095)">ВЫКЛЮЧАТЕЛь</text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 360.976 227.633)scale(3.78095)">НАГРУЗКИ</text><text xml:space="preserve" fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 438.956 -20.788)scale(3.78095)">ШАГОВЫЕ </text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 457.53 -16.059)scale(3.78095)">СЕРВОДРАЙВЕРЫ</text><text fill="#000" font-family="Arial" font-size="2.86" transform="rotate(-90 250.56 -105.272)scale(3.78095)">СИЛОВОЕ ПИТАНИЕ 12 В</text><text fill="#000" font-family="Arial" font-size="2.86" transform="rotate(-90 265.683 -120.395)scale(3.78095)">СИЛОВОЕ ПИТАНИЕ 24 В</text><text fill="#000" font-family="Arial" font-size="2.86" transform="rotate(-90 280.807 -135.519)scale(3.78095)">СИЛОВОЕ ПИТАНИЕ 48 В</text><text xml:space="preserve" fill="#000" font-family="Arial" font-size="2.86" transform="rotate(-90 339.796 -187.88)scale(3.78095)">ДИСКРЕТНЫЙ СИГНАЛ 24 В </text><text xml:space="preserve" fill="#000" font-family="Arial" font-size="2.86" transform="rotate(-90 326.55 -174.633)scale(3.78095)">ДИСКРЕТНЫЙ СИГНАЛ 12 В </text><text xml:space="preserve" fill="#000" font-family="Arial" font-size="2.86" transform="rotate(-90 354.879 -202.963)scale(3.78095)">ДИСКРЕТНЫЙ СИГНАЛ 48 В </text><text xml:space="preserve" fill="#000" font-family="Arial" font-size="2.86" transform="rotate(-90 285.91 -158.472)scale(3.78095)">ЦИФРОВАЯ ШИНА </text><text fill="#000" font-family="Arial" font-size="2.86" transform="rotate(-90 282.154 -174.534)scale(3.78095)">ETHERCAT</text></g><g vm2d:type="layer"><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M312.047 209.654v310.2h-4.442"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m308.266 516.834-15.123 3.02 15.123 3.022Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M312.047 207.953v311.902h-4.442"/><path fill="#000" d="m308.266 516.834-15.123 3.02 15.123 3.022Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M328.324 472.62H197.693l.809-98.986"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m201.519 374.352-2.9-15.161-3.146 15.086Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M330.026 472.62H197.693l.809-98.986"/><path fill="#000" d="m201.519 374.352-2.9-15.161-3.146 15.086Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="m155.44 472.6 5.177-.007.026-349.712h-4.25"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m156.098 469.576-15.12 3.043 15.128 3.002ZM157.055 119.857l-15.124 3.024 15.124 2.987Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="m155.44 472.6 5.177-.007.026-349.712h-4.25"/><path fill="#000" d="m156.098 469.576-15.12 3.043 15.128 3.002ZM157.055 119.857l-15.124 3.024 15.124 2.987Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M505.556 302.477h-4.461v-94.524h-269.11"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="M504.876 305.501 520 302.44l-15.124-2.987ZM232.647 204.928l-15.123 3.025 15.123 3.025Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M505.556 302.477h-4.461v-94.524h-269.11"/><path fill="#000" d="M504.876 305.501 520 302.44l-15.124-2.987ZM232.647 204.928l-15.123 3.025 15.123 3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M178.013 207.953H52.39"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m53.052 204.928-15.123 3.025 15.123 3.025Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M179.714 207.953H52.391"/><path fill="#000" d="m53.052 204.928-15.123 3.025 15.123 3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M102.394 122.881H52.39"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="M53.052 119.857 37.93 122.88l15.123 3.025Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M104.095 122.881H52.391"/><path fill="#000" d="M53.052 119.857 37.93 122.88l15.123 3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M538.904 281.87V170.143H52.391"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m53.052 167.118-15.123 3.025 15.123 3.025Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M538.904 283.572V170.143H52.391"/><path fill="#000" d="m53.052 167.118-15.123 3.025 15.123 3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M39.63 85.072h50.003"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m88.971 88.097 15.124-3.025-15.124-3.025Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M37.929 85.072h51.704"/><path fill="#000" d="m88.971 88.097 15.124-3.025-15.124-3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M143.606 85.072h106.717"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m249.662 88.097 15.124-3.025-15.124-3.025Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M141.905 85.072h108.418"/><path fill="#000" d="m249.662 88.097 15.124-3.025-15.124-3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M235.502 379.76v140.095"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M235.502 378.058v141.797"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M101.467 472.593H51.464"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m52.126 469.572-15.122 3.02 15.122 3.022Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M103.169 472.593H51.464"/><path fill="#000" d="m52.126 469.572-15.122 3.02 15.122 3.022Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="m218.303 519.855 36.104.026"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="m216.601 519.855 37.806.026"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M540.795 114.715V55.278"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m543.82 55.92-3.025-15.123-3.025 15.124Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M540.795 116.416V55.278"/><path fill="#000" d="m543.82 55.92-3.025-15.123-3.025 15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="m160.59 474.294-.707 45.56h5.369"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m164.59 522.876 15.124-3.021-15.124-3.021Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="m160.617 472.593-.734 47.262h5.369"/><path fill="#000" d="m164.59 522.876 15.124-3.021-15.124-3.021Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M351.558 710.214h21.646"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m372.543 713.235 15.123-3.02-15.123-3.022Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M349.857 710.214h23.347"/><path fill="#000" d="m372.543 713.235 15.123-3.02-15.123-3.022Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M408.273 710.214h21.664"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m429.257 713.235 15.124-3.02-15.124-3.022Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M406.571 710.214h23.366"/><path fill="#000" d="m429.257 713.235 15.124-3.02-15.124-3.022Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M408.273 538.786h130.631v-72.137"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m541.93 467.31-3.026-15.123-3.024 15.124Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M406.571 538.786h132.333v-72.137"/><path fill="#000" d="m541.93 467.31-3.026-15.123-3.024 15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M464.987 710.237h21.665"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m485.971 713.258 15.124-3.021-15.124-3.025Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M463.285 710.237h23.367"/><path fill="#000" d="m485.971 713.258 15.124-3.021-15.124-3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M340.405 641.06v-40.577"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m343.426 601.145-3.021-15.124-3.021 15.124Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M340.405 642.762v-42.279"/><path fill="#000" d="m343.426 601.145-3.021-15.124-3.021 15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M273.312 672.794v37.42l43.182-.983"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m315.9 712.267 15.052-3.365-15.188-2.677Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M273.312 671.093v39.121l43.182-.983"/><path fill="#000" d="m315.9 712.267 15.052-3.365-15.188-2.677Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M39.63 294.915h50.003"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m88.968 297.94 15.127-2.988-15.12-3.062Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M37.929 294.915h51.704"/><path fill="#000" d="m88.968 297.94 15.127-2.988-15.12-3.062Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M397.119 114.715V55.278"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m400.144 55.92-3.025-15.123-3.025 15.124Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M397.119 116.416V55.278"/><path fill="#000" d="m400.144 55.92-3.025-15.123-3.025 15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M310.346 378.058h-2.741"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m308.266 375.033-15.123 3.025 15.123 3.024Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M312.047 378.058h-4.442"/><path fill="#000" d="m308.266 375.033-15.123 3.025 15.123 3.024Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M368.762 708.513V538.786h4.442"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m372.543 541.807 15.123-3.021-15.123-3.021Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M368.762 710.214V538.786h4.442"/><path fill="#000" d="m372.543 541.807 15.123-3.021-15.123-3.021Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M159.108 294.915H123"/><path stroke="#000" stroke-width="1.3233324999999998" d="M160.81 294.915H123"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M312.047 206.251v-26.693H160.64"/><path stroke="#000" stroke-width="1.3233324999999998" d="M312.047 207.953v-28.395H160.64"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9"><path stroke="#fff" stroke-width="3.4028549999999997" d="M241.344 302.477h-22.119"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m240.21 305.501 15.123-3.024-15.124-3.025Z"/><path stroke="#000" stroke-width="2.26857" d="M241.344 302.477h-23.82"/><path fill="#000" d="m240.21 305.501 15.123-3.024-15.124-3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9"><path stroke="#fff" stroke-width="3.4028549999999997" d="M316.963 302.477h-22.119"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m315.828 305.501 15.124-3.024-15.124-3.025Z"/><path stroke="#000" stroke-width="2.26857" d="M316.963 302.477h-23.82"/><path fill="#000" d="m315.828 305.501 15.124-3.024-15.124-3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9"><path stroke="#fff" stroke-width="3.4028549999999997" d="M373.677 302.477h-22.119"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m372.543 305.501 15.123-3.024-15.123-3.025Z"/><path stroke="#000" stroke-width="2.26857" d="M373.677 302.477h-23.82"/><path fill="#000" d="m372.543 305.501 15.123-3.024-15.123-3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9"><path stroke="#fff" stroke-width="3.4028549999999997" d="M430.391 340.286h-22.118"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m429.257 343.31 15.124-3.024-15.124-3.025Z"/><path stroke="#000" stroke-width="2.26857" d="M430.391 340.286h-23.82"/><path fill="#000" d="m429.257 343.31 15.124-3.024-15.124-3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9"><path stroke="#fff" stroke-width="3.4028549999999997" d="M427.366 54.786v59.929"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m430.391 55.92-3.025-15.123-3.024 15.124Z"/><path stroke="#000" stroke-width="2.26857" d="M427.366 54.786v61.63"/><path fill="#000" d="m430.391 55.92-3.025-15.123-3.024 15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".45"><path stroke="#fff" stroke-width="1.7014274999999999" d="M123.775 727.807h41.099"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m164.59 730.828 15.124-3.021-15.124-3.021Z"/><path stroke="#000" stroke-width=".5671425" d="M122.074 727.807h42.8"/><path fill="#000" d="m164.59 730.828 15.124-3.021-15.124-3.021Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".45"><path stroke="#fff" stroke-width="1.7014274999999999" d="M123.775 652.188h41.099"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m164.59 655.209 15.124-3.021-15.124-3.021Z"/><path stroke="#000" stroke-width=".5671425" d="M122.074 652.188h42.8"/><path fill="#000" d="m164.59 655.209 15.124-3.021-15.124-3.021Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".45"><path stroke="#fff" stroke-width="1.7014274999999999" d="M218.299 604.953h21.268"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m239.283 607.973 15.124-3.02-15.124-3.021Z"/><path stroke="#000" stroke-width=".5671425" d="M216.597 604.953h22.97"/><path fill="#000" d="m239.283 607.973 15.124-3.02-15.124-3.021Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".45"><path stroke="#fff" stroke-width="1.7014274999999999" d="M38.704 586.048h49.625"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m88.045 589.069 15.124-3.021-15.124-3.021Z"/><path stroke="#000" stroke-width=".5671425" d="M37.004 586.048h51.325"/><path fill="#000" d="m88.045 589.069 15.124-3.021-15.124-3.021Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".45"><path stroke="#fff" stroke-width="1.7014274999999999" d="M112.621 625.532v2.39"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m109.6 627.638 3.021 15.124 3.025-15.124Z"/><path stroke="#000" stroke-width=".5671425" d="M112.621 623.83v4.092"/><path fill="#000" d="m109.6 627.638 3.021 15.124 3.025-15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".45"><path stroke="#fff" stroke-width="1.7014274999999999" d="m38.704 510.402 49.625.02"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m88.045 513.446 15.124-3.017-15.12-3.029Z"/><path stroke="#000" stroke-width=".5671425" d="m37.004 510.402 51.325.02"/><path fill="#000" d="m88.045 513.446 15.124-3.017-15.12-3.029Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".45"><path stroke="#fff" stroke-width="1.7014274999999999" d="M366.871 114.715V55.656"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m369.892 55.92-3.02-15.123-3.022 15.124Z"/><path stroke="#000" stroke-width=".5671425" d="M366.871 116.416v-60.76"/><path fill="#000" d="m369.892 55.92-3.02-15.123-3.022 15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M274.238 152.94v59.474"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m271.217 211.734 3.02 15.124 3.022-15.124Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M274.238 151.239v61.175"/><path fill="#000" d="m271.217 211.734 3.02 15.124 3.022-15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M559.51 378.096h40.57"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m599.4 381.12 15.123-3.024-15.123-3.025Z"/><path stroke="#000" stroke-width="1.3233324999999998" d="M557.81 378.096h42.27"/><path fill="#000" d="m599.4 381.12 15.123-3.024-15.123-3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M483.892 378.096h21.627"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="M504.876 381.12 520 378.096l-15.124-3.025Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M482.19 378.096h23.329"/><path fill="#000" d="M504.876 381.12 520 378.096l-15.124-3.025Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".45"><path stroke="#fff" stroke-width="1.7014274999999999" d="M510.547 114.715V55.656"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m513.572 55.92-3.025-15.123-3.024 15.124Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width=".5671425" d="M510.547 116.416v-60.76"/><path fill="#000" d="m513.572 55.92-3.025-15.123-3.024 15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".45"><path stroke="#fff" stroke-width="1.7014274999999999" d="M612.822 510.429H453.833v-41.897"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m456.858 468.816-2.987-15.124-3.025 15.12Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width=".5671425" d="M614.523 510.429h-160.69v-41.897"/><path fill="#000" d="m456.858 468.816-2.987-15.124-3.025 15.12Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9"><path stroke="#fff" stroke-width="3.4028549999999997" d="M567.262 114.715V54.786"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m570.286 55.92-3.024-15.123-3.025 15.124Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="2.26857" d="M567.262 116.416v-61.63"/><path fill="#000" d="m570.286 55.92-3.024-15.123-3.025 15.124Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9"><path stroke="#fff" stroke-width="3.4028549999999997" d="M472.738 455.393v36.131h127.796"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m599.4 494.545 15.123-3.021-15.123-3.021Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="2.26857" d="M472.738 453.692v37.832h127.796"/><path fill="#000" d="m599.4 494.545 15.123-3.021-15.123-3.021Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M39.63 446.153H429.9"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m429.257 449.174 15.124-3.021-15.124-3.021Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M37.929 446.153h391.97"/><path fill="#000" d="m429.257 449.174 15.124-3.021-15.124-3.021Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M442.68 431.029H52.39"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m53.052 428.008-15.123 3.02 15.123 3.022Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M444.38 431.029H52.39"/><path fill="#000" d="m53.052 428.008-15.123 3.02 15.123 3.022Z"/></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".65"><path stroke="#fff" stroke-width="2.4576175" d="M253.632 378.058H52.39"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134285" d="m53.052 375.033-15.123 3.025 15.123 3.024Z"/><path stroke="#000" stroke-dasharray="11.342849999999999,3.78095" stroke-width="1.3233324999999998" d="M255.333 378.058H52.391"/><path fill="#000" d="m53.052 375.033-15.123 3.025 15.123 3.024Z"/></g></g><g vm2d:name="Callouts" vm2d:type="layer" fill="#000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".4"><path stroke-width="1.51238" d="M370.652 710.036a1.891 1.891 0 1 1-3.782 0 1.891 1.891 0 0 1 3.782 0M237.393 378.096c0 1.058-.847 1.89-1.89 1.89a1.88 1.88 0 0 1-1.891-1.89c0-1.06.847-1.891 1.89-1.891 1.044 0 1.89.832 1.89 1.89M237.393 519.855a1.891 1.891 0 1 1-3.783-.002 1.891 1.891 0 0 1 3.783.002M162.7 294.915c0 1.058-.847 1.89-1.89 1.89a1.88 1.88 0 0 1-1.891-1.89c0-1.06.847-1.89 1.89-1.89 1.044 0 1.89.83 1.89 1.89M162.7 179.558c0 1.058-.847 1.89-1.89 1.89a1.88 1.88 0 0 1-1.891-1.89c0-1.021.847-1.89 1.89-1.89 1.044 0 1.89.869 1.89 1.89M162.556 472.593a1.891 1.891 0 1 1-3.782-.002 1.891 1.891 0 0 1 3.782.002M313.938 378.096c0 1.058-.847 1.89-1.89 1.89a1.88 1.88 0 0 1-1.891-1.89c0-1.06.847-1.891 1.89-1.891 1.044 0 1.89.832 1.89 1.89M313.938 207.953c0 1.058-.847 1.89-1.89 1.89a1.88 1.88 0 0 1-1.891-1.89c0-1.059.847-1.89 1.89-1.89 1.044 0 1.89.831 1.89 1.89"/></g><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.3233324999999998" d="M178.788 680.545h56.714v94.524h-56.714Z"/><g vm2d:type="grnode"><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 483.856 285.848)scale(3.78095)">ИНДИКАТОРЫ</text><text xml:space="preserve" fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 484.122 273.103)scale(3.78095)">ПИТАНИЯ </text><text fill="#000" font-family="Arial" font-size="3.21" transform="rotate(-90 493.676 268.693)scale(3.78095)">ЛИНИИ АКБ</text></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg SYSTEM "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY % SVG.External.attrib
+"xmlns:vm2d CDATA #FIXED 'http://www.cortona3d.com/vm2d'
+vm2d:name CDATA #IMPLIED
+vm2d:type CDATA #IMPLIED">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="170mm" height="210mm" viewBox="0 0 643 794" fill="none" fill-rule="evenodd" stroke-miterlimit="5">
+  <title>Untitled</title>
+  <desc>"Generator:ParallelGraphics Cortona2D","ProfileId:WebCGM""ProfileEd:2.1""ColourClass:colour""Source:Cortona2D Editor Pro 14.2.0.142""Date:20241122"</desc>
+  <rect width="643" height="794" fill="#fff"/>
+  <defs/>
+  <g id="AUTOID_002" vm2d:name="" vm2d:type="layer">
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.35" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" d="M87.5,-90.007 L92.5,-90.007 92.5,-55.007 87.5,-55.007 Z"/>
+      <path stroke="#000" d="M27.5,-150 L32.5,-150 32.5,-115 27.5,-115 Z"/>
+      <path stroke="#000" d="M70,-205 L75,-205 75,-170 70,-170 Z"/>
+      <path stroke="#000" d="M27.255,-40 L32.255,-40 32.255,-5.0001 27.255,-5.0001 Z"/>
+      <path stroke="#000" d="M87.5,-140 L92.5,-140 92.5,-105 87.5,-105 Z"/>
+      <path stroke="#000" d="M87.5,-40 L92.5,-40 92.5,-5.0001 87.5,-5.0001 Z"/>
+      <path stroke="#000" d="M102.26,-90.007 L107.26,-90.007 107.26,-55.007 102.26,-55.007 Z"/>
+      <path stroke="#000" d="M102.5,-140 L107.5,-140 107.5,-105 102.5,-105 Z"/>
+      <path stroke="#000" d="M117.5,-40 L122.5,-40 122.5,-5.0001 117.5,-5.0001 Z"/>
+      <path stroke="#000" d="M102.5,-40 L107.5,-40 107.5,-5.0001 102.5,-5.0001 Z"/>
+      <path stroke="#000" d="M132.3,-40 L137.3,-40 137.3,-5.0001 132.3,-5.0001 Z"/>
+      <path stroke="#000" d="M5.0002,-205 L10,-205 10,-80.007 5.0002,-80.007 Z"/>
+      <path stroke="#000" d="M5.0002,-77.507 L10,-77.507 10,-45.007 5.0002,-45.007 Z"/>
+      <path stroke="#000" d="M162.5,-130.01 L167.5,-130.01 167.5,-70.007 162.5,-70.007 Z"/>
+      <path stroke="#000" d="M15,-205 L20,-205 20,-7.5001 15,-7.5001 Z"/>
+      <path stroke="#000" d="M155,-205 L160,-205 160,-7.5001 155,-7.5001 Z"/>
+      <path stroke="#000" d="M27.5,-205 L37.5,-205 37.5,-170 27.5,-170 Z"/>
+      <path stroke="#000" d="M67.255,-67.507 L77.255,-67.507 77.255,-32.507 67.255,-32.507 Z"/>
+      <path stroke="#000" d="M47.255,-67.507 L57.255,-67.507 57.255,-32.507 47.255,-32.507 Z"/>
+      <path stroke="#000" d="M47.5,-150 L57.5,-150 57.5,-115 47.5,-115 Z"/>
+      <path stroke="#000" d="M67.5,-150 L77.5,-150 77.5,-115 67.5,-115 Z"/>
+      <path stroke="#000" d="M117.5,-125.01 L127.5,-125.01 127.5,-90.007 117.5,-90.007 Z"/>
+      <path stroke="#000" d="M27.255,-80.007 L37.255,-80.007 37.255,-45.007 27.255,-45.007 Z"/>
+      <path stroke="#000" d="M137.5,-125.01 L147.5,-125.01 147.5,-90.006 137.5,-90.006 Z"/>
+      <path stroke="#000" d="M67.255,-77.507 L77.255,-77.507 77.255,-67.507 67.255,-67.507 Z"/>
+      <path stroke="#000" d="M47.256,-77.507 L57.256,-77.507 57.256,-67.507 47.256,-67.507 Z"/>
+      <path stroke="#000" d="M47.5,-159.99 L57.5,-159.99 57.5,-149.99 47.5,-149.99 Z"/>
+      <path stroke="#000" d="M67.5,-115.01 L77.5,-115.01 77.5,-105.01 67.5,-105.01 Z"/>
+      <path stroke="#000" d="M27.255,-90 L37.255,-90 37.255,-80 27.255,-80 Z"/>
+      <path stroke="#000" d="M137.5,-135 L147.5,-135 147.5,-125 137.5,-125 Z"/>
+    </g>
+  </g>
+  <g id="C3DB0001" vm2d:name="Background" vm2d:type="layer"/>
+  <g id="AUTOID_008" vm2d:name="Схема" vm2d:type="layer"/>
+  <g id="C3DG0001" vm2d:name="Drawing" vm2d:type="layer">
+    <g id="AUTOID_137" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path fill="#000" stroke="#000" d="M126.25,-192.71 L126.25,-195.03 127.5,-195.03 125,-197.71 122.5,-195.03 123.75,-195.03 123.75,-192.71 Z"/>
+        <path fill="#000" stroke="#000" d="M123.75,-189.71 L126.25,-189.71 126.25,-188.71 123.75,-188.71 Z"/>
+        <path fill="#000" stroke="#000" d="M123.75,-191.71 L126.25,-191.71 126.25,-190.71 123.75,-190.71 Z"/>
+        <path fill="#000" stroke="#000" d="M126.25,-185.71 L126.25,-183.39 127.5,-183.39 125,-180.71 122.5,-183.39 123.75,-183.39 123.75,-185.71 Z"/>
+        <path fill="#000" stroke="#000" d="M123.75,-187.71 L126.25,-187.71 126.25,-186.71 123.75,-186.71 Z"/>
+      </g>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path fill="#000" stroke="#000" d="M110.5,-101.25 L114.82,-101.25 114.82,-102.5 117.5,-100 114.82,-97.5 114.82,-98.75 110.5,-98.749 Z"/>
+    </g>
+    <g id="WRAP_001" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M110.5,-101.25 L111.5,-101.25 111.5,-98.75 110.5,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M110.5,-101.25 L111.5,-101.25 111.5,-98.75 110.5,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_002" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M108.5,-101.25 L109.5,-101.25 109.5,-98.75 108.5,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M108.5,-101.25 L109.5,-101.25 109.5,-98.75 108.5,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_003" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M106.5,-101.25 L107.5,-101.25 107.5,-98.75 106.5,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M106.5,-101.25 L107.5,-101.25 107.5,-98.75 106.5,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_004" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M104.5,-101.25 L105.5,-101.25 105.5,-98.75 104.5,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M104.5,-101.25 L105.5,-101.25 105.5,-98.75 104.5,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_005" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M102.5,-101.25 L103.5,-101.25 103.5,-98.75 102.5,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M102.5,-101.25 L103.5,-101.25 103.5,-98.75 102.5,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_006" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M100.5,-101.25 L101.5,-101.25 101.5,-98.75 100.5,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M100.5,-101.25 L101.5,-101.25 101.5,-98.75 100.5,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_007" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M98.501,-101.25 L99.501,-101.25 99.501,-98.75 98.501,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M98.501,-101.25 L99.501,-101.25 99.501,-98.75 98.501,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_008" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M96.501,-101.25 L97.501,-101.25 97.501,-98.75 96.501,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M96.501,-101.25 L97.501,-101.25 97.501,-98.75 96.501,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_009" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M94.501,-101.25 L95.501,-101.25 95.501,-98.75 94.501,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M94.501,-101.25 L95.501,-101.25 95.501,-98.75 94.501,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_010" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M92.501,-101.25 L93.501,-101.25 93.501,-98.75 92.501,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M92.501,-101.25 L93.501,-101.25 93.501,-98.75 92.501,-98.75 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_011" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M90.501,-101.25 L91.501,-101.25 91.501,-98.75 90.501,-98.75 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M90.501,-101.25 L91.501,-101.25 91.501,-98.75 90.501,-98.75 Z"/>
+      </g>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path fill="#000" stroke="#000" d="M17.509,-101.27 L12.681,-101.27 12.681,-102.51 10,-100.01 12.681,-97.515 12.681,-98.765 17.509,-98.765 Z"/>
+    </g>
+    <g id="WRAP_012" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M38.507,-101.26 L39.507,-101.26 39.507,-98.765 38.507,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M38.507,-101.26 L39.507,-101.26 39.507,-98.765 38.507,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_013" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M56.5,-101.26 L57.5,-101.26 57.5,-98.765 56.5,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M56.5,-101.26 L57.5,-101.26 57.5,-98.765 56.5,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_014" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M74.501,-101.26 L75.501,-101.26 75.501,-98.765 74.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M74.501,-101.26 L75.501,-101.26 75.501,-98.765 74.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_015" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M36.507,-101.26 L37.507,-101.26 37.507,-98.765 36.507,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M36.507,-101.26 L37.507,-101.26 37.507,-98.765 36.507,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_016" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M54.5,-101.26 L55.5,-101.26 55.5,-98.765 54.5,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M54.5,-101.26 L55.5,-101.26 55.5,-98.765 54.5,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_017" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M72.501,-101.26 L73.501,-101.26 73.501,-98.765 72.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M72.501,-101.26 L73.501,-101.26 73.501,-98.765 72.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_018" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M34.507,-101.26 L35.507,-101.26 35.507,-98.765 34.507,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M34.507,-101.26 L35.507,-101.26 35.507,-98.765 34.507,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_019" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M52.501,-101.26 L53.501,-101.26 53.501,-98.765 52.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M52.501,-101.26 L53.501,-101.26 53.501,-98.765 52.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_020" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M70.502,-101.26 L71.502,-101.26 71.502,-98.765 70.502,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M70.502,-101.26 L71.502,-101.26 71.502,-98.765 70.502,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_021" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M88.5,-101.26 L89.5,-101.26 89.5,-98.765 88.5,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M88.5,-101.26 L89.5,-101.26 89.5,-98.765 88.5,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_022" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M32.508,-101.26 L33.508,-101.26 33.508,-98.765 32.508,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M32.508,-101.26 L33.508,-101.26 33.508,-98.765 32.508,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_023" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M50.501,-101.26 L51.501,-101.26 51.501,-98.765 50.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M50.501,-101.26 L51.501,-101.26 51.501,-98.765 50.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_024" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M68.502,-101.26 L69.502,-101.26 69.502,-98.765 68.502,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M68.502,-101.26 L69.502,-101.26 69.502,-98.765 68.502,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_025" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M86.5,-101.26 L87.5,-101.26 87.5,-98.765 86.5,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M86.5,-101.26 L87.5,-101.26 87.5,-98.765 86.5,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_026" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M30.508,-101.26 L31.508,-101.26 31.508,-98.765 30.508,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M30.508,-101.26 L31.508,-101.26 31.508,-98.765 30.508,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_027" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M48.501,-101.26 L49.501,-101.26 49.501,-98.765 48.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M48.501,-101.26 L49.501,-101.26 49.501,-98.765 48.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_028" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M66.502,-101.26 L67.502,-101.26 67.502,-98.765 66.502,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M66.502,-101.26 L67.502,-101.26 67.502,-98.765 66.502,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_029" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M84.501,-101.26 L85.501,-101.26 85.501,-98.765 84.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M84.501,-101.26 L85.501,-101.26 85.501,-98.765 84.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_030" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M28.508,-101.26 L29.508,-101.26 29.508,-98.765 28.508,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M28.508,-101.26 L29.508,-101.26 29.508,-98.765 28.508,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_031" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M46.501,-101.26 L47.501,-101.26 47.501,-98.765 46.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M46.501,-101.26 L47.501,-101.26 47.501,-98.765 46.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_032" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M64.502,-101.26 L65.502,-101.26 65.502,-98.765 64.502,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M64.502,-101.26 L65.502,-101.26 65.502,-98.765 64.502,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_033" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M82.501,-101.26 L83.501,-101.26 83.501,-98.765 82.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M82.501,-101.26 L83.501,-101.26 83.501,-98.765 82.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_034" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M26.508,-101.26 L27.508,-101.26 27.508,-98.765 26.508,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M26.508,-101.26 L27.508,-101.26 27.508,-98.765 26.508,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_035" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M44.501,-101.26 L45.501,-101.26 45.501,-98.765 44.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M44.501,-101.26 L45.501,-101.26 45.501,-98.765 44.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_036" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M62.502,-101.26 L63.502,-101.26 63.502,-98.765 62.502,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M62.502,-101.26 L63.502,-101.26 63.502,-98.765 62.502,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_037" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M80.501,-101.26 L81.501,-101.26 81.501,-98.765 80.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M80.501,-101.26 L81.501,-101.26 81.501,-98.765 80.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_038" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M24.508,-101.26 L25.508,-101.26 25.508,-98.765 24.508,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M24.508,-101.26 L25.508,-101.26 25.508,-98.765 24.508,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_039" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M42.501,-101.26 L43.501,-101.26 43.501,-98.765 42.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M42.501,-101.26 L43.501,-101.26 43.501,-98.765 42.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_040" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M60.502,-101.26 L61.502,-101.26 61.502,-98.765 60.502,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M60.502,-101.26 L61.502,-101.26 61.502,-98.765 60.502,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_041" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M78.501,-101.26 L79.501,-101.26 79.501,-98.765 78.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M78.501,-101.26 L79.501,-101.26 79.501,-98.765 78.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_042" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M22.508,-101.26 L23.508,-101.26 23.508,-98.765 22.508,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M22.508,-101.26 L23.508,-101.26 23.508,-98.765 22.508,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_043" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M40.502,-101.26 L41.502,-101.26 41.502,-98.765 40.502,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M40.502,-101.26 L41.502,-101.26 41.502,-98.765 40.502,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_044" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M58.503,-101.26 L59.503,-101.26 59.503,-98.765 58.503,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M58.503,-101.26 L59.503,-101.26 59.503,-98.765 58.503,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_045" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M76.501,-101.26 L77.501,-101.26 77.501,-98.765 76.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M76.501,-101.26 L77.501,-101.26 77.501,-98.765 76.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_046" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M20.509,-101.26 L21.509,-101.26 21.509,-98.765 20.509,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M20.509,-101.26 L21.509,-101.26 21.509,-98.765 20.509,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_047" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M38.502,-101.26 L39.502,-101.26 39.502,-98.765 38.502,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M38.502,-101.26 L39.502,-101.26 39.502,-98.765 38.502,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_048" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M56.503,-101.26 L57.503,-101.26 57.503,-98.765 56.503,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M56.503,-101.26 L57.503,-101.26 57.503,-98.765 56.503,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_049" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M74.501,-101.26 L75.501,-101.26 75.501,-98.765 74.501,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M74.501,-101.26 L75.501,-101.26 75.501,-98.765 74.501,-98.765 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_050" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M18.509,-101.26 L19.509,-101.26 19.509,-98.765 18.509,-98.765 Z"/>
+        <path fill="#000" stroke="#000" stroke-width="0.4" d="M18.509,-101.26 L19.509,-101.26 19.509,-98.765 18.509,-98.765 Z"/>
+      </g>
+    </g>
+  </g>
+  <g id="C3DA0001" vm2d:name="Axials" vm2d:type="layer"/>
+  <g id="C3DP0001" vm2d:name="Panels" vm2d:type="layer">
+    <g transform="matrix(-0,-3.78095,3.78095,0,118.81,346.742)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КЛЕММНЫЙ БЛОК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,32.7447,353.728)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">РУ № 2</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,32.8233,572)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">РШ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,279.5,138.79)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КЛЕММНЫЙ БЛОК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,117.884,762.647)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КЛЕММНЫЙ БЛОК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,345.712,385.019)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КЛЕММНЫЙ БЛОК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,345.666,762.647)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КЛЕММНЫЙ БЛОК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,399.604,577.483)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ПРЕДОХРАНИТЕЛИ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,400.529,388.461)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ПРЕДОХРАНИТЕЛИ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,457.243,766.556)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ПРЕДОХРАНИТЕЛИ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,401.431,745.132)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ТЕРМОСТАТ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,514.128,755.382)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ВЕНТИЛЯТОРЫ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,121.34,149.001)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КНОПКА АВАРИЙНОЙ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,135.184,122.092)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ОСТАНОВКИ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,126.384,480.751)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">СК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,70.4979,791.409)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">XD4</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,599.628,792.035)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">XD5</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,627.386,504.343)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve">ШАГОВЫЕ СЕРВОДВИГАТЕЛИ </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,285.573,635.045)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">12 В / 24 В</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,269.677,665.056)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ПРЕОБРАЗОВАТЕЛИ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,196.147,353.153)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ПРЕОБРАЗОВАТЕЛИ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,209.715,322.669)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">24 В / 48 В</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,277.622,527.988)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">СК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,202.004,527.988)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">СК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,278.55,333.898)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КОНТАКТОРЫ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,343.815,577.483)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ПРЕДОХРАНИТЕЛИ</text>
+    </g>
+    <g id="AUTOID_003" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(-0,-3.78095,3.78095,0,536.254,446.402)">
+        <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">РЕЛЕ УПРАВЛЕНИЯ</text>
+      </g>
+      <g transform="matrix(-0,-3.78095,3.78095,0,550.099,429.627)">
+        <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve"> ТОРМОЗАМИ</text>
+      </g>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,202.928,216.111)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">СК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,278.547,386.202)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">СК</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,543.251,310.681)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">СК</text>
+    </g>
+    <g id="AUTOID_005" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(-0,-3.78095,3.78095,0,193.989,637.984)">
+        <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">АВТОМАТЫ</text>
+      </g>
+      <g transform="matrix(-0,-3.78095,3.78095,0,207.833,631.512)">
+        <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ЗАЩИТЫ</text>
+      </g>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,119.499,604.245)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ВЫКЛЮЧАТЕЛь</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,133.344,588.609)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">НАГРУЗКИ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,459.744,418.168)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve">ШАГОВЫЕ </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,473.588,441.471)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">СЕРВОДРАЙВЕРЫ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,355.831,145.288)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000">СИЛОВОЕ ПИТАНИЕ 12 В</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,386.079,145.288)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000">СИЛОВОЕ ПИТАНИЕ 24 В</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,416.326,145.288)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000">СИЛОВОЕ ПИТАНИЕ 48 В</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,527.676,151.916)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000" xml:space="preserve">ДИСКРЕТНЫЙ СИГНАЛ 24 В </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,501.183,151.916)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000" xml:space="preserve">ДИСКРЕТНЫЙ СИГНАЛ 12 В </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,557.842,151.916)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000" xml:space="preserve">ДИСКРЕТНЫЙ СИГНАЛ 48 В </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,444.382,127.438)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000" xml:space="preserve">ЦИФРОВАЯ ШИНА </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,456.688,107.62)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000">ETHERCAT</text>
+    </g>
+  </g>
+  <g id="AUTOID_001" vm2d:name="" vm2d:type="layer">
+    <g id="WRAP_051" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M82.5,-154.55 L82.5,-72.507 81.325,-72.507"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M81.5,-73.306 L77.5,-72.507 81.5,-71.708 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M82.5,-155 L82.5,-72.507 81.325,-72.507"/>
+        <path fill="#000" d="M81.5,-73.306 L77.5,-72.507 81.5,-71.708 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_052" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M86.805,-85 L52.255,-85 52.469,-111.18"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M53.267,-110.99 L52.5,-115 51.668,-111.01 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M87.255,-85 L52.255,-85 52.469,-111.18"/>
+        <path fill="#000" d="M53.267,-110.99 L52.5,-115 51.668,-111.01 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_053" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M41.08,-85.005 L42.449,-85.007 42.456,-177.5 41.332,-177.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M41.254,-85.805 L37.255,-85 41.256,-84.206 Z"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M41.507,-178.3 L37.507,-177.5 41.507,-176.71 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M41.08,-85.005 L42.449,-85.007 42.456,-177.5 41.332,-177.5"/>
+        <path fill="#000" d="M41.254,-85.805 L37.255,-85 41.256,-84.206 Z"/>
+        <path fill="#000" d="M41.507,-178.3 L37.507,-177.5 41.507,-176.71 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_054" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M133.68,-130 L132.5,-130 132.5,-155 61.325,-155"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M133.5,-129.2 L137.5,-130.01 133.5,-130.8 Z"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M61.5,-155.8 L57.5,-155 61.5,-154.2 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M133.68,-130 L132.5,-130 132.5,-155 61.325,-155"/>
+        <path fill="#000" d="M133.5,-129.2 L137.5,-130.01 133.5,-130.8 Z"/>
+        <path fill="#000" d="M61.5,-155.8 L57.5,-155 61.5,-154.2 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_055" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M47.05,-155 L13.825,-155"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M14,-155.8 L10,-155 14,-154.2 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M47.5,-155 L13.825,-155"/>
+        <path fill="#000" d="M14,-155.8 L10,-155 14,-154.2 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_056" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M27.05,-177.5 L13.825,-177.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M14,-178.3 L10,-177.5 14,-176.7 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M27.5,-177.5 L13.825,-177.5"/>
+        <path fill="#000" d="M14,-178.3 L10,-177.5 14,-176.7 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_057" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M142.5,-135.45 L142.5,-165 13.825,-165"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M14,-165.8 L10,-165 14,-164.2 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M142.5,-135 L142.5,-165 13.825,-165"/>
+        <path fill="#000" d="M14,-165.8 L10,-165 14,-164.2 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_058" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M10.45,-187.5 L23.675,-187.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M23.5,-186.7 L27.5,-187.5 23.5,-188.3 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M10,-187.5 L23.675,-187.5"/>
+        <path fill="#000" d="M23.5,-186.7 L27.5,-187.5 23.5,-188.3 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_059" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M37.95,-187.5 L66.175,-187.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M66,-186.7 L70,-187.5 66,-188.3 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M37.5,-187.5 L66.175,-187.5"/>
+        <path fill="#000" d="M66,-186.7 L70,-187.5 66,-188.3 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_060" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M62.255,-109.56 L62.255,-72.507"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M62.255,-110.01 L62.255,-72.507"/>
+      </g>
+    </g>
+    <g id="WRAP_061" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M26.805,-85.007 L13.58,-85.007"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M13.755,-85.806 L9.7554,-85.007 13.755,-84.208 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M27.255,-85.007 L13.58,-85.007"/>
+        <path fill="#000" d="M13.755,-85.806 L9.7554,-85.007 13.755,-84.208 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_062" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M57.706,-72.507 L67.255,-72.5"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M57.256,-72.507 L67.255,-72.5"/>
+      </g>
+    </g>
+    <g id="WRAP_063" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M143,-179.66 L143,-195.38"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M143.8,-195.21 L143,-199.21 142.2,-195.21 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M143,-179.21 L143,-195.38"/>
+        <path fill="#000" d="M143.8,-195.21 L143,-199.21 142.2,-195.21 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_064" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M42.442,-84.557 L42.255,-72.507 43.675,-72.507"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M43.5,-71.708 L47.5,-72.507 43.5,-73.306 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M42.449,-85.007 L42.255,-72.507 43.675,-72.507"/>
+        <path fill="#000" d="M43.5,-71.708 L47.5,-72.507 43.5,-73.306 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_065" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M92.95,-22.16 L98.675,-22.16"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M98.5,-21.361 L102.5,-22.16 98.5,-22.959 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M92.5,-22.16 L98.675,-22.16"/>
+        <path fill="#000" d="M98.5,-21.361 L102.5,-22.16 98.5,-22.959 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_066" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M107.95,-22.16 L113.68,-22.16"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M113.5,-21.361 L117.5,-22.16 113.5,-22.959 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M107.5,-22.16 L113.68,-22.16"/>
+        <path fill="#000" d="M113.5,-21.361 L117.5,-22.16 113.5,-22.959 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_067" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M107.95,-67.5 L142.5,-67.5 142.5,-86.579"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M143.3,-86.404 L142.5,-90.404 141.7,-86.404 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M107.5,-67.5 L142.5,-67.5 142.5,-86.579"/>
+        <path fill="#000" d="M143.3,-86.404 L142.5,-90.404 141.7,-86.404 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_068" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M122.95,-22.154 L128.68,-22.154"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M128.5,-21.355 L132.5,-22.154 128.5,-22.954 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M122.5,-22.154 L128.68,-22.154"/>
+        <path fill="#000" d="M128.5,-21.355 L132.5,-22.154 128.5,-22.954 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_069" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M90,-40.45 L90,-51.182"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M90.799,-51.007 L90,-55.007 89.201,-51.007 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M90,-40 L90,-51.182"/>
+        <path fill="#000" d="M90.799,-51.007 L90,-55.007 89.201,-51.007 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_070" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M72.255,-32.057 L72.255,-22.16 83.676,-22.42"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M83.519,-21.617 L87.5,-22.507 83.483,-23.215 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M72.255,-32.507 L72.255,-22.16 83.676,-22.42"/>
+        <path fill="#000" d="M83.519,-21.617 L87.5,-22.507 83.483,-23.215 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_071" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M10.45,-132 L21.107,-132 23.675,-132"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M23.499,-131.2 L27.5,-131.99 23.501,-132.8 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M10,-132 L21.107,-132 23.675,-132"/>
+        <path fill="#000" d="M23.499,-131.2 L27.5,-131.99 23.501,-132.8 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_072" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M105,-179.66 L105,-195.38"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M105.8,-195.21 L105,-199.21 104.2,-195.21 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M105,-179.21 L105,-195.38"/>
+        <path fill="#000" d="M105.8,-195.21 L105,-199.21 104.2,-195.21 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_073" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M82.05,-110.01 L81.325,-110.01"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M81.5,-110.81 L77.5,-110.01 81.5,-109.21 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M82.5,-110.01 L81.325,-110.01"/>
+        <path fill="#000" d="M81.5,-110.81 L77.5,-110.01 81.5,-109.21 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_074" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M97.5,-22.61 L97.5,-67.5 98.675,-67.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M98.5,-66.701 L102.5,-67.5 98.5,-68.299 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M97.5,-22.16 L97.5,-67.5 98.675,-67.5"/>
+        <path fill="#000" d="M98.5,-66.701 L102.5,-67.5 98.5,-68.299 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_075" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M42.05,-132 L32.5,-132"/>
+        <path stroke="#000" stroke-width="0.35" d="M42.5,-132 L32.5,-132"/>
+      </g>
+    </g>
+    <g id="WRAP_076" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M82.5,-155.45 L82.5,-162.51 42.455,-162.51"/>
+        <path stroke="#000" stroke-width="0.35" d="M82.5,-155 L82.5,-162.51 42.455,-162.51"/>
+      </g>
+    </g>
+    <g id="WRAP_077" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M63.8,-130 L57.95,-130"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M63.5,-129.2 L67.5,-130 63.5,-130.8 Z"/>
+        <path stroke="#000" stroke-width="0.6" d="M63.8,-130 L57.5,-130"/>
+        <path fill="#000" d="M63.5,-129.2 L67.5,-130 63.5,-130.8 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_078" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M83.8,-130 L77.95,-130"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M83.5,-129.2 L87.5,-130 83.5,-130.8 Z"/>
+        <path stroke="#000" stroke-width="0.6" d="M83.8,-130 L77.5,-130"/>
+        <path fill="#000" d="M83.5,-129.2 L87.5,-130 83.5,-130.8 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_079" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M98.8,-130 L92.95,-130"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M98.5,-129.2 L102.5,-130 98.5,-130.8 Z"/>
+        <path stroke="#000" stroke-width="0.6" d="M98.8,-130 L92.5,-130"/>
+        <path fill="#000" d="M98.5,-129.2 L102.5,-130 98.5,-130.8 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_080" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M113.8,-120 L107.95,-120"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M113.5,-119.2 L117.5,-120 113.5,-120.8 Z"/>
+        <path stroke="#000" stroke-width="0.6" d="M113.8,-120 L107.5,-120"/>
+        <path fill="#000" d="M113.5,-119.2 L117.5,-120 113.5,-120.8 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_081" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M113,-195.51 L113,-179.66"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M113.8,-195.21 L113,-199.21 112.2,-195.21 Z"/>
+        <path stroke="#000" stroke-width="0.6" d="M113,-195.51 L113,-179.21"/>
+        <path fill="#000" d="M113.8,-195.21 L113,-199.21 112.2,-195.21 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_082" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.45" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M32.705,-17.507 L43.575,-17.507"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M43.5,-16.708 L47.5,-17.507 43.5,-18.306 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M32.255,-17.507 L43.575,-17.507"/>
+        <path fill="#000" d="M43.5,-16.708 L47.5,-17.507 43.5,-18.306 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_083" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.45" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M32.705,-37.507 L43.575,-37.507"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M43.5,-36.708 L47.5,-37.507 43.5,-38.306 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M32.255,-37.507 L43.575,-37.507"/>
+        <path fill="#000" d="M43.5,-36.708 L47.5,-37.507 43.5,-38.306 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_084" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.45" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M57.705,-50 L63.33,-50"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M63.255,-49.201 L67.255,-50 63.255,-50.799 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M57.255,-50 L63.33,-50"/>
+        <path fill="#000" d="M63.255,-49.201 L67.255,-50 63.255,-50.799 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_085" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.45" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M10.205,-55 L23.33,-55"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M23.255,-54.201 L27.255,-55 23.255,-55.799 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M9.7554,-55 L23.33,-55"/>
+        <path fill="#000" d="M23.255,-54.201 L27.255,-55 23.255,-55.799 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_086" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.45" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M29.755,-44.557 L29.755,-43.925"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M28.956,-44 L29.755,-40 30.555,-44 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M29.755,-45.007 L29.755,-43.925"/>
+        <path fill="#000" d="M28.956,-44 L29.755,-40 30.555,-44 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_087" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.45" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M10.205,-75.007 L23.33,-75.002"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M23.255,-74.202 L27.255,-75 23.256,-75.801 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M9.7554,-75.007 L23.33,-75.002"/>
+        <path fill="#000" d="M23.255,-74.202 L27.255,-75 23.256,-75.801 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_088" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.45" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M97,-179.66 L97,-195.28"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M97.799,-195.21 L97,-199.21 96.201,-195.21 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M97,-179.21 L97,-195.28"/>
+        <path fill="#000" d="M97.799,-195.21 L97,-199.21 96.201,-195.21 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_089" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M72.5,-169.55 L72.5,-153.82"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M71.701,-154 L72.5,-150 73.299,-154 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M72.5,-170 L72.5,-153.82"/>
+        <path fill="#000" d="M71.701,-154 L72.5,-150 73.299,-154 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_090" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M147.95,-110 L158.68,-110"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M158.5,-109.2 L162.5,-110 158.5,-110.8 Z"/>
+        <path stroke="#000" stroke-width="0.35" d="M147.5,-110 L158.68,-110"/>
+        <path fill="#000" d="M158.5,-109.2 L162.5,-110 158.5,-110.8 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_091" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M127.95,-110 L133.67,-110"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M133.5,-109.2 L137.5,-110 133.5,-110.8 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M127.5,-110 L133.67,-110"/>
+        <path fill="#000" d="M133.5,-109.2 L137.5,-110 133.5,-110.8 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_092" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.45" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M135,-179.66 L135,-195.28"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M135.8,-195.21 L135,-199.21 134.2,-195.21 Z"/>
+        <path stroke="#000" stroke-width="0.15" stroke-dasharray="3,1" d="M135,-179.21 L135,-195.28"/>
+        <path fill="#000" d="M135.8,-195.21 L135,-199.21 134.2,-195.21 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_093" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.45" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M162.05,-75 L120,-75 120,-86.081"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M120.8,-86.006 L120.01,-90.006 119.21,-86.007 Z"/>
+        <path stroke="#000" stroke-width="0.15" stroke-dasharray="3,1" d="M162.5,-75 L120,-75 120,-86.081"/>
+        <path fill="#000" d="M120.8,-86.006 L120.01,-90.006 119.21,-86.007 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_094" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M150,-179.66 L150,-195.51"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M150.8,-195.21 L150,-199.21 149.2,-195.21 Z"/>
+        <path stroke="#000" stroke-width="0.6" stroke-dasharray="3,1" d="M150,-179.21 L150,-195.51"/>
+        <path fill="#000" d="M150.8,-195.21 L150,-199.21 149.2,-195.21 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_095" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M125,-89.556 L125,-80 158.8,-80"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M158.5,-79.201 L162.5,-80 158.5,-80.799 Z"/>
+        <path stroke="#000" stroke-width="0.6" stroke-dasharray="3,1" d="M125,-90.006 L125,-80 158.8,-80"/>
+        <path fill="#000" d="M158.5,-79.201 L162.5,-80 158.5,-80.799 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_096" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M10.45,-92 L113.67,-92"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M113.5,-91.201 L117.5,-92 113.5,-92.799 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M10,-92 L113.67,-92"/>
+        <path fill="#000" d="M113.5,-91.201 L117.5,-92 113.5,-92.799 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_097" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M117.05,-96 L13.825,-96"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M14,-96.799 L10,-96 14,-95.201 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M117.5,-96 L13.825,-96"/>
+        <path fill="#000" d="M14,-96.799 L10,-96 14,-95.201 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_098" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M67.05,-110.01 L13.825,-110.01"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M14,-110.81 L10,-110.01 14,-109.21 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M67.5,-110.01 L13.825,-110.01"/>
+        <path fill="#000" d="M14,-110.81 L10,-110.01 14,-109.21 Z"/>
+      </g>
+    </g>
+  </g>
+  <g id="C3DC0001" vm2d:name="Callouts" vm2d:type="layer">
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path fill="#000" stroke="#000" d="M98,-22.207 C98,-21.931 97.776,-21.707 97.5,-21.707 97.224,-21.707 97,-21.931 97,-22.207 97,-22.483 97.224,-22.707 97.5,-22.707 97.776,-22.707 98,-22.483 98,-22.207 Z"/>
+      <path fill="#000" stroke="#000" d="M62.755,-110 C62.755,-109.72 62.531,-109.5 62.255,-109.5 61.979,-109.5 61.755,-109.72 61.755,-110 61.755,-110.28 61.979,-110.5 62.255,-110.5 62.531,-110.5 62.755,-110.28 62.755,-110 Z"/>
+      <path fill="#000" stroke="#000" d="M62.755,-72.507 C62.755,-72.231 62.531,-72.007 62.255,-72.007 61.979,-72.007 61.755,-72.231 61.755,-72.507 61.755,-72.783 61.979,-73.007 62.255,-73.007 62.531,-73.007 62.755,-72.783 62.755,-72.507 Z"/>
+      <path fill="#000" stroke="#000" d="M43,-132 C43,-131.72 42.776,-131.5 42.5,-131.5 42.224,-131.5 42,-131.72 42,-132 42,-132.28 42.224,-132.5 42.5,-132.5 42.776,-132.5 43,-132.28 43,-132 Z"/>
+      <path fill="#000" stroke="#000" d="M43,-162.51 C43,-162.23 42.776,-162.01 42.5,-162.01 42.224,-162.01 42,-162.23 42,-162.51 42,-162.78 42.224,-163.01 42.5,-163.01 42.776,-163.01 43,-162.78 43,-162.51 Z"/>
+      <path fill="#000" stroke="#000" d="M42.962,-85.007 C42.962,-84.731 42.738,-84.507 42.462,-84.507 42.186,-84.507 41.962,-84.731 41.962,-85.007 41.962,-85.283 42.186,-85.507 42.462,-85.507 42.738,-85.507 42.962,-85.283 42.962,-85.007 Z"/>
+      <path fill="#000" stroke="#000" d="M83,-110 C83,-109.72 82.776,-109.5 82.5,-109.5 82.224,-109.5 82,-109.72 82,-110 82,-110.28 82.224,-110.5 82.5,-110.5 82.776,-110.5 83,-110.28 83,-110 Z"/>
+      <path fill="#000" stroke="#000" d="M83,-155 C83,-154.72 82.776,-154.5 82.5,-154.5 82.224,-154.5 82,-154.72 82,-155 82,-155.28 82.224,-155.5 82.5,-155.5 82.776,-155.5 83,-155.28 83,-155 Z"/>
+    </g>
+  </g>
+  <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.35" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+    <path stroke="#000" d="M47.255,-30.007 L62.255,-30.007 62.255,-5.0069 47.255,-5.0069 Z"/>
+  </g>
+  <g id="AUTOID_004" vm2d:name="" vm2d:type="grnode">
+    <g transform="matrix(-0,-3.78095,3.78095,0,198.008,769.704)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ИНДИКАТОРЫ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,211.019,757.225)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve">ПИТАНИЯ </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,224.983,762.369)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ЛИНИИ АКБ</text>
+    </g>
+  </g>
+</svg>

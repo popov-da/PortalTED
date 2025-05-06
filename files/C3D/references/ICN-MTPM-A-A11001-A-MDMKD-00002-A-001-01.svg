@@ -1,1 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" width="170mm" height="102mm" fill="none" fill-rule="evenodd" stroke-miterlimit="5" viewBox="0 0 643 386"><desc>&quot;Generator:ParallelGraphics Cortona2D&quot;,&quot;ProfileId:WebCGM&quot;&quot;ProfileEd:2.1&quot;&quot;ColourClass:colour&quot;&quot;Source:Cortona2D Editor Pro 14.2.0.142&quot;&quot;Date:20241223&quot;</desc><path fill="#fff" d="M0 0h643v386H0z"/><g vm2d:name="Схема" vm2d:type="layer"><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".18"><path stroke="#000" stroke-width=".680823" d="M381.707 30.359h245.86v98.995h-245.86Z"/><text x="87.222" y="-51.297" fill="#000" font-family="Arial" font-size="2.86" transform="translate(97.963 484.241)scale(3.78235)">ДИСКРЕТНЫЙ СИГНАЛ 48 В</text><text x="89.541" y="-41.327" fill="#000" font-family="Arial" font-size="2.86" transform="translate(97.963 484.241)scale(3.78235)">МЕХАНИЧЕСКАЯ СВЯЗЬ</text><path fill="#00f" stroke="#000" stroke-width=".680823" d="m479.186 331.26-10.133 9.456 10.133 9.456v-4.728h44.027v4.728l10.136-9.456-10.136-9.456v4.728h-44.027Z"/></g><g vm2d:type="grnode"><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".680823" d="M427.867 186.09h151.286v56.735H427.867Z"/><g vm2d:type="grnode" fill="#000" font-family="Arial" font-size="3.21"><text x="98.808" y="-71.992" transform="translate(97.963 484.241)scale(3.78235)">РЕДУКТОР</text><text x="100.064" y="-68.341" transform="translate(97.963 484.241)scale(3.78235)">КАРЕТКИ</text></g></g><g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".18"><path fill="#00f" stroke-width=".680823" d="m512.962 139.597-9.456-10.243-9.455 10.243h4.728v36.356h-4.728l9.455 10.137 9.456-10.137h-4.728v-36.356Z"/><path stroke-width=".680823" d="M22.384 30.359h189.117v212.466H22.384Z"/></g><g vm2d:type="grnode" fill="#000" font-family="Arial" font-size="3.21"><text x="-11.054" y="-92.349" transform="translate(97.963 484.241)scale(3.78235)">ШАГОВЫЙ ДРАЙВЕР</text><text x="-2.14" y="-88.656" transform="translate(97.963 484.241)scale(3.78235)">КАРЕТКИ</text></g><g vm2d:type="grnode" fill="#000" font-family="Arial" font-size="3.21"><text x="89.758" y="-107.349" transform="translate(97.963 484.241)scale(3.78235)">ШАГОВЫЙ ДВИГАТЕЛЬ</text><text x="100.36" y="-103.656" transform="translate(97.963 484.241)scale(3.78235)">КАРЕТКИ</text></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9"><path stroke="#fff" stroke-width="3.404115" d="M213.204 77.638h154.509"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134705" d="m366.578 80.664 15.13-3.026-15.13-3.026Z"/><path stroke="#000" stroke-dasharray="11.34705,3.78235" stroke-width="2.26941" d="M211.501 77.638h156.212"/><path fill="#000" d="m366.578 80.664 15.13-3.026-15.13-3.026Z"/></g></g><g vm2d:type="grnode" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".9"><path stroke="#fff" stroke-width="3.404115" d="M468.444 302.688h59.95"/><path stroke="#fff" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" stroke-width="1.134705" d="m527.26 305.71 15.129-3.022-15.13-3.022Z"/><path stroke="#000" stroke-dasharray="11.34705,3.78235" stroke-width="2.26941" d="M466.742 302.688h61.652"/><path fill="#000" d="m527.26 305.71 15.129-3.022-15.13-3.022Z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg SYSTEM "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY % SVG.External.attrib
+"xmlns:vm2d CDATA #FIXED 'http://www.cortona3d.com/vm2d'
+vm2d:name CDATA #IMPLIED
+vm2d:type CDATA #IMPLIED">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="170mm" height="102mm" viewBox="0 0 643 386" fill="none" fill-rule="evenodd" stroke-miterlimit="5">
+  <title>Untitled</title>
+  <desc>"Generator:ParallelGraphics Cortona2D","ProfileId:WebCGM""ProfileEd:2.1""ColourClass:colour""Source:Cortona2D Editor Pro 14.2.0.142""Date:20241223"</desc>
+  <rect width="643" height="386" fill="#fff"/>
+  <defs/>
+  <g id="C3DB0001" vm2d:name="Background" vm2d:type="layer"/>
+  <g id="AUTOID_008" vm2d:name="Схема" vm2d:type="layer">
+    <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" d="M75.018,-120 L140.02,-120 140.02,-93.827 75.018,-93.827 Z"/>
+      <text font-family="Arial" font-size="2.86" x="87.222" y="-51.2965" fill="#000">ДИСКРЕТНЫЙ СИГНАЛ 48 В</text>
+      <text font-family="Arial" font-size="2.86" x="89.5409" y="-41.3267" fill="#000">МЕХАНИЧЕСКАЯ СВЯЗЬ</text>
+      <path fill="#00f" stroke="#000" d="M100.79,-40.446 L98.111,-37.946 100.79,-35.446 100.79,-36.696 112.43,-36.696 112.43,-35.446 115.11,-37.946 112.43,-40.446 112.43,-39.196 100.79,-39.196 Z"/>
+    </g>
+    <g id="AUTOID_005" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#000" d="M87.222,-78.827 L127.22,-78.827 127.22,-63.827 87.222,-63.827 Z"/>
+      </g>
+      <g id="AUTOID_004" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)">
+          <text font-family="Arial" font-size="3.21" x="98.8082" y="-71.9923" fill="#000">РЕДУКТОР</text>
+          <text font-family="Arial" font-size="3.21" x="100.064" y="-68.3413" fill="#000">КАРЕТКИ</text>
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path fill="#00f" stroke="#000" d="M109.72,-91.119 L107.22,-93.827 104.72,-91.119 105.97,-91.119 105.97,-81.507 104.72,-81.507 107.22,-78.827 109.72,-81.507 108.47,-81.507 108.47,-91.119 Z"/>
+      <path stroke="#000" d="M-19.982,-120 L30.018,-120 30.018,-63.827 -19.982,-63.827 Z"/>
+    </g>
+    <g id="AUTOID_002" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)">
+        <text font-family="Arial" font-size="3.21" x="-11.0539" y="-92.349" fill="#000">ШАГОВЫЙ ДРАЙВЕР</text>
+        <text font-family="Arial" font-size="3.21" x="-2.14024" y="-88.6557" fill="#000">КАРЕТКИ</text>
+      </g>
+    </g>
+    <g id="AUTOID_003" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)">
+        <text font-family="Arial" font-size="3.21" x="89.7583" y="-107.349" fill="#000">ШАГОВЫЙ ДВИГАТЕЛЬ</text>
+        <text font-family="Arial" font-size="3.21" x="100.36" y="-103.656" fill="#000">КАРЕТКИ</text>
+      </g>
+    </g>
+    <g id="WRAP_001" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M30.468,-107.5 L71.318,-107.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M71.018,-106.7 L75.018,-107.5 71.018,-108.3 Z"/>
+        <path stroke="#000" stroke-width="0.6" stroke-dasharray="3,1" d="M30.018,-107.5 L71.318,-107.5"/>
+        <path fill="#000" d="M71.018,-106.7 L75.018,-107.5 71.018,-108.3 Z"/>
+      </g>
+    </g>
+  </g>
+  <g id="C3DG0001" vm2d:name="Drawing" vm2d:type="layer"/>
+  <g id="C3DA0001" vm2d:name="Axials" vm2d:type="layer"/>
+  <g id="C3DC0001" vm2d:name="Callouts" vm2d:type="layer"/>
+  <g id="C3DP0001" vm2d:name="Panels" vm2d:type="layer"/>
+  <g id="WRAP_002" vm2d:name="" vm2d:type="grnode">
+    <g transform="matrix(3.78235,0,0,3.78235,97.9629,484.241)" stroke-width="0.9" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#fff" d="M97.95,-48 L113.8,-48"/>
+      <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M113.5,-47.201 L117.5,-48 113.5,-48.799 Z"/>
+      <path stroke="#000" stroke-width="0.6" stroke-dasharray="3,1" d="M97.5,-48 L113.8,-48"/>
+      <path fill="#000" d="M113.5,-47.201 L117.5,-48 113.5,-48.799 Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,1 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" width="195mm" height="34mm" fill="none" fill-rule="evenodd" stroke-miterlimit="5" viewBox="0 0 738 129"><desc>&quot;Generator:ParallelGraphics Cortona2D&quot;,&quot;ProfileId:WebCGM&quot;&quot;ProfileEd:2.1&quot;&quot;ColourClass:colour&quot;&quot;Source:Cortona2D Editor Pro 14.2.0.142&quot;&quot;Date:20250124&quot;&quot;Company:PIK&quot;</desc><path fill="#fff" d="M0 0h738v129H0z"/><g vm2d:name="Drawing" vm2d:type="layer"><text x="6.325" y="-14.058" fill="#000" font-family="Arial" font-size="3.53" transform="translate(0 128.838)scale(3.78462)">Выберите хотя бы один натяжитель</text><g vm2d:type="grnode" fill="#008b8b" font-family="Arial" font-size="3.53"><text xml:space="preserve" x="6.507" y="-29.102" transform="translate(0 128.838)scale(3.78462)">Определите положение детали(ей) с помощью кнопок </text><text x="96.877" y="-29.102" font-weight="bold" transform="translate(0 128.838)scale(3.78462)">Положение детали</text><text xml:space="preserve" x="129.956" y="-29.102" transform="translate(0 128.838)scale(3.78462)"> и выделите (щелкните)</text><text x="6.507" y="-25.092" transform="translate(0 128.838)scale(3.78462)">эту деталь в 3D-окне или на вкладке Детали.</text></g><g stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width=".18"><path stroke="#000" stroke-width=".6812315999999999" d="M18.923 98.561h705.642v30.277H18.923ZM18.923 56.93h230.84v30.277H18.922ZM18.923.505H643.65v45.416H18.923Z"/><text xml:space="preserve" x="6.325" y="-3.078" fill="#00f" font-family="Arial" font-size="3.53" transform="translate(0 128.838)scale(3.78462)">Выберите любой:   МТПМ.131000.102 - Натяжитель цепи (1)    МТПМ.131000.102 - Натяжитель цепи (2)</text></g></g><g vm2d:name="Callouts" vm2d:type="layer"><g stroke-linecap="round" stroke-miterlimit="10" stroke-width=".85"><path stroke="#fff" stroke-width="3.2169269999999996" d="m459.49 59.75-10.37-21.743"/><path stroke="#fff" stroke-linejoin="round" stroke-width="2.649234" d="M450.9 38.007c0 .984-.795 1.779-1.78 1.779a1.777 1.777 0 0 1-1.778-1.779c0-.984.795-1.779 1.779-1.779s1.779.795 1.779 1.78"/><path stroke="#000" stroke-width=".567693" d="m459.49 59.75-10.37-21.743"/><path fill="#000" d="M450.9 38.007c0 .984-.795 1.779-1.78 1.779a1.777 1.777 0 0 1-1.778-1.779c0-.984.795-1.779 1.779-1.779s1.779.795 1.779 1.78"/></g><text x="-8.155" y=".99" fill="#000" font-family="Arial" font-size="2.86" transform="matrix(3.74111 0 0 3.78462 459.472 65.928)">ОПИСАНИЕ</text><text x="-11.407" y=".99" fill="#000" font-family="Arial" font-size="2.86" transform="matrix(3.74111 0 0 3.78462 459.472 78.21)">ТИПА ВОПРОСА</text><a vm2d:name="ОПИСАНИЕ ТИПА ВОПРОСА" vm2d:type="grobject" xlink:href="#"><path fill="none" d="M414.13 59.752h90.68v24.635h-90.68Z"/></a><g stroke-linecap="round" stroke-miterlimit="10" stroke-width=".85"><path stroke="#fff" stroke-width="3.2169269999999996" d="m647.776 84.388-9.803 20.574"/><path stroke="#fff" stroke-linejoin="round" stroke-width="2.649234" d="M639.752 104.962a1.778 1.778 0 1 1-3.557 0 1.778 1.778 0 1 1 3.557 0"/><path stroke="#000" stroke-width=".567693" d="m647.776 84.388-9.803 20.574"/><path fill="#000" d="M639.752 104.962a1.778 1.778 0 1 1-3.557 0 1.778 1.778 0 1 1 3.557 0"/></g><text x="-11.949" y=".99" fill="#000" font-family="Arial" font-size="2.86" transform="matrix(3.74111 0 0 3.78462 647.78 65.928)">ПОДСКАЗКА ИЛИ</text><text x="-14.109" y=".99" fill="#000" font-family="Arial" font-size="2.86" transform="matrix(3.74111 0 0 3.78462 647.78 78.21)">ВАРИАНТЫ ОТВЕТА</text><a vm2d:name="ПОДСКАЗКА ИЛИ ВАРИАНТЫ ОТВЕТА" vm2d:type="grobject" xlink:href="#"><path fill="none" d="M592.6 59.752h110.36v24.635H592.6Z"/></a><g stroke-linecap="round" stroke-miterlimit="10" stroke-width=".85"><path stroke="#fff" stroke-width="3.2169269999999996" d="m268.367 72.069-26.151 9.741"/><path stroke="#fff" stroke-linejoin="round" stroke-width="2.649234" d="M243.994 81.81c0 .984-.794 1.78-1.778 1.78a1.78 1.78 0 1 1 1.779-1.779"/><path stroke="#000" stroke-width=".567693" d="m268.367 72.069-26.151 9.741"/><path fill="#000" d="M243.994 81.81c0 .984-.794 1.78-1.778 1.78a1.78 1.78 0 1 1 1.779-1.779"/></g><text y=".99" fill="#000" font-family="Arial" font-size="2.86" transform="matrix(3.74111 0 0 3.78462 270.664 65.928)">ТЕКСТ</text><text y=".99" fill="#000" font-family="Arial" font-size="2.86" transform="matrix(3.74111 0 0 3.78462 270.664 78.21)">ВОПРОСА</text><a vm2d:name="ТЕКСТ ВОПРОСА" vm2d:type="grobject" xlink:href="#"><path fill="none" d="M268.37 59.752h57.97v24.635h-57.97Z"/></a></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg SYSTEM "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY % SVG.External.attrib
+"xmlns:vm2d CDATA #FIXED 'http://www.cortona3d.com/vm2d'
+vm2d:name CDATA #IMPLIED
+vm2d:type CDATA #IMPLIED">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="195mm" height="34mm" viewBox="0 0 738 129" fill="none" fill-rule="evenodd" stroke-miterlimit="5">
+  <title>Без заголовка</title>
+  <desc>"Generator:ParallelGraphics Cortona2D","ProfileId:WebCGM""ProfileEd:2.1""ColourClass:colour""Source:Cortona2D Editor Pro 14.2.0.142""Date:20250124""Company:PIK"</desc>
+  <rect width="738" height="129" fill="#fff"/>
+  <defs/>
+  <g id="AUTOID_007" vm2d:name="Background" vm2d:type="layer"/>
+  <g id="AUTOID_008" vm2d:name="Drawing" vm2d:type="layer">
+    <g transform="matrix(3.78462,0,0,3.78462,-0,128.838)">
+      <text font-family="Arial" font-size="3.53" x="6.32485" y="-14.0578" fill="#000">Выберите хотя бы один натяжитель</text>
+    </g>
+    <g id="AUTOID_006" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78462,0,0,3.78462,-0,128.838)">
+        <text font-family="Arial" font-size="3.53" x="6.50705" y="-29.1017" fill="#008b8b" xml:space="preserve">Определите положение детали(ей) с помощью кнопок </text>
+        <text font-family="Arial" font-size="3.53" font-weight="bold" x="96.8771" y="-29.1017" fill="#008b8b">Положение детали</text>
+        <text font-family="Arial" font-size="3.53" x="129.956" y="-29.1017" fill="#008b8b" xml:space="preserve"> и выделите (щелкните)</text>
+        <text font-family="Arial" font-size="3.53" x="6.50705" y="-25.0917" fill="#008b8b">эту деталь в 3D-окне или на вкладке Детали.</text>
+      </g>
+    </g>
+    <g transform="matrix(3.78462,0,0,3.78462,-0,128.838)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" d="M5,-8 L191.45,-8 191.45,2.0564e-06 5,2.0564e-06 Z"/>
+      <path stroke="#000" d="M5,-19 L65.994,-19 65.994,-11 5,-11 Z"/>
+      <path stroke="#000" d="M5,-33.909 L170.07,-33.909 170.07,-21.909 5,-21.909 Z"/>
+      <text font-family="Arial" font-size="3.53" x="6.32485" y="-3.07843" fill="#00f" xml:space="preserve">Выберите любой:   МТПМ.131000.102 - Натяжитель цепи (1)    МТПМ.131000.102 - Натяжитель цепи (2)</text>
+    </g>
+  </g>
+  <g id="AUTOID_009" vm2d:name="Axials" vm2d:type="layer"/>
+  <g id="AUTOID_010" vm2d:name="Callouts" vm2d:type="layer">
+    <g>
+      <g transform="matrix(3.78462,0,0,3.78462,-0,128.838)" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10">
+        <path stroke="#fff" d="M121.41,-18.255 L118.67,-24"/>
+        <path stroke="#fff" stroke-width="0.7" stroke-linejoin="round" d="M119.14,-24 C119.14,-23.74 118.93,-23.53 118.67,-23.53 118.41,-23.53 118.2,-23.74 118.2,-24 118.2,-24.26 118.41,-24.47 118.67,-24.47 118.93,-24.47 119.14,-24.26 119.14,-24 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M121.41,-18.255 L118.67,-24"/>
+        <path fill="#000" d="M119.14,-24 C119.14,-23.74 118.93,-23.53 118.67,-23.53 118.41,-23.53 118.2,-23.74 118.2,-24 118.2,-24.26 118.41,-24.47 118.67,-24.47 118.93,-24.47 119.14,-24.26 119.14,-24 Z"/>
+      </g>
+      <g transform="matrix(3.74111,0,0,3.78462,459.472,65.9282)">
+        <text font-family="Arial" font-size="2.86" x="-8.15456" y="0.989784" fill="#000">ОПИСАНИЕ</text>
+      </g>
+      <g transform="matrix(3.74111,0,0,3.78462,459.472,78.2103)">
+        <text font-family="Arial" font-size="2.86" x="-11.4069" y="0.989784" fill="#000">ТИПА ВОПРОСА</text>
+      </g>
+    </g>
+    <a id="AUTOID_387" vm2d:name="ОПИСАНИЕ ТИПА ВОПРОСА" vm2d:type="grobject" xlink:href="#">
+      <path d="M414.13,59.752 L504.81,59.752 504.81,84.387 414.13,84.387 Z" fill="#fff" fill-opacity="0"/>
+    </a>
+    <g>
+      <g transform="matrix(3.78462,0,0,3.78462,-0,128.838)" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10">
+        <path stroke="#fff" d="M171.16,-11.745 L168.57,-6.3088"/>
+        <path stroke="#fff" stroke-width="0.7" stroke-linejoin="round" d="M169.04,-6.3088 C169.04,-6.0492 168.83,-5.8388 168.57,-5.8388 168.31,-5.8388 168.1,-6.0492 168.1,-6.3088 168.1,-6.5684 168.31,-6.7788 168.57,-6.7788 168.83,-6.7788 169.04,-6.5684 169.04,-6.3088 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M171.16,-11.745 L168.57,-6.3088"/>
+        <path fill="#000" d="M169.04,-6.3088 C169.04,-6.0492 168.83,-5.8388 168.57,-5.8388 168.31,-5.8388 168.1,-6.0492 168.1,-6.3088 168.1,-6.5684 168.31,-6.7788 168.57,-6.7788 168.83,-6.7788 169.04,-6.5684 169.04,-6.3088 Z"/>
+      </g>
+      <g transform="matrix(3.74111,0,0,3.78462,647.78,65.9282)">
+        <text font-family="Arial" font-size="2.86" x="-11.9492" y="0.989784" fill="#000">ПОДСКАЗКА ИЛИ</text>
+      </g>
+      <g transform="matrix(3.74111,0,0,3.78462,647.78,78.2103)">
+        <text font-family="Arial" font-size="2.86" x="-14.1086" y="0.989784" fill="#000">ВАРИАНТЫ ОТВЕТА</text>
+      </g>
+    </g>
+    <a id="AUTOID_026" vm2d:name="ПОДСКАЗКА ИЛИ ВАРИАНТЫ ОТВЕТА" vm2d:type="grobject" xlink:href="#">
+      <path d="M592.6,59.752 L702.96,59.752 702.96,84.387 592.6,84.387 Z" fill="#fff" fill-opacity="0"/>
+    </a>
+    <g>
+      <g transform="matrix(3.78462,0,0,3.78462,-0,128.838)" stroke-width="0.85" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10">
+        <path stroke="#fff" d="M70.91,-15 L64,-12.426"/>
+        <path stroke="#fff" stroke-width="0.7" stroke-linejoin="round" d="M64.47,-12.426 C64.47,-12.166 64.26,-11.956 64,-11.956 63.74,-11.956 63.53,-12.166 63.53,-12.426 63.53,-12.685 63.74,-12.896 64,-12.896 64.26,-12.896 64.47,-12.685 64.47,-12.426 Z"/>
+        <path stroke="#000" stroke-width="0.15" d="M70.91,-15 L64,-12.426"/>
+        <path fill="#000" d="M64.47,-12.426 C64.47,-12.166 64.26,-11.956 64,-11.956 63.74,-11.956 63.53,-12.166 63.53,-12.426 63.53,-12.685 63.74,-12.896 64,-12.896 64.26,-12.896 64.47,-12.685 64.47,-12.426 Z"/>
+      </g>
+      <g transform="matrix(3.74111,0,0,3.78462,270.664,65.9282)">
+        <text font-family="Arial" font-size="2.86" x="0" y="0.989784" fill="#000">ТЕКСТ</text>
+      </g>
+      <g transform="matrix(3.74111,0,0,3.78462,270.664,78.2103)">
+        <text font-family="Arial" font-size="2.86" x="0" y="0.989784" fill="#000">ВОПРОСА</text>
+      </g>
+    </g>
+    <a id="AUTOID_025" vm2d:name="ТЕКСТ ВОПРОСА" vm2d:type="grobject" xlink:href="#">
+      <path d="M268.37,59.752 L326.34,59.752 326.34,84.387 268.37,84.387 Z" fill="#fff" fill-opacity="0"/>
+    </a>
+  </g>
+  <g id="AUTOID_011" vm2d:name="Panels" vm2d:type="layer"/>
+  <g id="AUTOID_012" vm2d:name="" vm2d:type="layer"/>
+</svg>

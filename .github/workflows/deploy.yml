@@ -81,16 +81,16 @@ jobs:
             xmllint --noblanks "$file" | tr -d '\n' > tmpfile && mv tmpfile "$file"
           done
     
-      # 9. Минификация SVG
-      - name: Minify SVG files
-        continue-on-error: true
-        run: |
-          set -e
-          echo "Minifying SVG files..."
-          for file in $(find . -type f -name '*.svg'); do
-            echo "  -> $file"
-            svgo -i "$file" -o "$file"
-          done
+      # # 9. Минификация SVG
+      # - name: Minify SVG files
+      #   continue-on-error: true
+      #   run: |
+      #     set -e
+      #     echo "Minifying SVG files..."
+      #     for file in $(find . -type f -name '*.svg'); do
+      #       echo "  -> $file"
+      #       svgo -i "$file" -o "$file"
+      #     done
 
       # 10. Деплой на gh-pages
       - name: Deploy to GitHub Pages

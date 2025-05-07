@@ -1,0 +1,285 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY PUBLICATION_LOGO SYSTEM "publication_logo.PNG" NDATA png>
+<!ENTITY ICN-SCOOTER-A-0000000-0-ECIAS-00000-A-001-01 SYSTEM "ICN-SCOOTER-A-0000000-0-ECIAS-00000-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-002-01 SYSTEM "ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-002-01.cgm" NDATA cgm>
+<!ENTITY ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-003-01 SYSTEM "ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-003-01.cgm" NDATA cgm>
+<!ENTITY ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-004-01 SYSTEM "ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-004-01.cgm" NDATA cgm>
+<!ENTITY ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-005-01 SYSTEM "ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-005-01.cgm" NDATA cgm>
+<!ENTITY ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-006-01 SYSTEM "ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-006-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="000" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language languageIsoCode="ru" countryIsoCode="RU"></language>
+<issueInfo issueNumber="001" inWork="00"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2020" month="08" day="04"></issueDate>
+<dmTitle>
+<techName>Самокат</techName>
+<infoName>Описание устройства</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<logo>
+<symbol infoEntityIdent="PUBLICATION_LOGO" xlink:href="publication_logo.PNG"></symbol>
+</logo>
+<responsiblePartnerCompany enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>Все</simplePara>
+</displayText>
+</applic>
+<techStandard>
+<techPubBase>ASD S1000D / АС 1.1.S1000DR-2014</techPubBase>
+<authorityExceptions></authorityExceptions>
+<authorityNotes></authorityNotes>
+</techStandard>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<para>Самокат оснащён передним <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-002" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и задним <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-003" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef> амортизаторами, что в совокупности с 200 мм колесами <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> шириной 30 мм и специальным полиуретановым покрытием сглаживает неровности дороги. В колесах <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>, <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> используются подшипники стандарта ABEC 9.</para>
+<para>Заднее колесо оснащено тормозом-крылом <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-003" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef>,  на которое установлен брызговик <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-003" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef> с красным светоотражающим элементом <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-003" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<para>Специальные пазы <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"></internalRef> в рукоятках <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-001" referredFragment="15" xlink:actuate="onRequest" xlink:show="replace"></internalRef> и широкий зажим руля <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-001" referredFragment="9" xlink:actuate="onRequest" xlink:show="replace"></internalRef> устраняют люфт в местах крепления, который часто является источником постороннего шума.</para>
+<para>Руль <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-001" referredFragment="10" xlink:actuate="onRequest" xlink:show="replace"></internalRef> фиксируется в трех положениях - от 880 до 1040 мм от поверхности.</para>
+<para>Прочная алюминиевая дека <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-004" referredFragment="11" xlink:actuate="onRequest" xlink:show="replace"></internalRef> шириной 136 мм и длиной 460 мм покрыта износостойкой шкуркой <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-004" referredFragment="12" xlink:actuate="onRequest" xlink:show="replace"></internalRef>. Для удобства парковки самокат оборудован складывающейся подножкой <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-002" referredFragment="13" xlink:actuate="onRequest" xlink:show="replace"></internalRef>. </para>
+<para>Система складывания <internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-004" referredFragment="14" xlink:actuate="onRequest" xlink:show="replace"></internalRef> выполнена по схеме Push&amp;Fold. Это проверенная временем надежная система полностью исключает люфт в месте складывания.</para>
+<figure id="fig-001">
+<title>Самокат</title>
+<graphic infoEntityIdent="ICN-SCOOTER-A-0000000-0-ECIAS-00000-A-001-01" xlink:href="ICN-SCOOTER-A-0000000-0-ECIAS-00000-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" xlink:type="simple">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_002" applicationStructureName="3" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="4" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_005" applicationStructureName="5" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_006" applicationStructureName="6" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_007" applicationStructureName="7" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_008" applicationStructureName="9" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_009" applicationStructureName="10" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_010" applicationStructureName="11" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_011" applicationStructureName="12" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_012" applicationStructureName="13" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_013" applicationStructureName="15" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_014" applicationStructureName="16" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_015" applicationStructureName="17" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-014" applicationStructureIdent="AUTOID_016" applicationStructureName="18" hotspotTitle=""></hotspot>
+<hotspot id="fig-001-gra-001-hot-015" applicationStructureIdent="AUTOID_018" applicationStructureName="19" hotspotTitle=""></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-002-01" xlink:href="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-002-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-016" applicationStructureIdent="AUTOID_008" applicationStructureName="10"></hotspot>
+<hotspot id="fig-001-gra-001-hot-017" applicationStructureIdent="AUTOID_001" applicationStructureName="8"></hotspot>
+<hotspot id="fig-001-gra-001-hot-018" applicationStructureIdent="AUTOID_002" applicationStructureName="9"></hotspot>
+<hotspot id="fig-001-gra-001-hot-019" applicationStructureIdent="AUTOID_003" applicationStructureName="15"></hotspot>
+<hotspot id="fig-001-gra-001-hot-020" applicationStructureIdent="AUTOID_004" applicationStructureName="16"></hotspot>
+<hotspot id="fig-001-gra-001-hot-021" applicationStructureIdent="AUTOID_005" applicationStructureName="15"></hotspot>
+<hotspot id="fig-001-gra-001-hot-022" applicationStructureIdent="AUTOID_006" applicationStructureName="16"></hotspot>
+<hotspot id="fig-001-gra-001-hot-023" applicationStructureIdent="AUTOID_007" applicationStructureName="8"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-003-01" xlink:href="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-003-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_004" applicationStructureName="17"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_005" applicationStructureName="18"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_006" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_007" applicationStructureName="19"></hotspot>
+<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_008" applicationStructureName="13"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-004-01" xlink:href="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-004-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-003">
+<hotspot id="fig-001-gra-003-hot-001" applicationStructureIdent="AUTOID_003" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-003-hot-002" applicationStructureIdent="AUTOID_004" applicationStructureName="5"></hotspot>
+<hotspot id="fig-001-gra-003-hot-003" applicationStructureIdent="AUTOID_005" applicationStructureName="6"></hotspot>
+<hotspot id="fig-001-gra-003-hot-004" applicationStructureIdent="AUTOID_006" applicationStructureName="7"></hotspot>
+<hotspot id="fig-001-gra-003-hot-005" applicationStructureIdent="AUTOID_007" applicationStructureName="11"></hotspot>
+<hotspot id="fig-001-gra-003-hot-006" applicationStructureIdent="AUTOID_008" applicationStructureName="4"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-005-01" xlink:href="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-005-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-004">
+<hotspot id="fig-001-gra-004-hot-001" applicationStructureIdent="AUTOID_003" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-004-hot-002" applicationStructureIdent="AUTOID_004" applicationStructureName="17"></hotspot>
+<hotspot id="fig-001-gra-004-hot-003" applicationStructureIdent="AUTOID_005" applicationStructureName="11"></hotspot>
+<hotspot id="fig-001-gra-004-hot-004" applicationStructureIdent="AUTOID_006" applicationStructureName="12"></hotspot>
+<hotspot id="fig-001-gra-004-hot-005" applicationStructureIdent="AUTOID_007" applicationStructureName="14"></hotspot>
+<hotspot id="fig-001-gra-004-hot-006" applicationStructureIdent="AUTOID_008" applicationStructureName="18"></hotspot>
+<hotspot id="fig-001-gra-004-hot-007" applicationStructureIdent="AUTOID_009" applicationStructureName="19"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-006-01" xlink:href="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-006-01.cgm" reproductionHeight="170mm" reproductionWidth="210mm"></graphic>
+<legend>
+<definitionList>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-002" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>передний амортизатор;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-003" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>задний амортизатор;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>переднее колесо;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>заднее колесо;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-003" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>тормоз-крыло;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-003" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>задний брызговик;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-003" referredFragment="7" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>красный светоотражающий элемент;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-001" referredFragment="8" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>паз;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-001" referredFragment="9" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>зажим руля;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-001" referredFragment="10" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>руль;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-004" referredFragment="11" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>дека;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-004" referredFragment="12" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>шкурка;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-002" referredFragment="13" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>складывающаяся подножка;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-004" referredFragment="14" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>система складывания;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-001" referredFragment="15" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>рукоятка;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-001" referredFragment="16" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>грипс;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-002" referredFragment="17" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>передний брызговик;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-002" referredFragment="18" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>вилка передняя;</para>
+</listItemDefinition>
+</definitionListItem>
+<definitionListItem>
+<listItemTerm>
+<internalRef internalRefTargetType="irtt11" internalRefId="fig-001-gra-002" referredFragment="19" xlink:actuate="onRequest" xlink:show="replace"></internalRef>
+</listItemTerm>
+<listItemDefinition>
+<para>пыльник.</para>
+</listItemDefinition>
+</definitionListItem>
+</definitionList>
+</legend>
+</figure>
+<para></para>
+</description>
+</content>
+</dmodule>

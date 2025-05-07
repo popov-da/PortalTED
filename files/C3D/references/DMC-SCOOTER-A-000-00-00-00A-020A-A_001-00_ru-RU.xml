@@ -1,0 +1,120 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY PUBLICATION_LOGO SYSTEM "publication_logo.PNG" NDATA png>
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="000" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="020" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language languageIsoCode="ru" countryIsoCode="RU"></language>
+<issueInfo issueNumber="001" inWork="00"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2020" month="07" day="29"></issueDate>
+<dmTitle>
+<techName>Самокат</techName>
+<infoName>Меры безопасности</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<logo>
+<symbol infoEntityIdent="PUBLICATION_LOGO" xlink:href="publication_logo.PNG"></symbol>
+</logo>
+<responsiblePartnerCompany enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>Все</simplePara>
+</displayText>
+</applic>
+<techStandard>
+<techPubBase>ASD S1000D / АС 1.1.S1000DR-2014</techPubBase>
+<authorityExceptions></authorityExceptions>
+<authorityNotes></authorityNotes>
+</techStandard>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<para></para>
+<warning>
+<warningAndCautionPara>Использование самоката, как любого средства передвижения, может быть опасным и может привести к серьезным травмам или летальному исходу, даже в случае правильных мер предосторожности. Использование самоката находится полностью под вашей ответственностью.</warningAndCautionPara>
+</warning>
+<para>Во избежание травм и несчастных случаев, а так же повреждения самоката следует соблюдать следующие меры предосторожности:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>прежде чем дать самокат детям, следует ознакомить их с правилами безопасной езды;</para>
+</listItem>
+<listItem>
+<para>дети должны использовать самокат под присмотром взрослых;</para>
+</listItem>
+<listItem>
+<para>запрещается кататься на самокате детям младше 7 лет;</para>
+</listItem>
+<listItem>
+<para>не используйте самокат на улицах, проезжей части дорог, в местах скопления людей, неровных участках, вблизи водоемов и в других опасных местах;</para>
+</listItem>
+<listItem>
+<para>всегда надевайте защитный шлем, налокотники и наколенники; ремешок шлема должен быть затянут под подбородком; никогда не катайтесь на самокате босиком;</para>
+</listItem>
+<listItem>
+<para>сборка самоката должна осуществляться взрослыми;</para>
+</listItem>
+<listItem>
+<para>одновременно на самокате может кататься только 1 человек;</para>
+</listItem>
+<listItem>
+<para>максимально допустимая нагрузка на самокат – 100 кг;</para>
+</listItem>
+<listItem>
+<para>регулярно проверяйте самокат на предмет обнаружения следов износа деталей; в случае обнаружения следов износа не используйте самокат до замены соответствующих деталей;</para>
+</listItem>
+<listItem>
+<para>во время катания на самокате руки должны находиться на рукоятках руля;</para>
+</listItem>
+<listItem>
+<para>использовать самокат следует только на ровных асфальтовых и бетонных дорожках без уклона; не наезжайте на ямы и решетки канализационных люков;</para>
+</listItem>
+<listItem>
+<para>не катайтесь на мокрых, скользких и песчаных дорожках, катание в дождливую погоду существенно ухудшает сцепление колес с дорогой и сокращает видимость на дороге;</para>
+</listItem>
+<listItem>
+<para>не съезжайте на самокате с горок и лестниц;</para>
+</listItem>
+<listItem>
+<para>всегда контролируйте скорость и не катайтесь на слишком высоких скоростях;</para>
+</listItem>
+<listItem>
+<para>соблюдайте правила уличного движения, пропускайте пешеходов;</para>
+</listItem>
+<listItem>
+<para>не пытайтесь исполнять на самокате трюки и опасные маневры;</para>
+</listItem>
+<listItem>
+<para>не пытайтесь самостоятельно внести изменения в конструкцию самоката.</para>
+</listItem>
+</randomList>
+</para>
+<para></para>
+</description>
+</content>
+</dmodule>

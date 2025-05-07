@@ -168,7 +168,7 @@ function showMTPMDocs() {
   hideStartPage(); // Скрываем стартовую страницу
   document.getElementById('selectMessage').style.display = 'flex'; // Показываем сообщение о выборе раздела
   document.getElementById('EducateSection').style.display = 'block'; // Отображаем секцию 'EducateSection'
-//  document.getElementById('MTPMSection').style.display = 'block'; // Отображаем секцию 'MTPMSection'
+  document.getElementById('MTPMSection').style.display = 'block'; // Отображаем секцию 'MTPMSection'
   // Скрываем все остальные секции, кроме 'EducateSection' и 'MTPMSection'
   document
     .querySelectorAll('.skin-tree:not(#EducateSection):not(#MTPMSection)')

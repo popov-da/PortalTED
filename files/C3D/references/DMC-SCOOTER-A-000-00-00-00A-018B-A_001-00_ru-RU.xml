@@ -1,0 +1,770 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY PUBLICATION_LOGO SYSTEM "publication_logo.PNG" NDATA png>
+<!ENTITY GSCOOTER-A-000-40-00-00A-010B-A_001_RU-RU-GRAPHIC0 SYSTEM "GSCOOTER-A-000-40-00-00A-010B-A_001_RU-RU-GRAPHIC0.jpg" NDATA jpeg>
+<!NOTATION jpeg PUBLIC "+//ISBN 0-7923-9432-1::Graphic Notation//NOTATION Joint Photographic Experts Group Raster//EN">
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="000" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="018" infoCodeVariant="B" itemLocationCode="A"></dmCode>
+<language languageIsoCode="ru" countryIsoCode="RU"></language>
+<issueInfo issueNumber="001" inWork="00"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2020" month="08" day="05"></issueDate>
+<dmTitle>
+<techName>Введение</techName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<logo>
+<symbol infoEntityIdent="PUBLICATION_LOGO" xlink:href="publication_logo.PNG"></symbol>
+</logo>
+<responsiblePartnerCompany enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>Все</simplePara>
+</displayText>
+</applic>
+<techStandard>
+<techPubBase>ASD S1000D / АС 1.1.S1000DR-2014</techPubBase>
+<authorityExceptions></authorityExceptions>
+<authorityNotes></authorityNotes>
+</techStandard>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="000" subSystemCode="4" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="010" infoCodeVariant="B" itemLocationCode="A"></dmCode>
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>Каталог деталей и сборочных единиц</techName>
+<infoName>Применение и кодирование модулей данных</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+</refs>
+<description>
+<levelledPara id="par-19">
+<title>Назначение</title>
+<para>Каталог деталей и сборочных единиц (КДЭ) самоката представляет собой единый вспомогательный документ к Руководству по технической эксплуатации (РЭ) самоката, и содержит информацию обо всех изделиях самоката, для которых предусмотрены операции по техобслуживанию.</para>
+</levelledPara>
+<levelledPara id="par-23">
+<title>Состав</title>
+<para>В состав КДЭ включаются:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>сборочные единицы (узлы), возможность замены которых предусмотрена в процессе выполнения технического обслуживания;</para>
+</listItem>
+<listItem>
+<para>компоненты и/или детали, замена которых более предпочтительна, чем замена сборочной единицы (узла) высшего уровня;</para>
+</listItem>
+<listItem>
+<para>стандартные детали и сборочные единицы, которые могут быть заменены в процессе технического обслуживания, (электрические лампочки, розетки, колпачки, прокладки, подшипники, фильтры, электрические соединители, монтажные платы, реле, фитинги, кронштейны и т.д.) или которые предназначены для крепления компонентов или деталей (винты, болты, гайки, шайбы, хомуты и т.д.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara id="par-61">
+<title>Модули данных</title>
+<para>Сведения о применении и кодировании модулей данных в составе КДЭ приведены в <dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="000" subSystemCode="4" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="010" infoCodeVariant="B" itemLocationCode="A"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</levelledPara>
+<levelledPara id="par-72">
+<title>Кастомизация</title>
+<para>Кастомизированный КДЭ содержит только подробный перечень деталей и числовой указатель, применимый только к конкретному заказчику или группе заказчиков.</para>
+<para>Иллюстрация может содержать позиции, и номера пунктов без применимости конкретному заказчику, поэтому эти позиции не будут представлены в подробном перечне деталей данного каталога.</para>
+<note>
+<notePara>Общий КДЭ содержит информацию, касающуюся всех самокатов типовой конструкции.</notePara>
+</note>
+</levelledPara>
+<levelledPara id="par-127">
+<title>Термины и определения</title>
+<table>
+<tgroup cols="2">
+<colspec colnum="1" colname="1" colwidth="200pt" colsep="0"></colspec>
+<colspec colnum="2" colname="2" colwidth="1*" colsep="0"></colspec>
+<tbody>
+<row>
+<entry colname="1">
+<para>Изделие</para>
+</entry>
+<entry colname="2">
+<para>Сборочная единица, деталь, совокупность зависимых деталей.</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Иллюстрация</para>
+</entry>
+<entry colname="2">
+<para>Изображение каждого компонента в разобранном виде, если необходимо показать детали.</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Компонент</para>
+</entry>
+<entry colname="2">
+<para>Деталь, сборочная единица, узел, входящие в состав изделия и рассматриваемые в его структуре как единое целое.</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Рисунок</para>
+</entry>
+<entry colname="2">
+<para>Представляет собой Подробный перечень деталей и связанные с ним одну или несколько иллюстраций.</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Подробный перечень деталей</para>
+</entry>
+<entry colname="2">
+<para>Представляет собой структурированную таблицу данных об изделиях, которые могут использоваться в соответствии с руководством по технической эксплуатации (РЭ) самоката.</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+<levelledPara id="par-261">
+<title>Общая система выполнения (входимость)</title>
+<para>Структура изделия, отображенного на рисунке, зависит от количества подкомпонентов и от порядка демонтажа этих подкомпонентов.</para>
+<para>Уровень отступа обозначает уровень входимости изделия относительно узла верхнего уровня в Подробном перечне деталей. Уровень отступа обозначается точками (от 0 до 8) в графе "Наименование".</para>
+<para>В первой строке указывается сборочная единица верхнего уровня. Затем указываются ее крепёжные элементы. После этого перечисляются сборочные единицы более низкого уровня и детали, входящие в рассматриваемую сборочную единицу, с уровнем отступа, соответствующим уровню вложенности.</para>
+<para>Их крепёжные детали перечисляются непосредственно под сборочной единицей или деталью, для крепления которой они применяются.</para>
+</levelledPara>
+<levelledPara id="par-311">
+<title>Применяемость</title>
+<para>Возможность использования в конечном изделии комплектующих (покупных, стандартных) изделий из утвержденного перечня в соответствии с заданном интервалом серийных номеров самокатов.</para>
+<para>Применимость деталей, узлов и сборочных единиц, указывается в колонке "Применимость".</para>
+</levelledPara>
+<levelledPara id="par-337">
+<title>Система нумерации</title>
+<para>Каталог разбивается на МД, начиная с системы самоката в целом и опускаясь до деталей. При этом разбивка производится посредством вполне определенного ряда шагов (например: от верхней сборки до детали) и представляет собой непрерывную цепь, связывающую системы самоката в целом с их самыми простыми компонентами. Системы самоката должны подразделяться на основные узлы (сборочные единицы), которые в свою очередь должны подразделяться на рисунки.</para>
+<para>Рисунок МД может располагаться на одном или нескольких листах. Каждый рисунок состоит из изделий различных уровней (с 1 по 9) подчинения. Структура изделия, отображенного на рисунке, зависит от количества подкомпонентов и от порядка демонтажа этих подкомпонентов</para>
+</levelledPara>
+<levelledPara id="par-372">
+<title>Порядковый номер каталога (ПНК)</title>
+<para>Определяет позицию изделия в каталоге в соответствии с системой нумерации разделов каталога.</para>
+<para>Код системы самоката, код подсистемы и под-подсистемы, номер компонента, номер рисунка и его вариант, и номер позиции изделия и его вариант (см. <internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>).</para>
+<figure id="fig-001">
+<title>Структура модуля данных</title>
+<graphic infoEntityIdent="GSCOOTER-A-000-40-00-00A-010B-A_001_RU-RU-GRAPHIC0" xlink:href="GSCOOTER-A-000-40-00-00A-010B-A_001_RU-RU-GRAPHIC0.jpg" xlink:type="simple"></graphic>
+</figure>
+</levelledPara>
+<levelledPara id="par-403">
+<title>Рекомендации по использованию каталога</title>
+<levelledPara id="par-407">
+<title>Буквенно-цифровой индекс</title>
+<para>Буквенно-цифровой указатель является полным перечнем всех номеров деталей, содержащихся в иллюстрированном каталоге деталей.</para>
+<para>Каждое обозначение детали, указанной в каталоге, относится к одному или нескольким порядковым номерам каталога (ПНК).</para>
+</levelledPara>
+<levelledPara id="par-427">
+<title>Перечень действующих модулей данных</title>
+<para>В этом разделе показан перечень МД, входящих в КДЭ с датой их регистрации, количеством страниц в каждом из МД и применимостью.</para>
+</levelledPara>
+<levelledPara id="par-436">
+<title>Содержание</title>
+<para>Содержание включает заголовки разделов, подразделов, пунктов, рисунков с указанием их номеров.</para>
+</levelledPara>
+<levelledPara id="par-445">
+<title>Иллюстрации</title>
+<para>Каждая иллюстрация может состоять из нескольких листов, в зависимости от сложности описываемого узла.</para>
+<para>Иллюстрации в каждом разделе КДЭ должны предшествовать Подробным перечням деталей.</para>
+<para>На иллюстрациях каталога может быть изображен эскиз самоката или его части с указанием направления полета для представления места нахождения детали или сборочной единицы (локатор).</para>
+<para>На иллюстрациях должен быть изображен общий вид системы, подсистемы, изделия или сборочной единицы по возможности в разобранном виде, необходимом для того, чтобы показать каждую деталь, включенную в перечень.</para>
+<para>На всех иллюстрациях должны быть проставлены номера позиций с выносками к тем изделиям, к которым они относятся.</para>
+<para>Для каждого иллюстрированного изделия номер позиции на иллюстрации совпадает с номером позиции этого изделия в Подробном перечне деталей.</para>
+</levelledPara>
+<levelledPara id="par-490">
+<title>Подробный перечень деталей</title>
+<levelledPara id="par-495">
+<title>Номер позиции</title>
+<para>Номер позиции присваивается каждому изделию (детали, подсборке, совокупности зависимых деталей), перечисленному в подробном перечне деталей. Для каждого иллюстрированного изделия номер позиции на иллюстрации совпадает с номером позиции этого изделия в подробном перечне деталей.</para>
+</levelledPara>
+<levelledPara id="par-596">
+<title>Признак отсутствия иллюстрирования</title>
+<para>Если деталь не иллюстрирована, перед номером ее позиции отображается дефис (-).</para>
+<para>Все позиции без знака дефиса должны быть иллюстрированы.</para>
+</levelledPara>
+<levelledPara id="par-516">
+<title>Вариант номера позиции</title>
+<para>Буквенный индекс, обозначающий вариант номера позиции, указывается непосредственно после номера позиции.</para>
+<para>Для обозначения варианта номера позиции используются заглавные буквы латинского алфавита (используются все символы от A до Z, кроме I и O).</para>
+<para>Вариант номера позиции используется при возникновении модификаций деталей в процессе жизненного цикла изделия.</para>
+<para>Если вариант номера позиции отсутствует, вместо него указывается один пустой интервал.</para>
+<para>Обычно на иллюстрации вариант номера позиции не отображается, кроме случаев, когда на иллюстрации необходимо показать визуальное отличие детали среди нескольких ее возможных вариантов.</para>
+</levelledPara>
+<levelledPara id="par-552">
+<title>Графа Обозначение</title>
+<para>В первой строке графы отображается заводской номер детали, присвоенный её разработчиком.</para>
+</levelledPara>
+<levelledPara id="par-570">
+<title>Графа Наименование</title>
+<para>В графе "Наименование" перечня приводятся наименование сборочных единиц или деталей. Далее с новым абзацем может идти информация:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>данные о расположения;</para>
+</listItem>
+<listItem>
+<para>код взаимозаменяемости;</para>
+</listItem>
+<listItem>
+<para>значение характеристик подбора изделия или его изготовления;</para>
+</listItem>
+<listItem>
+<para>изделие необходимое для изготовления, переработки или ремонта;</para>
+</listItem>
+<listItem>
+<para>ссылка на ПНК;</para>
+</listItem>
+<listItem>
+<para>ссылка на рисунок.</para>
+</listItem>
+</randomList>
+</para>
+<para>При необходимости, допускается применять сокращения по ГОСТ 2.316-68.</para>
+<para>Графа "Наименование" заполняется с применением системы уровней отступов. Для сборочных единиц и деталей используется точка, а для крепёжных деталей звездочка.</para>
+<levelledPara id="par-616">
+<title>Данные о расположения</title>
+<para>Используется для описания расположения изделия (левый/правый борт и т.п.) и дополняет наименование изделия. Например, "для посадочного отверстия 15H7", "(лев.)", "(прав.)".</para>
+</levelledPara>
+<levelledPara id="par-627">
+<title>Код взаимозаменяемости</title>
+<para>Код взаимозаменяемости состоит из двух символов и указывает о возможной взаимозаменяемости двух изделий, идущих друг за другом в Подробном перечне деталей.</para>
+<para>Первый символ показывает тип взаимозаменяемости изделия с предыдущим изделием в таблице каталога. Второй символ указывает тип взаимозаменяемости изделия с последующим изделием в таблице каталога. Пример - <internalRef internalRefId="tab-0" internalRefTargetType="irtt02" xlink:href="#tab-0"></internalRef>.</para>
+<table id="tab-0">
+<tgroup cols="4">
+<colspec colnum="1" colname="1" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="2" colname="2" colwidth="1*" colsep="0"></colspec>
+<colspec colnum="3" colname="3" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="4" colname="4" colwidth="155pt" colsep="0"></colspec>
+<thead>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Обозначение</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>Наименование</para>
+</entry>
+<entry colname="3" rowsep="1">
+<para>...</para>
+</entry>
+<entry colname="4" rowsep="1">
+<para>Взаимозаменяемость</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="1" namest="1" nameend="4">
+<para>...</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Ш1</para>
+</entry>
+<entry colname="2">
+<para>Шланг</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para></para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД1</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>-9</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД2</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>9-</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Х1</para>
+</entry>
+<entry colname="2">
+<para>Хомут</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para></para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" namest="1" nameend="4" rowsep="1">
+<para>...</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>В данном примере показано, что "Датчик давления ДД1" никоим образом не взаимозаменяем с "Шлангом Ш1», так как первый символ в коде взаимозаменяемости "-". По той же причине "Датчик давления ДД2" не взаимозаменяем с "Хомутом Х1".</para>
+<para>При этом "Датчик давления ДД1" взаимозаменяем с "Датчиком давления ДД2" с типом взаимозаменяемости 9.</para>
+<para>Можно использовать следующие типы взаимозаменяемости:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>тип "-" изделия не взаимозаменяемы;</para>
+</listItem>
+<listItem>
+<para>типы с 1 по 9.</para>
+</listItem>
+</randomList>
+</para>
+<levelledPara id="par-680">
+<title>Типы "1" и "2"</title>
+<para>Типы взаимозаменяемости используются только совместно и показывают, что изделия взаимозаменяемы, но предпочтительным является изделие с типом "2". Пример - <internalRef internalRefId="tab-1" internalRefTargetType="irtt02" xlink:href="#tab-1"></internalRef>.</para>
+<table id="tab-1">
+<?tgb_listparam objectflags="16384"?>
+<tgroup cols="4">
+<colspec colnum="1" colname="1" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="2" colname="2" colwidth="1*" colsep="0"></colspec>
+<colspec colnum="3" colname="3" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="4" colname="4" colwidth="155pt" colsep="0"></colspec>
+<thead>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Обозначение</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>Наименование</para>
+</entry>
+<entry colname="3" rowsep="1">
+<para>...</para>
+</entry>
+<entry colname="4" rowsep="1">
+<para>Взаимозаменяемость</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="1" namest="1" nameend="4">
+<para>...</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД1</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>-1</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД2</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>2-</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" namest="1" nameend="4" rowsep="1">
+<para>...</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>В данном примере показано, что "Датчик давления ДД1" взаимозаменяем с "Датчиком давления ДД2", но предпочтительным является использование "Датчика давления ДД2".</para>
+</levelledPara>
+<levelledPara id="par-705">
+<title>Типы "3" и "5"</title>
+<para>Типы взаимозаменяемости используются только совместно и показывают, что изделия взаимозаменяемы, но только "в одну сторону". Пример - <internalRef internalRefId="tab-2" internalRefTargetType="irtt02" xlink:href="#tab-2"></internalRef>.</para>
+<table id="tab-2">
+<?tgb_listparam objectflags="16384"?>
+<tgroup cols="4">
+<colspec colnum="1" colname="1" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="2" colname="2" colwidth="1*" colsep="0"></colspec>
+<colspec colnum="3" colname="3" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="4" colname="4" colwidth="155pt" colsep="0"></colspec>
+<thead>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Обозначение</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>Наименование</para>
+</entry>
+<entry colname="3" rowsep="1">
+<para>...</para>
+</entry>
+<entry colname="4" rowsep="1">
+<para>Взаимозаменяемость</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="1" namest="1" nameend="4">
+<para>...</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД1</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>-3</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД2</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>5-</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" namest="1" nameend="4" rowsep="1">
+<para>...</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>В данном примере показано, что "Датчик давления ДД1" может быть заменен "Датчиком давления ДД2", но при этом "Датчик давления ДД2" не может быть заменен "Датчиком давления ДД1".</para>
+</levelledPara>
+<levelledPara id="par-732">
+<title>Тип "4"</title>
+<para>Тип "4" указывает, что изделия взаимозаменяемы, но не идентичны друг другу. Пример - <internalRef internalRefId="tab-3" internalRefTargetType="irtt02" xlink:href="#tab-3"></internalRef>.</para>
+<table id="tab-3">
+<?tgb_listparam objectflags="16384"?>
+<tgroup cols="4">
+<colspec colnum="1" colname="1" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="2" colname="2" colwidth="1*" colsep="0"></colspec>
+<colspec colnum="3" colname="3" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="4" colname="4" colwidth="155pt" colsep="0"></colspec>
+<thead>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Обозначение</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>Наименование</para>
+</entry>
+<entry colname="3" rowsep="1">
+<para>...</para>
+</entry>
+<entry colname="4" rowsep="1">
+<para>Взаимозаменяемость</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="1" namest="1" nameend="4">
+<para>...</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД1</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>-4</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД2</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>4-</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" namest="1" nameend="4" rowsep="1">
+<para>...</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>В данном примере показано, что "Датчик давления ДД1" и "Датчик давления ДД2" полностью взаимозаменяемы, но не идентичны (то есть могут, например, иметь разный ресурс или по-разному обслуживаться).</para>
+</levelledPara>
+<levelledPara id="par-754">
+<title>Тип "6"</title>
+<para>Тип "6" указывает, что изделия взаимозаменяемы, но только в данном месте. Этот тип используется только тогда, когда для изделий указан элемент данных "Данные о расположении". Пример - <internalRef internalRefId="tab-4" internalRefTargetType="irtt02" xlink:href="#tab-4"></internalRef>.</para>
+<table id="tab-4">
+<?tgb_listparam objectflags="16384"?>
+<tgroup cols="4">
+<colspec colnum="1" colname="1" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="2" colname="2" colwidth="1*" colsep="0"></colspec>
+<colspec colnum="3" colname="3" colwidth="100pt" colsep="0"></colspec>
+<colspec colnum="4" colname="4" colwidth="155pt" colsep="0"></colspec>
+<thead>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Обозначение</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>Наименование</para>
+</entry>
+<entry colname="3" rowsep="1">
+<para>...</para>
+</entry>
+<entry colname="4" rowsep="1">
+<para>Взаимозаменяемость</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="1" namest="1" nameend="4">
+<para>...</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД1</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>-6</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>ДД2</para>
+</entry>
+<entry colname="2">
+<para>Датчик давления</para>
+</entry>
+<entry colname="3">
+<para></para>
+</entry>
+<entry colname="4">
+<para>6-</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" namest="1" nameend="4" rowsep="1">
+<para>...</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>В данном примере показано, что "Датчик давления ДД1" может быть заменен "Датчиком давления ДД2" только в основной (а не в резервной) системе.</para>
+</levelledPara>
+<levelledPara id="par-776">
+<title>Тип "7" и "8"</title>
+<para>Не используются.</para>
+</levelledPara>
+<levelledPara id="par-786">
+<title>Тип "9"</title>
+<para>Тип "9" указывает, что изделия полностью взаимозаменяемы и идентичны. Пример - <internalRef internalRefId="tab-1" internalRefTargetType="irtt02" xlink:href="#tab-1"></internalRef>.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara id="par-795">
+<title>Значение характеристик подбора изделия или его изготовления</title>
+<para>Используется для обозначения необходимости подбора изделия, соответствующего особым условиям эксплуатации, или возможности его изготовления на месте.</para>
+<para>Перечень значений - <internalRef internalRefId="tab-5" internalRefTargetType="irtt02" xlink:href="#tab-5"></internalRef>.</para>
+<table id="tab-5">
+<?tgb_listparam objectflags="24576"?>
+<tgroup cols="3">
+<colspec colnum="1" colname="1" colwidth="82pt" colsep="0"></colspec>
+<colspec colnum="2" colname="2" colwidth="168pt" colsep="0"></colspec>
+<colspec colnum="3" colname="3" colwidth="1*" colsep="0"></colspec>
+<thead>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Значение</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>Причина</para>
+</entry>
+<entry colname="3" rowsep="1">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="1">
+<para>f</para>
+</entry>
+<entry colname="2">
+<para>Подобрать по месту</para>
+</entry>
+<entry colname="3">
+<para>Используется для изделий, физические размеры которых могут быть различными (например, шайбы, регулировочные прокладки, детали большего/меньшего размера)</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>t</para>
+</entry>
+<entry colname="2">
+<para>Подобрать по результатам испытаний</para>
+</entry>
+<entry colname="3">
+<para>Используется для изделий, электрические характеристики которых могут отличаться (например, резисторы, конденсаторы)</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>m</para>
+</entry>
+<entry colname="2">
+<para>Изготовить на месте</para>
+</entry>
+<entry colname="3">
+<para>Используется для изделий, которые можно изготовить на месте</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>r</para>
+</entry>
+<entry colname="2">
+<para>Получить путем доработки изделия</para>
+</entry>
+<entry colname="3">
+<para>Применяется для изделий, которые можно изготовить за счет доработки предварительно подготовленных изделий. Ссылка на инструкции по модификации обязательна.</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>p</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>Отремонтировать с использованием</para>
+</entry>
+<entry colname="3" rowsep="1">
+<para>Используется для изделий, которые можно отремонтировать с использованием специальных запасных частей, ремонтных комплектов или комплектов деталей</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+<levelledPara id="par-806">
+<title>Изделие необходимое для изготовления, переработки или ремонта</title>
+<para>Используется для обозначения номенклатуры изделий, предназначенных для подбора, изготовления, переработки или ремонта. Изделия указываются с помощью позиции в каталоге, порядкового номера каталога или просто номера позиции.</para>
+</levelledPara>
+<levelledPara id="par-822">
+<title>Ссылка на порядковый номер каталога</title>
+<para>Подобная запись содержит ссылку на порядковый номер каталога, описывающий сборочную единицу следующего более высокого уровня вложенности.</para>
+</levelledPara>
+<levelledPara id="par-831">
+<title>Ссылка на рисунок</title>
+<para>Подобная запись содержит ссылку на рисунок Каталога, описывающий сборочную единицу более детально.</para>
+</levelledPara>
+</levelledPara>
+<levelledPara id="par-840">
+<title>Графа Кол-во</title>
+<para>В этой графе указывается, в каком количестве позиционированная на данном рисунке деталь входит в сборочную единицу следующего верхнего уровня.</para>
+<para>Если изделие включено для справки, вводятся буквы "Д/С" (для справки).</para>
+</levelledPara>
+<levelledPara id="par-858">
+<title>Графа Применяемость</title>
+<para>В этой графе указывается на каком заданном интервале серийных номеров самоката применяется изделие с данным обозначением (обозначение).</para>
+</levelledPara>
+</levelledPara>
+</levelledPara>
+</description>
+</content>
+</dmodule>

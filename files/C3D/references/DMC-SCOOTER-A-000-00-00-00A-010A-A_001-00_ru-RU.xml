@@ -1,0 +1,286 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-001-01 SYSTEM "ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-001-01.png" NDATA png>
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="000" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="010" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language languageIsoCode="ru" countryIsoCode="RU"></language>
+<issueInfo issueNumber="001" inWork="00"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2020" month="07" day="30"></issueDate>
+<dmTitle>
+<techName>Самокат</techName>
+<infoName>Общие сведения</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<logo>
+<symbol infoEntityIdent="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-001-01" xlink:href="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-001-01.png" reproductionWidth="101pt" reproductionHeight="39pt"></symbol>
+</logo>
+<responsiblePartnerCompany enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>Все</simplePara>
+</displayText>
+</applic>
+<techStandard>
+<techPubBase>ASD S1000D / АС 1.1.S1000DR-2014</techPubBase>
+<authorityExceptions></authorityExceptions>
+<authorityNotes></authorityNotes>
+</techStandard>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara id="par-180">
+<title>Основные характеристики</title>
+<table id="tab-3">
+<title>Основные характеристики</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="1" colwidth="200pt" colsep="0"></colspec>
+<colspec colnum="2" colname="2" colwidth="1*" colsep="0"></colspec>
+<thead>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Наименование</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>Тип</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="1">
+<para>Вес</para>
+</entry>
+<entry colname="2">
+<para>5,4 кг</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Стиль катания</para>
+</entry>
+<entry colname="2">
+<para>городской</para>
+</entry>
+</row>
+<row>
+<entry colname="1" namest="1" nameend="2">
+<para>
+<emphasis>Руль</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Материал</para>
+</entry>
+<entry colname="2">
+<para>алюминий</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Регулируемый</para>
+</entry>
+<entry colname="2">
+<para>да</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Высота</para>
+</entry>
+<entry colname="2">
+<para>880-960-1040 мм</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Материал грипс</para>
+</entry>
+<entry colname="2">
+<para>резина</para>
+</entry>
+</row>
+<row>
+<entry colname="1" namest="1" nameend="2">
+<para>
+<emphasis>Дека</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Материал</para>
+</entry>
+<entry colname="2">
+<para>алюминий</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Покрытие</para>
+</entry>
+<entry colname="2">
+<para>шкурка</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Ширина</para>
+</entry>
+<entry colname="2">
+<para>136 мм</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Длина</para>
+</entry>
+<entry colname="2">
+<para>460 мм</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Тормоза</para>
+</entry>
+<entry colname="2">
+<para>задний ножной</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Клиренс</para>
+</entry>
+<entry colname="2">
+<para>50 мм</para>
+</entry>
+</row>
+<row>
+<entry colname="1" namest="1" nameend="2">
+<para>
+<emphasis>Колеса</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Диаметр переднего</para>
+</entry>
+<entry colname="2">
+<para>200 мм</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Диаметр заднего</para>
+</entry>
+<entry colname="2">
+<para>200 мм</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Материал</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>полиуретан</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para></para>
+</levelledPara>
+<levelledPara id="par-331">
+<title>Список комплектующих</title>
+<table id="tab-2">
+<title>Список комплектующих</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="1" colwidth="200pt" colsep="0"></colspec>
+<colspec colnum="2" colname="2" colwidth="1*" colsep="0"></colspec>
+<thead>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Наименование</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>Количество</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="1">
+<para>Шестигранник 5 мм</para>
+</entry>
+<entry colname="2">
+<para>2 шт</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Шестигранник 2 мм</para>
+</entry>
+<entry colname="2">
+<para>1 шт</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Колесо 200 мм</para>
+</entry>
+<entry colname="2">
+<para>2 шт</para>
+</entry>
+</row>
+<row>
+<entry colname="1">
+<para>Передний брызговик</para>
+</entry>
+<entry colname="2">
+<para>1 шт</para>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" rowsep="1">
+<para>Винт</para>
+</entry>
+<entry colname="2" rowsep="1">
+<para>2 шт</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para></para>
+</levelledPara>
+</description>
+</content>
+</dmodule>

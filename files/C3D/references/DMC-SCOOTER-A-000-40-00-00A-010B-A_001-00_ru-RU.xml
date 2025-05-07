@@ -1,0 +1,199 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY PUBLICATION_LOGO SYSTEM "publication_logo.PNG" NDATA png>
+<!ENTITY GSCOOTER-A-000-40-00-00A-010B-A_001_RU-RU-GRAPHIC0 SYSTEM "GSCOOTER-A-000-40-00-00A-010B-A_001_RU-RU-GRAPHIC0.jpg" NDATA jpeg>
+<!NOTATION jpeg PUBLIC "+//ISBN 0-7923-9432-1::Graphic Notation//NOTATION Joint Photographic Experts Group Raster//EN">
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="000" subSystemCode="4" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="010" infoCodeVariant="B" itemLocationCode="A"></dmCode>
+<language languageIsoCode="ru" countryIsoCode="RU"></language>
+<issueInfo issueNumber="001" inWork="00"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2020" month="05" day="24"></issueDate>
+<dmTitle>
+<techName>Применение и кодирование модулей данных</techName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<logo>
+<symbol infoEntityIdent="PUBLICATION_LOGO" xlink:href="publication_logo.PNG"></symbol>
+</logo>
+<responsiblePartnerCompany enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>Все</simplePara>
+</displayText>
+</applic>
+<techStandard>
+<techPubBase>ASD S1000D / АС 1.1.S1000DR-2014</techPubBase>
+<authorityExceptions></authorityExceptions>
+<authorityNotes></authorityNotes>
+</techStandard>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara id="par-529">
+<title>Структура и состав кода модуля данных</title>
+<levelledPara id="par-523">
+<title>Структура</title>
+<para>Применяемый код МД может содержать от 17 до 29 буквенно-цифровых символов и имеет структуру, представленную на <internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>.</para>
+<figure id="fig-001">
+<title>Структура кода модуля данных</title>
+<graphic infoEntityIdent="GSCOOTER-A-000-40-00-00A-010B-A_001_RU-RU-GRAPHIC0" xlink:href="GSCOOTER-A-000-40-00-00A-010B-A_001_RU-RU-GRAPHIC0.jpg" xlink:type="simple"></graphic>
+</figure>
+<para>Формат символов, используемый для иллюстрации структуры кода МД:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>Буквенно-цифровой.</para>
+<para>Аббревиатура символа – "Y".</para>
+<para>Допустимые символы:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>цифры "0" …"9", и/или</para>
+</listItem>
+<listItem>
+<para>латинские буквы "A"…"Z", заглавные</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+<listItem>
+<para>Буквенный.</para>
+<para>Аббревиатура символа – "A".</para>
+<para>Допустимые символы:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>латинские буквы "A"…"Z", заглавные</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+<listItem>
+<para>Цифровой.</para>
+<para>Аббревиатура символа – "Х".</para>
+<para>Допустимые символы:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>цифры "0"…"9"</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara id="par-526">
+<title>Состав</title>
+<para>Код МД состоит из следующих 6 основных частей (сегментов), представленных на :</para>
+<para>
+<sequentialList>
+<listItem>
+<para>Идентификационный код модели.</para>
+<para>Данный код идентифицирует тип (модель) самоката, одну или несколько его модификаций, принадлежащих к одному типу (модели) самоката.</para>
+<para>Указывается код модели того изделия, для которого МД был первоначально разработан, а затем мог заимствоваться без каких-либо изменений для составления эксплуатационного документа данного типа (модели) и/или модификации.</para>
+<para>Код может содержать от 2 до 14 символов.</para>
+</listItem>
+<listItem>
+<para>Код конфигурации.</para>
+<para>Данный код используется при разработке МД для обозначения различных вариантов конструктивного исполнения системы или подсистемы.</para>
+</listItem>
+<listItem>
+<para>Код раздела-подраздела-изделия.</para>
+<para>Состоит из 3 двухсимвольных элементов, разделенных дефисами.</para>
+<para>Первый – код системы в соответствии с принятой стандартизованной системой кодирования.</para>
+<para>Второй – код подсистемы. Первый цифровой символ устанавливается в соответствии с принятой стандартизованной системой кодирования. Использование второго цифрового символа кода определяется разработчиком при проектировании.</para>
+<para>Третий – код изделия, принятый разработчиком при проектировании.</para>
+</listItem>
+<listItem>
+<para>Номер рисунка / Код демонтажа.</para>
+<para>Использование кода демонтажа для КДЭ отличается от обычного. В код демонтажа включается порядковый номер рисунка, начиная с "01". Если для сборочной единицы имеется несколько рисунков, то код демонтажа второго МД будет иметь значение "02".</para>
+<para>В варианте кода демонтажа обозначается вариант модуля данных. У первого МД вариант кода демонтажа имеет значение "0". В случае, если необходимо предоставить варианты, значение начинается с "A" для первого варианта.</para>
+</listItem>
+<listItem>
+<para>Информационный код.</para>
+<para>Отличительный код, используемый в соответствии с принятой стандартизованной системой кодирования в зависимости от сущности излагаемых сведений.</para>
+<para>Информационный код для МД КДЭ имеет значение "941"</para>
+<para>Кроме этого, в печатных публикациях (на бумажном носителе) используются стандартные служебные МД со следующими отличительными информационными кодами:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>001 титульный лист, шмуцтитул</para>
+</listItem>
+<listItem>
+<para>009 содержание</para>
+</listItem>
+<listItem>
+<para>018 введение</para>
+</listItem>
+<listItem>
+<para>00T лист регистрации изменений (временных изменений)</para>
+</listItem>
+<listItem>
+<para>00U перечень внесенных изменений</para>
+</listItem>
+<listItem>
+<para>00S перечень действующих модулей данных</para>
+</listItem>
+</randomList>
+</para>
+<para>Вариант информационного кода для служебных и общих МД КДЭ имеет значение "B".</para>
+</listItem>
+<listItem>
+<para>Код расположения изделия.</para>
+<para>Используются следующие буквенные обозначения для области расположения, где должна выполняться работа по техническому обслуживанию:</para>
+<para>
+<randomList listItemPrefix="pf02">
+<listItem>
+<para>A, означает расположение на борту самоката</para>
+</listItem>
+<listItem>
+<para>B, означает расположение изделия, демонтированного с самоката</para>
+</listItem>
+<listItem>
+<para>C, означает расположение изделия на стенде</para>
+</listItem>
+<listItem>
+<para>D, относится ко всем трем предыдущим вариантам расположения</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+</sequentialList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara id="par-46">
+<title>Принцип использования идентификационного кода модели</title>
+<para>Идентификационный код модели (типа или модификации) самоката используется при разработке новых МД, а имеющиеся МД общей базы документации других моделей (типов или модификаций) самокатов, могут заимствоваться для составления эксплуатационного документа, при этом заимствованные МД используются со своими идентификационными кодами модели без изменения.</para>
+<para>Указанный принцип позволяет использовать существующие МД без их изменения или перекодирования, тем самым реализуется главный принцип общей базы данных - "Создано один раз, использовано много раз".</para>
+</levelledPara>
+</description>
+</content>
+</dmodule>

@@ -1,0 +1,257 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-010-01 SYSTEM "ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-010-01.png" NDATA png>
+<!ENTITY ICN-SCOOTER-A-0000000-0-ECIAS-00000-A-001-01 SYSTEM "ICN-SCOOTER-A-0000000-0-ECIAS-00000-A-001-01.wrl" NDATA wrl>
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+<!NOTATION wrl PUBLIC "-//S1000D//NOTATION VRML 3D Models Encoding//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="000" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="520" infoCodeVariant="B" itemLocationCode="A"></dmCode>
+<language languageIsoCode="ru" countryIsoCode="RU"></language>
+<issueInfo issueNumber="001" inWork="00"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2020" month="07" day="30"></issueDate>
+<dmTitle>
+<techName>Самокат</techName>
+<infoName>Инструкция по сборке</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<logo>
+<symbol infoEntityIdent="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-010-01" xlink:href="ICN-SCOOTER-A-0000000-A-ECIAS-00000-A-010-01.png" reproductionWidth="101pt" reproductionHeight="39pt"></symbol>
+</logo>
+<responsiblePartnerCompany enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>Все</simplePara>
+</displayText>
+</applic>
+<techStandard>
+<techPubBase>ASD S1000D / АС 1.1.S1000DR-2014</techPubBase>
+<authorityExceptions></authorityExceptions>
+<authorityNotes></authorityNotes>
+</techStandard>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<productionMaintData>
+<taskDuration startupDuration="0.1" procedureDuration="0.3" closeupDuration="0.1" unitOfMeasure="h"></taskDuration>
+</productionMaintData>
+<reqCondGroup>
+<reqCondNoRef>
+<reqCond>Выложите содержимое коробки на ровную гладкую поверхность. Уберите весь упаковочный материал из коробки.</reqCond>
+</reqCondNoRef>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr id="seq-0001">
+<name>Шестигранник 5 мм</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">2</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<noSupplies></noSupplies>
+</reqSupplies>
+<reqSpares>
+<spareDescrGroup>
+<spareDescr id="spa-0000">
+<name>Колесо 200 мм</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">2</reqQuantity>
+</spareDescr>
+<spareDescr id="spa-0001">
+<name>Передний брызговик</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</spareDescr>
+<spareDescr id="spa-0002">
+<name>Винт</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">2</reqQuantity>
+</spareDescr>
+</spareDescrGroup>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<caution>
+<warningAndCautionPara>Перед началом сборки и эксплуатации самоката внимательно ознакомьтесь с настоящей инструкцией. Сохраните инструкцию для дальнейших обращений к ней. Проверьте комплект инструментов и запасных частей, согласно списку комплектующих.</warningAndCautionPara>
+</caution>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep id="stp-5.466428">
+<para>
+<emphasis>Сборка руля.</emphasis>
+</para>
+<proceduralStep id="stp-5.466429">
+<para>Ослабьте  <internalRef internalRefTargetType="irtt12" internalRefId="par-part_зажим руля" xlink:href="#par-part_зажим руля"></internalRef>.</para>
+<multimedia>
+<title>Самокат</title>
+<multimediaObject infoEntityIdent="ICN-SCOOTER-A-0000000-0-ECIAS-00000-A-001-01" xlink:href="ICN-SCOOTER-A-0000000-0-ECIAS-00000-A-001-01.wrl" multimediaType="3D" xlink:type="simple">
+<parameter id="par-part_винт левый" parameterIdent="part" parameterValue="винт левый" parameterName="винт левый"></parameter>
+<parameter id="par-part_винт правый" parameterIdent="part" parameterValue="винт правый" parameterName="винт правый"></parameter>
+<parameter id="par-part_болт заднего колеса" parameterIdent="part" parameterValue="болт заднего колеса" parameterName="болт заднего колеса"></parameter>
+<parameter id="par-part_ось заднего колеса" parameterIdent="part" parameterValue="ось заднего колеса" parameterName="ось заднего колеса"></parameter>
+<parameter id="par-part_колесо заднее" parameterIdent="part" parameterValue="колесо заднее" parameterName="колесо заднее"></parameter>
+<parameter id="par-part_задняя вилка" parameterIdent="part" parameterValue="задняя вилка" parameterName="задняя вилка"></parameter>
+<parameter id="par-part_зажим" parameterIdent="part" parameterValue="зажим" parameterName="зажим"></parameter>
+<parameter id="par-part_передний брызговик" parameterIdent="part" parameterValue="передний брызговик" parameterName="передний брызговик"></parameter>
+<parameter id="par-part_колесо переднее" parameterIdent="part" parameterValue="колесо переднее" parameterName="колесо переднее"></parameter>
+<parameter id="par-part_болт переднего колеса" parameterIdent="part" parameterValue="болт переднего колеса" parameterName="болт переднего колеса"></parameter>
+<parameter id="par-part_ось переднего колеса" parameterIdent="part" parameterValue="ось переднего колеса" parameterName="ось переднего колеса"></parameter>
+<parameter id="par-part_руль" parameterIdent="part" parameterValue="руль" parameterName="1001.100.000 Руль"></parameter>
+<parameter id="par-part_основание руля" parameterIdent="part" parameterValue="основание руля" parameterName="основание руля"></parameter>
+<parameter id="par-part_правая рукоятка" parameterIdent="part" parameterValue="правая рукоятка" parameterName="правая рукоятка"></parameter>
+<parameter id="par-part_кнопк прав" parameterIdent="part" parameterValue="кнопк прав" parameterName="кнопка правой рукоятки"></parameter>
+<parameter id="par-part_левая рукоятка" parameterIdent="part" parameterValue="левая рукоятка" parameterName="левая рукоятка"></parameter>
+<parameter id="par-part_кнопк лев" parameterIdent="part" parameterValue="кнопк лев" parameterName="кнопка левой рукоятки"></parameter>
+<parameter id="par-part_зажим руля" parameterIdent="part" parameterValue="зажим руля" parameterName="зажим руля"></parameter>
+<parameter id="par-part_кнопка руля" parameterIdent="part" parameterValue="кнопка руля" parameterName="кнопка руля"></parameter>
+<parameter id="par-part_вилка в сборе" parameterIdent="part" parameterValue="вилка в сборе" parameterName="вилка в сборе"></parameter>
+<parameter id="par-part_передняя вилка" parameterIdent="part" parameterValue="передняя вилка" parameterName="передняя вилка"></parameter>
+<parameter id="par-part_паз рукоятки" parameterIdent="part" parameterValue="паз рукоятки" parameterName="паз рукоятки"></parameter>
+<parameter id="par-part_отверстие основания" parameterIdent="part" parameterValue="отверстие основания" parameterName="отверстия основания"></parameter>
+<parameter id="par-part_паз основания" parameterIdent="part" parameterValue="паз основания" parameterName="паз основания"></parameter>
+<parameter id="par-part_Проверьте соосность отверстий" parameterIdent="part" parameterValue="Проверьте соосность отверстий" parameterName="Проверьте соосность отверстий"></parameter>
+<parameter id="par-step_step4a4314d1c77a4ee4011307f15019bcb9" parameterIdent="step" parameterValue="step4a4314d1c77a4ee4011307f15019bcb9" parameterName="SCOOTER-A-000-00-00-00A-520B-A Самокат - Инструкция по сборке"></parameter>
+<parameter id="par-step_rf360a3fd-f956-4467-aeee-c3bc034bd3d0" parameterIdent="step" parameterValue="rf360a3fd-f956-4467-aeee-c3bc034bd3d0" parameterName="отлёт"></parameter>
+<parameter id="par-step_stp-5.466428" parameterIdent="step" parameterValue="stp-5.466428" parameterName="S001"></parameter>
+<parameter id="par-step_stp-5.466429" parameterIdent="step" parameterValue="stp-5.466429" parameterName="S001-01"></parameter>
+<parameter id="par-step_stp-5.466432" parameterIdent="step" parameterValue="stp-5.466432" parameterName="S001-02"></parameter>
+<parameter id="par-step_stp-5.466433" parameterIdent="step" parameterValue="stp-5.466433" parameterName="S001-03"></parameter>
+<parameter id="par-step_rcf99d43e-c17c-41db-9aa2-89dce5a84ed5" parameterIdent="step" parameterValue="rcf99d43e-c17c-41db-9aa2-89dce5a84ed5" parameterName="КНОПКИ"></parameter>
+<parameter id="par-step_rb39dd3ed-0514-4893-bc35-8f0dcec7dce7" parameterIdent="step" parameterValue="rb39dd3ed-0514-4893-bc35-8f0dcec7dce7" parameterName="S001-04"></parameter>
+<parameter id="par-step_r83d28811-252e-4ae7-8fec-55f79de3d5ab" parameterIdent="step" parameterValue="r83d28811-252e-4ae7-8fec-55f79de3d5ab" parameterName="отлёт"></parameter>
+<parameter id="par-step_S5A8DC8EA-2726-49CF-864A-CB37401C419C" parameterIdent="step" parameterValue="S5A8DC8EA-2726-49CF-864A-CB37401C419C" parameterName="S002"></parameter>
+<parameter id="par-step_S84CECB18-C660-4D51-8233-DD6B62A12A36" parameterIdent="step" parameterValue="S84CECB18-C660-4D51-8233-DD6B62A12A36" parameterName="S002-01"></parameter>
+<parameter id="par-step_S7BD8D4CE-9A62-46D6-88CB-CADBF4373C86" parameterIdent="step" parameterValue="S7BD8D4CE-9A62-46D6-88CB-CADBF4373C86" parameterName="S002-02"></parameter>
+<parameter id="par-step_S315B523B-A69F-4FF0-94CB-0E1D5BE47899" parameterIdent="step" parameterValue="S315B523B-A69F-4FF0-94CB-0E1D5BE47899" parameterName="S002-03"></parameter>
+<parameter id="par-step_rc67680cf-0882-4d1b-b0dc-d9b5906a47e3" parameterIdent="step" parameterValue="rc67680cf-0882-4d1b-b0dc-d9b5906a47e3" parameterName="отлёт"></parameter>
+<parameter id="par-step_stp-5.466413" parameterIdent="step" parameterValue="stp-5.466413" parameterName="S003"></parameter>
+<parameter id="par-step_stp-5.466431" parameterIdent="step" parameterValue="stp-5.466431" parameterName="S003-01"></parameter>
+<parameter id="par-step_stp-5.466440" parameterIdent="step" parameterValue="stp-5.466440" parameterName="S003-02"></parameter>
+<parameter id="par-step_stp-5.466441" parameterIdent="step" parameterValue="stp-5.466441" parameterName="S003-03"></parameter>
+<parameter id="par-step_rb4fa016d-9218-487f-966a-723e9247bcba" parameterIdent="step" parameterValue="rb4fa016d-9218-487f-966a-723e9247bcba" parameterName="отлёт"></parameter>
+<parameter id="par-step_S8B96B400-C653-4045-8BD7-1928E4350A85" parameterIdent="step" parameterValue="S8B96B400-C653-4045-8BD7-1928E4350A85" parameterName="S004"></parameter>
+<parameter id="par-step_S93AAD733-1C1B-486A-9303-DB82D3D9482C" parameterIdent="step" parameterValue="S93AAD733-1C1B-486A-9303-DB82D3D9482C" parameterName="S004-01"></parameter>
+<parameter id="par-step_SD81310A5-FDB1-46DD-A2DF-88937423B6FE" parameterIdent="step" parameterValue="SD81310A5-FDB1-46DD-A2DF-88937423B6FE" parameterName="S004-02"></parameter>
+<parameter id="par-step_SC65CEABD-B97D-4AE1-871D-B0259C1FC443" parameterIdent="step" parameterValue="SC65CEABD-B97D-4AE1-871D-B0259C1FC443" parameterName="S004-03"></parameter>
+<parameter id="par-step_raf8fe216-f7b6-4170-bf26-8ce448fa8250" parameterIdent="step" parameterValue="raf8fe216-f7b6-4170-bf26-8ce448fa8250" parameterName="отлёт"></parameter>
+<parameter id="par-step_stp-5.466438" parameterIdent="step" parameterValue="stp-5.466438" parameterName="S005"></parameter>
+<parameter id="par-step_stp-5.466445" parameterIdent="step" parameterValue="stp-5.466445" parameterName="S006"></parameter>
+<parameter id="par-step_stp-5.466446" parameterIdent="step" parameterValue="stp-5.466446" parameterName="S007"></parameter>
+<parameter id="par-step_stp-5.466447" parameterIdent="step" parameterValue="stp-5.466447" parameterName="S008"></parameter>
+</multimediaObject>
+</multimedia>
+</proceduralStep>
+<proceduralStep id="stp-5.466432">
+<para>Нажмите на кнопки (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_кнопк лев"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_кнопк прав"></internalRef>), находящиеся в рукоятках (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_левая рукоятка"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_правая рукоятка"></internalRef>) самоката.</para>
+</proceduralStep>
+<proceduralStep id="stp-5.466433">
+<para>Вставьте рукоятки (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_левая рукоятка"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_правая рукоятка"></internalRef>) в  <internalRef internalRefTargetType="irtt12" internalRefId="par-part_основание руля"></internalRef>.</para>
+<note id="not-001">
+<notePara>Кнопки (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_кнопк лев"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_кнопк прав"></internalRef>) и  (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_паз рукоятки"></internalRef>) должны совпасть с отверстиями <internalRef internalRefTargetType="irtt12" internalRefId="par-part_отверстие основания"></internalRef>          и пазом в основании руля (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_паз основания"></internalRef>).</notePara>
+</note>
+</proceduralStep>
+<proceduralStep id="rb39dd3ed-0514-4893-bc35-8f0dcec7dce7">
+<para>Затяните  <internalRef internalRefTargetType="irtt12" internalRefId="par-part_зажим руля"></internalRef>.</para>
+<para></para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep id="S5A8DC8EA-2726-49CF-864A-CB37401C419C">
+<para>
+<emphasis>Установка переднего брызговика.</emphasis>
+</para>
+<proceduralStep id="S84CECB18-C660-4D51-8233-DD6B62A12A36">
+<para>Установите <internalRef internalRefTargetType="irtt12" internalRefId="par-part_передний брызговик"></internalRef> на переднюю вилку (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_передняя вилка"></internalRef>).</para>
+</proceduralStep>
+<proceduralStep id="S7BD8D4CE-9A62-46D6-88CB-CADBF4373C86">
+<para>
+<internalRef internalRefTargetType="irtt12" internalRefId="par-part_Проверьте соосность отверстий"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep id="S315B523B-A69F-4FF0-94CB-0E1D5BE47899">
+<para>Закрутите винты (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_винт левый"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_винт правый"></internalRef>).</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep id="stp-5.466413">
+<para>
+<emphasis>Установка колёс.</emphasis>
+</para>
+<proceduralStep id="stp-5.466431">
+<para>Установите колесо (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_колесо переднее"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_колесо заднее"></internalRef>) в вилку (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_передняя вилка"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_задняя вилка"></internalRef>).</para>
+</proceduralStep>
+<proceduralStep id="stp-5.466440">
+<para>Вставьте ось (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_ось переднего колеса"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_ось заднего колеса"></internalRef>) в отверстие так, чтобы оно зафиксировало колесо (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_колесо переднее"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_колесо заднее"></internalRef>).</para>
+</proceduralStep>
+<proceduralStep id="stp-5.466441">
+<para>Закрутите болт (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_болт переднего колеса"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_болт заднего колеса"></internalRef>) в ось (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_ось переднего колеса"></internalRef>, <internalRef internalRefTargetType="irtt12" internalRefId="par-part_ось заднего колеса"></internalRef>).</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep id="S8B96B400-C653-4045-8BD7-1928E4350A85">
+<para>
+<emphasis>Настройка высоты руля.</emphasis>
+</para>
+<proceduralStep id="S93AAD733-1C1B-486A-9303-DB82D3D9482C">
+<para>Ослабьте <internalRef internalRefTargetType="irtt12" internalRefId="par-part_зажим руля"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep id="SD81310A5-FDB1-46DD-A2DF-88937423B6FE">
+<para>Нажмите на кнопку (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_кнопка руля"></internalRef>), которая находится в основании руля (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_основание руля"></internalRef>), и отрегулируйте руль (<internalRef internalRefTargetType="irtt12" internalRefId="par-part_основание руля"></internalRef>) по высоте.</para>
+</proceduralStep>
+<proceduralStep id="SC65CEABD-B97D-4AE1-871D-B0259C1FC443">
+<para>Затяните <internalRef internalRefTargetType="irtt12" internalRefId="par-part_зажим руля"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<reqCondNoRef>
+<reqCond>Убедитесь в надёжной работе, и фиксации в разложенном состоянии, системы складывания.</reqCond>
+</reqCondNoRef>
+<reqCondNoRef>
+<reqCond>Проверьте грипсы — они должны быть надёжно закреплены.</reqCond>
+</reqCondNoRef>
+<reqCondNoRef>
+<reqCond>Убедитесь, что руль надёжно зафиксирован.</reqCond>
+</reqCondNoRef>
+<reqCondNoRef>
+<reqCond>Убедитесь, что колеса надёжно закреплены.</reqCond>
+</reqCondNoRef>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY PUBLICATION_LOGO SYSTEM "publication_logo.PNG" NDATA png>
+<!NOTATION png PUBLIC "-//W3C//NOTATION Portable Network Graphics//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="000" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="018" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language languageIsoCode="ru" countryIsoCode="RU"></language>
+<issueInfo issueNumber="001" inWork="00"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2020" month="07" day="28"></issueDate>
+<dmTitle>
+<techName>Самокат</techName>
+<infoName>Введение</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<logo>
+<symbol infoEntityIdent="PUBLICATION_LOGO" xlink:href="publication_logo.PNG"></symbol>
+</logo>
+<responsiblePartnerCompany enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="ECIAS">
+<enterpriseName>ООО "ИЦ ИАС"</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>Все</simplePara>
+</displayText>
+</applic>
+<techStandard>
+<techPubBase>ASD S1000D / АС 1.1.S1000DR-2014</techPubBase>
+<authorityExceptions></authorityExceptions>
+<authorityNotes></authorityNotes>
+</techStandard>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="SCOOTER" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<para>Спасибо, что выбрали данный самокат! Мы надеемся, что он доставит вам удовольствие. Эта инструкция поможет вам понять, как работает самокат и как за ним ухаживать — в ней вы найдете информацию, необходимую для правильного использования, настройки, обслуживания нового самоката. Пожалуйста, обратите особое внимание на информацию о безопасности — она поможет вам избежать серьезных травм. Если у вас останутся какие-то вопросы проконсультируйтесь со специалистом.</para>
+<para>Данный самокат представляет из себя – двухколесное транспортное средство, предназначенное для передвижения и активного отдыха. Максимальная нагрузка на самокат и другие спецификации приведены на сайте изготовителя, импортера и/или продавца. Если вы столкнулись с проблемами, которые не рассматриваются в этом руководстве, пожалуйста, свяжитесь с нами или с ближайшим официальным дилером.</para>
+</description>
+</content>
+</dmodule>

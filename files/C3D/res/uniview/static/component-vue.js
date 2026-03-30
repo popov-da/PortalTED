@@ -1,1 +1,1 @@
-define((function(e,n,t){var r=e("vue");t.exports=function(e,n,t){return new r(t.expand(n.template?{el:e.render(e.html(n.template)[0])}:{},n))}}));
+define(function(e,n,t){var r=e("vue");t.exports=function(e,n,t){return new r(t.expand(n.template?{el:e.render(e.html(n.template)[0])}:{},n))}});

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg SYSTEM "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+<!ENTITY % SVG.External.attrib
+"xmlns:vm2d CDATA #FIXED 'http://www.cortona3d.com/vm2d'
+vm2d:name CDATA #IMPLIED
+vm2d:type CDATA #IMPLIED">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:vm2d="http://www.cortona3d.com/vm2d" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="170mm" height="210mm" viewBox="0 0 643 794" fill="none" fill-rule="evenodd" stroke-miterlimit="5">
+  <title>Untitled</title>
+  <desc>"Generator:ParallelGraphics Cortona2D","ProfileId:WebCGM""ProfileEd:2.1""ColourClass:colour""Source:Cortona2D Editor Pro 14.2.0.142""Date:20250320"</desc>
+  <rect width="643" height="794" fill="#fff"/>
+  <defs/>
+  <g id="C3DB0001" vm2d:name="Background" vm2d:type="layer"/>
+  <g id="AUTOID_008" vm2d:name="Схема" vm2d:type="layer">
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" stroke-dasharray="6.35,0.635,1.27,0.635,1.27,0.635" d="M84.865,-90 L104.87,-90 104.87,-50 84.865,-50 Z"/>
+    </g>
+    <g id="AUTOID_067" vm2d:name="" vm2d:type="grnode">
+      <g id="AUTOID_016" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(-0,-3.78095,3.78095,0,242.758,437.506)">
+          <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">РАСПРЕДЕЛИТЕЛЬНАЯ</text>
+        </g>
+        <g transform="matrix(-0,-3.78095,3.78095,0,256.602,397.285)">
+          <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КОРОБКА</text>
+        </g>
+      </g>
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#000" stroke-dasharray="6.35,0.635,1.27,0.635,1.27,0.635" d="M59.865,-175 L69.865,-175 69.865,-50 59.865,-50 Z"/>
+      </g>
+    </g>
+    <g id="AUTOID_004" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(-0,-3.78095,3.78095,0,123.373,414.797)">
+        <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve">ЦЕНТРАЛЬНЫЙ </text>
+      </g>
+      <g transform="matrix(-0,-3.78095,3.78095,0,137.338,438.803)">
+        <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve">РАСПРЕДЕЛИТЕЛЬНЫЙ </text>
+      </g>
+      <g transform="matrix(-0,-3.78095,3.78095,0,151.182,386.289)">
+        <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ШКАФ</text>
+      </g>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" stroke-dasharray="6.35,0.635,1.27,0.635,1.27,0.635" d="M24.865,-137.5 L44.865,-137.5 44.865,-87.5 24.865,-87.5 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,356.227,599.285)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">РАСПРЕДЕЛИТЕЛЬНОЕ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,370.071,582.875)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">УСТРОЙСТВО № 2</text>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" stroke-dasharray="6.35,0.635,1.27,0.635,1.27,0.635" d="M84.865,-175 L104.87,-175 104.87,-135 84.865,-135 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,356.227,277.904)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">РАСПРЕДЕЛИТЕЛЬНОЕ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,370.071,261.494)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">УСТРОЙСТВО № 1</text>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path fill="#fff" stroke="#000" d="M13.487,-25.329 L15.987,-22.648 18.486,-25.329 17.237,-25.329 17.237,-36.965 18.486,-36.965 15.987,-39.645 13.487,-36.965 14.737,-36.965 14.737,-25.329 Z"/>
+      <path fill="#fff" stroke="#000" d="M107.55,-57.499 L104.87,-55 107.55,-52.5 107.55,-53.75 117.18,-53.75 117.18,-52.5 119.87,-55 117.18,-57.499 117.18,-56.25 107.55,-56.25 Z"/>
+      <path fill="#fff" stroke="#000" d="M122.37,-67.68 L124.87,-65 127.37,-67.68 126.12,-67.68 126.12,-77.32 127.37,-77.32 124.87,-80 122.37,-77.32 123.62,-77.32 123.62,-67.68 Z"/>
+      <path fill="#fff" stroke="#000" d="M122.37,-147.68 L124.87,-145 127.37,-147.68 126.12,-147.68 126.12,-157.32 127.37,-157.32 124.87,-160 122.37,-157.32 123.62,-157.32 123.62,-147.68 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,89.3712,701.618)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000">ВЧ-сигнал</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,43.9353,754.847)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000" xml:space="preserve">ЦИФРОВАЯ ШИНА ETHERNET </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,122.461,742.335)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000">СИЛОВОЕ ПИТАНИЕ 24 В</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,157.056,748.906)">
+      <text font-family="Arial" font-size="2.86" x="0" y="0" fill="#000" xml:space="preserve">УПРАВЛЯЮЩИЕ СИГНАЛЫ </text>
+    </g>
+    <g id="WRAP_001" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M35.695,-37.297 L35.695,-21.597"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M36.495,-37.147 L35.695,-41.147 34.896,-37.147 Z"/>
+        <path stroke="#000" stroke-width="0.3" d="M35.695,-37.297 L35.695,-21.147"/>
+        <path fill="#000" d="M36.495,-37.147 L35.695,-41.147 34.896,-37.147 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_002" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M45.308,-21.597 L45.308,-37.322"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M46.107,-37.147 L45.308,-41.147 44.509,-37.147 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M45.308,-21.147 L45.308,-37.322"/>
+        <path fill="#000" d="M46.107,-37.147 L45.308,-41.147 44.509,-37.147 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_003" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M26.967,-21.597 L26.967,-37.322"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M27.766,-37.147 L26.967,-41.147 26.168,-37.147 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="0.35,0.7" d="M26.967,-21.147 L26.967,-37.322"/>
+        <path fill="#000" d="M27.766,-37.147 L26.967,-41.147 26.168,-37.147 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_004" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M116.11,-62.5 L105.32,-62.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M115.96,-61.7 L119.96,-62.5 115.96,-63.299 Z"/>
+        <path stroke="#000" stroke-width="0.3" d="M116.11,-62.5 L104.87,-62.5"/>
+        <path fill="#000" d="M115.96,-61.7 L119.96,-62.5 115.96,-63.299 Z"/>
+      </g>
+    </g>
+    <g id="AUTOID_047" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path fill="#fff" stroke="#000" d="M107.55,-172.5 L104.87,-170 107.55,-167.5 107.55,-168.75 117.18,-168.75 117.18,-167.5 119.87,-170 117.18,-172.5 117.18,-171.25 107.55,-171.25 Z"/>
+      </g>
+      <g id="WRAP_005" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+          <path stroke="#fff" d="M116.11,-162.5 L105.32,-162.5"/>
+          <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M115.96,-161.7 L119.96,-162.5 115.96,-163.3 Z"/>
+          <path stroke="#000" stroke-width="0.3" d="M116.11,-162.5 L104.87,-162.5"/>
+          <path fill="#000" d="M115.96,-161.7 L119.96,-162.5 115.96,-163.3 Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="WRAP_006" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M116.02,-82.5 L105.22,-82.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M115.87,-81.7 L119.87,-82.5 115.87,-83.299 Z"/>
+        <path stroke="#000" stroke-width="0.3" d="M116.02,-82.5 L104.77,-82.5"/>
+        <path fill="#000" d="M115.87,-81.7 L119.87,-82.5 115.87,-83.299 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_007" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M116.02,-142.5 L105.22,-142.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M115.87,-141.7 L119.87,-142.5 115.87,-143.3 Z"/>
+        <path stroke="#000" stroke-width="0.3" d="M116.02,-142.5 L104.77,-142.5"/>
+        <path fill="#000" d="M115.87,-141.7 L119.87,-142.5 115.87,-143.3 Z"/>
+      </g>
+    </g>
+    <g id="AUTOID_050" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path fill="#fff" stroke="#000" d="M72.546,-63.645 L69.865,-66.144 72.546,-68.644 72.546,-67.394 82.185,-67.394 82.185,-68.644 84.865,-66.144 82.185,-63.645 82.185,-64.894 72.546,-64.894 Z"/>
+      </g>
+      <g id="WRAP_008" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+          <path stroke="#fff" d="M81.015,-76.145 L70.315,-76.145"/>
+          <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M80.865,-75.345 L84.865,-76.145 80.865,-76.944 Z"/>
+          <path stroke="#000" stroke-width="0.3" d="M81.015,-76.145 L69.865,-76.145"/>
+          <path fill="#000" d="M80.865,-75.345 L84.865,-76.145 80.865,-76.944 Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="AUTOID_053" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path fill="#fff" stroke="#000" d="M47.546,-106.14 L44.865,-108.64 47.546,-111.14 47.546,-109.89 57.185,-109.89 57.185,-111.14 59.865,-108.64 57.185,-106.14 57.185,-107.39 47.546,-107.39 Z"/>
+      </g>
+      <g id="WRAP_009" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+          <path stroke="#fff" d="M56.015,-118.64 L45.315,-118.64"/>
+          <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M55.865,-117.85 L59.865,-118.64 55.865,-119.44 Z"/>
+          <path stroke="#000" stroke-width="0.3" d="M56.015,-118.64 L44.865,-118.64"/>
+          <path fill="#000" d="M55.865,-117.85 L59.865,-118.64 55.865,-119.44 Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="AUTOID_051" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path fill="#fff" stroke="#000" d="M72.546,-148.64 L69.865,-151.14 72.546,-153.64 72.546,-152.39 82.185,-152.39 82.185,-153.64 84.865,-151.14 82.185,-148.64 82.185,-149.89 72.546,-149.89 Z"/>
+      </g>
+      <g id="WRAP_010" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+          <path stroke="#fff" d="M81.015,-161.14 L70.315,-161.14"/>
+          <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M80.865,-160.35 L84.865,-161.14 80.865,-161.94 Z"/>
+          <path stroke="#000" stroke-width="0.3" d="M81.015,-161.14 L69.865,-161.14"/>
+          <path fill="#000" d="M80.865,-160.35 L84.865,-161.14 80.865,-161.94 Z"/>
+        </g>
+      </g>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" d="M144.87,-65 L159.87,-65 159.87,-35 144.87,-35 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,565.457,630.763)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">МОДУЛЬ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,579.421,635.773)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ВНЕШНЕЙ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,593.386,642.99)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ИНДИКАЦИИ</text>
+    </g>
+    <g id="WRAP_011" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M141.04,-57.5 L133.69,-57.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M140.87,-56.7 L144.87,-57.5 140.87,-58.299 Z"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M133.87,-58.299 L129.87,-57.5 133.87,-56.7 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M141.04,-57.5 L133.69,-57.5"/>
+        <path fill="#000" d="M140.87,-56.7 L144.87,-57.5 140.87,-58.299 Z"/>
+        <path fill="#000" d="M133.87,-58.299 L129.87,-57.5 133.87,-56.7 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_012" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M141.02,-47.5 L130.22,-47.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M140.87,-46.7 L144.87,-47.5 140.87,-48.299 Z"/>
+        <path stroke="#000" stroke-width="0.3" d="M141.02,-47.5 L129.77,-47.5"/>
+        <path fill="#000" d="M140.87,-46.7 L144.87,-47.5 140.87,-48.299 Z"/>
+      </g>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" stroke-dasharray="6.35,0.635,1.27,0.635,1.27,0.635" d="M119.87,-65 L129.87,-65 129.87,-35 119.87,-35 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,469.595,627.438)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve">IO-LINK  </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,483.56,651.759)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КОММУТАТОР</text>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" d="M144.87,-190 L159.87,-190 159.87,-160 144.87,-160 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,565.457,158.144)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">МОДУЛЬ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,579.421,163.155)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ВНЕШНЕЙ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,593.386,170.371)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ИНДИКАЦИИ</text>
+    </g>
+    <g id="WRAP_013" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M141.04,-182.5 L133.69,-182.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M140.87,-181.7 L144.87,-182.5 140.87,-183.3 Z"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M133.87,-183.3 L129.87,-182.5 133.87,-181.7 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M141.04,-182.5 L133.69,-182.5"/>
+        <path fill="#000" d="M140.87,-181.7 L144.87,-182.5 140.87,-183.3 Z"/>
+        <path fill="#000" d="M133.87,-183.3 L129.87,-182.5 133.87,-181.7 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_014" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M141.02,-172.5 L130.22,-172.5"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M140.87,-171.7 L144.87,-172.5 140.87,-173.3 Z"/>
+        <path stroke="#000" stroke-width="0.3" d="M141.02,-172.5 L129.77,-172.5"/>
+        <path fill="#000" d="M140.87,-171.7 L144.87,-172.5 140.87,-173.3 Z"/>
+      </g>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" stroke-dasharray="6.35,0.635,1.27,0.635,1.27,0.635" d="M119.87,-190 L129.87,-190 129.87,-160 119.87,-160 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,469.595,154.819)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve">IO-LINK  </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,483.56,179.141)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КОММУТАТОР</text>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" d="M144.87,-110 L159.87,-110 159.87,-80 144.87,-80 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,565.457,460.62)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">МОДУЛЬ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,579.421,465.63)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ВНЕШНЕЙ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,593.386,472.847)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ИНДИКАЦИИ</text>
+    </g>
+    <g id="WRAP_015" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M141.04,-99.987 L133.69,-99.987"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M140.87,-99.188 L144.87,-99.987 140.87,-100.79 Z"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M133.87,-100.79 L129.87,-99.987 133.87,-99.188 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M141.04,-99.987 L133.69,-99.987"/>
+        <path fill="#000" d="M140.87,-99.188 L144.87,-99.987 140.87,-100.79 Z"/>
+        <path fill="#000" d="M133.87,-100.79 L129.87,-99.987 133.87,-99.188 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_016" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M141.02,-89.987 L130.22,-89.987"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M140.87,-89.188 L144.87,-89.987 140.87,-90.787 Z"/>
+        <path stroke="#000" stroke-width="0.3" d="M141.02,-89.987 L129.77,-89.987"/>
+        <path fill="#000" d="M140.87,-89.188 L144.87,-89.987 140.87,-90.787 Z"/>
+      </g>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" stroke-dasharray="6.35,0.635,1.27,0.635,1.27,0.635" d="M119.87,-110 L129.87,-110 129.87,-80 119.87,-80 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,469.595,457.295)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve">IO-LINK  </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,483.56,481.616)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КОММУТАТОР</text>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" d="M144.87,-145 L159.87,-145 159.87,-115 144.87,-115 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,565.457,328.286)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">МОДУЛЬ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,579.421,333.297)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ВНЕШНЕЙ</text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,593.386,340.513)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">ИНДИКАЦИИ</text>
+    </g>
+    <g id="WRAP_017" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M141.04,-134.99 L133.69,-134.99"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M140.87,-134.19 L144.87,-134.99 140.87,-135.79 Z"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M133.87,-135.79 L129.87,-134.99 133.87,-134.19 Z"/>
+        <path stroke="#000" stroke-width="0.35" stroke-dasharray="3,1" d="M141.04,-134.99 L133.69,-134.99"/>
+        <path fill="#000" d="M140.87,-134.19 L144.87,-134.99 140.87,-135.79 Z"/>
+        <path fill="#000" d="M133.87,-135.79 L129.87,-134.99 133.87,-134.19 Z"/>
+      </g>
+    </g>
+    <g id="WRAP_018" vm2d:name="" vm2d:type="grnode">
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.6" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#fff" d="M141.02,-124.99 L130.22,-124.99"/>
+        <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M140.87,-124.19 L144.87,-124.99 140.87,-125.79 Z"/>
+        <path stroke="#000" stroke-width="0.3" d="M141.02,-124.99 L129.77,-124.99"/>
+        <path fill="#000" d="M140.87,-124.19 L144.87,-124.99 140.87,-125.79 Z"/>
+      </g>
+    </g>
+    <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+      <path stroke="#000" stroke-dasharray="6.35,0.635,1.27,0.635,1.27,0.635" d="M119.87,-145 L129.87,-145 129.87,-115 119.87,-115 Z"/>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,469.595,324.962)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000" xml:space="preserve">IO-LINK  </text>
+    </g>
+    <g transform="matrix(-0,-3.78095,3.78095,0,483.56,349.283)">
+      <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">КОММУТАТОР</text>
+    </g>
+    <g id="AUTOID_062" vm2d:name="" vm2d:type="grnode">
+      <g id="WRAP_019" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+          <path stroke="#fff" d="M15.042,-93.892 L20.767,-93.892"/>
+          <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M20.592,-93.093 L24.592,-93.892 20.592,-94.692 Z"/>
+          <path stroke="#000" stroke-width="0.35" stroke-dasharray="0.35,0.7" d="M14.592,-93.892 L20.767,-93.892"/>
+          <path fill="#000" d="M20.592,-93.093 L24.592,-93.892 20.592,-94.692 Z"/>
+        </g>
+      </g>
+      <g id="WRAP_020" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+          <path stroke="#fff" d="M24.142,-101.14 L18.417,-101.14"/>
+          <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M18.592,-101.94 L14.592,-101.14 18.592,-100.34 Z"/>
+          <path stroke="#000" stroke-width="0.35" stroke-dasharray="0.35,0.7" d="M24.592,-101.14 L18.417,-101.14"/>
+          <path fill="#000" d="M18.592,-101.94 L14.592,-101.14 18.592,-100.34 Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="AUTOID_003" vm2d:name="" vm2d:type="grnode">
+      <g id="AUTOID_001" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(-0,-3.78095,3.78095,0,33.5033,454.316)">
+          <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">АНТЕННА</text>
+        </g>
+        <g transform="matrix(-0,-3.78095,3.78095,0,47.4678,439.667)">
+          <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">WI-FI</text>
+        </g>
+      </g>
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#000" d="M4.5267,-107.51 L14.527,-107.51 14.527,-87.515 4.5267,-87.515 Z"/>
+      </g>
+    </g>
+    <g id="AUTOID_065" vm2d:name="" vm2d:type="grnode">
+      <g id="WRAP_021" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+          <path stroke="#fff" d="M15.042,-123.86 L20.767,-123.86"/>
+          <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M20.592,-123.06 L24.592,-123.86 20.592,-124.66 Z"/>
+          <path stroke="#000" stroke-width="0.35" stroke-dasharray="0.35,0.7" d="M14.592,-123.86 L20.767,-123.86"/>
+          <path fill="#000" d="M20.592,-123.06 L24.592,-123.86 20.592,-124.66 Z"/>
+        </g>
+      </g>
+      <g id="WRAP_022" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.65" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="10">
+          <path stroke="#fff" d="M24.142,-131.11 L18.417,-131.11"/>
+          <path stroke="#fff" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="1000" d="M18.592,-131.91 L14.592,-131.11 18.592,-130.31 Z"/>
+          <path stroke="#000" stroke-width="0.35" stroke-dasharray="0.35,0.7" d="M24.592,-131.11 L18.417,-131.11"/>
+          <path fill="#000" d="M18.592,-131.91 L14.592,-131.11 18.592,-130.31 Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="AUTOID_006" vm2d:name="" vm2d:type="grnode">
+      <g id="AUTOID_005" vm2d:name="" vm2d:type="grnode">
+        <g transform="matrix(-0,-3.78095,3.78095,0,33.4291,341.001)">
+          <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">АНТЕННА</text>
+        </g>
+        <g transform="matrix(-0,-3.78095,3.78095,0,47.3937,347.767)">
+          <text font-family="Arial" font-size="3.21" x="0" y="0" fill="#000">LTE C GNSS</text>
+        </g>
+      </g>
+      <g transform="matrix(3.78095,0,0,3.78095,0.119049,794)" stroke-width="0.18" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10">
+        <path stroke="#000" d="M4.5267,-137.48 L14.527,-137.48 14.527,-117.48 4.5267,-117.48 Z"/>
+      </g>
+    </g>
+    <a id="AUTOID_078" vm2d:name="" vm2d:type="grobject" xlink:href="#"/>
+  </g>
+  <g id="C3DG0001" vm2d:name="Drawing" vm2d:type="layer"/>
+  <g id="C3DA0001" vm2d:name="Axials" vm2d:type="layer"/>
+  <g id="C3DC0001" vm2d:name="Callouts" vm2d:type="layer"/>
+  <g id="C3DP0001" vm2d:name="Panels" vm2d:type="layer"/>
+</svg>

@@ -1,1 +1,1 @@
-define((function(e,r,n){var t=e("react-dom"),a=e("react");n.exports=function(e,r,n){var c=e.create(r.container||"div");return e.render(c),t.render(a.createElement(r.type,r.props),c)}}));
+define(function(e,r,n){var t=e("react-dom"),a=e("react");n.exports=function(e,r,n){var c=e.create(r.container||"div");return e.render(c),t.render(a.createElement(r.type,r.props),c)}});

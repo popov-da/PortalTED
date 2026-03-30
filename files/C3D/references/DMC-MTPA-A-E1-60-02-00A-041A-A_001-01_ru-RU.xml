@@ -1,0 +1,158 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="E1" subSystemCode="6" subSubSystemCode="0" assyCode="02" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Антенна Wi-Fi</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+						Антенна Wi-Fi предназначена для обеспечения связи c планшетом.</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики антенны Wi-Fi <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table id="tab-001">
+<title>Технические характеристики антенны Wi-Fi</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Высота и Диаметр), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>194,3×38</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>0,16</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочая температура, С°</para>
+</entry>
+<entry colname="col2">
+<para>от -40 до +75</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Волновое сопротивление, Ом</para>
+</entry>
+<entry colname="col2">
+<para>50</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="middle">
+<para>Диапазон частот, ГГц</para>
+</entry>
+<entry colname="col2" align="center" valign="middle">
+<para>2.4 ~ 2.5</para>
+<para>4.9 ~ 5.85 </para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Степень защиты </para>
+</entry>
+<entry colname="col2">
+<para>IP55</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Подключение</para>
+</entry>
+<entry colname="col2">
+<para>RP-SMA</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Длина кабеля подключение, м</para>
+</entry>
+<entry colname="col2">
+<para>1</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+					Антенна размещена на перемычки купола башни.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>Антенна выполнена в пластиковом корпусе конусной формы. Установка осуществляется в отверстие переходной пластины купола с фиксацией при помощи резьбового соединения, состоящего из металлической втулки с наружной резьбой, интегрированной в корпус антенны, и фиксирующей гайки. Из внутренней полости втулки выходят два экранированных кабельных жгута длиной 1 м, каждый из которых оснащен унифицированным электрическим разъемом.</para>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>Антенна передает и принимает радиоволны на одной из рабочих частот, которые по кабелям типа RG-174 поступают на входы беспроводного сетевого адаптера. В адаптере радиочастотный сигнал преобразуется в цифровой формат, после чего данные передаются на процессорный модуль PLC для дальнейшей обработки.</para>
+</levelledPara>
+</description>
+</content>
+</dmodule>

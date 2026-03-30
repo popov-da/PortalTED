@@ -1,0 +1,175 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="D2" subSystemCode="4" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="922" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Светодиодный прожектор замка</techName>
+<infoName>Демонтаж и монтаж</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<noSupportEquips></noSupportEquips>
+</reqSupportEquips>
+<reqSupplies>
+<noSupplies></noSupplies>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning>
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</warningAndCautionPara>
+<warningAndCautionPara>РАБОТЫ ВЫПОЛНЯТЬ БЕЗ УСТАНОВЛЕННОГО ГРУЗА.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Выполните спуск траверсы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="176" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="07" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Демонтируйте кожух камеры <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="08" subSubSystemCode="4" subSystemCode="3" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Демонтаж</title>
+<proceduralStep>
+<para>Снимите электрический соединитель c его ответной части.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите технологические заглушки на электрические соединители и его ответную часть.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отверните гайки <internalRef internalRefId="fig-001-gra-001-hot-007" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007"></internalRef> крепления прожектора <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите шайбы <internalRef internalRefId="fig-001-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-005"></internalRef>, <internalRef internalRefId="fig-001-gra-001-hot-006" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-006"></internalRef>, пружинные шайбы <internalRef internalRefId="fig-001-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-004"></internalRef> и болты <internalRef internalRefId="fig-001-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-003"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите прожектор <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef> со скобы <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Осмотр перед монтажом</title>
+<proceduralStep>
+<para>Осмотрите прожектор <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="311" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="4" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Монтаж</title>
+<proceduralStep>
+<para>Установите прожектор <internalRef internalRefId="fig-001-gra-001-hot-001" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-001"></internalRef> на скобу <internalRef internalRefId="fig-001-gra-001-hot-002" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-002"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите болты <internalRef internalRefId="fig-001-gra-001-hot-003" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-003"></internalRef>, шайбы <internalRef internalRefId="fig-001-gra-001-hot-005" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-005"></internalRef>, <internalRef internalRefId="fig-001-gra-001-hot-006" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-006"></internalRef>, пружинные шайбы <internalRef internalRefId="fig-001-gra-001-hot-004" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-004"></internalRef> и гайки <internalRef internalRefId="fig-001-gra-001-hot-007" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Заверните гайки <internalRef internalRefId="fig-001-gra-001-hot-007" internalRefTargetType="irtt11" xlink:href="#fig-001-gra-001-hot-007"></internalRef> до упора.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите технологические заглушки с электрического соединителя и его ответной части.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите электрический соединитель в его ответную часть.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите кожух камеры <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="922" disassyCodeVariant="A" disassyCode="00" assyCode="08" subSubSystemCode="4" subSystemCode="3" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Произведите проверку работоспособности внешней электрической системы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="280" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="5" subSystemCode="2" systemCode="12" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-001">
+<title>Демонтаж и монтаж  прожектора</title>
+<graphic infoEntityIdent="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_005" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_012" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_007" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_008" applicationStructureName="4"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_009" applicationStructureName="5"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_010" applicationStructureName="6"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_011" applicationStructureName="7"></hotspot>
+</graphic>
+</figure>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

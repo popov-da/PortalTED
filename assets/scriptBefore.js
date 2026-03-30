@@ -135,6 +135,7 @@ function showMTPADocs() {
   hideStartPage(); // Скрываем стартовую страницу
   document.getElementById('selectMessage').style.display = 'flex'; // Показываем сообщение о выборе раздела
   document.getElementById('MTPASection').style.display = 'block'; // Отображаем раздел Большой траверсы
+  document.getElementById('MTPASection2').style.display = 'block'; // Отображаем раздел Большой траверсы
   document
     .querySelectorAll('.skin-tree:not(#MTPASection)') // Получаем все элементы с классом .file-item, которые не содержат MTPASection
     .forEach(section => section.style.display = 'none'); // Скрываем все остальные разделы

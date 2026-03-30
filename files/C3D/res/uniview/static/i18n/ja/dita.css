@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "WARNING" ":" " ";
+}
+.cautiontitle:before {
+  content: "CAUTION" ":" " ";
+}
+.dangertitle:before {
+  content: "危険" ":" " ";
+}
+.notetitle:before {
+  content: "注記" ":" " ";
+}
+.notestitle:before {
+  content: "注記" ":" " ";
+}
+.tiptitle:before {
+  content: "ヒント" ":" " ";
+}
+.fastpathtitle:before {
+  content: "ファストパス" ":" " ";
+}
+.importanttitle:before {
+  content: "重要" ":" " ";
+}
+.attentiontitle:before {
+  content: "注意" ":" " ";
+}
+.remembertitle:before {
+  content: "記憶" ":" " ";
+}
+.restrictiontitle:before {
+  content: "制限" ":" " ";
+}
+.noticetitle:before {
+  content: "注記" ":" " ";
+}
+.troubletitle:before {
+  content: "トラブル" ":" " ";
+}

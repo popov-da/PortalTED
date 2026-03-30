@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+    ata2200.less
+*/
+:root {
+  --label-ipd: '제시된 부품 카탈로그';
+  --label-effect: "유효성";
+  --label-effect-all: "모두";
+  --label-intro: "소개";
+  --label-sb-list: "SB 목록";
+  --label-page: "페이지";
+  --label-dpl-tfoot: "- 그림으로 표시되지 않은 항목";
+  --label-january: "1월";
+  --label-february: "2월";
+  --label-march: "3월";
+  --label-april: "4월";
+  --label-may: "5월";
+  --label-june: "6월";
+  --label-july: "7월";
+  --label-august: "8월";
+  --label-september: "9월";
+  --label-october: "10월";
+  --label-november: "11월";
+  --label-december: "12월";
+  --label-blankPageCenter: "의도적으로 공백";
+  --label-figure: "도형";
+  --label-sheet: "시트";
+  --label-task: "타스크";
+  --label-subtask: "하위 타스크";
+  --label-warning: "경고";
+  --label-caution: "주의";
+  --label-note: "메모";
+  --label-ColonSymbol: ":";
+}

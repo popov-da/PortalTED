@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+    rwi.less
+*/
+.note .skin-modal-title:before {
+  content: "REMARQUE";
+}
+.caution .skin-modal-title:before {
+  content: "ATTENTION";
+}
+.warning .skin-modal-title:before {
+  content: "AVERTISSEMENT";
+}
+:root {
+  --label-jobCode: "Code tâche";
+  --label-summary: "Résumé";
+  --label-workType: "Type de travail";
+  --label-role: "Rôle";
+  --label-expTime: "Heure prévue";
+  --label-workCell: "Cellule de travail";
+  --label-preJob: "Tâche précédente";
+  --label-postJob: "Tâche suivante";
+  --label-workOrder: "Ordre de travail";
+  --label-revision: "Révision";
+  --label-preq: "PRÉREQUIS";
+  --label-billOfMaterial: "LISTE DE PIÈCES";
+  --label-resources: "RESOURCES";
+  --label-altpnr: "Numéro de pièce alternatif";
+  --label-pnr: "Numéro de pièce";
+  --label-desc: "Description";
+  --label-qty: "Quantité";
+  --label-job: "TÂCHE";
+  --label-no: "№";
+  --label-task: "Tâche";
+  --label-illustration: "Illustration";
+  --label-warning: "AVERTISSEMENT";
+  --label-caution: "ATTENTION";
+  --label-note: "REMARQUE";
+}

@@ -1,0 +1,250 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-D27200-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-D27200-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="D2" subSystemCode="7" subSubSystemCode="2" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Шкаф управления № 1 и № 2</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+						Шкаф управления (ШУ) № 1 и № 2   предназначены для:<randomList>
+<listItem>
+<para>распределения электроэнергии 24 В DC;</para>
+</listItem>
+<listItem>
+<para>распределения электроэнергии постоянного тока напряжением 24 В по потребителям;</para>
+</listItem>
+<listItem>
+<para>распределения Ethernet/IP сигнала по потребителям;</para>
+</listItem>
+<listItem>
+<para>нормализация напряжения 24 В цифровой шины;</para>
+</listItem>
+<listItem>
+<para>выдача дискретных сигналов 24 В.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>Состав  ШУ № 1  и ШУ № 2 одинаков, в состав их входят:<randomList>
+<listItem>
+<para>интерфейсный модуль   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль дополнительного питания (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль дискретного ввода   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль дискретного вывода   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль аналогового ввода   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>коммуникационный модуль RS-422/485C   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>стабилизатор напряжения 24 В   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>шкафной конвекционный нагреватель (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>сдвоенный термостат с регулируемыми диапазонами температуры   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кнопка аварийной остановки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>релейный модуль   (17 шт.);</para>
+</listItem>
+<listItem>
+<para>двухуровневая винтовая клемма   (20 шт.);</para>
+</listItem>
+<listItem>
+<para>шкаф (1 шт.);</para>
+</listItem>
+<listItem>
+<para>перфорированный кабельный канал (3 шт.);</para>
+</listItem>
+<listItem>
+<para>крышка перфорированного кабельного канала (3 шт.);</para>
+</listItem>
+<listItem>
+<para>DIN-рейка   (3 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики ШУ № 1 <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики шкафа управления № 1</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (В×Ш×Г), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>600×400×400</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочее напряжение, В</para>
+</entry>
+<entry colname="col2">
+<para></para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемый ток, А, не более</para>
+</entry>
+<entry colname="col2">
+<para></para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемая мощность, кВт, не более</para>
+</entry>
+<entry colname="col2">
+<para></para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Ударопрочность по стандарту EN 50102</para>
+</entry>
+<entry colname="col2">
+<para>IK10</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Степень защиты</para>
+</entry>
+<entry colname="col2">
+<para>IP66</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>???</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>ШУ размещены на кронштейнах балок больших телескопов траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+					ШУ представляет собой металлическую конструкцию, установленную на балке большого телескопа траверсы.
+Внутри шкафа размещено всё оборудование для обеспечения силовых, коммутационных и управляющих функций системы.
+</para>
+<para>Конструкция шкафа включает корпус, дверцу, два замка и монтажную панель.
+Основная часть оборудования установлена на DIN-рейках. Для укладки и трассировки кабелей применяются перфорированные каналы с крышками, предотвращающими их загрязнение и механические повреждения.</para>
+<para>Для организации шины данных между шкафами предусмотрен интерфейсный модуль, который обеспечивает обработку сигналов и обмен данными с периферийными устройствами с помощью протокола Ethernet/IP.
+Модуль дополнительного питания используется для обеспечения энергоснабжения внутренней шины PLC.
+Обработку сигналов от датчиков и управление исполнительными механизмами выполняют модули дискретного и аналогового ввода/вывода.
+Для организации интерфейса последовательной связи используется коммуникационный модуль RS-422/485C.</para>
+<para>Стабилизатор напряжения нормализует входящее цифровое напряжение 24 В для стабильной работы компонентов шкафа.</para>
+<para>Для отключения силовой шины предусмотрена кнопка аварийной остановки, которая закольцована с аналогичными кнопками других шкафов.</para>
+<para>Для поддержания оптимального температурного режима внутри ШУ установлены шкафной конвекционный нагреватель и сдвоенный термостат с регулируемыми диапазонами температуры.</para>
+<para>Вспомогательные элементы включают релейный модуль, обеспечивающий гальваническую развязку и усиление сигналов управления, двухуровневую винтовую и проходную клеммы для подключения кабелей и разводки проводов.</para>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>Цифровое питание 24 В, поступающее от двухполюсного автоматического выключателя, подаётся на стабилизатор напряжения. Стабилизатор выполняет нормализацию и стабилизацию входного напряжения, после чего распределяет стабилизированное цифровое питание 24 В на интерфейсный модуль, модуль дополнительного питания и IO-Link коммутаторы.</para>
+<para>Силовое питание 24 В, также поступающее от двухполюсного автоматического выключателя, подаётся на релейные модули и сдвоенный термостат. Сдвоенный термостат при достижении заданных температурных параметров автоматически включает или выключает шкафной конвекционный нагреватель.</para>
+<para>Для управления и обмена данными используется цифровая шина Ethernet/IP. Сигналы от управляемого маршрутизатора передаются по этой шине на интерфейсный модуль и IO-Link коммутаторы.</para>
+<para>Релейные модули светодиодных прожекторов и замков получают дискретные сигналы 24 В от модуля дискретного вывода, который управляет включением и выключением прожекторов.</para>
+<para>Релейные модули блока распределителей телескопов и замков также получают дискретные сигналы 24 В от модуля дискретного вывода. Этот модуль управляет работой золотников блока распределителя.</para>
+<para>Кнопка аварийной остановки через свои нормально замкнутые контакты пропускает сигнал аварийной остановки, поступающий от других кнопок, установленных в своих шкафах.</para>
+<figure id="fig-002">
+<title>Функциональная схема распределительного устройства № 1</title>
+<graphic infoEntityIdent="ICN-MTPA-A-D27200-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-D27200-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

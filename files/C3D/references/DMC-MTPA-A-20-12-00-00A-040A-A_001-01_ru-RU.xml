@@ -1,0 +1,539 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-201200-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-201200-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-201200-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPA-A-201200-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-201200-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPA-A-201200-0-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="20" subSystemCode="1" subSubSystemCode="2" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Элементы скольжения</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+				Элементы скольжения предназначены для снижения трения и обеспечения более плавного и точного позиционирования башни, подвижной платформы, больших и малых телескопов.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав траверсы входят:<randomList>
+<listItem>
+<para>опора (8 шт.);</para>
+</listItem>
+<listItem>
+<para>опора скольжения (8 шт.);</para>
+</listItem>
+<listItem>
+<para>плита скольжения (18 шт.);</para>
+</listItem>
+<listItem>
+<para>плита скольжения боковая (30 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики элементов скольжения <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table id="tab-001">
+<title>Технические характеристики элементов скольжения</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2" align="center">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="col1" nameend="col2" align="center">
+<para>
+<emphasis>Опора</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>160×162×86</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>3,8</para>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2" align="center">
+<para>
+<emphasis>Опора скольжения</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>380×162×165</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>38</para>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2" align="center">
+<para>
+<emphasis>Плита скольжения центральной рамы</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>450×120×38</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры технологического
+углубления (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>175×75×4</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ширина канавки технологического
+углубления, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>5</para>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2" align="center">
+<para>
+<emphasis>Плита скольжения продольной балки большого телескопа</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>500×120×24</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры технологического
+углубления (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>195×56×6</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ширина канавки технологического
+углубления, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>5</para>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2" align="center">
+<para>
+<emphasis>Плита скольжения поперечной балки большого телескопа</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>200×100×23</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры технологического
+углубления (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>165×74×7</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ширина канавки технологического
+углубления, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>5</para>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2" align="center">
+<para>
+<emphasis>Плита скольжения малого телескопа</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>190×85×24</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры технологического
+углубления (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>115×59×16</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ширина канавки технологического
+углубления, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>5</para>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2" align="center">
+<para>
+<emphasis>Боковая плита скольжения центральной рамы</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>87×70×30</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры технологического
+углубления (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>72×42×6,5</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ширина канавки технологического
+углубления, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>5</para>
+</entry>
+</row>
+<row>
+<entry align="center" namest="col1" nameend="col2">
+<para>
+<emphasis>Боковая плита скольжения продольной балки большого телескопа</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>450×150×20</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры технологического
+углубления (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>390×110×10</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ширина канавки технологического
+углубления, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>10</para>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2" align="center">
+<para>
+<emphasis>Внешнеяя боковая плита скольжения поперечной балки большого телескопа</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>90×70×20</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры технологического
+углубления (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>75×45×6</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ширина канавки технологического
+углубления, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>5</para>
+</entry>
+</row>
+<row>
+<entry align="center" namest="col1" nameend="col2">
+<para>
+<emphasis>Внутренняя боковая плита скольжения поперечной балки большого телескопа</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>140×90×20</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры технологического
+углубления (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>115×67×6</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ширина канавки технологического
+углубления, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>5</para>
+</entry>
+</row>
+<row>
+<entry align="center" namest="col1" nameend="col2">
+<para>
+<emphasis>Боковая плита скольжения малой телескопа</emphasis>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм, не
+более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>240×150×20</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры технологического
+углубления (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>150×80×6</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ширина канавки технологического
+углубления, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>10</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>На башне установлены четыре опоры и четыре опоры скольжения.</para>
+<para>На подвижной платформе установлены четыре опоры и четыре опоры скольжения.</para>
+<para>В продольных балках центральной рамы основания установлены восемь плит скольжения и шестнадцать боковых плит скольжения.</para>
+<para>На продольных балках больших телескопов установлены восемь плит скольжения и двенадцать боковых плит скольжения. В поперечных балках больших телкскопов установлено по четыре плиты скольжения и восемь боковых плит скольжения</para>
+<para>На малых телескопов установлены две плиты скольжения и две боковые плиты скольжения.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>Элементы скольжения обладают высокой износостойкостью и имеют низкий коэффициент
+трения скольжения, обеспечивая плавное и точное позиционирование башни, подвижной платформы, больших и малых телескопов. Для снижения тепловых напряжений и образования трещин, а также
+для отвода фрикционной пыли на рабочей поверхности каждого элемента скольжения
+выполнено технологическое углубление в виде зигзагообразной линии.
+Элементы скольжения устойчивы к воздействию агрессивных сред и растворителей.</para>
+<levelledPara>
+<title>Опора</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Все опоры имеют идентичную конструкцию, они состоят из сварного кронштейна и накладки. Кронштейн предназначен для крепления опоры к каркасу башни и подвижной платформы с помощью четырех винтов. Кронштейн представляет собой швеллер с горизонтальными полками крепления, внутри кронштейна привариваются дополнительные ребра жесткости. Накладка предназначена  для обеспечения скольжения. Крепление накладки к кронштейну осуществляется с помощью четырех винтов и гаек.</para>
+<figure id="fig-001">
+<title>Опора</title>
+<graphic infoEntityIdent="ICN-MTPA-A-201200-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-201200-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_010" applicationStructureName="НАКЛАДКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_012" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_011" applicationStructureName="КРОНШТЕЙН"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Опора скольжения</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>Все опоры скольжения имеют идентичную конструкцию, они состоят из корпуса, пластин скольжения и закрывающих пластин. Корпус предназначен для крепления опоры к каркасу траверсы с помощью восьми болтов. Для точного позиционирования опоры используется шпонка, фиксирующаяся на корпусе с помощью двух винтов. Плиты скольжения предназначены для снижения трения. Крепление плит к корпусу осуществляется с помощью пластин, установленных на торцах корпуса опоры с помощью четырех винтов.</para>
+<figure id="fig-002">
+<title>Опора скольжения</title>
+<graphic infoEntityIdent="ICN-MTPA-A-201200-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPA-A-201200-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-002-gra-001">
+<hotspot id="fig-002-gra-001-hot-001" applicationStructureIdent="AUTOID_012" applicationStructureName="БАЛКА"></hotspot>
+<hotspot id="fig-002-gra-001-hot-002" applicationStructureIdent="AUTOID_015" applicationStructureName="БОЛТ"></hotspot>
+<hotspot id="fig-002-gra-001-hot-003" applicationStructureIdent="AUTOID_020" applicationStructureName="ШАЙБА"></hotspot>
+<hotspot id="fig-002-gra-001-hot-004" applicationStructureIdent="AUTOID_013" applicationStructureName="УСИЛЕНИЕ"></hotspot>
+<hotspot id="fig-002-gra-001-hot-005" applicationStructureIdent="AUTOID_017" applicationStructureName="ПЛАСТИНА"></hotspot>
+<hotspot id="fig-002-gra-001-hot-006" applicationStructureIdent="AUTOID_019" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-002-gra-001-hot-007" applicationStructureIdent="AUTOID_018" applicationStructureName="ПЛАСТИНА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-002-gra-001-hot-008" applicationStructureIdent="AUTOID_016" applicationStructureName="КОРПУС"></hotspot>
+<hotspot id="fig-002-gra-001-hot-009" applicationStructureIdent="AUTOID_014" applicationStructureName="РЕЛЬС"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Плита скольжения</title>
+<para>
+<internalRef internalRefId="fig-003" internalRefTargetType="irtt01" xlink:href="#fig-003"></internalRef>
+</para>
+<para>Все плиты скольжения имеют схожую конструкцию за исключением габаритных
+размеров, геометрических размеров технологического углубления на рабочей
+поверхности и способа крепления к каркасу траверсы. Плиты скольжения предназначены для снижения трения.</para>
+<para>Плиты скольжения, установленные в продольных балках центральной рамы и в поперечных балках больших  телескопов имеют специальный кронштейн крепления, который прижимает плиты к каркасу. Плиты скольжения, установленные на продольных балках больших телескопов и на малых телескопах, прижимаются к подложке каркаса с помощью пластин.</para>
+</levelledPara>
+<levelledPara>
+<title>Плита скольжения боковая</title>
+<para>
+<internalRef internalRefId="fig-003" internalRefTargetType="irtt01" xlink:href="#fig-003"></internalRef>
+</para>
+<para>Все боковые плиты скольжения имеют схожую конструкцию за исключением габаритных
+размеров, геометрических размеров технологического углубления на рабочей
+поверхности и способа крепления к каркасу траверсы. Боковые плиты скольжения предназначены для снижения трения.</para>
+<para>Боковые плиты скольжения, установленные в продольных балках центральной рамы и в поперечных балках больших  телескопов имеют специальный кронштейн крепления, который прижимает плиты к каркасу. Боковые плиты скольжения, установленные на продольных балках больших телескопов и на малых телескопах, прижимаются к каркасу с помощью стопоров.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-003">
+<title>Плита скольжения</title>
+<graphic infoEntityIdent="ICN-MTPA-A-201200-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPA-A-201200-0-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-003-gra-001">
+<hotspot id="fig-003-gra-001-hot-001" applicationStructureIdent="AUTOID_017" applicationStructureName="ПЛАСТИНА"></hotspot>
+<hotspot id="fig-003-gra-001-hot-002" applicationStructureIdent="AUTOID_019" applicationStructureName="ВИНТ"></hotspot>
+<hotspot id="fig-003-gra-001-hot-003" applicationStructureIdent="AUTOID_018" applicationStructureName="ПОДЛОЖКА"></hotspot>
+<hotspot id="fig-003-gra-001-hot-004" applicationStructureIdent="AUTOID_020" applicationStructureName="ПЛИТА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-003-gra-001-hot-005" applicationStructureIdent="AUTOID_021" applicationStructureName="ПЛИТА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-003-gra-001-hot-006" applicationStructureIdent="AUTOID_022" applicationStructureName="КРОНШТЕЙН ПЛИТЫ СКОЛЬЖЕНИЯ"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-B03200-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-B03200-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="B0" subSystemCode="3" subSubSystemCode="2" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Телескоп малый</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+				Телескоп малый предназначен для регулировки ширины траверсы в соответствии с
+параметрами подвешиваемого модуля, а также для установки замка.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>Телескоп малый состоит из четырех одинаковых частей, которые зеркально отражены
+относительно центра траверсы. В состав одной части малого телескопа входят:<randomList>
+<listItem>
+<para>сварной каркас (1 шт.);</para>
+</listItem>
+<listItem>
+<para>плита скольжения (2 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>плита скольжения боковая (2 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Малые телескопы установлены  в поперечные балки сварного каркаса больших телескопов.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Телескоп малый представляет собой сборную конструкцию из сварного каркаса, плит и боковых плит скольжения.</para>
+<para>Сварной каркас является основным силовым элементом малых телескопов. Представляет
+собой сборную сварную конструкцию, состоящую балки и усилительных пластин.</para>
+<para>Балка предназначена для установки малых
+телескопов в поперечные балки сварного каркаса больших телескопов и для обеспечения перемещения малых телескопов, а также для установки замков. Представляет собой сварную конструкцию, состоящую из нескольких пластин. На одном из торцов балки устанавливаются плиты и боковые плиты скольжения. У противоположного торца на верхней поверхности устанавливаются кронштейн крепления уха штока гидроцилиндра уборки-выпуска малых телескопов, на внутренней боковой поверхности — шкаф подключения (ШП).</para>
+<para>Зона крепления замка усилена по внутреннему контуру с помощью приваренных пластин, на нижней поверхности также приварено усилительное ребро.</para>
+</levelledPara>
+<figure id="fig-001">
+<title>Телескоп малый</title>
+<graphic infoEntityIdent="ICN-MTPA-A-B03200-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-B03200-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_004" applicationStructureName="КРОНШТЕЙН ГИДРОЦИЛИНДРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_001" applicationStructureName="БОЛЬШОЙ ТЕЛЕСКОП"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="УСИЛИТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_005" applicationStructureName="ЗАМОК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_003" applicationStructureName="ПЛАСТИНА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_008" applicationStructureName="БОКОВАЯ ПЛИТА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_009" applicationStructureName="ПЛИТА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_006" applicationStructureName="СТЕНКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_007" applicationStructureName="ПОЛКА"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-B03300-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-B03300-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="B0" subSystemCode="3" subSubSystemCode="3" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Рама центральная</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+				Рама центральная предназначена для установки подвижной платформы, больших телескопов, агрегатов гидравлической системы и электрооборудования.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав рамы центральной входят:<randomList>
+<listItem>
+<para>сварной каркас рамы (1 шт.);</para>
+</listItem>
+<listItem>
+<para>брызговик (4 шт.);</para>
+</listItem>
+<listItem>
+<para>ограничитель платформы (4 шт.);</para>
+</listItem>
+<listItem>
+<para>кронштейн гидроцилиндра (2 шт.);</para>
+</listItem>
+<listItem>
+<para>кронштейн плиты скольжения (8 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>плита скольжения (8 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>плита скольжения боковая (16 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>лоток кабельного канала (3 шт.):<randomList>
+<listItem>
+<para>лоток кабельного канала большой (2 шт.);</para>
+</listItem>
+<listItem>
+<para>лоток кабельного канала малый (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Рама центральная является  центральной частью   основания.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Рама центральная представляет собой сборную конструкцию, состоящую из сварного каркаса, ограничителей платформы, кронштейнов гидроцилиндров, кронштейнов плит скольжения, плит скольжения, боковых плит скольжения и лотков кабельного канала.</para>
+<levelledPara>
+<title>Сварной каркас</title>
+<para>Сварной каркас является основным силовым элементом центральной рамы. Представляет собой сборную сварную конструкцию, состоящую из боковин рамы, поперечных балок, балок гидроцилиндров, сварных уголков, кронштейнов, раскосов, боковых, нижних и внутренних пластин.</para>
+<para>Боковины рамы, кронштейны, нижние пластины с усилителями и ребрами  формируют основной силовой набор каркаса.</para>
+<para>Боковины рамы предназначены для установки и обеспечения перемещения больших телескопов. Представляют собой сварную двухсекционную конструкцию, состоящую из пластин, стенок, перегородки, ребер и усиления. Центральная перегородка формирует две секции установки больших телескопов, обеспечивает дополнительную жесткость конструкции. На торцах боковин рамы предусмотрена установка ребер, придающих дополнительную жесткость конструкции. На противоположных торцах боковин устанавливаются кронштейны плит скольжения. Усиление и ребра жесткости  предназначены для обеспечения дополнительной жесткости боковинам в местах установки подвижной платформы.</para>
+<para>В конструкции каркаса предусмотрено два сварных уголка, предназначенные для установки и обеспечения продольного перемещения подвижной платформы. Уголки устанавливаются с внешней стороны каркаса в верхней части боковин рамы с помощью сварки. Конструктивно оба уголка выполнены одинаково — представляют собой сборную сварную конструкцию, состоящую из опорной и угловой пластин и двух косынок по торцам угловой пластины.</para>
+<para>Кронштейны предназначены для крепления гидроцилиндров управления положением подвижной платформы. Соединяют верхние поверхности торцов боковин рамы. Конструктивно оба кронштейна выполнены одинаково — представляют собой сборную сварную конструкцию, состоящую из пластин разной формы и втулок.</para>
+<para>Поперечные балки и балки гидроцилиндров предназначены для установки агрегатов гидравлической системы. Поперечные балки представляют собой уголок, балки гидроцилиндров — швеллеры.</para>
+<para>Раскосы придают дополнительную жесткость конструкции. Конструктивно все раскосы выполнены одинаково — представляют собой швеллер. Раскосы устанавливаются между нижними и внутренними пластинами.</para>
+<para>Боковые и внутренние пластины формируют усиление в торцевой части боковин рамы. Для подвеса грузов в боковых пластинах предусмотрены отверстия, дополнительно усиленные кольцами.</para>
+<para>На одной из боковых пластин установлены два кронштейна дальномеров.</para>
+</levelledPara>
+<levelledPara>
+<title>Брызговик</title>
+<para>В конструкции рамы предусмотрено четыре брызговика, предназначенные для предотвращения попадания влаги, грязи и мусора внутрь балок. Брызговики устанавливаются на торцы боковин рамы с помощью шести винтов.</para>
+</levelledPara>
+<levelledPara>
+<title>Ограничитель платформы</title>
+<para>В конструкции рамы предусмотрено четыре ограничителя платформы, предназначенные для предупреждения выхода подвижной платформы за
+крайние рабочие положения. Ограничители устанавливаются по торцам сварных  уголков каркаса на нижних их поверхностях  с помощью четырех болтов и гаек. Конструктивно все ограничители выполнены одинаково — представляют собой уголок с приваренным в центральной части ребром жесткости и приклеенной прокладкой.</para>
+</levelledPara>
+<levelledPara>
+<title>Кронштейн гидроцилиндра</title>
+<para>В конструкции рамы предусмотрено два кронштейна гидроцилиндров, предназначенные для крепления гидроцилиндров уборки-выпуска больших телескопов. Кронштейны устанавливаются на верхних поверхностях балок гидроцилиндров в  центральной их части с помощью четырех болтов и гаек. Конструктивно оба кронштейна представляют собой сварную вилку, состоящую из двух проушин со втулками и основания.</para>
+</levelledPara>
+<levelledPara>
+<title>Лоток кабельного канала</title>
+<para>Лоток кабельного канала предназначен для размещения рукавов высокого давления и
+электропроводки, а также для сбора жидкостей в случае протечек. Лоток имеет форму
+швеллера, внутри лотка устанавливаются опорные уголки, торцы закрываются пластинами, на дне лотка предусмотрена пробка слива собранной жидкости.</para>
+<levelledPara>
+<title>Лоток кабельного канала большой</title>
+<para>В конструкции рамы предусмотрено два больших лотка кабельных каналов. Лотки устанавливаются на поперечные балки
+в центральной части сварного каркаса рамы с помощью четырех винтов и гаек каждый.</para>
+</levelledPara>
+<levelledPara>
+<title>Лоток кабельного канала малый</title>
+<para>Малый лоток кабельного канала устанавливается на поперечные балки
+сварного каркаса центральной рамы с помощью двух винтов и гаек.</para>
+</levelledPara>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Рама центральная</title>
+<graphic infoEntityIdent="ICN-MTPA-A-B03300-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-B03300-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="СВАРНОЙ КАРКАС РАМЫ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_006" applicationStructureName="ЛОТОК КАБЕЛЬНОГО КАНАЛА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_016" applicationStructureName="ЛОТОК КАБЕЛЬНОГО КАНАЛА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_002" applicationStructureName="ОГРАНИЧИТЕЛЬ ПЛАТФОРМЫ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_003" applicationStructureName="КРОНШТЕЙН ПЛИТЫ СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_015" applicationStructureName="КРОНШТЕЙН ПЛИТЫ СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_004" applicationStructureName="ПЛИТА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_014" applicationStructureName="ПЛИТА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_005" applicationStructureName="ПЛИТА СКОЛЬЖЕНИЯ БОКОВАЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_013" applicationStructureName="ПЛИТА СКОЛЬЖЕНИЯ БОКОВАЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_008" applicationStructureName="БОЛЬШОЙ ТЕЛЕСКОП "></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_011" applicationStructureName="БРЫЗГОВИК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_012" applicationStructureName="КРОНШТЕЙН ГИДРОЦИЛИНДРА"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

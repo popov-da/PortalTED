@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-B03000-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-B03000-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="B0" subSystemCode="3" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Основание</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+				Основание предназначено для установки подвижной платформы, фиксации такелажных элементов модуля, размещения гидравлической системы и электрооборудования.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав основания входят:<randomList>
+<listItem>
+<para>телескоп большой (2 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="3" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>телескоп малый (4 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="3" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>рама центральная (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="3" subSystemCode="3" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>замок (4 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="4" subSystemCode="3" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Основание является центральной частью   траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Основание представляет собой сборную конструкцию, состоящую  из центральной рамы, больших и малых телескопов, а также замков.</para>
+<para>Центральная рама является основным силовым элементом основания. В центральной части рамы устанавливается гидравлическое оборудование, продольные балки обеспечивают установку и перемещение больших телескопов. С внешней стороны центральной рамы предусмотрены четыре точки подвеса для грузов.</para>
+<para>Большие телескопы предназначены для регулировки длины траверсы в соответствии с параметрами подвешиваемого модуля и размещения гидравлического оборудования. Торцевые балки больших телескопов обеспечивают установку малых телескопов. На продольных балках больших телескопов установлены РУ № 1 и № 2.</para>
+<para>Телескопы малые предназначены для регулировки ширины траверсы в соответствии с  параметрами подвешиваемого модуля. Они обеспечивают установку замков, предназначенных для фиксации модулей на траверсе. Два шкафа подключения установлены на балках малых телескопов.</para>
+<para>Замок представляет собой сложное техническое
+устройство, включающее в себя агрегаты нескольких систем траверсы. Запирающим устройством замка является вилка, ее перемещение обеспечивается гидроцилиндром.
+Контроль положения вилки осуществляется с помощью системы датчиков. Камеры
+видеонаблюдения, установленные на корпусах замков, позволяют точно вывесить
+траверсу при ее позиционировании над модулем.<emphasis></emphasis>
+</para>
+<figure id="fig-001">
+<title>Основание</title>
+<graphic infoEntityIdent="ICN-MTPA-A-B03000-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-B03000-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_004" applicationStructureName=" МАЛЫЙ ТЕЛЕСКОП"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_005" applicationStructureName="БОЛЬШОЙ ТЕЛЕСКОП"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_007" applicationStructureName="ТОЧКА ПОДВЕСА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_001" applicationStructureName="ЦЕНТРАЛЬНАЯ РАМА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_008" applicationStructureName="ЗАМОК"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

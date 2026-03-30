@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+    ata2200.less
+*/
+:root {
+  --label-ipd: '附图零件目录';
+  --label-effect: "有效性";
+  --label-effect-all: "全部";
+  --label-intro: "简介";
+  --label-sb-list: "SB 列表";
+  --label-page: "页面";
+  --label-dpl-tfoot: "- 项无插图";
+  --label-january: "一月";
+  --label-february: "二月";
+  --label-march: "三月";
+  --label-april: "四月";
+  --label-may: "五月";
+  --label-june: "六月";
+  --label-july: "七月";
+  --label-august: "八月";
+  --label-september: "九月";
+  --label-october: "十月";
+  --label-november: "十一月";
+  --label-december: "十二月";
+  --label-blankPageCenter: "有意留空";
+  --label-figure: "图";
+  --label-sheet: "工作表";
+  --label-task: "任务";
+  --label-subtask: "子任务";
+  --label-warning: "警告";
+  --label-caution: "警示";
+  --label-note: "注释";
+  --label-ColonSymbol: ":";
+}

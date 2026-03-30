@@ -1,0 +1,152 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-D20000-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-D20000-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="D2" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="028" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="02" day="14"></issueDate>
+<dmTitle>
+<techName>Электрические системы</techName>
+<infoName>Общие сведения</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Назначение</title>
+<para>Электрические системы предназначены для:<randomList>
+<listItem>
+<para>подключения и питания траверсы к наземному источнику питания;</para>
+</listItem>
+<listItem>
+<para>преобразования электроэнергии с параметрами,
+требуемыми для нормальной работы оборудования траверсы;</para>
+</listItem>
+<listItem>
+<para>распределения электроэнергии между оборудованием траверсы;</para>
+</listItem>
+<listItem>
+<para>защиты оборудования на траверсе от аварийных режимов, таких как короткие замыкания и перегрузки сети;</para>
+</listItem>
+<listItem>
+<para>управления гидравлической системой;</para>
+</listItem>
+<listItem>
+<para>диагностирования установленного оборудования.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав электрические системы входят:<randomList>
+<listItem>
+<para>внешние электрические системы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="4" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>распределительные устройства <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="7" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>система управления <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPM"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Описание
+					</title>
+<para>Электрические системы обеспечивают:
+				<randomList>
+<listItem>
+<para>гарантированное бесперебойное питание потребителей электроэнергии при подключенной к ней наземного источника питания;</para>
+</listItem>
+<listItem>
+<para>преобразование входного напряжения 380 В в выходные напряжения 24 В и 220 В;</para>
+</listItem>
+<listItem>
+<para>зарядку аккумулятора от наземного источника питания;</para>
+</listItem>
+<listItem>
+<para>управление с помощью планшета;</para>
+</listItem>
+<listItem>
+<para>вывод диагностической информации на панель оператора и на планшет;</para>
+</listItem>
+<listItem>
+<para>механическое отключение при аварийном режиме;</para>
+</listItem>
+<listItem>
+<para>визуальное отображение рабочих
+состояний траверсы;</para>
+</listItem>
+<listItem>
+<para>освещение рабочей зоны.</para>
+</listItem>
+</randomList>
+</para>
+<para>На траверсе электрические системы состоит из двух шкафов подключения  (ШП), распределительной коробки (РК), центрального шкафа управления (ЦШУ), шкафов управления (ШУ) № 1 - № 3,  а также системы управления и внешних электрических систем. Связь между компонентами осуществляется с помощью силовых и информационных кабелей.</para>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>При подключении кабеля наземного источника питания к шкафу подключения, на траверсу  подается напряжение 380 В.</para>
+<para>ЦШУ распределяет напряжение и сигналы управления  между всеми ШУ № 1, ШУ № 2 и ШУ № 3, управляет двигателем гидростанции, светодиодными прожекторами башни. Принимает и посылает радиосигналы на планшет оператора.  </para>
+<para>Каждое ШУ управляет своими блоками гидрораспределителей, за исключением ШУ № 3, где реализовано также управление датчиками давления. ШУ № 1 и № 2 передают управляющие сигналы на IO-link коммутаторы и обеспечивают их питанием. Эти коммутаторы взаимодействуют по интерфесу IO-link с лазерными дальномерами и модулями внешней индикации, а также питают и принимают сигналы от индуктивных датчиков.</para>
+<para>Система наблюдения получает сигналы управления по  ETHERNET/ POE и передает видеосигнал в ЦШУ. </para>
+<para>В траверсе реализована кольцевая система аварийной остановки с использованием кнопок аварийной остановки, установленных на шкафах. Аварийный сигнал с ЦШУ поступает  в ШУ № 1, затем поступает в ШУ № 2, после чего заходит в ШУ № 3. Потом из ШУ № 3 проходит до шкафов подключения и далее сигнал возвращается обратно в ЦШУ, замыкая кольцевую систему.</para>
+<figure id="fig-001">
+<title>Функциональная схема электрической системы</title>
+<graphic infoEntityIdent="ICN-MTPA-A-D20000-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-D20000-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

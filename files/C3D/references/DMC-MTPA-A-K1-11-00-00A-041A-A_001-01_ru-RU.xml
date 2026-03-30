@@ -1,0 +1,221 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-K11000-A-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-K11000-A-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-K11000-A-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPA-A-K11000-A-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="K1" subSystemCode="1" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Гидравлическая станция</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Гидравлическая станция предназначена для подачи, хранения, фильтрации и охлаждения рабочей жидкости.</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики гидравлической станции <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>
+</para>
+<table id="tab-001">
+<title>Технические характеристики гидравлической станции</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2" align="center">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры (Д×Ш×В), мм</para>
+</entry>
+<entry colname="col2" align="center">
+<para>950×750×1300</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Рабочий объем насоса, см³</para>
+</entry>
+<entry colname="col2" align="center">
+<para>14</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Номинальное давление, МПа</para>
+</entry>
+<entry colname="col2" align="center">
+<para>28</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Подача насоса при номинальной частоте вращения вала приводного электродвигателя, л/мин</para>
+</entry>
+<entry colname="col2" align="center">
+<para>20</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Объем маслобака, л</para>
+</entry>
+<entry colname="col2" align="center">
+<para>100</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Рабочая жидкость</para>
+</entry>
+<entry colname="col2" align="center">
+<para>
+<inlineSignificantData significantParaDataType="psd01">ВМГЗ ТУ 38.101479-86;</inlineSignificantData>
+<inlineSignificantData significantParaDataType="psd01">МГЕ-10А ОСТ 38.01281-82</inlineSignificantData>
+</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Мощность насоса, кВт</para>
+</entry>
+<entry colname="col2" align="center">
+<para>11</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Частота вращения вала приводного электродвигателя, об/мин</para>
+</entry>
+<entry colname="col2" align="center">
+<para>1500</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Входное напряжение, В</para>
+</entry>
+<entry colname="col2" align="center">
+<para>380</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Рабочий температурный диапазон, °С</para>
+</entry>
+<entry colname="col2" align="center">
+<para>от +5 до +40</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Масса, кг</para>
+</entry>
+<entry colname="col2" align="center">
+<para>160</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>Гидравлическая станция установлена на основании башни.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Гидравлическая станция представляет собой устройство, объединяющее в себе  гидробак, шестеренчатый насос, электродвигатель, контур охлаждения и рециркуляции рабочей жидкости.</para>
+<para>Контур охлаждения и рециркуляции рабочей жидкости состоит из двигателя, насоса, термообменника и термостата. </para>
+<para>На боковой поверхности гидравлической станции установлен индикатор уровня масла, совмещенный с термометром. На верхней крышке устанавливаются манометр, предохранительный клапан, заливная горловина, <emphasis>крышка доступа к фильтру</emphasis>.</para>
+<figure id="fig-001">
+<title>Система распределения</title>
+<graphic infoEntityIdent="ICN-MTPA-A-K11000-A-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-K11000-A-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_015" applicationStructureName="ЭЛЕКТРОДВИГАТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_016" applicationStructureName="ТЕПЛООБМЕННИК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_017" applicationStructureName="ГИДРОБАК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_023" applicationStructureName="КРЫШКА ДОСТУПА К ФИЛЬТРУ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_020" applicationStructureName="МАНОМЕТР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_021" applicationStructureName="ОСНОВАНИЕ БАШНИ"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPA-A-K11000-A-MDMKD-00002-A-001-01" xlink:href="ICN-MTPA-A-K11000-A-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="ЭЛЕКТРОДВИГАТЕЛЬ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_018" applicationStructureName="ИНДИКАТОР УРОВНЯ МАСЛА С ТЕРМОМЕТРОМ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_024" applicationStructureName="ПРЕДОХРАНИТЕЛЬНЫЙ КЛАПАН"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_019" applicationStructureName="ЗАЛИВНАЯ ГОРЛОВИНА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_026" applicationStructureName="ОСНОВАНИЕ БАШНИ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>По сигналу от электричеcкой системы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="028" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef> включается электродвигатель гидравлической станции, приводящий в движение  шестеренчатый насос, который подает рабочую жидкость из гидробака через фильтр в напорную линию. Распределительной системой <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="2" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef> жидкость распределятся к механизмам исполнительной системы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</levelledPara>
+</description>
+</content>
+</dmodule>

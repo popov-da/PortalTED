@@ -1,0 +1,174 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-K12000-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPA-A-K12000-0-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-K12000-0-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPA-A-K12000-0-MDMKD-00004-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="K1" subSystemCode="2" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Распределительная система</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Система распределения предназначена для распределения рабочей жидкости к исполнительным механизмам и обеспечения безопасной эксплуатации гидравлической системы.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав системы распределения входят:<randomList>
+<listItem>
+<para>центральный блок распределителей  (1 шт.);</para>
+</listItem>
+<listItem>
+<para>блок распределителей телескопов (1 шт.);</para>
+</listItem>
+<listItem>
+<para>блок распределителей телескопов и замков (2 шт.);</para>
+</listItem>
+<listItem>
+<para>распределитель двухпозиционный (8 шт.);</para>
+</listItem>
+<listItem>
+<para>распределитель трехпозиционный (12 шт.);</para>
+</listItem>
+<listItem>
+<para>гидрозамок (20 шт.);</para>
+</listItem>
+<listItem>
+<para>дроссель (4 шт.);</para>
+</listItem>
+<listItem>
+<para>секция с переливным клапаном (4 шт.);</para>
+</listItem>
+<listItem>
+<para>клапан переливной (4 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>Центральный блок распределителей устанавливается на подвижной платформе, блок распределителей телескопов – на центральной раме основания, по одному блоку распределителей телескопов и замков установлено на больших телескопах.</para>
+<para>Пять двухпозиционных и четыре трехпозиционных распределителя входят в состав центрального блока распределителей, один двухпозиционный и два трехпозиционных распределителя входят в состав блока распределителей телескопов, по одному двухпозиционному и три трехпозиционных распределителя входят в состав блоков распределителей телескопов и замков.</para>
+<para>На каждый гидроцилиндр управления устанавливается по два гидрозамка, по одному на каждую линию подачи/слива рабочей жидкости.</para>
+<para>Дроссели входят в состав центрального блока распределителей. По одной секции с переливным клапаном установлено на центральном блоке распределителей, блоке распределителей телескопов и блоках распределителей телескопов и замков.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Система распределения представляет собой  совокупность устройств, состоящую из центрального блока распределителей, блоков распределителей телескопов, блоков распределителей телескопов и замков, гидрозамков, объединенных трубопроводами.</para>
+<para>Центральный блок распределителей предназначен для распределения рабочей жидкости к гидроцилиндрам управления башни и гидроцилиндрам управления подвижной платформы, а также к блоку распределителей телескопов и блокам распределителей телескопов и замков. Состоит из дросселей, предназначенных для регулирования давления в системе, трехпозционных распределителей, двухпозиционных распределителей, переливного клапана и секции переливного клапана.</para>
+<para>Блок распределителей телескопов предназначен для распределения рабочей жидкости к гидроцилиндрам управления больших телескопов. Состоит из трехпозционных распределителей, двухпозиционных распределителей, переливного клапана и секции переливного клапана.</para>
+<para>Блок распределителей телескопов и замков предназначен для распределения рабочей жидкости к гидроцилиндрам управления малых телескопов и гидроцилиндрам управления замков. Состоит из трехпозционных распределителей, двухпозиционных распределителей, переливного клапана и секции переливного клапана.</para>
+<para>Трехпозционные распределители предназначены для регулирования направления хода штока гидроцилиндров управления, а также для перекрытия подачи рабочей жидкости в гидроцилиндры. Двухпозиционные распределители предназначены для регулирования направления подачи рабочей жидкости к агрегатам гидросистемы. Секции переливного клапана предназначена для установки переливного клапана, который  сбрасывает лишнюю рабочую жидкость в бак при превышении давлении в системе.</para>
+<para>Гидрозамок предназначен для удержания гидроцилиндров в статическом положении.</para>
+<figure id="fig-001">
+<title>Распределительная система</title>
+<graphic infoEntityIdent="ICN-MTPA-A-K12000-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPA-A-K12000-0-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+<graphic infoEntityIdent="ICN-MTPA-A-K12000-0-MDMKD-00004-A-001-01" xlink:href="ICN-MTPA-A-K12000-0-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_011" applicationStructureName="ГИДРОЗАМОК"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_015" applicationStructureName="РАСПРЕДЕЛИТЕЛЬ ТРЕХПОЗИЦИОННЫЙ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_014" applicationStructureName="ЗАМЫКАЮЩАЯ СЕКЦИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_018" applicationStructureName="РАСПРЕДЕЛИТЕЛЬ ДВУХПОЗИЦИОННЫЙ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>Система распределения функционирует следующим образом: рабочая жидкость, поступающая от гидравлической станции <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="1" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>, попадает на центрпльный блок распределителей. Центральный блок распределителей в свою очередь перераспределяет рабочую жикость к исполнительным механизмам (гидроцидиндрам управления башни и гидроцидиндрам управления подвижной платформы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>) с помощью двухпозиционных распределителей, блоку распределителей телескопов и блокам распределителей телескопов и замков с помощью трехпозиционных распределителей. Блок распределителей телескопов перераспределяет рабочую жидкость к гидроцилиндрам управления больших телескопов <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef> с помощью трехпозиционных распределителей. Блок распределителей телескопов и замков перераспределяет рабочую жидкость к гидроцилиндрам управления малых телескопов и гидроцидиндрам управления замков <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef> с помощью трехпозиционных распределителей.</para>
+<para>В момент запуска гидравлической станции <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="1" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef> все трехпозиционные распределители перекрывают доступ рабочей жидкости к полостям гидроцилиндров <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>, то есть золотник трехпозиционного распределителя удерживается пружинами в нейтральном положении. При выдаче оператором <emphasis>сигнала</emphasis> о перемещении элемента траверсы, происходит смещение золотников трехпозиционных распределителей в необходимую сторону с помощью электромагнитов, и рабочая жидкость поступает в необходимую полость гидроцилиндров <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+<para>Одноврменно со смещением золотника трехпозиционного распределителя происходит смещение золотника двухпозиционных распределителей, которое соединяет полости гидроцилиндров <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef> с необходимой линией –  линией нагнетания или слива.</para>
+<para>Гидрозамки функционируют следующим образом: при отсутствии давления в линии, золотник под действием пружины перекрывает пропускное отверстие, то есть рабочая жидкость изолирована внутри гидроцилиндра <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>. При наличии давления в линии происходит смещение золотника и открытие пропускного отверстия, рабочая жидкость поступает в необходимую полость гидроилиндра <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+<para>Переливной клапан функционируют следующим образом: при штатной работе гидросистемы золотник под действием пружины перекрывает пропускное отверстие, при превышении давлении происходит смещение золотника и открытие пропускного отвестия, излишек рабочей жидкости сливается в гидробак. Критическое давление выставляется с помощью <emphasis>винта</emphasis>, регулирующего начальное усилие пружины.</para>
+<para>Дроссель функционирует следующим образом: пропускающая способность дросселя регулируется <emphasis>винтом</emphasis>, тем самым обеспечивается необходимое давление в гидроцидиндрах управления башни и гидроцидиндрах управления подвижной платформы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="3" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>. Для предотвращения обратного протекания рабочей жидкости в дросселе предусмотрен обратный клапан, закрывающийся под давлением обратного протекания рабочей жидкости.</para>
+</levelledPara>
+</description>
+</content>
+</dmodule>

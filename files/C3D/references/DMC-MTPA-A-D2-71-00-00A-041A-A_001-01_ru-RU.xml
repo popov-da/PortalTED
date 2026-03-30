@@ -1,0 +1,309 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-D27100-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-D27100-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-D27100-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPA-A-D27100-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-D27100-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPA-A-D27100-0-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="D2" subSystemCode="7" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Центральный шкаф управления</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+						Центральный шкаф управления (ЦШУ)   предназначен для:<randomList>
+<listItem>
+<para>распределения электроэнергии 24 В DC , 220 В AC и 380 В AC; </para>
+</listItem>
+<listItem>
+<para>организации сети Ethernet/IP и Ethernet/PoE;</para>
+</listItem>
+<listItem>
+<para>контроля аварийного сигнала для реле безопасности;</para>
+</listItem>
+<listItem>
+<para>распределения  радиосигналов по беспроводному сетевому адаптеру и промышленному сотовому шлюзу;</para>
+</listItem>
+<listItem>
+<para>выдачи управляющих сигналов на внутренние и внешние потребители.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав  ЦШУ входят:<randomList>
+<listItem>
+<para>модуль процессорный PLC   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>интерфейсный модуль   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль дополнительного питания (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль дискретного ввода   (2 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль дискретного вывода   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль аналогового ввода   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль аналогового вывода   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>коммуникационный модуль RS-422/485C   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>модуль    резервирования питания (1 шт.);</para>
+</listItem>
+<listItem>
+<para>источник бесперебойного питания (1 шт.);</para>
+</listItem>
+<listItem>
+<para>преобразователь 380 В /24 В   силовой шины (1 шт.);</para>
+</listItem>
+<listItem>
+<para>преобразователь 230 В /24 В   цифровой шины (2 шт.);</para>
+</listItem>
+<listItem>
+<para>преобразователь частоты (1 шт.);</para>
+</listItem>
+<listItem>
+<para>реле безопасности (1 шт.);</para>
+</listItem>
+<listItem>
+<para>коммутатор PoE (1 шт.);</para>
+</listItem>
+<listItem>
+<para>беспроводной сетевой адаптер (1 шт.);</para>
+</listItem>
+<listItem>
+<para>промышленный сотовый шлюз (1 шт.);</para>
+</listItem>
+<listItem>
+<para>управляемый маршрутизатор (1 шт.);</para>
+</listItem>
+<listItem>
+<para>обогреватель с вентилятором (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="0" subSystemCode="3" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>сдвоенный термостат с регулируемыми диапазонами температуры   (1 шт.);</para>
+</listItem>
+<listItem>
+<para>вводной автоматический выключатель (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кнопка аварийной остановки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>сигнальный контакт (1 шт.);</para>
+</listItem>
+<listItem>
+<para>выключатель нагрузки (1 шт.);</para>
+</listItem>
+<listItem>
+<para>двух-полюсный автоматический выключатель (12 шт.);</para>
+</listItem>
+<listItem>
+<para>трех-полюсный автоматический выключатель (2 шт.);</para>
+</listItem>
+<listItem>
+<para>релейный модуль   (16 шт.);</para>
+</listItem>
+<listItem>
+<para>двухуровневая винтовая клемма   (46 шт.);</para>
+</listItem>
+<listItem>
+<para>проходная клемма   (8 шт.);</para>
+</listItem>
+<listItem>
+<para>модульная розетка (1 шт.);</para>
+</listItem>
+<listItem>
+<para>шкаф (1 шт.);</para>
+</listItem>
+<listItem>
+<para>перфорированный кабельный канал (12 шт.);</para>
+</listItem>
+<listItem>
+<para>крышка перфорированного кабельного канала (12 шт.);</para>
+</listItem>
+<listItem>
+<para>DIN-рейка   (6 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики ЦШУ <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики центрального шкафа управления</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (В×Ш×Г), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>1200×800×300</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочее напряжение, В</para>
+</entry>
+<entry colname="col2">
+<para>380</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемый ток, А, не более</para>
+</entry>
+<entry colname="col2">
+<para>35</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемая мощность, кВт, не более</para>
+</entry>
+<entry colname="col2">
+<para>13</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Ударопрочность по стандарту EN 50102</para>
+</entry>
+<entry colname="col2">
+<para>IK10</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Степень защиты</para>
+</entry>
+<entry colname="col2">
+<para>IP66</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>???</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>  ЦШУ размещен на каркасе башни траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>Центральный шкаф управления (ЦШУ) представляет собой металлическую конструкцию, установленную на раме башни. Внутри шкафа размещено всё оборудование для обеспечения силовых, коммутационных и управляющих функций системы.
+</para>
+<para>Конструкция шкафа включает корпус, дверцу, два замкам и монтажную панель. Основная часть оборудования установлена на DIN-рейках. Для укладки и трассировки кабелей применяются перфорированные каналы с крышками, предотвращающие их загрязнение и механические повреждения.</para>
+<para>Система управления построена на основе процессорного модуля PLC, который выполняет штатные алгоритмы и управляет работой компонентов. Связь и обмен данными с периферийными устройствами происходит с помощью протокола Ethernet/IP. Модуль дополнительного питания используется для обеспечения энергоснабжения внутренней шины PLC. Обработку сигналов от датчиков и управление исполнительными механизмами выполняют модули дискретного и аналогового ввода/вывода. Для организации интерфейса последовательной связи используется коммуникационный модуль RS-422/485C.</para>
+<para>Автономным источником питания траверсы является источник бесперебойного питания (ИБП). Для питания системы от внешнего источника предусмотрены два преобразователя 230 В / 24 В для цифровой шины и один преобразователь 380 В / 24 В для силовой шины. Для повышения надёжности системы, а также обеспечения питания ИБП используется модуль резервирования, который обеспечивает балансировку нагрузки между преобразователями цифровой шины и автоматическое переключение на один из них в случае выхода второго из строя. </para>
+<para>Для обеспечения безопасной эксплуатации изделия в состав оборудования входят реле безопасности, отключающее силовую шину при нажатии кнопки аварийной остановки в аварийных ситуациях.</para>
+<para>Сетевые компоненты включают коммутатор PoE для питания IP-камер и передачи видеосигнала, беспроводной адаптер, промышленный сотовый шлюз для удалённого доступа через мобильные сети и управляемый маршрутизатор, осуществляющий маршрутизацию данных в кольцевой сети Ethernet/IP.</para>
+<para>Для поддержания оптимального температурного режима внутри ЦШУ установлены обогреватель с вентилятором и сдвоенный термостат с регулируемыми диапазонами температуры.</para>
+<para>Управление и защита линии питания реализованы с использованием автоматических выключателей: вводного, трёхполюсных, двухполюсных, а также выключателя нагрузки. Состояние этих устройств контролируется с помощью сигнальных контактов.</para>
+<para>Вспомогательные элементы включают релейный модуль, обеспечивающий гальваническую развязку и усиление сигналов управления, двухуровневую винтовую и проходную клеммы для подключения кабелей и разводки проводов, а также модульную розетку, предназначенную для питания вспомогательного оборудования.</para>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Силовое питание 380 В поступает от шкафа подключения (ШП) на выключатель нагрузки через проходную клемму. При включённом выключателе нагрузки питание дальше поступает на вводной автоматический выключатель, который распределяет его на двухполюсные и трехполюсные автоматические выключатели. Двухполюсные автоматы подключаются к одной из фаз 380 В и обеспечивают защиту однофазных цепей, а трехполюсные распределяют питание между тремя фазами и защищают трехфазные цепи.</para>
+<para>На преобразователь частоты подается питание от трехполюсного автоматического выключателя. Для включения преобразователя частоты используется релейный модуль. Модуль управляется дискретным сигналом 24 В от модуля дискретного вывода. С помощью модуля аналогового вывода задаются сигналы скорости вращения двигателя.</para>
+<para>Преобразователь 380 В получает питание от трёхполюсного автоматического выключателя и преобразует силовое питание 380 В в 24 В для питания силовой шины.</para>
+<para>Каждый компонент системы запитывается от своего двухполюсного автоматического выключателя. К ним относятся модульная розетка, сдвоенный термостат, который подает питание на обогреватель с вентилятором по команде, а также преобразователи 230 В, преобразующие напряжение 230 В в 24 В для цифровой шины. Каждый преобразователь подключен к общему модулю резервирования питания, который обеспечивает зарядку ИБП и балансирует нагрузку преобразователя цифровой шины, а также переключает нагрузку на один из преобразователей при выходе из строя другого.</para>
+<para>От ИБП питание 24 В поступает на двухполюсные автоматические выключатели, которые распределяют питание между потребителями.</para>
+<para>Реле безопасности запитывается от цифровой шины 24 В. При нормальной работе он пропускает через себя силовое питание 24 В, которое подаётся на группу двухполюсных автоматических выключателей. Автоматические выключатели обеспечивают питание релейных модулей, размещённых в отдельных шкафах. </para>
+<para>Для релейных модулей светодиодных прожекторов башни дискретные сигналы 24 В поступают от модуля дискретного вывода, который управляет включением и выключением прожекторов.</para>
+<para>В аварийном режиме, при срабатывании любой кнопки аварийной остановки, формируется сигнал аварийной остановки, который приводит к размыканию контактной группы реле безопасности. В результате этого прекращается подача силового питания 24 В на группу автоматических выключателей, питающих релейные модули.</para>
+<para>Для контроля состояния автоматических выключателей используются сигнальные контакты. При срабатывании защиты сигнальный контакт передаёт дискретный сигнал 24 В на модуль дискретного ввода, информируя о состоянии системы.</para>
+<para>Для управления и сбора информации сигнал с модульного процессора PLC поступает по цифровой шине Ethernet/IP на управляемый маршрутизатор. Маршрутизатор распределяет сигнал на IO-Link  коммутаторы, панель оператора и устройства, установленные в ЦШУ. Коммутатор PoE, с помощью сигнала Ethernet/PoE, питает, принимает и передает видеопоток системы наблюдения.</para>
+<para>Для связи с планшетом через Wi-Fi сеть или удаленным сервером через сотовую сеть используются антенны, которые передают и принимают радиосигналы на беспроводной сетевой адаптер и промышленный сотовый шлюз, обеспечивая бесперебойную передачу данных.</para>
+<figure id="fig-001">
+<title>Функциональная схема центрального шкафа управления</title>
+<graphic infoEntityIdent="ICN-MTPA-A-D27100-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-D27100-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+<graphic infoEntityIdent="ICN-MTPA-A-D27100-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPA-A-D27100-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+<graphic infoEntityIdent="ICN-MTPA-A-D27100-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPA-A-D27100-0-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</levelledPara>
+</description>
+</content>
+</dmodule>

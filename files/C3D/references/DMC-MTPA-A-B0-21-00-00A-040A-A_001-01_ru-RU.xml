@@ -1,0 +1,145 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-B02100-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-B02100-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="B0" subSystemCode="2" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Платформа подвижная</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+				Платформа подвижная предназначена для балансировки траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав подвижной платформы входят:<randomList>
+<listItem>
+<para>сварной каркас (1 шт.);</para>
+</listItem>
+<listItem>
+<para>ограничитель движения башни (4 шт.);</para>
+</listItem>
+<listItem>
+<para>опора скольжения (4 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>опора (4 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>отражающая пластина (1 шт.);</para>
+</listItem>
+<listItem>
+<para>лоток кабельного канала (1 шт.);</para>
+</listItem>
+<listItem>
+<para>накладка опорная (4 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Платформа подвижная установлена сверху на основании  траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Платформа подвижная представляет собой сборную конструкцию, состоящую из сварного каркаса, опор и опор скольжения с возможностью перемещения в горизонтальной плоскости относительно основания траверсы.</para>
+<levelledPara>
+<title>Сварной каркас</title>
+<para>Сварной каркас является основным силовым элементом подвижной платформы. Представляет собой сборную сварную конструкцию, состоящую из продольных и поперечных балок, усиливающих ребер, соединительных уголков, вертикальных и горизонтальных раскосов, поперечены.</para>
+<para>Продольные и поперечные балки являются основным силовым элементом сварного каркаса. Поперечные балки имеют квадратное сечение, продольные  — свариваются из нескольких пластин и имеют П-образную форму, обеспечивающую установку платформы на основание. В центре нижней поверхности продольных балок приварены кронштейны крепления гидроцилиндров управления положением подвижной платформы. В верхней части продольных балок предусмотрены полки, предназначенные для установки и обеспечения продольного перемещения башни, в нижней части предусмотрено крепление опор и опор скольжения <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+<para>Усиливающие ребра, соединительные уголки, вертикальные и горизонтальные раскосы придают дополнительную жесткость конструкции сварного каркаса. Усиливающие ребра выполнены в виде пластины, соединительные уголки и раскосы — в виде углового профиля. Усиливающие ребра связывают нижние части продольных балок, соединительные уголки — верхние части. Вертикальные раскосы установлены между поперечными балками и усиливающими ребрами, горизонтальные — между поперечными балками и поперечиной. На одном из торцов платформы к вертикальным раскосам и усиливающему ребру крепится РУ № 3.</para>
+<para>
+						Поперечена выполнена в виде швеллера и предназначена для крепления кронштейна агрегатов гидравлической системы и распределительной коробки. Устанавливается в средней части продольных балок.</para>
+</levelledPara>
+<levelledPara>
+<title>Ограничитель движения башни</title>
+<para>В конструкции платформы предусмотрено четыре ограничителя движения башни, предназначенные для предупреждения выхода башни за крайние рабочие положения. Ограничители устанавливаются на концах верхней поверхности продольных балок сварного каркаса с помощью двух винтов и гаек. Все ограничители выполнены в виде углового профиля с ребром жесткости и  накладкой, закрепленной с помощью двух винтов и гаек. </para>
+</levelledPara>
+<levelledPara>
+<title>Отражающая пластина</title>
+<para>Отражающая пластина устанавливается на одном из ограничителей движения башни и является мишенью индуктивного датчика, предназначенного для контроля положения башни.</para>
+</levelledPara>
+<levelledPara>
+<title>Лоток кабельного канала</title>
+<para>Лоток кабельного канала предназначен для размещения рукавов высокого давления и электропроводки, а также для сбора жидкостей в случае протечек. Лоток имеет форму швеллера, внутри лотка устанавливаются опорные уголки, торцы закрываются пластинами, на дне лотка предусмотрена пробка слива собранной жидкости. Лоток устанавливается на поперечные балки сварного каркаса платформы с помощью четырех болтов и гаек.</para>
+</levelledPara>
+<levelledPara>
+<title>Накладка опорная</title>
+<para>В конструкции платформы предусмотрено четыре опорные накладки, предназначенные для установки платформы на горизонтальную поверхность при ее снятии с основания. Накладки устанавливаются на поперечены в нижней части подвижной платформы с помощью четырех винтов.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Платформа подвижная</title>
+<graphic infoEntityIdent="ICN-MTPA-A-B02100-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-B02100-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="КАРКАС ПЛАТФОРМЫ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_006" applicationStructureName="ОПОРА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_007" applicationStructureName="ОПОРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_008" applicationStructureName="ОПОРНАЯ НАКЛАДКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_002" applicationStructureName="ОГРАНИЧИТЕЛЬ ДВИЖЕНИЯ БАШНИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_003" applicationStructureName="ОТРАЖАЮЩАЯ ПЛАСТИНА"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

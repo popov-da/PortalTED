@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+    rwi.less
+*/
+.note .skin-modal-title:before {
+  content: "HINWEIS";
+}
+.caution .skin-modal-title:before {
+  content: "ACHTUNG";
+}
+.warning .skin-modal-title:before {
+  content: "WARNUNG";
+}
+:root {
+  --label-jobCode: "Auftragscode";
+  --label-summary: "Übersicht";
+  --label-workType: "Arbeitstyp";
+  --label-role: "Rolle";
+  --label-expTime: "Erwartete Zeit";
+  --label-workCell: "Arbeitszelle";
+  --label-preJob: "Vorheriger Auftrag";
+  --label-postJob: "Nächster Auftrag";
+  --label-workOrder: "Arbeitsauftrag";
+  --label-revision: "Änderungsstand";
+  --label-preq: "VORAUSSETZUNGEN";
+  --label-billOfMaterial: "STÜCKLISTE";
+  --label-resources: "Ressourcen";
+  --label-altpnr: "Alternative Teilenummer";
+  --label-pnr: "Teilenummer";
+  --label-desc: "Beschreibung";
+  --label-qty: "Menge";
+  --label-job: "AUFTRAG";
+  --label-no: "Nr.";
+  --label-task: "Aufgabe";
+  --label-illustration: "Illustration";
+  --label-warning: "WARNUNG";
+  --label-caution: "ACHTUNG";
+  --label-note: "HINWEIS";
+}

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>05/07/25</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPA-A-B0-30-00-00A-040A-A</XMLFileName>
+<DocumentFile>DMC-MTPA-A-B0-30-00-00A-040A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">descript</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">00</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">040</value>
+<value name="infoName" decl-id="INFONAME" type="string">Описание</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20250530</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPA</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">30</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">B0</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Основание</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$ICNMethod" decl-id="ICNMETHOD" type="string">MI</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+<Picture descr="Основание" flags="33">ICN-MTPA-A-B03000-0-MDMKD-00001-A-001-01.svg</Picture>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPA" data-systemDiffCode="A" data-systemCode="B0" data-subSystemCode="3" data-subSubSystemCode="0" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="040" data-infoCodeVariant="A" data-itemLocationCode="A">MTPA-A-B0-30-00-00A-040A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2025" data-month="05" data-day="30">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Основание</div>
+					<div class="infoName">Описание</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="description levels" id="description_ID5O0WKHSF">
+			<div class="levelledPara level1 link" id="levelledPara_IDX1NVP2JQ">
+				<div class="title">Общие сведения</div>
+				<div class="levelledPara level2 link" id="levelledPara_IDC4EAVXHZ">
+					<div class="title">Назначение</div>
+					<div class="para p">
+				Основание предназначено для установки подвижной платформы, фиксации такелажных элементов модуля, размещения гидравлической системы и электрооборудования.</div>
+				</div>
+				<div class="levelledPara level2 link" id="levelledPara_IDS42FVCGC">
+					<div class="title">Состав</div>
+					<div class="para p">В состав основания входят:<div class="randomList list  ul">
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">телескоп большой (2 шт.) <a class="dmRef  link" href="MTPA-A-B0-31-00-00A-040A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="040" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="1" data-subSystemCode="3" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-B0-31-00-00A-040A-A</div>
+										</div></a>;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">телескоп малый (4 шт.) <a class="dmRef  link" href="MTPA-A-B0-32-00-00A-040A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="040" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="2" data-subSystemCode="3" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-B0-32-00-00A-040A-A</div>
+										</div></a>;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">рама центральная (1 шт.) <a class="dmRef  link" href="MTPA-A-B0-33-00-00A-040A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="040" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="3" data-subSystemCode="3" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-B0-33-00-00A-040A-A</div>
+										</div></a>;</div>
+							</div>
+</div>
+							<div class="listItem li">
+<div class="listItemBody">
+								<div class="para p">замок (4 шт.) <a class="dmRef  link" href="MTPA-A-B0-34-00-00A-040A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="040" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="4" data-subSystemCode="3" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-B0-34-00-00A-040A-A</div>
+										</div></a>.</div>
+							</div>
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDYMB0LIW3">
+				<div class="title">Размещение компонентов</div>
+				<div class="para p">
+			Основание является центральной частью   траверсы.</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDPK53QVUI">
+				<div class="title">Описание</div>
+				<div class="para p">
+					<a class="internalRef irtt01 link" data-figure="1" data-link="link2d" data-src="ICN-MTPA-A-B03000-0-MDMKD-00001-A-001-01.cgm" title="Основание"></a>
+				</div>
+				<div class="para p">Основание представляет собой сборную конструкцию, состоящую  из центральной рамы, больших и малых телескопов, а также замков.</div>
+				<div class="para p">Центральная рама является основным силовым элементом основания. В центральной части рамы устанавливается гидравлическое оборудование, продольные балки обеспечивают установку и перемещение больших телескопов. С внешней стороны центральной рамы предусмотрены четыре точки подвеса для грузов.</div>
+				<div class="para p">Большие телескопы предназначены для регулировки длины траверсы в соответствии с параметрами подвешиваемого модуля и размещения гидравлического оборудования. Торцевые балки больших телескопов обеспечивают установку малых телескопов. На продольных балках больших телескопов установлены РУ № 1 и № 2.</div>
+				<div class="para p">Телескопы малые предназначены для регулировки ширины траверсы в соответствии с  параметрами подвешиваемого модуля. Они обеспечивают установку замков, предназначенных для фиксации модулей на траверсе. Два шкафа подключения установлены на балках малых телескопов.</div>
+				<div class="para p">Замок представляет собой сложное техническое
+устройство, включающее в себя агрегаты нескольких систем траверсы. Запирающим устройством замка является вилка, ее перемещение обеспечивается гидроцилиндром.
+Контроль положения вилки осуществляется с помощью системы датчиков. Камеры
+видеонаблюдения, установленные на корпусах замков, позволяют точно вывесить
+траверсу при ее позиционировании над модулем.<span class="emphasis "></span>
+				</div>
+				<div class="figure" id="fig-001">
+					<div class="title">Основание</div>
+					<a title="Основание" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPA-A-B03000-0-MDMKD-00001-A-001-01" data-href="ICN-MTPA-A-B03000-0-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPA-A-B03000-0-MDMKD-00001-A-001-01.cgm">Основание</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

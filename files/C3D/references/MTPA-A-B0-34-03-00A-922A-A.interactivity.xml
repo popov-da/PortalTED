@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>03/10/25</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPA-A-B0-34-03-00A-922A-A</XMLFileName>
+<DocumentFile>DMC-MTPA-A-B0-34-03-00A-922A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">proced</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">03</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">922</value>
+<value name="infoName" decl-id="INFONAME" type="string">Демонтаж и монтаж</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20250304</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPA</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">34</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">B0</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Каркас замка</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPA" data-systemDiffCode="A" data-systemCode="B0" data-subSystemCode="3" data-subSubSystemCode="4" data-assyCode="03" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="922" data-infoCodeVariant="A" data-itemLocationCode="A">MTPA-A-B0-34-03-00A-922A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2025" data-month="03" data-day="04">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Каркас замка</div>
+					<div class="infoName">Демонтаж и монтаж</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="procedure">
+			<div class="preliminaryRqmts" id="preliminaryRqmts_IDGIL053MJ">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDMQBGJ5EM"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDQS0CY4S3"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSupportEquips">
+<td class="noSupportEquips" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_ID0WFR0CXR"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSupplies">
+<td class="noSupplies" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDFUMDW5HA"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSpares">
+<td class="noSpares" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<div class="reqSafety">
+					<div class="safetyRqmts">
+						<div>
+<div class="warning">
+							<div class="warningAndCautionPara p">РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</div>
+							<div class="warningAndCautionPara p">РАБОТЫ ВЫПОЛНЯТЬ БЕЗ УСТАНОВЛЕННОГО ГРУЗА.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div>
+<div class="mainProcedure" id="mainProcedure_IDUO0AMGJM">
+</div>
+</div>
+<div class="Procedure levels" id="">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDUJZ34GJP">
+					<div class="title">Подготовительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDI40MAEGT">
+						<div class="para p">Выполните спуск траверсы <a class="dmRef  link" href="MTPA-A-07-10-00-00A-176A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="176" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="07" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-07-10-00-00A-176A-A</div>
+								</div></a>.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_ID13FNIC04">
+					<div class="title">Демонтаж</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID5UBEV4I2">
+						<div class="para p">Снимите электрический соединитель c его ответной части.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID0LLURQKK">
+						<div class="para p">Установите технологические заглушки на электрические соединители и его ответную часть.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDZZ5RBUI4">
+						<div class="para p">Отверните болт крепления колодки.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDWATUQVVV">
+						<div class="para p">Снимите болт, трубопроводы, металлическую пластину и зажим колодки.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID11VMKZPD">
+						<div class="para p">Отверните БРС розеток от БРС ниппелей.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDLOHKQIKY">
+						<div class="para p">Установите технологические заглушки на БРС розеток и ниппелей.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID3UEH1BOJ">
+						<div class="para p">Удалите контровку шплинта.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDFKHNEVW1">
+						<div class="para p">Снимите шайбу, ось и гидроцилиндр.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDFPCGA4HS">
+						<div class="para p">Осторожно выведите малый телескоп.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDASHAVORL">
+						<div class="para p">Отверните болты крепления замка.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDWTI1BEHY">
+						<div class="para p">Снимите шайбы и замок.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDZLMNH1SI">
+					<div class="title">Осмотр перед монтажом</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDJXSW1XR0">
+						<div class="para p">Осмотрите замок на отсутствие загрязнений, течи масла, сколов, трещин и других
+механических повреждений.</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDDARXDR4Z">
+							<div class="para p">При наличии загрязнений удалите их обтирочной ветошью. Сильные загрязнения удалите
+обтирочной ветошью, смоченной растворителем.</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDFEUWVQFP">
+							<div class="para p">При наличии повреждений замените замок на новый.</div>
+						</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDS4CC5D1R">
+							<div class="para p">При наличии подтеканий масла осмотрите гидроцилиндр и трубопроводы.</div>
+							<div class="proceduralStep level4 link" id="proceduralStep_IDMJO23KDD">
+								<div class="para p">При необходимости заменить гидроцилиндр и трубопроводы на новые <a class="dmRef  link" href="MTPA-A-K1-10-07-00A-922A-A.htm"><div class="dmRefIdent">
+											<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="07" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="K1" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-K1-10-07-00A-922A-A</div>
+										</div></a>.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDXNXPRKQ0">
+					<div class="title">Монтаж</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDSBQTMV45">
+						<div class="para p">Установите замок в малый телескоп.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDY21YEXFP">
+						<div class="para p">Установите шайбы и болты.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID1QTTC0XV">
+						<div class="para p">Заверните болты до упора.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDHB1JOSPU">
+						<div class="para p">Заведите малый телескоп в большой телескоп.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDI3B3R4DY">
+						<div class="para p">Установите и совместите ухо гидроцилиндра с отверстиями в кронштейна.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDWPJOHHAS">
+						<div class="para p">Установите ось в кронштейн и гидроцилиндер.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDPVH2SKJ1">
+						<div class="para p">Установите на шайбу на ось.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID5IUWKKDW">
+						<div class="para p">Установите шплинт в отверстие оси и выполните стопорение.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDUWFXST1Z">
+						<div class="para p">Установите трубопроводы в колодку.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDUQFX1ADW">
+						<div class="para p">Снимите технологические заглушки с БРС розеток и ниппелей.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDPV5BYF44">
+						<div class="para p">Установите и заверните БРС розетки на БРС ниппели согласно маркировке.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDV2DVLRW4">
+						<div class="para p">Установите зажим колодки, металлическую пластину на колодку.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID0YN1CQNW">
+						<div class="para p">Установите и заверните болт до упора.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDMPMUFFDJ">
+						<div class="para p">Снимите технологические заглушки с электрического соединителя и его ответной части.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDFV54POPJ">
+					<div class="title">Заключительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNKFZSPOR">
+						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID2KY153S5">
+						<div class="para p">Произведите контроль работоспособности гидравлической системы <a class="dmRef  link" href="MTPA-A-K1-00-00-00A-340A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="340" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="0" data-systemCode="K1" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-K1-00-00-00A-340A-A</div>
+								</div></a>.</div>
+					</div>
+				</div>
+			</div>
+			<div class="closeRqmts" id="closeRqmts_ID4SHIM20C">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDSLOF5GGH"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

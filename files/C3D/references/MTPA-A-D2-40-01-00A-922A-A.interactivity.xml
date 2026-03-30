@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>05/07/25</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPA-A-D2-40-01-00A-922A-A</XMLFileName>
+<DocumentFile>DMC-MTPA-A-D2-40-01-00A-922A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">proced</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPA</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">D2</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">40</value>
+<value name="assyCode" decl-id="UNIT" type="string">01</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">922</value>
+<value name="techName" decl-id="TITLE" type="string">Светодиодный прожектор замка</value>
+<value name="infoName" decl-id="INFONAME" type="string">Демонтаж и монтаж</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20250530</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+<Picture descr="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01" flags="33">ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.svg</Picture>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPA" data-systemDiffCode="A" data-systemCode="D2" data-subSystemCode="4" data-subSubSystemCode="0" data-assyCode="01" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="922" data-infoCodeVariant="A" data-itemLocationCode="A">MTPA-A-D2-40-01-00A-922A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2025" data-month="05" data-day="30">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Светодиодный прожектор замка</div>
+					<div class="infoName">Демонтаж и монтаж</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="procedure">
+			<div class="preliminaryRqmts" id="preliminaryRqmts_IDPEKIZ4I5">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDLOQSB3QS"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDKM5KINH5"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSupportEquips">
+<td class="noSupportEquips" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDYDTUMX1Z"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSupplies">
+<td class="noSupplies" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_IDUQ1O3T0H"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSpares">
+<td class="noSpares" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<div class="reqSafety">
+					<div class="safetyRqmts">
+						<div>
+<div class="warning">
+							<div class="warningAndCautionPara p">РАБОТЫ ВЫПОЛНЯТЬ НА ОБЕСТОЧЕННОМ ОБОРУДОВАНИИ.</div>
+							<div class="warningAndCautionPara p">РАБОТЫ ВЫПОЛНЯТЬ БЕЗ УСТАНОВЛЕННОГО ГРУЗА.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div>
+<div class="mainProcedure" id="mainProcedure_IDAMGJDU5E">
+</div>
+</div>
+<div class="Procedure levels" id="">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDQ11P2XDK">
+					<div class="title">Подготовительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID03JLWOBG">
+						<div class="para p">Выполните спуск траверсы <a class="dmRef  link" href="MTPA-A-07-10-00-00A-176A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="176" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="0" data-subSystemCode="1" data-systemCode="07" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-07-10-00-00A-176A-A</div>
+								</div></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDH3N4NVMS">
+						<div class="para p">Демонтируйте кожух камеры <a class="dmRef  link" href="MTPA-A-B0-34-08-00A-922A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="08" data-subSubSystemCode="4" data-subSystemCode="3" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-B0-34-08-00A-922A-A</div>
+								</div></a>.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_ID21RB11FP">
+					<div class="title">Демонтаж</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDMQKOVROZ">
+						<div class="para p">Снимите электрический соединитель c его ответной части.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDLIW233UA">
+						<div class="para p">Установите технологические заглушки на электрические соединители и его ответную часть.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDZGNBUS4L">
+						<div class="para p">Отверните гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="7"></a> крепления прожектора <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="1"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID2TSW3KE2">
+						<div class="para p">Снимите шайбы <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="5"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="6"></a>, пружинные шайбы <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="4"></a> и болты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="3"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNGL4BCEL">
+						<div class="para p">Снимите прожектор <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="1"></a> со скобы <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="2"></a>.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDWACS5WJS">
+					<div class="title">Осмотр перед монтажом</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID0LNUNNG0">
+						<div class="para p">Осмотрите прожектор <a class="dmRef  link" href="MTPA-A-D2-40-01-00A-311A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="311" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="01" data-subSubSystemCode="0" data-subSystemCode="4" data-systemCode="D2" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-D2-40-01-00A-311A-A</div>
+								</div></a>.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDM0G0UI5W">
+					<div class="title">Монтаж</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDH4NM3FR2">
+						<div class="para p">Установите прожектор <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="1"></a> на скобу <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="2"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID3GMWUYYR">
+						<div class="para p">Установите болты <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="3"></a>, шайбы <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="5"></a>, <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="6"></a>, пружинные шайбы <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="4"></a> и гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="7"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDRUIGWXFU">
+						<div class="para p">Заверните гайки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-title="Демонтаж и монтаж  прожектора" title="7"></a> до упора.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDCTA5XDEO">
+						<div class="para p">Снимите технологические заглушки с электрического соединителя и его ответной части.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDQQLQXTTL">
+						<div class="para p">Установите электрический соединитель в его ответную часть.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDBH4WPPDX">
+					<div class="title">Заключительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDUBGYCO1F">
+						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID24ZVUNCW">
+						<div class="para p">Установите кожух камеры <a class="dmRef  link" href="MTPA-A-B0-34-08-00A-922A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="922" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="08" data-subSubSystemCode="4" data-subSystemCode="3" data-systemCode="B0" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-B0-34-08-00A-922A-A</div>
+								</div></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDSRJLXG5J">
+						<div class="para p">Произведите проверку работоспособности внешней электрической системы <a class="dmRef  link" href="MTPA-A-12-25-00-00A-280A-A.htm"><div class="dmRefIdent">
+									<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="280" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="5" data-subSystemCode="2" data-systemCode="12" data-systemDiffCode="A" data-modelIdentCode="MTPA">MTPA-A-12-25-00-00A-280A-A</div>
+								</div></a>.</div>
+					</div>
+				</div>
+				<div class="figure" id="fig-001">
+					<div class="title">Демонтаж и монтаж  прожектора</div>
+					<a title="Демонтаж и монтаж  прожектора" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01" data-href="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="210mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPA-A-D24001-0-MDMKD-00001-A-001-01.cgm">Демонтаж и монтаж  прожектора</a>
+				</div>
+			</div>
+			<div class="closeRqmts" id="closeRqmts_IDDGHOVVZY">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDV2ZSSV5Z"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

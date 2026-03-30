@@ -1,0 +1,408 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="E1" subSystemCode="8" subSubSystemCode="0" assyCode="01" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Модуль внешней индикации</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+						Модуль внешней индикации предназначен для визуального отображения рабочих состояний, предупреждений или ошибок системы траверсы во время эксплуатации изделия.</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики модуля внешней индикации <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>
+</para>
+<table id="tab-001">
+<title>Технические характеристики модуля внешней индикации</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>97,2×56×56</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>0,153</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочая температура, С°</para>
+</entry>
+<entry colname="col2">
+<para>от -25 до +50 </para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Температура хранения, С°</para>
+</entry>
+<entry colname="col2">
+<para>от -40 до +75 </para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочее напряжение, В</para>
+</entry>
+<entry colname="col2">
+<para>от 18 до 30 </para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Напряжение питания, В </para>
+</entry>
+<entry colname="col2">
+<para>24</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребление тока, мА, не более</para>
+</entry>
+<entry colname="col2">
+<para>90</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Пиковый ток при включенииА, мА, не более</para>
+</entry>
+<entry colname="col2">
+<para>400</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Продолжительность
+пикового тока при
+включении, мс</para>
+</entry>
+<entry colname="col2">
+<para>50</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Степень защиты</para>
+</entry>
+<entry colname="col2">
+<para>IP67</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Подключение</para>
+</entry>
+<entry colname="col2">
+<para>М12, кодировка А</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+					Модуль внешней индикации размещен на замке.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+					
+					Модуль внешней индикации выполнен в прочном пластиковом корпусе цилиндрической формы. Установка осуществляется в
+отверстие верхнего кожуха замка с фиксацией при помощи резьбового соединения,
+состоящего из пластиковой втулки с наружной резьбой, интегрированной в корпус
+модуля, и фиксирующей гайки. Снизу расположен электрический соединитель для подключения питания и управления, который имеет два режима работы.</para>
+<para>Назначение контактов электрического соединителя приведено <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>
+</para>
+<table id="tab-002">
+<title> Назначение контактов электрического соединителя</title>
+<tgroup cols="3" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*" align="center"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<colspec colname="col3" colnum="3" colwidth="1.50*"></colspec>
+<thead>
+<row>
+<entry colname="col1" morerows="1" align="center" valign="middle">
+<para>Номер контакта </para>
+</entry>
+<entry namest="col2" nameend="col3">
+<para>Наименование сигналов</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>IO-Link</para>
+</entry>
+<entry colname="col3">
+<para>Стандартный режим</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="center">
+<para>1</para>
+</entry>
+<entry colname="col2">
+<para>UB+</para>
+</entry>
+<entry colname="col3">
+<para>N1 красный</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="center">
+<para>2</para>
+</entry>
+<entry colname="col2">
+<para>―</para>
+</entry>
+<entry colname="col3">
+<para>IN2 зелёный</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="center">
+<para>3</para>
+</entry>
+<entry colname="col2">
+<para>UB-</para>
+</entry>
+<entry colname="col3">
+<para>GND</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="center">
+<para>4</para>
+</entry>
+<entry colname="col2">
+<para>IO-Link</para>
+</entry>
+<entry colname="col3">
+<para>―</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="center">
+<para>5</para>
+</entry>
+<entry colname="col2">
+<para>―</para>
+</entry>
+<entry colname="col3">
+<para>IN3 синий</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<para>Модуль внешней индикации подключается к IO-Link мастеру через стандартный трех- или четырехпроводный кабель. После подачи питания устройство автоматически устанавливает связь с контроллером и получает параметры конфигурации.</para>
+<para>В режиме работы IO-Link позволяет передавать управляющие команды и получать диагностическую информацию. IO-Link мастер задает режим работы индикации, изменяя цвет свечения, интенсивность и частоту мигания. Модуль принимает эти команды и отображает соответствующий световой сигнал.</para>
+<para>В процессе работы модуль передает в систему управления данные о своем состоянии. При возникновении ошибок или отклонений устройство отправляет коды неисправностей в систему.</para>
+<para>Описание работы индикации приведено <internalRef internalRefId="tab-003" internalRefTargetType="irtt02" xlink:href="#tab-003"></internalRef>
+</para>
+<table id="tab-003">
+<title> Описание работы индикации</title>
+<tgroup cols="4" align="center">
+<colspec colnum="1" colname="col1" colwidth="9.60*" align="center"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1.08*"></colspec>
+<colspec colname="col3" colnum="3" colwidth="1.00*"></colspec>
+<colspec colname="col4" colnum="4" colwidth="1.25*"></colspec>
+<thead>
+<row>
+<entry colname="col1" morerows="1" align="center" valign="middle">
+<para>Описание </para>
+</entry>
+<entry namest="col2" nameend="col4">
+<para>Режим работы индикации</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>Зеленый</para>
+</entry>
+<entry colname="col3">
+<para>Оранжевый</para>
+</entry>
+<entry colname="col4">
+<para>Красный</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left" valign="middle">
+<para>Траверса не установлена на модуль и все четыре замка находятся в открытом положении</para>
+</entry>
+<entry colname="col2" align="center" valign="middle">
+<para>―</para>
+</entry>
+<entry colname="col3" align="center" valign="middle">
+<para>Мигает</para>
+</entry>
+<entry colname="col4" align="center" valign="middle">
+<para>―</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="middle">
+<para>Траверса установлена не на все  такелажные элементы модуля</para>
+</entry>
+<entry colname="col2" align="center" valign="middle">
+<para>―</para>
+</entry>
+<entry colname="col3" align="center" valign="middle">
+<para>Горит</para>
+</entry>
+<entry colname="col4" align="center" valign="middle">
+<para>―</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="middle">
+<para>Траверса установлена на все  такелажные элементы модуля и  все четыре замка находятся в открытом положении</para>
+</entry>
+<entry colname="col2" align="center" valign="middle">
+<para>―</para>
+</entry>
+<entry colname="col3" align="center" valign="middle">
+<para>―</para>
+</entry>
+<entry colname="col4" align="center" valign="middle">
+<para>Горит</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="middle">
+<para>Траверса установлена на все  такелажные элементы модуля, все четыре замка из открытого положения переходят в закрытое положение по сигналу планшета</para>
+</entry>
+<entry colname="col2" align="center" valign="middle">
+<para>Мигает</para>
+</entry>
+<entry colname="col3" align="center" valign="middle">
+<para>―</para>
+</entry>
+<entry colname="col4" align="center" valign="middle">
+<para>―</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="middle">
+<para>Траверса установлена на все  такелажные элементы модуля и  все четыре замка находятся в закрытом положении</para>
+</entry>
+<entry colname="col2" align="center" valign="middle">
+<para>Горит</para>
+</entry>
+<entry colname="col3" align="center" valign="middle">
+<para>―</para>
+</entry>
+<entry colname="col4" align="center" valign="middle">
+<para>―</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="middle">
+<para>Траверса установлена на все  такелажные элементы модуля, все четыре замка из закрытого положения переходят в открытое положение по сигналу планшета</para>
+</entry>
+<entry colname="col2" align="center" valign="middle">
+<para>―</para>
+</entry>
+<entry colname="col3" align="center" valign="middle">
+<para>―</para>
+</entry>
+<entry colname="col4" align="center" valign="middle">
+<para>Мигает</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left" valign="middle">
+<para>Во время работы Траверсы нажата кнопка аварийной остановки </para>
+</entry>
+<entry colname="col2" align="center" valign="middle">
+<para>―</para>
+</entry>
+<entry colname="col3" align="center" valign="middle">
+<para>Мигает</para>
+</entry>
+<entry colname="col4" align="center" valign="middle">
+<para>Горит</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</description>
+</content>
+</dmodule>

@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "WARNING" ":" " ";
+}
+.cautiontitle:before {
+  content: "CAUTION" ":" " ";
+}
+.dangertitle:before {
+  content: "危険" ":" " ";
+}
+.notetitle:before {
+  content: "注記" ":" " ";
+}
+.notestitle:before {
+  content: "注記" ":" " ";
+}
+.tiptitle:before {
+  content: "ヒント" ":" " ";
+}
+.fastpathtitle:before {
+  content: "ファストパス" ":" " ";
+}
+.importanttitle:before {
+  content: "重要" ":" " ";
+}
+.attentiontitle:before {
+  content: "注意" ":" " ";
+}
+.remembertitle:before {
+  content: "記憶" ":" " ";
+}
+.restrictiontitle:before {
+  content: "制限" ":" " ";
+}
+.noticetitle:before {
+  content: "注記" ":" " ";
+}
+.troubletitle:before {
+  content: "トラブル" ":" " ";
+}
+/*
+    tcsp_workcard.less
+*/
+[data-class~="taskreq-d/reqconds"]:before {
+  content: "必要な条件";
+}
+[data-class~="taskreq-d/reqpers"]:before {
+  content: "必要なパーソン";
+}
+[data-class~="taskreq-d/supequip"]:before {
+  content: "サポート装置";
+}
+[data-class~="taskreq-d/supplies"]:before {
+  content: "消耗品、材料および消耗部品";
+}
+[data-class~="taskreq-d/spares"]:before {
+  content: "スペア";
+}
+[data-class~="taskreq-d/safety"]:before {
+  content: "安全条件";
+}
+[data-class~="task/prereq"]:before {
+  content: "予備要件";
+}
+[data-class~="task/postreq"]:before {
+  content: "ジョブ完了後の要件";
+}
+[data-class~="task/steps"]:before {
+  content: "プロシージャ";
+}
+[data-class~="topic/related-links"]:before {
+  content: "参照";
+}
+[data-class~="taskreq-d/nosupeq"]:before,
+[data-class~="taskreq-d/nosupply"]:before,
+[data-class~="taskreq-d/nospares"]:before,
+[data-class~="taskreq-d/nosafety"]:before,
+[data-class~="taskreq-d/noconds"]:before {
+  content: "なし";
+}
+[data-outputclass~="section-frequency"]:before {
+  content: "頻度";
+}
+[data-outputclass~="section-category"]:before {
+  content: "カテゴリ";
+}
+[data-outputclass~="section-reqpers"]:before {
+  content: "必要なパーソン";
+}

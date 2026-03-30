@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.skin-modal-title .default-title {
+  display: none;
+}
+.skin-modal-title .warning-title:before {
+  content: "AVVISO";
+}
+.skin-modal-title .caution-title:before {
+  content: "ATTENZIONE";
+}
+.skin-modal-title .danger-title:before {
+  content: "PERICOLO";
+}
+.skin-modal-title .note-title:before {
+  content: "NOTA";
+}
+.skin-modal-title .notes-title:before {
+  content: "NOTE";
+}
+.skin-modal-title .tip-title:before {
+  content: "PUNTA";
+}
+.skin-modal-title .fastpath-title:before {
+  content: "PERCORSO RAPIDO";
+}
+.skin-modal-title .important-title:before {
+  content: "IMPORTANTE";
+}
+.skin-modal-title .attention-title:before {
+  content: "ATTENZIONE";
+}
+.skin-modal-title .remember-title:before {
+  content: "RICORDA";
+}
+.skin-modal-title .restriction-title:before {
+  content: "RESTRIZIONE";
+}
+.skin-modal-title .notice-title:before {
+  content: "AVVISO";
+}
+.skin-modal-title .trouble-title:before {
+  content: "PROBLEMA";
+}

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-E10000-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPA-A-E10000-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-E10000-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-E10000-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="E1" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="028" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Система связи</techName>
+<infoName>Общие сведения</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Назначение</title>
+<para>Система связи предназначена для преобразования ВЧ-сигналов в радиоволны частот сотового и WI-FI диапозона, а также визуализация режима работы траверсы с помощью модульной внешней индикации.
+				</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>В состав системы связи входят:<randomList>
+<listItem>
+<para>антенна Wi-Fi (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="02" subSubSystemCode="0" subSystemCode="6" systemCode="E1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>антенна LTE с GNSS (1 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="03" subSubSystemCode="0" subSystemCode="6" systemCode="E1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>модуль внешней индикации (4 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="01" subSubSystemCode="0" subSystemCode="8" systemCode="E1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<figure id="fig-001">
+<title>Система связи</title>
+<graphic infoEntityIdent="ICN-MTPA-A-E10000-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPA-A-E10000-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_006" applicationStructureName="МОДУЛЬ ВНЕШНЕЙ ИНДИКАЦИИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_008" applicationStructureName="МОДУЛЬ ВНЕШНЕЙ ИНДИКАЦИИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_009" applicationStructureName="МОДУЛЬ ВНЕШНЕЙ ИНДИКАЦИИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_010" applicationStructureName="МОДУЛЬ ВНЕШНЕЙ ИНДИКАЦИИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_007" applicationStructureName=" АНТЕННА  LTE C GNSS"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_011" applicationStructureName=" АНТЕННА  WI-FI"></hotspot>
+</graphic>
+</figure>
+<levelledPara>
+<title>Работа</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>При работе с планшетом сигналы управления преобразуются в радиосигналы, которые поступают на антенну. С антенны высокочастотные (ВЧ) сигналы передаются по тракту на центральный распределительный шкаф, где они конвертируются в цифровой сигнал и направляются на процессорный модуль PLC. Далее, согласно заданной программе, сигналы от ПМ PLC передаются через шину ETHERNET на каждый IO-link коммутатор. Через эти коммутаторы осуществляется управление внешними модулями индикации.</para>
+</levelledPara>
+<figure id="fig-002">
+<title>Функциональная схема системы связи</title>
+<graphic infoEntityIdent="ICN-MTPA-A-E10000-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-E10000-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm"></graphic>
+</figure>
+</description>
+</content>
+</dmodule>

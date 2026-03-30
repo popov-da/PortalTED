@@ -1,0 +1,1000 @@
+@charset "utf-8";
+/*
+    s1000d_4_1.less
+*/
+.identAndStatusSection .issueInfo[data-issuenumber]:before {
+  content: "Emissione" ": ";
+}
+.identAndStatusSection .language[data-languageisocode]:before {
+  content: "Lingua" ": ";
+}
+.identAndStatusSection .issueDate[data-day]:before {
+  content: "Data" ": ";
+}
+.issueInfo[data-issuenumber]:after {
+  content: attr(data-issuenumber) "-" attr(data-inwork);
+}
+.language[data-languageisocode]:after {
+  content: attr(data-languageisocode) "-" attr(data-countryisocode);
+}
+.issueDate[data-day]:after {
+  content: attr(data-day) "-" attr(data-month) "-" attr(data-year);
+}
+.firstVerification:after {
+  content: attr(data-verificationType);
+}
+.skillLevel[data-skillLevelCode]:after {
+  content: attr(data-skillLevelCode);
+}
+.dataRestrictions:before {
+  content: "Restrizioni dati" ":";
+}
+.dataDistribution:before {
+  content: "Distribuzione";
+}
+.exportControl:before {
+  content: "Controllo esportazioni";
+}
+.dataHandling:before {
+  content: "Gestione";
+}
+.dataDestruction:before {
+  content: "Distruzione";
+}
+.dataDisclosure:before {
+  content: "Divulgazione";
+}
+.copyright:before {
+  content: "Copyright";
+}
+.dmRefAddressItems .infoName:before {
+  content: " - ";
+}
+.dmRefAddressItems .infoNameVariant:before {
+  content: ", ";
+}
+.identNumber:before {
+  content: "";
+}
+.partAndSerialNumber:before {
+  content: "/";
+}
+.natoStockNumber:before {
+  content: "NSN" " ";
+}
+.serialNumber:before {
+  content: "N. di serie" " ";
+}
+.customerStockNumber:before {
+  content: "N. stock" " ";
+}
+.zoneRef:before {
+  content: "Zona" " ";
+}
+.accessPointRef:before,
+.accessPointRef[data-accessPointTypeValue="accpnl01"]:before {
+  content: "Sportello" " ";
+}
+.accessPointRef[data-accessPointTypeValue="accpnl02"]:before {
+  content: "Pannello" " ";
+}
+.accessPointRef[data-accessPointTypeValue="accpnl03"]:before {
+  content: "Quadro elettrico" " ";
+}
+.multimediaObject:before,
+.graphic:before {
+  content: "Fig" " " counter(figure) " ";
+}
+.assessmentQuestion .graphic:before {
+  content: "Fig" " " attr(data-figure) " ";
+}
+.graphic[data-sheets]:after {
+  content: " (" "Foglio" " " counter(sheet) " " "di" " " attr(data-sheets) ")";
+}
+.multimediaObject[data-sheets]:after {
+  content: " (" "Elementi multimediali" " " counter(sheet) " " "di" " " attr(data-sheets) ")";
+}
+.internalRef.irtt01:before {
+  content: "Fig" " " attr(data-figure);
+}
+.internalRef.irtt02:before {
+  content: "Tabella" " " attr(data-index);
+}
+.internalRef.irtt03:before {
+  content: "Fig" " " attr(data-figure);
+}
+.internalRef.irtt07:before {
+  content: "Paragr." " " attr(data-index);
+}
+.internalRef.irtt08:before {
+  content: "Step" " " attr(data-index);
+}
+.internalRef.irtt09:before {
+  content: "Fig" " " attr(data-figure) ", " "Foglio" " " attr(data-sheet);
+}
+.internalRef.irtt10:before {
+  content: "Fig" " " attr(data-figure) ", " attr(data-multimediaType);
+}
+.internalRef.irtt11:before {
+  content: "Fig" " " attr(data-figure) " [" attr(data-referredFragment) "]";
+}
+.internalRef.irtt13[data-zoneNumber]:before {
+  content: "Zona" " " attr(data-zoneNumber);
+}
+.internalRef.irtt16[data-accessPointNumber]:before {
+  content: attr(data-accessPointNumber);
+}
+.internalRef.irtt16.accpnl01[data-accessPointNumber]:before {
+  content: "Sportello di accesso" " " attr(data-accessPointNumber);
+}
+.internalRef.irtt16.accpnl02[data-accessPointNumber]:before {
+  content: "Pannello di accesso" " " attr(data-accessPointNumber);
+}
+.internalRef.irtt16.accpnl03[data-accessPointNumber]:before {
+  content: "Accesso al quadro elettrico" " " attr(data-accessPointNumber);
+}
+.yesAnswerStart:before {
+  content: "Sì";
+}
+.noAnswerStart:before {
+  content: "No";
+}
+.choiceLink:before,
+.yesAnswerLink:before,
+.noAnswerLink:before {
+  content: "Vai allo step" " " attr(data-index);
+}
+.isolationProcedureEnd:after {
+  content: 'Vai a Requisiti al termine del processo.';
+}
+#app-figure-title.multimediaObject:before,
+#app-figure-title.internalRef.irtt01:before,
+#app-figure-title.internalRef.irtt03:before,
+#app-figure-title.internalRef.irtt09:before,
+#app-figure-title.internalRef.irtt10:before,
+#app-figure-title.internalRef.irtt11:before,
+#app-figure-title.internalRef.irtt12:before,
+#app-figure-title.graphic:before {
+  content: "Fig" " " attr(data-index) " ";
+}
+#app-figure-title.graphic[data-subindexes]:after {
+  content: " (" "Foglio" " " attr(data-subindex) " " "di" " " attr(data-subindexes) ")";
+}
+#app-figure-title.multimediaObject[data-subindexes]:after {
+  content: " (" "Elementi multimediali" " " attr(data-subindex) " " "di" " " attr(data-subindexes) ")";
+}
+#app-figure-title.graphic[data-subindexes='']:after,
+#app-figure-title.multimediaObject[data-subindexes='']:after {
+  content: none;
+}
+.personnel .numRequired[data-value]:before {
+  content: attr(data-value) " " "persone";
+}
+.personnel .numRequired[data-value='1']:before {
+  content: attr(data-value) " " "persona";
+}
+.personnel .numRequired[data-value='0']:before,
+.personnel .numRequired[data-value='']:before {
+  content: "Come da richiesta";
+}
+.taskDuration:before {
+  content: "Durata attività di manutenzione";
+}
+.taskDuration:after {
+  content: "Requisiti preliminari" " " attr(data-startupDuration) " " attr(data-unitOfMeasure) "\000a" "Procedura" " " attr(data-procedureDuration) " " attr(data-unitOfMeasure) "\000a" "Requisiti al termine del processo" " " attr(data-closeupDuration) " " attr(data-unitOfMeasure);
+}
+.externalPubCode:before {
+  content: attr(data-pubCodingScheme);
+}
+.externalPubIssueInfo:before {
+  content: "Edizione:" " ";
+}
+/* Centerhead2 titles */
+.mainProcedure:before {
+  content: "Procedura";
+}
+.content > .description:before {
+  content: "Descrizione";
+}
+.maintPlanning:before {
+  content: "Schedulazione";
+}
+.isolationMainProcedure:before {
+  content: "Procedura di isolamento errore";
+}
+.descrCrew:before {
+  content: "Contenuto equipaggio/operatore";
+}
+.commonRepository:before {
+  content: "Repository di informazioni comuni";
+}
+.faultReporting:before {
+  content: "Segnalazione errore";
+}
+.detectionInfo:before {
+  content: "Rilevamento errore";
+}
+.content > .refs:before {
+  content: "Riferimenti";
+}
+.preliminaryRqmts:before {
+  content: "Requisiti preliminari";
+}
+.closeRqmts:before {
+  content: "Requisiti al termine del processo";
+}
+/* sidehead0 titles */
+.cautionRepository:before {
+  content: "Repository di avvertimenti";
+}
+.toolRepository:before {
+  content: "Repository strumenti";
+}
+.controlIndicatorRepository:before {
+  content: "Controlli e indicatori";
+}
+.functionalPhysicalAreaRepository:before {
+  content: "Repository aree funzionali e/o fisiche";
+}
+.warningRepository:before {
+  content: "Repository avvisi";
+}
+.zoneRepository:before {
+  content: "Repository zone";
+}
+.partRepository:before {
+  content: "Repository parti";
+}
+.functionalItemRepository:before {
+  content: "Repository item funzionali";
+}
+/* Warning, Caution, Note */
+.warning:before {
+  content: "Avviso";
+}
+.caution:before {
+  content: "ATTENZIONE";
+}
+.note:before {
+  content: "Nota";
+}
+/* Sidehead0 titles */
+.productionMaintData:before {
+  content: "Dati di gestione produzione";
+}
+.reqCondGroup:before {
+  content: "Condizioni richieste";
+}
+.reqSupportEquips:before {
+  content: "Attrezzatura di supporto";
+}
+.reqSupplies:before {
+  content: "Materiali di consumo, materiali e beni consumabili";
+}
+.reqTechInfoGroup:before {
+  content: "Informazioni tecniche richieste";
+}
+.reqSpares:before {
+  content: "Ricambi";
+}
+.reqSafety:before {
+  content: "Condizioni di sicurezza";
+}
+.reqPersons:before {
+  content: "Persone richieste";
+}
+.workAreaLocationGroup:before {
+  content: "Posizione area di lavoro";
+}
+/* None keyword */
+.noSupportEquips:before,
+.noSupplies:before,
+.noSpares:before,
+.noSafety:before,
+.noConds:before {
+  content: "Nessuno";
+}
+/* Tables */
+.table-contents > .title:before {
+  content: "Tabella" " " counter(table) " ";
+}
+.content > .refs > .tabular:before {
+  content: "Tabella" " " counter(table) " " "Riferimenti";
+}
+.reqCondGroup > .tabular:before {
+  content: "Tabella" " " counter(table) " " "Condizioni richieste";
+}
+.reqPersons > .tabular:before {
+  content: "Tabella" " " counter(table) " " "Persone richieste";
+}
+.reqSupportEquips > .tabular:before {
+  content: "Tabella" " " counter(table) " " "Attrezzatura di supporto";
+}
+.reqSupplies > .tabular:before {
+  content: "Tabella" " " counter(table) " " "Materiali di consumo, materiali e beni consumabili";
+}
+.reqSpares > .tabular:before {
+  content: "Tabella" " " counter(table) " " "Ricambi";
+}
+.header > .name:before {
+  content: "Nome";
+}
+.header > .ident:before {
+  content: "Identificazione/Riferimento";
+}
+.header > .qty:before {
+  content: "Quantità";
+}
+.header > .remark:before {
+  content: "Osservazione";
+}
+.header > .condition:before {
+  content: "Azione/Condizione";
+}
+.header > .publication:before {
+  content: "Modulo dati/Pubblicazione tecnica";
+}
+.header > .title:before {
+  content: "Titolo";
+}
+.header > .person:before {
+  content: "Persona";
+}
+.header > .category:before {
+  content: "Categoria";
+}
+.header > .skill:before {
+  content: "Livello di competenza";
+}
+.header > .trade:before {
+  content: "Settore/Codice settore";
+}
+.header > .time:before {
+  content: "Tempo stimato";
+}
+.dmodule:after {
+  content: "Fine del modulo dati";
+}
+.dmStatus .security[data-securityClassification]:before {
+  content: "Classe sicurezza" " " attr(data-securityClassification);
+}
+.dmStatus .security[data-securityClassification="01"]:before {
+  content: "NON CLASSIFICATO";
+}
+.dmStatus .security[data-securityClassification="02"]:before {
+  content: "LIMITATO";
+}
+.dmStatus .security[data-securityClassification="03"]:before {
+  content: "RISERVATO";
+}
+.dmStatus .security[data-securityClassification="04"]:before {
+  content: "SEGRETO";
+}
+.dmStatus .security[data-securityClassification="05"]:before {
+  content: "TOP SECRET";
+}
+.dmStatus .responsiblePartnerCompany:before {
+  content: "Azienda partner responsabile" ": " attr(data-enterpriseCode) " / ";
+}
+.dmStatus .originator:before {
+  content: "Mittente" ": " attr(data-enterpriseCode) " / ";
+}
+.applicCrossRefTableRef:before {
+  content: "Modulo dati ACT" ": ";
+}
+.dmStatus > .applic:before {
+  content: "Applicabilità" ": ";
+}
+.techStandard:before {
+  content: "Standard tecnico" ":";
+}
+.brexDmRef:before {
+  content: "Modulo dati BREX" ": ";
+}
+.unverified:before {
+  content: "Non verificato";
+}
+.firstVerification:before {
+  content: "Prima verifica" ": ";
+}
+.secondVerification:before {
+  content: "Seconda verifica" ": ";
+}
+.systemBreakdownCode:before {
+  content: "Codice suddivisione sistema" ": ";
+}
+.reasonForUpdate:before {
+  content: "Motivo dell'aggiornamento" ": ";
+}
+.skillLevel:before {
+  content: "Livello di competenza" ": ";
+}
+.personSkill .skillLevel:before {
+  content: "";
+}
+.skillLevel[data-skillLevelCode="sk01"]:after {
+  content: "Base";
+}
+.skillLevel[data-skillLevelCode="sk02"]:after {
+  content: "Intermedio";
+}
+.skillLevel[data-skillLevelCode="sk03"]:after {
+  content: "Avanzato";
+}
+.catalogSeqNumberRef:before {
+  content: "CSN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.catalogSeqNumberRef[data-systemCode]:before {
+  content: "CSN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.catalogSeqNumberRef[data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.catalogSeqNumberRef[data-systemCode][data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.learningPlan:before {
+  content: "Piano di apprendimento";
+}
+.learningOverview:before {
+  content: "Panoramica sull'apprendimento";
+}
+.learningContent:before {
+  content: "Contenuti formativi";
+}
+.learningSummary:before {
+  content: "Riepilogo della formazione";
+}
+.learningAssessment:before {
+  content: "Valutazione apprendimento";
+}
+.lcInstruction:before {
+  content: "Istruzioni relative alla formazione";
+}
+.lcProject:before {
+  content: "Progetto formativo";
+}
+.lcPerformanceAnalysis:before {
+  content: "Analisi dei risultati";
+}
+.lcCauseAnalysis:before {
+  content: "Analisi delle cause";
+}
+.lcInterventionDefinition:before {
+  content: "Definizione intervento";
+}
+.lcClient:before {
+  content: "Descrizione client";
+}
+.lcLearningPlan:before {
+  content: "Descrizione piano di apprendimento";
+}
+.lcCourseIdentNumber:before {
+  content: "Numero di identificazione corso";
+}
+.lcModificationDate:before {
+  content: "Data di modifica";
+}
+.lcDeliveryDate:before {
+  content: "Data di consegna";
+}
+.lcPlanSubject:before {
+  content: "Materia del piano di apprendimento";
+}
+.lcOrganizationalAnalysis:before {
+  content: "Analisi organizzativa";
+}
+.lcVisionStatement:before {
+  content: "Manifesto della visione aziendale";
+}
+.lcMissionStatement:before {
+  content: "Missione aziendale";
+}
+.lcValues:before {
+  content: "Limiti etici";
+}
+.lcGoalStatement:before {
+  content: "Dichiarazione di obiettivo";
+}
+.lcObjectiveStatement:before {
+  content: "Dichiarazione di obiettivo";
+}
+.lcGapAnalysis:before {
+  content: "Analisi lacune";
+}
+.lcGapItem:before {
+  content: "Item lacuna";
+}
+.lcDesiredPerformanceStatement:before {
+  content: "Risultati auspicati";
+}
+.lcActualPerformanceStatement:before {
+  content: "Risultati effettivi";
+}
+.lcPlanObjective:before {
+  content: "Obiettivo di piano";
+}
+.lcJtaItem:before {
+  content: "Item analisi attività processo";
+}
+.lcGapStatement:before {
+  content: "Dichiarazione di lacuna da colmare";
+}
+.lcOrganizationalEnvironmentAnalysis:before {
+  content: "Analisi dell'ambiente organizzativo";
+}
+.lcWorkEnvironmentAnalysis:before {
+  content: "Analisi dell'ambiente di lavoro";
+}
+.lcManagerialSupport:before {
+  content: "Supporto manageriale";
+}
+.lcPhysicalAspectsOfSite:before {
+  content: "Aspetti fisici del sito";
+}
+.lcSocialAspectsOfSite:before {
+  content: "Aspetti sociali del sito";
+}
+.lcSpecialFactors:before {
+  content: "Fattori speciali";
+}
+.lcPerformerAnalysis:before {
+  content: "Analisi dell’esecutore";
+}
+.lcJobTitle:before {
+  content: "Titolo professionale";
+}
+.lcJobCode:before {
+  content: "Codice processo";
+}
+.lcEducationLevel:before {
+  content: "Livello di istruzione";
+}
+.lcAge:before {
+  content: "Età";
+}
+.lcProfessionalBackground:before {
+  content: "Background professionale";
+}
+.lcKnowledge:before {
+  content: "Conoscenza";
+}
+.lcSkills:before {
+  content: "Competenze";
+}
+.lcAbilities:before {
+  content: "Abilità";
+}
+.lcAttitude:before {
+  content: "Approccio";
+}
+.lcEnvironmentalFactor:before {
+  content: "Fattore ambientale";
+}
+.lcData:before {
+  content: "Dati";
+}
+.lcResources:before {
+  content: "Risorse";
+}
+.lcIncentives:before {
+  content: "Incentivi";
+}
+.lcInternalFactor:before {
+  content: "Fattore interno";
+}
+.lcCapacity:before {
+  content: "Capacità";
+}
+.lcMotives:before {
+  content: "Motivazioni";
+}
+.lcNonTrainingInterventions:before {
+  content: "Interventi non di formazione";
+}
+.lcPerformanceSupport:before {
+  content: "Supporto dei risultati";
+}
+.lcJobDesign:before {
+  content: "Progettazione processo";
+}
+.lcPersonalDevelopment:before {
+  content: "Sviluppo personale";
+}
+.lcHumanResourceDevelopment:before {
+  content: "Sviluppo delle risorse umane";
+}
+.lcOrganizationalCommunication:before {
+  content: "Comunicazione organizzativa";
+}
+.lcOrganizationalDesign:before {
+  content: "Progettazione organizzativa";
+}
+.lcTrainingInterventions:before {
+  content: "Intervento formativo";
+}
+.lcTargetAudience:before {
+  content: "Destinatari";
+}
+.lcCurrentEntryBehaviors:before {
+  content: "Comportamenti voce corrente";
+}
+.lcAttitudeTowardContent:before {
+  content: "Approccio ai contenuti";
+}
+.lcLearningPreferences:before {
+  content: "Preferenze di apprendimento";
+}
+.lcPrerequisites:before {
+  content: "Prerequisiti";
+}
+.lcRequiredEntryBehaviors:before {
+  content: "Comportamenti voci obbligatorie";
+}
+.lcTrainingComponent:before {
+  content: "Componente di formazione";
+}
+.lcTrainingType:before {
+  content: "Tipo di formazione";
+}
+.lcLearningStrategy:before {
+  content: "Strategia di apprendimento";
+}
+.lcDuration:before {
+  content: "Durata";
+}
+.lcTime:before {
+  content: "Tempo";
+}
+.lcRequiredFinances:before {
+  content: "Fondi richiesti";
+}
+.lcRequiredPersonnel:before {
+  content: "Personale richiesto";
+}
+.lcRequiredFacilities:before {
+  content: "Strutture richieste";
+}
+.lcRequiredEquipment:before {
+  content: "Attrezzatura richiesta";
+}
+.lcLocalCultureConsiderations:before {
+  content: "Considerazioni sulla cultura locale";
+}
+.lcAssessmentStrategy:before {
+  content: "Strategia di valutazione";
+}
+.lcAssessmentComponent:before {
+  content: "Componente di valutazione";
+}
+.lcMasteryScoreCriteria:before {
+  content: "Criteri punteggio di padronanza";
+}
+.lcPerformanceRubric:before {
+  content: "Rubrica dei risultati";
+}
+.lcScoringMethod:before {
+  content: "Metodo assegnazione punteggio";
+}
+.lcMinimumPassThreshold:before {
+  content: "Soglia minima di superamento";
+}
+.lcTechnicalRqmts:before {
+  content: "Requisiti tecnici";
+}
+.lcBrowsers:before {
+  content: "Browser";
+}
+.lcLms:before {
+  content: "LMS";
+}
+.lcNonLmsEnvironment:before {
+  content: "Ambiente non LMS";
+}
+.lcPaperBasedMaterials:before {
+  content: "Materiali cartacei";
+}
+.lcClassroom:before {
+  content: "Aula";
+}
+.lcOjt:before {
+  content: "Formazione sul lavoro";
+}
+.lcAccessibility:before {
+  content: "Accessibilità";
+}
+.lcPlayers:before {
+  content: "Lettori multimediali";
+}
+.lcGraphicStandards:before {
+  content: "Standard grafici";
+}
+.lcViewers:before {
+  content: "Visualizzatori";
+}
+.lcResolution:before {
+  content: "Risoluzione";
+}
+.lcFileSizeLimitations:before {
+  content: "Limiti di dimensione file";
+}
+.lcDownloadTime:before {
+  content: "Tempo di download";
+}
+.lcSecurity:before {
+  content: "Sicurezza";
+}
+.lcLearningObjectives:before {
+  content: "Obiettivi di apprendimento";
+}
+.lcObjectiveItem:before {
+  content: "Item obiettivo";
+}
+.lcInterventionImplementation:before {
+  content: "Implementazione intervento";
+}
+.lcPerformanceEvaluation:before {
+  content: "Valutazione risultati";
+}
+.lcFormativeEvaluation:before {
+  content: "Valutazione formativa";
+}
+.lcSummativeEvaluation:before {
+  content: "Valutazione riepilogativa";
+}
+.lcImmediatePerformanceCompetence:before {
+  content: "Competenza risultato immediata";
+}
+.lcJobTransfer:before {
+  content: "Trasferimento processo";
+}
+.lcOrganizationalImpact:before {
+  content: "Impatto organizzativo";
+}
+.lcAudience:before {
+  content: "Destinatari";
+}
+.lcEntryBehavior:before {
+  content: "Comportamento voce";
+}
+.lcSection:before {
+  content: "Sezione";
+}
+.lcIntro:before {
+  content: "Introduzione";
+}
+.lcInteraction:before {
+  content: "Interazione";
+}
+.lcSummary:before {
+  content: "Riepilogo";
+}
+.lcQuestion:before {
+  content: "Domanda";
+}
+.lcCorrectResponse:before {
+  content: "Corretto" " ";
+}
+.lcCorrectResponse[lcValue]:before {
+  content: "Valore corretto" " " attr(lcValue);
+}
+.lcAnswerOption:before,
+.lcSequenceOption:before {
+  content: "Risposta";
+}
+.lcNonLmsItEnvironment:before {
+  content: "Ambiente non LMS";
+}
+.lcObjectiveItemGroup:before {
+  content: "Gruppo di item obiettivo";
+}
+.lcAnswerOption[id]:before,
+.lcSequenceOption[id]:before {
+  content: "Risposta" " [" attr(id) "]";
+}
+.lcFeedbackItem:before {
+  content: "Feedback";
+}
+.lcFeedbackItem[attemptMatch]:before {
+  content: "Feedback" " (" "tentativo" " " attr(attemptMatch) ")";
+}
+.lcAsset:before {
+  content: "Elemento";
+}
+.lcSequence:before {
+  content: "Ordine" " " attr(lcValue);
+}
+.lcReview:before {
+  content: "Revisiona";
+}
+.lcNextSteps:before {
+  content: "Step successivi";
+}
+:root {
+  --label-colonSymbol: ":";
+  --label-page: "Pagina";
+  --label-endOfDataModule: "Fine del modulo dati";
+  --label-blankPageCenter: "Lasciato vuoto intenzionalmente";
+  --label-security-01: "NON CLASSIFICATO";
+  --label-security-02: "Limitato";
+  --label-security-03: "Riservato";
+  --label-security-04: "Segreto";
+  --label-security-05: "Top Secret";
+  --label-security-default: "Classe sicurezza";
+  --label-HF-applic: "Applicabile a";
+  --label-applic-all: "Tutto";
+  --label-IPD-infoname: "Dati di parti illustrati";
+  --label-TOC: "Sommario";
+  --label-LOF: "Elenco delle figure";
+  --label-LOT: "Elenco delle tabelle";
+  --label-references: "Riferimenti";
+  --label-commonInfo: "Informazioni comuni";
+  --label-thresholdInterval: "Intervallo di soglia";
+  --label-preliminaryRqmts: "Requisiti preliminari";
+  --label-mainProcedure: "Procedura";
+  --label-closeRqmts: "Requisiti al termine del processo";
+  --label-description: "Descrizione";
+  --label-crewRefCard: "Scheda di riferimento equipaggio";
+  --label-reqCondGroup: "Condizioni richieste";
+  --label-reqPersons: "Persone richieste";
+  --label-reqTechInfoGroup: "Informazioni tecniche richieste";
+  --label-reqSupportEquips: "Attrezzatura di supporto";
+  --label-reqSupplies: "Materiali di consumo, materiali e beni consumabili";
+  --label-reqSpares: "Ricambi";
+  --label-faultCode: "Codice errore";
+  --label-faultCodes: "Codici errore";
+  --label-faultDescription: "Descrizione errore";
+  --label-possibleCauses: "Possibili cause";
+  --label-productCrossRefTable: "Tabella di riferimenti incrociati di prodotto";
+  --label-applicCrossRefTable: "Tabella di riferimenti incrociati di applicabilità";
+  --label-from: "da";
+  --label-of: "di";
+  --label-continued: "Prosegue";
+  --label-figure: "Fig";
+  --label-table: "Tabella";
+  --label-multimedia: "Fig";
+  --label-para: "Paragrafo";
+  --label-step: "Step";
+  --label-sheet: "Foglio";
+  --label-zone: "Zona";
+  --label-zones: "Zone";
+  --label-accessPoint: "Punto di accesso";
+  --label-accessPoints: "Punti di accesso";
+  --label-workLocation: "Posizione di lavoro";
+  --label-workLocations: "Ubicazioni di lavoro";
+  --label-partno: "N. parte";
+  --label-item: "Item";
+  --label-CSN: "CSN";
+  --label-CSNISN: "CSN/ISN";
+  --label-materialSet: "Imposta";
+  --label-legend: "Didascalia per la Fig";
+  --label-cbActionOpen: "Apri";
+  --label-cbActionClose: "Chiudi";
+  --label-header-cb-name: "Nome CB";
+  --label-header-cb: "CB";
+  --label-header-cb-location: "Ubicazione CB";
+  --label-remarks: "Osservazioni";
+  --label-action: "Azione";
+  --label-condition: "Condizione";
+  --label-data-module: "Modulo dati";
+  --label-technical-publication: "Pubblicazione tecnica";
+  --label-document-number: "Numero documento";
+  --label-title: "Titolo";
+  --label-category: "Categoria";
+  --label-person: "Persona";
+  --label-personCategory: "Categoria";
+  --label-personSkill: "Livello di competenza";
+  --label-trade: "Settore/Codice settore";
+  --label-estimatedTime: "Tempo stimato";
+  --label-persons: "persone";
+  --label-person-inline: "persona";
+  --label-as-required: "Come da richiesta";
+  --label-man: "Manuale";
+  --label-name: "Nome";
+  --label-identification: "Identificazione";
+  --label-reference: "Riferimento";
+  --label-quantity: "Quantità";
+  --label-accessPoint-accpnl01: "Sportello di accesso";
+  --label-accessPoint-accpnl02: "Pannello di accesso";
+  --label-accessPoint-accpnl03: "Accesso al quadro elettrico";
+  --label-thresholdInterval-th01: "Ore di volo";
+  --label-thresholdInterval-th02: "Cicli di volo";
+  --label-thresholdInterval-th03: "Mesi";
+  --label-thresholdInterval-th04: "Settimane";
+  --label-thresholdInterval-th05: "Anni";
+  --label-thresholdInterval-th06: "Giorni";
+  --label-thresholdInterval-th07: "Cicli supersonici";
+  --label-thresholdInterval-th08: "Cicli di pressione";
+  --label-thresholdInterval-th09: "Cicli del motore";
+  --label-thresholdInterval-th10: "Modifica motore";
+  --label-thresholdInterval-th11: "Visite officina";
+  --label-thresholdInterval-th12: "Modifica dell'unità di potenza ausiliaria";
+  --label-thresholdInterval-th13: "Modifica del carrello di atterraggio";
+  --label-thresholdInterval-th14: "Modifica ruota";
+  --label-thresholdInterval-th15: "Avvio motore";
+  --label-thresholdInterval-th16: "Ore unità di potenza ausiliaria";
+  --label-thresholdInterval-th17: "Ore motore";
+  --label-thresholdInterval-th18: "Ore trascorse";
+  --label-thresholdInterval-th19: "Atterraggi";
+  --label-thresholdInterval-th20: "Cicli operativi";
+  --label-thresholdInterval-th21: "Ore operative";
+  --label-thresholdInterval-th22: "Ore supersoniche";
+  --label-thresholdInterval-th23: "Controllo 'A'";
+  --label-thresholdInterval-th24: "Controllo 'B'";
+  --label-thresholdInterval-th25: "Controllo 'C'";
+  --label-thresholdInterval-th26: "Controllo 'D'";
+  --label-thresholdInterval-th27: "Diurno";
+  --label-thresholdInterval-th28: "Controllo 'E'";
+  --label-thresholdInterval-th29: "Notturno";
+  --label-thresholdInterval-th30: "Pre-volo";
+  --label-thresholdInterval-th31: "Controllo di routine";
+  --label-thresholdInterval-th32: "Controllo 'C' strutturale";
+  --label-thresholdInterval-th33: "Controllo di servizio";
+  --label-thresholdInterval-th34: "Transito";
+  --label-thresholdInterval-th35: "Chilometri";
+  --label-thresholdInterval-th36: "Consumo in metri cubi";
+  --label-thresholdInterval-th37: "Consumo in litri";
+  --label-thresholdInterval-th38: "Numero di colpi - ciascuno";
+  --label-thresholdInterval-th39: "Numero di colpi - equivalente carica completa (EFC)";
+  --label-installationLocationType-02: "Sezione";
+  --label-installationLocationType-03: "Stazione";
+  --label-installationLocationType-04: "Water line";
+  --label-installationLocationType-05: "Buttock line";
+  --label-productItemType-01: "Telaio";
+  --label-productItemType-02: "Nervatura";
+  --label-productItemType-03: "Longherone";
+  --label-reqTechInfoCategory-01: "Modulo di pubblicazione";
+  --label-reqTechInfoCategory-02: "Modulo dati";
+  --label-reqTechInfoCategory-03: "Disegno";
+  --label-reqTechInfoCategory-04: "Schema elettrico";
+  --label-reqTechInfoCategory-05: "Diagramma schematico";
+  --label-reqTechInfoCategory-06: "Scheda di sicurezza";
+  --label-skillLevelCode-01: "Base";
+  --label-skillLevelCode-02: "Intermedio";
+  --label-skillLevelCode-03: "Avanzato";
+  --label-learningAssessment: "Valutazione apprendimento";
+  --label-learningSummary: "Riepilogo della formazione";
+  --label-learningContent: "Contenuti formativi";
+  --label-learningOverview: "Panoramica sull'apprendimento";
+  --label-questions: "Domande";
+  --label-avehcfg: "Condizioni di base richieste";
+  --label-avehcfg-status-yes: "Richiesto";
+  --label-avehcfg-status-no: "Proibito";
+  --label-avehcfg-status-indiffer: "Indifferente";
+  --label-avehcfg-status-na: "Non applicabile";
+  --label-avehcfg-power-engine: "Motore";
+  --label-avehcfg-power-apu: "APU";
+  --label-avehcfg-power-external: "Esterno";
+  --label-avehcfg-power-internal: "Interno";
+  --label-avehcfg-power-indifferent: "Indifferente";
+  --label-avehcfg-power-notapplic: "Non applicabile";
+  --label-avehcfg-status: "Stato";
+  --label-avehcfg-power: "Fonte di alimentazione";
+  --label-avehcfg-jacked: "Prodotto sollevato";
+  --label-avehcfg-safedev: "Dispositivi di protezione installati";
+  --label-avehcfg-elecpwr: "Energia elettrica";
+  --label-avehcfg-hydpwr: "Energia idraulica";
+  --label-avehcfg-airpwr: "Energia pneumatica";
+  --label-avehcfg-fuel: "Rifornimento";
+  --label-avehcfg-water: "Acqua";
+  --label-avehcfg-fcposn: "Pos. EFCS specifica";
+  --label-issueNo: "Problema nr.";
+  --label-publisher: "Editore";
+  --label-manufacturer: "Produttore";
+  --label-documentTitle: "Titolo documento";
+  --label-dataModuleCode: "Codice del modulo dati";
+  --label-issueDate: "Data di emissione";
+  --label-noOfPages: "Numero di pagine";
+  --label-fm-applic: "Applicabile a";
+  --label-loedm-generate-row1-part1: "I documenti elencati sono inclusi nella segnalazione ";
+  --label-loedm-generate-row1-part2: ", con data ";
+  --label-loedm-generate-row1-part3: ", di questa pubblicazione.";
+  --label-loedm-generate-row2: "C = Modulo dati modificato";
+  --label-loedm-generate-row3: "N = Modulo dati nuovo";
+  --label-reason-for-update: "Motivo dell'aggiornamento";
+  --label-updating-instruction: "Aggiornamento istruzione";
+  --label-high-table: "Moduli dati da rimuovere o inserire";
+  --label-high-generate-row1: "Rimuovere o inserire i moduli dati elencati alla Tabella 1.";
+  --label-high-generate-row2: "I = Inserisci modulo dati";
+  --label-high-generate-row3: "R = Rimuovi modulo dati";
+}

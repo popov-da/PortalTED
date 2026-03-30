@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "警告" ":" " ";
+}
+.cautiontitle:before {
+  content: "警示" ":" " ";
+}
+.dangertitle:before {
+  content: "危险" ":" " ";
+}
+.notetitle:before {
+  content: "注释" ":" " ";
+}
+.notestitle:before {
+  content: "注释" ":" " ";
+}
+.tiptitle:before {
+  content: "提示" ":" " ";
+}
+.fastpathtitle:before {
+  content: "窍门" ":" " ";
+}
+.importanttitle:before {
+  content: "重点" ":" " ";
+}
+.attentiontitle:before {
+  content: "关注" ":" " ";
+}
+.remembertitle:before {
+  content: "记住" ":" " ";
+}
+.restrictiontitle:before {
+  content: "限制" ":" " ";
+}
+.noticetitle:before {
+  content: "留意" ":" " ";
+}
+.troubletitle:before {
+  content: "故障" ":" " ";
+}
+/*
+    tcsp_workcard.less
+*/
+[data-class~="taskreq-d/reqconds"]:before {
+  content: "所需条件";
+}
+[data-class~="taskreq-d/reqpers"]:before {
+  content: "所需人员";
+}
+[data-class~="taskreq-d/supequip"]:before {
+  content: "支持设备";
+}
+[data-class~="taskreq-d/supplies"]:before {
+  content: "耗用品、材料和消耗品";
+}
+[data-class~="taskreq-d/spares"]:before {
+  content: "备件";
+}
+[data-class~="taskreq-d/safety"]:before {
+  content: "安全条件";
+}
+[data-class~="task/prereq"]:before {
+  content: "初步要求";
+}
+[data-class~="task/postreq"]:before {
+  content: "作业完成后的要求";
+}
+[data-class~="task/steps"]:before {
+  content: "流程";
+}
+[data-class~="topic/related-links"]:before {
+  content: "参考";
+}
+[data-class~="taskreq-d/nosupeq"]:before,
+[data-class~="taskreq-d/nosupply"]:before,
+[data-class~="taskreq-d/nospares"]:before,
+[data-class~="taskreq-d/nosafety"]:before,
+[data-class~="taskreq-d/noconds"]:before {
+  content: "无";
+}
+[data-outputclass~="section-frequency"]:before {
+  content: "频率";
+}
+[data-outputclass~="section-category"]:before {
+  content: "类别";
+}
+[data-outputclass~="section-reqpers"]:before {
+  content: "所需人员";
+}

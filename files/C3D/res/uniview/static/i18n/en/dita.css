@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "WARNING" ":" " ";
+}
+.cautiontitle:before {
+  content: "CAUTION" ":" " ";
+}
+.dangertitle:before {
+  content: "DANGER" ":" " ";
+}
+.notetitle:before {
+  content: "Note" ":" " ";
+}
+.notestitle:before {
+  content: "Notes" ":" " ";
+}
+.tiptitle:before {
+  content: "Tip" ":" " ";
+}
+.fastpathtitle:before {
+  content: "Fastpath" ":" " ";
+}
+.importanttitle:before {
+  content: "Important" ":" " ";
+}
+.attentiontitle:before {
+  content: "Attention" ":" " ";
+}
+.remembertitle:before {
+  content: "Remember" ":" " ";
+}
+.restrictiontitle:before {
+  content: "Restriction" ":" " ";
+}
+.noticetitle:before {
+  content: "Notice" ":" " ";
+}
+.troubletitle:before {
+  content: "Trouble" ":" " ";
+}

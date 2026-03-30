@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.skin-modal-title .default-title {
+  display: none;
+}
+.skin-modal-title .warning-title:before {
+  content: "경고";
+}
+.skin-modal-title .caution-title:before {
+  content: "주의";
+}
+.skin-modal-title .danger-title:before {
+  content: "위험";
+}
+.skin-modal-title .note-title:before {
+  content: "메모";
+}
+.skin-modal-title .notes-title:before {
+  content: "메모";
+}
+.skin-modal-title .tip-title:before {
+  content: "팁";
+}
+.skin-modal-title .fastpath-title:before {
+  content: "단축 경로";
+}
+.skin-modal-title .important-title:before {
+  content: "중요";
+}
+.skin-modal-title .attention-title:before {
+  content: "주의";
+}
+.skin-modal-title .remember-title:before {
+  content: "기억";
+}
+.skin-modal-title .restriction-title:before {
+  content: "제한";
+}
+.skin-modal-title .notice-title:before {
+  content: "알림";
+}
+.skin-modal-title .trouble-title:before {
+  content: "고장";
+}

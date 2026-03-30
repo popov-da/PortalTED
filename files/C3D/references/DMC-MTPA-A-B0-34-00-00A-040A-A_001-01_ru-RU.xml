@@ -1,0 +1,179 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-B03400-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPA-A-B03400-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-B03400-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPA-A-B03400-0-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="B0" subSystemCode="3" subSubSystemCode="4" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Замок</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+				Замок предназначен для надежной фиксации такелажных элементов, установленных на модуле.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав траверсы входят четыре одинаковых замка, которые зеркально отражены
+относительно центра траверсы. В состав одного замка входят:<randomList>
+<listItem>
+<para>каркас замка (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кожух замка верхний (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кожух замка нижний (1 шт.);</para>
+</listItem>
+<listItem>
+<para>вилка (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кожух под видеокамеру (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кронштейн видеокамеры (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Замки установлены на торцах малых телескопов.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Замок представляет собой сборную конструкцию, состоящую из каркаса замка, верхнего и нижнего кожухов замка, кронштейна и кожуха под видеокамеру.</para>
+<para>Работу замка обеспечивают гидравлическая система и электрооборудование. Гидравлическая система <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="028" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef> обеспечивает перемещение вилки, электрооборудование <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="028" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef> —  выдает управляющий сигнал гидравлической системе, согласно показаниям датчиков <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+<levelledPara>
+<title>Каркас замка</title>
+<para>Каркас является основным силовым элементом замка. Представляет собой сборную конструкцию, состоящую из сварного каркаса, конуса в сборе и задней стенки.</para>
+<para>Сварной каркас предназначен для крепления замка к малому телескопу и размещения оборудования замка. Крепление каркаса осуществляется с помощью десяти болтов и гаек, приваренных к каркасу. В передней части корпуса сварного каркаса крепится гидроцилиндр перемещения вилки замка. В корпусе сварного каркаса установлены индуктивные датчики контроля открытого и закрытого положений вилки, а также индуктивный датчик контроля такелажного элемента модуля. К одной из боковых стенок каркаса приварен кронштейн установки электрооборудования замка, к другой — кронштейн установки дальномера.</para>
+<para>Конус в сборе предназначен для направления такелажного элемента модуля к вилке замка.  Устанавливается на сварной каркас с помощью семи болтов. В нижней части конуса устанавливается накладка, предназначенная для  обеспечения скольжения при направлении такелажного элемента к вилке замка.</para>
+<para>Задняя стенка предназначена для создания замкнутого контура и предотвращения попадания грязи и мусора в корпус замка. Устанавливается в торце сварного каркаса с помощью четырех болтов.</para>
+</levelledPara>
+<levelledPara>
+<title>Кожух замка верхний</title>
+<para>Кожух замка верхний предназначен для защиты оборудования замка от повреждений, влаги, грязи и мусора. Устанавливается на каркас замка и нижний кожух  с помощью пяти болтов и трех гаек, приваренных к нижнему кожуху замка. Форма кожуха обеспечивает установку и возможность обзора с земли модуля внешней индикации, предназначенного для визуального контроля работы замков.</para>
+</levelledPara>
+<levelledPara>
+<title>Кожух замка нижний</title>
+<para>Кожух замка нижний предназначен для защиты оборудования замка от повреждений, влаги, грязи и мусора. Устанавливается на каркас замка   с помощью четырех болтов.</para>
+</levelledPara>
+<levelledPara>
+<title>Вилка</title>
+<para>Вилка предназначена для фиксации такелажного элемента модуля внутри замка, представляет собой скобу Y-образной формы. Устанавливается на направляющие, расположенные внутри каркаса замка. На вилке с помощью двух винтов фиксируется кронштейн, предназначенный для крепления уха штока гидроцилиндра.</para>
+</levelledPara>
+<levelledPara>
+<title>Кожух под видеокамеру</title>
+<para>Кожух под видеокамеру предназначен для защиты оборудования от повреждений, влаги, грязи и мусора. Устанавливается на верхний кожух замка с помощью шести болтов и гаек, приваренных к верхнему кожуху замка.<emphasis></emphasis> Дополнительно кожух крепится к кронштейну видеокамеры с помощью двух болтов и гаек, приваренных к фитингу, и одного болта в торце кожуха видеокамеры.</para>
+</levelledPara>
+<levelledPara>
+<title>Кронштейн видеокамеры</title>
+<para>Кронштейн видеокамеры предназначен для крепления камеры и прожектора, а также для прокладки электропроводки. Представляет собой сварную конструкцию, состоящую из основания в виде плиты и балки квадратного  сечения. Кронштейн крепится к каркасу замка с помощью четырех болтов.</para>
+<para>На верхней поверхности кронштейна выполнены отверстия для точного позиционирования прожектора и камеры. Камера устанавливается на короб, состоящий из двух частей, обеспечивающих размещение электрического жгута внутри замкнутого пространства. Корпус короба присоединяется к кронштейну видеокамеры, крышка — фиксируется на камере.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Замок</title>
+<graphic infoEntityIdent="ICN-MTPA-A-B03400-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPA-A-B03400-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_016" applicationStructureName="КОНУС"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_028" applicationStructureName="МАЛЫЙ ТЕЛЕСКОП"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_009" applicationStructureName="КОЖУХ ПОД ВИДЕОКАМЕРУ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_010" applicationStructureName="КОРОБ ВИДЕОКАМЕРЫ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_012" applicationStructureName="КРОНШТЕЙН ВИДЕОКАМЕРЫ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_034" applicationStructureName="ДАТЧИК ОТКРЫТОГО ПОЛОЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_037" applicationStructureName="ДАТЧИК ОТКРЫТОГО ПОЛОЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_042" applicationStructureName="БОКОВАЯ НАПРАВЛЯЮЩАЯ ВИЛКИ "></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_045" applicationStructureName="БОКОВАЯ НАПРАВЛЯЮЩАЯ ВИЛКИ "></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_017" applicationStructureName="НАКЛАДКА КОНУСА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-011" applicationStructureIdent="AUTOID_019" applicationStructureName="ВИЛКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-012" applicationStructureIdent="AUTOID_021" applicationStructureName="ВИЛКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-013" applicationStructureIdent="AUTOID_024" applicationStructureName="КАРКАС ЗАМКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-014" applicationStructureIdent="AUTOID_023" applicationStructureName="ГИДРОЦИЛИНДР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-015" applicationStructureIdent="AUTOID_043" applicationStructureName="ДАТЧИК ЗАКРЫТОГО ПОЛОЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-016" applicationStructureIdent="AUTOID_044" applicationStructureName="ДАТЧИК КОНТРОЛЯ ТАКЕЛАЖНОГО ЭЛЕМЕНТА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-017" applicationStructureIdent="AUTOID_026" applicationStructureName="ВЕРХНИЙ КОЖУХ ЗАМКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-018" applicationStructureIdent="AUTOID_027" applicationStructureName="МОДУЛЬ ВНЕШНЕЙ ИНДИКАЦИИ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-019" applicationStructureIdent="AUTOID_032" applicationStructureName="НИЖНИЙ КОЖУХ ЗАМКА"></hotspot>
+</graphic>
+<graphic infoEntityIdent="ICN-MTPA-A-B03400-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPA-A-B03400-0-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-002">
+<hotspot id="fig-001-gra-002-hot-001" applicationStructureIdent="AUTOID_011" applicationStructureName="СВАРНОЙ КАРКАС"></hotspot>
+<hotspot id="fig-001-gra-002-hot-002" applicationStructureIdent="AUTOID_046" applicationStructureName="КРОНШТЕЙН УСТАНОВКИ ЭЛЕКТРООБОРУДОВАНИЯ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-003" applicationStructureIdent="AUTOID_013" applicationStructureName="КОНУС"></hotspot>
+<hotspot id="fig-001-gra-002-hot-004" applicationStructureIdent="AUTOID_022" applicationStructureName="ЗАДНЯЯ СТЕНКА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-005" applicationStructureIdent="AUTOID_040" applicationStructureName="БОКОВАЯ НАПРАВЛЯЮЩАЯ ВИЛКИ "></hotspot>
+<hotspot id="fig-001-gra-002-hot-006" applicationStructureIdent="AUTOID_041" applicationStructureName="НИЖНЯЯ НАПРАВЛЯЮЩАЯ ВИЛКИ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-007" applicationStructureIdent="AUTOID_039" applicationStructureName="КРОНШТЕЙН ДАЛЬНОМЕРА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-008" applicationStructureIdent="AUTOID_018" applicationStructureName="НАКЛАДКА КОНУСА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-009" applicationStructureIdent="AUTOID_029" applicationStructureName="ГИДРОЦИЛИНДР"></hotspot>
+<hotspot id="fig-001-gra-002-hot-010" applicationStructureIdent="AUTOID_036" applicationStructureName="ДАТЧИК ЗАКРЫТОГО ПОЛОЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-011" applicationStructureIdent="AUTOID_051" applicationStructureName="ДАТЧИК ОТКРЫТОГО ПОЛОЖЕНИЯ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-012" applicationStructureIdent="AUTOID_049" applicationStructureName="ДАТЧИК КОНТРОЛЯ ТАКЕЛАЖНОГО ЭЛЕМЕНТА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-013" applicationStructureIdent="AUTOID_035" applicationStructureName="КРОНШТЕЙН ВИДЕОКАМЕРЫ"></hotspot>
+<hotspot id="fig-001-gra-002-hot-014" applicationStructureIdent="AUTOID_030" applicationStructureName="ВИЛКА"></hotspot>
+<hotspot id="fig-001-gra-002-hot-015" applicationStructureIdent="AUTOID_025" applicationStructureName="МАЛЫЙ ТЕЛЕСКОП"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

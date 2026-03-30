@@ -1,0 +1,602 @@
+@charset "utf-8";
+/*
+    s1000d_4_0.less
+*/
+.identAndStatusSection .issueInfo[data-issuenumber]:before {
+  content: "发行" ": ";
+}
+.identAndStatusSection .language[data-languageisocode]:before {
+  content: "语言" ": ";
+}
+.identAndStatusSection .issueDate[data-day]:before {
+  content: "日期" ": ";
+}
+.issueInfo[data-issuenumber]:after {
+  content: attr(data-issuenumber) "-" attr(data-inwork);
+}
+.language[data-languageisocode]:after {
+  content: attr(data-languageisocode) "-" attr(data-countryisocode);
+}
+.issueDate[data-day]:after {
+  content: attr(data-day) "-" attr(data-month) "-" attr(data-year);
+}
+.firstVerification:after {
+  content: attr(data-verificationType);
+}
+.skillLevel[data-skillLevelCode]:after {
+  content: attr(data-skillLevelCode);
+}
+.dataRestrictions:before {
+  content: "数据限制" ":";
+}
+.dataDistribution:before {
+  content: "发行版";
+}
+.exportControl:before {
+  content: "导出控制";
+}
+.dataHandling:before {
+  content: "处理";
+}
+.dataDestruction:before {
+  content: "破坏";
+}
+.dataDisclosure:before {
+  content: "披露";
+}
+.copyright:before {
+  content: "版权";
+}
+.dmRefAddressItems .infoName:before {
+  content: " - ";
+}
+.identNumber:before {
+  content: "";
+}
+.partAndSerialNumber:before {
+  content: "/";
+}
+.natoStockNumber:before {
+  content: "NSN" " ";
+}
+.serialNumber:before {
+  content: "序号" " ";
+}
+.customerStockNumber:before {
+  content: "物料编号" " ";
+}
+.zoneRef:before {
+  content: "区域" " ";
+}
+.accessPointRef:before,
+.accessPointRef[data-accessPointTypeValue="accpnl01"]:before {
+  content: "门" " ";
+}
+.accessPointRef[data-accessPointTypeValue="accpnl02"]:before {
+  content: "面板" " ";
+}
+.accessPointRef[data-accessPointTypeValue="accpnl03"]:before {
+  content: "电子面板" " ";
+}
+.multimediaObject:before,
+.graphic:before {
+  content: "图形" " " counter(figure) " ";
+}
+.graphic[data-sheets]:after {
+  content: " (" "工作表" " " counter(sheet) " " "/" " " attr(data-sheets) ")";
+}
+.multimediaObject[data-sheets]:after {
+  content: " (" "多媒体" " " counter(sheet) " " "/" " " attr(data-sheets) ")";
+}
+.internalRef.irtt01:before {
+  content: "图形" " " attr(data-figure);
+}
+.internalRef.irtt02:before {
+  content: "表" " " attr(data-index);
+}
+.internalRef.irtt03:before {
+  content: "图形" " " attr(data-figure);
+}
+.internalRef.irtt07:before {
+  content: "Para" " " attr(data-index);
+}
+.internalRef.irtt08:before {
+  content: "步骤" " " attr(data-index);
+}
+.internalRef.irtt09:before {
+  content: "图形" " " attr(data-figure) ", " "工作表" " " attr(data-sheet);
+}
+.internalRef.irtt10:before {
+  content: "图形" " " attr(data-figure) ", " attr(data-multimediaType);
+}
+.internalRef.irtt11:before {
+  content: "图形" " " attr(data-figure) " [" attr(data-referredFragment) "]";
+}
+.yesAnswerStart:before {
+  content: "是";
+}
+.noAnswerStart:before {
+  content: "编号";
+}
+.choiceLink:before,
+.yesAnswerLink:before,
+.noAnswerLink:before {
+  content: "转至步骤" " " attr(data-index);
+}
+.isolationProcedureEnd:after {
+  content: '转至作业完成后的要求。';
+}
+#app-figure-title.multimediaObject:before,
+#app-figure-title.internalRef.irtt01:before,
+#app-figure-title.internalRef.irtt03:before,
+#app-figure-title.internalRef.irtt09:before,
+#app-figure-title.internalRef.irtt10:before,
+#app-figure-title.internalRef.irtt11:before,
+#app-figure-title.internalRef.irtt12:before,
+#app-figure-title.graphic:before {
+  content: "图形" " " attr(data-index) " ";
+}
+#app-figure-title.graphic[data-subindexes]:after {
+  content: " (" "工作表" " " attr(data-subindex) " " "/" " " attr(data-subindexes) ")";
+}
+#app-figure-title.multimediaObject[data-subindexes]:after {
+  content: " (" "多媒体" " " attr(data-subindex) " " "/" " " attr(data-subindexes) ")";
+}
+#app-figure-title.graphic[data-subindexes='']:after,
+#app-figure-title.multimediaObject[data-subindexes='']:after {
+  content: none;
+}
+.personnel .numRequired[data-value]:before {
+  content: attr(data-value) " " "人员";
+}
+.personnel .numRequired[data-value='1']:before {
+  content: attr(data-value) " " "人员";
+}
+.personnel .numRequired[data-value='0']:before,
+.personnel .numRequired[data-value='']:before {
+  content: "根据需要";
+}
+.taskDuration:before {
+  content: "维护任务持续时间";
+}
+.taskDuration:after {
+  content: "初步要求" " " attr(data-startupDuration) " " attr(data-unitOfMeasure) "\000a" "流程" " " attr(data-procedureDuration) " " attr(data-unitOfMeasure) "\000a" "作业完成后的要求" " " attr(data-closeupDuration) " " attr(data-unitOfMeasure);
+}
+.externalPubCode:before {
+  content: attr(data-pubCodingScheme);
+}
+.externalPubIssueInfo:before {
+  content: "版本:" " ";
+}
+/* Centerhead2 titles */
+.mainProcedure:before {
+  content: "流程";
+}
+.content > .description:before {
+  content: "描述";
+}
+.maintPlanning:before {
+  content: "计划";
+}
+.isolationMainProcedure:before {
+  content: "故障隔离流程";
+}
+.descrCrew:before {
+  content: "人员/操作者内容";
+}
+.commonRepository:before {
+  content: "常规信息存储库";
+}
+.faultReporting:before {
+  content: "故障报告";
+}
+.detectionInfo:before {
+  content: "故障检测";
+}
+.content > .refs:before {
+  content: "参考";
+}
+.preliminaryRqmts:before {
+  content: "初步要求";
+}
+.closeRqmts:before {
+  content: "作业完成后的要求";
+}
+/* sidehead0 titles */
+.cautionRepository:before {
+  content: "警示存储库";
+}
+.toolRepository:before {
+  content: "工具存储库";
+}
+.controlIndicatorRepository:before {
+  content: "控件和指示器";
+}
+.functionalPhysicalAreaRepository:before {
+  content: "功能和/或物理区域存储库";
+}
+.warningRepository:before {
+  content: "警告存储库";
+}
+.zoneRepository:before {
+  content: "区域存储库";
+}
+.partRepository:before {
+  content: "零件存储库";
+}
+.functionalItemRepository:before {
+  content: "功能项存储库";
+}
+/* Warning, Caution, Note */
+.warning:before {
+  content: "警告";
+}
+.caution:before {
+  content: "警示";
+}
+.note:before {
+  content: "注意";
+}
+/* Sidehead0 titles */
+.productionMaintData:before {
+  content: "生产管理数据";
+}
+.reqCondGroup:before {
+  content: "所需条件";
+}
+.reqSupportEquips:before {
+  content: "支持设备";
+}
+.reqSupplies:before {
+  content: "耗用品、材料和消耗品";
+}
+.reqTechInfoGroup:before {
+  content: "所需技术信息";
+}
+.reqSpares:before {
+  content: "备件";
+}
+.reqSafety:before {
+  content: "安全条件";
+}
+.reqPersons:before {
+  content: "所需人员";
+}
+.workAreaLocationGroup:before {
+  content: "工作区域位置";
+}
+/* None keyword */
+.noSupportEquips:before,
+.noSupplies:before,
+.noSpares:before,
+.noSafety:before,
+.noConds:before {
+  content: "无";
+}
+/* Tables */
+.table-contents > .title:before {
+  content: "表" " " counter(table) " ";
+}
+.content > .refs > .tabular:before {
+  content: "表" " " counter(table) " " "参考";
+}
+.reqCondGroup > .tabular:before {
+  content: "表" " " counter(table) " " "所需条件";
+}
+.reqPersons > .tabular:before {
+  content: "表" " " counter(table) " " "所需人员";
+}
+.reqSupportEquips > .tabular:before {
+  content: "表" " " counter(table) " " "支持设备";
+}
+.reqSupplies > .tabular:before {
+  content: "表" " " counter(table) " " "耗用品、材料和消耗品";
+}
+.reqSpares > .tabular:before {
+  content: "表" " " counter(table) " " "备件";
+}
+.header > .name:before {
+  content: "名称";
+}
+.header > .ident:before {
+  content: "标识/参考";
+}
+.header > .qty:before {
+  content: "数量";
+}
+.header > .remark:before {
+  content: "备注";
+}
+.header > .condition:before {
+  content: "动作/条件";
+}
+.header > .publication:before {
+  content: "数据模块/技术出版物";
+}
+.header > .title:before {
+  content: "标题";
+}
+.header > .person:before {
+  content: "人员";
+}
+.header > .category:before {
+  content: "类别";
+}
+.header > .skill:before {
+  content: "技能等级";
+}
+.header > .trade:before {
+  content: "交易/交易代码";
+}
+.header > .time:before {
+  content: "估计时间";
+}
+.dmodule:after {
+  content: "数据模块结尾";
+}
+.dmStatus .security[data-securityClassification]:before {
+  content: "安全等级" " " attr(data-securityClassification);
+}
+.dmStatus .security[data-securityClassification="01"]:before {
+  content: "非涉密";
+}
+.dmStatus .security[data-securityClassification="02"]:before {
+  content: "限制";
+}
+.dmStatus .security[data-securityClassification="03"]:before {
+  content: "保密";
+}
+.dmStatus .security[data-securityClassification="04"]:before {
+  content: "机密";
+}
+.dmStatus .security[data-securityClassification="05"]:before {
+  content: "绝密";
+}
+.dmStatus .responsiblePartnerCompany:before {
+  content: "责任合作伙伴公司" ": " attr(data-enterpriseCode) " / ";
+}
+.dmStatus .originator:before {
+  content: "发起人" ": " attr(data-enterpriseCode) " / ";
+}
+.applicCrossRefTableRef:before {
+  content: "ACT 数据模块" ": ";
+}
+.dmStatus > .applic:before {
+  content: "适用性" ": ";
+}
+.techStandard:before {
+  content: "技术标准" ":";
+}
+.brexDmRef:before {
+  content: "BREX 数据模块" ": ";
+}
+.unverified:before {
+  content: "未验证";
+}
+.firstVerification:before {
+  content: "第一个验证" ": ";
+}
+.secondVerification:before {
+  content: "第二个验证" ": ";
+}
+.systemBreakdownCode:before {
+  content: "系统故障代码" ": ";
+}
+.reasonForUpdate:before {
+  content: "更新原因" ": ";
+}
+.skillLevel:before {
+  content: "技能等级" ": ";
+}
+.personSkill .skillLevel:before {
+  content: "";
+}
+.skillLevel[data-skillLevelCode="sk01"]:after {
+  content: "基础";
+}
+.skillLevel[data-skillLevelCode="sk02"]:after {
+  content: "中级";
+}
+.skillLevel[data-skillLevelCode="sk03"]:after {
+  content: "高级";
+}
+.catalogSeqNumberRef:before {
+  content: "CSN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.catalogSeqNumberRef[data-systemCode]:before {
+  content: "CSN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant);
+}
+.catalogSeqNumberRef[data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+.catalogSeqNumberRef[data-systemCode][data-itemSeqNumberValue]:before {
+  content: "CSN/ISN" " " attr(data-systemCode) "-" attr(data-subSystemCode) attr(data-subSubSystemCode) "-" attr(data-assyCode) "-" attr(data-figureNumber) attr(data-figureNumberVariant) "-" attr(data-item) attr(data-itemVariant) "/" attr(data-itemSeqNumberValue);
+}
+:root {
+  --label-colonSymbol: ":";
+  --label-page: "页面";
+  --label-endOfDataModule: "数据模块结尾";
+  --label-blankPageCenter: "有意留空";
+  --label-security-01: "非涉密";
+  --label-security-02: "限制";
+  --label-security-03: "保密";
+  --label-security-04: "机密";
+  --label-security-05: "绝密";
+  --label-security-default: "安全等级";
+  --label-HF-applic: "适用于";
+  --label-applic-all: "全部";
+  --label-IPD-infoname: "附图零件数据";
+  --label-TOC: "目录";
+  --label-LOF: "图列表";
+  --label-LOT: "表格列表";
+  --label-references: "参考";
+  --label-commonInfo: "常规信息";
+  --label-thresholdInterval: "阈值间隔";
+  --label-preliminaryRqmts: "初步要求";
+  --label-mainProcedure: "流程";
+  --label-closeRqmts: "作业完成后的要求";
+  --label-description: "描述";
+  --label-crewRefCard: "人员参考卡";
+  --label-reqCondGroup: "所需条件";
+  --label-reqPersons: "所需人员";
+  --label-reqTechInfoGroup: "所需技术信息";
+  --label-reqSupportEquips: "支持设备";
+  --label-reqSupplies: "耗用品、材料和消耗品";
+  --label-reqSpares: "备件";
+  --label-faultCode: "故障代码";
+  --label-faultCodes: "故障代码";
+  --label-faultDescription: "故障描述";
+  --label-possibleCauses: "可能的原因";
+  --label-productCrossRefTable: "产品交叉引用表";
+  --label-applicCrossRefTable: "适用性交叉索引表";
+  --label-from: "从";
+  --label-of: "/";
+  --label-continued: "继续";
+  --label-figure: "图形";
+  --label-table: "表";
+  --label-multimedia: "图形";
+  --label-para: "段落";
+  --label-step: "步骤";
+  --label-sheet: "工作表";
+  --label-zone: "区域";
+  --label-zones: "区域";
+  --label-accessPoint: "访问点";
+  --label-accessPoints: "访问点";
+  --label-workLocation: "工作位置";
+  --label-workLocations: "工作位置";
+  --label-partno: "零件号";
+  --label-item: "项";
+  --label-CSN: "CSN";
+  --label-CSNISN: "CSN/ISN";
+  --label-materialSet: "设置";
+  --label-legend: "图的图例";
+  --label-cbActionOpen: "打开";
+  --label-cbActionClose: "关闭";
+  --label-header-cb-name: "CB 名称";
+  --label-header-cb: "CB";
+  --label-header-cb-location: "CB 位置";
+  --label-remarks: "备注";
+  --label-action: "动作";
+  --label-condition: "条件";
+  --label-data-module: "数据模块";
+  --label-technical-publication: "技术出版物";
+  --label-document-number: "文档编号";
+  --label-title: "标题";
+  --label-category: "类别";
+  --label-person: "人员";
+  --label-personCategory: "类别";
+  --label-personSkill: "技能等级";
+  --label-trade: "交易/交易代码";
+  --label-estimatedTime: "估计时间";
+  --label-persons: "人员";
+  --label-person-inline: "人员";
+  --label-as-required: "根据需要";
+  --label-man: "人";
+  --label-name: "名称";
+  --label-identification: "标识";
+  --label-reference: "参考";
+  --label-quantity: "数量";
+  --label-accessPoint-accpnl01: "检修门";
+  --label-accessPoint-accpnl02: "检修板";
+  --label-accessPoint-accpnl03: "访问配电板";
+  --label-thresholdInterval-th01: "飞行小时";
+  --label-thresholdInterval-th02: "飞行循环";
+  --label-thresholdInterval-th03: "月";
+  --label-thresholdInterval-th04: "周";
+  --label-thresholdInterval-th05: "年";
+  --label-thresholdInterval-th06: "天";
+  --label-thresholdInterval-th07: "超音速循环";
+  --label-thresholdInterval-th08: "压力循环";
+  --label-thresholdInterval-th09: "引擎循环";
+  --label-thresholdInterval-th10: "引擎更换";
+  --label-thresholdInterval-th11: "进厂修理";
+  --label-thresholdInterval-th12: "辅助动力单元更换";
+  --label-thresholdInterval-th13: "起落架更换";
+  --label-thresholdInterval-th14: "轮胎更换";
+  --label-thresholdInterval-th15: "引擎启动";
+  --label-thresholdInterval-th16: "APU 小时";
+  --label-thresholdInterval-th17: "引擎小时";
+  --label-thresholdInterval-th18: "经过小时";
+  --label-thresholdInterval-th19: "降落";
+  --label-thresholdInterval-th20: "操作循环";
+  --label-thresholdInterval-th21: "操作小时";
+  --label-thresholdInterval-th22: "超音速小时";
+  --label-thresholdInterval-th23: "A 检";
+  --label-thresholdInterval-th24: "B 检";
+  --label-thresholdInterval-th25: "C 检";
+  --label-thresholdInterval-th26: "D 检";
+  --label-thresholdInterval-th27: "每天";
+  --label-thresholdInterval-th28: "E 检";
+  --label-thresholdInterval-th29: "通宵";
+  --label-thresholdInterval-th30: "起飞前";
+  --label-thresholdInterval-th31: "例行检查";
+  --label-thresholdInterval-th32: "结构 C 检";
+  --label-thresholdInterval-th33: "运行检查";
+  --label-thresholdInterval-th34: "转换";
+  --label-thresholdInterval-th35: "千米";
+  --label-thresholdInterval-th36: "消耗（以立方米计算）";
+  --label-thresholdInterval-th37: "消耗（以升计算）";
+  --label-thresholdInterval-th38: "子弹数量 - 每个";
+  --label-thresholdInterval-th39: "子弹数量 - 全装药当量 (EFC)";
+  --label-installationLocationType-02: "版块";
+  --label-installationLocationType-03: "站点";
+  --label-installationLocationType-04: "吃水线";
+  --label-installationLocationType-05: "船体纵剖线";
+  --label-productItemType-01: "框架";
+  --label-productItemType-02: "筋板";
+  --label-productItemType-03: "桁条";
+  --label-reqTechInfoCategory-01: "出版模块";
+  --label-reqTechInfoCategory-02: "数据模块";
+  --label-reqTechInfoCategory-03: "绘图";
+  --label-reqTechInfoCategory-04: "电气图";
+  --label-reqTechInfoCategory-05: "示意图";
+  --label-reqTechInfoCategory-06: "安全表";
+  --label-skillLevelCode-01: "基础";
+  --label-skillLevelCode-02: "中级";
+  --label-skillLevelCode-03: "高级";
+  --label-learningAssessment: "学习评定";
+  --label-learningSummary: "学习汇总";
+  --label-learningContent: "学习内容";
+  --label-learningOverview: "学习概述";
+  --label-questions: "题目";
+  --label-avehcfg: "所需基本条件";
+  --label-avehcfg-status-yes: "必需";
+  --label-avehcfg-status-no: "禁止";
+  --label-avehcfg-status-indiffer: "中性";
+  --label-avehcfg-status-na: "不适用";
+  --label-avehcfg-power-engine: "引擎";
+  --label-avehcfg-power-apu: "APU";
+  --label-avehcfg-power-external: "外部";
+  --label-avehcfg-power-internal: "内部";
+  --label-avehcfg-power-indifferent: "中性";
+  --label-avehcfg-power-notapplic: "不适用";
+  --label-avehcfg-status: "状态";
+  --label-avehcfg-power: "电源";
+  --label-avehcfg-jacked: "产品已提升";
+  --label-avehcfg-safedev: "安全设备已安装";
+  --label-avehcfg-elecpwr: "电力";
+  --label-avehcfg-hydpwr: "液压动力";
+  --label-avehcfg-airpwr: "气压动力";
+  --label-avehcfg-fuel: "加注燃料";
+  --label-avehcfg-water: "水";
+  --label-avehcfg-fcposn: "特定 EFCS 位置";
+  --label-issueNo: "发行号";
+  --label-publisher: "出版商";
+  --label-manufacturer: "制造商";
+  --label-documentTitle: "文档标题";
+  --label-dataModuleCode: "数据模块代码";
+  --label-issueDate: "发行日期";
+  --label-noOfPages: "页数";
+  --label-fm-applic: "适用于";
+  --label-loedm-generate-row1-part1: "列出的文档已包含在发行中 ";
+  --label-loedm-generate-row1-part2: "，日期为 ";
+  --label-loedm-generate-row1-part3: "，属于此出版物。";
+  --label-loedm-generate-row2: "C = 更改的数据模块";
+  --label-loedm-generate-row3: "N = 新数据模块";
+  --label-reason-for-update: "更新原因";
+  --label-updating-instruction: "正在更新指示";
+  --label-high-table: "要移除或插入的数据模块";
+  --label-high-generate-row1: "删除或插入表 1 中列出的数据模块。";
+  --label-high-generate-row2: "I = 插入数据模块";
+  --label-high-generate-row3: "R = 移除数据模块";
+}

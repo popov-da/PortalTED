@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.warningtitle:before {
+  content: "WARNUNG" ":" " ";
+}
+.cautiontitle:before {
+  content: "ACHTUNG" ":" " ";
+}
+.dangertitle:before {
+  content: "VORSICHT" ":" " ";
+}
+.notetitle:before {
+  content: "Hinweis" ":" " ";
+}
+.notestitle:before {
+  content: "Hinweise" ":" " ";
+}
+.tiptitle:before {
+  content: "Tipp" ":" " ";
+}
+.fastpathtitle:before {
+  content: "Fastpath" ":" " ";
+}
+.importanttitle:before {
+  content: "Wichtig" ":" " ";
+}
+.attentiontitle:before {
+  content: "Achtung" ":" " ";
+}
+.remembertitle:before {
+  content: "Bedenken Sie" ":" " ";
+}
+.restrictiontitle:before {
+  content: "Einschränkung" ":" " ";
+}
+.noticetitle:before {
+  content: "Beachten Sie" ":" " ";
+}
+.troubletitle:before {
+  content: "Problem" ":" " ";
+}
+/*
+    tcsp_workcard.less
+*/
+[data-class~="taskreq-d/reqconds"]:before {
+  content: "Erforderliche Bedingungen";
+}
+[data-class~="taskreq-d/reqpers"]:before {
+  content: "Erforderliche Personen";
+}
+[data-class~="taskreq-d/supequip"]:before {
+  content: "Supportgeräte";
+}
+[data-class~="taskreq-d/supplies"]:before {
+  content: "Verbrauchstoffe, Materialien und Verschleißteile";
+}
+[data-class~="taskreq-d/spares"]:before {
+  content: "Ersatzteile";
+}
+[data-class~="taskreq-d/safety"]:before {
+  content: "Sicherheitsbedingungen";
+}
+[data-class~="task/prereq"]:before {
+  content: "Vorläufige Anforderungen";
+}
+[data-class~="task/postreq"]:before {
+  content: "Anforderungen nach Abschluss des Auftrags";
+}
+[data-class~="task/steps"]:before {
+  content: "Vorgang";
+}
+[data-class~="topic/related-links"]:before {
+  content: "Referenzen";
+}
+[data-class~="taskreq-d/nosupeq"]:before,
+[data-class~="taskreq-d/nosupply"]:before,
+[data-class~="taskreq-d/nospares"]:before,
+[data-class~="taskreq-d/nosafety"]:before,
+[data-class~="taskreq-d/noconds"]:before {
+  content: "Keine";
+}
+[data-outputclass~="section-frequency"]:before {
+  content: "Häufigkeit";
+}
+[data-outputclass~="section-category"]:before {
+  content: "Kategorie";
+}
+[data-outputclass~="section-reqpers"]:before {
+  content: "Erforderliche Personen";
+}

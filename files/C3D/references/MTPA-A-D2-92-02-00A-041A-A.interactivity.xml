@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>05/30/25</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPA-A-D2-92-02-00A-041A-A</XMLFileName>
+<DocumentFile>DMC-MTPA-A-D2-92-02-00A-041A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#00FF00</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">descript</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">02</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">041</value>
+<value name="infoName" decl-id="INFONAME" type="string">Панель оператора</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20250531</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPA</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">92</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">D2</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Описание и работа</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPA" data-systemDiffCode="A" data-systemCode="D2" data-subSystemCode="9" data-subSubSystemCode="2" data-assyCode="02" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="041" data-infoCodeVariant="A" data-itemLocationCode="A">MTPA-A-D2-92-02-00A-041A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2025" data-month="05" data-day="31">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Описание и работа</div>
+					<div class="infoName">Панель оператора</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="description levels" id="description_IDVXH11PPW">
+			<div class="levelledPara level1 link" id="levelledPara_IDZ4U1KN2X">
+				<div class="title">Общие сведения</div>
+				<div class="levelledPara level2 link" id="levelledPara_IDVPWJXAUU">
+					<div class="title">Назначение</div>
+					<div class="para p">
+						Панель оператора предназначена для отображения информации о текущем состоянии системы и осуществления управления траверсой.</div>
+				</div>
+				<div class="levelledPara level2 link" id="levelledPara_IDXQD4TZQS">
+					<div class="title">Технические характеристики</div>
+					<div class="para p">Технические характеристики панели оператора <a class="internalRef irtt02 link" data-index="1" href="#tab-002" title=""></a>
+					</div>
+					<div class="table" id="tab-002"><div class="table-contents">
+						<div class="title">Технические характеристики панели оператора</div>
+						<table summary="Технические характеристики панели оператора" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title">Технические характеристики панели оператора</div></caption><caption class="rest"><div class="title">Технические характеристики панели оператора</div></caption><colgroup><col width="50%" align="center" class="col1"><col width="50%" align="center" class="col2"></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+										<div class="para p">Наименование параметра</div>
+									</th><th style="border-bottom: 1px solid ; " align="center">
+										<div class="para p">Значение</div>
+									</th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+										<div class="para p">Габаритные размеры (Д×Ш×В), мм, не более</div>
+									</td><td style="border-bottom: 1px solid ; " align="center">
+										<div class="para p">260.6×203.1×44.5</div>
+									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+										<div class="para p">Масса, кг, не более</div>
+									</td><td style="border-bottom: 1px solid ; " align="center">
+										<div class="para p">1.0</div>
+									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+										<div class="para p">Посадочное отверстие (Д×Ш), мм</div>
+									</td><td style="border-bottom: 1px solid ; " align="center">
+										<div class="para p">250 x 192</div>
+									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+										<div class="para p">Рабочая температура</div>
+									</td><td style="border-bottom: 1px solid ; " align="center">
+										<div class="para p">0...+50 С°</div>
+									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+										<div class="para p">Температура хранения</div>
+									</td><td style="border-bottom: 1px solid ; " align="center">
+										<div class="para p">-20...+50 С°</div>
+									</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="left">
+										<div class="para p">Напряжение питания, В </div>
+									</td><td style="border-bottom: 1px solid ; " align="center">
+										<div class="para p">24</div>
+									</td></tr><tr><td style="border-right: 1px solid ; " align="left">
+										<div class="para p">Мощность, Вт</div>
+									</td><td style="" align="center">
+										<div class="para p">24</div>
+									</td></tr></tbody></table>
+					</div></div><br class="table-break">
+				</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDPW30BNHM">
+				<div class="title">Размещение компонентов</div>
+				<div class="para p">
+					Панель оператора размещена внутри  распределительного устройства № 3.</div>
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDN4BZDSIV">
+				<div class="title">Описание</div>
+				<div class="para p">
+					
+					Панель оператора устанавливается во внутрь распределительного устройства № 3 и фиксируется
+<span class="emphasis ">винтовым соединением</span> (уточнить способ крепления).</div>
+				<div class="para p">На лицевой стороне панели оператора расположен сенсорный графический экран. Управляющие элементы представлены в диалоговых окнах экрана.</div>
+				<div class="para p">На задней стороне корпуса размещены точки подключения панели оператора и имеют следующие обозначения и функции: <div class="randomList list  ul">
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">разъем «Power Connector» предназначен для питания панели оператора;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">разъем «Con. A» с выведенными контактами интерфейсов COM2 (RS485 2W), COM2 (RS485 4W),  COM3 (RS485) и CAN Bus предназначен 
+<span class="emphasis ">для ХХХ;</span>
+							</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">разъем «Con. В» с выведенными контактами интерфейсов COM1 (RS232) и COM3 (RS232) предназначен 
+<span class="emphasis ">для ХХХ</span>.;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">разъемы «LAN 1» и «LAN 2» предназначены для подключения приборов;</div>
+						</div>
+</div>
+						<div class="listItem li">
+<div class="listItemBody">
+							<div class="para p">разъем «USB Host» предназначен для загрузки рабочего проекта.</div>
+						</div>
+</div>
+					</div>
+				</div>
+				<div class="para p">Внутри корпуса панели расположен маломощный звуковой излучатель, сигнализирующий 
+о нажатии кнопок. Звуковой сигнал включается при начале и завершении загрузки проекта.</div>
+				<div class="para p">Назначение контактов соединителей приведено в таблицaх <a class="internalRef irtt02 link" data-index="2" href="#tab-001" title=""></a>, <a class="internalRef irtt02 link" data-index="3" href="#tab-003" title=""></a>, <a class="internalRef irtt02 link" data-index="4" href="#tab-004" title=""></a>, <a class="internalRef irtt02 link" data-index="5" href="#tab-005" title=""></a>, <a class="internalRef irtt02 link" data-index="6" href="#tab-006" title=""></a>
+				</div>
+				<div class="table" id="tab-001"><div class="table-contents">
+					<div class="title"> Назначение контактов соединителя Power Connector</div>
+					<table summary=" Назначение контактов соединителя Power Connector" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title"> Назначение контактов соединителя Power Connector</div></caption><caption class="rest"><div class="title"> Назначение контактов соединителя Power Connector</div></caption><colgroup><col width="50%" align="center" class="col1"><col width="50%" align="center" class="col2"></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Номер контакта </div>
+								</th><th style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">Наименование сигналов</div>
+								</th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">1</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">+24 B</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">2</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">0 B</div>
+								</td></tr><tr><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">3</div>
+								</td><td style="" align="center">
+									<div class="para p">Функциональное заземление</div>
+								</td></tr></tbody></table>
+				</div></div><br class="table-break">
+				<div class="table" id="tab-003"><div class="table-contents">
+					<div class="title"> Назначение контактов соединителя Con. A</div>
+					<table summary=" Назначение контактов соединителя Con. A" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title"> Назначение контактов соединителя Con. A</div></caption><caption class="rest"><div class="title"> Назначение контактов соединителя Con. A</div></caption><colgroup><col width="15%" align="center" class="col1"><col width="15%" align="center" class="col2"><col width="23%" align="center" class="col3"><col width="23%" align="center" class="col4"><col width="24%" align="center" class="col5"></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " rowspan="2" align="center">
+									<div class="para p">Номер контакта </div>
+								</th><th style="border-bottom: 1px solid ; " colspan="4" align="center">
+									<div class="para p">Наименование сигналов <span class="emphasis "></span>
+									</div>
+								</th></tr><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">COM2 (RS485 2W)	</div>
+								</th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">COM2 (RS485 4W)</div>
+								</th><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">COM3 (RS485)</div>
+								</th><th style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">CAN Bus</div>
+								</th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">1</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Data-(B)</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">RX-</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">2</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Data+(A)</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">RX+</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">3</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">TX-</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">4</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">TX+</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">5</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">GND</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">GND</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">GND</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">GND</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">6</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Data-(B)</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">7</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">CAN_L</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">8</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">CAN_H</div>
+								</td></tr><tr><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">9</div>
+								</td><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">Data+(A)</div>
+								</td><td style="" align="center">
+									<div class="para p">―</div>
+								</td></tr></tbody></table>
+				</div></div><br class="table-break">
+				<div class="table" id="tab-004"><div class="table-contents">
+					<div class="title"> Назначение контактов соединителя Con. B</div>
+					<table summary=" Назначение контактов соединителя Con. B" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title"> Назначение контактов соединителя Con. B</div></caption><caption class="rest"><div class="title"> Назначение контактов соединителя Con. B</div></caption><colgroup><col width="28%" align="center" class="col1"><col width="29%" align="center" class="col2"><col width="42%" align="center" class="col3"></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " rowspan="2" align="center">
+									<div class="para p">Номер контакта </div>
+								</th><th style="border-bottom: 1px solid ; " colspan="2" align="center">
+									<div class="para p">Наименование сигналов</div>
+								</th></tr><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">COM1 (RS232)</div>
+								</th><th style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">COM3 (RS232)</div>
+								</th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">1</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">RxD</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">2</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">TxD</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">―</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">5</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">GND</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">GND</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">7</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">RTS</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">TxD</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">8</div>
+								</td><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">CTS</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">RxD</div>
+								</td></tr><tr><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">9</div>
+								</td><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">GND</div>
+								</td><td style="" align="center">
+									<div class="para p">GND</div>
+								</td></tr></tbody></table>
+				</div></div><br class="table-break">
+				<div class="table" id="tab-005"><div class="table-contents">
+					<div class="title"> Назначение контактов соединителя LAN 1 и LAN 2</div>
+					<table summary=" Назначение контактов соединителя LAN 1 и LAN 2" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title"> Назначение контактов соединителя LAN 1 и LAN 2</div></caption><caption class="rest"><div class="title"> Назначение контактов соединителя LAN 1 и LAN 2</div></caption><colgroup><col width="50%" align="center" class="col1"><col width="50%" align="center" class="col2"></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Номер контакта </div>
+								</th><th style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">Наименование сигналов</div>
+								</th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">1</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">TX+</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">2</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">TX-</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">3</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">RX+</div>
+								</td></tr><tr><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">6</div>
+								</td><td style="" align="center">
+									<div class="para p">RX-</div>
+								</td></tr></tbody></table>
+				</div></div><br class="table-break">
+				<div class="table" id="tab-006"><div class="table-contents">
+					<div class="title"> Назначение контактов соединителя USB Host</div>
+					<table summary=" Назначение контактов соединителя USB Host" style="border-collapse: collapse;border-top: 1px solid ; border-bottom: 1px solid ; border-left: 1px solid ; border-right: 1px solid ; "><caption><div class="title"> Назначение контактов соединителя USB Host</div></caption><caption class="rest"><div class="title"> Назначение контактов соединителя USB Host</div></caption><colgroup><col width="50%" align="center" class="col1"><col width="50%" align="center" class="col2"></colgroup><thead><tr><th style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">Номер контакта </div>
+								</th><th style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">Наименование сигналов</div>
+								</th></tr></thead><tbody><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">1</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">+5 B</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">2</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">Data +</div>
+								</td></tr><tr><td style="border-right: 1px solid ; border-bottom: 1px solid ; " align="center">
+									<div class="para p">3</div>
+								</td><td style="border-bottom: 1px solid ; " align="center">
+									<div class="para p">Data -</div>
+								</td></tr><tr><td style="border-right: 1px solid ; " align="center">
+									<div class="para p">4</div>
+								</td><td style="" align="center">
+									<div class="para p">GND</div>
+								</td></tr></tbody></table>
+				</div></div><br class="table-break">
+			</div>
+			<div class="levelledPara level1 link" id="levelledPara_IDBSVQGNGO">
+				<div class="title">Работа</div>
+				<div class="para p">Для сетевой интеграции панели оператора необходимо подключить Ethernet-кабель к коммутатору, активировать интерфейс в разделе «Сетевые настройки», задать IP-конфигурацию (ручная или автоматическая). После сохранения параметров осуществляется обмен данными с PLK. Панель также позволяет осуществлять удаленный доступ через веб-интерфейс, используя подключение по Ethernet.</div>
+				<div class="para p">При подаче питания на панель оператора выполняется загрузка базового интерфейса и на экране появляется основное меню.</div>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

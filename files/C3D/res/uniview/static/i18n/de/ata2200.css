@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+    ata2200.less
+*/
+:root {
+  --label-ipd: 'KATALOG DER ILLUSTRIERTEN TEILE';
+  --label-effect: "GÜLTIGKEIT";
+  --label-effect-all: "Alle";
+  --label-intro: "INTRO";
+  --label-sb-list: "SB-LISTE";
+  --label-page: "Seite";
+  --label-dpl-tfoot: "- ELEMENT NICHT ILLUSTRIERT";
+  --label-january: "Jan";
+  --label-february: "Feb";
+  --label-march: "Mär";
+  --label-april: "Apr";
+  --label-may: "Mai";
+  --label-june: "Jun";
+  --label-july: "Jul";
+  --label-august: "Aug";
+  --label-september: "Sep";
+  --label-october: "Okt";
+  --label-november: "Nov";
+  --label-december: "Dez";
+  --label-blankPageCenter: "ABSICHTLICH LEER";
+  --label-figure: "Abbildung";
+  --label-sheet: "Blatt";
+  --label-task: "AUFGABE";
+  --label-subtask: "UNTERAUFGABE";
+  --label-warning: "WARNUNG";
+  --label-caution: "ACHTUNG";
+  --label-note: "HINWEIS";
+  --label-ColonSymbol: ":";
+}

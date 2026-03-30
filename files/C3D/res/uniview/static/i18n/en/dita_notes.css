@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*
+    dita.less
+*/
+.skin-modal-title .default-title {
+  display: none;
+}
+.skin-modal-title .warning-title:before {
+  content: "WARNING";
+}
+.skin-modal-title .caution-title:before {
+  content: "CAUTION";
+}
+.skin-modal-title .danger-title:before {
+  content: "DANGER";
+}
+.skin-modal-title .note-title:before {
+  content: "NOTE";
+}
+.skin-modal-title .notes-title:before {
+  content: "NOTES";
+}
+.skin-modal-title .tip-title:before {
+  content: "TIP";
+}
+.skin-modal-title .fastpath-title:before {
+  content: "FASTPATH";
+}
+.skin-modal-title .important-title:before {
+  content: "IMPORTANT";
+}
+.skin-modal-title .attention-title:before {
+  content: "ATTENTION";
+}
+.skin-modal-title .remember-title:before {
+  content: "REMEMBER";
+}
+.skin-modal-title .restriction-title:before {
+  content: "RESTRICTION";
+}
+.skin-modal-title .notice-title:before {
+  content: "NOTICE";
+}
+.skin-modal-title .trouble-title:before {
+  content: "TROUBLE";
+}

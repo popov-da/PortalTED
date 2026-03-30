@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by VME v.14.2.0.0 (build 14.2.0.16)-->
+<SimulationInteractivity xmlns="http://services.parallelgraphics.com/vm/mmr/vm-interactivity-xml/all">
+<SimulationInformation>
+<ExporterVersionNumber>14.2.0.16</ExporterVersionNumber>
+<ModificationDate>05/07/25</ModificationDate>
+<SpecID>S1000D4_1_TEXT</SpecID>
+<SpecVersion>1.14</SpecVersion>
+<SpecLang>ru</SpecLang>
+<XMLFileName>MTPA-A-12-25-00-00A-730A-A</XMLFileName>
+<DocumentFile>DMC-MTPA-A-12-25-00-00A-730A-A_001-01_ru-RU.xml</DocumentFile>
+<Options>
+<Value name="3DFramePosition" type="string">Right</Value>
+<Value name="3DFrameSize" type="string">40</Value>
+<Value name="SelectedHotspotColor" type="color">#3152BA</Value>
+<Value name="PDFPublish" type="boolean">No</Value>
+<Value name="PublicPath" type="string">../res/</Value>
+<Value name="UseSVGFilesOnly" type="boolean">No</Value>
+<Value name="SingleHTMLBundle" type="boolean">No</Value>
+<Value name="UseViewerBundle" type="string">0</Value>
+<Value name="UseCompressedSVG" type="boolean">No</Value>
+<Value name="DisableHTMLCreation" type="boolean">No</Value>
+</Options>
+<metadata>
+<value name="infoCodeVariant" decl-id="ICV" type="string">A</value>
+<value name="itemLocationCode" decl-id="ILC" type="string">A</value>
+<value name="issueType" decl-id="ISSUE_TYPE" type="string">new</value>
+<value name="issueNumber" decl-id="ISSUE_NO" type="integer">1</value>
+<value name="inWork" decl-id="ISSUE_REVNO" type="integer">1</value>
+<value name="Schema" decl-id="SCHEMA" type="string">proced</value>
+<value name="$S1000D Issue" decl-id="S1000D_ISSUE" type="string">S1000D_4-1</value>
+<value name="applicDescription" decl-id="APPLIC_DESCR" type="string">ВСЕ</value>
+<value name="originator" decl-id="ORIGINATOR" type="string">МОДУЛЬ МКД</value>
+<value name="originatorCode" decl-id="ORIGINATORCODE" type="string">MDMKD</value>
+<value name="responsiblePartnerCompany" decl-id="RPC" type="string">МОДУЛЬ МКД</value>
+<value name="responsiblePartnerCompanyCode" decl-id="APPLIC_MFC" type="string">MDMKD</value>
+<value name="securityClassification" decl-id="SECCLASS" type="integer">1</value>
+<value name="assyCode" decl-id="UNIT" type="string">00</value>
+<value name="ACT" decl-id="ACT" type="string">
+</value>
+<value name="BREX" decl-id="BREX" type="string">S1000D-E-04-10-0301-00A-022A-D</value>
+<value name="Country" decl-id="COUNTRY" type="string">RU</value>
+<value name="disassyCode" decl-id="DC" type="string">00</value>
+<value name="disassyCodeVariant" decl-id="DCV" type="string">A</value>
+<value name="infoCode" decl-id="IC" type="string">730</value>
+<value name="infoName" decl-id="INFONAME" type="string">Процедуры подключения</value>
+<value name="issueDate" decl-id="ISSUE_DATE" type="string">20250530</value>
+<value name="Language" decl-id="LANG" type="string">ru</value>
+<value name="learnCode" decl-id="LEARNCODE" type="string">
+</value>
+<value name="learnEventCode" decl-id="LEARNEVENTCODE" type="string">
+</value>
+<value name="modelIdentCode" decl-id="MI" type="string">MTPA</value>
+<value name="qualityAssurance" decl-id="QA" type="string">unverified</value>
+<value name="subSystem" decl-id="SUBSYSTEM" type="string">25</value>
+<value name="systemCode" decl-id="SYSTEM" type="string">12</value>
+<value name="systemDiffCode" decl-id="SDC" type="string">A</value>
+<value name="techName" decl-id="TITLE" type="string">Источник наземного питания</value>
+<value name="applic" decl-id="APPLIC" type="string">&lt;applic&gt;
+&lt;displayText&gt;
+&lt;simplePara&gt;ВСЕ&lt;/simplePara&gt;
+&lt;/displayText&gt;
+&lt;/applic&gt;</value>
+<value name="systemBreakdownCode" decl-id="SBC" type="string">
+</value>
+<value name="dataRestrictions" decl-id="DATARESTRICTIONS" type="string">
+</value>
+<value name="$PublishOptionsOverride" decl-id="PUB_OPT_OVERRIDE" type="string">UsePlugins false PDFPublish false SingleHTMLBundle false UseOutputBundle false UseViewerBundle "0" UseMultimediaBundle "0" PublicPath "../res/"</value>
+</metadata>
+</SimulationInformation>
+<Resources>
+<Picture descr="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01" flags="33">ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.svg</Picture>
+</Resources>
+<DocumentTemplate><![CDATA[<div class="dmodule">
+	<div class="identAndStatusSection link" data-link="toggleStatus">
+		<div class="dmAddress">
+			<div class="dmIdent">
+				<div class="dmCode" data-modelIdentCode="MTPA" data-systemDiffCode="A" data-systemCode="12" data-subSystemCode="2" data-subSubSystemCode="5" data-assyCode="00" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="730" data-infoCodeVariant="A" data-itemLocationCode="A">MTPA-A-12-25-00-00A-730A-A</div>
+				<div class="language" data-countryIsoCode="RU" data-languageIsoCode="ru">
+</div>
+				<div class="issueInfo" data-issueNumber="001" data-inWork="01">
+</div>
+			</div>
+			<div class="dmAddressItems">
+				<div class="issueDate" data-year="2025" data-month="05" data-day="30">
+</div>
+				<div class="dmTitle">
+					<div class="techName">Источник наземного питания</div>
+					<div class="infoName">Процедуры подключения</div>
+				</div>
+			</div>
+		</div>
+		<div class="dmStatus" data-issueType="new">
+			<div class="security" data-securityClassification="01">
+</div>
+			<div class="responsiblePartnerCompany" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="originator" data-enterpriseCode="MDMKD">
+				<div class="enterpriseName">МОДУЛЬ МКД</div>
+			</div>
+			<div class="applic">
+				<div class="displayText">
+					<div class="simplePara">ВСЕ</div>
+				</div>
+			</div>
+			<div class="brexDmRef">
+				<a class="dmRef  link" data-type="simple" data-actuate="onRequest" data-show="replace" data-href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D" href="S1000D-E-04-10-0301-00A-022A-D.htm"><div class="dmRefIdent">
+						<div class="dmCode" data-modelIdentCode="S1000D" data-systemDiffCode="E" data-systemCode="04" data-subSystemCode="1" data-subSubSystemCode="0" data-assyCode="0301" data-disassyCode="00" data-disassyCodeVariant="A" data-infoCode="022" data-infoCodeVariant="A" data-itemLocationCode="D">S1000D-E-04-10-0301-00A-022A-D</div>
+					</div></a>
+			</div>
+			<div class="qualityAssurance">
+				<div class="unverified">
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="procedure">
+			<div class="preliminaryRqmts" id="preliminaryRqmts_IDLJJ0D4ZS">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_ID4RQSL5TW"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupportEquips prelimTable formalTable" id="reqSupportEquips_IDDJGUS5LD"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="supportEquipDescr">
+<td>
+<div>
+<div class="name">Лестница 3 м</div>
+</div>
+</td>
+<td class="prelimTable_identification">
+<div class="identNumber">
+</div>
+</td>
+<td>
+<div class="reqQuantity" data-unitOfMeasure="шт.">1 шт.</div>
+</td>
+<td>
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSupplies prelimTable formalTable" id="reqSupplies_IDYFUQT43O"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSupplies">
+<td class="noSupplies" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<span class="reqSpares prelimTable formalTable" id="reqSpares_ID31U5YWAM"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th class="prelimTable__name"></th>
+<th class="prelimTable__identification"></th>
+<th class="prelimTable__qty"></th>
+<th class="prelimTable__remark"></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noSpares">
+<td class="noSpares" colspan="4">
+</td>
+</tr>
+				</tbody>
+</table></span>
+				<div class="reqSafety">
+					<div class="safetyRqmts">
+						<div>
+<div class="warning">
+							<div class="warningAndCautionPara p">ВО ИЗБЕЖАНИЕ ТРАВМИРОВАНИЯ ПЕРСОНАЛА ПЕРЕД НАЧАЛОМ РАБОТЫ
+УБЕДИТЕСЬ В УСТОЙЧИВОСТИ ЛЕСТНИЦЫ И В ОТСУТСТВИИ ОБЪЕКТОВ,
+СПОСОБНЫХ ПРИЧИНИТЬ ВРЕД ИЛИ ПРИВЕСТИ К ЛЕТАЛЬНЫМ ПОСЛЕДСТВИЯМ
+ВО ВРЕМЯ РАБОТЫ НА ЛЕСТНИЦЕ ИЛИ ПРИ ПАДЕНИИ С НЕЕ, НАПРИМЕР, ЛИНИЙ
+ЭЛЕКТРОПРОВОДОВ И ОПАСНОГО ОБОРУДОВАНИЯ.</div>
+							<div class="warningAndCautionPara p">ЗАПРЕЩАЕТСЯ ОДНОВРЕМЕННОЕ РАЗМЕЩЕНИЕ НА СТУПЕНЯХ И ПЛОЩАДКЕ
+ЛЕСТНИЦЫ ДВУХ И БОЛЕЕ ЧЕЛОВЕК.</div>
+						</div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div>
+<div class="mainProcedure" id="mainProcedure_IDXBNSXJLO">
+</div>
+</div>
+<div class="Procedure levels" id="">
+				<div class="proceduralStep level1 link" id="proceduralStep_IDPVEQAQMV">
+					<div class="title">Подготовительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDP3KBDYHL">
+						<div class="para p">Убедитесь, что все выключатели находятся в своем исходном
+положении.</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDFDUNQFYE">
+							<div class="para p">При необходимости установите выключатели в  своё исходное
+положение <a class="dmRef  link" href="MTPM-A-20-11-00-00A-510A-A.htm"><div class="dmRefIdent">
+										<div class="dmCode" data-itemLocationCode="A" data-infoCodeVariant="A" data-infoCode="510" data-disassyCodeVariant="A" data-disassyCode="00" data-assyCode="00" data-subSubSystemCode="1" data-subSystemCode="1" data-systemCode="20" data-systemDiffCode="A" data-modelIdentCode="MTPM">MTPM-A-20-11-00-00A-510A-A</div>
+									</div></a>.</div>
+						</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDY3JC4PO3">
+					<div class="title">Подключение на земле</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDTDTQSAJL">
+						<div class="para p">Откройте защелку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="3"></a> вилки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="2"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDOPDENUTB">
+						<div class="para p">Отведите технологическую заглушку  <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="4"></a> от вилки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="2"></a> шкафа подключения <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="1"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDR0DTMHMR">
+						<div class="para p">Откройте защелку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="6"></a> технологической заглушки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="7"></a> розетки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="5"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDMZ1QYOKB">
+						<div class="para p">Отведите технологическую заглушку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="7"></a> от розетки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="5"></a> кабеля питания <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="8"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDQGBG0LLJ">
+						<div class="para p">Установите розетку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="5"></a> кабеля питания <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="8"></a> в вилку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="2"></a> шкафа подключения <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="1"></a> до упора.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDAD02X0F4">
+						<div class="para p">Закройте защелку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="3"></a> вилки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="2"></a>.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDUTRKBREL">
+					<div class="title">Подключение на модуле</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDHT1B0I0M">
+						<div class="para p">Установите лестницу на ровную нескользкую поверхность для доступа к разъему шкафа подключения.</div>
+						<div class="proceduralStep level3 link" id="proceduralStep_IDKSYHHIZV">
+							<div class="para p">Используйте лестницу для
+подъема наверх и выполнения работ на высоте.</div>
+						</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDRORBEUIK">
+						<div class="para p">Откройте защелку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="3"></a> вилки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="2"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDZ3ESKD30">
+						<div class="para p">Отведите технологическую заглушку  <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="4" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="4"></a> от вилки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="2"></a> шкафа подключения <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="1"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDFI0WAM5C">
+						<div class="para p">Откройте защелку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="6" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="6"></a> технологической заглушки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="7"></a> розетки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="5"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDJKXOT2P3">
+						<div class="para p">Отведите технологическую заглушку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="7" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="7"></a> от розетки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="5"></a> кабеля питания <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="8"></a>.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_ID0OR30OSY">
+						<div class="para p">Установите розетку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="5" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="5"></a> кабеля питания <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="8" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="8"></a> в вилку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="2"></a> шкафа подключения <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="1" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="1"></a> до упора.</div>
+					</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDTNLHFV2L">
+						<div class="para p">Закройте защелку <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="3" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="3"></a> вилки <a class="internalRef irtt11 link" data-figure="1" data-referredFragment="2" data-linkByName="false" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-title="Процедура подключения питания" title="2"></a>.</div>
+					</div>
+				</div>
+				<div class="proceduralStep level1 link" id="proceduralStep_IDXPV5GYMJ">
+					<div class="title">Заключительные работы</div>
+					<div class="proceduralStep level2 link" id="proceduralStep_IDNT252NRD">
+						<div class="para p">Очистите зону выполнения работ и убедитесь в отсутствии посторонних предметов.</div>
+					</div>
+				</div>
+				<div class="figure" id="fig-001">
+					<div class="title">Процедура подключения питания</div>
+					<a title="Процедура подключения питания" class="graphic link" data-figure="1" data-infoEntityIdent="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01" data-href="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm" data-reproductionHeight="222mm" data-reproductionWidth="170mm" id="fig-001-gra-001" data-link="link2d" data-src="ICN-MTPA-A-122500-0-MDMKD-00001-A-001-01.cgm">Процедура подключения питания</a>
+				</div>
+			</div>
+			<div class="closeRqmts" id="closeRqmts_IDXJCN10W4">
+				<span class="reqCondGroup formalTable" id="reqCondGroup_IDFVP5U3XA"><table>
+<caption></caption>
+<caption class="rest"></caption>
+<thead>
+<tr>
+<th colspan="3"><span class="condition"></span></th>
+<th colspan="3"><span class="publication"></span></th>
+</tr>
+</thead>
+<tbody>
+					<tr class="row__noConds">
+<td class="noConds" colspan="6">
+</td>
+</tr>
+				</tbody>
+</table></span>
+			</div>
+		</div>
+	</div>
+</div>
+]]></DocumentTemplate>
+</SimulationInteractivity>

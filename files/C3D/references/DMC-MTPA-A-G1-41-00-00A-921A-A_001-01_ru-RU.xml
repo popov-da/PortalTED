@@ -1,0 +1,170 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-G14100-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-G14100-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/proced.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="G1" subSystemCode="4" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="921" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2024" month="06" day="13"></issueDate>
+<dmTitle>
+<techName>Камера</techName>
+<infoName>Замена</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<procedure>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name>Набор инструментов</name>
+<identNumber>
+<manufacturerCode></manufacturerCode>
+</identNumber>
+<reqQuantity></reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<noSupplies></noSupplies>
+</reqSupplies>
+<reqSpares>
+<noSpares></noSpares>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning>
+<warningAndCautionPara>РАБОТЫ ПРОВОДЯТСЯ НА ОБЕСТОЧЕННОЙ ТРАВЕРСЕ.</warningAndCautionPara>
+</warning>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<mainProcedure>
+<proceduralStep>
+<title>Подготовительные работы</title>
+<proceduralStep>
+<para>Установите траверсу на ложементы.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Замена</title>
+<proceduralStep>
+<para>Отверните винты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите крышку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> с камеры <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отверните винты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Отведите камеру <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef> от кронштейна <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите электрический соединитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef> от его ответной части.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Замените камеру <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на новую.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите камеру <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+<proceduralStep>
+<para>При наличии загрязнений очистите камеру обтирочной ветошью.</para>
+<proceduralStep>
+<para>Сильные загрязнения удалите обтирочной ветошью, смоченной растворителем.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Осмотрите камеру на отсутствие сколов, вмятин, повреждений.</para>
+<proceduralStep>
+<para>При наличии повреждений, заменить камеру.</para>
+</proceduralStep>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<para>Отверните винты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Снимите крышку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> камеры <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите электрический соединитель <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="2" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на его ответную часть.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите камеру <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на кронштейн <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="1" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите и заверните винты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="6" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите крышку <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="4" xlink:actuate="onRequest" xlink:show="replace"></internalRef> на камеру <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="3" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+<proceduralStep>
+<para>Установите и заверните винты <internalRef internalRefTargetType="irtt11" internalRefId="fig-001" referredFragment="5" xlink:actuate="onRequest" xlink:show="replace"></internalRef>.</para>
+</proceduralStep>
+</proceduralStep>
+<proceduralStep>
+<title>Заключительные работы</title>
+<proceduralStep>
+<para>Произведите контроль работоспособности камеры <emphasis>(см. MTPА-А-G1-40-00-00А-340А-А).</emphasis>
+</para>
+</proceduralStep>
+</proceduralStep>
+<figure id="fig-001">
+<title>Замена камеры</title>
+<graphic infoEntityIdent="ICN-MTPA-A-G14100-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-G14100-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="1"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_003" applicationStructureName="5"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_005" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_004" applicationStructureName="4"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_010" applicationStructureName="3"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_006" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_009" applicationStructureName="2"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_007" applicationStructureName="6"></hotspot>
+</graphic>
+</figure>
+</mainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<noConds></noConds>
+</reqCondGroup>
+</closeRqmts>
+</procedure>
+</content>
+</dmodule>

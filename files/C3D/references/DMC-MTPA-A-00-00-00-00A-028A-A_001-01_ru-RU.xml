@@ -1,0 +1,427 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-000000-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-000000-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="028" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Механизированная траверса</techName>
+<infoName>Общие сведения</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Назначение</title>
+<para>Механизированная траверса (далее — траверса) предназначена для подъема и монтажа объемных квартирных модулей (далее — модули) массой до 36 тонн на площадке по сборке здания с функцией балансировки модуля в автоматическом или ручном режимах работы в установленных условиях эксплуатации. Траверса является самостоятельным изделием. Для возможности зацепа траверсы за крюк крана предусмотрена такелажная ось.
+</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<levelledPara>
+<title>Состав поставочного комплекта траверсы</title>
+<para>В состав поставочного комплекта траверсы входят:<randomList>
+<listItem>
+<para>траверса механизированная МТПА.000000.000 (1 шт.);</para>
+</listItem>
+<listItem>
+<para>кабель силовой 50 м с вилкой 380 В (1 шт.);</para>
+</listItem>
+<listItem>
+<para>транспортировочная упаковка (?? шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Состав документа</title>
+<para>В состав руководства по технической эксплуатации траверсы входят следующие разделы:<randomList>
+<listItem>
+<para>общие сведения <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="028" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>габариты <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="06" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>подъем, крепление и транспортирование <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="07" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>хранение
+	<dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="1" systemCode="10" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>надписи и трафареты
+	<emphasis>КОД МОДУЛЯ</emphasis>;</para>
+</listItem>
+<listItem>
+<para>обслуживание <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="12" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>стандартизованные процессы <emphasis>КОД МОДУЛЯ</emphasis>;</para>
+</listItem>
+<listItem>
+<para>каркас <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="028" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="B0" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>электрические системы <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="028" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>система связи <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="028" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="E1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>система наблюдения <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="4" systemCode="G1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>система вентиляции, обогрева и охлаждения <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="J1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>гидравлическая система <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="028" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="0" subSystemCode="0" systemCode="K1" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Основные технические характеристики траверсы <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>
+</para>
+<table id="tab-001">
+<title>Основные технические характеристики траверсы</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1" colwidth="1.17*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1.00*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2" align="center">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1">
+<para>Габаритные размеры в убранном положении больших и малых телескопов (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>6269×4104×3494</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>
+										Габаритные размеры в максимально выпущенном положении больших и малых телескопов (Д×Ш×В), мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>
+										8269×5104×3494</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Масса траверсы с учетом рабочей жидкости гидросистемы и смазочных материалов, кг</para>
+</entry>
+<entry colname="col2" align="center">
+<para>12000</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Грузоподъемность максимальная, кг, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>36000</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Вводное напряжение, В</para>
+</entry>
+<entry colname="col2" align="center">
+<para>400 AC, 50 Гц, 3 фазы</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Оперативное напряжение, В</para>
+</entry>
+<entry colname="col2" align="center">
+<para>24 DC</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Полная электрическая мощность, кВт, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>20</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Степень защиты электрооборудования, не менее</para>
+</entry>
+<entry colname="col2" align="center">
+<para>IP 56</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Скорость перемещения платформы в продольном направлении, см/с, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>2,8</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Скорость перемещения башни в поперечном направлении, см/с, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>2,8</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" rowsep="0">
+<para>Скорость телескопирования в продольном направлении, см/с, не более</para>
+</entry>
+<entry colname="col2" rowsep="0"></entry>
+</row>
+<row>
+<entry colname="col1">
+<para>- выпуск</para>
+<para>- уборка</para>
+</entry>
+<entry colname="col2" align="center">
+<para>2,1</para>
+<para>4,0</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" rowsep="0">
+<para>Скорость телескопирования в поперечном направлении, см/с, не более</para>
+</entry>
+<entry colname="col2" rowsep="0"></entry>
+</row>
+<row>
+<entry colname="col1">
+<para>- выпуск</para>
+<para>- уборка</para>
+</entry>
+<entry colname="col2" align="center">
+<para>2,6</para>
+<para>5,4</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Смещение платформы в продольном направлении, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>± 1000</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Смещение башни в поперечном направлении, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>± 800</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ход штанги продольного телескопирования, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>1000</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Ход штанги поперечного телескопирования, мм, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>500</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<levelledPara>
+<title>Эксплуатационные ограничения</title>
+<para>Внешние воздействующие факторы, допускаемые при использовании по назначению изделия	<internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>
+</para>
+<table id="tab-002">
+<title>Внешние воздействующие факторы, допускаемые при использовании по назначению изделия</title>
+<tgroup cols="2">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" align="center">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2" align="center">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1">
+<para>Температура, °С</para>
+</entry>
+<entry colname="col2" align="center">
+<para>от минус 40 до плюс 40</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Повышенная влажность воздуха, % (при плюс 25 °С), не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>
+										80</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Атмосферное давление, кПа (мм рт.ст)</para>
+</entry>
+<entry colname="col2" align="center">
+<para>от 70 до 107 (от 525 до 800)</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Интенсивность атмосферных выпадающих осадков (дождь, снег), мм/ч, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>50</para>
+</entry>
+</row>
+<row>
+<entry colname="col1">
+<para>Скорость воздушного потока, м/с, не более</para>
+</entry>
+<entry colname="col2" align="center">
+<para>10</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Траверса представляет собой сборную конструкцию, образованную из основания, подвижной платформы, башни, электрооборудования и гидравлической системы.</para>
+<para>Ключевыми силовыми элементами траверсы являются башня, подвижная платформа и основание. Для точной балансировки траверсы предусмотрена возможность перемещения башни и подвижной платформы. Выпуск больших и малых телескопов основания позволяет фиксировать модули с различным расположением такелажных элементов, при условии соблюдения предельных размеров, грузоподъемности и расположения центра масс модуля. Перемещение башни, подвижной платформы, больших и малых телескопов, а также работа замков осуществляется гидравлической системой, обеспечивающей плавную и точную регулировку положения элементов. Плиты и опоры скольжения минимизируют сопротивление движению.</para>
+<para>В качестве рабочей жидкости в гидравлической системе используется масло. Для обеспечения его подачи, хранения и фильтрации используется гидравлическая станция, установленная на башне.</para>
+<para>На траверсе предусмотрены четыре неподвижные точки подвеса, расположенные на основании, и четыре точки подвески в замках, предназначенные для фиксации такелажных элементов  модулей.
+Замок представляет собой сложное техническое устройство, включающее в себя агрегаты нескольких систем траверсы. Запирающим устройством замка является вилка, ее перемещение обеспечивается гидроцилиндром. Контроль положения вилки осуществляется с помощью системы датчиков. Камеры видеонаблюдения, установленные на корпусах замков, позволяют точно вывесить траверсу при ее позиционировании над модулем.</para>
+<para>На траверсе используется электрооборудование, для его размещения применяются шкафы. Центральный шкаф управления (ЦШУ) установлен на специальной раме, расположенной на башне, распределительная коробка установлена в центральной части подвижной платформы. Шкаф управления № 3 (ШУ № 3) установлен в торце платформы. Шкафы управления №1 и № 2 (ШУ № 1 и ШУ № 2) установлены на продольных балках больших телескопов. Два шкафа подключения  (ШП) установлены на балках малых телескопов.</para>
+</levelledPara>
+<figure id="fig-001">
+<title>Механизированная траверса</title>
+<graphic infoEntityIdent="ICN-MTPA-A-000000-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-000000-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_001" applicationStructureName="БАШНЯ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_006" applicationStructureName="ЭЛЕКТРИЧЕКИЙ ШКАФ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_002" applicationStructureName="ОСНОВАНИЕ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_003" applicationStructureName="ПОДВИЖНАЯ ПЛАТФОРМА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-005" applicationStructureIdent="AUTOID_004" applicationStructureName=" МАЛЫЙ ТЕЛЕСКОП"></hotspot>
+<hotspot id="fig-001-gra-001-hot-006" applicationStructureIdent="AUTOID_005" applicationStructureName="БОЛЬШОЙ ТЕЛЕСКОП"></hotspot>
+<hotspot id="fig-001-gra-001-hot-007" applicationStructureIdent="AUTOID_011" applicationStructureName="ВИДЕОКАМЕРА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-008" applicationStructureIdent="AUTOID_009" applicationStructureName="ГИДРОЦИЛИНДР"></hotspot>
+<hotspot id="fig-001-gra-001-hot-009" applicationStructureIdent="AUTOID_007" applicationStructureName="ТОЧКА ПОДВЕСА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-010" applicationStructureIdent="AUTOID_008" applicationStructureName="ЗАМОК"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-B01000-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-B01000-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="B0" subSystemCode="1" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Башня</techName>
+<infoName>Описание</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>
+				Башня предназначена для установки и крепления крюка или другого такелажного элемента подъемного устройства, а также для балансировки траверсы в заданных условиях эксплуатации.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав башни входят:<randomList>
+<listItem>
+<para>стержень подвеса (1 шт.);</para>
+</listItem>
+<listItem>
+<para>сварной каркас (1 шт.);</para>
+</listItem>
+<listItem>
+<para>опора скольжения (4 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>опора (4 шт.) <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>;</para>
+</listItem>
+<listItem>
+<para>накладка опорная (4 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>
+			Башня установлена в центральной части подвижной платформы  траверсы.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para>Башня представляет собой сборную конструкцию из стержня подвеса, сварного каркаса, опор и опор скольжения с возможностью перемещения в горизонтальной плоскости относительно подвижной платформы траверсы.</para>
+<levelledPara>
+<title>Сварной каркас</title>
+<para>Сварной каркас является основным силовым элементом башни. Представляет собой сборную сварную конструкцию, состоящую из узла подвеса, перемычек, труб, замыкающих пластин, основания, рамы центрального шкафа управления (ЦШУ), уголков гидростанции, тяг перемещения башни и опорных накладок.</para>
+<para>Узел подвеса предназначен для установки стержня подвеса или тензодатчика  и представляет собой сварную конструкцию, состоящую из проушин, усилительных колец и переходных пластин. На одну из проушин привариваются кронштейны для установки предохранительного штифта.</para>
+<para>Четыре трубы предназначены для соединения узла подвеса и основания башни в единую конструкцию, а также для крепления рамы ЦШУ. Трубы имеют квадратное сечение, по торцам труб привариваются замыкающие пластины, предотвращающие попадание влаги, грязи и мусора. Для придания дополнительной жесткости конструкции, используются две  перемычки. Перемычки привариваются к трубам в области узла подвеса.</para>
+<para>Основание предназначено для размещения гидравлического и электрического оборудования, а также для установки башни на подвижную платформу с помощью опор. Представляет собой сварную конструкцию, состоящую из продольных и поперечных балок, раскосов, уголков и соединительных пластин. Продольные балки имеют П-образную форму, обеспечивающую установку башни на подвижную платформу. В нижней части продольных балок предусмотрено крепление опор и опор скольжения <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="040" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="2" subSystemCode="1" systemCode="20" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>. На одной из продольных балок с  внешней стороны башни приваривается кронштейн крепления дальномера. В центральной части основания приварены уголки, на которые устанавливается гидравлическая станция.</para>
+<para>Рама ЦШУ предназначена для крепления центрального шкафа управления и установлена на одной из продольных балок основания с дополнительными точками крепления к трубам купола. Представляет собой сварную конструкцию, состоящую из восьми уголков разных размеров.</para>
+<para>Две тяги перемещения башни предназначены для крепления штоков гидроцилиндров управления положением башни и установлены на продольных балках основания. Тяги  представляют собой сварную конструкцию, состоящую из пластин, подкосов и проушин.</para>
+</levelledPara>
+<levelledPara>
+<title>Накладка опорная</title>
+<para>В конструкции башни предусмотрено четыре опорные накладки, предназначенные для установки башни на горизонтальную поверхность при ее снятии с подвижной платформы. Накладки устанавливаются на соединительные пластины в нижней части основания.</para>
+</levelledPara>
+<levelledPara>
+<title>Стержень подвеса</title>
+<para>Стержень предназначен для крепления крюка или других такелажных элементов подъемного устройства. Стержень соосно устанавливается в отверстия в узле подвеса сварного каркаса, фиксируется с помощью штифта со шплинтом. Опционально стержень может быть заменен тензодатчиком <dmRef>
+<dmRefIdent>
+<dmCode itemLocationCode="A" infoCodeVariant="A" infoCode="041" disassyCodeVariant="A" disassyCode="00" assyCode="00" subSubSystemCode="1" subSystemCode="9" systemCode="D2" systemDiffCode="A" modelIdentCode="MTPA"></dmCode>
+</dmRefIdent>
+</dmRef>.</para>
+</levelledPara>
+</levelledPara>
+<figure id="fig-001">
+<title>Башня</title>
+<graphic infoEntityIdent="ICN-MTPA-A-B01000-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-B01000-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm">
+<hotspot applicationStructureIdent="AUTOID_001" applicationStructureName="КАРКАС БАШНИ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_007" applicationStructureName="СТЕРЖЕНЬ ПОДВЕСА"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_002" applicationStructureName="ОПОРА СКОЛЬЖЕНИЯ"></hotspot>
+<hotspot applicationStructureIdent="AUTOID_006" applicationStructureName="ОПОРНАЯ НАКЛАДКА "></hotspot>
+<hotspot applicationStructureIdent="AUTOID_003" applicationStructureName="ОПОРА"></hotspot>
+</graphic>
+</figure>
+</description>
+</content>
+</dmodule>

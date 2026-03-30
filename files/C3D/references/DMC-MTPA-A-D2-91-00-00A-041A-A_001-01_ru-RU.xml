@@ -1,0 +1,542 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE dmodule [
+<!ENTITY ICN-MTPA-A-D29100-0-MDMKD-00003-A-001-01 SYSTEM "ICN-MTPA-A-D29100-0-MDMKD-00003-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-D29100-0-MDMKD-00002-A-001-01 SYSTEM "ICN-MTPA-A-D29100-0-MDMKD-00002-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-D29100-0-MDMKD-00001-A-001-01 SYSTEM "ICN-MTPA-A-D29100-0-MDMKD-00001-A-001-01.cgm" NDATA cgm>
+<!ENTITY ICN-MTPA-A-D29100-0-MDMKD-00004-A-001-01 SYSTEM "ICN-MTPA-A-D29100-0-MDMKD-00004-A-001-01.cgm" NDATA cgm>
+<!NOTATION cgm PUBLIC "-//USA-DOD//NOTATION Computer Graphics Metafile//EN">
+]>
+<dmodule xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:xlink="http://www.w3.org/1999/xlink">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="MTPA" systemDiffCode="A" systemCode="D2" subSystemCode="9" subSubSystemCode="1" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"></dmCode>
+<language countryIsoCode="RU" languageIsoCode="ru"></language>
+<issueInfo issueNumber="001" inWork="01"></issueInfo>
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2025" month="05" day="30"></issueDate>
+<dmTitle>
+<techName>Система контроля</techName>
+<infoName>Описание и работа</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01"></security>
+<responsiblePartnerCompany enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МКД</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="MDMKD">
+<enterpriseName>МОДУЛЬ МВД</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ВСЕ</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-S1000D-E-04-10-0301-00A-022A-D">
+<dmRefIdent>
+<dmCode modelIdentCode="S1000D" systemDiffCode="E" systemCode="04" subSystemCode="1" subSubSystemCode="0" assyCode="0301" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"></dmCode>
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified></unverified>
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<description>
+<levelledPara>
+<title>Общие сведения</title>
+<levelledPara>
+<title>Назначение</title>
+<para>Система контроля предназначена для контроля крайних положений башни и подвижной платформы, контроля работы замков и угла наклона траверсы относительно ее продольной и поперечной осей, а также для контроля массы фиксируемого модуля.</para>
+</levelledPara>
+<levelledPara>
+<title>Состав</title>
+<para>В состав системы контроля входят:<randomList>
+<listItem>
+<para>лазерный дальномер (9 шт.);</para>
+</listItem>
+<listItem>
+<para>датчик угла наклона (2 шт.);</para>
+</listItem>
+<listItem>
+<para>индуктивный датчик (20 шт.);</para>
+</listItem>
+<listItem>
+<para>тензодатчик (1 шт.).</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Технические характеристики</title>
+<para>Технические характеристики лазерного дальномера <internalRef internalRefId="tab-001" internalRefTargetType="irtt02" xlink:href="#tab-001"></internalRef>.</para>
+<table id="tab-001">
+<title>Технические характеристики лазерного дальномера</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Д×Ш×В), мм</para>
+</entry>
+<entry colname="col2">
+<para>52×42×59</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Габариты светового пятна (Д×Ш), мм, не более</para>
+</entry>
+<entry colname="col2">
+<para>15×15</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Дальность измерения, м</para>
+</entry>
+<entry colname="col2">
+<para>от 0,2 до 10</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочий температурный диапазон, °С</para>
+</entry>
+<entry colname="col2">
+<para>от -10 до +60</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Напряжение питания, В</para>
+</entry>
+<entry colname="col2">
+<para>от 18 до 30 DC</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемый ток, мА, не более</para>
+</entry>
+<entry colname="col2">
+<para>150</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг</para>
+</entry>
+<entry colname="col2">
+<para>0,2435</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Технические характеристики датчика угла наклона <internalRef internalRefId="tab-002" internalRefTargetType="irtt02" xlink:href="#tab-002"></internalRef>.</para>
+<table id="tab-002">
+<title>Технические характеристики датчика угла наклона</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Д×Ш×В), мм</para>
+</entry>
+<entry colname="col2">
+<para>90×62×33,2</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Диапазон измерений, °</para>
+</entry>
+<entry colname="col2">
+<para>± 180</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Предел основной погрешности измерений, °</para>
+</entry>
+<entry colname="col2">
+<para>± 0,5</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочий температурный диапазон, °С</para>
+</entry>
+<entry colname="col2">
+<para>от -40 до +85</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Напряжение питания, В</para>
+</entry>
+<entry colname="col2">
+<para>от 9,2 до 30 DC</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемый ток, мА, не более</para>
+</entry>
+<entry colname="col2">
+<para>330</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг</para>
+</entry>
+<entry colname="col2">
+<para>0,41</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Технические характеристики индуктивного датчика <internalRef internalRefId="tab-003" internalRefTargetType="irtt02" xlink:href="#tab-003"></internalRef>.</para>
+<table id="tab-003">
+<title>Технические характеристики индуктивного датчика</title>
+<tgroup cols="3" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<colspec colname="col3" colnum="3" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1" morerows="1">
+<para>Наименование параметра</para>
+</entry>
+<entry namest="col2" nameend="col3">
+<para>Значение</para>
+</entry>
+</row>
+<row>
+<entry colname="col2">
+<para>М8</para>
+</entry>
+<entry colname="col3">
+<para>М12</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Длина, мм</para>
+</entry>
+<entry colname="col2">
+<para>39</para>
+</entry>
+<entry colname="col3">
+<para>70</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Расстояние обнаружения, мм</para>
+</entry>
+<entry colname="col2">
+<para>4</para>
+</entry>
+<entry colname="col3">
+<para>9</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Предел основной погрешности измерений, %</para>
+</entry>
+<entry namest="col2" nameend="col3">
+<para>± 10</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочий температурный диапазон, °С</para>
+</entry>
+<entry colname="col2">
+<para>от -25 до +60</para>
+</entry>
+<entry colname="col3">
+<para>от -25 до +70</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Напряжение питания, В</para>
+</entry>
+<entry namest="col2" nameend="col3">
+<para>от 10 до 30 DC</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Потребляемый ток, мА, не более</para>
+</entry>
+<entry namest="col2" nameend="col3">
+<para>16</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Масса, кг, не более</para>
+</entry>
+<entry colname="col2">
+<para>0,085</para>
+</entry>
+<entry colname="col3">
+<para>0,095</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<para>Технические характеристики тензодатчика <internalRef internalRefId="tab-004" internalRefTargetType="irtt02" xlink:href="#tab-004"></internalRef>.</para>
+<table id="tab-004">
+<title>Технические характеристики тензодатчика</title>
+<tgroup cols="2" align="center">
+<colspec colnum="1" colname="col1" colwidth="1*"></colspec>
+<colspec colnum="2" colname="col2" colwidth="1*"></colspec>
+<thead>
+<row>
+<entry colname="col1">
+<para>Наименование параметра</para>
+</entry>
+<entry colname="col2">
+<para>Значение</para>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry colname="col1" align="left">
+<para>Габаритные размеры (Д×Ш×В), мм</para>
+</entry>
+<entry colname="col2">
+<para>358×100×3126</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Наибольший предел измерений, т</para>
+</entry>
+<entry colname="col2">
+<para>75</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Предел основной погрешности измерений, %</para>
+</entry>
+<entry colname="col2">
+<para>нет данных</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рабочий температурный диапазон, °С</para>
+</entry>
+<entry colname="col2">
+<para>от -40 до +40</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Рекомендуемое напряжение питания, В</para>
+</entry>
+<entry colname="col2">
+<para>от 7 до 12</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Максимальное напряжение питания, В</para>
+</entry>
+<entry colname="col2">
+<para>15</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Входное сопротивление, Ом</para>
+</entry>
+<entry colname="col2">
+<para>350 ± 2,0</para>
+</entry>
+</row>
+<row>
+<entry colname="col1" align="left">
+<para>Выходное сопротивление, Ом</para>
+</entry>
+<entry colname="col2">
+<para>350 ± 2,0</para>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Размещение компонентов</title>
+<para>Четыре лазерных дальномера установлены в замках (по одному в каждом), два — на больших телескопах (по одному на каждом), два — на центральной раме основания, <inlineSignificantData significantParaDataType="psd01">один —</inlineSignificantData> на башне.</para>
+<para>Индуктивные датчики устанавливаются в  корпусах замков, по пять в каждом.</para>
+<para>Датчики угла наклона установлены внутри  ШУ № 3. Тензодатчик устанавливается в узле подвеса башни.</para>
+</levelledPara>
+<levelledPara>
+<title>Описание</title>
+<para>Система контроля представляет собой набор лазерных дальномеров, датчиков угла наклона, индуктивных датчиков и тензодатчика, соединенных с помощью электрических жгутов с контроллером.</para>
+<levelledPara>
+<title>Лазерный дальномер</title>
+<para>
+<internalRef internalRefId="fig-001" internalRefTargetType="irtt01" xlink:href="#fig-001"></internalRef>
+</para>
+<para> Лазерный дальномер предназначен для измерения расстояния до объекта, расположенного перед ним. На траверсе с помощью данных датчиков определяется текущее расположение башни, подвижной платформы, больших и малых  телескопов, а также расстояние до фиксируемого модуля. Лазерный дальномер представляет собой изделие, выполненное в пыле-влагозащищенном корпусе IP67. Датчик имеет окно для излучения и приема сигнала. Устанавливается на кронштейн с помощью винтового соединения. Лазерный дальномер имеет разъем для подключения электрического жгута.</para>
+<figure id="fig-001">
+<title>Лазерный дальномер</title>
+<graphic infoEntityIdent="ICN-MTPA-A-D29100-0-MDMKD-00003-A-001-01" xlink:href="ICN-MTPA-A-D29100-0-MDMKD-00003-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-001-gra-001">
+<hotspot id="fig-001-gra-001-hot-001" applicationStructureIdent="AUTOID_053" applicationStructureName="КНОПКА"></hotspot>
+<hotspot id="fig-001-gra-001-hot-002" applicationStructureIdent="AUTOID_011" applicationStructureName="ДИСПЛЕЙ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-003" applicationStructureIdent="AUTOID_013" applicationStructureName="ЛАЗЕРНЫЙ ЛУЧ"></hotspot>
+<hotspot id="fig-001-gra-001-hot-004" applicationStructureIdent="AUTOID_012" applicationStructureName="РАЗЪЁМ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Датчик угла наклона</title>
+<para>
+<internalRef internalRefId="fig-002" internalRefTargetType="irtt01" xlink:href="#fig-002"></internalRef>
+</para>
+<para>Датчик угла наклона предназначен для измерения угла наклона траверсы относительно ее продольной и поперечной осей, представляет собой изделие, выполненное в пыле-влагозащищенном корпусе IP68. Устанавливается на кронштейн с помощью винтового соединения. Датчик имеет два разъема для подключения электрических жгутов.</para>
+<figure id="fig-002">
+<title>Датчик угла наклона</title>
+<graphic infoEntityIdent="ICN-MTPA-A-D29100-0-MDMKD-00002-A-001-01" xlink:href="ICN-MTPA-A-D29100-0-MDMKD-00002-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-002-gra-001">
+<hotspot id="fig-002-gra-001-hot-001" applicationStructureIdent="AUTOID_053" applicationStructureName="ДАТЧИК УГЛА НАКЛОНА"></hotspot>
+<hotspot id="fig-002-gra-001-hot-002" applicationStructureIdent="AUTOID_073" applicationStructureName="РАЗЪЁМ"></hotspot>
+<hotspot id="fig-002-gra-001-hot-003" applicationStructureIdent="AUTOID_013" applicationStructureName="РАСПРЕДЕЛИТЕЛЬНОЕ УСТРОЙСТВО № 3"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Индуктивный датчик</title>
+<para>
+<internalRef internalRefId="fig-003" internalRefTargetType="irtt01" xlink:href="#fig-003"></internalRef>
+</para>
+<para>Индуктивный датчик предназначен для бесконтактного обнаружения объекта на заданном расстоянии, представляет собой изделие
+цилиндрической формы с резьбой, выполненное в пыле-влагозащищенном корпусе
+IP67. Датчик вкручивается внутрь каркаса замка с помощью нанесенной на его корпус резьбы. На одном торце датчика имеется чувствительная поверхность, выполненная из
+полибутилентерефталата, на другом торце имеется разъем для подключения
+электрического жгута.</para>
+<figure id="fig-003">
+<title>Индуктивный датчик</title>
+<graphic infoEntityIdent="ICN-MTPA-A-D29100-0-MDMKD-00001-A-001-01" xlink:href="ICN-MTPA-A-D29100-0-MDMKD-00001-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-003-gra-001">
+<hotspot id="fig-003-gra-001-hot-001" applicationStructureIdent="AUTOID_011" applicationStructureName="КАРКАС ЗАМКА"></hotspot>
+<hotspot id="fig-003-gra-001-hot-002" applicationStructureIdent="AUTOID_066" applicationStructureName="КАРКАС ЗАМКА"></hotspot>
+<hotspot id="fig-003-gra-001-hot-003" applicationStructureIdent="AUTOID_062" applicationStructureName="ИНДУКТИВНЫЙ ДАТЧИК М8"></hotspot>
+<hotspot id="fig-003-gra-001-hot-004" applicationStructureIdent="AUTOID_063" applicationStructureName="ИНДУКТИВНЫЙ ДАТЧИК М8"></hotspot>
+<hotspot id="fig-003-gra-001-hot-005" applicationStructureIdent="AUTOID_064" applicationStructureName="ИНДУКТИВНЫЙ ДАТЧИК М12"></hotspot>
+<hotspot id="fig-003-gra-001-hot-006" applicationStructureIdent="AUTOID_021" applicationStructureName="ВИЛКА"></hotspot>
+<hotspot id="fig-003-gra-001-hot-007" applicationStructureIdent="AUTOID_012" applicationStructureName="ЗАМОК"></hotspot>
+<hotspot id="fig-003-gra-001-hot-008" applicationStructureIdent="AUTOID_017" applicationStructureName="ИНДУКТИВНЫЙ ДАТЧИК"></hotspot>
+<hotspot id="fig-003-gra-001-hot-009" applicationStructureIdent="AUTOID_019" applicationStructureName="ВИЛКА"></hotspot>
+<hotspot id="fig-003-gra-001-hot-010" applicationStructureIdent="AUTOID_058" applicationStructureName="РАЗЪЁМ"></hotspot>
+<hotspot id="fig-003-gra-001-hot-011" applicationStructureIdent="AUTOID_059" applicationStructureName="ЖГУТ"></hotspot>
+<hotspot id="fig-003-gra-001-hot-012" applicationStructureIdent="AUTOID_016" applicationStructureName="РАССТОЯНИЕ СРАБАТЫВАНИЯ"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+<levelledPara>
+<title>Тензодатчик</title>
+<para>
+<internalRef internalRefId="fig-004" internalRefTargetType="irtt01" xlink:href="#fig-004"></internalRef>
+</para>
+<para>Тензодатчик предназначен для контроля массы всей системы, состоящей из траверсы и фиксируемого модуля. Представляет собой изделие
+цилиндрической формы, выполненное в пыле-влагозащищенном корпусе
+IP67. Датчик устанавливается в узел подвеса башни.</para>
+<figure id="fig-004">
+<title>Тензодатчик</title>
+<graphic infoEntityIdent="ICN-MTPA-A-D29100-0-MDMKD-00004-A-001-01" xlink:href="ICN-MTPA-A-D29100-0-MDMKD-00004-A-001-01.cgm" reproductionHeight="210mm" reproductionWidth="170mm" id="fig-004-gra-001">
+<hotspot id="fig-004-gra-001-hot-001" applicationStructureIdent="AUTOID_003" applicationStructureName="РАЗЪЕМ"></hotspot>
+<hotspot id="fig-004-gra-001-hot-002" applicationStructureIdent="AUTOID_004" applicationStructureName="ФИКСАТОР"></hotspot>
+<hotspot id="fig-004-gra-001-hot-003" applicationStructureIdent="AUTOID_009" applicationStructureName="ГАЙКА"></hotspot>
+<hotspot id="fig-004-gra-001-hot-004" applicationStructureIdent="AUTOID_011" applicationStructureName="ШАЙБА"></hotspot>
+<hotspot id="fig-004-gra-001-hot-005" applicationStructureIdent="AUTOID_010" applicationStructureName="ШПИЛЬКА"></hotspot>
+<hotspot id="fig-004-gra-001-hot-006" applicationStructureIdent="AUTOID_007" applicationStructureName="ВТУЛКА"></hotspot>
+<hotspot id="fig-004-gra-001-hot-007" applicationStructureIdent="AUTOID_005" applicationStructureName="УЗЕЛ ПОДВЕСА"></hotspot>
+<hotspot id="fig-004-gra-001-hot-008" applicationStructureIdent="AUTOID_008" applicationStructureName="СИЛА"></hotspot>
+<hotspot id="fig-004-gra-001-hot-009" applicationStructureIdent="AUTOID_006" applicationStructureName="ТЕНЗОДАТЧИК"></hotspot>
+</graphic>
+</figure>
+</levelledPara>
+</levelledPara>
+<levelledPara>
+<title>Работа</title>
+<levelledPara>
+<title>Лазерный дальномер</title>
+<para>Принцип работы лазерного дальномера заключается в следующем: лазерный излучатель дальномера посылает световой импульс, который направляется на объект, до которого измеряется расстояние. Световой импульс отражается от объекта и возвращается к датчику, который фиксирует время возврата. Данное время используется для вычисления расстояния между дальномером и объектом на основе скорости света.</para>
+</levelledPara>
+<levelledPara>
+<title>Датчик угла наклона</title>
+<para>Принцип работы датчика угла наклона заключается в следующем: в корпусе датчика находится подвешенная инертная масса, при наклоне траверсы она  изменяет своё положение относительно боковых электродов за счёт действия силы тяжести, что приводит к изменению электрических емкостей. Изменение емкостей преобразуется в цифровой сигнал, который поступает на контроллер. Контроллер выдает управляющий сигнал, направленный на предупреждение выхода траверсы за заданные углы отклонения.</para>
+<para>На траверсе установлено два датчика угла наклона, один является основным измерительным прибором, второй — резервирующим.</para>
+</levelledPara>
+<levelledPara>
+<title>Индуктивный датчик</title>
+<para>Принцип работы индуктивного датчика заключается в следующем: при появлении
+объекта на расстоянии срабатывания, датчик выдает
+соответствующий сигнал на контроллер. Контроллер выдает сигнал,
+информирующий о текущем расположении элемента.</para>
+<para>На траверсе установлено двенадцать датчиков М8 и восемь датчиков М12. В корпус каждого замка устанавливается пять датчиков:<randomList>
+<listItem>
+<para>два датчика М8 предназначены для контроля открытого положения;</para>
+</listItem>
+<listItem>
+<para>один датчик М8 предназначен для контроля такелажного элемента модуля;</para>
+</listItem>
+<listItem>
+<para>два датчика М12 предназначенны для контроля закрытого положения.</para>
+</listItem>
+</randomList>
+</para>
+</levelledPara>
+<levelledPara>
+<title>Тензодатчик</title>
+<para>Принцип работы тензодатчика заключается в следующем: при механической деформации тензодатчика вследствие приложения нагрузки изменяется электрическое сопротивление тензорезистора, корелирующееся с массой подвешиваемого груза. Изменение сопротивления проеобразуется мостом Уистона в измеряемый сигнал, поступающий на контроллер.</para>
+</levelledPara>
+</levelledPara>
+</description>
+</content>
+</dmodule>

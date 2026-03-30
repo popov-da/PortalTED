@@ -1,0 +1,34 @@
+@charset "utf-8";
+/*
+    ata2200.less
+*/
+:root {
+  --label-ipd: 'CATALOGUE DE PIÈCES ILLUSTRÉES';
+  --label-effect: "EFFECTIVITÉ";
+  --label-effect-all: "Tout";
+  --label-intro: "INTRO";
+  --label-sb-list: "LISTE SB";
+  --label-page: "Page";
+  --label-dpl-tfoot: "- OBJET NON ILLUSTRÉ";
+  --label-january: "Jan";
+  --label-february: "Fév";
+  --label-march: "Mar";
+  --label-april: "Avr";
+  --label-may: "Mai";
+  --label-june: "Jun";
+  --label-july: "Jul";
+  --label-august: "Aoû";
+  --label-september: "Sep";
+  --label-october: "Oct";
+  --label-november: "Nov";
+  --label-december: "Déc";
+  --label-blankPageCenter: "LAISSÉ BLANC VOLONTAIREMENT";
+  --label-figure: "Figure";
+  --label-sheet: "Feuille";
+  --label-task: "TÂCHE";
+  --label-subtask: "SOUS-TÂCHE";
+  --label-warning: "AVERTISSEMENT";
+  --label-caution: "ATTENTION";
+  --label-note: "NOTE";
+  --label-ColonSymbol: ":";
+}

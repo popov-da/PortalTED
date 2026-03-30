@@ -137,7 +137,7 @@ function showMTPADocs() {
   document.getElementById('MTPASection').style.display = 'block'; // Отображаем раздел Большой траверсы
   document.getElementById('MTPASection2').style.display = 'block'; // Отображаем раздел Большой траверсы
   document
-    .querySelectorAll('.skin-tree:not(#MTPASection)') // Получаем все элементы с классом .file-item, которые не содержат MTPASection
+    .querySelectorAll('.skin-tree:not(#MTPASection):not(#IETP-docs)') // Получаем все элементы с классом .file-item, которые не содержат MTPASection
     .forEach(section => section.style.display = 'none'); // Скрываем все остальные разделы
 }
 
@@ -169,7 +169,7 @@ function showMTPMDocs() {
   hideStartPage(); // Скрываем стартовую страницу
   document.getElementById('selectMessage').style.display = 'flex'; // Показываем сообщение о выборе раздела
   document.getElementById('EducateSection').style.display = 'block'; // Отображаем секцию 'EducateSection'
-  document.getElementById('MTPMSection').style.display = 'block'; // Отображаем секцию 'MTPMSection'
+  document.getElementById('IETPSection').style.display = 'block'; // Отображаем секцию 'MTPMSection'
   // Скрываем все остальные секции, кроме 'EducateSection' и 'MTPMSection'
   document
     .querySelectorAll('.skin-tree:not(#EducateSection):not(#MTPMSection)')

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Схема (локально)</title>
+        <script src="schemio-standalone.js"></script>
+        <link rel="stylesheet" href="schemio-standalone.css"/>
+        <link rel="stylesheet" href="syntax-highlight.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.35/dist/katex.min.css" integrity="sha384-ivqLDFtpksa5L56BboxjwC/qznRo3Q35PPE7eBNewaOjoz7DkLeeLQjB1iqwDS2G" crossorigin="anonymous">
+        <style>
+            html, body {
+                margin: 0;
+                height: 100%;
+            }
+            .app-container {
+                text-align: center;
+            }
+            .ssc-container {
+                display: inline-block;
+            }
+            #app {
+                box-sizing: border-box;
+                height: 100vh;
+                min-height: 320px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="app">loading</div>
+        <script>
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    schemioViewScheme('#app', JSON.parse(this.responseText), {
+                        sidePanelWidth  : 400,
+                        title           : '',
+                        zoom            : 100,
+                        autoZoom        : true,
+                        useMouseWheel   : true,
+                        homeLink        : 'https://schem.io',
+                        linkColor       : '#b0d8f5',
+                        headerBackground: '#555',
+                        headerColor     : '#f0f0f0',
+                        headerEnabled   : true,
+                        zoomButton      : true,
+                        zoomInput       : true,
+                    });
+                }
+            };
+
+            xhttp.open('GET', 'scheme.json', true);
+            xhttp.send();
+        </script>
+    </body>
+</html>

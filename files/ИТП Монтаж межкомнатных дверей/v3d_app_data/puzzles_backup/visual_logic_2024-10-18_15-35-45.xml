@@ -1,0 +1,187 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="49.99999999999966" scrolly="115.77018737792963" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="2[,$=K/W)ibdY`B;0oMe">animation_paused</variable>
+      <variable id="IJfs;d/A#IdSvHJ]rgat">play</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id=")N5v?q|0H`i0!2wbgf`5" x="230" y="10">
+      <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+      <value name="VALUE">
+        <block type="logic_boolean" id="dQ0n+Uf:b7B@=$1(aes]">
+          <field name="BOOL">FALSE</field>
+        </block>
+      </value>
+      <next>
+        <block type="variables_set" id="0c-[/!umwW2.b(Tsx#PK">
+          <field name="VAR" id="IJfs;d/A#IdSvHJ]rgat">play</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="%p{35eQf.QJ`ByY}(4RT">
+              <field name="BOOL">FALSE</field>
+            </block>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="=Sl(_t+0Zm5G)*_+v#ks" x="230" y="150">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="l6C:e@C3AN!Q(nn%mh[K">
+          <field name="TEXT">stopAnimation</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="stopAnimation" id="@u+ogTa)LDjN}rAnAP%:">
+          <value name="VALUE">
+            <shadow type="animationList" id="{h`HKx$duW[Ld9s74J0L">
+              <field name="FIELDNAME">Cube</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="variables_set" id="vxc0bC87FULb4UB5O|fj">
+              <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+              <value name="VALUE">
+                <block type="logic_boolean" id="z$sR*)~L.EyHkGiJTQN6">
+                  <field name="BOOL">FALSE</field>
+                </block>
+              </value>
+              <next>
+                <block type="removeHTMLElement" id="q#*bT@PG9acoEL?Wdh[?">
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <shadow type="text" id="rN)aCS-@%i*#^LpYb3k;">
+                      <field name="TEXT">stopAnimation</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="eTWMx:|N:h$`,)r6!Ee=">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id="5Eh|ffbMwSeARET2bwl7">
+              <field name="TEXT">pauseAnimation</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="pauseAnimation" id="@nR_~~yEx5vmEToCRlKK">
+              <value name="VALUE">
+                <shadow type="animationList" id="7Xou:Ks;A.gqaIQ/$54s">
+                  <field name="FIELDNAME">Cube</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="variables_set" id=";YscZasg)w70s/2YL58]">
+                  <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+                  <value name="VALUE">
+                    <block type="logic_boolean" id="Vd8)uvyx.ep-Bg5JHMe5">
+                      <field name="BOOL">TRUE</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="removeHTMLElement" id="U9S;R=f+ZZBkgV)7d0o7">
+                      <field name="PARENT">TRUE</field>
+                      <value name="ID">
+                        <shadow type="text" id="={Hrsq1pFF3Cg[^~3WOX">
+                          <field name="TEXT">pauseAnimation</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id=",2zals9e9Bh2gd@c`9xt">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="5K_+BH/b)281#:Vpy_+$">
+                  <field name="TEXT">playAnimation</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="controls_ifelse" id="wFDUt_dY`5+OvsPU~LmM">
+                  <value name="IF0">
+                    <block type="logic_compare" id="~Y]Qq-VC[lO[P~a_c?Dq">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="fZE-3Pb|Su0gip%h[MDL">
+                          <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="logic_boolean" id="^F8;c~-Wy=-|pUDw_0ie">
+                          <field name="BOOL">TRUE</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="resumeAnimation" id="2g*@PnbN@VD_1/R))#Wm">
+                      <value name="VALUE">
+                        <shadow type="animationList" id="hU(vJA/U9M1NwPGc)nC+">
+                          <field name="FIELDNAME">Cube</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="variables_set" id="$M(4;GUdAijbN+4#_rG2">
+                          <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+                          <value name="VALUE">
+                            <block type="logic_boolean" id="tHJ*xi.b~n728lW{/!~C">
+                              <field name="BOOL">FALSE</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="removeHTMLElement" id="m882tb1f:_Aw:tON^=q*">
+                              <field name="PARENT">TRUE</field>
+                              <value name="ID">
+                                <shadow type="text" id="TmJ)U$@jQlvlN+_BM~Ib">
+                                  <field name="TEXT">playAnimation</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <statement name="ELSE">
+                    <block type="playAnimationAdv" id="ZqW17T8Qo?}kD|_.Wbr;">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">AUTO</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="sO-7lIE#ghl=yV(^)@qQ">
+                          <field name="FIELDNAME">Cube</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="removeHTMLElement" id="rdjGkfzGq!rwj?s?kcfN">
+                          <field name="PARENT">TRUE</field>
+                          <value name="ID">
+                            <shadow type="text" id="r-Q{My9CMRm.KK|Np1h!">
+                              <field name="TEXT">playAnimation</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="37" viewport-w="768" viewport-h="476.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

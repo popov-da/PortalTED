@@ -1,0 +1,64 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="2.2737367544323206e-13" scrolly="156.7701873779297" scale="1">
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="=Sl(_t+0Zm5G)*_+v#ks" x="270" y="90">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="l6C:e@C3AN!Q(nn%mh[K">
+          <field name="TEXT">stopAnimation</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="stopAnimation" id="@u+ogTa)LDjN}rAnAP%:">
+          <value name="VALUE">
+            <shadow type="animationList" id="{h`HKx$duW[Ld9s74J0L">
+              <field name="FIELDNAME">Cube</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="eTWMx:|N:h$`,)r6!Ee=">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id="5Eh|ffbMwSeARET2bwl7">
+              <field name="TEXT">pauseAnimation</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="pauseAnimation" id="@nR_~~yEx5vmEToCRlKK">
+              <value name="VALUE">
+                <shadow type="animationList" id="7Xou:Ks;A.gqaIQ/$54s">
+                  <field name="FIELDNAME">Cube</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id=",2zals9e9Bh2gd@c`9xt">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="5K_+BH/b)281#:Vpy_+$">
+                  <field name="TEXT">playAnimation</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="resumeAnimation" id="`93VN,/E2^8)w[#-JM^.">
+                  <value name="VALUE">
+                    <shadow type="animationList" id="W,O(NNZWkk*1$$2e!Pp^">
+                      <field name="FIELDNAME">Cube</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="37" viewport-w="768" viewport-h="476.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

@@ -20,6 +20,9 @@ body {
 }
 /* Контентная область (80% ширины, переходы для анимации) */
 .content-area {
+  display: flex; /* Колонка: старт / выбор / блок с iframe+video */
+  flex-direction: column;
+  min-height: 0; /* Чтобы flex-дети могли сжиматься и медиа занимало высоту */
   padding: 0; /* Убираем внутренние отступы */
   position: relative; /* Относительное позиционирование */
   transition: width 0.3s ease; /* Плавная анимация изменения ширины */
@@ -271,13 +274,62 @@ h2 {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg'); /* Иконка PDF */
 }
 .verge3d-link .icon.verge3d {
-  background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Verge3D_logo.png/237px-Verge3D_logo.png'); /* Иконка Verge3D */
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/b/b3/Verge3D_logo.png'); /* Иконка Verge3D */
 }
-iframe {
+/* Блок под iframe + video (растягивается на оставшуюся высоту панели) */
+.content-media-stack {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-height: 0;
+  width: 100%;
+}
+.content-media-stack iframe {
   border: none; /* Без рамки */
   box-shadow: 0 0 1vh rgba(0, 0, 0, 0.1); /* Легкая тень */
-  height: 100%; /* Высота 100% родителя */
-  width: 100%; /* Ширина 100% родителя */
+  flex: 1 1 auto;
+  min-height: 0;
+  width: 100%;
+}
+/* Панель для внешних встраиваний (V3D, schem.io и т.д.) */
+.embed-toolbar {
+  align-items: center;
+  background: #e8eef8;
+  border-bottom: 0.1vh solid #c5d0e0;
+  box-sizing: border-box;
+  color: #1a2744;
+  flex: 0 0 auto;
+  font-size: 1.1vh;
+  gap: 1.2vh;
+  justify-content: space-between;
+  line-height: 1.35;
+  padding: 0.6vh 1vh;
+  width: 100%;
+}
+.embed-toolbar-hint {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.embed-toolbar-link {
+  color: #3152ba;
+  flex: 0 0 auto;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.embed-toolbar-link:hover {
+  text-decoration: underline;
+}
+/* Локальные ролики: нативный video вместо iframe */
+.content-media-stack .content-video {
+  background: #000; /* Поля при object-fit: contain */
+  border: none;
+  box-shadow: 0 0 1vh rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  min-height: 0;
+  object-fit: contain;
+  width: 100%;
 }
 /* Индикатор загрузки */
 .loading {
@@ -304,9 +356,10 @@ iframe {
   background-color: rgba(244, 246, 248, 0.9); /* Светлый полупрозрачный фон */
   color: #333; /* Цвет текста */
   display: flex; /* Флекс-контейнер */
+  flex: 1 1 auto; /* Занимает панель в колонке .content-area */
   flex-direction: column; /* Средний размер шрифта */
-  height: 100%; /* Полная высота */
   justify-content: center; /* Выравнивание по центру по горизонтали */
+  min-height: 0;
   text-align: center; /* Текст по центру */
   width: 100%; /* Полная ширина */
   z-index: 5; /* Поверх прочих элементов */
@@ -419,10 +472,11 @@ iframe {
   background-color: rgba(255, 255, 255, 0.95); /* Светлый полупрозрачный фон */
   color: #333; /* Тёмно-серый цвет */
   display: none; /* Изначально скрыто */
+  flex: 1 1 auto;
   flex-direction: column; /* Располагаем элементы в столбик */
   font-size: 1.6vh; /* Средний размер шрифта */
-  height: 100%; /* На всю высоту */
   justify-content: center; /* По горизонтали по центру */
+  min-height: 0;
   text-align: center; /* Текст по центру */
   width: 100%; /* На всю ширину */
 }

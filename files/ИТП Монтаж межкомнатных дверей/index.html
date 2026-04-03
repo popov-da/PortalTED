@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Монтаж межкомнатных дверей</title>
+<!-- Подключение шрифта Inter -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- Подключение скриптов Verge3D --> 
+<script src="v3d.js"></script> 
+<script src="ИТП Монтаж межкомнатных дверей.js"></script> <!-- Ваш файл приложения --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+<style>
+/* Общие стили */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+.tech-card-container {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px; /* Добавлен внутренний отступ для таблицы */
+}
+/* Стили для таблицы с информацией */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Отступ между таблицей и вкладками */
+}
+.info-table th, .info-table td {
+    text-align: left;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+.info-table th {
+    width: 200px;
+    background-color: #f4f2f0;
+    font-weight: bold;
+}
+/* Стили для заголовков вкладок */
+.tabs-header {
+    display: flex;
+    width: 100%;
+    background-color: #131A22;
+    border-radius: 4px 4px 0 0; /* Закругление верхних углов */
+    overflow: hidden; /* Чтобы закругление отображалось корректно */
+}
+.tab-button {
+    flex: 1;
+    padding: 15px;
+    background: none;
+    border: none;
+    border-right: 1px solid #4e5359;
+    color: #ecf0f1;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.tab-button:last-child {
+    border-right: none;
+}
+.tab-button:hover {
+    background-color: #4e5359;
+}
+.tab-button.active {
+    background-color: #3152BA;
+    color: #fff;
+    font-weight: bold;
+}
+/* Стили для содержимого вкладок */
+.tabs-content {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+.tab-content.active {
+    display: block;
+}
+#my_iframe {
+    height: 100%;
+}
+#stopAnimation, #pauseAnimation {
+    display: none;
+}
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+.tabs-header {
+    flex-direction: column;
+}
+.tab-button {
+    border-right: none;
+    border-bottom: 1px solid #34495E;
+}
+.tab-button:last-child {
+    border-bottom: none;
+}
+}
+/* Дополнительные стили для контента */
+.tab-content h2 {
+    margin-bottom: 15px;
+    color: #2C3E50;
+}
+.tab-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #34495E;
+}
+.tab-content ul, .tab-content ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.tab-content li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+/* Дополнительные стили для новой вкладки "Работа" */
+.skin-container {
+    font-family: 'Arial', sans-serif;
+    color: #34495E;
+}
+.skin-tree {
+    list-style: none;
+    padding-left: 0;
+}
+.skin-tree-item {
+    margin-bottom: 10px;
+}
+.skin-tree-item-button {
+    width: 20px;
+    height: 20px;
+    background-color: #3152BA;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.content {
+    display: flex;
+    align-items: flex-start; /* Изменено для лучшего отображения многострочного содержимого */
+}
+.task-number {
+    width: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.step {
+    margin-left: 10px; /* Уменьшен отступ для компактности */
+}
+.skin-text {
+    margin-bottom: 5px;
+}
+.rwi-doc-title {
+    font-weight: bold;
+}
+.rwi-doc-step {
+    margin-left: 20px;
+}
+.xref {
+    margin-right: 10px;
+    color: #3498db;
+    cursor: help;
+}
+.xref.disabled {
+    color: #929292;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+/* Hover и кликабельные элементы */
+.hoverable:hover {
+    background-color: #f0f0f0;
+}
+.clickable {
+    cursor: pointer;
+}
+/* Левый блок с документом */
+#left-panel {
+    width: 40%; /* Ширина левого панели */
+    background-color: #f5f5f5;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+/* Центральный блок с 3D сценой */
+#main-content {
+    width: 75%; /* Ширина центрального блока */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+/* Контейнер для 3D сцены */
+#container {
+    flex: 1;
+    position: relative;
+}
+/* Нижний блок с кнопками */
+#bottom-controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+        /* Стили для скролла в левом блоке */
+        #left-panel::-webkit-scrollbar {
+width: 8px;
+}
+#left-panel::-webkit-scrollbar-thumb {
+background-color: #cccccc;
+border-radius: 4px;
+}
+.control-panel {
+    position: fixed;
+    bottom: 30px;
+    left: 45%;
+    transform: translateX(-10%);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    right: 0%;
+}
+.control-panel button {
+    background: none;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+.control-panel button img {
+    width: 60px;
+    height: 60px;
+}
+.progress-slider {
+    width: 100%;
+    margin: 0 20px;
+}
+.progress-slider input[type="range"] {
+    width: 100%;
+}
+#alert-box {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #3152BA;
+    color: #D5CDC3;
+    font-size: 24px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.step {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #F4F4F4;
+    border: 1px solid #858D98;
+    border-radius: 5px;
+}
+.task-list {
+    padding: 0;
+}
+.task-list div {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.task-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+.completed {
+    text-decoration: line-through;
+    color: #3152BA;
+}
+/* Стили всплывающего окна */
+#actModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1001; /* Увеличьте значение для приоритета отображения */
+}
+#actForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #F4F4F4; /* Белый цвет текста */
+    background-color: #131A22; /* Синий фон */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругленные углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Плавный переход */
+}
+button:hover {
+    background-color: #4e5359; /* Темно-синий цвет при наведении */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Слегка усиливаем тень */
+}
+button:active {
+    background-color: #3152BA; /* Ещё более тёмный цвет при клике */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Уменьшение тени при клике */
+    transform: translateY(2px); /* Легкий эффект нажатия */
+}
+</style>
+</head>
+<body>
+<!-- Левый блок с документом -->
+<div id="left-panel">
+  <div class="tech-card-container"> 
+    <!-- Таблица с информацией -->
+    <table class="info-table">
+      <tr>
+        <th>Код работы:</th>
+        <td>MDMKD-STK-0001</td>
+      </tr>
+      <tr>
+        <th>Заголовок:</th>
+        <td>Монтаж межкомнатных дверей</td>
+      </tr>
+      <tr>
+        <th>Роль:</th>
+        <td>Слесарь-сборщик</td>
+      </tr>
+      <tr>
+        <th>Ревизия:</th>
+        <td>001</td>
+      </tr>
+      <tr>
+        <th>Ожидаемое время:</th>
+        <td>4 ч</td>
+      </tr>
+    </table>
+    
+    <!-- Заголовки вкладок -->
+    <div class="tabs-header" role="tablist">
+      <button class="tab-button active" role="tab" aria-selected="true" aria-controls="section1" id="tab1-button">Предусловие</button>
+      <button class="tab-button" role="tab" aria-selected="false" aria-controls="section2" id="tab2-button">Спецификация</button>
+      <button class="tab-button" role="tab" aria-selected="false" aria-controls="section3" id="tab3-button">Работа</button>
+      <button class="tab-button" role="tab" aria-selected="false" aria-controls="section4" id="tab4-button">Проверка</button>
+    </div>
+    
+    <!-- Содержание вкладок -->
+    <div class="tabs-content"> 
+      <!-- Вкладка Предусловие -->
+      <div class="tab-content active" role="tabpanel" id="section1" aria-labelledby="tab1-button">
+        <p>Монтаж межкомнатных дверей выполняется на посту №6 финишной сборки. Все операции выполняются со строгим соблюдением требований соответствующих инструкций по охране труда (ИОТ №1 “При работе с электрифицированным инструментом”, ИОТ №5 “При работе на циркулярной пиле”, ИОТ №15 “Для слесаря МСР”) и обязательным использованием положенных по нормам, утверждённых на ООО “Модуль МКД”, спецодежде, спецобуви и других средств индивидуальной защиты.</p>
+      </div>
+      <div class="tab-content" role="tabpanel" id="section4" aria-labelledby="tab4-button">
+        <div class="step">
+          <h2>1. Подготовка к проверке</h2>
+          <div class="task-list">
+            <div>
+              <input type="checkbox">
+              Все работы по установке двери завершены.</div>
+            <div>
+              <input type="checkbox">
+              Место установки двери чистое, без строительного мусора или остатков материалов.</div>
+          </div>
+        </div>
+        <div class="step">
+          <h2>2. Визуальная проверка</h2>
+          <div class="task-list">
+            <div>
+              <input type="checkbox">
+              Отсутствуют дефекты на дверном блоке (царапины, вмятины, сколы).</div>
+            <div>
+              <input type="checkbox">
+              Дверное полотно плотно прилегает к коробке, без зазоров.</div>
+            <div>
+              <input type="checkbox">
+              Качество уплотнителей хорошее, обеспечена герметичность примыкания двери.</div>
+            <div>
+              <input type="checkbox">
+              Вся фурнитура установлена ровно, без перекосов и на предусмотренных местах.</div>
+          </div>
+        </div>
+        <div class="step">
+          <h2>3. Проверка правильности установки</h2>
+          <div class="task-list">
+            <div>
+              <input type="checkbox">
+              Вертикальное и горизонтальное положение дверного соответствует норме.</div>
+            <div>
+              <input type="checkbox">
+              Углы каркаса соответствуют 90 градусам.</div>
+          </div>
+        </div>
+        <div class="step">
+          <h2>4. Функциональная проверка</h2>
+          <div class="task-list">
+            <div>
+              <input type="checkbox">
+              Дверь легко и плавно открывается и закрывается.</div>
+            <div>
+              <input type="checkbox">
+              Механизмы замков, защелок и петель функционируют корректно.</div>
+            <div>
+              <input type="checkbox">
+              Дверь фиксируется в закрытом положении без усилий.</div>
+          </div>
+        </div>
+        <div class="step">
+          <h2>5. Оформление документации</h2>
+          <div class="task-list">
+            <div>
+              <input type="checkbox">
+              Результаты проверки зафиксированы в акте приемки выполненных работ.</div>
+          </div>
+        </div>
+        <div class="button-container">
+          <button onclick="openActForm(); setActDetails();">Заполнить акт</button>
+        </div>
+        
+        <!-- Всплывающее окно с формой акта -->
+        <div id="actModal">
+          <div id="actForm">
+            <h2 style="text-align: center;"> АКТ брака № <span id="act-number"></span> от <span id="act-date"></span> </h2>
+            <p><strong>Место выявления:</strong>
+              <input type="text" id="location" placeholder="Введите место">
+            </p>
+            <h3>Комиссия в составе:</h3>
+            <table>
+              <tr>
+                <th>Должность</th>
+                <th>ФИО</th>
+              </tr>
+              <tr>
+                <td><select id="position1">
+                    <option value="">Выберите должность</option>
+                    <option>Представитель ООО "Модуль МКД"</option>
+                    <option>Менеджер производства</option>
+                    <option>Инженер контроля качества</option>
+                  </select></td>
+                <td><input type="text" id="name1" placeholder="Введите ФИО"></td>
+              </tr>
+            </table>
+            <h3>Описание брака/дефекта:</h3>
+            <table>
+              <tr>
+                <th>№ п/п</th>
+                <th>Несоответствие</th>
+              </tr>
+              <tbody id="defect-list">
+              </tbody>
+            </table>
+            <h3>Заключение: детали / узлы подлежат (нужное отметить галочкой):</h3>
+            <div class="checkbox-container">
+              <label>
+                <input type="checkbox" id="option1">
+                списанию с материально-ответственных лиц</label>
+              <label>
+                <input type="checkbox" id="option2">
+                изоляции до уточнения</label>
+              <label>
+                <input type="checkbox" id="option3">
+                иное:</label>
+              <input type="text" id="otherText" placeholder="Введите текст">
+            </div>
+            <div class="button-container">
+              <button onclick="generatePDF()">Отправить</button>
+              <button onclick="closeActForm()">Закрыть</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Вкладка Спецификация -->
+      <div class="tab-content" role="tabpanel" id="section2" aria-labelledby="tab2-button">
+        <table class="info-table" >
+          <thead>
+            <tr>
+              <th>Наименование</th>
+              <th>Количество</th>
+              <th>Описание</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Дверное полотно из массива древесины</td>
+              <td>1 шт.</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Комплект установки петель</td>
+              <td>1 шт.</td>
+              <td>2 петли, 12 винтов</td>
+            </tr>
+            <tr>
+              <td>Комплект установки замка и ручки</td>
+              <td>1 комплект</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Наличники</td>
+              <td>по периметру двери</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Доборы</td>
+              <td>по периметру проема</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Инструменты</td>
+              <td>-</td>
+              <td>Уровень, отвёртка, дрель, молоток</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <!-- Вкладка Работа -->
+      <div class="tab-content" role="tabpanel" id="section3" aria-labelledby="tab3-button">
+        <div id="task" class="skin-container">
+          <div class="job document">
+            <ul class="skin-tree">
+              <!-- Задача 1 -->
+              <li class="skin-tree-item skin-tree-item-leaf">
+                <div class="skin-tree-item-button"></div>
+                <div>
+                  <div id="Step01" class="content hoverable clickable">
+                    <div class="task-number">1</div>
+                    <div class="step">
+                      <div class="skin-text rwi-doc-title">Подготовительная операция</div>
+                      <p> <a href="#" id="DverS1" class="xref" tabindex="-1">Полотно двери</a> <a href="#" class="xref" id="RuletkaS1" tabindex="-1">Рулетка</a> <a href="#" class="xref" id="DoborN1S1" tabindex="-1">Добор 1</a> <a href="#" class="xref" id="DoborN2S1" tabindex="-1">Добор 2</a> <a href="#" class="xref" id="DoborN3S1" tabindex="-1">Добор 3</a></p>
+                      <div id="Step01_1-1" class="skin-text rwi-doc-step">
+                        <div class="skin-text rwi-doc-title">1.1 Осмотр</div>
+                        <div class="skin-text rwi-doc-step">
+                          <div class="skin-text rwi-doc-title">1. Распаковать дверь и короб из заводской упаковки. Произвести осмотр на наличие дефектов: царапин; вмятин; комплектность др. дефекты. При обнаружении недочетов дверь и короб браковать через мастера (бригадира). После осмотра упаковку полотна восстановить.</div>
+                        </div>
+                      </div>
+                      <div id="Step01_1-2" class="skin-text rwi-doc-step">
+                        <div class="skin-text rwi-doc-title">1.2. Подготовка двери</div>
+                        <div class="skin-text rwi-doc-step">
+                          <div class="skin-text rwi-doc-title">1. Уложить дверь на подставки. Установить подкладки толщиной 3 мм (из фанеры или картона упаковки двери) по всему периметру двери с шагом 500 мм.</div>
+                        </div>
+                      </div>
+                      <div id="Step01_1-3" class="skin-text rwi-doc-step">
+                        <div class="skin-text rwi-doc-title">1.3. Заготовить части короба</div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step01_1-3_1" class="skin-text rwi-doc-title">1. Для изготовления короба используется добор шириной 140 (150) мм.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step01_1-3_2" class="skin-text rwi-doc-title">2. Замерить расстояния в проёме, куда предполагается установить короб.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step01_1-3_3" class="skin-text rwi-doc-title">3. По замерам отрезать необходимые размеры добора.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Задача 2 -->
+              <li class="skin-tree-item skin-tree-item-leaf">
+                <div class="skin-tree-item-button"></div>
+                <div>
+                  <div id="Step02" class="content hoverable clickable">
+                    <div class="task-number">2</div>
+                    <div class="step">
+                      <div class="skin-text rwi-doc-title">Установка короба</div>
+                      <p> <a href="#" class="xref" id="PistoletKlei" tabindex="-1">Пистолет с жидкими гвоздями</a> <a href="#" class="xref" id="Uroven" tabindex="-1">Строительный уровень</a> <a href="#" class="xref" id="DoborN1S2" tabindex="-1">Добор 1</a> <a href="#" class="xref" id="DoborN2S2" tabindex="-1">Добор 2</a> <a href="#" class="xref" id="DoborN3S2" tabindex="-1">Добор 3</a> <a href="#" class="xref" id="Uplotn" tabindex="-1">Уплотнитель</a></p>
+                      <div class="skin-text rwi-doc-step">
+                        <div class="skin-text rwi-doc-title">2.1. Произвести установку короба</div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step02_2-1_1" class="skin-text rwi-doc-title">1. Установить доборы в проём, сперва вертикальные, потом верхний. Предварительно нанести с обратной стороны клей монтажный.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step02_2-1_2" class="skin-text rwi-doc-title">2. Выровнять в проеме, проверить вертикальность и горизонтальность. При необходимости выровнять подкладками.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step02_2-1_3" class="skin-text rwi-doc-title">3. Установить уплотнитель в паз.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <!-- Задача 3 -->
+              <li class="skin-tree-item skin-tree-item-leaf">
+                <div class="skin-tree-item-button"></div>
+                <div>
+                  <div id="Step03" class="content hoverable clickable" >
+                    <div class="task-number">3</div>
+                    <div class="step">
+                      <div class="skin-text rwi-doc-title">Установка двери</div>
+                      <p> <a href="#" id="Nog" class="xref" tabindex="-1">Канцелярский нож</a> <a href="#" id="PistoletPena" class="xref" tabindex="-1">Пистолет с монтажной пеной</a> <a href="#" id="Drel" class="xref" tabindex="-1">Дрель</a> <a href="#" id="Otvertka" class="xref" tabindex="-1">Отвёртка</a></p>
+                      <div class="skin-text rwi-doc-step">
+                        <div class="skin-text rwi-doc-title">3.1. Произвести установку двери</div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step03_3-1_1" class="skin-text rwi-doc-title">1. С помощью клиньев (дерево или пластик) закрепите дверную коробку в проеме. Клинья ставить напротив подкладок.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step03_3-1_2" class="skin-text rwi-doc-title">2. Выставить равномерно зазоры между полотном и коробкой.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step03_3-1_3" class="skin-text rwi-doc-title">3.	Проверьте правильность установки дверной коробки в проеме с помощью строительного уровня в горизонтальной и вертикальной плоскости.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step03_3-1_4" class="skin-text rwi-doc-title">4.	Заполнить зазор между дверной коробкой и стеной монтажной пеной.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step03_3-1_5" class="skin-text rwi-doc-title">5.	Поставить дополнительные распорки (клинья) на уровне верхних петель и немного ниже замка. Более жестко (подбив клинья) закрепите дверную коробку в проеме, не допуская искривления элементов коробки.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step03_3-1_6" class="skin-text rwi-doc-title">6.	Оставить до полного затвердения пены (см. инструкцию на баллоне). После этого клинья и остатки пены обрезать.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step03_3-1_7" class="skin-text rwi-doc-title">7.	После остывания проверить зазоры между полотном и коробом. В случае искривления короба срезать пену в месте искривления, очистить от пены. Закрепить подкладки в зазор, нанести пену повторно.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step03_3-1_8" class="skin-text rwi-doc-title">8. Установить петли на дверное полотно. Установить дверное полотно на короб двери.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Задача 4 -->
+              <li class="skin-tree-item skin-tree-item-leaf">
+                <div class="skin-tree-item-button"></div>
+                <div>
+                  <div id="Step04" class="content hoverable clickable">
+                    <div class="task-number">4</div>
+                    <div class="step">
+                      <div class="skin-text rwi-doc-title">Установка наличников</div>
+                      <p> <a href="#" id="RuletkaS4" class="xref" tabindex="-1">Рулетка</a> <a href="#" id="Skotch" class="xref" tabindex="-1">Жидкие гвозди</a> </p>
+                      <div class="skin-text rwi-doc-step">
+                        <div class="skin-text rwi-doc-title">4.1. Произвести установку наличников</div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step04_4-1_1" class="skin-text rwi-doc-title">1.	Определите необходимую длину наличников. Запилить наличники под углом 90 градусов. При распиле наличника на внешнюю сторону наклеить малярный скотч для исключения скола шпона.</div>
+                        </div>
+                        <div class="skin-text rwi-doc-step">
+                          <div id="Step04_4-1_2" class="skin-text rwi-doc-title">2.	Установить ножку наличника в паз короба. При неплотном прилегании наличника к стене нанести на ножку немного клея (жидкие гвозди).</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              
+              <!-- Добавьте дополнительные задачи здесь по аналогии -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Центральный блок с 3D сценой и кнопками -->
+<div id="main-content"> 
+  <!-- Контейнер для 3D сцены -->
+  <iframe id="my_iframe" src="ИТП Монтаж межкомнатных дверей.html"></iframe>
+  <div id="alert-box">СМОТРИ ТЕКСТ ПРОЦЕДУРЫ</div>
+  <!-- Нижний блок с кнопками управления --> 
+  <!-- Панель управления -->
+  <div class="control-panel"> 
+    <!-- Кнопки управления анимацией -->
+    <button id="playAnimation"> <img src="https://img.icons8.com/ultraviolet/100/play--v1.png" alt="play--v1"/> </button>
+    <button id="pauseAnimation"> <img src="https://img.icons8.com/ultraviolet/100/pause.png" alt="pause"/> </button>
+    <button id="stopAnimation"> <img src="https://img.icons8.com/ultraviolet/100/stop.png" alt="stop"/> </button>
+    <button id="toStartAnimation"> <img src="https://img.icons8.com/ultraviolet/100/skip-to-start--v1.png" alt="skip-to-start--v1"/> </button>
+    <button id="toEndAnimation"> <img src="https://img.icons8.com/ultraviolet/100/end--v1.png" alt="end--v1"/> </button>
+    
+    <!-- Шкала перемотки анимации -->
+    <div class="progress-slider">
+      <input type="range" id="animation-slider" min="0" max="1000" value="0">
+    </div>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    function seekAnimation(value) {
+    }
+
+    // Находим слайдер и добавляем ему событие oninput
+    const slider = document.getElementById('animation-slider');
+    slider.addEventListener('input', function() {
+        seekAnimation(this.value);
+    });
+
+    // Остальной ваш код
+    const tabs = document.querySelectorAll('.tab-button');
+    const contents = document.querySelectorAll('.tab-content');
+});
+</script> 
+  </div>
+</div>
+<!-- JavaScript --> 
+<!-- Интерактивность вкладок документа --> 
+<script>
+       document.addEventListener('DOMContentLoaded', function() {
+    const tabs = document.querySelectorAll('.tab-button');
+    const contents = document.querySelectorAll('.tab-content');
+
+    // Функция для удаления активных классов
+    function deactivateAllTabs() {
+        tabs.forEach(item => {
+            item.classList.remove('active');
+            item.setAttribute('aria-selected', 'false');
+        });
+        contents.forEach(content => {
+            content.classList.remove('active');
+        });
+    }
+
+    // Функция для активации выбранной вкладки
+    function activateTab(tab) {
+        tab.classList.add('active');
+        tab.setAttribute('aria-selected', 'true');
+        const contentId = tab.getAttribute('aria-controls');
+        document.getElementById(contentId).classList.add('active');
+    }
+
+    // Обработчик клика на вкладку
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            deactivateAllTabs();
+            activateTab(this);
+            // Сохраняем выбранную вкладку в localStorage
+            localStorage.setItem('activeTab', this.id);
+        });
+    });
+
+    // Восстановление ранее выбранной вкладки из localStorage
+    const savedTabId = localStorage.getItem('activeTab');
+    if (savedTabId) {
+        const savedTab = document.getElementById(savedTabId);
+        if (savedTab) {
+            deactivateAllTabs();
+            activateTab(savedTab);
+        }
+    } else {
+        // Если сохранённой вкладки нет, активируем первую по умолчанию
+        activateTab(tabs[0]);
+    }
+
+    // Обработчик клика для ссылок с пистолетом и гвоздями
+    const items = document.querySelectorAll('#Step04 .xref'); // Убедитесь, что выбираете элементы внутри Step04
+
+    items.forEach(item => {
+        item.addEventListener('click', function(event) {
+            event.preventDefault(); // Предотвращаем переход по ссылке
+            event.stopPropagation(); // Останавливаем всплытие события
+            console.log(`${item.textContent} был нажат, шаг не включается`);
+            
+            // Ваша логика для обработки нажатий на эти ссылки
+        });
+    });
+
+    // Обработчик клика для основного шага
+    document.querySelectorAll('.step').forEach(step => {
+        step.addEventListener('click', function(event) {
+            // Проверяем, нажат ли элемент с классом "xref"
+            if (!event.target.classList.contains('xref')) {
+                // Здесь добавьте логику для активации шага, если клик был не на ссылке
+                console.log("Шаг активируется");
+                // Ваша логика для активации шага
+            }
+        });
+    });
+});
+
+    </script> 
+<script>
+function openActForm() {
+        const uncheckedItems = [];
+        document.querySelectorAll('.task-list div').forEach((task, index) => {
+            const checkbox = task.querySelector('input[type="checkbox"]');
+            const text = task.textContent.trim();
+            if (!checkbox.checked) {
+                uncheckedItems.push({ index: index + 1, text });
+            }
+        });
+
+        // Заполняем таблицу с дефектами
+        const defectList = document.getElementById('defect-list');
+        defectList.innerHTML = '';
+        uncheckedItems.forEach((item, i) => {
+            const row = document.createElement('tr');
+            row.innerHTML = `<td>${i + 1}</td><td>${item.text}</td>`;
+            defectList.appendChild(row);
+        });
+
+        // Отображаем модальное окно
+        document.getElementById('actModal').style.display = 'flex';
+    }
+function setActDetails() {
+    let actNumber = parseInt(localStorage.getItem("actNumber") || "0", 10) + 1;
+    localStorage.setItem("actNumber", actNumber);
+
+    const today = new Date();
+    const formattedDate = today.toLocaleDateString("ru-RU");
+
+    document.getElementById("act-number").textContent = actNumber;
+    document.getElementById("act-date").textContent = formattedDate;
+}
+
+    function closeActForm() {
+        document.getElementById('actModal').style.display = 'none';
+    }
+
+
+function generatePDF() {
+    const element = document.getElementById('actForm');
+    if (!element) {
+        console.error("Элемент с ID 'actForm' не найден.");
+        return;
+    }
+
+    // Получение значений из заголовка
+    const actNumber = document.getElementById('act-number').textContent.trim();
+    const actDate = document.getElementById('act-date').textContent.trim();
+
+    // Генерация имени файла
+    const fileName = `Акт_брака_№${actNumber}_от_${actDate}.pdf`;
+
+    // Скрытие кнопок перед генерацией PDF
+    const buttons = element.querySelectorAll('button');
+    buttons.forEach(button => button.style.display = 'none');
+
+    // Генерация PDF
+    html2pdf()
+        .set({
+            margin: [0.5, 0.3, 0.5, 0.3],
+            filename: fileName,
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2 },
+            jsPDF: { unit: 'in', format: 'a4', orientation: 'landscape' }
+        })
+        .from(element)
+        .save()
+        .then(() => {
+            // Восстановление кнопок после генерации PDF
+            buttons.forEach(button => button.style.display = '');
+            closeActForm();
+        })
+        .catch(err => {
+            // Восстановление кнопок в случае ошибки
+            buttons.forEach(button => button.style.display = '');
+            console.error("Ошибка при генерации PDF:", err);
+        });
+}
+
+</script>
+</body>
+</html>

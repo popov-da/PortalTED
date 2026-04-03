@@ -1,0 +1,145 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-5.684341886080801e-13" scrolly="156.7701873779297" scale="1">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="2[,$=K/W)ibdY`B;0oMe">animation_paused</variable>
+      <variable id="IJfs;d/A#IdSvHJ]rgat">play</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id=")N5v?q|0H`i0!2wbgf`5" x="110" y="-90">
+      <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+      <value name="VALUE">
+        <block type="logic_boolean" id="dQ0n+Uf:b7B@=$1(aes]">
+          <field name="BOOL">FALSE</field>
+        </block>
+      </value>
+      <next>
+        <block type="variables_set" id="0c-[/!umwW2.b(Tsx#PK">
+          <field name="VAR" id="IJfs;d/A#IdSvHJ]rgat">play</field>
+          <value name="VALUE">
+            <block type="logic_boolean" id="%p{35eQf.QJ`ByY}(4RT">
+              <field name="BOOL">FALSE</field>
+            </block>
+          </value>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="isAnimationPlaying" id="vA2N]ID{0_bl((:_6.tI" x="590" y="30">
+      <value name="VALUE">
+        <shadow type="animationList" id="J2;RkU$lGCNLZm,Q;}w`">
+          <field name="FIELDNAME">Cube</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="=Sl(_t+0Zm5G)*_+v#ks" x="230" y="150">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="l6C:e@C3AN!Q(nn%mh[K">
+          <field name="TEXT">stopAnimation</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="stopAnimation" id="@u+ogTa)LDjN}rAnAP%:">
+          <value name="VALUE">
+            <shadow type="animationList" id="{h`HKx$duW[Ld9s74J0L">
+              <field name="FIELDNAME">Cube</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="eTWMx:|N:h$`,)r6!Ee=">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id="5Eh|ffbMwSeARET2bwl7">
+              <field name="TEXT">pauseAnimation</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="pauseAnimation" id="@nR_~~yEx5vmEToCRlKK">
+              <value name="VALUE">
+                <shadow type="animationList" id="7Xou:Ks;A.gqaIQ/$54s">
+                  <field name="FIELDNAME">Cube</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="variables_set" id=";YscZasg)w70s/2YL58]">
+                  <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+                  <value name="VALUE">
+                    <block type="logic_boolean" id="Vd8)uvyx.ep-Bg5JHMe5">
+                      <field name="BOOL">TRUE</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id=",2zals9e9Bh2gd@c`9xt">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="5K_+BH/b)281#:Vpy_+$">
+                  <field name="TEXT">playAnimation</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="resumeAnimation" id="`93VN,/E2^8)w[#-JM^.">
+                  <value name="VALUE">
+                    <shadow type="animationList" id="W,O(NNZWkk*1$$2e!Pp^">
+                      <field name="FIELDNAME">Cube</field>
+                    </shadow>
+                  </value>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="playAnimationAdv" id="~3={dsa*#`.`y;P*2hUe" x="1070" y="410">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+      <field name="REVERSED">FALSE</field>
+      <field name="LOOP">AUTO</field>
+      <value name="VALUE">
+        <shadow type="animationList" id="%3PmZ5iyQr#kY6Bu5SIZ">
+          <field name="FIELDNAME">Cube</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="controls_if" id="kOq-58/`YXbM4H0O!:%j" x="430" y="470">
+      <value name="IF0">
+        <block type="logic_negate" id="^`V#R+`|8WIt$Hfnybd/">
+          <value name="BOOL">
+            <block type="isAnimationPlaying" id="Xn+mtOwkWR*4$+`]t`_G">
+              <value name="VALUE">
+                <shadow type="animationList" id="Ixi)iIAKt@00;-YL|cD_">
+                  <field name="FIELDNAME">Cube</field>
+                </shadow>
+                <block type="getAnimations" id="8,FgQ_rpdf,CUW8rk8N*">
+                  <value name="OBJECTINPUT">
+                    <shadow type="objectList" id="8B]F8;3}G1+tY$Uq3B4X">
+                      <field name="FIELDNAME">Cube</field>
+                    </shadow>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+        </block>
+      </value>
+      <statement name="DO0">
+        <block type="controls_if" id="m1N:ZavK3DYru_L-Fg=V"></block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="pauseAnimation" id="tIQ=Yyznoj^V{(s#3kia" x="690" y="590">
+      <value name="VALUE">
+        <shadow type="animationList" id="z/ZQEJ6`=(8}ug-PnNas">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="37" viewport-w="768" viewport-h="476.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

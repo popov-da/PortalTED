@@ -1,0 +1,12 @@
+{
+    "appDescription": "ИТП", 
+    "appID": "com.example.ИтпМонтажМежкомнатныхДверей", 
+    "appName": "Итп Монтаж Межкомнатных Дверей", 
+    "appVersion": "0.1.0", 
+    "authorEmail": "author@example.com", 
+    "authorName": "Popov", 
+    "authorWebsite": "https://www.example.com", 
+    "showFullscreen": "false", 
+    "targetPlatform": "win32-x64", 
+    "templateName": "electron"
+}

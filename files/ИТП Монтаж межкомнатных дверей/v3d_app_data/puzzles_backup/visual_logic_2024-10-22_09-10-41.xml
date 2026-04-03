@@ -1,0 +1,2346 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000227" scrolly="-261" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="loadSoundAdv" id="+m@C?^3$-w=w::JN:_*w" x="230" y="290">
+      <field name="TYPE">SOUND</field>
+      <value name="URL">
+        <shadow type="text" id=".Y+UN(dIXcG`i^}z*1oO">
+          <field name="TEXT">./sounds/Step01_1-1.mp3</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-1639.8948940543576" scrolly="316.0228726295087" scale="0.822702474791881">
+    <variables xmlns="https://developers.google.com/blockly/xml">
+      <variable id="2[,$=K/W)ibdY`B;0oMe">animation_paused</variable>
+      <variable id="h|^r7,vB!0.?xa3j5ec4">Step01</variable>
+      <variable id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</variable>
+      <variable id=")M(D0/tE)bWa)y-je5yS">Step01_1-1</variable>
+      <variable id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</variable>
+      <variable id="+Y3j3uc.#AEv?!]gN/ao">i</variable>
+      <variable id=",@=S%I#`i:D^|jEjy4N2">j</variable>
+      <variable id="EnwgN?}F?EZ8~$W4#SyY">Step01_1-2</variable>
+      <variable id="4(q?P_8KZse{EYk7p+lt">Step01_1-3_1</variable>
+      <variable id="WM0~T2yHCN(ztb7E0a!A">Step01_1-3_2</variable>
+      <variable id="/Iu-*((59Ocf[f,qqFoc">Step01_1-3_3</variable>
+      <variable id="pZ7qp.sgL`})ccRm0OX2">Step02_2-1_1</variable>
+      <variable id="*9Zwvv=59}Ih9v[kJd+~">Step02_2-1_2</variable>
+      <variable id="sF[X|0OLkBM_~kcm;$lo">Step02_2-1_3</variable>
+      <variable id="3#.]#BcSC0S-01Uxb2I`">Step03_3-1_1</variable>
+      <variable id="P[t.%o*i7Cf_9L%x%sIJ">Step03_3-1_2</variable>
+      <variable id="~}YXtk^p6!iK?Oezm6;p">Step03_3-1_3</variable>
+      <variable id="EgP3erw}seQa]Xr)Ce:g">Step03_3-1_4</variable>
+      <variable id="9xo1nnpT~a-x)~RT0c?R">Step03_3-1_5</variable>
+      <variable id="C^EafCE+ucCn9?U~cuzC">Step03_3-1_6</variable>
+      <variable id="?1co*`4%JiHrsk-N5!c`">Step03_3-1_7</variable>
+      <variable id="zUKNgQqo?9+Qtyff|jYx">Step03_3-1_8</variable>
+      <variable id="waZEH([[p,A*:W/%)1w0">Step04_4-1_1</variable>
+      <variable id="`8~KcRY@SvnL#;qWf!DK">Step04_4-1_2</variable>
+      <variable id="qloUsNfImB.@fnUf,~2C">StepEND</variable>
+      <variable id="r},:j$5^jzzlxk3:`y,o">Step02</variable>
+      <variable id="h;HKIYL)j5hI{=6w]vM*">Step03</variable>
+      <variable id="B2w%OJWsAV2{6n@yYRVQ">Step04</variable>
+    </variables>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="*K5H~-lLyp?Uvmk*obQr" x="2950" y="-970">
+      <field name="NAME">ALL_Disable</field>
+      <comment pinned="false" h="80" w="160">JS-цикл, который объединяет JS (используется для перехода шагов и остановки анимации)</comment>
+      <statement name="STACK">
+        <block type="procedures_callnoreturn" id="TIY=^:vJ6K/{)LOXzF}f">
+          <mutation name="STEP_Disable"></mutation>
+          <next>
+            <block type="procedures_callnoreturn" id="8=:.2ZDkXFtvTAc;sS9;">
+              <mutation name="StepElem_Disable"></mutation>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="b1%srbK!zrxCM,]PRYOk" x="2930" y="-810">
+      <field name="NAME">STEP_Disable</field>
+      <comment pinned="false" h="80" w="160">JS-цикл, который убирает обводку с шагов (используется для перехода шагов и остановки анимации)</comment>
+      <statement name="STACK">
+        <block type="controls_forEach" id="GC[w=RRlZ9ZLhURXdS5Z">
+          <field name="VAR" id="+Y3j3uc.#AEv?!]gN/ao">i</field>
+          <value name="LIST">
+            <block type="lists_create_with" id="a^u;l)^{Rzl.R.msCOj.">
+              <mutation items="4"></mutation>
+              <value name="ADD0">
+                <block type="text" id="n%-),fuZU^YeS8AsYciz">
+                  <field name="TEXT">Step01</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="text" id="UNup;+NAIx$%yOS(`Pzh">
+                  <field name="TEXT">Step02</field>
+                </block>
+              </value>
+              <value name="ADD2">
+                <block type="text" id="Pxc0rDI5(@1~8|z9(-vB">
+                  <field name="TEXT">Step03</field>
+                </block>
+              </value>
+              <value name="ADD3">
+                <block type="text" id="Wy*ZqVN/FU~%Nl/wv9]o">
+                  <field name="TEXT">Step04</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="setHTMLElemStyle" id="dW^X#!`A{uv!PW4~:f{+">
+              <field name="PROPERTY">border</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="/M$[op!|tEN1eeA?PV|o">
+                  <field name="TEXT">none</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="DQ;w0`U)8*Qr:eIu}_*}">
+                  <field name="TEXT">i</field>
+                </shadow>
+                <block type="variables_get" id="O-vj]rv5r$)gd|d:GE`O">
+                  <field name="VAR" id="+Y3j3uc.#AEv?!]gN/ao">i</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="dgM]77ejV|)+8f7h(DrD" x="2950" y="-610">
+      <field name="NAME">StepElem_Disable</field>
+      <comment pinned="false" h="80" w="160">JS-цикл, который убирает заливку с подшагов (используется для перехода шагов и остановки анимации)</comment>
+      <statement name="STACK">
+        <block type="controls_forEach" id="FG#=Cd/SCLVCZsUCs7dA">
+          <field name="VAR" id=",@=S%I#`i:D^|jEjy4N2">j</field>
+          <value name="LIST">
+            <block type="lists_create_with" id="6J]*Q#.*yJUEozT9r@Oz" inline="false">
+              <mutation items="18"></mutation>
+              <value name="ADD0">
+                <block type="text" id="N;C9%`K};(9fsw2JuE0p">
+                  <field name="TEXT">Step01_1-1</field>
+                </block>
+              </value>
+              <value name="ADD1">
+                <block type="text" id="dELs7~W5)WnJJhfxP/{f">
+                  <field name="TEXT">Step01_1-2</field>
+                </block>
+              </value>
+              <value name="ADD2">
+                <block type="text" id="CQ%zXlBw_BPwXEk|9@9b">
+                  <field name="TEXT">Step01_1-3_1</field>
+                </block>
+              </value>
+              <value name="ADD3">
+                <block type="text" id=":li]I!HdIg7^K-Ryfwsu">
+                  <field name="TEXT">Step01_1-3_2</field>
+                </block>
+              </value>
+              <value name="ADD4">
+                <block type="text" id="JiPpBb*Du)a:XF0T$E[e">
+                  <field name="TEXT">Step01_1-3_3</field>
+                </block>
+              </value>
+              <value name="ADD5">
+                <block type="text" id="w%MP5^G@SGK~6egKKe!l">
+                  <field name="TEXT">Step02_2-1_1</field>
+                </block>
+              </value>
+              <value name="ADD6">
+                <block type="text" id="`E:Hm#Nbr3|%T-i|Uh/,">
+                  <field name="TEXT">Step02_2-1_2</field>
+                </block>
+              </value>
+              <value name="ADD7">
+                <block type="text" id="S%v[8bxcL$*s]rP7A+rQ">
+                  <field name="TEXT">Step02_2-1_3</field>
+                </block>
+              </value>
+              <value name="ADD8">
+                <block type="text" id="}ANsZ%aKfhcN#[$tb--s">
+                  <field name="TEXT">Step03_3-1_1</field>
+                </block>
+              </value>
+              <value name="ADD9">
+                <block type="text" id="b$ac3;1km/^6D~]|dun7">
+                  <field name="TEXT">Step03_3-1_2</field>
+                </block>
+              </value>
+              <value name="ADD10">
+                <block type="text" id="HZCL9]9:,=)svXfMN3yv">
+                  <field name="TEXT">Step03_3-1_3</field>
+                </block>
+              </value>
+              <value name="ADD11">
+                <block type="text" id="|9i{P?K;6YDO*Z@NS;S7">
+                  <field name="TEXT">Step03_3-1_4</field>
+                </block>
+              </value>
+              <value name="ADD12">
+                <block type="text" id="[#{T4bT=UUx:rvAth4uO">
+                  <field name="TEXT">Step03_3-1_5</field>
+                </block>
+              </value>
+              <value name="ADD13">
+                <block type="text" id="C!Tb{j@3]4`}k(|X(6J*">
+                  <field name="TEXT">Step03_3-1_6</field>
+                </block>
+              </value>
+              <value name="ADD14">
+                <block type="text" id=")?.iEweT5!1Zzqm*DtxY">
+                  <field name="TEXT">Step03_3-1_7</field>
+                </block>
+              </value>
+              <value name="ADD15">
+                <block type="text" id="A427nE!za5WxDQGnb{l9">
+                  <field name="TEXT">Step03_3-1_8</field>
+                </block>
+              </value>
+              <value name="ADD16">
+                <block type="text" id="*l+Ub|;p0|n*@@kN@/45">
+                  <field name="TEXT">Step04_4-1_1</field>
+                </block>
+              </value>
+              <value name="ADD17">
+                <block type="text" id="EWlcs2D-:C0]j,EhEqhX">
+                  <field name="TEXT">Step04_4-1_2</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO">
+            <block type="setHTMLElemStyle" id="@xQw[i;]Q;|S..Law?+;">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="thf8@{2F%riiTSx@SvZ2">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="~ezUpfexFM*lIU(6jj2$">
+                  <field name="TEXT">Step01_1-1</field>
+                </shadow>
+                <block type="variables_get" id="ch@vjzXLSMy,mo[$2RBY">
+                  <field name="VAR" id=",@=S%I#`i:D^|jEjy4N2">j</field>
+                </block>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id=")N5v?q|0H`i0!2wbgf`5" x="-70" y="-450">
+      <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+      <value name="VALUE">
+        <block type="logic_boolean" id="dQ0n+Uf:b7B@=$1(aes]">
+          <field name="BOOL">FALSE</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="everyFrame" id=".)f{`,mdeDXwc|luOKbd" x="-110" y="-370">
+      <statement name="DO">
+        <block type="variables_set" id="pJpK05~)B0x3U@PUQRNE">
+          <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+          <value name="VALUE">
+            <block type="getAnimationFrame" id="Xe_82tmwS;A0,~=(q[_@">
+              <value name="VALUE">
+                <shadow type="animationList" id="1k@{{U2%ww9ck-P2$.Zh">
+                  <field name="FIELDNAME">Cube</field>
+                </shadow>
+              </value>
+            </block>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="MXJav1Onq7[?yU{*CW`:" x="830" y="-330">
+      <field name="VAR" id="h|^r7,vB!0.?xa3j5ec4">Step01</field>
+      <value name="VALUE">
+        <block type="math_number" id="COWi~2h(4_n~x8Z3cO|p">
+          <field name="NUM">1</field>
+        </block>
+      </value>
+      <next>
+        <block type="variables_set" id="=(V@swRR_ba(]0H^(+az">
+          <field name="VAR" id=")M(D0/tE)bWa)y-je5yS">Step01_1-1</field>
+          <value name="VALUE">
+            <block type="math_number" id="xwSuLI},mG6L45dJcjpg">
+              <field name="NUM">1</field>
+            </block>
+          </value>
+          <next>
+            <block type="variables_set" id="%3=f7M1)PNHwwlK4Di+!">
+              <field name="VAR" id="EnwgN?}F?EZ8~$W4#SyY">Step01_1-2</field>
+              <value name="VALUE">
+                <block type="math_number" id="vwvYjFbkX%DNTiKL/VXx">
+                  <field name="NUM">100</field>
+                </block>
+              </value>
+              <next>
+                <block type="variables_set" id="5;y8?,x.%][0?S]V7B,q">
+                  <field name="VAR" id="4(q?P_8KZse{EYk7p+lt">Step01_1-3_1</field>
+                  <value name="VALUE">
+                    <block type="math_number" id="VQZIDI9gj|b~n-.*y^+O">
+                      <field name="NUM">150</field>
+                    </block>
+                  </value>
+                  <next>
+                    <block type="variables_set" id="XlLN9v|F7+$45Dmo]$}G">
+                      <field name="VAR" id="WM0~T2yHCN(ztb7E0a!A">Step01_1-3_2</field>
+                      <value name="VALUE">
+                        <block type="math_number" id="vdKoEqLCSc*AL|GLO:0o">
+                          <field name="NUM">200</field>
+                        </block>
+                      </value>
+                      <next>
+                        <block type="variables_set" id="[B%G`m0=JD7]S(6BD!*l">
+                          <field name="VAR" id="/Iu-*((59Ocf[f,qqFoc">Step01_1-3_3</field>
+                          <value name="VALUE">
+                            <block type="math_number" id="XGg^r_^oemc1j+^$.qx/">
+                              <field name="NUM">250</field>
+                            </block>
+                          </value>
+                          <next>
+                            <block type="variables_set" id="iwW?MsYpRch;W(o4j%E6">
+                              <field name="VAR" id="r},:j$5^jzzlxk3:`y,o">Step02</field>
+                              <value name="VALUE">
+                                <block type="math_number" id="Du2@7BqLS;1QR1HV(vyb">
+                                  <field name="NUM">300</field>
+                                </block>
+                              </value>
+                              <next>
+                                <block type="variables_set" id="*5]~7PA~c7rK9R=KeB3d">
+                                  <field name="VAR" id="pZ7qp.sgL`})ccRm0OX2">Step02_2-1_1</field>
+                                  <value name="VALUE">
+                                    <block type="math_number" id="hE.sWOEifi;$Lx#N9Oce">
+                                      <field name="NUM">300</field>
+                                    </block>
+                                  </value>
+                                  <next>
+                                    <block type="variables_set" id="{d*e/2Nm|DmfL[3fwW48">
+                                      <field name="VAR" id="*9Zwvv=59}Ih9v[kJd+~">Step02_2-1_2</field>
+                                      <value name="VALUE">
+                                        <block type="math_number" id="F.8Ho#^rysZkkcVhhw3L">
+                                          <field name="NUM">400</field>
+                                        </block>
+                                      </value>
+                                      <next>
+                                        <block type="variables_set" id="q^x#S)fKtKsa]sd1.9]S">
+                                          <field name="VAR" id="sF[X|0OLkBM_~kcm;$lo">Step02_2-1_3</field>
+                                          <value name="VALUE">
+                                            <block type="math_number" id="1=.:8RPf?#rddAM/2wN}">
+                                              <field name="NUM">450</field>
+                                            </block>
+                                          </value>
+                                          <next>
+                                            <block type="variables_set" id="7U=@4`p}=%aheQqpqTf%">
+                                              <field name="VAR" id="h;HKIYL)j5hI{=6w]vM*">Step03</field>
+                                              <value name="VALUE">
+                                                <block type="math_number" id="TQcQY.ZYY2Nlu$~(KR2#">
+                                                  <field name="NUM">500</field>
+                                                </block>
+                                              </value>
+                                              <next>
+                                                <block type="variables_set" id="kJ-_o$(*cZ7jgSM?I)qq">
+                                                  <field name="VAR" id="3#.]#BcSC0S-01Uxb2I`">Step03_3-1_1</field>
+                                                  <value name="VALUE">
+                                                    <block type="math_number" id="w+O2ljw0.-o)CsKwV_No">
+                                                      <field name="NUM">500</field>
+                                                    </block>
+                                                  </value>
+                                                  <next>
+                                                    <block type="variables_set" id="oNzmBE#bJyHW8GiaraP6">
+                                                      <field name="VAR" id="P[t.%o*i7Cf_9L%x%sIJ">Step03_3-1_2</field>
+                                                      <value name="VALUE">
+                                                        <block type="math_number" id=";#_pEmkSXsbw!C/%Z9ot">
+                                                          <field name="NUM">600</field>
+                                                        </block>
+                                                      </value>
+                                                      <next>
+                                                        <block type="variables_set" id="tac|!`U;|G:.0x-3(c%]">
+                                                          <field name="VAR" id="~}YXtk^p6!iK?Oezm6;p">Step03_3-1_3</field>
+                                                          <value name="VALUE">
+                                                            <block type="math_number" id="!%}Xg(:*.OPOT#]9B^3!">
+                                                              <field name="NUM">650</field>
+                                                            </block>
+                                                          </value>
+                                                          <next>
+                                                            <block type="variables_set" id="*5(Fu:4MO6776gtNA+3R">
+                                                              <field name="VAR" id="EgP3erw}seQa]Xr)Ce:g">Step03_3-1_4</field>
+                                                              <value name="VALUE">
+                                                                <block type="math_number" id="on`-}|-{8`?;]-mkUZch">
+                                                                  <field name="NUM">700</field>
+                                                                </block>
+                                                              </value>
+                                                              <next>
+                                                                <block type="variables_set" id="Y}n4j$9r4^sj[qlsX{C;">
+                                                                  <field name="VAR" id="9xo1nnpT~a-x)~RT0c?R">Step03_3-1_5</field>
+                                                                  <value name="VALUE">
+                                                                    <block type="math_number" id="RBs7PwOwU@[5]]~~2:?Z">
+                                                                      <field name="NUM">750</field>
+                                                                    </block>
+                                                                  </value>
+                                                                  <next>
+                                                                    <block type="variables_set" id="a+wZ)!SONAm|3AI#apI#">
+                                                                      <field name="VAR" id="C^EafCE+ucCn9?U~cuzC">Step03_3-1_6</field>
+                                                                      <value name="VALUE">
+                                                                        <block type="math_number" id="R:PJ@Ne@.Cn^+q!;8i{%">
+                                                                          <field name="NUM">800</field>
+                                                                        </block>
+                                                                      </value>
+                                                                      <next>
+                                                                        <block type="variables_set" id="F5^[{BTZuV5S^E2?C{eD">
+                                                                          <field name="VAR" id="?1co*`4%JiHrsk-N5!c`">Step03_3-1_7</field>
+                                                                          <value name="VALUE">
+                                                                            <block type="math_number" id="Mm2:0=fH+x9xV.CLh?y`">
+                                                                              <field name="NUM">850</field>
+                                                                            </block>
+                                                                          </value>
+                                                                          <next>
+                                                                            <block type="variables_set" id="2;Va|!}Gi)h-MZY8J1v+">
+                                                                              <field name="VAR" id="zUKNgQqo?9+Qtyff|jYx">Step03_3-1_8</field>
+                                                                              <value name="VALUE">
+                                                                                <block type="math_number" id="=(#C|G.T#a`.AE,B_kX7">
+                                                                                  <field name="NUM">900</field>
+                                                                                </block>
+                                                                              </value>
+                                                                              <next>
+                                                                                <block type="variables_set" id=";bvuNPwcJZIgAvOoz.:l">
+                                                                                  <field name="VAR" id="B2w%OJWsAV2{6n@yYRVQ">Step04</field>
+                                                                                  <value name="VALUE">
+                                                                                    <block type="math_number" id="e@=R8Z%yt:39his|_Xs5">
+                                                                                      <field name="NUM">950</field>
+                                                                                    </block>
+                                                                                  </value>
+                                                                                  <next>
+                                                                                    <block type="variables_set" id="1BlEBoMI%[]jWxpj{A$[">
+                                                                                      <field name="VAR" id="waZEH([[p,A*:W/%)1w0">Step04_4-1_1</field>
+                                                                                      <value name="VALUE">
+                                                                                        <block type="math_number" id="{5H%qQ!!UqkV-gK+MbDL">
+                                                                                          <field name="NUM">950</field>
+                                                                                        </block>
+                                                                                      </value>
+                                                                                      <next>
+                                                                                        <block type="variables_set" id="O{=-.V19BJvmJNbUZ5:{">
+                                                                                          <field name="VAR" id="`8~KcRY@SvnL#;qWf!DK">Step04_4-1_2</field>
+                                                                                          <value name="VALUE">
+                                                                                            <block type="math_number" id="{z+Lrpu/O^?%u]1KCFhx">
+                                                                                              <field name="NUM">1000</field>
+                                                                                            </block>
+                                                                                          </value>
+                                                                                          <next>
+                                                                                            <block type="variables_set" id="Pv@~8(}fSE|N6xrx4lP/">
+                                                                                              <field name="VAR" id="qloUsNfImB.@fnUf,~2C">StepEND</field>
+                                                                                              <value name="VALUE">
+                                                                                                <block type="math_number" id="-tPPwG),AY-s4XhxbBa#">
+                                                                                                  <field name="NUM">1050</field>
+                                                                                                </block>
+                                                                                              </value>
+                                                                                            </block>
+                                                                                          </next>
+                                                                                        </block>
+                                                                                      </next>
+                                                                                    </block>
+                                                                                  </next>
+                                                                                </block>
+                                                                              </next>
+                                                                            </block>
+                                                                          </next>
+                                                                        </block>
+                                                                      </next>
+                                                                    </block>
+                                                                  </next>
+                                                                </block>
+                                                              </next>
+                                                            </block>
+                                                          </next>
+                                                        </block>
+                                                      </next>
+                                                    </block>
+                                                  </next>
+                                                </block>
+                                              </next>
+                                            </block>
+                                          </next>
+                                        </block>
+                                      </next>
+                                    </block>
+                                  </next>
+                                </block>
+                              </next>
+                            </block>
+                          </next>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="variables_set" id="x^eP9W*dyeBBhMkqVi7Y" x="1170" y="-330">
+      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+      <value name="VALUE">
+        <block type="text" id="IL7p@n/-1}+1mP0pz.#^">
+          <field name="TEXT">#cbd4ee</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="everyFrame" id="qp1h8gC~yuhOt|@Z^{lt" x="1510" y="-250">
+      <statement name="DO">
+        <block type="controls_if" id="Hq4p-KluiJ1!}`Oau:L3">
+          <mutation elseif="18" else="1"></mutation>
+          <value name="IF0">
+            <block type="logic_compare" id="|rAAyf!R!YRch$`-yK`r">
+              <field name="OP">EQ</field>
+              <value name="A">
+                <block type="variables_get" id="=lpEO:I5wjur]5#kOO,t">
+                  <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                </block>
+              </value>
+              <value name="B">
+                <block type="math_number" id="qjNEhy3eu]#Zd8%[6%*=">
+                  <field name="NUM">1</field>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO0">
+            <block type="setHTMLElemStyle" id="BU]$mt_F-uVHXRT60@A/">
+              <field name="PROPERTY">border</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="9=zZ~5#=~xLoPKR]5p?z">
+                  <field name="TEXT">2px solid #3152BA</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="W/C[0..B1yDvHOYpy(|q">
+                  <field name="TEXT">Step01</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="tfJfU+l}j[H(FplFaJH|">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="`gzY{vNpg36zL:rsY?pV">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="$n:Qf#)xc:VLwU2h+~!6">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="mA:KLH?bs=KeB7r*54xT">
+                      <field name="TEXT">Step01_1-1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF1">
+            <block type="logic_operation" id="M%IM$jG(sbd^8.03bh/+">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="Z@xa4q6Dx5a:}AX=lEwk">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="GM@MPh{_T1S-vEDTtgk)">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="4;ZrS4lq(:5*e6vAiwV/">
+                      <field name="VAR" id=")M(D0/tE)bWa)y-je5yS">Step01_1-1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="VR}z0?srUt[?c@:Fw:s,">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="3KsCdzydB%Mj:$A;2p*n">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="4.WiAyEbdl@xm7bmuQAw">
+                      <field name="VAR" id="EnwgN?}F?EZ8~$W4#SyY">Step01_1-2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO1">
+            <block type="setHTMLElemStyle" id="8H!kE63%.cdZKv.-j/Lu">
+              <field name="PROPERTY">border</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="~$N2yfh/h3?qr5pcc^A(">
+                  <field name="TEXT">2px solid #3152BA</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="Q$,~%i.ZH$^oFttWyYV4">
+                  <field name="TEXT">Step01</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="y+0JR|~,|2]2Yj/E#`)[">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="`gzY{vNpg36zL:rsY?pV">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="em,GyZNauUrYrn:L6hD*">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="y?Y[lyFRL5+T_Wd%8VDF">
+                      <field name="TEXT">Step01_1-1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="ImEryAbd3GuCOjxOy!{5">
+                      <field name="PROPERTY">display</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="displayDropdown" id="GC`YsHp!44]hub]2M5JK">
+                          <field name="TEXT">block</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="0*2(=RuuPgHv[%GNPTbl">
+                          <field name="TEXT">alert-box</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="playSound" id=",B,rY_WOY-126PWPWhTI">
+                          <field name="LOOP">FALSE</field>
+                          <value name="VALUE">
+                            <block type="loadSoundAdv" id="+m@C?^3$-w=w::JN:_*w">
+                              <field name="TYPE">SOUND</field>
+                              <value name="URL">
+                                <shadow type="text" id=".Y+UN(dIXcG`i^}z*1oO">
+                                  <field name="TEXT">./sounds/Step01_1-1.mp3</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF2">
+            <block type="logic_operation" id="/}hMMzwF:XDpiQk]HV9H">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="^mjx$uP*,c[5z!^d@9pF">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="tAmaWjnfR7nsToQg2:!%">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="w?tB=v|.BLHY0NxMcXgJ">
+                      <field name="VAR" id="EnwgN?}F?EZ8~$W4#SyY">Step01_1-2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="^gt7+DsJ_i3Qo#Y_aXEt">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id=")S2q.rmWvx#^HYE(8eKi">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="$A%wC/Vdta(AGDeV,03U">
+                      <field name="VAR" id="4(q?P_8KZse{EYk7p+lt">Step01_1-3_1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO2">
+            <block type="setHTMLElemStyle" id="JA/M;bs[FVVNM56EGL=`">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="?or:bhPHpI4ZhFG2|~ZP">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="-lrUAHZBwp+Y2zu9g^N6">
+                  <field name="TEXT">Step01_1-1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="R5fI.E78fjtN9HCDFY0u">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="NT_Jts]PeMfRATIeI4W$">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="MO=!N~m}IdQZ45]|z8XW">
+                      <field name="TEXT">Step01_1-2</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="b}]ALa8#,/so?ZX;{rg.">
+                      <field name="PROPERTY">display</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="displayDropdown" id="``-#q3g|/v?(r2v?C::4">
+                          <field name="TEXT">none</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="C-H$@z)q^Z1tuxWPq+zM">
+                          <field name="TEXT">alert-box</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF3">
+            <block type="logic_operation" id="CJT]!aAoo4{_ULZEbXQN">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="5e#WM!-m8zDGE`P`:|:-">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="gTi^(D~oJ*M=+ZErb,*k">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="LMDb(LJMF^K!*EmT{W1=">
+                      <field name="VAR" id="4(q?P_8KZse{EYk7p+lt">Step01_1-3_1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="Y:@GMPc#?gOmPYtK5g6a">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="J._9L|+%qaOUF!!U!Tpg">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="E.ry(n1@+y-Z)|kYa1XH">
+                      <field name="VAR" id="WM0~T2yHCN(ztb7E0a!A">Step01_1-3_2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO3">
+            <block type="setHTMLElemStyle" id="+a==k/znX^3+:Ngq2NV^">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="%{xO^yYXA^.o2I}#kfOI">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="za:7`%[^b{Uqc*gA!lgt">
+                  <field name="TEXT">Step01_1-2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="IwMvj{J`t5._!KwQ(|Xm">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="*rKU^=xryd~@@zuRP:}h">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="Szcg%4y{46`ioN,rw)8;">
+                      <field name="TEXT">Step01_1-3_1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF4">
+            <block type="logic_operation" id="JW;#mxs}{D2Tob)JbtAn">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="GtR_BXUDs/7TtKIATo4*">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="WtRkPQB/]C|IIZwJj~j~">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="6m$dX3rX+cmabrD]QiI|">
+                      <field name="VAR" id="WM0~T2yHCN(ztb7E0a!A">Step01_1-3_2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="-2f[xPV*YB^|bfStJLU,">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="PyNjs%Ddb~P)=+pIX}k}">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="9`toKYcWk![XZ1^-4rNn">
+                      <field name="VAR" id="/Iu-*((59Ocf[f,qqFoc">Step01_1-3_3</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO4">
+            <block type="setHTMLElemStyle" id="v=l^Yg5?vYTjjgWKEJ$B">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="Qw]uY58V=yZ9w^^YX4:=">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id=";`fOIJj3!$XP/5K@]}+P">
+                  <field name="TEXT">Step01_1-3_1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="iIo3$gfcIt{Wvj`E7@Nw">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="6+js@`#g3uJuJo?Dpk6Q">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="/gM^rU8s_?]g}oV{=yXm">
+                      <field name="TEXT">Step01_1-3_2</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF5">
+            <block type="logic_operation" id="-Opm%*2^R3H@5#]rdcz:">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="vMeWn3(vBb.$VbR[=3hf">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="@Ry_eBs,XOW2w+e#W9@#">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="`E-5;9J+l]y*D$R%[O=X">
+                      <field name="VAR" id="/Iu-*((59Ocf[f,qqFoc">Step01_1-3_3</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="8TzVxR`Xy7rzQ7N?uuUf">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="8`CZEWgBFYpey`Yu/^Y0">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="8-$fIcK$`YTB@0:T^xfz">
+                      <field name="VAR" id="pZ7qp.sgL`})ccRm0OX2">Step02_2-1_1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO5">
+            <block type="setHTMLElemStyle" id="HMmRD!%}R)|X8i[EUku-">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="JsLr0Ccoko}iQS:twrTA">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="bkB*ww9pIL}}^63FcGbt">
+                  <field name="TEXT">Step01_1-3_2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="%Rr]}jx7`zo318hqFDq)">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="B%iCqhRq.x`N`N1*lOQy">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="0$igPw{xqJkFW:uMDMwD">
+                      <field name="TEXT">Step01_1-3_3</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF6">
+            <block type="logic_operation" id="P6Qpjvz5t~X+3q(U|i9a">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id=")49BewMwN-UKcb/KW$m9">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="pJ+5B1yt(!14;]2U-wk;">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="i8?CyQ)cc28$c@E?pq0S">
+                      <field name="VAR" id="pZ7qp.sgL`})ccRm0OX2">Step02_2-1_1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="a+ks#MM,9wB86gi+MP-4">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="Bv?bQZ^L.suN,}~:(84v">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="v#ht(`b[wu_O=kIZ3!mb">
+                      <field name="VAR" id="*9Zwvv=59}Ih9v[kJd+~">Step02_2-1_2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO6">
+            <block type="setHTMLElemStyle" id="9_!}2`~S3z4CImTgX_fB">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="bp?^QPulV-/n_I4#wqB?">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="7a+K5Fjq3-+:K@182!w-">
+                  <field name="TEXT">Step01_1-3_3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="2i_X~eu3xogJo?M!wPuS">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id=";RDDPPyVg^rOd#UaPV$7">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="b4g^cvr~j3hu7iY95-Uh">
+                      <field name="TEXT">Step02_2-1_1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="G0.GV!8xcy@D|Z`X7#xp">
+                      <field name="PROPERTY">border</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="text" id="f{-xozVidA+~{]Eun*x`">
+                          <field name="TEXT">none</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="wTO3S{!KG=1K#4wvz^3A">
+                          <field name="TEXT">Step01</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id="OZosl3.d54xcLjWrm44O">
+                          <field name="PROPERTY">border</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="text" id="B)hxg*|owr2/C4x1BL6)">
+                              <field name="TEXT">2px solid #3152BA</field>
+                            </shadow>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="wtMeaFSCa..851z=lj)%">
+                              <field name="TEXT">Step02</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF7">
+            <block type="logic_operation" id="CC8LMIpF?7ir!s-nyNRS">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="DrJ}ju6JkyF^K%REadpL">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="P3Ah@*4XG=oZ1ya!KT9z">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="0.gs@59!dy*hNh,Fu}.m">
+                      <field name="VAR" id="*9Zwvv=59}Ih9v[kJd+~">Step02_2-1_2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="/oymO=$6`1[]u)}~n#y.">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="3|52Zn?}sRzz*VF#YHXi">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="-3Y-+_%N|(2_suN=#t,@">
+                      <field name="VAR" id="sF[X|0OLkBM_~kcm;$lo">Step02_2-1_3</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO7">
+            <block type="setHTMLElemStyle" id="03h%sFD10u5nCA0+xOOY">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="jb?qstL$RkSPSY82pA@(">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="+jVF[23ekW$T99H-n^}(">
+                  <field name="TEXT">Step02_2-1_1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="cpS*[($@[$nK7IALTb=E">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="F|d;sCkjKiasB)U2qdhY">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="X(vrj3p3NfAi-LlCWitr">
+                      <field name="TEXT">Step02_2-1_2</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF8">
+            <block type="logic_operation" id="65:RTl}mAu$fX`_g_Y1o">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="c]Z)]TyqX.rXrzL*V8*Q">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="?UncTvOMX|-FP1)fgF6;">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="lh@cI)EWd#mfqCl$?#3h">
+                      <field name="VAR" id="sF[X|0OLkBM_~kcm;$lo">Step02_2-1_3</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="UY,6cJbdAjNxX^Lj]!Y@">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="TXDb%O+DCv:IX8_BbIeD">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="GVX@6/4Yii`|4L-{ODJ~">
+                      <field name="VAR" id="3#.]#BcSC0S-01Uxb2I`">Step03_3-1_1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO8">
+            <block type="setHTMLElemStyle" id="T*vLZXooVMXs#S2Z3[(y">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="}?v]fHFF?rk.bRHvP:-?">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="^@5]blf$9?!Uh/O3P(g$">
+                  <field name="TEXT">Step02_2-1_2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="-pKr`I`RY-3Y9Rx]!.-Q">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="(R*6poU33nr4ezCs9zFA">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="]Fe[8{4nvZC_befG_R|?">
+                      <field name="TEXT">Step02_2-1_3</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF9">
+            <block type="logic_operation" id="Gatfs?cod3]X27G(9+Pg">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="_WRu54IYz=ZnHo2)dWq%">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="7L.Li~X8`$*a7K|Yq0+}">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="0,@F5vxX)SSDAr?K8`l.">
+                      <field name="VAR" id="3#.]#BcSC0S-01Uxb2I`">Step03_3-1_1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id=")/xHLDi]$2olZR;cfP8t">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="F}0l)5Q.#[3Q*!l;MGhz">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="OD/|_[1v+Nv$FV2XFH#b">
+                      <field name="VAR" id="P[t.%o*i7Cf_9L%x%sIJ">Step03_3-1_2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO9">
+            <block type="setHTMLElemStyle" id="f[n!`Z{8=b0oTaaAbf{W">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="RAh8y*B/{EbP]lf^jLEt">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="TQrH:Db8nTdV]mN[ft=9">
+                  <field name="TEXT">Step02_2-1_3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="7Gdc@OL;2J12g=dK._ZI">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="p`,[K[R2a@][/DYlw8,=">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="*xFCVPf=|d_$WH.mKliZ">
+                      <field name="TEXT">Step03_3-1_1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="V?o!YO[FPxVfmN6a48n!">
+                      <field name="PROPERTY">border</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="text" id="o2PzW}l$oPAlkA8~}=8-">
+                          <field name="TEXT">none</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="oVT@#/5YdSi}2ACv~?,U">
+                          <field name="TEXT">Step02</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id="S1yXF*,WGm!M3Hh:=KD3">
+                          <field name="PROPERTY">border</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="text" id="U~F0CTg,Nr)ak,hDErbo">
+                              <field name="TEXT">2px solid #3152BA</field>
+                            </shadow>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="6N}%iBTmwV1iFUi_~ONf">
+                              <field name="TEXT">Step03</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF10">
+            <block type="logic_operation" id="3ei:m!P(b1X0-)ap}Cm*">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="z6H)8]7nFCBddW`[}Pz}">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="zAj|XjxT%/{M}i(R!~5)">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="4^a4X/YyJ6k|bxz8B3Iy">
+                      <field name="VAR" id="P[t.%o*i7Cf_9L%x%sIJ">Step03_3-1_2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="QGpgq)}SdjEnyZ_ZV;3U">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="dCqp}rU~ZaIO~4OI5i!!">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="O@4f}]H,ICy_mM23Wm#|">
+                      <field name="VAR" id="~}YXtk^p6!iK?Oezm6;p">Step03_3-1_3</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO10">
+            <block type="setHTMLElemStyle" id="gS`(1|~Nd!xGA%CAQw3R">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="tE,t?*%$@HNo@PN$aW5x">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="SaP?aH6/5#cd7CAQPloq">
+                  <field name="TEXT">Step03_3-1_1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="}jYHQoVYs-{m7?0w$Z=H">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="fF([hphzKU(By5JL%keh">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id=")5J)CKBA6e%zZNUJevMv">
+                      <field name="TEXT">Step03_3-1_2</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF11">
+            <block type="logic_operation" id="=_2mPfOsD9brfaiH7cf7">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id=":^z!6XQyb8jF.+:[-3lt">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="0`@NdH@/jTWS5beA}ob/">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="%i/TBQ3`2Z{5$g_B;98Q">
+                      <field name="VAR" id="~}YXtk^p6!iK?Oezm6;p">Step03_3-1_3</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="eMBrpj)[;#s/#[Oo|f@4">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="{3+1*3eW6zGaf.AokR10">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="n!NlPin9)jzij|KGZn?/">
+                      <field name="VAR" id="EgP3erw}seQa]Xr)Ce:g">Step03_3-1_4</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO11">
+            <block type="setHTMLElemStyle" id="^j=PNdxo?A4tLE0~LpE4">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="p]ZuY|C!]xCv6qk?PU(9">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="?QCl)2E#uWi3AVULa#,8">
+                  <field name="TEXT">Step03_3-1_2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="vbH~AyM$I1Qgo*S]s7f6">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="m_4opxnWDcS@Ks,`1O?:">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="F}KLN(iB3..9xO[SsS)~">
+                      <field name="TEXT">Step03_3-1_3</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF12">
+            <block type="logic_operation" id="Q__^Cc83QKM$bi0k^{5(">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="%4|{E;|{ps7j!68TNlg0">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="V;=(^k9j[i|BIXv/ufNE">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="_deNDid0z{plT=sw90Xh">
+                      <field name="VAR" id="EgP3erw}seQa]Xr)Ce:g">Step03_3-1_4</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="rSW5qtLoTPgCw[K/Uz}e">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="0]l($MhQ|e$NJWl}%|mo">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="%X]iU(9!00qF)cTsJ}{G">
+                      <field name="VAR" id="9xo1nnpT~a-x)~RT0c?R">Step03_3-1_5</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO12">
+            <block type="setHTMLElemStyle" id="pni42,~%2!Q_HD3dnfQ2">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="-.1@yX,fah$56oXb^+Lm">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="bmSO=6Fh?S$0d=Am1iDA">
+                  <field name="TEXT">Step03_3-1_3</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="ZOe%j0u4)8ZSU4z52~sb">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="O*1o}xP)d:a{|#-RJgd/">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="dChb*u5fGz8[GEt:3[ib">
+                      <field name="TEXT">Step03_3-1_4</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF13">
+            <block type="logic_operation" id="If/pimM;p1%~s;sk)c4-">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="72W|EG[lH2eQZ)vRoA|`">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="z7JK$N9HX,5r^(hPrNag">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="kteS]kY81$Ryn,.iXfP}">
+                      <field name="VAR" id="9xo1nnpT~a-x)~RT0c?R">Step03_3-1_5</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="n}XYMdoY#[[o[6kY2Wh[">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="u$5+LF#;K}YF1-%@ZT/)">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="eFQc7D)hVX(FidN9Fq;_">
+                      <field name="VAR" id="C^EafCE+ucCn9?U~cuzC">Step03_3-1_6</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO13">
+            <block type="setHTMLElemStyle" id="4-`NY/gl@q+T[Pjo[!,2">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="e40@b+B;]yM#zl=Xz7E^">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="ysYIyek1@K`B!}0o-x-C">
+                  <field name="TEXT">Step03_3-1_4</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="3uQ),L#|A3p@kYD-*T!@">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="9Q5c$y`Xy*0]P@gyn~!B">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="GZ:85n,_~_MF*,HwV[a?">
+                      <field name="TEXT">Step03_3-1_5</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF14">
+            <block type="logic_operation" id="hrnx#%}2m{j`m)PvdrBI">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="JbV$_mz%0l@GE.W`|=#u">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="#;#z:y!)4{:2UzD|8pU9">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="{zLwRMrd!vn9`gOVsKOY">
+                      <field name="VAR" id="C^EafCE+ucCn9?U~cuzC">Step03_3-1_6</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="R{5Ofbt$Q[v,8~Jh@|T0">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="=$C!@|;+`o(X`?Bd`$cO">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="aN6Xdh6yXP$tg}bjUC%h">
+                      <field name="VAR" id="?1co*`4%JiHrsk-N5!c`">Step03_3-1_7</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO14">
+            <block type="setHTMLElemStyle" id="lKuK[]F!w$w$tR,:~aqn">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="Se#Io=iVnz*lmchxj?d]">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="b6QP@?sPEeBnf3dTC$VE">
+                  <field name="TEXT">Step03_3-1_5</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="b9?J1Ts%cu/!U=$;I_-o">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="V=Dn/x+vU8*cV;]phFZm">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="@@DI[7Y)Lz;9D2cI7E1~">
+                      <field name="TEXT">Step03_3-1_6</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF15">
+            <block type="logic_operation" id="w$f99(7g5WWTIMZy1{]1">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="(6kkD9cKhOllS4L:qwXK">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="-12+JL:J;0|O^7p;^zs_">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="D$$v5#IC%Pnd|MQVc==3">
+                      <field name="VAR" id="?1co*`4%JiHrsk-N5!c`">Step03_3-1_7</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="34wH{*?y`DSAiw8.Xb}J">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="yCn}xyh0RgZheU*pJafv">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="p?`},$}(hcW.el!vxW#z">
+                      <field name="VAR" id="zUKNgQqo?9+Qtyff|jYx">Step03_3-1_8</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO15">
+            <block type="setHTMLElemStyle" id="u56AM9_N0Kf8e2Di]u6}">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="47Ze68-Xe@f@J8w`w_zY">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="8nP}OB~.jP=Z8^0?7_vx">
+                  <field name="TEXT">Step03_3-1_6</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="B-R[]%cks.ZZ~VNeG9l`">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="b.GiDud({aK]wh|M%wY:">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="}yYQ5vx}bp!bG$#f(L{w">
+                      <field name="TEXT">Step03_3-1_7</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF16">
+            <block type="logic_operation" id="KoA-gmago-]HsFLNkhKS">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="xXiq.s+W.7NO%1/nWc*x">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="vmAuod$CA=P)aZecfWim">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="lCwT2}2sS*u8#:)_NPrg">
+                      <field name="VAR" id="zUKNgQqo?9+Qtyff|jYx">Step03_3-1_8</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="!$t)lszcWng:c$rwj6m)">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="@aoh8%bwrLEnq$s=u_6c">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="Wr9@-u)sgL=h8`3htxbx">
+                      <field name="VAR" id="waZEH([[p,A*:W/%)1w0">Step04_4-1_1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO16">
+            <block type="setHTMLElemStyle" id="{TV7sVN.]0}N{G*GE+*A">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="4~%Yd#pz61vqWO@dD`v-">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="UBm=Ndm;zVu)Be:GpO^j">
+                  <field name="TEXT">Step03_3-1_7</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="=;p%;4M#HxMTX:=/QykW">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="/YIxDDS622N$L[^_wrMI">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="gOjGQi.by#?.H!4qC)Rq">
+                      <field name="TEXT">Step03_3-1_8</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF17">
+            <block type="logic_operation" id="hT7YO9Nb7J`_j`p%_?)#">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="s1rEj)?.:f?I@hO3k2*T">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="i%O3*;KTZ0zvz%%WEtm!">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="ZL*#M^fWMhax)-=E1cpR">
+                      <field name="VAR" id="waZEH([[p,A*:W/%)1w0">Step04_4-1_1</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="g_bc.Zc=cBUkaklk*aoa">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="ElZ3f}ljjyx~A]+M|c9d">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="n98wE2G^:;xd2wsUHE4B">
+                      <field name="VAR" id="`8~KcRY@SvnL#;qWf!DK">Step04_4-1_2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO17">
+            <block type="setHTMLElemStyle" id="?C,{;GFr?L+k[zVgTetE">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="fNEOaJE$mQoC@VrQVw3#">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id=".lN|+gZke2[aUp(QN5n+">
+                  <field name="TEXT">Step03_3-1_8</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="}fJiD$T{OJ[-2Jle^}=Z">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="_!)_Hc5jeD_4D:,0rz?x">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="OL5{)0.-n.TE2`K:#Q{Z">
+                      <field name="TEXT">Step04_4-1_1</field>
+                    </shadow>
+                  </value>
+                  <next>
+                    <block type="setHTMLElemStyle" id="$+K-|3Dqkz@nBCM?MOXu">
+                      <field name="PROPERTY">border</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="text" id="F~x)aiUSB(:gf0t/xM}=">
+                          <field name="TEXT">none</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="Ll$1%o8ufnHrERZ*zPpW">
+                          <field name="TEXT">Step03</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id="]y:0`~-5Sw|iJt`y9-AU">
+                          <field name="PROPERTY">border</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="text" id="_D$#5=?wFYm2Z$j8b,5M">
+                              <field name="TEXT">2px solid #3152BA</field>
+                            </shadow>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="Xb8M2Pg{~t.wV5fKc)YH">
+                              <field name="TEXT">Step04</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <value name="IF18">
+            <block type="logic_operation" id="j-YiA*,-NH*tV;N*1_BS">
+              <field name="OP">AND</field>
+              <value name="A">
+                <block type="logic_compare" id="}w{,E|+@M1[2VrnpK:-e">
+                  <field name="OP">GT</field>
+                  <value name="A">
+                    <block type="variables_get" id="`T~imN]%zj2yO7h/UNjn">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id=",!H-2/Rv%R;084{bWU{,">
+                      <field name="VAR" id="`8~KcRY@SvnL#;qWf!DK">Step04_4-1_2</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+              <value name="B">
+                <block type="logic_compare" id="L.0tk,uGS{G/Ac-|?efu">
+                  <field name="OP">LT</field>
+                  <value name="A">
+                    <block type="variables_get" id="[eFK(GX^cqEdyrp4,V}9">
+                      <field name="VAR" id="/2~:(8@l.:|u33qG]V99">CURRENT_FRAME</field>
+                    </block>
+                  </value>
+                  <value name="B">
+                    <block type="variables_get" id="=G3Bbh5{86FyW%p*f}@i">
+                      <field name="VAR" id="qloUsNfImB.@fnUf,~2C">StepEND</field>
+                    </block>
+                  </value>
+                </block>
+              </value>
+            </block>
+          </value>
+          <statement name="DO18">
+            <block type="setHTMLElemStyle" id="rY0w,IiZQv$P{lV/JYwK">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="yCm8nM#}*FgrB!dGMFZV">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="Z[$^YZe,0Fw-lkubEike">
+                  <field name="TEXT">Step04_4-1_1</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="zA2Ls{c|`0MSIhOM,pl[">
+                  <field name="PROPERTY">backgroundColor</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="S2iMxMMy];CK_fJHO5!3">
+                      <field name="TEXT">#ff19ff</field>
+                    </shadow>
+                    <block type="variables_get" id="qW+)CLL`Y5JNBTCdx-$J">
+                      <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                    </block>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="gs}NNnmI{rQY~gDRgsed">
+                      <field name="TEXT">Step04_4-1_2</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <statement name="ELSE">
+            <block type="setHTMLElemStyle" id="u-ovSEw+/mjI)$m0q[tM">
+              <field name="PROPERTY">backgroundColor</field>
+              <field name="PARENT">TRUE</field>
+              <value name="VALUE">
+                <shadow type="text" id="c)wqNMg*}[`]fU{za;rk">
+                  <field name="TEXT">transparent</field>
+                </shadow>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="Smqq+Sz-hBaYC;J6~3Uh">
+                  <field name="TEXT">Step04_4-1_2</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="setHTMLElemStyle" id="js{!ld0|8[h6@t|c!7lZ">
+                  <field name="PROPERTY">border</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="VALUE">
+                    <shadow type="text" id="!KolOxE.LfUN#I?|j=wN">
+                      <field name="TEXT">none</field>
+                    </shadow>
+                  </value>
+                  <value name="ID">
+                    <shadow type="text" id="(8uncy)bj.kwD;]G1T.B">
+                      <field name="TEXT">Step04</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="procedures_defnoreturn" id="k4XfsJU)Q0RTmDi:D[gj" x="2710" y="10">
+      <field name="NAME">TEST_Click_DOC</field>
+      <comment pinned="false" h="80" w="160">Describe this function...</comment>
+      <statement name="STACK">
+        <block type="eventHTMLElem" id="UO)a=A^3b6RPYoh+-hrc">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id=".h,MBCi;1nZN6f%n7-pZ">
+              <field name="TEXT">Step01</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="procedures_callnoreturn" id=")oJ~46yPOf74.6]2Q*;1">
+              <mutation name="ALL_Disable"></mutation>
+              <next>
+                <block type="playAnimationAdv" id="/U*7;[D$!,@TQdfUX;DO">
+                  <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                  <field name="REVERSED">FALSE</field>
+                  <field name="LOOP">LoopOnce</field>
+                  <value name="VALUE">
+                    <shadow type="animationList" id="vKO7@uJ:gL5CnSRu,6.#">
+                      <field name="FIELDNAME">Cube</field>
+                    </shadow>
+                  </value>
+                  <value name="FROM">
+                    <shadow type="math_number" id="926^kD]R-z3O!=0$5Ld(">
+                      <field name="NUM">90</field>
+                    </shadow>
+                    <block type="variables_get" id="EO2;F#r?dN?6eTnEm}z8">
+                      <field name="VAR" id="h|^r7,vB!0.?xa3j5ec4">Step01</field>
+                    </block>
+                  </value>
+                  <value name="TO">
+                    <shadow type="math_number" id="cV$~tvs/g$^X8JY{r5PE">
+                      <field name="NUM">99</field>
+                    </shadow>
+                    <block type="variables_get" id="HUf{~Ru#hs.M)s:oC]8O">
+                      <field name="VAR" id="r},:j$5^jzzlxk3:`y,o">Step02</field>
+                    </block>
+                  </value>
+                  <value name="SPEED">
+                    <shadow type="math_number" id="6SE!TW%1QM3IwiLK1hP0">
+                      <field name="NUM">1</field>
+                    </shadow>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id="7mL#Y7|$*8Hcfy$0o~T6">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="3;nGbK@$2_[9Rl?BLCEd">
+                  <field name="TEXT">Step02</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="procedures_callnoreturn" id="E}iry[dUyG~iwJiW`y^k">
+                  <mutation name="ALL_Disable"></mutation>
+                  <next>
+                    <block type="playAnimationAdv" id="q){kw]%/:cT|.5.,E6{h">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">LoopOnce</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="BcBAbUqo4E37/oipq9cC">
+                          <field name="FIELDNAME">Cube</field>
+                        </shadow>
+                      </value>
+                      <value name="FROM">
+                        <shadow type="math_number" id="}ry1fW-nN_xZe1o6;?tu">
+                          <field name="NUM">90</field>
+                        </shadow>
+                        <block type="variables_get" id="=u#rL!u^`Gsuc$(zByQa">
+                          <field name="VAR" id="r},:j$5^jzzlxk3:`y,o">Step02</field>
+                        </block>
+                      </value>
+                      <value name="TO">
+                        <shadow type="math_number" id="w,QQ[Q)pLo,Q]^7_:a;]">
+                          <field name="NUM">99</field>
+                        </shadow>
+                        <block type="variables_get" id="h3m4ru[eC8{({VeLh|=r">
+                          <field name="VAR" id="h;HKIYL)j5hI{=6w]vM*">Step03</field>
+                        </block>
+                      </value>
+                      <value name="SPEED">
+                        <shadow type="math_number" id="xkzo5uC37d;O_ob/~,W;">
+                          <field name="NUM">1</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </next>
+                </block>
+              </statement>
+              <next>
+                <block type="eventHTMLElem" id="om4U_V4kVE@Cs=DQ6rz)">
+                  <field name="EVENT">click</field>
+                  <field name="PARENT">TRUE</field>
+                  <value name="ID">
+                    <shadow type="text" id="0thzHZg,2FhLyse1`BR;">
+                      <field name="TEXT">Step03</field>
+                    </shadow>
+                  </value>
+                  <statement name="DO">
+                    <block type="procedures_callnoreturn" id="*f2MSeZlRhVXFG-0(U46">
+                      <mutation name="ALL_Disable"></mutation>
+                      <next>
+                        <block type="playAnimationAdv" id="Ta|`cZaeU/kx0j_#pf%N">
+                          <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                          <field name="REVERSED">FALSE</field>
+                          <field name="LOOP">LoopOnce</field>
+                          <value name="VALUE">
+                            <shadow type="animationList" id="Mp)[niRCWj@q}N~Z-kX2">
+                              <field name="FIELDNAME">Cube</field>
+                            </shadow>
+                          </value>
+                          <value name="FROM">
+                            <shadow type="math_number" id="}ry1fW-nN_xZe1o6;?tu">
+                              <field name="NUM">90</field>
+                            </shadow>
+                            <block type="variables_get" id="C}8h?~@76)g:$7fCE![#">
+                              <field name="VAR" id="h;HKIYL)j5hI{=6w]vM*">Step03</field>
+                            </block>
+                          </value>
+                          <value name="TO">
+                            <shadow type="math_number" id="w,QQ[Q)pLo,Q]^7_:a;]">
+                              <field name="NUM">99</field>
+                            </shadow>
+                            <block type="variables_get" id="kEn+yi?A2{AwN`iumAhF">
+                              <field name="VAR" id="B2w%OJWsAV2{6n@yYRVQ">Step04</field>
+                            </block>
+                          </value>
+                          <value name="SPEED">
+                            <shadow type="math_number" id="4_/JnyMNMEUBu`L25^(;">
+                              <field name="NUM">1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <next>
+                    <block type="eventHTMLElem" id="+tu/G57y*LG?iA@y-!r9">
+                      <field name="EVENT">click</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="ID">
+                        <shadow type="text" id="x6XbG=Zf2Xii=DhGX23r">
+                          <field name="TEXT">Step04</field>
+                        </shadow>
+                      </value>
+                      <statement name="DO">
+                        <block type="procedures_callnoreturn" id="@8R]c7s#|f=7FmjYlay.">
+                          <mutation name="ALL_Disable"></mutation>
+                          <next>
+                            <block type="playAnimationAdv" id="a%{.}HVBg+U/1Sh}uNp:">
+                              <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="true" enablewhenfinished="false"></mutation>
+                              <field name="REVERSED">FALSE</field>
+                              <field name="LOOP">LoopOnce</field>
+                              <value name="VALUE">
+                                <shadow type="animationList" id="Om4)vvWeu6X:^!6O,gM8">
+                                  <field name="FIELDNAME">Cube</field>
+                                </shadow>
+                              </value>
+                              <value name="FROM">
+                                <shadow type="math_number" id="}ry1fW-nN_xZe1o6;?tu">
+                                  <field name="NUM">90</field>
+                                </shadow>
+                                <block type="variables_get" id="fiVEUys4#HC;5ot4%^!y">
+                                  <field name="VAR" id="B2w%OJWsAV2{6n@yYRVQ">Step04</field>
+                                </block>
+                              </value>
+                              <value name="TO">
+                                <shadow type="math_number" id="w,QQ[Q)pLo,Q]^7_:a;]">
+                                  <field name="NUM">99</field>
+                                </shadow>
+                                <block type="variables_get" id="5dt%MOZAa6I16*atr]-q">
+                                  <field name="VAR" id="qloUsNfImB.@fnUf,~2C">StepEND</field>
+                                </block>
+                              </value>
+                              <value name="SPEED">
+                                <shadow type="math_number" id=";rZ~E4zxO-J,[]//`H#t">
+                                  <field name="NUM">1</field>
+                                </shadow>
+                              </value>
+                            </block>
+                          </next>
+                        </block>
+                      </statement>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="eventHTMLElem" id="=Sl(_t+0Zm5G)*_+v#ks" x="210" y="210">
+      <field name="EVENT">click</field>
+      <field name="PARENT">TRUE</field>
+      <value name="ID">
+        <shadow type="text" id="l6C:e@C3AN!Q(nn%mh[K">
+          <field name="TEXT">stopAnimation</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="stopAnimation" id="@u+ogTa)LDjN}rAnAP%:">
+          <value name="VALUE">
+            <shadow type="animationList" id="{h`HKx$duW[Ld9s74J0L">
+              <field name="FIELDNAME">Cube</field>
+            </shadow>
+          </value>
+          <next>
+            <block type="variables_set" id="vxc0bC87FULb4UB5O|fj">
+              <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+              <value name="VALUE">
+                <block type="logic_boolean" id="z$sR*)~L.EyHkGiJTQN6">
+                  <field name="BOOL">FALSE</field>
+                </block>
+              </value>
+              <next>
+                <block type="procedures_callnoreturn" id="dAPggP9p7]yuL@).D_)H">
+                  <mutation name="ALL_Disable"></mutation>
+                  <next>
+                    <block type="setHTMLElemStyle" id="w(@2TT$e*~YGrUuQ//2c">
+                      <field name="PROPERTY">border</field>
+                      <field name="PARENT">TRUE</field>
+                      <value name="VALUE">
+                        <shadow type="text" id="n!g-Lf5ZX24,Cnu]+bfs">
+                          <field name="TEXT">2px solid #3152BA</field>
+                        </shadow>
+                      </value>
+                      <value name="ID">
+                        <shadow type="text" id="T|G]rtB~;$4#WL!3G),+">
+                          <field name="TEXT">Step01</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="setHTMLElemStyle" id="R*G$?[g^z/2j,lzkKnic">
+                          <field name="PROPERTY">backgroundColor</field>
+                          <field name="PARENT">TRUE</field>
+                          <value name="VALUE">
+                            <shadow type="text" id="`gzY{vNpg36zL:rsY?pV">
+                              <field name="TEXT">#ff19ff</field>
+                            </shadow>
+                            <block type="variables_get" id="8z7aaI[of#l[VQ$63T3B">
+                              <field name="VAR" id=".}YT5cX=rkuO@g|z^D]I">bgcolorStep</field>
+                            </block>
+                          </value>
+                          <value name="ID">
+                            <shadow type="text" id="kBlC9}~E9gDJx+4g;=gW">
+                              <field name="TEXT">Step01_1-1</field>
+                            </shadow>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </next>
+                </block>
+              </next>
+            </block>
+          </next>
+        </block>
+      </statement>
+      <next>
+        <block type="eventHTMLElem" id="eTWMx:|N:h$`,)r6!Ee=">
+          <field name="EVENT">click</field>
+          <field name="PARENT">TRUE</field>
+          <value name="ID">
+            <shadow type="text" id="5Eh|ffbMwSeARET2bwl7">
+              <field name="TEXT">pauseAnimation</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="pauseAnimation" id="@nR_~~yEx5vmEToCRlKK">
+              <value name="VALUE">
+                <shadow type="animationList" id="7Xou:Ks;A.gqaIQ/$54s">
+                  <field name="FIELDNAME">Cube</field>
+                </shadow>
+              </value>
+              <next>
+                <block type="variables_set" id=";YscZasg)w70s/2YL58]">
+                  <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+                  <value name="VALUE">
+                    <block type="logic_boolean" id="Vd8)uvyx.ep-Bg5JHMe5">
+                      <field name="BOOL">TRUE</field>
+                    </block>
+                  </value>
+                </block>
+              </next>
+            </block>
+          </statement>
+          <next>
+            <block type="eventHTMLElem" id=",2zals9e9Bh2gd@c`9xt">
+              <field name="EVENT">click</field>
+              <field name="PARENT">TRUE</field>
+              <value name="ID">
+                <shadow type="text" id="5K_+BH/b)281#:Vpy_+$">
+                  <field name="TEXT">playAnimation</field>
+                </shadow>
+              </value>
+              <statement name="DO">
+                <block type="controls_ifelse" id="wFDUt_dY`5+OvsPU~LmM">
+                  <value name="IF0">
+                    <block type="logic_compare" id="~Y]Qq-VC[lO[P~a_c?Dq">
+                      <field name="OP">EQ</field>
+                      <value name="A">
+                        <block type="variables_get" id="fZE-3Pb|Su0gip%h[MDL">
+                          <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+                        </block>
+                      </value>
+                      <value name="B">
+                        <block type="logic_boolean" id="^F8;c~-Wy=-|pUDw_0ie">
+                          <field name="BOOL">TRUE</field>
+                        </block>
+                      </value>
+                    </block>
+                  </value>
+                  <statement name="DO0">
+                    <block type="resumeAnimation" id="2g*@PnbN@VD_1/R))#Wm">
+                      <value name="VALUE">
+                        <shadow type="animationList" id="hU(vJA/U9M1NwPGc)nC+">
+                          <field name="FIELDNAME">Cube</field>
+                        </shadow>
+                      </value>
+                      <next>
+                        <block type="variables_set" id="$M(4;GUdAijbN+4#_rG2">
+                          <field name="VAR" id="2[,$=K/W)ibdY`B;0oMe">animation_paused</field>
+                          <value name="VALUE">
+                            <block type="logic_boolean" id="tHJ*xi.b~n728lW{/!~C">
+                              <field name="BOOL">FALSE</field>
+                            </block>
+                          </value>
+                        </block>
+                      </next>
+                    </block>
+                  </statement>
+                  <statement name="ELSE">
+                    <block type="playAnimationAdv" id="ZqW17T8Qo?}kD|_.Wbr;">
+                      <mutation xmlns="http://www.w3.org/1999/xhtml" advplaybackoptions="false" enablewhenfinished="false"></mutation>
+                      <field name="REVERSED">FALSE</field>
+                      <field name="LOOP">AUTO</field>
+                      <value name="VALUE">
+                        <shadow type="animationList" id="sO-7lIE#ghl=yV(^)@qQ">
+                          <field name="FIELDNAME">Cube</field>
+                        </shadow>
+                      </value>
+                    </block>
+                  </statement>
+                </block>
+              </statement>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1134" viewport-y="37" viewport-w="768" viewport-h="476.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

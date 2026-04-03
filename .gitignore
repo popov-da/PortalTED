@@ -1,3 +1,7 @@
 
 *.7z
 *.db
+
+# Blender — часто >100 MiB; GitHub не примет. Для Verge3D в портале не нужны.
+*.blend
+*.blend1

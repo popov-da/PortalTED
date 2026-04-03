@@ -1,3 +1,66 @@
+function isVideoUrl(url) {
+  return /\.(mp4|webm|ogg)(\?|#|$)/i.test(url);
+}
+
+function resolveResourceUrl(url) {
+  try {
+    return new URL(url, window.location.href).href;
+  } catch (e) {
+    return url;
+  }
+}
+
+function isCrossOriginHttpUrl(url) {
+  if (!/^https?:\/\//i.test(url)) return false;
+  try {
+    return new URL(url).origin !== window.location.origin;
+  } catch (e) {
+    return false;
+  }
+}
+
+/** Панель «Открыть в новой вкладке» для внешних https-встраиваний (V3D, schem.io и т.д.) */
+function setExternalEmbedUI(resolvedUrl) {
+  const bar = document.getElementById("embedToolbar");
+  const link = document.getElementById("embedToolbarLink");
+  if (!bar || !link) return;
+  if (resolvedUrl && isCrossOriginHttpUrl(resolvedUrl)) {
+    bar.style.display = "flex";
+    link.href = resolvedUrl;
+  } else {
+    bar.style.display = "none";
+    link.removeAttribute("href");
+  }
+}
+
+function formatHistoryQuery(element, contentUrl) {
+  const params = new URLSearchParams();
+  const nodeId = element.dataset.nodeId;
+  const base = element.dataset.contentUrl;
+  if (nodeId) params.set('node', nodeId);
+  if (contentUrl && base && contentUrl !== base) params.set('doc', contentUrl);
+  const s = params.toString();
+  return s ? `?${s}` : '';
+}
+
+function fileItemByNodeId(nodeId) {
+  if (!nodeId) return null;
+  const items = document.querySelectorAll("[data-node-id]");
+  for (let i = 0; i < items.length; i++) {
+    if (items[i].dataset.nodeId === nodeId) return items[i];
+  }
+  return null;
+}
+
+function resetContentVideo() {
+  const video = document.getElementById('contentVideo');
+  if (!video) return;
+  video.pause();
+  video.removeAttribute('src');
+  video.load();
+  video.style.display = 'none';
+}
+
 // Функция скрытия стартовой страницы
 function hideStartPage() {
   const startPage = document.getElementById('startPage'); // Получаем элемент с ID 'startPage'
@@ -19,6 +82,7 @@ function resetActiveTabs() {
 function showStartPage() {
   document.getElementById('loadingIndicator').style.display = 'none'; // Скрываем индикатор загрузки
   document.getElementById('contentFrame').src = 'about:blank'; // Очищаем источник iframe, чтобы не отображался предыдущий контент
+  resetContentVideo();
   document.getElementById('startPage').style.display = 'flex'; // Делаем стартовую страницу видимой (flex-контейнер)
   // Показываем все секции .skin-tree
   document.querySelectorAll('.skin-tree').forEach(section => section.style.display = 'block'); // Устанавливаем стиль 'block' для каждой секции
@@ -31,10 +95,17 @@ function showStartPage() {
   document.getElementById('selectMessage').style.display = 'none'; // Убираем подсказку «выберите элемент», если открывали раздел с плитки
   const contentFrame = document.getElementById('contentFrame');
   contentFrame.style.display = 'none'; // Контент в iframe на стартовой странице не показываем
+  const mediaStack = document.getElementById('contentMediaStack');
+  if (mediaStack) mediaStack.style.display = 'none';
+  setExternalEmbedUI(null);
 }
 
-// Функция загрузки документа с обновлением URL
-function loadContent(element, url) {
+// Функция загрузки документа с обновлением URL (?node=…, при варианте — &doc=…)
+function loadContent(element, url, options) {
+  const opts = options || {};
+  const targetUrl = url || (element && element.dataset.contentUrl);
+  if (!element || !targetUrl) return;
+
   hideStartPage(); // Скрываем стартовую страницу
   document.getElementById("selectMessage").style.display = "none"; // Скрываем сообщение о выборе документа
   const loadingIndicator = document.getElementById("loadingIndicator"); // Получаем индикатор загрузки
@@ -43,45 +114,116 @@ function loadContent(element, url) {
   resetActiveTabs(); // Сбрасываем активные вкладки
   element.classList.add("active"); // Добавляем активный класс к элементу, который выбрали
 
-  const contentFrame = document.getElementById("contentFrame"); // Получаем iframe, в который будем загружать документ
-  contentFrame.onload = () => loadingIndicator.style.display = "none"; // Скрываем индикатор после загрузки контента в iframe
-  contentFrame.src = url; // Устанавливаем адрес ресурса для iframe
+  if (!opts.skipHistory) {
+    const q = formatHistoryQuery(element, targetUrl);
+    history.pushState({}, '', q ? window.location.pathname + q : window.location.origin + window.location.pathname);
+  }
 
-  // Обновляем URL без перезагрузки страницы
-  history.pushState({}, '', "?doc=" + encodeURIComponent(url)); // Добавляем параметр doc в адресную строку
-  contentFrame.style.display = 'block'; // Показываем iframe с документом
+  const contentFrame = document.getElementById("contentFrame");
+  const contentVideo = document.getElementById("contentVideo");
+  const mediaStack = document.getElementById("contentMediaStack");
+  if (mediaStack) mediaStack.style.display = "flex";
+
+  const resolved = resolveResourceUrl(targetUrl);
+
+  if (isVideoUrl(resolved) && contentVideo) {
+    setExternalEmbedUI(null);
+    contentFrame.style.display = "none";
+    contentFrame.src = "about:blank";
+    contentVideo.style.display = "block";
+    contentVideo.muted = true;
+    var videoLoadTimer = null;
+    function finishVideoLoad() {
+      if (videoLoadTimer) {
+        window.clearTimeout(videoLoadTimer);
+        videoLoadTimer = null;
+      }
+      loadingIndicator.style.display = "none";
+    }
+    contentVideo.onloadedmetadata = finishVideoLoad;
+    contentVideo.oncanplay = finishVideoLoad;
+    contentVideo.onerror = finishVideoLoad;
+    videoLoadTimer = window.setTimeout(finishVideoLoad, 15000);
+    contentVideo.src = resolved;
+    contentVideo.play().catch(function () {});
+  } else {
+    resetContentVideo();
+    setExternalEmbedUI(resolved);
+    contentFrame.onload = function () {
+      loadingIndicator.style.display = "none";
+    };
+    contentFrame.onerror = function () {
+      loadingIndicator.style.display = "none";
+    };
+    contentFrame.src = resolved;
+    contentFrame.style.display = "block";
+  }
 }
 
+function applyRouteFromLocation(isInitial) {
+  const params = new URLSearchParams(window.location.search);
+  const nodeId = params.get("node");
+  const docUrl = params.get("doc");
 
-// Функция обработки загрузки страницы с параметром doc
-window.addEventListener("load", () => {
-  const urlParams = new URLSearchParams(window.location.search); // Получаем параметры из URL
-  const docUrl = urlParams.get('doc'); // Извлекаем значение параметра 'doc'
+  if (!nodeId && !docUrl) {
+    if (!isInitial) showStartPage();
+    return;
+  }
 
-  if (docUrl) { // Проверяем, есть ли значение у параметра 'doc'
-    const elements = document.querySelectorAll(".file-item"); // Ищем все элементы с классом 'file-item'
-    let found = false; // Флаг, указывающий, найден ли соответствующий элемент
-
-    elements.forEach(element => { // Перебираем каждый элемент
-      const onclickValue = element.getAttribute("onclick"); // Получаем строку, содержащуюся в атрибуте onclick
-      if (onclickValue && onclickValue.includes(docUrl)) { // Проверяем, содержит ли эта строка параметр docUrl
-        found = true; // Устанавливаем флаг в true, так как документ найден
-        loadContent(element, docUrl); // Вызываем функцию загрузки документа с найденным элементом и ссылкой docUrl
-      }
-    });
-
-    // Если среди элементов не нашлось подходящего, показываем стартовую страницу
-    if (!found) {
-      showStartPage(); // Вызываем функцию отображения стартовой страницы
+  if (nodeId) {
+    const el = fileItemByNodeId(nodeId);
+    if (el) {
+      const url = docUrl || el.dataset.contentUrl;
+      if (url) loadContent(el, url, { skipHistory: true });
+      return;
     }
   }
+
+  if (docUrl) {
+    const items = document.querySelectorAll("[data-content-url]");
+    for (let i = 0; i < items.length; i++) {
+      const el = items[i];
+      if (el.dataset.contentUrl === docUrl) {
+        loadContent(el, docUrl, { skipHistory: true });
+        if (el.dataset.nodeId) {
+          history.replaceState({}, "", window.location.pathname + formatHistoryQuery(el, docUrl));
+        }
+        return;
+      }
+    }
+
+    const fileItems = document.querySelectorAll(".file-item");
+    for (let j = 0; j < fileItems.length; j++) {
+      const element = fileItems[j];
+      const onclickValue = element.getAttribute("onclick");
+      if (onclickValue && onclickValue.includes(docUrl)) {
+        loadContent(element, docUrl, { skipHistory: true });
+        if (element.dataset.nodeId) {
+          history.replaceState({}, "", window.location.pathname + formatHistoryQuery(element, docUrl));
+        }
+        return;
+      }
+    }
+  }
+
+  showStartPage();
+}
+
+window.addEventListener("load", function () {
+  applyRouteFromLocation(true);
 });
 
-// Функция загрузки PDF и предотвращения всплытия
+window.addEventListener("popstate", function () {
+  applyRouteFromLocation(false);
+});
+
+// Функция загрузки PDF / внешнего URL в iframe (клик по ссылке в строке)
 function loadPdf(event, pdfUrl) {
-  hideStartPage(); // Скрываем стартовую страницу при загрузке любого PDF
+  if (event.preventDefault) event.preventDefault();
   event.stopPropagation(); // Предотвращаем всплытие события, чтобы оно не обрабатывалось родительскими элементами
-  loadContent(event.target.closest('.file-item'), pdfUrl); // Загружаем PDF-документ, используя ближайший родительский элемент с классом 'file-item'
+  const row = event.target.closest(".file-item");
+  if (!row) return;
+  loadContent(row, pdfUrl);
 }
 
 // Функция для скрытия/показа структуры

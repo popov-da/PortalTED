@@ -1,0 +1,1 @@
+onmessage=s=>{importScripts("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js");const a=self.hljs.highlight(s.data.text,{language:s.data.lang});postMessage(a.value)};

@@ -1,0 +1,1 @@
+onmessage=t=>{importScripts("https://cdn.jsdelivr.net/npm/katex@0.16.35/dist/katex.min.js");const e=katex.renderToString(t.data.expression,{throwOnError:!1});postMessage(e)};
